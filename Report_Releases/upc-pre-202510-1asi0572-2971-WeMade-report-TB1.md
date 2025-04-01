@@ -23,13 +23,13 @@
 
 |             Member             |    Code    |
 |:------------------------------:|:----------:|
-| Nicolas Sebastian Esteban Garcia      | ... |
-|   Sebastian Ramirez Hoffmann          | ... |
-| Gustavo Huilca Chipana                | ... |
-|  Manuel Sebastian Peña Rivera         | ... |
-|    Mathias Alejandro Jave Diaz        | ... |
-|    Mathias Tsuneo Kunimoto Watanabe   | ... |
-|    Italo D'alessandro Luna Capuñay    | ... |
+| Nicolas Sebastian Esteban Garcia      |    ...     |
+|   Sebastian Ramirez Hoffmann          |    ...     |
+| Gustavo Huilca Chipana                | u202213983 |
+|  Manuel Sebastian Peña Rivera         |    ...     |
+|    Mathias Alejandro Jave Diaz        |    ...     |
+|    Mathias Tsuneo Kunimoto Watanabe   |    ...     |
+|    Italo D'alessandro Luna Capuñay    |    ...     |
 
 </div>
 
@@ -181,9 +181,9 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-| Miembros del equipo | Codigo Estudiante | Carrera | Conocimientos / Habilidades |
-|---------------------|-------------------|---------|-----------------------------|
-| ...                 | ...               | Ingeniería de software |        ...   |
+|                                                                                                                                                                                                                                                | Miembros del equipo    | Codigo Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/Open-Source-SW54-Group-3-ArtCollab/Report/blob/e79538ef9c904aa3191535cc4ef603fa57926ce8/assets/images/Gustavo-Huilca-Chipana.png?raw=true" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/> | Gustavo Huilca Chipana | u202213983        | Ingeniería de software | Cuento con conocimientos en UI/UX design, desarrollo de aplicaciones web y móvil y SCRUM, así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente. |
 
 ## 1.2. Solution Profile
 
