@@ -514,6 +514,8 @@ Los user personas nos sirven para poder identificar como seran los comportamient
 
 **Segmento 1:** ...
 
+<img src="../assets/user-personas/segmento-domestico.jpeg"/>
+
 **Segmento 2:**: ...
 
 ---
