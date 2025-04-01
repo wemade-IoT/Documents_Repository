@@ -381,11 +381,11 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 |   | Segmento 1| Segmento 2|
 |---|-----------|-----------|
-| Variables     | ... | ... |
-| Geográfica    | ... | ... |
-| Demográfica   | ... | ... |
-| Psicológica   | ... | ... |
-| Función de comportamiento | ... | ... |
+| Variables     | Doméstico | ... |
+| Geográfica    | Depende de la ubicación del hogar del usuario | ... |
+| Demográfica   | Diversidad en edad y género | ... |
+| Psicológica   | Actitud hacia la adopción de herramientas técnologicas para el cuidado de sus plantas | ... |
+| Función de comportamiento | Necesidad de herramientas para el cuidado de sus plantas | ... |
 
 ---
 
