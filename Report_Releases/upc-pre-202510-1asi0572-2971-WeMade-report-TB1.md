@@ -27,7 +27,7 @@
 |   Sebastian Ramirez Hoffmann          |    ...     |
 | Gustavo Huilca Chipana                | u202213983 |
 |  Manuel Sebastian Peña Rivera         |    ...     |
-|    Mathias Alejandro Jave Diaz        |    ...     |
+|    Mathias Alejandro Jave Diaz        | u202212721 |
 |    Mathias Tsuneo Kunimoto Watanabe   |    ...     |
 |    Italo D'alessandro Luna Capuñay    |    ...     |
 
@@ -182,8 +182,9 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 #### 1.1.2. Perfiles de integrantes del equipo
 
 |                                                                                                                                                                                                                                                | Miembros del equipo    | Codigo Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="https://github.com/Open-Source-SW54-Group-3-ArtCollab/Report/blob/e79538ef9c904aa3191535cc4ef603fa57926ce8/assets/images/Gustavo-Huilca-Chipana.png?raw=true" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/> | Gustavo Huilca Chipana | u202213983        | Ingeniería de software | Cuento con conocimientos en UI/UX design, desarrollo de aplicaciones web y móvil y SCRUM, así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+| <img src="../assets/imagenes-integrantes/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" /> | Mathias Alejandro Jave Diaz | u202212721   | Ingeniería de software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo. |
+ <img src="https://github.com/Open-Source-SW54-Group-3-ArtCollab/Report/blob/e79538ef9c904aa3191535cc4ef603fa57926ce8/assets/images/Gustavo-Huilca-Chipana.png?raw=true" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/> | Gustavo Huilca Chipana | u202213983        | Ingeniería de software | Cuento con conocimientos en UI/UX design, desarrollo de aplicaciones web y móvil y SCRUM, así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente. |
 
 ## 1.2. Solution Profile
 
