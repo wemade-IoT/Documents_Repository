@@ -26,7 +26,7 @@
 | Nicolas Sebastian Esteban Garcia      |    ...     |
 |   Sebastian Ramirez Hoffmann          |    ...     |
 | Gustavo Huilca Chipana                | u202213983 |
-|  Manuel Sebastian Peña Rivera         |    ...     |
+|  Manuel Sebastian Peña Rivera         | u202210138 |
 |    Mathias Alejandro Jave Diaz        | u202212721 |
 |    Mathias Tsuneo Kunimoto Watanabe   |    u202210148     |
 |    Italo D'alessandro Luna Capuñay    |    ...     |
@@ -186,6 +186,7 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 | <img src="https://github.com/Open-Source-SW54-Group-3-ArtCollab/Report/blob/e79538ef9c904aa3191535cc4ef603fa57926ce8/assets/images/Gustavo-Huilca-Chipana.png?raw=true" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/> | Gustavo Huilca Chipana | u202213983        | Ingeniería de software | Cuento con conocimientos en UI/UX design, desarrollo de aplicaciones web y móvil y SCRUM, así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente. |
 | <img src="../assets/imagenes-integrantes/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" width="150" /> | Mathias Alejandro Jave Diaz | u202212721        | Ingeniería de software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo. |
 | <img src="../assets/imagenes-integrantes/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="150"/> | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
+| <img src="../assets/imagenes-integrantes/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px;" width="150"/> | Manuel Peña | u202210138        | Ingeniería de software | Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo. |
 
 ## 1.2. Solution Profile
 
