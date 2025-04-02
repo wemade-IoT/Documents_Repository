@@ -556,6 +556,8 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 
 **Segmento 1:** : 
 
+<img src="../assets/empathy-mapping/segmento-domestico.png" alt="Segmento doméstico"/>
+
 **Segmento 2:** : 
 
 ### 2.3.5. As-is Scenario Mapping.
