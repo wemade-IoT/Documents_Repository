@@ -24,7 +24,7 @@
 |             Member             |    Code    |
 |:------------------------------:|:----------:|
 | Nicolas Sebastian Esteban Garcia      |    u202217485     |
-|   Sebastian Ramirez Hoffmann          |    ...     |
+|   Sebastian Ramirez Hoffmann          |    U202211894     |
 | Gustavo Huilca Chipana                | u202213983 |
 |  Manuel Sebastian Peña Rivera         | u202210138 |
 |    Mathias Alejandro Jave Diaz        | u202212721 |
@@ -48,7 +48,7 @@
 
 Repositorios:
 
-Projecto: (...)
+Proyecto: (...)
 
 Landing Page: (...)
 
@@ -117,7 +117,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-[Capítulo III: Requirements Specificatio](#capítulo-iii-requirements-specification)
+[Capítulo III: Requirements Specifications](#capítulo-iii-requirements-specification)
 
 [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 
@@ -177,17 +177,18 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 ### 1.1.1. Descripción de la Startup
 
-EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en el monitoreo,  estadísticas, recomendaciones y seguimiento de crecimiento.
+EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en el monitorización,  estadísticas, recomendaciones y seguimiento de crecimiento.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                                                                                                                                                                                                                                                | Miembros del equipo    | Codigo Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
+|                                                                                                                                                                                                                                                | Miembros del equipo    | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <img src="https://github.com/Open-Source-SW54-Group-3-ArtCollab/Report/blob/e79538ef9c904aa3191535cc4ef603fa57926ce8/assets/images/Gustavo-Huilca-Chipana.png?raw=true" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/> | Gustavo Huilca Chipana | u202213983        | Ingeniería de software | Cuento con conocimientos en UI/UX design, desarrollo de aplicaciones web y móvil y SCRUM, así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente. |
 | <img src="../assets/imagenes-integrantes/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" width="150" /> | Mathias Alejandro Jave Diaz | u202212721        | Ingeniería de software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo. |
 | <img src="../assets/imagenes-integrantes/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="150"/> | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
 | <img src="../assets/imagenes-integrantes/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px;" width="150"/> | Manuel Peña | u202210138        | Ingeniería de software | Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo. |
 | <img src="../assets/imagenes-integrantes/Nicolas-Esteban-Garcia.jpg" alt="Nicolas Esteban" style="margin-bottom: 5px;" width="150"/> | Nicolas Esteban | u202217485 | Ingeniería de software | Tengo experiencia en frameworks como Astro, Vue y React, y actualmente estoy aprendiendo Next.js y Express. Me apasiona el desarrollo frontend, siempre enfocado en ofrecer una experiencia de usuario fluida y cómoda. Me considero una persona sociable, responsable y proactiva, además, disfruto participar en proyectos multidisciplinarios y apoyar a comunidades que promueven el desarrollo web. Siempre busco dar lo mejor de mí para asegurar un rendimiento óptimo en cada aplicación. |
+| <img src="../assets/imagenes-integrantes/Sebastian-Ramirez-Hoffmann.jpeg" alt="Sebastian Ramirez Hoffmann" style="margin-bottom: 5px;" width="150px"/> | Sebastian Ramirez Hoffmann | U202211894 | Ingeniería de software | Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos. |
 
 ## 1.2. Solution Profile
 
