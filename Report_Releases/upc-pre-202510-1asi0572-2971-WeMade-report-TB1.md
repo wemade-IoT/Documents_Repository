@@ -213,13 +213,13 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 ...
 
 
-En el estado actual de la industria de hoteleria y hospedaje muchos establecimientos enfrentan desafíos significativos en la gestión interna
+En el estado actual de la industria de hostelería y hospedaje muchos establecimientos enfrentan desafíos significativos en la gestión interna
 de sus operaciones. La falta de coordinación y eficiencia en la gestión del inventario, el personal, los espacios y los
 servicios afecta negativamente tanto la experiencia del usuario como la eficiencia operativa. Esta falta de coordinación
 puede llevar a errores en la asignación de recursos, retrasos en la atención al cliente y una experiencia general
 insatisfactoria para los huéspedes.
 
-Lo que otros productos han fallado en realizar son los rapidos cambios en la digitalizacion dejando sus softwares obsoletos o con cambios que resultan ser pobres en experiencia de usuario. Además, los gerentes de hoteles se enfrentan a la presión de mantener altos estándares de calidad y eficiencia, mientras
+Lo que otros productos han fallado en realizar son los rápidos cambios en la digitalización dejando sus softwares obsoletos o con cambios que resultan ser pobres en experiencia de usuario. Además, los gerentes de hoteles se enfrentan a la presión de mantener altos estándares de calidad y eficiencia, mientras
 lidian con procesos manuales y sistemas obsoletos que consumen tiempo y recursos. Esta falta de herramientas adecuadas
 para la gestión puede tener un impacto directo en la rentabilidad del negocio y en la satisfacción del cliente.
 
@@ -274,16 +274,16 @@ En esta seccion se busca el lado mas emocional y empatizar con el usuario para d
 
 
 Que busca lograr el usuario?
-...
+El usuario busca lograr el cuidado y mantenimiento de sus plantas queriendo alcanzar la longevidad de esta misma.
 
 Como se quiere sentir el usuario en este proceso?
-...
+El usuario busca sentirse sin complicaciones y pleno en el proceso de cuidado de su planta asimismo como sentirse informado respecto del estado de su planta.
 
 Como nuestro producto acerca al usuario a un logro personal?
-...
+El usuario puede sentirse realizado al observar como su tiempo cuidando la planta resulta en esta creciendo e incluso floreciendo. Esto ayuda al usuario a lograr metas cortas.
 
 Porque nuestro usuario buscaria nuestro producto?
-...
+Nuestro producto ofrece una cantidad de datos dependiendo de las necesidades del usuario
 
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
 ...
