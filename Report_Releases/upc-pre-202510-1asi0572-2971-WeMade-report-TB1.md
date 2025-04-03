@@ -193,32 +193,17 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 
 ### 1.2.1 Antecedentes y problemática
 
-Problema Actual
+Para la elaboración de la descripción de la problemática y antecedentes de la solución, se ha utilizado el método de las 5 'W's y 2 'H's.
 
-Industria Actual
-
-Soluciones Actuales
-
-
-
-| ¿What? - ¿Cuál es el problema? | ...    |
-|-------|----------|
-| ¿Who? - ¿Quienes son los beneficiarios?  | ... |
-| ¿When? - ¿Cuando se origina el problema? | ... |
-| ¿Why? - ¿Por qué se origina el problema? | ... |
-| ¿How? - ¿Como se origina el problema?    | ... |
-| ¿How much?                               | ... |
-
-5 w's 2 h
-
-Concientiza de la importancia de las ONG.
-
-Why (¿Porque se está haciendo?): ...
-When (¿Cuándo se usa?): ...
-Where (¿Dónde se usa?): ...
-Who (¿Quién lo usa?): ...
-How Much (¿Cuánto costaría?): ...
-How (¿Cómo se lleva al cabo?) ...
+|                                             |                                                                                                                                                           |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿What? - ¿Cuál es el problema?              | Pérdida de plantas/cultivos debido a un monitoreo ineficiente de condiciones ambientales (humedad, luz, temperatura).                                     |
+| ¿Who? - ¿Quienes son los beneficiarios?     | Personas sin conocimientos técnicos o profesionales con necesidad de precisión.                                                                           |
+| ¿When? - ¿Cuando se origina el problema?    | El problema ocurre en momentos críticos como cambios climáticos, durante ausencias del usuario o en etapas clave de crecimiento (floración, germinación). |
+| ¿Why? - ¿Por qué se origina el problema?    | Se origina por la falta de herramientas accesibles para controlar el crecimiento de las plantas o por recomendaciones erróneas o genéricas.               |
+| ¿Where? - ¿Dónde ocurre el problema?        | Espacios con plantas/cultivos: hogares, jardines, oficinas, invernaderos, campos abiertos.                                                                |
+| ¿How? - ¿Como se origina el problema?       | Las plantas muestran signos de deterioro (hojas amarillas, baja producción) de forma gradual, pero el usuario lo nota demasiado tarde.                    |
+| ¿How much? - ¿Cuánto dinero está implicado? | Costo emocional y monetario: entre 20-200 soles por mes para casos domésticos y entre 500-5000 soles por mes en casos de empresas agrícolas (FAO, 2023).  |
 
 ### 1.2.2 Lean UX Process.
 
@@ -729,6 +714,7 @@ Gothelf, J. Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. https:
 datos, gráficos, imágenes, esquemas, mapas de otros autores
 
 <img src = "./assets/anexos/jeffgothelf-leanuxcanvas/leanUxGothelf.png" alt = "Lean UX Canvas (V2) Jeff gothelf">
+
 <p>Lean UX Canvas hecho por Jeff Gothelf [Anexo 1.1]</p>
 
 ---
