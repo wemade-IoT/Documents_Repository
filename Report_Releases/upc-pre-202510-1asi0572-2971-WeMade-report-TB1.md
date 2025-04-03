@@ -213,6 +213,7 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 
 ...
 
+En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando 
 
 En el estado actual de la industria de hostelería y hospedaje muchos establecimientos enfrentan desafíos significativos en la gestión interna
 de sus operaciones. La falta de coordinación y eficiencia en la gestión del inventario, el personal, los espacios y los
@@ -265,13 +266,13 @@ En esta seccion creamos un Proto-Persona como un assumption de como son nuestros
 |Demografica|Comportmamiento|Necesidades / Obstaculos|
 |-|-|-|
 |Alex:<br>35 años <br> Gestor de hotel/hostal| - Trabaja en un hotel/hostal <br> -Gana lo suficiente <br> - Enfocado en la gestion de tareas <br> - Busca que todo este en orden | - Necesita aumentar el area de gestion <br> -Necesita mejorar la asignacion de tareas <br> - Requiere de una mejor comunicacion con los demas empleados a quienes asigna las tareas <br> - Obstaculo: El hotel utiliza herramientas obsoletas o no tiene alguna para asignar tareas <br> - Obstaculo: Utilizan medios no formales como whatsapp para comunicarse lo que complica la comunicacion eficiente. <br> - Busca mejorar la organizacion del hotel/hostal |
-|Carla:<br> 27 años <br> Empleada de limpieza | -Gana lo minimo <br> -Enfocada en el cumplimiento de tareas <br> -busca terminar su trabajo de manera rapida|- Necesita un medio de comunicacion directo con su gestor <br> -Necesita una manera de notificar la falta de algun objeto que necesite <br> -Necesita notificar que cuartos ya estan listos y saber cuales debe de preparar <br> -Obstaculo: Todos hablan en el mismo grupo de whatsapp y se pierden tareas <br> - Obstaculo: No hay un registro seguro de las tareas que se les fueron asignadas <br> - Busca comunicar de inmediato a su supervisor el estado de una habitacion <br> -Busca avisar si falta algun objeto necesario para la preparacion de la habitacion |
+|Carla:<br> 27 años <br> Empleada de limpieza | -Gana lo minimo <br> -Enfocada en el cumplimiento de tareas <br> -busca terminar su trabajo de manera rapida|- Necesita un medio de comunicación directo con su gestor <br> -Necesita una manera de notificar la falta de algun objeto que necesite <br> -Necesita notificar que cuartos ya estan listos y saber cuales debe de preparar <br> -Obstaculo: Todos hablan en el mismo grupo de whatsapp y se pierden tareas <br> - Obstaculo: No hay un registro seguro de las tareas que se les fueron asignadas <br> - Busca comunicar de inmediato a su supervisor el estado de una habitacion <br> -Busca avisar si falta algun objeto necesario para la preparación de la habitación |
 
 Esta tabla refleja los dos principales usuarios que tenemos como assumption junto con sus necesidades y comportamientos en el area laboral.
 
 **User Outcomes & Benefits**
 
-En esta seccion se busca el lado mas emocional y empatizar con el usuario para darles los outcomes correctos.
+En esta sección se busca el lado mas emocional y empatizar con el usuario para darles los outcomes correctos.
 
 
 Que busca lograr el usuario?
@@ -283,58 +284,42 @@ El usuario busca sentirse sin complicaciones y pleno en el proceso de cuidado de
 Como nuestro producto acerca al usuario a un logro personal?
 El usuario puede sentirse realizado al observar como su tiempo cuidando la planta resulta en esta creciendo e incluso floreciendo. Esto ayuda al usuario a lograr metas cortas.
 
-Porque nuestro usuario buscaria nuestro producto?
-Nuestro producto ofrece una cantidad de datos dependiendo de las necesidades del usuario
+Porque nuestro usuario buscaría nuestro producto?
+El usuario buscaría nuestro producto con el propósito de monitorear el estado de sus plantas y asi mejorar el cuidado de sus plantas.
 
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-...
+Para saber que el usuario logro su objetivo se observara una realización o felicidad de ver los frutos de su esfuerzo y dedicación.
 
-----
+Continuamos con los assumptions para el segundo segmento:
 
 Que busca lograr el usuario?
-...
+El usuario empresarial busca incrementar la cosecha de sus plantaciones optimizando la salida de productos.
 
 Como se quiere sentir el usuario en este proceso?
-...
+El usuario busca sentirse despreocupado al monitorear los cultivos.
 
 Como nuestro producto acerca al usuario a un logro personal?
-...
+Nuestro producto logra acercar al usuario a sus logros personales al proveer de datos relevantes e iterativos para la mejor producción de las cosechas.
 
-Porque nuestro usuario buscaria nuestro producto?
-...
-
+Porque nuestro usuario buscaría nuestro producto?
+El usuario buscaría nuestro producto con la intención de mejorar la producción y la mejora de las cosechas.
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-...
-
 ---
-
-Que busca lograr el usuario?
-...
-
-Como se quiere sentir el usuario en este proceso?
-...
-
-Como nuestro producto acerca al usuario a un logro personal?
-...
-
-Porque nuestro usuario buscaria nuestro producto?
-...
-
-Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-...
 
 
 Este analisis de user Outcomes sirve para ambos segmentos en ciertos casos ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
 
 **Solutions**
 
-Si bien Gothelf menciona en su libro LeanUX 3rd Edition que debemos utilizar elementos fisicos como post its y demas para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
+Si bien Jeff Gothelf menciona en su libro LeanUX 3rd Edition que debemos utilizar elementos fisicos como post its y demas para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
 
 Tomando en cuenta las restricciones anteriormente seleccionadas realizamos las siguiente soluciones:
 
-Desarollar un gestor de hoteleria y hostales orientado a realizar la mayoria de prorcesos de gestion principales siendo:
-
-- **....** - ......
+Desarollar una solucion con tecnologias IoT(internet of things) orientada a realizar el monitoreo de plantas con funciones principales siendo:
+- Monitoreo de acidez.
+- Implementacion de sensores de humedad.
+- Dashboard estadistico para mostrar los datos de sensores.
+- Recomendaciones para actuar en base a los datos recolectados.
 
 #### 1.2.2.3. Lean UX Hipotesis Statements.
 
