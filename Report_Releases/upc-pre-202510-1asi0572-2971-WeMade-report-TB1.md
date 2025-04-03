@@ -96,6 +96,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)  
 [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)  
 [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+
 [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
@@ -371,11 +372,11 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 |   | Segmento 1| Segmento 2|
 |---|-----------|-----------|
-| Variables     | Doméstico | ... |
-| Geográfica    | Depende de la ubicación del hogar del usuario | ... |
-| Demográfica   | Diversidad en edad y género | ... |
-| Psicológica   | Actitud hacia la adopción de herramientas técnologicas para el cuidado de sus plantas | ... |
-| Función de comportamiento | Necesidad de herramientas para el cuidado de sus plantas | ... |
+| Variables     | Doméstico | Negocios |
+| Geográfica    | Depende de la ubicación del hogar del usuario | Ubicación cercana al servicio y/o ubicados en áreas donde las industrias agrícolas, la agricultura urbana o sectores relacionados con las plantas están activos. |
+| Demográfica   | Diversidad en edad y género | Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines. |
+| Psicológica   | Actitud hacia la adopción de herramientas técnologicas para el cuidado de sus plantas | Una fuerte inclinación hacia la innovación y la eficiencia en el sector agricola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad. |
+| Función de comportamiento | Necesidad de herramientas para el cuidado de sus plantas | Necesidad de herramientas que optimicen las operaciones, especialmente aquellas que ayudan a monitorear el estado de las plantas y/o sus cultivos y gestionar recursos de manera más efectiva. |
 
 ---
 
