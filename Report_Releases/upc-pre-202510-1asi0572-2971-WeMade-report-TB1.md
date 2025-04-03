@@ -213,21 +213,19 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 
 ...
 
-En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando 
+En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado.
 
-En el estado actual de la industria de hostelería y hospedaje muchos establecimientos enfrentan desafíos significativos en la gestión interna
-de sus operaciones. La falta de coordinación y eficiencia en la gestión del inventario, el personal, los espacios y los
-servicios afecta negativamente tanto la experiencia del usuario como la eficiencia operativa. Esta falta de coordinación
-puede llevar a errores en la asignación de recursos, retrasos en la atención al cliente y una experiencia general
-insatisfactoria para los huéspedes.
+Otros productos han fallado en ...
+
+Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas 
 
 Lo que otros productos han fallado en realizar son los rápidos cambios en la digitalización dejando sus softwares obsoletos o con cambios que resultan ser pobres en experiencia de usuario. Además, los gerentes de hoteles se enfrentan a la presión de mantener altos estándares de calidad y eficiencia, mientras
 lidian con procesos manuales y sistemas obsoletos que consumen tiempo y recursos. Esta falta de herramientas adecuadas
 para la gestión puede tener un impacto directo en la rentabilidad del negocio y en la satisfacción del cliente.
 
-Nuestro producto se enfocara en proporcionar funcionalidades mas intuitivas al usuario, un mejor sistema de gestion para poder observar todos los aspectos necesarios, la capacidad de poder mantener una comunicacion entre gerentes y empleados y fomentando la accesibilidad para modelos de negocio pequeños que tienen la capacidad de digitalizarse.
+Nuestro producto se enfocara en proporcionar funcionalidades mas intuitivas al usuario, un mejor sistema de gestión para poder observar todos los aspectos necesarios, la capacidad de poder mantener una comunicación entre gerentes y empleados y fomentando la accesibilidad para modelos de negocio pequeños que tienen la capacidad de digitalizarse.
 
-Nuestro enfoque principal sera el ofrecer este servicio a los gerentes de hotel para que evaluen con sus empleados los beneficios que proveemos. 
+Nuestro enfoque principal sera el ofrecer este servicio a los gerentes de hotel para que evalúen con sus empleados los beneficios que proveemos. 
 
 Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proporcionar a los gerentes de hoteles una
 plataforma de gestión accesible y eficiente que les permita coordinar de manera efectiva el inventario, los empleados,
