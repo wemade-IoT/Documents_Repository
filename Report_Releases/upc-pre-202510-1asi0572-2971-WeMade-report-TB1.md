@@ -327,7 +327,7 @@ Desarrollar una solución con tecnologías IoT(internet of things) orientada a r
 * Solución: Sistema que sugiere medidas correctivas basadas en datos históricos y condiciones actuales.
 * Resultado: Aumento en la tasa de éxito en el crecimiento de cultivos y reducción de errores en el cuidado de plantas.
 
-#### 1.2.2.3. Lean UX Hipotesis Statements.
+#### 1.2.2.3. Lean UX Hypothesis Statements.
 
 **Hipótesis**
 
@@ -336,21 +336,32 @@ Tomar en cuenta que cada hipótesis empieza con "Creemos que.." Estas hipótesis
 
 |Business Outcome|Persona|User Outcome|Feature/Solution|
 |----------------|-------|------------|----------------|
-|        Aumentar el tráfico a la landing page en un 1200 visitantes mensuales.        | Dueños de plantas y empresas agrícolas    |    Descubrir la plataforma y entender su valor.        |      Campañas en redes sociales y contenido educativo sobre monitoreo de cultivos.          |
+|Aumentar el tráfico a la landing page en un 1200 visitantes mensuales.| Dueños de plantas y empresas agrícolas.|Descubrir la plataforma y entender su valor.|Campañas en redes sociales y contenido educativo sobre monitoreo de cultivos.|
+|Convertir al menos un 45% de visitantes en usuarios registrados.| Usuarios interesados en optimizar el crecimiento de sus cultivos.|Registrarse en la plataforma y configurar su cuenta.|Proceso de onboarding simplificado con guía paso a paso y beneficios claros.|
+|Mantener al 60% de los usuarios activos diariamente en la plataforma.| Usuarios que buscan mejorar la eficiencia del cuidado de sus cultivos.|Consultar métricas y alertas en la plataforma para optimizar su producción.|Dashboard interactivo con reportes detallados sobre el estado de las plantas.|
+|Generar ingresos con un 10% de conversión a planes pagos.|Usuarios que necesitan monitorear más plantas de las incluidas en el plan inicial.|Contratar un plan premium para acceder a funciones avanzadas.|Modelo de precios escalable con límites flexibles y herramientas avanzadas.|
+|Lograr que al menos un 5% de los usuarios refieran la plataforma.|Usuarios satisfechos con la solución.|Compartir la plataforma con su red de contactos.|Programa de referidos con incentivos como descuentos o beneficios adicionales.|
 
 
 **Que es lo mas importante que debemos aprender**
 
-Debemos de analizar que es lo que debemos aprender de nuestras Hipotesis, entonces llegamos a nuestra siguiente conclusion respecto a lo mas importante que debemos aprender:
+Debemos de analizar que es lo que debemos aprender de nuestras Hipótesis, entonces llegamos a nuestra siguiente conclusion respecto a lo mas importante que debemos aprender:
 
-...
+- Si los usuarios (domésticos y empresariales) realmente tienen problemas monitorizando el estado de sus plantas.
+- Si están dispuestos a usar sensores o plataformas tecnológicas para solucionarlo.
+- Si confiarían en las recomendaciones generadas por un sistema automatizado.
+- Si pagarían por una versión avanzada del sistema cuando se supere cierto límite de plantas.
+- Qué tan seguido están dispuestos a interactuar con una app de monitoreo.
+
+De estos posibles riesgos escogemos el mas critico que seria averiguar si los usuarios están dispuestos a usar sensores o plataformas tecnológicas para solucionar sus problemas.
 
 **Minimum viable product**
 
 Los MVP nos sirven para aprender cosas a corto plazo. para realizar esto se hace la pregunta: 
 What’s the most important thing we need to learn first?
-...
 
+Nuestro MVP debe estar orientado a demostrar lo que ofrece nuestra solución como concepto para validar que el usuario este interesado en nuestros features principales.
+En este caso seria desarrollar un prototipo parcialmente funcional donde lo que debe observarse sera la simulación de datos.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -368,7 +379,6 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 | Demográfica   | Diversidad en edad y género | Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines. |
 | Psicológica   | Actitud hacia la adopción de herramientas técnologicas para el cuidado de sus plantas | Una fuerte inclinación hacia la innovación y la eficiencia en el sector agricola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad. |
 | Función de comportamiento | Necesidad de herramientas para el cuidado de sus plantas | Necesidad de herramientas que optimicen las operaciones, especialmente aquellas que ayudan a monitorear el estado de las plantas y/o sus cultivos y gestionar recursos de manera más efectiva. |
-
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
