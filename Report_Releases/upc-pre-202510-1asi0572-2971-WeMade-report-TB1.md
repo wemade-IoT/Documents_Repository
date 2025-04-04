@@ -572,9 +572,17 @@ Miro con el As-Is To-Be: (Link Miro)
 ## 2.4. Ubiquitous Language.
 
 ```
-Vacant: Se refiere al estado de la habitacion cuando esta se encuentra libre para utilizar.
+Plant Guardian:	dispositivo IoT con sensores que monitorea condiciones ambientales de plantas.
  
-...
+Care Threshold:	valor límite (ej: 30% humedad) que activa alertas cuando se supera o no se alcanza.
+
+Growth Phase: etapa de la planta (ej: germinación, florecimiento) que determina recomendaciones.
+
+Plant Parent: usuario doméstico que gestiona pocas plantas en hogar/oficina.
+
+Crop Manager: usuario empresarial que supervisa múltiples plantas/cultivos.
+
+Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
 
 ```
 
