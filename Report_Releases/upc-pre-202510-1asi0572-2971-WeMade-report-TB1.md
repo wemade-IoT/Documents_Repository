@@ -368,7 +368,7 @@ En este caso seria desarrollar un prototipo parcialmente funcional donde lo que 
 
 Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiandonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
 
-<image src ="../assets/lean-ux-canvas/lean-ux-canvas.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+<image src ="../assets/lean-ux-canvas/lean-ux-canva.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
 
 ## 1.3. Segmentos objetivo.
