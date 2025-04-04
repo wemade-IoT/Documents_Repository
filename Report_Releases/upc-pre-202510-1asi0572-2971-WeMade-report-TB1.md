@@ -404,9 +404,12 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 **Preguntas generales:**
 
-...
+1. ¿Cuál es su nombre? 
+2. ¿Qué edad tiene? 
+3. ¿A qué se dedica? 
+4. ¿Que navegador y dispositivos usa?
 
-...
+
 
 **Entrevistas usuario segmento (...)**
 
