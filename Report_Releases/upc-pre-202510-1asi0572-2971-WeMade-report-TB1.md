@@ -356,7 +356,7 @@ What’s the most important thing we need to learn first?
 
 Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiandonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
 
-<image src =" " alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+<image src ="../assets/lean-ux-canvas/lean-ux-canvas.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
 
 ## 1.3. Segmentos objetivo.
