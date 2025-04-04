@@ -233,28 +233,28 @@ Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en l
 #### 1.2.2.2. Lean UX Assumptions.
 
 **Business Outcome**  
-En esta seccion vamos a usar las metricas de Montaña que ha conceptualizada por Jeff Gothelf e implementaremos algunas de las pirate metrics para poder definir los niveles de la montaña para llegar poder analizar los comportamientos de nuestros usuarios y analizar que parte del User Journey es relevante para nosotros y hacer un assumption de como actuaran nuestros usuarios en base al producto.
+En esta sección vamos a usar las métricas de Montaña de Jeff Gothelf e implementaremos algunas de las pirate metrics para poder definir los niveles de la montaña para llegar poder analizar los comportamientos de nuestros usuarios y analizar que parte del User Journey es relevante para nosotros y hacer un assumption de como actuaran nuestros usuarios en base al producto.
 
-Acquisition: (Base): [1000 visitantes]
-El usuario se percatara de nuestra solucion por medio de las redes sociales como medio de comunicacion asimismo promocionando nuestra landing page, de misma manera intentaremos ofrecer el servicio a los mismos usuarios con metodos de comunicacion directa como por ejemplo ofrecerle el servicio a la institucion donde trabaja (hotel/hostal).
+Acquisition: (Base): [1200 visitantes]
+El usuario se percatara de nuestra solución por medio de las redes sociales como medios de comunicación asimismo promocionando nuestra landing page, de misma manera intentaremos ofrecer el servicio a los usuarios mas formales con métodos de comunicación directa como por ejemplo ofrecerle el servicio a la las empresas agrícolas.
 
-Activacion: (Plateau):[450 users : 100% users]
-En esta seccion el usuario gerente crea su cuenta registrando su correo ya sea personal o de la institucion, metodos de pago, las dimensiones del negocio es decir la cantidad de habitaciones por piso y finalmente un codigo de autenticacion para los empleados que deban de generar una cuenta.
+Activation: (Plateau):[450 users : 100% users]
+En esta sección el usuario crea su cuenta registrando su correo ya sea personal o de la empresa, métodos de pago, las dimensiones del negocio es decir la el tipo de uso que le dará a la solución. finalmente un código de autenticación para los empleados que deban de generar una cuenta.
 De los usuarios que se percatan del producto esperamos que el 45% se anime a utilizarlo.
 
 Retention: (Plateau + 1 level):[60% users]
-De los usuarios que se animaran a utilizarlo esperamos que el 60% de estos continue utilizando nuestro producto diariamente para gestionar a sus empleados y habitaciones. En esta seccion el usuario utiliza las herramientas que le proporciona nuestro producto para la gestion de cuartos, ya tiene a sus empleados asignados y les asigna sus tareas mientras que estos mantienen una comunicacion continua.
+De los usuarios que se animaran a utilizarlo esperamos que el 60% de estos continue utilizando nuestro producto diariamente para la monitorización de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para la optimización en el cuidado de las plantas, ya tiene registros previos y puede visualizar un cambio notorio en las variables de entorno.
 
 Revenue: (Plateau + 2 levels):[10% users]
-Los usuarios que utilizan nuestro producto son usuarios estrictamente de paga, no obstante si es que llegara la situacion donde su negocio se expande entonces van a tener mas empleados, mas cuartos y excederan el limite que le proporcionamos en su plan inicial. De esta manera se espera que un 10% de los usuarios retenidos que consigan este crecimiento estaran dispuestos a mejorar su plan generandonos un mayor ingreso.
+Los usuarios que utilizan nuestro producto son usuarios estrictamente de paga a base de planes, no obstante si es que llegara la cantidad de plantas individuales excedieran el limite que le proporcionamos en su plan inicial se podría mejorar a una mayor cantidad. De esta manera se espera que un 10% de los usuarios retenidos que lleguen a este limite estarán dispuestos a mejorar su plan generado un mayor ingreso.
 
 Referral:(top) [5% users]
-Finalmente de los usuarios que retenimos esperamos que un 5% de estos nos referencien a sus colegas o a nuevos emprendedores indirectamente promocionandonos y aumentando el flujo de usuarios potenciales que podemos obtener.
+Finalmente de los usuarios que retuvimos esperamos que un 5% de estos nos referencien en sus comunidades o a nuevos emprendedores, indirectamente proporcionándonos y aumentando el flujo de usuarios potenciales que podemos obtener.
 
 **Users**  
-En esta seccion creamos un Proto-Persona como un assumption de como son nuestros usuarios enfocandonos mas en el aspecto de actitud.
+En esta sección creamos un Proto-Persona como un assumption de como son nuestros usuarios enfocándonos mas en el aspecto de actitud.
 
-|Demografica|Comportmamiento|Necesidades / Obstaculos|
+|Demográfica|Comportamiento|Necesidades / Obstáculos|
 |-|-|-|
 |Alex:<br>35 años <br> Gestor de hotel/hostal| - Trabaja en un hotel/hostal <br> -Gana lo suficiente <br> - Enfocado en la gestion de tareas <br> - Busca que todo este en orden | - Necesita aumentar el area de gestion <br> -Necesita mejorar la asignacion de tareas <br> - Requiere de una mejor comunicacion con los demas empleados a quienes asigna las tareas <br> - Obstaculo: El hotel utiliza herramientas obsoletas o no tiene alguna para asignar tareas <br> - Obstaculo: Utilizan medios no formales como whatsapp para comunicarse lo que complica la comunicacion eficiente. <br> - Busca mejorar la organizacion del hotel/hostal |
 |Carla:<br> 27 años <br> Empleada de limpieza | -Gana lo minimo <br> -Enfocada en el cumplimiento de tareas <br> -busca terminar su trabajo de manera rapida|- Necesita un medio de comunicación directo con su gestor <br> -Necesita una manera de notificar la falta de algun objeto que necesite <br> -Necesita notificar que cuartos ya estan listos y saber cuales debe de preparar <br> -Obstaculo: Todos hablan en el mismo grupo de whatsapp y se pierden tareas <br> - Obstaculo: No hay un registro seguro de las tareas que se les fueron asignadas <br> - Busca comunicar de inmediato a su supervisor el estado de una habitacion <br> -Busca avisar si falta algun objeto necesario para la preparación de la habitación |
