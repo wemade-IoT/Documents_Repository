@@ -217,24 +217,17 @@ En el estado actual de la industria Agricola y en la comunidad de horticultura s
 
 Otros productos han fallado en ...
 
-Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas 
+Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas, esto ofrece una mejor calidad de vida para la planta.
 
-Lo que otros productos han fallado en realizar son los rápidos cambios en la digitalización dejando sus softwares obsoletos o con cambios que resultan ser pobres en experiencia de usuario. Además, los gerentes de hoteles se enfrentan a la presión de mantener altos estándares de calidad y eficiencia, mientras
-lidian con procesos manuales y sistemas obsoletos que consumen tiempo y recursos. Esta falta de herramientas adecuadas
-para la gestión puede tener un impacto directo en la rentabilidad del negocio y en la satisfacción del cliente.
+Nuestro enfoque principal se basa en la monitorización de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable.
 
-Nuestro producto se enfocara en proporcionar funcionalidades mas intuitivas al usuario, un mejor sistema de gestión para poder observar todos los aspectos necesarios, la capacidad de poder mantener una comunicación entre gerentes y empleados y fomentando la accesibilidad para modelos de negocio pequeños que tienen la capacidad de digitalizarse.
+Como resultado, nos enfrentamos al siguiente problema: ¿Como podemos proveer una plataforma de monitorización de plantas aumentando su crecimiento y/o cosecha en un 40%?
 
-Nuestro enfoque principal sera el ofrecer este servicio a los gerentes de hotel para que evalúen con sus empleados los beneficios que proveemos. 
+Nuestro producto se encargara de esta tarea al ofrecer un servicio de monitorización que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos.
 
-Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proporcionar a los gerentes de hoteles una
-plataforma de gestión accesible y eficiente que les permita coordinar de manera efectiva el inventario, los empleados,
-los espacios y los servicios, para mejorar la experiencia del usuario y optimizar los procesos operativos en un 45%?
+Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas haya logrado un crecimiento y/o cosecha en un 40%.
 
-Nuestro producto se encargara de esto al proporcionar un servicio de gestion que pueda digitalizar, optimizar y solucionar los procesos de gestion en procesos de hoteleria y hostales. 
-
-Sabremos que tuvimos exito cuando se pueda observar un minimo de 45% de satisfaccion en encuestas de control donde los gerentes y empleados que utilizaron la aplicacion hayan logrado una mejorada calidad de trabajo y asimismo un crecimiento de 5% en la industria turistica.
-
+...
 
 
 #### 1.2.2.2. Lean UX Assumptions.
