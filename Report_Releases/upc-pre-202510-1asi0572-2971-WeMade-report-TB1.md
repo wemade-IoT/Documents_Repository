@@ -253,8 +253,8 @@ En esta sección creamos un Proto-Persona como un assumption de como son nuestro
 
 |Demográfica|Comportamiento|Necesidades / Obstáculos|
 |-|-|-|
-|Alex:<br>35 años <br> Gestor de hotel/hostal| - Trabaja en un hotel/hostal <br> -Gana lo suficiente <br> - Enfocado en la gestion de tareas <br> - Busca que todo este en orden | - Necesita aumentar el area de gestion <br> -Necesita mejorar la asignacion de tareas <br> - Requiere de una mejor comunicacion con los demas empleados a quienes asigna las tareas <br> - Obstaculo: El hotel utiliza herramientas obsoletas o no tiene alguna para asignar tareas <br> - Obstaculo: Utilizan medios no formales como whatsapp para comunicarse lo que complica la comunicacion eficiente. <br> - Busca mejorar la organizacion del hotel/hostal |
-|Carla:<br> 27 años <br> Empleada de limpieza | -Gana lo minimo <br> -Enfocada en el cumplimiento de tareas <br> -busca terminar su trabajo de manera rapida|- Necesita un medio de comunicación directo con su gestor <br> -Necesita una manera de notificar la falta de algun objeto que necesite <br> -Necesita notificar que cuartos ya estan listos y saber cuales debe de preparar <br> -Obstaculo: Todos hablan en el mismo grupo de whatsapp y se pierden tareas <br> - Obstaculo: No hay un registro seguro de las tareas que se les fueron asignadas <br> - Busca comunicar de inmediato a su supervisor el estado de una habitacion <br> -Busca avisar si falta algun objeto necesario para la preparación de la habitación |
+|Alberto:<br>22 años <br> Entusiasta de botánica| - Tiene trabajo regular que lo mantiene lejos de casa <br> -Gana lo suficiente <br> - Aficionado o interesado en la botánica <br> - Tiene un jardín o una planta de las que cuida | - Quiere cuidar de sus plantas <br> - No cuenta con el tiempo para mantener sus plantas. <br> - Busca saber si esta cuidando correctamente de sus plantas. <br> - Quiere saber lo necesario para asegurar el crecimiento saludable de sus plantas|
+|Valentina:<br> 32 años <br> Ingeniera Agricola | - Gana lo esperado <br> - Trabaja en una empresa Agricola <br> - Busca optimizar la producción de su empresa|- Necesita saber el estado actual de una gran cantidad de plantaciones <br> - Requiere saber cualquier problema que se presente con la plantación <br> - Requiere saber una métrica cuantificable de la producción de la cosecha producida. <br> - La gran cantidad produce resultados poco homogéneos |
 
 Esta tabla refleja los dos principales usuarios que tenemos como assumption junto con sus necesidades y comportamientos en el area laboral.
 
@@ -294,6 +294,7 @@ Para reducir riesgos en la cosecha, evitar pérdidas económicas y mejorar su to
 
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
 El usuario consulta datos regularmente, ajusta riegos y fertilización según la plataforma y ve mejoras en producción.
+
 ---
 
 
