@@ -410,10 +410,16 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 4. ¿Que navegador y dispositivos usa?
 
 
+**Entrevistas usuario segmento (Doméstico)**
 
-**Entrevistas usuario segmento (...)**
-
-...
+1. ¿Qué dificultades encuentras al cuidar tus plantas? 
+2. ¿Cuánto tiempo dedicas semanalmente al cuidado de tus plantas?
+3. ¿Actualmente utilizas algún dispositivo o herramienta para cuidar tus plantas?
+4. ¿Cómo gestionas las necesidades de riego, luz y temperatura de tus plantas?
+5. ¿Alguna vez has perdido una planta debido a que no pudiste monitorearla correctamente?
+6. ¿Qué tan interesado/a estarías en una solución tecnológica que te ayude a cuidar tus plantas?
+7. ¿Te gustaría recibir alertas personalizadas sobre el cuidado de tus plantas? ¿Qué tipo de alertas?
+8. ¿Qué características serían más útiles para ti en una plataforma que te ayude a monitorear tus plantas?
 
 **Entrevistas usuario segmento (...)**
 
