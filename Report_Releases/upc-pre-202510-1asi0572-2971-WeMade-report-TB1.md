@@ -421,10 +421,16 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 7. ¿Te gustaría recibir alertas personalizadas sobre el cuidado de tus plantas? ¿Qué tipo de alertas?
 8. ¿Qué características serían más útiles para ti en una plataforma que te ayude a monitorear tus plantas?
 
-**Entrevistas usuario segmento (...)**
+**Entrevistas usuario segmento (Negocios)**
 
-
-...
+1. ¿Qué herramientas utilizan actualmente para monitorear y gestionar tus cultivos?
+2. ¿Cuáles son los principales desafíos que enfrentan en la gestión de tus cultivos?
+3. ¿Qué importancia le dan a la adopción de nuevas tecnologías para mejorar la eficiencia en tu negocio agrícola?
+4. ¿Les interesaría usar una plataforma que te ayude a monitorear y gestionar todos los aspectos de tus cultivos?
+5. ¿Qué funcionalidades específicas te gustaría que tuviera una plataforma de monitoreo agrícola?
+6. ¿Qué tipo de datos consideras más importantes para optimizar las operaciones de tus cultivos?
+7. ¿Estarías dispuesto/a a invertir en una solución tecnológica para mejorar la eficiencia de tus cultivos?
+8. ¿Qué mejoras específicas te gustaría lograr en tu negocio mediante la adopción de nuevas tecnologías en el cuidado de tus cultivos?
 
 ### 2.2.2. Registro de entrevistas.
 
