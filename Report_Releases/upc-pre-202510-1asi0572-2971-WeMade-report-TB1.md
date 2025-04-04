@@ -211,7 +211,6 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 
 #### 1.2.2.1. Lean UX Problem Statement.
 
-...
 
 En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado.
 
@@ -219,15 +218,13 @@ Otros productos han fallado en ...
 
 Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas, esto ofrece una mejor calidad de vida para la planta.
 
-Nuestro enfoque principal se basa en la monitorización de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable.
+Nuestro enfoque principal se basa en la monitorización de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable en el area domestica.
 
 Como resultado, nos enfrentamos al siguiente problema: ¿Como podemos proveer una plataforma de monitorización de plantas aumentando su crecimiento y/o cosecha en un 40%?
 
-Nuestro producto se encargara de esta tarea al ofrecer un servicio de monitorización que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos.
+Nuestro producto se encargara de esta tarea al ofrecer un servicio de monitorización que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en el hobby del cuidado de plantas como las empresas agrícolas.
 
 Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas haya logrado un crecimiento y/o cosecha en un 40%.
-
-...
 
 
 #### 1.2.2.2. Lean UX Assumptions.
@@ -267,61 +264,79 @@ En esta sección se busca el lado mas emocional y empatizar con el usuario para 
 
 
 Que busca lograr el usuario?
-El usuario busca lograr el cuidado y mantenimiento de sus plantas queriendo alcanzar la longevidad de esta misma.
+Mantener sanas sus plantas con facilidad y sin depender de conocimientos avanzados en jardinería.
 
 Como se quiere sentir el usuario en este proceso?
-El usuario busca sentirse sin complicaciones y pleno en el proceso de cuidado de su planta asimismo como sentirse informado respecto del estado de su planta.
+Seguro y sin estrés, sabiendo que sus plantas están bien cuidadas con información clara y accesible.
 
 Como nuestro producto acerca al usuario a un logro personal?
-El usuario puede sentirse realizado al observar como su tiempo cuidando la planta resulta en esta creciendo e incluso floreciendo. Esto ayuda al usuario a lograr metas cortas.
+La plataforma le permite ver visualmente el progreso de sus plantas, generando satisfacción y motivación para continuar el cuidado.
 
 Porque nuestro usuario buscaría nuestro producto?
-El usuario buscaría nuestro producto con el propósito de monitorear el estado de sus plantas y asi mejorar el cuidado de sus plantas.
+Para evitar que sus plantas mueran por descuido o falta de información y sentirse más confiado en su habilidad para cuidarlas.
 
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-Para saber que el usuario logro su objetivo se observara una realización o felicidad de ver los frutos de su esfuerzo y dedicación.
+El usuario revisa la app regularmente, ajusta su rutina de riego/cuidados según las recomendaciones y expresa satisfacción en encuestas.
 
 Continuamos con los assumptions para el segundo segmento:
 
 Que busca lograr el usuario?
-El usuario empresarial busca incrementar la cosecha de sus plantaciones optimizando la salida de productos.
+Optimizar la producción de cultivos con información precisa y accesible para maximizar la cosecha.
 
 Como se quiere sentir el usuario en este proceso?
-El usuario busca sentirse despreocupado al monitorear los cultivos.
+Confiado y en control, sabiendo que la plataforma le brinda información confiable sin necesidad de monitorización manual constante.
 
 Como nuestro producto acerca al usuario a un logro personal?
-Nuestro producto logra acercar al usuario a sus logros personales al proveer de datos relevantes e iterativos para la mejor producción de las cosechas.
+Al aumentar la eficiencia del cultivo, logra mejorar la producción y rentabilidad, generando un impacto positivo en su negocio.
 
 Porque nuestro usuario buscaría nuestro producto?
-El usuario buscaría nuestro producto con la intención de mejorar la producción y la mejora de las cosechas.
+Para reducir riesgos en la cosecha, evitar pérdidas económicas y mejorar su toma de decisiones basada en datos.
+
 Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
+El usuario consulta datos regularmente, ajusta riegos y fertilización según la plataforma y ve mejoras en producción.
 ---
 
 
-Este analisis de user Outcomes sirve para ambos segmentos en ciertos casos ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
+Este análisis de user Outcomes sirve para ambos segmentos en ciertos casos ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
 
 **Solutions**
 
-Si bien Jeff Gothelf menciona en su libro LeanUX 3rd Edition que debemos utilizar elementos fisicos como post its y demas para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
+Si bien Jeff Gothelf menciona en su libro LeanUX 3rd Edition que debemos utilizar elementos físicos como post its y demás para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
 
 Tomando en cuenta las restricciones anteriormente seleccionadas realizamos las siguiente soluciones:
 
-Desarollar una solucion con tecnologias IoT(internet of things) orientada a realizar el monitoreo de plantas con funciones principales siendo:
-- Monitoreo de acidez.
-- Implementacion de sensores de humedad.
-- Dashboard estadistico para mostrar los datos de sensores.
-- Recomendaciones para actuar en base a los datos recolectados.
+Desarrollar una solución con tecnologías IoT(internet of things) orientada a realizar el monitoreo de plantas con funciones principales siendo:
+
+- Monitoreo de acidez del suelo:
+* Problema: Los usuarios no pueden evaluar fácilmente el pH del suelo, lo que afecta la salud de las plantas.
+* Solución: Sensores de acidez que recopilan datos en tiempo real y envían alertas si el nivel es sub óptimo.
+* Resultado: El usuario puede ajustar el pH del suelo de manera informada, evitando daños en sus cultivos.
+
+- Sensores de humedad del suelo:
+* Problema: Los usuarios no saben cuándo regar sus plantas correctamente, lo que genera exceso o falta de agua.
+* Solución: Sensores de humedad que notifican al usuario cuando es el momento óptimo para regar.
+* Resultado: Reducción del desperdicio de agua y mejora en la salud de las plantas con menor esfuerzo.
+
+- Dashboard interactivo con visualización de datos:
+* Problema: Los usuarios necesitan interpretar datos sobre el estado de sus plantas de forma rápida y sencilla.
+* Solución: Plataforma con gráficos y análisis en tiempo real sobre los niveles de humedad, pH y otros factores ambientales.
+* Resultado: El usuario puede tomar decisiones informadas sin necesidad de conocimientos técnicos avanzados.
+
+- Recomendaciones inteligentes basadas en los datos recolectados:
+* Problema: Los usuarios no saben qué acciones tomar para mejorar el crecimiento de sus plantas.
+* Solución: Sistema que sugiere medidas correctivas basadas en datos históricos y condiciones actuales.
+* Resultado: Aumento en la tasa de éxito en el crecimiento de cultivos y reducción de errores en el cuidado de plantas.
 
 #### 1.2.2.3. Lean UX Hipotesis Statements.
 
-**Hipotesis**
+**Hipótesis**
 
-Siguiendo el formato de las Hipotesis usaremos la tabla de hipotesis.
-Tomar en cuenta que cada hipotesis empieza con "Creemos que.." Estas hipotesis se basan en los 450 usuarios que proyectamos tener.
+Siguiendo el formato de las Hipótesis usaremos la tabla ya proporcionada.
+Tomar en cuenta que cada hipótesis empieza con "Creemos que.." Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
 
 |Business Outcome|Persona|User Outcome|Feature/Solution|
 |----------------|-------|------------|----------------|
-|                |       |            |                |
+|        Aumentar el tráfico a la landing page en un 1200 visitantes mensuales.        | Dueños de plantas y empresas agrícolas    |    Descubrir la plataforma y entender su valor.        |      Campañas en redes sociales y contenido educativo sobre monitoreo de cultivos.          |
 
 
 **Que es lo mas importante que debemos aprender**
