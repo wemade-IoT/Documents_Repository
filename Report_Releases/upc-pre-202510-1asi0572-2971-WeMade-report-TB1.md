@@ -418,7 +418,9 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 1. ¿Cuál es su nombre? 
 2. ¿Qué edad tiene? 
 3. ¿A qué se dedica? 
-4. ¿Que navegador y dispositivos usa?
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
 
 
 **Entrevistas usuario segmento (Doméstico)**
