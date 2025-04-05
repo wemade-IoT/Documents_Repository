@@ -579,11 +579,11 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 
 <img src="../assets/empathy-mapping/segmento-domestico.png" alt="Segmento doméstico"/>
 
-**Segmento 2:** : 
+**Segmento 2:** <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
 
 ### 2.3.5. As-is Scenario Mapping.
 
-As Is representa las fases donde aun no se esta implementando nuestra solucion nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solucion.
+As Is representa las fases donde aun no se esta implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
 
 Miro con el As-Is To-Be: (Link Miro)
 
