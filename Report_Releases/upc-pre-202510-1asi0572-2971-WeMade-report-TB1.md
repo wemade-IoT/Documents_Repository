@@ -390,14 +390,14 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 **Competitive Analysis Landscape**
 
-| ¿Por qué llevar a cabo este análisis? | Nosotros | competidor1 | competidor2 |
-|---------------------------------------|----------|-----------|------------|
-| **Overview**                          | ... | ... | ... |
-| **Ventaja Competitiva**               | ... | ... | ... |
-| **Mercado Objetivo**                  | ... | ... | ... |
-| **Perfil de Marketing**               | ... | ... | ... |
-| **Perfil del Producto**               | ... | ... | ... | 
-| **Precios**                           | ... | ... | ... |
+| ¿Por qué llevar a cabo este análisis? | Nosotros | competidor1 | competidor2 | Rachio|
+|:---------------------------------------:|:----------:|:-----------:|:------------:|:-------------------------:|
+| **Overview**                          | ... | ... | ... | Rachio es una empresa especializada en productos inteligentes para cultivos y jardinería, sus productos son controladores de riego y sensores de humedad, los cuales optimizan el uso del agua y mejoran el cuidado de las plantas a través de su app móvil. |
+| **Ventaja Competitiva**               | ... | ... | ... | Tecnología de riego inteligente, integración con dispositivos smart home, y optimización del uso del agua. |
+| **Mercado Objetivo**                  | ... | ... | ... | ... |
+| **Perfil de Marketing**               | ... | ... | ... | ... |
+| **Perfil del Producto**               | ... | ... | ... |  ... |
+| **Precios**                           | ... | ... | ... | ... |
 
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
