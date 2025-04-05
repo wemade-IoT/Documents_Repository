@@ -229,106 +229,111 @@ Nuestro producto se encargara de esta tarea al ofrecer un servicio de monitoriza
 Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas haya logrado un crecimiento y/o cosecha en un 40%.
 
 
-#### 1.2.2.2. Lean UX Assumptions.
+#### 1.2.2.2. Lean UX Assumptions
 
 **Business Outcome**  
-En esta sección vamos a usar las métricas de Montaña de Jeff Gothelf e implementaremos algunas de las pirate metrics para poder definir los niveles de la montaña para llegar poder analizar los comportamientos de nuestros usuarios y analizar que parte del User Journey es relevante para nosotros y hacer un assumption de como actuaran nuestros usuarios en base al producto.
+En esta sección vamos a usar las métricas de Montaña de Jeff Gothelf e implementaremos algunas de las Pirate Metrics para poder definir los niveles de la montaña, analizar los comportamientos de nuestros usuarios y evaluar qué parte del User Journey es relevante para nosotros, realizando un assumption de cómo actuarán nuestros usuarios en base al producto.
 
-Acquisition: (Base): [1200 visitantes]
-El usuario se percatara de nuestra solución por medio de las redes sociales como medios de comunicación asimismo promocionando nuestra landing page, de misma manera intentaremos ofrecer el servicio a los usuarios mas formales con métodos de comunicación directa como por ejemplo ofrecerle el servicio a la las empresas agrícolas.
+**Acquisition (Base): [1200 visitantes]**  
+El usuario se percatará de nuestra solución por medio de redes sociales y otros medios de comunicación, además de promocionar nuestra landing page. De la misma manera, intentaremos ofrecer el servicio a usuarios más formales mediante métodos de comunicación directa, como por ejemplo presentarlo a empresas agrícolas.
 
-Activation: (Plateau):[450 users : 100% users]
-En esta sección el usuario crea su cuenta registrando su correo ya sea personal o de la empresa, métodos de pago, las dimensiones del negocio es decir la el tipo de uso que le dará a la solución. finalmente un código de autenticación para los empleados que deban de generar una cuenta.
-De los usuarios que se percatan del producto esperamos que el 45% se anime a utilizarlo.
+**Activation (Plateau): [450 usuarios : 100% usuarios]**  
+En esta sección el usuario crea su cuenta registrando su correo, ya sea personal o de la empresa, sus métodos de pago, las dimensiones del negocio, es decir, el tipo de uso que le dará a la solución, y finalmente un código de autenticación para los empleados que deban generar una cuenta.  
+De los usuarios que se percatan del producto, esperamos que el 45% se anime a utilizarlo.
 
-Retention: (Plateau + 1 level):[60% users]
-De los usuarios que se animaran a utilizarlo esperamos que el 60% de estos continue utilizando nuestro producto diariamente para la monitorización de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para la optimización en el cuidado de las plantas, ya tiene registros previos y puede visualizar un cambio notorio en las variables de entorno.
+**Retention (Plateau + 1 level): [60% usuarios]**  
+De los usuarios que se animen a utilizarlo, esperamos que el 60% continúe utilizando nuestro producto diariamente para la monitorización de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para optimizar el cuidado de las plantas, ya cuenta con registros previos y puede visualizar un cambio notorio en las variables de entorno.
 
-Revenue: (Plateau + 2 levels):[10% users]
-Los usuarios que utilizan nuestro producto son usuarios estrictamente de paga a base de planes, no obstante si es que llegara la cantidad de plantas individuales excedieran el limite que le proporcionamos en su plan inicial se podría mejorar a una mayor cantidad. De esta manera se espera que un 10% de los usuarios retenidos que lleguen a este limite estarán dispuestos a mejorar su plan generado un mayor ingreso.
+**Revenue (Plateau + 2 levels): [10% usuarios]**  
+Los usuarios que utilizan nuestro producto son estrictamente de paga, a base de planes. No obstante, si la cantidad de plantas individuales excede el límite proporcionado en su plan inicial, se les ofrecerá la opción de mejorar a un plan superior. De esta manera, se espera que un 10% de los usuarios retenidos que lleguen a este límite estén dispuestos a mejorar su plan, generando un mayor ingreso.
 
-Referral:(top) [5% users]
-Finalmente de los usuarios que retuvimos esperamos que un 5% de estos nos referencien en sus comunidades o a nuevos emprendedores, indirectamente proporcionándonos y aumentando el flujo de usuarios potenciales que podemos obtener.
-
-**Users**  
-En esta sección creamos un Proto-Persona como un assumption de como son nuestros usuarios enfocándonos mas en el aspecto de actitud.
-
-|Demográfica|Comportamiento|Necesidades / Obstáculos|
-|-|-|-|
-|Alberto:<br>22 años <br> Entusiasta de botánica| - Tiene trabajo regular que lo mantiene lejos de casa <br> -Gana lo suficiente <br> - Aficionado o interesado en la botánica <br> - Tiene un jardín o una planta de las que cuida | - Quiere cuidar de sus plantas <br> - No cuenta con el tiempo para mantener sus plantas. <br> - Busca saber si esta cuidando correctamente de sus plantas. <br> - Quiere saber lo necesario para asegurar el crecimiento saludable de sus plantas|
-|Valentina:<br> 32 años <br> Ingeniera Agricola | - Gana lo esperado <br> - Trabaja en una empresa Agricola <br> - Busca optimizar la producción de su empresa|- Necesita saber el estado actual de una gran cantidad de plantaciones <br> - Requiere saber cualquier problema que se presente con la plantación <br> - Requiere saber una métrica cuantificable de la producción de la cosecha producida. <br> - La gran cantidad produce resultados poco homogéneos |
-
-Esta tabla refleja los dos principales usuarios que tenemos como assumption junto con sus necesidades y comportamientos en el area laboral.
-
-**User Outcomes & Benefits**
-
-En esta sección se busca el lado mas emocional y empatizar con el usuario para darles los outcomes correctos.
-
-
-Que busca lograr el usuario?
-Mantener sanas sus plantas con facilidad y sin depender de conocimientos avanzados en jardinería.
-
-Como se quiere sentir el usuario en este proceso?
-Seguro y sin estrés, sabiendo que sus plantas están bien cuidadas con información clara y accesible.
-
-Como nuestro producto acerca al usuario a un logro personal?
-La plataforma le permite ver visualmente el progreso de sus plantas, generando satisfacción y motivación para continuar el cuidado.
-
-Porque nuestro usuario buscaría nuestro producto?
-Para evitar que sus plantas mueran por descuido o falta de información y sentirse más confiado en su habilidad para cuidarlas.
-
-Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-El usuario revisa la app regularmente, ajusta su rutina de riego/cuidados según las recomendaciones y expresa satisfacción en encuestas.
-
-Continuamos con los assumptions para el segundo segmento:
-
-Que busca lograr el usuario?
-Optimizar la producción de cultivos con información precisa y accesible para maximizar la cosecha.
-
-Como se quiere sentir el usuario en este proceso?
-Confiado y en control, sabiendo que la plataforma le brinda información confiable sin necesidad de monitorización manual constante.
-
-Como nuestro producto acerca al usuario a un logro personal?
-Al aumentar la eficiencia del cultivo, logra mejorar la producción y rentabilidad, generando un impacto positivo en su negocio.
-
-Porque nuestro usuario buscaría nuestro producto?
-Para reducir riesgos en la cosecha, evitar pérdidas económicas y mejorar su toma de decisiones basada en datos.
-
-Que cambio de comportamiento podemos observar que nos cuenta que lograron su objetivo?
-El usuario consulta datos regularmente, ajusta riegos y fertilización según la plataforma y ve mejoras en producción.
+**Referral (Top): [5% usuarios]**  
+Finalmente, de los usuarios que retuvimos, esperamos que un 5% nos referencien en sus comunidades o a nuevos emprendedores, proporcionándonos indirectamente un mayor flujo de usuarios potenciales.
 
 ---
 
+**Users**  
+En esta sección creamos un Proto-Persona como una suposición de cómo son nuestros usuarios, enfocándonos más en el aspecto de actitud.
 
-Este análisis de user Outcomes sirve para ambos segmentos en ciertos casos ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
+| Demográfica | Comportamiento | Necesidades / Obstáculos |
+|------------|----------------|---------------------------|
+| Alberto:<br>22 años<br>Entusiasta de botánica | - Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida | - Quiere cuidar de sus plantas<br> - No cuenta con el tiempo para mantenerlas<br> - Busca saber si las está cuidando correctamente<br> - Quiere saber lo necesario para asegurar su crecimiento saludable |
+| Valentina:<br>32 años<br>Ingeniera Agrícola | - Gana lo esperado<br> - Trabaja en una empresa agrícola<br> - Busca optimizar la producción de su empresa | - Necesita saber el estado actual de una gran cantidad de plantaciones<br> - Requiere detectar cualquier problema en las plantaciones<br> - Requiere métricas cuantificables de la producción<br> - La gran cantidad de cultivos produce resultados poco homogéneos |
+
+Esta tabla refleja los dos principales usuarios que tenemos como suposición, junto con sus necesidades y comportamientos en el área laboral.
+
+---
+
+**User Outcomes & Benefits**
+
+En esta sección se busca el lado más emocional y empatizar con el usuario para darles los outcomes correctos.
+
+**¿Qué busca lograr el usuario?**  
+Mantener sanas sus plantas con facilidad y sin depender de conocimientos avanzados en jardinería.
+
+**¿Cómo se quiere sentir el usuario en este proceso?**  
+Seguro y sin estrés, sabiendo que sus plantas están bien cuidadas con información clara y accesible.
+
+**¿Cómo nuestro producto acerca al usuario a un logro personal?**  
+La plataforma le permite ver visualmente el progreso de sus plantas, generando satisfacción y motivación para continuar con el cuidado.
+
+**¿Por qué nuestro usuario buscaría nuestro producto?**  
+Para evitar que sus plantas mueran por descuido o falta de información y sentirse más confiado en su habilidad para cuidarlas.
+
+**¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**  
+El usuario revisa la app regularmente, ajusta su rutina de riego/cuidados según las recomendaciones y expresa satisfacción en encuestas.
+
+---
+
+**Continuamos con los assumptions para el segundo segmento:**
+
+**¿Qué busca lograr el usuario?**  
+Optimizar la producción de cultivos con información precisa y accesible para maximizar la cosecha.
+
+**¿Cómo se quiere sentir el usuario en este proceso?**  
+Confiado y en control, sabiendo que la plataforma le brinda información confiable sin necesidad de monitorización manual constante.
+
+**¿Cómo nuestro producto acerca al usuario a un logro personal?**  
+Al aumentar la eficiencia del cultivo, logra mejorar la producción y rentabilidad, generando un impacto positivo en su negocio.
+
+**¿Por qué nuestro usuario buscaría nuestro producto?**  
+Para reducir riesgos en la cosecha, evitar pérdidas económicas y mejorar su toma de decisiones basada en datos.
+
+**¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**  
+El usuario consulta datos regularmente, ajusta riegos y fertilización según la plataforma y ve mejoras en producción.
+
+Este análisis de *User Outcomes* sirve para ambos segmentos en ciertos casos, ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
+
+---
 
 **Solutions**
 
-Si bien Jeff Gothelf menciona en su libro LeanUX 3rd Edition que debemos utilizar elementos físicos como post its y demás para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
+Si bien Jeff Gothelf menciona en su libro *Lean UX 3rd Edition* que debemos utilizar elementos físicos como post-its, para esta entrega realizamos una llamada para definir nuestras soluciones supuestas.
 
-Tomando en cuenta las restricciones anteriormente seleccionadas realizamos las siguiente soluciones:
+Tomando en cuenta las restricciones anteriormente seleccionadas, planteamos las siguientes soluciones:
 
-Desarrollar una solución con tecnologías IoT(internet of things) orientada a realizar el monitoreo de plantas con funciones principales siendo:
+Desarrollar una solución con tecnologías IoT (*Internet of Things*) orientada a realizar el monitoreo de plantas, con funciones principales como:
 
-- Monitoreo de acidez del suelo:
-* Problema: Los usuarios no pueden evaluar fácilmente el pH del suelo, lo que afecta la salud de las plantas.
-* Solución: Sensores de acidez que recopilan datos en tiempo real y envían alertas si el nivel es sub óptimo.
-* Resultado: El usuario puede ajustar el pH del suelo de manera informada, evitando daños en sus cultivos.
+- **Monitoreo de acidez del suelo:**  
+  *Problema:* Los usuarios no pueden evaluar fácilmente el pH del suelo, lo que afecta la salud de las plantas.  
+  *Solución:* Sensores de acidez que recopilan datos en tiempo real y envían alertas si el nivel es subóptimo.  
+  *Resultado:* El usuario puede ajustar el pH del suelo de manera informada, evitando daños en sus cultivos.
 
-- Sensores de humedad del suelo:
-* Problema: Los usuarios no saben cuándo regar sus plantas correctamente, lo que genera exceso o falta de agua.
-* Solución: Sensores de humedad que notifican al usuario cuando es el momento óptimo para regar.
-* Resultado: Reducción del desperdicio de agua y mejora en la salud de las plantas con menor esfuerzo.
+- **Sensores de humedad del suelo:**  
+  *Problema:* Los usuarios no saben cuándo regar sus plantas correctamente, lo que genera exceso o falta de agua.  
+  *Solución:* Sensores de humedad que notifican al usuario cuándo es el momento óptimo para regar.  
+  *Resultado:* Reducción del desperdicio de agua y mejora en la salud de las plantas con menor esfuerzo.
 
-- Dashboard interactivo con visualización de datos:
-* Problema: Los usuarios necesitan interpretar datos sobre el estado de sus plantas de forma rápida y sencilla.
-* Solución: Plataforma con gráficos y análisis en tiempo real sobre los niveles de humedad, pH y otros factores ambientales.
-* Resultado: El usuario puede tomar decisiones informadas sin necesidad de conocimientos técnicos avanzados.
+- **Dashboard interactivo con visualización de datos:**  
+  *Problema:* Los usuarios necesitan interpretar datos sobre el estado de sus plantas de forma rápida y sencilla.  
+  *Solución:* Plataforma con gráficos y análisis en tiempo real sobre los niveles de humedad, pH y otros factores ambientales.  
+  *Resultado:* El usuario puede tomar decisiones informadas sin necesidad de conocimientos técnicos avanzados.
 
-- Recomendaciones inteligentes basadas en los datos recolectados:
-* Problema: Los usuarios no saben qué acciones tomar para mejorar el crecimiento de sus plantas.
-* Solución: Sistema que sugiere medidas correctivas basadas en datos históricos y condiciones actuales.
-* Resultado: Aumento en la tasa de éxito en el crecimiento de cultivos y reducción de errores en el cuidado de plantas.
+- **Recomendaciones inteligentes basadas en los datos recolectados:**  
+  *Problema:* Los usuarios no saben qué acciones tomar para mejorar el crecimiento de sus plantas.  
+  *Solución:* Sistema que sugiere medidas correctivas basadas en datos históricos y condiciones actuales.  
+  *Resultado:* Aumento en la tasa de éxito en el crecimiento de cultivos y reducción de errores en el cuidado de plantas.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
