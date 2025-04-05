@@ -571,7 +571,7 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 ...
 **Segmento 2**
 
-...
+<img src="../assets/user-journey-mapping/user-journey-mapping-segmento-negocio.png" alt="User Journey Mapping"/>
 
 ### 2.3.4. Empathy Mapping.
 
