@@ -532,7 +532,7 @@ Los user personas nos sirven para poder identificar como seran los comportamient
 
 <img src="../assets/user-personas/segmento-domestico.png"/>
 
-**Segmento 2:**: ...
+**Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
 
 ---
 
@@ -742,6 +742,9 @@ Ostelea (2021, 10 de febrero). ¿Qué es la gestión hotelera y cuál es su impo
 
 Raigoza, V. (s.f). LA IMPORTANCIA DEL SOFTWARE DE GESTIÓN HOTELERA.
         Soho Apps. Recuperado el 3 de abril del 2024 de URL https://sohoapps.co/importancia-del-software-de-gestion-hotelera/#:~:text=La%20gestión%20de%20reservas%20esmayor%20rentabilidad%20para%20el%20hotel
+
+Rachio. (n.d.). Rachio products. Rachio. 
+        Recuperado el 5 de abril de 2025, de https://rachio.com/products/
 
 BIMnD (2024, 25 de enero). El impacto de la Digitalización en la sostenibilidad hotelera.
         BIMnD. Recuperado el 4 de abril del 2024 de URL https://www.bimnd.es/el-impacto-de-la-digitalizacion-en-la-sostenibilidad-hotelera/
