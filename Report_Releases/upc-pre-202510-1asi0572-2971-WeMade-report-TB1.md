@@ -541,15 +541,24 @@ Los user personas nos sirven para poder identificar como seran los comportamient
 
 El user task matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos.
 
-|| Segmento 1 | Empleado | Segmento 2 | Gestor |
-|-------------|-----------|-----------|-----------|--------|
-| Titulo      | Importancia | Frecuencia | Importancia | Frecuencia |
-| ... | Alta | Media | Alta | Baja |
+|| Segmento 1 | Doméstico | Segmento 2 | Empresa |
+|-------------|------------------|------------------|------------------|------------------|
+| **Necesidad / Función**                     | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** |
+| Ver estado actual de plantas/cultivos       | Alta            | Media          | Alta            | Alta           |
+| Recibir alertas sobre humedad, luz o acidez | Alta            | Alta           | Alta            | Alta           |
+| Acceder a recomendaciones automáticas       | Alta            | Alta           | Media           | Media          |
+| Consultar historial de datos                | Media           | Baja           | Alta            | Alta           |
+| Optimizar riego según sensores              | Alta            | Alta           | Alta            | Alta           |
+| Configurar múltiples sensores               | Baja            | Baja           | Alta            | Media          |
+| Medir impacto económico/productivo          | Baja            | Nula           | Alta            | Alta           |
+| Compartir información o reportes            | Media           | Baja           | Alta            | Media          |
+| Acceso desde app móvil                      | Alta            | Alta           | Media           | Media          |
+| Revisar recomendaciones de fertilización    | Media           | Baja           | Alta            | Alta           |
 
 
 Con este user task matrix entendemos las actividades que realizan nuestros usuarios segmento y la importancia que estas acciones tienen.
 
-De las tareas principales que identificamos se observa ...
+De las tareas principales que identificamos se observa.
 
 
 
