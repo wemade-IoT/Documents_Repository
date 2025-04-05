@@ -393,11 +393,11 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 | ¿Por qué llevar a cabo este análisis? | Nosotros | competidor1 | competidor2 | Rachio|
 |:---------------------------------------:|:----------:|:-----------:|:------------:|:-------------------------:|
 | **Overview**                          | ... | ... | ... | Rachio es una empresa especializada en productos inteligentes para cultivos y jardinería, sus productos son controladores de riego y sensores de humedad, los cuales optimizan el uso del agua y mejoran el cuidado de las plantas a través de su app móvil. |
-| **Ventaja Competitiva**               | ... | ... | ... | Tecnología de riego inteligente, integración con dispositivos smart home, y optimización del uso del agua. |
-| **Mercado Objetivo**                  | ... | ... | ... | ... |
-| **Perfil de Marketing**               | ... | ... | ... | ... |
-| **Perfil del Producto**               | ... | ... | ... |  ... |
-| **Precios**                           | ... | ... | ... | ... |
+| **Ventaja Competitiva**               | ... | ... | ... | Empresa posicionada en el rubro, cuenta con diversos dispositivos enfocados en la tecnología de riego inteligente, integración solida con dispositivos smart home, y optimización del uso del agua. |
+| **Mercado Objetivo**                  | ... | ... | ... | Hogares, cultivos, parques, y jardines de usuarios interesados en la optimización del riego, control de humedad y estado de las plantas. |
+| **Perfil de Marketing**               | ... | ... | ... | Rachio utiliza marketing digital a través de redes sociales y participación en eventos de la industria para promocionar sus productos. |
+| **Perfil del Producto**               | ... | ... | ... |  Controladores de riego inteligentes, sensores de humedad, y sistemas para mejorar el cuidado de plantas en jardines, cultivos y exteriores. |
+| **Precios**                           | ... | ... | ... | Precios competitivos, con productos accesibles para el hogar y más avanzados para empresas. |
 
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
