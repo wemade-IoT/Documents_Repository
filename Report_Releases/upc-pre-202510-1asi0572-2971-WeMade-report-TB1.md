@@ -585,15 +585,17 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 
 As Is representa las fases donde aun no se esta implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
 
-Miro con el As-Is To-Be: (Link Miro)
+Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHbkE2RzdrTk9iVEhXZXZjUlhYR3UyZFQ3LzJFQVlLeGdYM0RTclFzZFFubUQ2TmJPWCsrUThVRTJhRDhTL29uWG1rS3dVdW10WUhnSlBIQ2lNK3pNYnJmZU5zUnlLcHNSWXd5OXZwQXJBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=64624328710
 
-**Segmento 1**  
+**Segmento Domestico**
+
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-domestico.jpg" alt="Segmento domestico">
 
 
 
 
 
-**Segmento 2**  
+**Segmento Negocio**  
 
 
 
