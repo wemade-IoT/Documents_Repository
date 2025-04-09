@@ -406,14 +406,15 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 | **Precios**                           | Modelo freemium con planes accesibles por número de plantas/áreas monitoreadas. Opciones económicas para el hogar y versiones premium para uso agrícola.| ... | Alta relación calidad-precio para el usuario. | Precios competitivos, con productos accesibles para el hogar y más avanzados para empresas. |
 
 
-### 2.1.2. Estrategias y Tácticas Frente a Competidores
-
 | **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | competidor1 | Xiaomi Mi Flora | Rachio |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|--------|
 | **Fortalezas**    | - Aplicación multiplataforma (web + móvil).<br/> - Recomendaciones personalizadas basadas en datos.<br/>- Escalabilidad por planes (hobby/empresarial).<br/>- Enfoque en experiencia de usuario y educación. |             |                 |        |
 | **Debilidades**   | - Marca menos reconocida vs. Xiaomi/Rachio.<br/> - Requiere mayor inversión inicial en sensores y suscripciones.<br/>- Dependencia de infraestructura IoT y una conectividad estable.<br/>                   |             |                 |        |
 | **Oportunidades** | - Alianzas con viveros y agricultura urbana.<br/> - Expansión a mercados emergentes con agricultura tecnológica.<br/>  - Integración con smart home (ej: Alexa, Google Home).                                                                                                                                                         |             |                 |        |
 | **Amenazas**      | ...                                                                                                                                                                                                          |             |                 |        |
+
+
+### 2.1.2. Estrategias y Tácticas Frente a Competidores
 
 ## 2.2. Entrevistas.
 
