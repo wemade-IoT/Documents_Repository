@@ -408,12 +408,12 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
 
- **Análisis SWOT** | Nosotros| competidor1| competidor2
--------------------|-------|----------|------------------
- **Fortalezas**    | ...                                                                                                                                                                      
- **Debilidades**   | ...                                                                                                                                                                                                       
- **Oportunidades** | ...                                                                                                                                                                    
- **Amenazas**      | ...
+| **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | competidor1 | Xiaomi Mi Flora | Rachio |
+|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|--------|
+| **Fortalezas**    | - Aplicación multiplataforma (web + móvil).<br/> - Recomendaciones personalizadas basadas en datos.<br/>- Escalabilidad por planes (hobby/empresarial).<br/>- Enfoque en experiencia de usuario y educación. |             |                 |        |
+| **Debilidades**   | - Marca menos reconocida vs. Xiaomi/Rachio.<br/> - Requiere mayor inversión inicial en sensores y suscripciones.<br/>- Dependencia de infraestructura IoT y una conectividad estable.<br/>                   |             |                 |        |
+| **Oportunidades** | - Alianzas con viveros y agricultura urbana.<br/> - Expansión a mercados emergentes con agricultura tecnológica.<br/>  - Integración con smart home (ej: Alexa, Google Home).                                                                                                                                                         |             |                 |        |
+| **Amenazas**      | ...                                                                                                                                                                                                          |             |                 |        |
 
 ## 2.2. Entrevistas.
 
@@ -479,25 +479,37 @@ Timing: ...
 
 ---
 
-**Segmento 2**  
-Nombre: ...
+**Segmento Negocios**  
+Nombre: Julio Enrique Chipana Barrientos
 <br>
-Edad: ...
+Edad: 48 años
 <br>
-Ocupación: ...
+Ocupación: Docente, Ingeniero Agrónomo
 <br>
-Browser Preferido: ...
+Browser Preferido: Google Chrome
 <br>
-Dispositivos: ...
+Dispositivos: Teléfono Samsung Galaxy A52 Y Laptop Lenovo
 <br>
-Distritos: ...
+Distritos: Carmen Alto - Ayacucho
 <br>
-Timing: ...
+Timing: 0:00
 <br>
 
-![Imagen de entrevistaS1](...)  
+<img src="../assets/images-interviews/negocios/interview-1.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
 
-...
+El señor Julio Chipana Barrientos es un ingeniero agrónomo con 48 años de edad, actualmente trabaja como docente en la ciudad de Ayacucho. 
+En su experiencia laboral nos menciona que las herramientas que utiliza para monitorear sus cultivos son principalmente aplicaciones móviles que les permiten
+registrar datos de campo de sus cultivos como las condiciones en las que se desarrolla la etapa fenológica de la planta, así como sensores
+que se usan en la producción de lechugas en la hidroponía, aunque considera que la aplicación resulta muy básica y a veces no le brinda la información correcta a tiempo, además de que la información 
+de cada cultivo se debe colocar de manera manual. El principal desafío que enfrenta en su trabajo son las temperaturas extremas de la sierra que afectan el crecimiento de sus cultivos.
+Sobre la importancia de la adopción de nuevas tecnologías en su trabajo, menciona que desde hace poco han implementado el uso de drones que les permiten manejar el control
+de plagas. El uso de una plataforma que le ayude a monitorear y gestionar todos los aspectos de sus cultivos desde una aplicación web y móvil le parece una buena idea, ya que nos explica que les permitiría tener un manejo
+más eficiente de los pocos recursos que tienen como el agua o la calidad del suelo.
+Sobre las funcionalidades que le gustaría que tuviera una plataforma de monitoreo agrícola, menciona que es de suma importancia que la plataforma pueda avisarles de forma inmediata la presencia de plagas o la
+falta de recursos. Además, dice que la calidad del suelo es un factor muy importante para el crecimiento de los cultivos y que siempre analizan la textura y las características biológicas del suelo.
+Seguidamente, habla sobre que, para que pueda decidir invertir en una solución tecnológica para mejorar la eficiencia de sus cultivos, tendría que evaluar el costo de la inversión, así como la calidad de la información que le brinda la plataforma.
+Finalmente, menciona que las mejoras que le gustaría lograr en su negocio son la mejora de la productividad y la reducción de costos y del tiempo que se invierte en el monitoreo de los cultivos, y complementa
+diciendo que una plataforma completa ya implementada les permitiría reducir costos en personal y el tiempo que manejan en el monitoreo de aspectos que su actualmente son manuales.
 
 ---
 
