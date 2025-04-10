@@ -512,6 +512,26 @@ Seguidamente, habla sobre que, para que pueda decidir invertir en una solución 
 Finalmente, menciona que las mejoras que le gustaría lograr en su negocio son la mejora de la productividad y la reducción de costos y del tiempo que se invierte en el monitoreo de los cultivos, y complementa
 diciendo que una plataforma completa ya implementada les permitiría reducir costos en personal y el tiempo que manejan en el monitoreo de aspectos que su actualmente son manuales.
 
+Nombre: Alonso Renzo Chuctaya Leyva
+<br>
+Edad: 40 años
+<br>
+Ocupación: Productor Agrícola
+<br>
+Browser Preferido: Google Chrome
+<br>
+Dispositivos: Teléfono Samsung Galaxy Y Laptop Asus
+<br>
+Distritos: La Victoria, Chiclayo
+<br>
+Timing: 0:00
+<br>
+
+<img src="../assets/images-interviews/negocios/interview-2.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
+
+Alonso Chuctaya, productor agrícola de 40 años en Chiclayo, es gerente de una empresa familiar que cultiva papa nativa y quinua orgánica. Actualmente monitorea sus cultivos con Excel, cuadernos de campo y sensores de humedad, aunque reconoce limitaciones en las apps que usa. Sus principales desafíos son el clima variable, el control de insumos y la falta de personal capacitado. Considera clave la adopción de nuevas tecnologías para mejorar la eficiencia. Le interesa una plataforma que centralice datos de clima, riego y plagas, con alertas automáticas y registro de insumos. Prioriza datos como estado del suelo, clima y rendimiento por cultivo. Estaría dispuesto a invertir en tecnología si es confiable, fácil de usar y ofrece ahorro de tiempo, recursos y mejor planificación.
+
+
 ---
 
 ### 2.2.3. Análisis de entrevistas.
