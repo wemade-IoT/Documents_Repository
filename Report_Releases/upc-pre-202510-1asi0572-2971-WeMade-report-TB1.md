@@ -462,7 +462,7 @@ Nombre: Andrea Milagros Cabanillas Gora
 <br>
 Edad: 20
 <br>
-Ocupación: Ingeniera de software
+Ocupación: Ingeniera de Software
 <br>
 Browser: Google Chrome
 <br>
@@ -477,7 +477,7 @@ Timing: 0:00
 alt="Entrevista 1 Segmento Doméstico" width="500"/>
 
 Andrea es una ingeniera de software de profesión con 20 años de edad con pasión por el cuidado de sus plantas como hobby.
-En su experiencia personal nos menciona que al enfocarse en sus actividades diarias, a veces descuida el cuidado de sus plantas. Aunque les dedica entre 2 y 3 horas a la semana, considera que este tiempo no siempre es suficiente, lo que en ocasiones provoca cierto descuido en su mantenimiento. También nos menciona que actualmente consulta a especialistas en el tema para saber como gestionar el mantenimiento de sus plantas. Asimismo, nos menciona que utiliza google calendario como herramienta para saber en que ocasiones debe darles mantenimiento. Por otro lado, menciono el interes en una solución que le permita saber el estado de sus plantas mediante el uso de alertas personalizadas. Finalmente menciona que le gustaría disponer de un calendario donde pueda gestionar las actividades que debe realizar en la semana para el correcto mantenimiento de sus plantas.
+En su experiencia personal nos menciona que al enfocarse en sus actividades diarias en ocasiones descuida el cuidado de sus plantas. Aunque les dedica entre 2 y 3 horas a la semana, considera que este tiempo no siempre es suficiente, lo que en ocasiones provoca cierto descuido en su mantenimiento. También nos menciona que actualmente consulta a especialistas en el tema para saber como gestionar el mantenimiento de sus plantas. Asimismo, nos menciona que utiliza google calendario como herramienta para saber en que ocasiones debe darles mantenimiento. Por otro lado, comentó el interes en una solución que le permita saber el estado de sus plantas mediante el uso de alertas personalizadas. Finalmente menciona que le gustaría disponer de un calendario donde pueda gestionar las actividades que debe realizar en la semana para el correcto mantenimiento de sus plantas.
 
 ---
 
