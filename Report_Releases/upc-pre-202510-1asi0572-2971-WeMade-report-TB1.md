@@ -457,26 +457,27 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 Las entrevistas estan en un video en el siguiente URL: ... [Anexo 2.2.1.1]
 
 
-**Segmento 1**  
-Nombre: ...
+**Segmento Doméstico**  
+Nombre: Andrea Milagros Cabanillas Gora
 <br>
-Edad: ...
+Edad: 20
 <br>
-Ocupación: ...
+Ocupación: Ingeniera de software
 <br>
-Browser: ...
+Browser: Google Chrome
 <br>
-Device: ...
+Device: Teléfono Samsung y Laptop Asus
 <br>
-Distrito: ...
+Distrito: Santiago de Surco, Lima 
 <br>
-Timing: ...
+Timing: 0:00
 <br>
 
-![Imagen de entrevistaS2.1](...)
+<img src="../assets/images-interviews/domestico/interview1.jpeg"
+alt="Entrevista 1 Segmento Doméstico" width="500"/>
 
-
-...
+Andrea es una ingeniera de software de profesión con 20 años de edad con pasión por el cuidado de sus plantas como hobby.
+En su experiencia personal nos menciona que al enfocarse en sus actividades diarias, a veces descuida el cuidado de sus plantas. Aunque les dedica entre 2 y 3 horas a la semana, considera que este tiempo no siempre es suficiente, lo que en ocasiones provoca cierto descuido en su mantenimiento. También nos menciona que actualmente consulta a especialistas en el tema para saber como gestionar el mantenimiento de sus plantas. Asimismo, nos menciona que utiliza google calendario como herramienta para saber en que ocasiones debe darles mantenimiento. Por otro lado, menciono el interes en una solución que le permita saber el estado de sus plantas mediante el uso de alertas personalizadas. Finalmente menciona que le gustaría disponer de un calendario donde pueda gestionar las actividades que debe realizar en la semana para el correcto mantenimiento de sus plantas.
 
 ---
 
