@@ -416,6 +416,19 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
 
+Para competir con Xiaomi y Rachio, teniendo en cuenta sus fortalezas y debilidades, EcoGuardian puede realizar las siguientes estrategias y tácticas:
+
+-**Hacer uso de recomendaciones de cuidado personalizadas**:  
+  A diferencia de Xiaomi, que solo ofrece datos de monitoreo básico, EcoGuardian puede diferenciarse recomendando acciones 
+específicas para el cuidado de las plantas, basadas en datos históricos y condiciones actuales, así como el tipo de planta.
+
+-**Integración con dispositivos de smart home y APIs empresariales**:
+    EcoGuardian puede ofrecer integración con dispositivos de smart home como Alexa y Google Home, permitiendo a los usuarios controlar sus plantas mediante comandos de voz. 
+Además, se pueden implementar el soporte con APIs para empresas agrícolas que faciliten la integración con sistemas existentes.
+
+-**Enfoque multiplataforma**:
+    EcoGuardian ofrece una experiencia integrada en web, móvil y dispositivos IoT, permitiendo a los usuarios acceder a la información desde cualquier lugar y en cualquier momento, así como configurar automatizaciones en el sistema.
+
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
@@ -492,7 +505,7 @@ Browser Preferido: Google Chrome
 <br>
 Dispositivos: Teléfono Samsung Galaxy A52 Y Laptop Lenovo
 <br>
-Distritos: Carmen Alto - Ayacucho
+Distritos: Carmen Alto, Ayacucho
 <br>
 Timing: 0:00
 <br>
