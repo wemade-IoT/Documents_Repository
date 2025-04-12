@@ -768,7 +768,8 @@ La seccion de User Stories sirve para saber las distintas situaciones y puntos c
 
 ## 3.3. Impact Mapping.
 
-Impact Mapping **
+![Impact Mapping Doméstico](../assets/impact-mapping-images/Impact-mapping-organizer.png)
+![Impact Mapping Negocio](../assets/impact-mapping/segmento-negocio.png)
 
 ## 3.4. Product Backlog.
 
