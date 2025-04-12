@@ -721,20 +721,17 @@ Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
 
 En la seccion To-Be se utilizan los mismos escenarios pero implementando la solucion que proporciona nuestro proyecto.
 
-Miro con el As-Is To-Be:
-(Link)
+Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
 
 Segmento 1:
 
-<img src = "https://i.imgur.com/ieSlf6v.png">
+<img src="../assets/to-be-scenario-mapping/to-be-scenario-domestico.jpg" alt="Segmento domestico">
 
 
 Segmento 2:
 
-<img src = "https://i.imgur.com/sUIz6yh.png">
+<img src="../assets/to-be-scenario-mapping/to-be-scenario-negocios.jpg" alt="Segmento negocios">
 
-Segmento 3:
-...
 
 ## 3.2. User Stories.
 
