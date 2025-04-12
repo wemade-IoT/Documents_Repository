@@ -517,6 +517,31 @@ respecto a la frecuencia de riego de la planta comenta de que lo hace dependiend
 menciona que cada planta cuenta con un cuidado distinto y que hay características visuales que sirven de indicador para saber que requiere su planta.
 Menciona igualmente la importancia de saber las necesidades de la planta en especial el agua la tierra y el musgo de este.
 
+**Segmento Doméstico**  
+Nombre: Sergio Aguirre Castillo
+<br>
+Edad: 19
+<br>
+Ocupación: Ingeniera de Software
+<br>
+Browser: Google Chrome y Safari
+<br>
+Device: Telefono IPhone
+<br>
+Distrito: Jesús María, Lima 
+<br>
+Timing: 0:00
+<br>
+
+<img src="../assets/images-interviews/domestico/interview-domestico-3.png"
+alt="Entrevista 3 Segmento Doméstico" width="500"/>
+
+Sergio es un estudiante de Ingeniería de Software con una pasión por el cuidado de sus plantas como hobby.
+Nos comenta que a veces le resulta difícil coordinar los tiempos de riego y exposición a la luz. Semanalmente, le dedica entre 2 y 3 horas al monitoreo de sus plantas. Actualmente utiliza dispositivos básicos como un termómetro y un medidor de humedad.
+Reconoce que una solución tecnológica sería muy útil, ya que ha perdido algunas plantas por falta de seguimiento. Además, está interesado en una solución que sea fácil de usar y económicamente accesible.
+Le gustaría recibir alertas relacionadas con el riego, niveles de luz, temperaturas óptimas, y recordatorios para fertilizar y podar.
+Según Sergio, las características más útiles que debería tener esta solución son: monitoreo en tiempo real de la luz y humedad, alertas personalizadas, consejos para el cuidado de plantas, e integración con dispositivos tecnológicos diseñados para el cuidado de plantas.
+
 ---
 
 **Segmento Negocios**  
