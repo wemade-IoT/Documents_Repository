@@ -471,7 +471,7 @@ Las entrevistas estan en un video en el siguiente URL: ... [Anexo 2.2.1.1]
 
 
 **Segmento Doméstico**  
-Nombre:Yrea Milagros Cabanillas Gora
+Nombre:Andrea Milagros Cabanillas Gora
 <br>
 Edad: 20
 <br>
@@ -759,6 +759,9 @@ La seccion de User Stories sirve para saber las distintas situaciones y puntos c
 | HU11   | Edicion de Planta    | Como usuario domestico, quiero editar la infomracion de mis plantas para poder cambiar el nombre o algun dato ingresado erroneamente.   | Dado que me encuentro en la vista de "plantas" , <br> Cuando presiono el card de la planta, y presiono el icono del lapiz<br> Entonces aparecera un textbox que permitira re ingresar ciertos datos modificables.  | EP05         | 
 | HU12   | Eliminacion de Planta    | Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra   | Dado que me encuentro en la vista de "plantas" , <br> Cuando presiono el card de la planta, y presiono el icono del basurero, <br> Entonces aparecera un dialogo informando que se borraran los datos permanentemente, y al presionarlo se eliminan los datos.  | EP05         | 
 | HU13   | Registro de plantaciones empresarial    | Como usuario Empresarial, quiero registrar las plantaciones para poder tener informacion del cultivo.   | Dado que me encuentro en la vista de "plantaciones" , <br> Cuando utilizo el boton de agregar plantacion, y agrego la informacion del area que cubre la plantacion e informacion adicional en un formulario, <br> Entonces al presionar aceptar se muestra un dialogo de confirmacion y luego la nueva plantacion en la vista.  | EP05 | 
+
+| HU14   | Recibir alertas sobre el estado de mis plantas    | Como usuario domestico, quiero recibir alertas sobre el estado de mi planta para tener un monitoreo progresivo sobre el avance en su cuidado.   | Dado que me encuentro en la vista inicial  , <br> Cuando ingreso a ver el estado de mis plantas, <br> Entonces visualizo notificaciones sobre el estado de mis plantas.  | EP05 | 
+
 
 
 
