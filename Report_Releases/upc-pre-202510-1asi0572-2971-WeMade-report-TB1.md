@@ -185,7 +185,7 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.1. Descripción de la Startup
 
-EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en el monitorización,  estadísticas, recomendaciones y seguimiento de crecimiento.
+EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas realizadas por un personal experimentado en el area. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en el monitorización,  estadísticas, recomendaciones y seguimiento de crecimiento.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -222,17 +222,17 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 
 En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado.
 
-Otros productos han fallado en ...
+Otros productos han fallado en proveer recomendaciones hechas por expertos en agricultura y el debido cuidado de las plantas.
 
-Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas, esto ofrece una mejor calidad de vida para la planta.
+Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y plantas domesticas junto con recomendaciones de expertos, esto ofrece una mejor calidad de vida para la planta.
 
-Nuestro enfoque principal se basa en la monitorización de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable en el area domestica.
+Nuestro enfoque principal se basa en el monitoreo de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable en el area domestica.
 
-Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proveer una plataforma de monitoreo de plantas aumentando su crecimiento y/o cosecha en un 40%?
+Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proveer una plataforma de monitoreo de plantas aumentando su crecimiento y/o cosecha en un 40% en un lapso de 6 meses?
 
-Nuestro producto se encargará de esta tarea al ofrecer un servicio de monitoreo que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en el hobby del cuidado de plantas como las empresas agrícolas.
+Nuestro producto se encargará de esta tarea al ofrecer un servicio de monitoreo que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en la afición del cuidado de plantas como las empresas agrícolas esto se lograra por medio del seguimiento de sensores y recomendaciones de expertos.
 
-Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas hayan logrado un crecimiento y/o cosecha en un 40%.
+Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas hayan logrado un crecimiento y/o cosecha en un 40% en un lapso aproximado de 6 meses.
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -265,6 +265,7 @@ En esta sección creamos un Proto-Persona como una suposición de cómo son nues
 |------------|----------------|---------------------------|
 | Alberto:<br>22 años<br>Entusiasta de botánica | - Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida | - Quiere cuidar de sus plantas<br> - No cuenta con el tiempo para mantenerlas<br> - Busca saber si las está cuidando correctamente<br> - Quiere saber lo necesario para asegurar su crecimiento saludable |
 | Valentina:<br>32 años<br>Ingeniera Agrícola | - Gana lo esperado<br> - Trabaja en una empresa agrícola<br> - Busca optimizar la producción de su empresa | - Necesita saber el estado actual de una gran cantidad de plantaciones<br> - Requiere detectar cualquier problema en las plantaciones<br> - Requiere métricas cuantificables de la producción<br> - La gran cantidad de cultivos produce resultados poco homogéneos |
+| Godofredo:<br>27 años<br>Especialista en Agricultura | - Gana lo esperado<br> - Tiene conocimientos de botánica y el cuidado de plantas<br> - Busca compartir sus conocimientos a personas que buscan aprender mas del tema -Cuenta con una pequeña comunidad aficionada al cuidado de plantas| - Necesita una manera de poder contactar a las personas que este interesadas<br> - Requiere métricas cuantificables y visuales si es posible de el estado de la planta |
 
 Esta tabla refleja los dos principales usuarios que tenemos como suposición, junto con sus necesidades y comportamientos en el área laboral.
 
