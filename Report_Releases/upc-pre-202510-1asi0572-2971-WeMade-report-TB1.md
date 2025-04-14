@@ -668,7 +668,7 @@ De las tareas principales que identificamos se observa.
 
 ### 2.3.3. User Journey Mapping.
 
-En esta seccion hacemos un journey mapping para comprender el camino que recorren nuestros segmentos en un escenario comun en su area laboral
+En esta seccion hacemos un journey mapping para comprender el camino que recorren nuestros segmentos en un escenario comun en su área laboral
 
 **Segmento 1**
 
