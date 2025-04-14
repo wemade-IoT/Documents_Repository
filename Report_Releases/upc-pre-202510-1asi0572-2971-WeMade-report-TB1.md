@@ -228,11 +228,11 @@ Nuestro producto se enfocara en proporcionar un seguimiento a los cultivos y pla
 
 Nuestro enfoque principal se basa en la monitorización de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable en el area domestica.
 
-Como resultado, nos enfrentamos al siguiente problema: ¿Como podemos proveer una plataforma de monitorización de plantas aumentando su crecimiento y/o cosecha en un 40%?
+Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proveer una plataforma de monitoreo de plantas aumentando su crecimiento y/o cosecha en un 40%?
 
-Nuestro producto se encargara de esta tarea al ofrecer un servicio de monitorización que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en el hobby del cuidado de plantas como las empresas agrícolas.
+Nuestro producto se encargará de esta tarea al ofrecer un servicio de monitoreo que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en el hobby del cuidado de plantas como las empresas agrícolas.
 
-Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas haya logrado un crecimiento y/o cosecha en un 40%.
+Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas hayan logrado un crecimiento y/o cosecha en un 40%.
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -248,7 +248,7 @@ En esta sección el usuario crea su cuenta registrando su correo, ya sea persona
 De los usuarios que se percatan del producto, esperamos que el 45% se anime a utilizarlo en un periodo de 6 meses.
 
 **Retention (Plateau + 1 level): [60% usuarios]**  
-De los usuarios que se animen a utilizarlo, esperamos que el 60% continúe utilizando nuestro producto diariamente para la monitorización de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para optimizar el cuidado de las plantas, ya cuenta con registros previos y puede visualizar un cambio notorio en las variables de entorno.
+De los usuarios que se animen a utilizarlo, esperamos que el 60% continúe utilizando nuestro producto diariamente para el monitoreo de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para optimizar el cuidado de las plantas, ya cuenta con registros previos y puede visualizar un cambio notorio en las variables de entorno.
 
 **Revenue (Plateau + 2 levels): [10% usuarios]**  
 Los usuarios que utilizan nuestro producto son estrictamente de paga, a base de planes. No obstante, si la cantidad de plantas individuales excede el límite proporcionado en su plan inicial, se les ofrecerá la opción de mejorar a un plan superior. De esta manera, se espera que un 10% de los usuarios retenidos que lleguen a este límite estén dispuestos a mejorar su plan, generando un mayor ingreso.
