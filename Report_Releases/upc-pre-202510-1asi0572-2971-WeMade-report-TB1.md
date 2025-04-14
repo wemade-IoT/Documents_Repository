@@ -245,7 +245,7 @@ El usuario se percatará de nuestra solución por medio de redes sociales y otro
 
 **Activation (Plateau): [450 usuarios : 100% usuarios]**  
 En esta sección el usuario crea su cuenta registrando su correo, ya sea personal o de la empresa, sus métodos de pago, las dimensiones del negocio, es decir, el tipo de uso que le dará a la solución, y finalmente un código de autenticación para los empleados que deban generar una cuenta.  
-De los usuarios que se percatan del producto, esperamos que el 45% se anime a utilizarlo.
+De los usuarios que se percatan del producto, esperamos que el 45% se anime a utilizarlo en un periodo de 6 meses.
 
 **Retention (Plateau + 1 level): [60% usuarios]**  
 De los usuarios que se animen a utilizarlo, esperamos que el 60% continúe utilizando nuestro producto diariamente para la monitorización de plantas y/o cultivos. En esta sección el usuario observa la data recolectada por nuestra solución para optimizar el cuidado de las plantas, ya cuenta con registros previos y puede visualizar un cambio notorio en las variables de entorno.
