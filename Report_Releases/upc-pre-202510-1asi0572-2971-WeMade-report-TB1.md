@@ -387,13 +387,12 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 ## 1.3. Segmentos objetivo.
 
-|   | Segmento 1| Segmento 2|
-|---|-----------|-----------|
-| Variables     | Doméstico | Negocios |
-| Geográfica    | Depende de la ubicación del hogar del usuario | Ubicación cercana al servicio y/o ubicados en áreas donde las industrias agrícolas, la agricultura urbana o sectores relacionados con las plantas están activos. |
-| Demográfica   | Diversidad en edad y género | Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines. |
-| Psicológica   | Actitud hacia la adopción de herramientas técnologicas para el cuidado de sus plantas | Una fuerte inclinación hacia la innovación y la eficiencia en el sector agricola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad. |
-| Función de comportamiento | Necesidad de herramientas para el cuidado de sus plantas | Necesidad de herramientas que optimicen las operaciones, especialmente aquellas que ayudan a monitorear el estado de las plantas y/o sus cultivos y gestionar recursos de manera más efectiva. |
+|   | Segmento 1| Segmento 2| Segmento 3|
+|---|-----------|-----------|-----------|
+| Variables     | Doméstico | Negocios | Especialistas |
+| Geográfica    | Depende de la ubicación del hogar del usuario | Ubicación cercana al servicio y/o ubicados en áreas donde las industrias agrícolas, la agricultura urbana o sectores relacionados con las plantas están activos. | Generalmente ubicados en centros de asesoría agrícola o jardines botánicos.|
+| Demográfica   | Diversidad en edad y género | Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines. | Edad adulta, profesionales con formación en agronomía o áreas relacionadas con el medio ambiente, generalmente con experiencia práctica en el sector agrícola. |
+| Psicológica   | Actitud hacia la adopción de herramientas tecnológicas para el cuidado de sus plantas | Una fuerte inclinación hacia la innovación y la eficiencia en el sector Agricola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad. | Apasionados por la sostenibilidad, el uso de nuevas tecnologías y la innovación en el cuidado de plantas. Buscan soluciones prácticas basadas en datos. |
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
