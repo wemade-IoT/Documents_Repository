@@ -831,15 +831,30 @@ Link Trello:
 
 
 # Capítulo IV:  Solution Software Design
--
-## 4.1. Style Guidelines.
--
+
+
+## 4.1. Strategic-Level Domain-Driven Design.
+
 ### 4.1.1. Event Storming.
--
+Con el objetivo de realizar una primera aproximación al modelado de nivel general del dominio, se realizó el proceso de Event Storming. A continuación se explican las 
+actividades realizadas en equipo:
+
+Identificación de eventos del dominio (Tarjetas naranjas): En esta actividad se realizó un brainstorming de eventos del dominio, donde cada miembro del equipo propuso eventos que consideraba relevantes para el dominio. Se utilizó un formato de tarjeta naranja para representar cada evento.
+
+Posteriormente, se realizó una revisión de los eventos propuestos, donde se discutieron y refinaron los eventos para asegurar su relevancia y claridad. Se eliminaron eventos redundantes o poco claros, y se ordenaron los eventos en timelines.
+
+  <img src="../assets/event-storming/domain-events.jpg" alt="Event Storm"/>
+
+Seguidamente, se agregaron las tarjetas de comandos (tarjetas azules), sistemas externos (tarjetas rosadas), actores (tarjetas amarillas) y procesos del negocio (tarjetas moradas) a la vista general del Event Storming. Esto permitió tener una visión más completa de cómo interactúan los diferentes componentes del dominio y cómo se relacionan entre sí.
+
+<img src="../assets/event-storming/event-storm.jpg" alt="Event Storm"/>
+
 
 #### 4.1.1.1 Candidate Context Discovery.
+
 -
 #### 4.1.1.2 Domain Message Flows Modeling.
+
 -
 #### 4.1.1.3 Bounded Context Canvases. 
 -
