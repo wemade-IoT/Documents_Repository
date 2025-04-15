@@ -603,6 +603,34 @@ Timing: 0:00
 
 Alonso Chuctaya, productor agrícola de 40 años en Chiclayo, es gerente de una empresa familiar que cultiva papa nativa y quinua orgánica. Actualmente monitorea sus cultivos con Excel, cuadernos de campo y sensores de humedad, aunque reconoce limitaciones en las apps que usa. Sus principales desafíos son el clima variable, el control de insumos y la falta de personal capacitado. Considera clave la adopción de nuevas tecnologías para mejorar la eficiencia. Le interesa una plataforma que centralice datos de clima, riego y plagas, con alertas automáticas y registro de insumos. Prioriza datos como estado del suelo, clima y rendimiento por cultivo. Estaría dispuesto a invertir en tecnología si es confiable, fácil de usar y ofrece ahorro de tiempo, recursos y mejor planificación.
 
+**Nombre:** Alvaro Jimenez Agapito <br>
+**Edad:** 28  <br>
+**Ocupación:** Gestor del sector Agrario <br>
+**Browser:** Google Chrome  <br>
+**Device:** Laptop Toshiba  <br>
+**Distrito:** Miraflores, Lima  <br>
+**Timing:** 00:00  <br>
+
+<img src="../assets/images-interviews/negocios/interview-3.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
+
+Alvaro Jimenez, Gestor del sector Agrario, se dedica al manejo y supervisión de cultivos, aunque actualmente utiliza herramientas manuales como hojas de cálculo y registros en papel para hacer el seguimiento de sus cultivos. No cuenta con una herramienta centralizada que le permita gestionar de manera eficiente el riego, la temperatura y la humedad de sus cultivos. Uno de los principales desafíos que enfrenta es la **gestión del riego**, ya que no siempre sabe cuándo se necesita agua en cada parte del campo, lo que causa problemas de sobre-riego o falta de riego. Además, enfrenta dificultades con la **prevención de plagas** y el **monitoreo del clima**, lo que afecta la calidad de los cultivos.
+
+Alvaro considera que la **adopción de nuevas tecnologías** es crucial para optimizar los procesos, reducir costos y mejorar la calidad de los cultivos. A pesar de sus dudas sobre la inversión inicial y la adaptación a las nuevas tecnologías, está dispuesto a explorar plataformas que le ayuden a gestionar todos los aspectos de sus cultivos. Un sistema que le permita tener un **panorama completo** sobre el riego, las enfermedades, las plagas y el clima sería invaluable.
+
+**Objetivos:**
+- Mejorar la eficiencia en la **gestión del riego** y reducir el uso innecesario de **pesticidas**.
+- Implementar **tecnologías de monitoreo de plagas** y mejorar la **predicción de cosechas**.
+- Lograr un **aumento en los rendimientos de los cultivos** y una gestión eficiente de los recursos agrícolas.
+
+**Intereses en Tecnología:**
+
+Plataforma de monitoreo agrícola que incluya:
+- **Monitoreo en tiempo real del clima** (temperatura, humedad).
+- **Alertas sobre plagas** basadas en datos históricos y predicciones.
+- **Control remoto del riego**.
+- **Seguimiento de la calidad del suelo y nutrientes**.
+- **Reportes automáticos** de rendimiento y estado de los cultivos.
+
 
 ---
 
