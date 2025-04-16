@@ -677,6 +677,8 @@ Los user personas nos sirven para poder identificar como seran los comportamient
 
 **Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
 
+**Segmento 3:** <img src="../assets/user-personas/segmento-especialista.png"/>
+
 ---
 
 ### 2.3.2. User Task Matrix.
