@@ -709,12 +709,16 @@ De las tareas principales que identificamos se observa.
 
 En esta seccion hacemos un journey mapping para comprender el camino que recorren nuestros segmentos en un escenario comun en su área laboral
 
-**Segmento 1**
+**Segmento Doméstico**
 
 ...
-**Segmento 2**
+**Segmento Negocio**
 
 <img src="../assets/user-journey-mapping/user-journey-mapping-segmento-negocio.png" alt="User Journey Mapping"/>
+
+**Segmento Especialista**
+
+<img src="../assets/user-journey-mapping/user-journey-mapping-segmento-especialista.png" alt="User Journey Mapping"/>
 
 ### 2.3.4. Empathy Mapping.
 
