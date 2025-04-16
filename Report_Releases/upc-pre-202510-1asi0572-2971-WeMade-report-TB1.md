@@ -742,10 +742,9 @@ Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHb
 <img src="../assets/as-is-scenario-mapping/as-is-scenario-domestico.jpg" alt="Segmento domestico">
 
 
+**Segmento Negocio**
 
-
-
-**Segmento Negocio**  
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-negocio.jpg" alt="Segmento negocio">
 
 
 
