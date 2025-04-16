@@ -711,7 +711,8 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 
 **Segmento Doméstico**
 
-...
+<img src="../assets/user-journey-mapping/user-journey-mapping-segmento-doméstico.png" alt="User Journey Mapping"/>
+
 **Segmento Negocio**
 
 <img src="../assets/user-journey-mapping/user-journey-mapping-segmento-negocio.png" alt="User Journey Mapping"/>
