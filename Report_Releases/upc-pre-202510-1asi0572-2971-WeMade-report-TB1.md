@@ -746,6 +746,10 @@ Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHb
 
 <img src="../assets/as-is-scenario-mapping/as-is-scenario-negocio.jpg" alt="Segmento negocio">
 
+**Segmento Especialista**
+
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-especialista.jpg" alt="Segmento especialista">
+
 
 
 ## 2.4. Ubiquitous Language.
