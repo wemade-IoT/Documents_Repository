@@ -220,7 +220,7 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 #### 1.2.2.1. Lean UX Problem Statement.
 
 
-En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado.
+En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado. Además, existe una falta de conocimiento a fondo del correcto cuidado de plantas y las formas de aprenderlos son poco accesibles para una persona corriente.
 
 Otros productos han fallado en proveer recomendaciones hechas por expertos en agricultura y el debido cuidado de las plantas.
 
@@ -309,7 +309,23 @@ Para reducir riesgos en la cosecha, evitar pérdidas económicas y mejorar su to
 **¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**  
 El usuario consulta datos regularmente, ajusta riegos y fertilización según la plataforma y ve mejoras en producción.
 
-Este análisis de *User Outcomes* sirve para ambos segmentos en ciertos casos, ya que tienen un objetivo similar y se puede comprender el contexto desde ambas perspectivas.
+**Continuamos con los assumptions para el tercer segmento:**
+
+**¿Qué busca lograr el usuario?**  
+Compartir sus conocimientos de botánica y el cuidado de las plantas con la comunidad.
+
+**¿Cómo se quiere sentir el usuario en este proceso?**  
+Sin estrés y preparado, sabe que la plataforma ofrece facilidades para encontrar consultas y responderlas sin necesidad de que se tenga que profundizar mucho.
+
+**¿Cómo nuestro producto acerca al usuario a un logro personal?**  
+Al aumentar la cantidad de personas que utilicen la plataforma se aumentara el numero de personas a las que puede ayudar.
+**¿Por qué nuestro usuario buscaría nuestro producto?**  
+Nuestro producto ofrece una comisión para los especialistas que participen con nosotros bajo un contrato estipulado.
+
+**¿Qué cambio de comportamiento podemos observar que nos cuente que lograron su objetivo?**  
+El usuario utiliza la plataforma regularmente respondiendo consultas e incluso ayudando con la instalación y configuración de sensores.
+
+Este análisis de *User Outcomes* sirve para los tres segmentos en ciertos casos, ya que tienen un objetivo similar y se puede comprender el contexto desde las distintas perspectivas.
 
 ---
 
