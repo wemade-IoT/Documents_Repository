@@ -779,14 +779,18 @@ En la seccion To-Be se utilizan los mismos escenarios pero implementando la solu
 
 Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
 
-Segmento 1:
+**Segmento Domestico**
 
 <img src="../assets/to-be-scenario-mapping/to-be-scenario-domestico.jpg" alt="Segmento domestico">
 
 
-Segmento 2:
+**Segmento Negocio**
 
 <img src="../assets/to-be-scenario-mapping/to-be-scenario-negocios.jpg" alt="Segmento negocios">
+
+**Segmento Especialista**
+
+<img src="../assets/to-be-scenario-mapping/to-be-scenario-especialista.jpg" alt="Segmento especialista">
 
 
 ## 3.2. User Stories.
