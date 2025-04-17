@@ -928,6 +928,8 @@ para el negocio. Como resultado, se identificaron los siguientes bounded context
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 -
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+
+<img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
 -
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 -
