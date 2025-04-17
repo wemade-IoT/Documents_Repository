@@ -747,6 +747,8 @@ En esta seccion hacemos un journey mapping para comprender el camino que recorre
 
 **Segmento 2:** <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
 
+**Segmento 3** <img src="../assets/empathy-mapping/segmento-especialista.png" alt="Segmento especialista"/>
+
 ### 2.3.5. As-is Scenario Mapping.
 
 As Is representa las fases donde aun no se esta implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
