@@ -869,7 +869,7 @@ Link Trello:
 Con el objetivo de realizar una primera aproximación al modelado de nivel general del dominio, se realizó el proceso de Event Storming. A continuación se explican las 
 actividades realizadas en equipo:
 
-Identificación de eventos del dominio (Tarjetas naranjas): En esta actividad se realizó un brainstorming de eventos del dominio, donde cada miembro del equipo propuso eventos que consideraba relevantes para el dominio. Se utilizó un formato de tarjeta naranja para representar cada evento.
+En primer lugar, se realizó la identificación de eventos del dominio, en esta actividad se realizó un brainstorming de eventos del dominio, donde cada miembro del equipo propuso eventos que consideraba relevantes para el dominio. Se utilizó un formato de tarjeta naranja para representar cada evento.
 
 Posteriormente, se realizó una revisión de los eventos propuestos, donde se discutieron y refinaron los eventos para asegurar su relevancia y claridad. Se eliminaron eventos redundantes o poco claros, y se ordenaron los eventos en timelines.
 
@@ -882,7 +882,38 @@ Seguidamente, se agregaron las tarjetas de comandos (tarjetas azules), sistemas 
 
 #### 4.1.1.1 Candidate Context Discovery.
 
--
+El proceso de Candidate Context Discovery se realizó con el objetivo de identificar un primer acercamiento a los diferentes bounded contexts que podrían existir en el dominio. Se utilizó la técnica de start-with-value, con el objetivo de identificar las partes core del dominio que tienen el mayor peso
+para el negocio. Como resultado, se identificaron los siguientes bounded contexts:
+
+<img src="../assets/event-storming/bounded-contexts.jpg" alt="Bounded Contexts"/>
+
+- Management
+
+   Gestiona la información almacenada de las plantas, incluyendo el registro de información, el manejo de estados y las notificaciones. Su enfoque principal es mantener la integridad de los datos registrados y notificar modificaciones relevantes.
+
+- Automation
+
+   Controla los sistemas de riego automatizado mediante sensores que monitorean humedad y consumo de agua. Detecta cuando se superan umbrales, activa o desactiva el riego según necesidades, registra el consumo de agua y notifica cuando es necesario intervenir.
+
+- Subscription
+
+   Administra las suscripciones y planes de servicio, permitiendo a los usuarios (como Crop Manager o Plant Parent) seleccionar, cotizar y contratar servicios. Este contexto se encarga de mantener actualizada la información de los planes disponibles y gestionar el proceso de suscripción.
+
+- Payment
+
+   Procesa transacciones financieras, incluyendo la realización y confirmación de pagos. Su función principal es garantizar que los pagos se completen correctamente y se registren en el sistema, integrando seguridad y trazabilidad en cada operación.
+
+- Plan Service
+
+   Mantiene y actualiza los planes de servicio, así como la creación y configuración de cuentas de usuario. Ajusta límites según las necesidades del cliente y centraliza la gestión de las reglas y restricciones asociadas a cada plan.
+
+- Installation
+
+   Coordina la instalación y activación de sensores, desde la solicitud de asistencia técnica hasta la asignación, instalación y puesta en marcha de los dispositivos. Gestiona todo el ciclo de vida de los sensores dentro del sistema.
+
+- Analytics
+
+  Proporciona análisis y reportes sobre el rendimiento de los cultivos, el consumo de recursos y la efectividad de los sistemas de riego. Su objetivo es ofrecer información valiosa para la toma de decisiones y la optimización de procesos.
 #### 4.1.1.2 Domain Message Flows Modeling.
 
 -
