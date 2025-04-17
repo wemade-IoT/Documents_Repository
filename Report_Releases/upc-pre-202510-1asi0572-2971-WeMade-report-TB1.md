@@ -917,8 +917,21 @@ para el negocio. Como resultado, se identificaron los siguientes bounded context
 
   Proporciona análisis y reportes sobre el rendimiento de los cultivos, el consumo de recursos y la efectividad de los sistemas de riego. Su objetivo es ofrecer información valiosa para la toma de decisiones y la optimización de procesos.
 #### 4.1.1.2 Domain Message Flows Modeling.
+Con el objetivo de comprender cómo interactúan los distintos bounded contexts identificados, se modelaron los flujos de mensajes del dominio (Domain Message Flows). Esta técnica permite visualizar los mensajes que se intercambian entre contextos, sistemas y actores, utilizando eventos, comandos y consultas.
 
--
+Para ello, se definieron diferentes escenarios clave del sistema, y se representaron visualmente los mensajes que fluyen entre los componentes. Esto ayudó a asegurar la correcta separación de responsabilidades, detectar dependencias entre bounded contexts, y facilitar la futura implementación de integraciones entre servicios.
+
+A continuación, se muestran dos de los flujos modelados:
+
+- Scenario 1:
+
+
+**- Scenario 2: Request for consultation with a specialist**
+
+Este escenario representa cómo un usuario solicita ayuda especializada. La solicitud es procesada, un especialista es asignado, y ambos reciben confirmación mediante notificaciones.
+
+<img src="../assets/event-storming/domain-message-flows/message-flow-bounded-scenario2.jpg" alt="Domain Message Flows Modeling"/>
+
 #### 4.1.1.3 Bounded Context Canvases. 
 -
 ### 4.1.2. Context Mapping.
