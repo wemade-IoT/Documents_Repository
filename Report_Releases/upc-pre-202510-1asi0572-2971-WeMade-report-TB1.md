@@ -923,8 +923,11 @@ Para ello, se definieron diferentes escenarios clave del sistema, y se represent
 
 A continuación, se muestran dos de los flujos modelados:
 
-- Scenario 1:
+**- Scenario 1: Paying the Subscription for the Installation**
 
+Este escenario describe cómo el usuario solicita la suscripción al servicio, se procesa el pago y se confirma la suscripción. Luego, el sistema coordina la instalación de los sensores y el envío de los detalles correspondientes al usuario.
+
+<img src="../assets/event-storming/domain-message-flows/message-flow-bounded-scenario1.jpg" alt="Domain Message Flows Modeling"/>
 
 **- Scenario 2: Request for consultation with a specialist**
 
