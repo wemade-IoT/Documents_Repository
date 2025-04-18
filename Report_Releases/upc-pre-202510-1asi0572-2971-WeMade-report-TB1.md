@@ -660,6 +660,28 @@ Plataforma de monitoreo agrícola que incluya:
 
 ---
 
+**Segmento Especialista**
+
+Nombre: Luis
+<br>
+Edad: 20 años
+<br>
+Ocupación: Estudiante Universitario dedicado a la botanica
+<br>
+Browser Preferido: Safari
+<br>
+Dispositivos: Teléfono Iphone Y Mac Apple
+<br>
+Distritos: San Borja, Lima
+<br>
+Timing: 0:00
+<br>
+
+<img src="../assets/images-interviews/specialist/entrevista-segmento3.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
+
+Luis nos comenta en la entrevista respecto a la importancia en la busqueda de cambios en la planta, ya sean hongos, insectos o cambios en el color ya que ayudan a saber que puede estar sucediendole a la planta. Se le plantea un dashboard con informacion le ayudaria a saber mas de la planta y le facilitaria a realizar diagnosticos en base a los cambios aunque en su opinion menciona que una visualizacion de la planta siempre mejora la eefectividad. El comenta que un diagnostico empresarial tomaria mas tiempo. Menciona que una tarifa por subscripcion se ve mas prometedora. Menciona que las capacitaciones que se deberian realizar para un perfil como el suyo es necesario que la interfaz sea intuitiva para entender bien, comenta que quisiera un inicio donde pueda ver sus planta. Comenta que realizar una respuesta facil es importante para el y seria una razon para compartir la solucion propuesta.
+
+
 ### 2.2.3. Análisis de entrevistas.
 
 
@@ -680,6 +702,12 @@ Caracteristicas Objetivas:
 
 Caracteristicas Subjetivas:
 
+**Segmento 3: (...)**
+Estadisticas y Aspectos comunes:
+
+Caracteristicas Objetivas:
+
+Caracteristicas Subjetivas:
 
 ## 2.3. Needfinding.
 
