@@ -963,10 +963,19 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 
 <img src="../assets/event-storming/domain-message-flows/message-flow-bounded-scenario2.jpg" alt="Domain Message Flows Modeling"/>
 
-#### 4.1.1.3 Bounded Context Canvases. 
--
+### 4.1.1.3 Bounded Context Canvases. 
+
+
 ### 4.1.2. Context Mapping.
--
+
+El Context Mapping es una técnica que permite visualizar las relaciones estructurales y de comunicación entre los diferentes bounded contexts identificados en el dominio. A través de esta técnica, se pueden identificar las interacciones, dependencias y posibles puntos de integración entre los contextos.
+En el contexto de nuestro proyecto, se comenzó por identificar las relaciones entre los bounded contexts previamente definidos, ya sean de interdependencia, o de Upstream/Downstream, 
+posteriormente se definieron los patrones de relaciones entre Bounded Contexts definidos en Domain-Driven Design, como Anticorruption Layer, Shared Kernel, Customer/Supplier, etc.
+
+A continuación, se presenta el Context Map elegido que resume las relaciones entre los bounded contexts identificados:
+
+<img src="../assets/context-mapping/context-map.png" alt="Context Map"/>
+
 ### 4.1.3. Software Architecture.
 -
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
