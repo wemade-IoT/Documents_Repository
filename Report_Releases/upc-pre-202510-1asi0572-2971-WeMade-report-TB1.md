@@ -844,7 +844,40 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 | HUX/EPX | Historia de Usuario / Épica                         | Descripción                                                                                                                                                                                                              | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                               | Relacionado con (Epic ID) |
 |---------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| EP01    | Información del producto                            | Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece.                                                                                                                          | Dado que el visitante está en la landing page <br> Cuando observa la información del producto que se está ofreciendo <br> Entonces obtiene una mejor visión de qué ofrece la empresa. <br>Y se registra o considera registrarse como usuario.                                                                                                                                         |                           |
+| EP01    | Información del producto                            | Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece.                                                                                                                          | Dado que el visitante se encuentra en el sitio web <br> Cuando observa la información del producto que se está ofreciendo <br> Entonces obtiene una mejor visión de qué ofrece la empresa. <br>Y se registra o considera registrarse como usuario.                                                                                                                                         |                           |
+
+
+| EP02    | Registro y recolección de datos de las plantas                    | Como  usuario de negocios o doméstico quiero que la información registrada de mi planta recolecte datos a lo largo del tiempo para saber el avance sobre su cuidado .                                                                                                                     | Dado que el usuario de negocios o doméstic  tiene plantas registradas en el sistema <br>
+Cuando accede al historial o perfil de una planta <br>
+Entonces el sistema debe mostrar los datos recolectados a lo largo del tiempo, como temperatura, humedad, estado de salud, entre otros. usuario.                                                                                                                                         |                           |
+
+| EP03    | Monitoreo de estados de clima a través de un dashboard                           | Como usuario de negocios  quiero visualizar a través de un dashboard la evolución de las condiciones climáticas de mis plantas, para dar seguimiento a los cambios a lo largo del tiempo.  | Dado que el usuario de de negocios se encuentra en la sección de analítica <br> 
+Cuando visualiza información sobre la evolución de las condiciones climáticas <br> 
+Entonces el sistema debe mostrar datos estadísticos que reflejen los cambios en dichas condiciones a lo largo del tiempo.                                                                                                                                     |                           |
+
+| EP04    | Recomendaciones personalizadas, notificaciones y consultas ante cambios climáticos para el cuidado de plantas          | Como usuario doméstico o de negocios, quiero recibir notificaciones y recomendaciones personalizadas cuando se detecten cambios en las condiciones climáticas, así como poder realizar consultas a un especialista, para saber cómo cuidar adecuadamente mis plantas. |Escenario 1: El usuario recibe una notificación sobre un cambio en las condiciones climáticas | Dado que el usuario, doméstico o de negocios, recibe una notificación en su celular,
+Cuando se detecta un cambio en las condiciones climáticas,
+Entonces el sistema debe notificar información sobre el cambio en las condiciones climáticas                  |    Escenario 2: El usuario realiza consultas sobre recomendaciones en el cuidado de sus plantas | Dado que el usuario tiene dudas sobre el cuidado de sus plantas,
+Cuando accede a la plataforma,
+Entonces debe poder realizar consultas directas a un especialista para recibir orientación adicional.                                                                                                  |                           |
+
+
+| EP05    | Automatización de riego                        | Como usuario de negocios o doméstico, quiero poder adquirir servicios a través de planes de suscripción, para acceder a funcionalidades como la automatización del riego e instalación de sensores para el monitoreo de plantas. | Escenario 1: Usuario visualiza planes de suscripción | Dado que el usuario desea mejorar el cuidado de sus plantas,
+Cuando accede a la plataforma,
+Entonces debe visualizar los distintos planes de suscripción disponibles con sus características, beneficios y precios.         | Escenario 2: Usuario adquiere un plan de suscripción | Dado que el usuario selecciona un plan de suscripción,
+Cuando completa el proceso de pago,
+Entonces el sistema debe activar los servicios contratados y mostrar una confirmación de suscripción.| Escenario 3: Se programa el servicio de instalación | Dado que el usuario ha adquirido un plan que incluye la automatización del riego,
+Cuando se confirma el pago y la dirección de instalación,
+Entonces se debe programar e instalar el sistema de automatización de riego en su ubicación.
+                           |
+
+
+| EP06    | Adquirir servicios mediante planes de suscripción               | Como usuario de negocios o doméstico, quiero   . | Dado que el usuario de negocios adquiere el servicio de automatización de riego  <br> 
+Cuando requiere automatizar el proceso d riego en su negocio  <br> 
+Entonces le instalamos el sistema de automatización de riego.                |                           |
+
+
+
 | HU01    | Conseguir información de la empresa                 | Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto.                                                                                                                      | Dado que el visitante se encuentra en la sección de about us <br> Cuando observa la información relevante sobre la empresa <br> Entonces se interesa en saber más del producto <br>Y se registra como usuario.                                                                                                                                                                        | EP01                      |
 | HU02    | Conocer los medios oficiales de la empresa          | Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias.                                                                                     | Dado que el visitante se encuentra en la sección de footer <br> Cuando se encuentra interesado en conocer los medios oficiales <br> Entonces visita los medios oficiales de la empresa.                                                                                                                                                                                               | EP01                      |
 | HU03    | Contactar a la empresa desde la sección Contáctanos | Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio.                                                                               | Dado que el visitante se encuentra en la sección de "Contact Us" <br> Cuando se encuentra interesado en contactar a la empresa <br> Entonces envía la consulta mediante un formulario <br>Y la consulta es recibida por la empresa.                                                                                                                                                   | EP01                      |
@@ -984,6 +1017,8 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 <img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
 -
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
+
+<img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
 -
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 -
