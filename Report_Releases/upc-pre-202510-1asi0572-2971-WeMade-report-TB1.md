@@ -993,8 +993,11 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 <img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
 -
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
--
+
+<img src="../assets/deployment-diagram/deployment-diagram.png" alt="EcoGuardian Deployment Diagram"/>
+
 ## 4.2. Tactical-Level Domain-Driven Design
 -
 ### 4.2.X. Bounded Context: BoundedContext
