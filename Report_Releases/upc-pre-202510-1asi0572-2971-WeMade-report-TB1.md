@@ -1124,21 +1124,50 @@ Representa el estado actual de una planta o plantación (por ejemplo: saludable,
 
 #### Aggregates
 
-**PlantAggregate**
+**Plant**
 
-| Método                    | Descripción                                    |
-|---------------------------|------------------------------------------------|
-| updateThresholds(...)     | Actualiza los umbrales                        |
-| changeState(stateId)      | Cambia el estado de la planta                 |
-| belongsTo(userId)         | Verifica pertenencia del usuario              |
+Representa una planta individual gestionada por el usuario. Agrupa los umbrales de control ambiental y su estado asociado.
 
-**PlantationAggregate**
+| Atributo              | Tipo        |
+|-----------------------|-------------|
+| Id                    | int         |
+| Type                  | string      |
+| UserId                | int         |
+| WaterThreshold        | double      |
+| LightThreshold        | double      |
+| TemperatureThreshold  | double      |
+| CreatedAt             | DateTime    |
+| UpdatedAt             | DateTime    |
+| StateId               | int         |
 
-| Método                    | Descripción                                    |
-|---------------------------|------------------------------------------------|
-| updateThresholds(...)     | Actualiza los umbrales                        |
-| updateArea(area)          | Actualiza el área de cobertura                |
-| changeState(stateId)      | Cambia el estado de la plantación             |
+| Método                    | Descripción                                           |
+|---------------------------|-------------------------------------------------------|
+| UpdateThresholds(...)     | Actualiza los umbrales definidos por el usuario.     |
+| ChangeState(State state)  | Cambia el estado de la planta.                       |
+
+---
+
+**Plantation**
+
+Representa una plantación mayor, con área de cobertura y control de condiciones ambientales.
+
+| Atributo              | Tipo        |
+|-----------------------|-------------|
+| Id                    | int         |
+| Type                  | string      |
+| UserId                | int         |
+| WaterThreshold        | double      |
+| LightThreshold        | double      |
+| TemperatureThreshold  | double      |
+| AreaCoverage          | double      |
+| CreatedAt             | DateTime    |
+| UpdatedAt             | DateTime    |
+| StateId               | int         |
+
+| Método                         | Descripción                                          |
+|--------------------------------|------------------------------------------------------|
+| UpdateCoverage(double area)    | Actualiza el área cubierta por la plantación.       |
+| ChangeState(State state)       | Cambia el estado de la plantación.                  |
 
 ---
 
