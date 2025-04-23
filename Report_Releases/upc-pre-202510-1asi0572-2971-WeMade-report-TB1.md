@@ -1514,6 +1514,48 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.7.1. Domain Layer.
 -
 #### 4.2.7.2. Interface Layer.
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+ 
+---
+ 
+ #### Resources
+ 
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSensorResource        | Recibe datos para la creación de un nuevo sensor.            |
+ | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.
+  | DeleteSensorResource  |  Recibe datos para la eliminación de un sensor existe.     
+---
+
+  ## Transforms/Assemblers
+ - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+ 
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ |CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
+ | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.              |
+ | DeleteSensorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un sensor existente.         |
+
+ ---
+
+ #### Controllers
+ 
+ - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+ 
+ **SensorController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/sensor      | Gestiona la creación de sensores |
+ 
+
+ ---
+
 -
 #### 4.2.7.3. Application Layer.
 -
@@ -1533,7 +1575,48 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.1. Domain Layer.
 -
 #### 4.2.8.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+  
+ ---
+  
+  #### Resources
+  
+  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | SignInResource        | Recibe datos para el inicio de sesión.            |
+  | SignUpResource  |  Recibe datos para el registro de usuarios.
+   | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     
+ ---
+ 
+   ## Transforms/Assemblers
+  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+  
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  |SignInCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inicio de sesión.      |
+  | SignUpCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para el registro de usuarios.              |
+ 
+  AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
+ 
+  ---
+ 
+  #### Controllers
+  
+  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+  
+  **ActuatorController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/auth      | Gestiona el inicio de sesión y registro de usuarios  |
+  
+ 
+---
+ 
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
