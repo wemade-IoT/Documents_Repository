@@ -1230,7 +1230,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 
-## Transforms/Assemblers
+#### Transforms/Assemblers
 - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
 
 
@@ -1246,7 +1246,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ---
 
 
-## Facades
+#### Facades
 
 - Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
 
@@ -1313,7 +1313,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  | MetricResource  |  Devuelve datos de una métrica al usuario
 ---
 
-### Transforms/Assemblers
+#### Transforms/Assemblers
 - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
 
 | Clase            | Descripción                                      |
@@ -1324,7 +1324,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ---
 
-## Controllers
+#### Controllers
 - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
 
 **MetricController**
@@ -1353,7 +1353,52 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.1. Domain Layer.
 -
 #### 4.2.3.2. Interface Layer.
--
+---
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+#### Resources
+
+---
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateQuestionResource        | Recibe datos para la creación de una nueva consulta.            |
+ | QuestionResource        | Devuelve datos de una consulta al usuario         |
+ | CreateAnswerResource      | Recibe datos para la creación de una nueva respuesta       |
+ | AnswerResource     | Devuelve datos de una respuesta
+
+---
+#### Transforms/Assemblers
+
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateQuestionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de pregunta.      |
+ | QuestionResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+ | CreateAnswerCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de respuesta.         |
+ | AnswerResourceFromEntityAssembler     | Transforma una entidad del dominio de plantation en un recurso de salida para el cliente.
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**QuestionController**
+
+| Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/question       | Gestiona la creación y consulta de preguntas |
+
+**AnswerController**
+
+| Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/answer       | Gestiona la creación y consulta de respuestas  |
+
+---
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
