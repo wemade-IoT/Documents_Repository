@@ -1284,7 +1284,14 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+
+| Clase                | Interfaz Implementada | Descripción                                                                                                            |
+|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
+| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1338,7 +1345,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase                | Interfaz Implementada | Descripción                                                                    |
+|-----------------------|-----------------------|--------------------------------------------------------------------------------|
+| MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1402,7 +1414,14 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| QuestionRepository | IQuestionRepository   | Implementa los métodos de consulta y persistencia de las consultas de los usuarios domésticos  a los especialistas. |
+| AnswerRepository   | IAnswerRepository     | Implementa los métodos de consulta y persistencia de las respuestas de los especialistas a los usuarios.            |
+
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1466,7 +1485,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                             |
+|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
+| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1527,7 +1551,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase             | Interfaz Implementada | Descripción                                                                                                       |
+|-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1550,7 +1579,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.6.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                          |
+|--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| ActuatorRepository | IActuatorRepository   | Implementa los métodos de consulta y persistencia de los actuadores de los usuarios al momento de realizar el riego. |
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 -
@@ -1561,7 +1595,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.7. Bounded Context: Instalation
+### 4.2.7. Bounded Context: Installation
 -
 #### 4.2.7.1. Domain Layer.
 -
@@ -1570,7 +1604,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.7.3. Application Layer.
 -
 #### 4.2.7.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase            | Interfaz Implementada | Descripción                                                                                                          |
+|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
+
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1589,7 +1628,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase          | Interfaz Implementada | Descripción                                                                    |
+|----------------|-----------------------|--------------------------------------------------------------------------------|
+| UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
+
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1608,7 +1652,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
--
+
+### Implementación de las interfases de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
+|------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
+
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
