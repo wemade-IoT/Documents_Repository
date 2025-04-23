@@ -1177,17 +1177,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Servicio                          | Método                                               |
 |----------------------------------|------------------------------------------------------|
-| RegisterPlantService             | register(type, thresholds, user_id): Plant           |
-| RegisterPlantationService        | register(type, thresholds, area_coverage, user_id)   |
-| UpdatePlantThresholdsService     | update(id, thresholds): void                         |
-| ChangePlantStateService          | changeState(id, state_id): void                      |
+| RegisterPlantService             | register(type, thresholds, userId): Plant           |
+| RegisterPlantationService        | register(type, thresholds, areaCoverage, userId)    |
+| UpdatePlantThresholdsService     | update(id, thresholds): void                        |
+| ChangePlantStateService          | changeState(id, stateId): void                      |
 
 **Query Services**
 
 | Servicio                          | Método                                                   |
 |----------------------------------|-----------------------------------------------------------|
-| PlantQueryService                | getByUser(user_id): List<Plant><br>getById(id): Plant     |
-| PlantationQueryService           | getByUser(user_id): List<Plantation><br>getById(id)       |
+| PlantQueryService                | getByUser(userId): List<Plant><br>getById(id): Plant      |
+| PlantationQueryService           | getByUser(userId): List<Plantation><br>getById(id): Plantation |
 
 ---
 
