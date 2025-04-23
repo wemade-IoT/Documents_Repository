@@ -1285,7 +1285,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.1.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 
 | Clase                | Interfaz Implementada | Descripción                                                                                                            |
 |----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1346,7 +1346,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.2.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase                | Interfaz Implementada | Descripción                                                                    |
 |-----------------------|-----------------------|--------------------------------------------------------------------------------|
 | MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
@@ -1415,7 +1415,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.3.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase              | Interfaz Implementada | Descripción                                                                                                         |
 |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
 | QuestionRepository | IQuestionRepository   | Implementa los métodos de consulta y persistencia de las consultas de los usuarios domésticos  a los especialistas. |
@@ -1486,7 +1486,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.4.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                             |
 |------------------------|-------------------------|-----------------------------------------------------------------------------------------|
 | SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
@@ -1552,7 +1552,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.5.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase             | Interfaz Implementada | Descripción                                                                                                       |
 |-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
@@ -1621,7 +1621,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.6.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 
 | Clase              | Interfaz Implementada | Descripción                                                                                                          |
 |--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -1687,7 +1687,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.7.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase            | Interfaz Implementada | Descripción                                                                                                          |
 |------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
 | SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
@@ -1711,7 +1711,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.8.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase          | Interfaz Implementada | Descripción                                                                    |
 |----------------|-----------------------|--------------------------------------------------------------------------------|
 | UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
@@ -1735,7 +1735,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.9.4. Infrastructure Layer.
 
-### Implementación de las interfases de los Repositories
+### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
 |------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
 | NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
