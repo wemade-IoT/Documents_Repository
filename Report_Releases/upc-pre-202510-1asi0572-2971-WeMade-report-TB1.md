@@ -48,15 +48,8 @@
 
 Repositorios:
 
-Proyecto: (...)
+Proyecto: [https://github.com/wemade-IoT/Documents_Repository.com](https://github.com/wemade-IoT/Documents_Repository.com)
 
-Landing Page: (...)
-
-Web Page del Proyecto: (...)
-
-Mobile App del Proyecto (...)
-
-Back End del Proyecto: (...)
 
 ### TB1
 
