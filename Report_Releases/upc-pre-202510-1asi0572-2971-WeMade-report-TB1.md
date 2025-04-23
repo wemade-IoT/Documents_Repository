@@ -901,6 +901,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 ![Impact Mapping Doméstico](../assets/impact-mapping/segmento-domestico.png)
 ![Impact Mapping Negocio](../assets/impact-mapping/segmento-negocio.png)
+![Imapct Mapping Especialista](../assets/impact-mapping/segmento-especialista.png)
 
 ## 3.4. Product Backlog.
 
