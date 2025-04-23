@@ -167,8 +167,8 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio Especifico                                                                            | Acciones Realizadas | Conclusiones |
 |------------------------------------------------------------------------------------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | ...                 | ...          |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumpleobjetivos. | ...                 | ...          | 
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | Manuel Sebastian Peña Rivera <br> TB1: <br>Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realice de forma colaborativa de la creación de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams, y Container Level Diagrams. Para ello tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas.   | ...          |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Manuel Sebastian Peña Rivera<br> TB1: <br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.               | ...          | 
 
 
 
@@ -1187,7 +1187,79 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.1.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+---
+
+#### Resources
+
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| CreatePlantResource        | Recibe datos para la creación de una nueva planta.            |
+| UpdatePlantResource  |  Recibe datos para la actualización de una planta existe.                |
+| PlantResource        | Devuelve datos de una planta al usuario         |
+| CreatePlantationResource      | Recibe datos para la creación de un nuevo plantation         |
+| UpdatePlantationResource      | Recibe datos para la actualización de un plantation existente       |
+| PlantationResource     | Devuelve datos de un plantation al usuario 
+
+
+---
+
+
+
+#### Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| CreatePlantCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de planta.      |
+| UpdatePlantCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una planta existente.              |
+| PlantResourceFromEntityAssembler        | Transforma una entidad de plant en un recurso que puede ser devuelto al cliente.       |
+| CreatePlantationCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de plantation.         |
+| UpdatePlantationCommandFromResourceAssembler     | Transforma un recurso de entrada en un comando para actualizar un plantation existente.       |
+| PlantationResourceFromEntityAssembler     | Transforma una entidad de plantation en un recurso de salida para el cliente.
+
+---
+
+
+#### Facades
+
+- Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| IPlantServiceFacade        | Define un contrato para los servicios de dominio relacionados con plantas, que deben ser expuestos a servicios externos.            |
+| PlantServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+
+
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**PlantController**
+
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/plant       | Gestiona la creación y consulta de plantas  |
+
+
+**PlantationController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/plantation       | Gestiona la creación y consulta de plantation  |
+
+
+
+
+
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
@@ -1206,7 +1278,42 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.1. Domain Layer.
 -
 #### 4.2.2.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+--- 
+#### Resources
+ 
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateMetricResource        | Recibe datos para la creación de una nueva métrica.            |
+  | UpdateMetricResource        | Recibe datos para la actualización de una métrica existente.            |
+ | MetricResource  |  Devuelve datos de una métrica al usuario
+---
+
+#### Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateMetricCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de métricas.      |
+ | UpdateMetricCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una métrica existente.              |
+ | MetricResourceFromEntityAssembler        | Transforma una entidad de metric en un recurso que puede ser devuelto al cliente.       |
+
+---
+
+#### Controllers
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**MetricController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/metric       | Gestiona la creación y consulta de métricas  |
+
+
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
@@ -1225,7 +1332,52 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.1. Domain Layer.
 -
 #### 4.2.3.2. Interface Layer.
--
+---
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+#### Resources
+
+---
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateQuestionResource        | Recibe datos para la creación de una nueva consulta.            |
+ | QuestionResource        | Devuelve datos de una consulta al usuario         |
+ | CreateAnswerResource      | Recibe datos para la creación de una nueva respuesta       |
+ | AnswerResource     | Devuelve datos de una respuesta
+
+---
+#### Transforms/Assemblers
+
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateQuestionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de pregunta.      |
+ | QuestionResourceFromEntityAssembler        | Transforma una entidad de question en un recurso que puede ser devuelto al cliente.       |
+ | CreateAnswerCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de respuesta.         |
+ | AnswerResourceFromEntityAssembler     | Transforma una entidad de answer en un recurso de salida para el cliente.
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**QuestionController**
+
+| Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/question       | Gestiona la creación y consulta de preguntas |
+
+**AnswerController**
+
+| Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/answer       | Gestiona la creación y consulta de respuestas  |
+
+---
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
@@ -1235,7 +1387,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
--
+
+<img src="../assets/tactical-level-ddd/consulting/consulting-class-diagram.png" alt="Consulting Class Diagram"/>
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 
@@ -1244,7 +1398,42 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.1. Domain Layer.
 -
 #### 4.2.4.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+---
+#### Resources
+
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
+ | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
+
+---
+
+#### Transforms/Assemblers
+
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
+ | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
+
+--- 
+
+#### Controllers 
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**SubscriptionController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
+
+---
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
@@ -1278,38 +1467,20 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.6. Bounded Context: Automation
-Este bounded context se encarga de automatizar el funcionamiento de los actuadores (aspersores de agua) en respuesta a eventos que indican que los niveles de humedad han alcanzado ciertos umbrales. La automatización permite documentar y ejecutar de manera eficiente los procesos de riego a nivel empresarial, respondiendo en tiempo real a las condiciones del suelo.
-#### 4.2.6.1. Domain Layer.
-En esta sección el core de el bounded context de automation recae principalmente en la entidad de **Actuator** el cual deberá persistir en la base de datos para tener un registro de los actuadores de la organizacion.
-A contiuacion se mencionan los integrantes del domain layer:
 
-``` 
-IActuatorRepository : Interface
-Actuator: Aggregate
-ValueObject: HumidtyThreshold (Este se recibe del bounded de Analytics)
-```
+#### 4.2.6.1. Domain Layer.
+
 
 #### 4.2.6.2. Interface Layer.
-``` 
-ActuatorController : Controller      
-```
+
 
 #### 4.2.6.3. Application Layer.
 
--
 
-```
-ActivateActuatorCommandHandler : Comandos para activar el actuador
-CreateActuatorCommandHandler : Crea la instancia del actuador
-UpdateActuatorCommandHandler : Actualiza el estado del Threshold y el Actuador
-```
 
 #### 4.2.6.4. Infrastructure Layer.
 -
 
-```
-ActuatorRepository : Repository
-```
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1324,6 +1495,48 @@ ActuatorRepository : Repository
 #### 4.2.7.1. Domain Layer.
 -
 #### 4.2.7.2. Interface Layer.
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+ 
+---
+ 
+ #### Resources
+ 
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSensorResource        | Recibe datos para la creación de un nuevo sensor.            |
+ | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.
+  | DeleteSensorResource  |  Recibe datos para la eliminación de un sensor existe.     
+---
+
+  ## Transforms/Assemblers
+ - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+ 
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ |CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
+ | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.              |
+ | DeleteSensorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un sensor existente.         |
+
+ ---
+
+ #### Controllers
+ 
+ - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+ 
+ **SensorController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/sensor      | Gestiona la creación de sensores |
+ 
+
+ ---
+
 -
 #### 4.2.7.3. Application Layer.
 -
@@ -1343,7 +1556,48 @@ ActuatorRepository : Repository
 #### 4.2.8.1. Domain Layer.
 -
 #### 4.2.8.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+  
+ ---
+  
+  #### Resources
+  
+  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | SignInResource        | Recibe datos para el inicio de sesión.            |
+  | SignUpResource  |  Recibe datos para el registro de usuarios.
+   | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     
+ ---
+ 
+   ## Transforms/Assemblers
+  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+  
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  |SignInCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inicio de sesión.      |
+  | SignUpCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para el registro de usuarios.              |
+ 
+  AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
+ 
+  ---
+ 
+  #### Controllers
+  
+  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+  
+  **ActuatorController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/auth      | Gestiona el inicio de sesión y registro de usuarios  |
+  
+ 
+---
+ 
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
@@ -1412,7 +1666,7 @@ Link de entrevistas [Anexo 2.2.1.1]
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
 
 
-
+1
 Importante! 
 
 Hay links que tienen :v: para solucionar esto se debe de poner [": v :"] junto.
