@@ -167,8 +167,8 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio Especifico                                                                            | Acciones Realizadas | Conclusiones |
 |------------------------------------------------------------------------------------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | ...                 | ...          |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumpleobjetivos. | ...                 | ...          | 
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | Manuel Sebastian Peña Rivera<br> TB1: <br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.                | ...          |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | ...                 | ...          | 
 
 
 
@@ -1284,14 +1284,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-
-| Clase                | Interfaz Implementada | Descripción                                                                                                            |
-|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
-| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
-| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
-
+-
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1345,12 +1338,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase                | Interfaz Implementada | Descripción                                                                    |
-|-----------------------|-----------------------|--------------------------------------------------------------------------------|
-| MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
-
+-
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1414,14 +1402,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase              | Interfaz Implementada | Descripción                                                                                                         |
-|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
-| QuestionRepository | IQuestionRepository   | Implementa los métodos de consulta y persistencia de las consultas de los usuarios domésticos  a los especialistas. |
-| AnswerRepository   | IAnswerRepository     | Implementa los métodos de consulta y persistencia de las respuestas de los especialistas a los usuarios.            |
-
-
+-
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1444,6 +1425,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
+ | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
  | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
 
 ---
@@ -1454,21 +1436,10 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
-
+ | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
  | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
 
 --- 
-
-#### Facades
-
-- Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | ISubscriptionServiceFacade        | Define un contrato para los servicios de dominio relacionados con suscripciones, que deben ser expuestos a servicios externos.            |
- | SubscriptionServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
-
----
 
 #### Controllers 
 
@@ -1479,18 +1450,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  
  | Ruta especifica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | /api/v1/subscription       | Gestiona la consulta de suscripciones  |
+ | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
 
 ---
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase                  | Interfaz Implementada   | Descripción                                                                             |
-|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
-| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
-
+-
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1505,58 +1471,11 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.1. Domain Layer.
 -
 #### 4.2.5.2. Interface Layer.
-
----
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
- 
- ---
- 
- #### Resources
- 
- - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | CreateInvoiceResource        | Recibe datos para la creación de una nueva factura.            |
- 
- 
----
-
-#### Transforms/Assemblers
- - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
- 
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | CreateInvoiceCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de factura.      |
-
-
- ---
- 
- #### Controllers
- 
- - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
- 
- **InvoiceController**
- 
- 
- | Ruta especifica             | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | /api/v1/invoice      | Gestiona la creación de facturas  |
-
----
-
-
+-
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase             | Interfaz Implementada | Descripción                                                                                                       |
-|-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
-| InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
-
+-
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1573,59 +1492,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.6.2. Interface Layer.
 
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
- 
----
- 
- #### Resources
- 
- - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | CreateActuatorResource        | Recibe datos para la creación de un nuevo actuador.            |
- | UpdateActuatorResource  |  Recibe datos para la actualización de un actuador existe.
-  | DeleteActuatorResource  |  Recibe datos para la eliminación de un actuador existe.     
----
-
-  ## Transforms/Assemblers
- - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
- 
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- |CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuador.      |
- | UpdateActuatorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un actuador existente.              |
- | DeleteActuatorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un actuador existente.         |
-
- ---
-
- #### Controllers
- 
- - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
- 
- **ActuatorController**
- 
- 
- | Ruta especifica             | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | /api/v1/actuator      | Gestiona la creación de actuadores  |
- 
-
- ---
-
 
 #### 4.2.6.3. Application Layer.
 
 
 
 #### 4.2.6.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-
-| Clase              | Interfaz Implementada | Descripción                                                                                                          |
-|--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| ActuatorRepository | IActuatorRepository   | Implementa los métodos de consulta y persistencia de los actuadores de los usuarios al momento de realizar el riego. |
+-
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 -
@@ -1636,62 +1509,16 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.7. Bounded Context: Installation
+### 4.2.7. Bounded Context: Instalation
 -
 #### 4.2.7.1. Domain Layer.
 -
 #### 4.2.7.2. Interface Layer.
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
- 
----
- 
- #### Resources
- 
- - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | CreateSensorResource        | Recibe datos para la creación de un nuevo sensor.            |
- | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.
-  | DeleteSensorResource  |  Recibe datos para la eliminación de un sensor existe.     
----
-
-  ## Transforms/Assemblers
- - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
- 
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- |CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
- | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.              |
- | DeleteSensorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un sensor existente.         |
-
- ---
-
- #### Controllers
- 
- - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
- 
- **SesnorController**
- 
- 
- | Ruta especifica             | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | /api/v1/sensor      | Gestiona la creación de sensores |
- 
-
- ---
-
+-
 #### 4.2.7.3. Application Layer.
 -
 #### 4.2.7.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase            | Interfaz Implementada | Descripción                                                                                                          |
-|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
-
+-
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1710,12 +1537,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase          | Interfaz Implementada | Descripción                                                                    |
-|----------------|-----------------------|--------------------------------------------------------------------------------|
-| UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
-
+-
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -1734,12 +1556,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
-
-### Implementación de las interfaces de los Repositories
-| Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
-|------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
-| NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
-
+-
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
