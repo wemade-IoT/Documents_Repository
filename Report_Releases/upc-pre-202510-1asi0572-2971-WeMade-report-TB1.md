@@ -1206,7 +1206,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
 
 
-### 4.2.1. Bounded Context: Management
 
 #### 4.2.1.2. Interface Layer.
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -1300,7 +1299,42 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.1. Domain Layer.
 -
 #### 4.2.2.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+--- 
+#### Resources
+ 
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateMetricResource        | Recibe datos para la creación de una nueva métrica.            |
+  | UpdateMetricResource        | Recibe datos para la actualización de una métrica existente.            |
+ | MetricResource  |  Devuelve datos de una métrica al usuario
+---
+
+### Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateMetricCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de métricas.      |
+ | UpdateMetricCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una métrica existente.              |
+ | MetricResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+
+---
+
+## Controllers
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**MetricController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/metric       | Gestiona la creación y consulta de métricas  |
+
+
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
