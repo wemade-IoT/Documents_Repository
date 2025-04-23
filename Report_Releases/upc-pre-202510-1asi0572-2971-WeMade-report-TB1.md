@@ -1238,10 +1238,10 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 |---------------------|--------------------------------------------------|
 | CreatePlantCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de planta.      |
 | UpdatePlantCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una planta existente.              |
-| PlantResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+| PlantResourceFromEntityAssembler        | Transforma una entidad de plant en un recurso que puede ser devuelto al cliente.       |
 | CreatePlantationCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de plantation.         |
 | UpdatePlantationCommandFromResourceAssembler     | Transforma un recurso de entrada en un comando para actualizar un plantation existente.       |
-| PlantationResourceFromEntityAssembler     | Transforma una entidad del dominio de plantation en un recurso de salida para el cliente.
+| PlantationResourceFromEntityAssembler     | Transforma una entidad de plantation en un recurso de salida para el cliente.
 
 ---
 
@@ -1320,7 +1320,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  |---------------------|--------------------------------------------------|
  | CreateMetricCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de métricas.      |
  | UpdateMetricCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una métrica existente.              |
- | MetricResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+ | MetricResourceFromEntityAssembler        | Transforma una entidad de metric en un recurso que puede ser devuelto al cliente.       |
 
 ---
 
@@ -1376,9 +1376,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
  | CreateQuestionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de pregunta.      |
- | QuestionResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+ | QuestionResourceFromEntityAssembler        | Transforma una entidad de question en un recurso que puede ser devuelto al cliente.       |
  | CreateAnswerCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de respuesta.         |
- | AnswerResourceFromEntityAssembler     | Transforma una entidad del dominio de plantation en un recurso de salida para el cliente.
+ | AnswerResourceFromEntityAssembler     | Transforma una entidad de answer en un recurso de salida para el cliente.
 
 ---
 
@@ -1417,7 +1417,42 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.1. Domain Layer.
 -
 #### 4.2.4.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+---
+#### Resources
+
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
+ | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
+
+---
+
+#### Transforms/Assemblers
+
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
+ | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
+
+--- 
+
+#### Controllers 
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**SubscriptionController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
+
+---
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
@@ -1451,38 +1486,20 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.6. Bounded Context: Automation
-Este bounded context se encarga de automatizar el funcionamiento de los actuadores (aspersores de agua) en respuesta a eventos que indican que los niveles de humedad han alcanzado ciertos umbrales. La automatización permite documentar y ejecutar de manera eficiente los procesos de riego a nivel empresarial, respondiendo en tiempo real a las condiciones del suelo.
-#### 4.2.6.1. Domain Layer.
-En esta sección el core de el bounded context de automation recae principalmente en la entidad de **Actuator** el cual deberá persistir en la base de datos para tener un registro de los actuadores de la organizacion.
-A contiuacion se mencionan los integrantes del domain layer:
 
-``` 
-IActuatorRepository : Interface
-Actuator: Aggregate
-ValueObject: HumidtyThreshold (Este se recibe del bounded de Analytics)
-```
+#### 4.2.6.1. Domain Layer.
+
 
 #### 4.2.6.2. Interface Layer.
-``` 
-ActuatorController : Controller      
-```
+
 
 #### 4.2.6.3. Application Layer.
 
--
 
-```
-ActivateActuatorCommandHandler : Comandos para activar el actuador
-CreateActuatorCommandHandler : Crea la instancia del actuador
-UpdateActuatorCommandHandler : Actualiza el estado del Threshold y el Actuador
-```
 
 #### 4.2.6.4. Infrastructure Layer.
 -
 
-```
-ActuatorRepository : Repository
-```
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
