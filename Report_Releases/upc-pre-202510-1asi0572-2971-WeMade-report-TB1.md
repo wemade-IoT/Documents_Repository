@@ -1077,7 +1077,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 ## 4.2. Tactical-Level Domain-Driven Design
 -
-### 4.2.1. Bounded Context: BoundedContext
+### 4.2.1. Bounded Context: Management
 -
 #### 4.2.1.1. Domain Layer.
 -
@@ -1096,7 +1096,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 -
 
-### 4.2.2. Bounded Context: BoundedContext
+### 4.2.2. Bounded Context: Analytics
 -
 #### 4.2.2.1. Domain Layer.
 -
@@ -1115,7 +1115,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.3. Bounded Context: BoundedContext
+### 4.2.3. Bounded Context: Consulting
 -
 #### 4.2.3.1. Domain Layer.
 -
@@ -1134,7 +1134,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.4. Bounded Context: BoundedContext
+### 4.2.4. Bounded Context: Subscription
 -
 #### 4.2.4.1. Domain Layer.
 -
@@ -1153,7 +1153,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.5. Bounded Context: BoundedContext
+### 4.2.5. Bounded Context: Payment
 -
 #### 4.2.5.1. Domain Layer.
 -
@@ -1172,7 +1172,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.6. Bounded Context: BoundedContext
+### 4.2.6. Bounded Context: Automation
 -
 #### 4.2.6.1. Domain Layer.
 -
@@ -1191,7 +1191,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.7. Bounded Context: BoundedContext
+### 4.2.7. Bounded Context: Instalation
 -
 #### 4.2.7.1. Domain Layer.
 -
@@ -1210,7 +1210,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.8. Bounded Context: BoundedContext
+### 4.2.8. Bounded Context: Identity and Access Management
 -
 #### 4.2.8.1. Domain Layer.
 -
@@ -1229,7 +1229,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
 
-### 4.2.9. Bounded Context: BoundedContext
+### 4.2.9. Bounded Context: Notifications
 -
 #### 4.2.9.1. Domain Layer.
 -
