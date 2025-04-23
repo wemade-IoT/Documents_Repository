@@ -753,11 +753,24 @@ Características Subjetivas:
 
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de 
+100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
+50% piensa que una capacitacion basica ayudaria mucho.
+
+Necesidades comunes:
+- Dashboard con información detallada sobre las plantas.
+- Visualización de datos como humedad, iluminación y temperatura.
+- Interfaz intuitiva para facilitar el diagnóstico.
 
 Características Objetivas:
+- Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
+- Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
+- Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
+- Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
+- Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
 
 ## 2.3. Needfinding.
 
