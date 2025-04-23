@@ -1095,6 +1095,46 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ### 4.2.1. Bounded Context: Management
 -
 #### 4.2.1.1. Domain Layer.
+
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+---
+
+#### Entities
+
+**Plant**  
+Entidad que representa una planta monitoreada por un usuario.
+
+| Atributo              | Tipo             | Descripción                          |
+|-----------------------|------------------|--------------------------------------|
+| id                    | int              | Identificador único                  |
+| type                  | text             | Tipo o especie de la planta          |
+| user_id               | int              | Identificador del usuario            |
+| water_threshold       | double(2,3)      | Umbral de agua                       |
+| light_threshold       | double(2,3)      | Umbral de luz                        |
+| temperature_threshold | double(2,3)      | Umbral de temperatura                |
+| created_at            | datetime         | Fecha de creación                    |
+| updated_at            | datetime         | Fecha de modificación                |
+| states_id             | int (FK)         | Estado de la planta (foráneo)        |
+
+**Plantation**  
+Entidad que representa una plantación registrada por un usuario.
+
+| Atributo              | Tipo             | Descripción                          |
+|-----------------------|------------------|--------------------------------------|
+| id                    | int              | Identificador único                  |
+| type                  | text             | Tipo de plantación                   |
+| user_id               | int              | Identificador del usuario            |
+| water_threshold       | double(2,3)      | Umbral de agua                       |
+| light_threshold       | double(2,3)      | Umbral de luz                        |
+| temperature_threshold | double(2,3)      | Umbral de temperatura                |
+| area_coverage         | double(20,20)    | Área de cobertura                    |
+| created_at            | datetime         | Fecha de creación                    |
+| updated_at            | datetime         | Fecha de modificación                |
+| states_id             | int (FK)         | Estado de la plantación (foráneo)    |
+
+---
+
 -
 #### 4.2.1.2. Interface Layer.
 -
