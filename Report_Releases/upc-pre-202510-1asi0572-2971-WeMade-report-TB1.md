@@ -1164,6 +1164,26 @@ Entidad que representa una plantación registrada por un usuario.
 
 ---
 
+#### Domain Services
+
+**Command Services**
+
+| Servicio                          | Método                                               |
+|----------------------------------|------------------------------------------------------|
+| RegisterPlantService             | register(type, thresholds, user_id): Plant           |
+| RegisterPlantationService        | register(type, thresholds, area_coverage, user_id)   |
+| UpdatePlantThresholdsService     | update(id, thresholds): void                         |
+| ChangePlantStateService          | changeState(id, state_id): void                      |
+
+**Query Services**
+
+| Servicio                          | Método                                                   |
+|----------------------------------|-----------------------------------------------------------|
+| PlantQueryService                | getByUser(user_id): List<Plant><br>getById(id): Plant     |
+| PlantationQueryService           | getByUser(user_id): List<Plantation><br>getById(id)       |
+
+---
+
 
 -
 #### 4.2.1.2. Interface Layer.
