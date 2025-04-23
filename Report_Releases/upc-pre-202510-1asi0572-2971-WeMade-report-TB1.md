@@ -1093,8 +1093,8 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 ## 4.2. Tactical-Level Domain-Driven Design
 -
 ### 4.2.1. Bounded Context: Management
--
-#### 4.2.1.1. Domain Layer.
+
+#### 4.2.1.1. Domain Layer
 
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
@@ -1104,21 +1104,21 @@ En esta capa se describen las clases que representan el núcleo del dominio del 
 
 **State**
 
-Representa el estado actual de una planta o plantación (por ejemplo: saludable, en riesgo, crítica). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
+Representa el estado actual de una planta o plantación (por ejemplo: Saludable, EnRiesgo, Crítica). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
 
 | Atributo | Tipo   |
 |----------|--------|
-| Id       | int    |
-| Type     | string |
+| Id       | Int    |
+| Type     | String |
 
 ---
 
 #### Value Objects
 
-| Nombre             | Descripción                                            |
-|--------------------|--------------------------------------------------------|
-| State              | Representa el estado actual (`id`, `type`)             |
-| Thresholds         | Agrupación de los umbrales: agua, luz, temperatura     |
+| Nombre     | Descripción                                              |
+|------------|----------------------------------------------------------|
+| State      | Representa el estado actual (`Id`, `Type`)               |
+| Thresholds | Agrupación de los umbrales: Agua, Luz, Temperatura       |
 
 ---
 
@@ -1128,22 +1128,22 @@ Representa el estado actual de una planta o plantación (por ejemplo: saludable,
 
 Representa una planta individual gestionada por el usuario. Agrupa los umbrales de control ambiental y su estado asociado.
 
-| Atributo              | Tipo        |
-|-----------------------|-------------|
-| Id                    | int         |
-| Type                  | string      |
-| UserId                | int         |
-| WaterThreshold        | double      |
-| LightThreshold        | double      |
-| TemperatureThreshold  | double      |
-| CreatedAt             | DateTime    |
-| UpdatedAt             | DateTime    |
-| StateId               | int         |
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Type                  | String   |
+| UserId                | Int      |
+| WaterThreshold        | Double   |
+| LightThreshold        | Double   |
+| TemperatureThreshold  | Double   |
+| CreatedAt             | DateTime |
+| UpdatedAt             | DateTime |
+| StateId               | Int      |
 
-| Método                    | Descripción                                           |
-|---------------------------|-------------------------------------------------------|
-| UpdateThresholds(...)     | Actualiza los umbrales definidos por el usuario.     |
-| ChangeState(State state)  | Cambia el estado de la planta.                       |
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| UpdateThresholds(...) | Actualiza los umbrales definidos por el usuario.    |
+| ChangeState(state)    | Cambia el estado de la planta.                      |
 
 ---
 
@@ -1151,23 +1151,23 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 Representa una plantación mayor, con área de cobertura y control de condiciones ambientales.
 
-| Atributo              | Tipo        |
-|-----------------------|-------------|
-| Id                    | int         |
-| Type                  | string      |
-| UserId                | int         |
-| WaterThreshold        | double      |
-| LightThreshold        | double      |
-| TemperatureThreshold  | double      |
-| AreaCoverage          | double      |
-| CreatedAt             | DateTime    |
-| UpdatedAt             | DateTime    |
-| StateId               | int         |
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Type                  | String   |
+| UserId                | Int      |
+| WaterThreshold        | Double   |
+| LightThreshold        | Double   |
+| TemperatureThreshold  | Double   |
+| AreaCoverage          | Double   |
+| CreatedAt             | DateTime |
+| UpdatedAt             | DateTime |
+| StateId               | Int      |
 
-| Método                         | Descripción                                          |
-|--------------------------------|------------------------------------------------------|
-| UpdateCoverage(double area)    | Actualiza el área cubierta por la plantación.       |
-| ChangeState(State state)       | Cambia el estado de la plantación.                  |
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| UpdateCoverage(area)     | Actualiza el área cubierta por la plantación.     |
+| ChangeState(state)       | Cambia el estado de la plantación.                |
 
 ---
 
@@ -1175,17 +1175,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 **Command Services**
 
-| Servicio                       | Método                                                                 |
-|--------------------------------|------------------------------------------------------------------------|
-| IPlantCommandService           | Handle(command: CreatePlantCommand): void<br>Handle(command: UpdatePlantCommand): void |
-| IPlantationCommandService      | Handle(command: CreatePlantationCommand): void<br>Handle(command: UpdatePlantationCommand): void |                |
+| Servicio                  | Método                                                                 |
+|---------------------------|------------------------------------------------------------------------|
+| IPlantCommandService      | Handle(command: CreatePlantCommand): Void<br>Handle(command: UpdatePlantCommand): Void |
+| IPlantationCommandService | Handle(command: CreatePlantationCommand): Void<br>Handle(command: UpdatePlantationCommand): Void |
 
 **Query Services**
 
-| Servicio                       | Método                                                                 |
-|--------------------------------|------------------------------------------------------------------------|
-| PlantQueryService              | Handle(GetPlantsByUserIdQuery): List<Plant><br>Handle(GetPlantsByStateIdQuery): List<Plant> |
-| PlantationQueryService         | Handle(GetPlantationsByUserIdQuery): List<Plantation><br>Handle(GetPlantationsByStateIdQuery): List<Plantation> |
+| Servicio                  | Método                                                                 |
+|---------------------------|------------------------------------------------------------------------|
+| PlantQueryService         | Handle(query: GetPlantsByUserIdQuery): List<Plant><br>Handle(query: GetPlantsByStateIdQuery): List<Plant> |
+| PlantationQueryService    | Handle(query: GetPlantationsByUserIdQuery): List<Plantation><br>Handle(query: GetPlantationsByStateIdQuery): List<Plantation> |
 
 ---
 
@@ -1193,17 +1193,18 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 **IPlantRepository**
 
-| Método                             | Descripción                            |
-|------------------------------------|----------------------------------------|
-| FindByUserIdAsync(userId: int)     | Lista todas las plantas de un usuario |
-| FindByStateIdAsync(stateId: int)   | Lista todas las plantas por estado    |
+| Método                         | Descripción                            |
+|--------------------------------|----------------------------------------|
+| FindByUserIdAsync(userId)      | Lista todas las plantas de un usuario |
+| FindByStateIdAsync(stateId)    | Lista todas las plantas por estado    |
 
 **IPlantationRepository**
 
-| Método                                 | Descripción                                |
-|----------------------------------------|--------------------------------------------|
-| FindByUserIdAsync(userId: int)         | Lista todas las plantaciones de un usuario |
-| FindByStateIdAsync(stateId: int)       | Lista todas las plantaciones por estado    |
+| Método                             | Descripción                                |
+|------------------------------------|--------------------------------------------|
+| FindByUserIdAsync(userId)          | Lista todas las plantaciones de un usuario |
+| FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
+
 
 
 #### 4.2.1.2. Interface Layer.
