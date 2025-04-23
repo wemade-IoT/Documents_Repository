@@ -1184,8 +1184,25 @@ Entidad que representa una plantación registrada por un usuario.
 
 ---
 
+#### Repositories (Interfaces)
 
--
+**PlantRepository**
+
+| Método              | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| findById(id)        | Buscar planta por ID                             |
+| findByUser(userId)  | Listar plantas por usuario                       |
+| save(plant)         | Persistir o actualizar la entidad                |
+
+**PlantationRepository**
+
+| Método              | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| findById(id)        | Buscar plantación por ID                         |
+| findByUser(userId)  | Listar plantaciones por usuario                  |
+| save(plantation)    | Persistir o actualizar la entidad                |
+
+
 #### 4.2.1.2. Interface Layer.
 -
 #### 4.2.1.3. Application Layer.
