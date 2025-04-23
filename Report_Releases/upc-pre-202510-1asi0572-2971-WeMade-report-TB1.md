@@ -1135,6 +1135,17 @@ Entidad que representa una plantación registrada por un usuario.
 
 ---
 
+#### Value Objects
+
+| Nombre             | Descripción                                            |
+|--------------------|--------------------------------------------------------|
+| State              | Representa el estado actual (`id`, `type`)             |
+| Thresholds         | Agrupación de los umbrales: agua, luz, temperatura     |
+
+---
+
+
+
 -
 #### 4.2.1.2. Interface Layer.
 -
