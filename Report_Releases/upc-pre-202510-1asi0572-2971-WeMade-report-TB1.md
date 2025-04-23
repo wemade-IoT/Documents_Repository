@@ -1102,36 +1102,14 @@ En esta capa se describen las clases que representan el núcleo del dominio del 
 
 #### Entities
 
-**Plant**  
-Entidad que representa una planta monitoreada por un usuario.
+**State**
 
-| Atributo              | Tipo             | Descripción                          |
-|-----------------------|------------------|--------------------------------------|
-| id                    | int              | Identificador único                  |
-| type                  | text             | Tipo o especie de la planta          |
-| user_id               | int              | Identificador del usuario            |
-| water_threshold       | double(2,3)      | Umbral de agua                       |
-| light_threshold       | double(2,3)      | Umbral de luz                        |
-| temperature_threshold | double(2,3)      | Umbral de temperatura                |
-| created_at            | datetime         | Fecha de creación                    |
-| updated_at            | datetime         | Fecha de modificación                |
-| states_id             | int (FK)         | Estado de la planta (foráneo)        |
+Representa el estado actual de una planta o plantación (por ejemplo: saludable, en riesgo, crítica). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
 
-**Plantation**  
-Entidad que representa una plantación registrada por un usuario.
-
-| Atributo              | Tipo             | Descripción                          |
-|-----------------------|------------------|--------------------------------------|
-| id                    | int              | Identificador único                  |
-| type                  | text             | Tipo de plantación                   |
-| user_id               | int              | Identificador del usuario            |
-| water_threshold       | double(2,3)      | Umbral de agua                       |
-| light_threshold       | double(2,3)      | Umbral de luz                        |
-| temperature_threshold | double(2,3)      | Umbral de temperatura                |
-| area_coverage         | double(20,20)    | Área de cobertura                    |
-| created_at            | datetime         | Fecha de creación                    |
-| updated_at            | datetime         | Fecha de modificación                |
-| states_id             | int (FK)         | Estado de la plantación (foráneo)    |
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | int    |
+| Type     | string |
 
 ---
 
