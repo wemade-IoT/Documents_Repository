@@ -769,9 +769,13 @@ Los user personas nos sirven para poder identificar como serán los comportamien
 
 <img src="../assets/user-personas/segmento-domestico.png"/>
 
-**Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
+**Segmento 2:** 
 
-**Segmento 3:** <img src="../assets/user-personas/segmento-especialista.png"/>
+<img src="../assets/user-personas/segmento-negocio.png"/>
+
+**Segmento 3:** 
+
+<img src="../assets/user-personas/segmento-especialista.png"/>
 
 ---
 
@@ -818,13 +822,17 @@ En esta sección hacemos un journey mapping para comprender el camino que recorr
 
 ### 2.3.4. Empathy Mapping.
 
-**Segmento 1:** : 
+**Segmento 1:** 
 
 <img src="../assets/empathy-mapping/segmento-domestico.png" alt="Segmento doméstico"/>
 
-**Segmento 2:** <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
+**Segmento 2:** 
 
-**Segmento 3** <img src="../assets/empathy-mapping/segmento-especialista.png" alt="Segmento especialista"/>
+ <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
+
+**Segmento 3:** 
+
+<img src="../assets/empathy-mapping/segmento-especialista.png" alt="Segmento especialista"/>
 
 ### 2.3.5. As-is Scenario Mapping.
 
@@ -932,6 +940,10 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 | HU30    | Activación de modo test desde consola serial                                                                   | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego.                                                         | Dado que el monitor serial está abierto, <br> Cuando el usuario escribe `test_humedad`, <br> Entonces el sistema responde con una lectura simulada de humedad y omite la lógica de riego real.                                                                                                                             |                           |
 | HU31    | Mostrar mensaje de error si sensor no está conectado                                                           | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware.                                 | Dado que el sensor de humedad no está conectado, <br> Cuando el dispositivo intenta leer un valor, <br> Entonces se imprime en consola: "Error: Sensor de humedad no detectado".                                                                                                                                        |                           |
 
+| HU32    | Solicitar recomendaciones a un especialista                                                         | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar.                                 | Escenario 1:  Usuario doméstico o de negocios solicita una recomendación | Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta, <br> Cuando el sistema detecte un cambio en las condiciones ambientales, <br> Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista .                                                                                                                                        |                         |
+| HU33    | Registrar recomendaciones                                                       | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas.                                 | Escenario 1: Especialista registra recomendación | Dado que un usuario doméstico o de negocios solicita una recomendación a un especialista, <br> Cuando un usuario doméstico o de negocios recibe una alerta sobre el estado de sus plantas, <br> Entonces un especialista registra la recomendación dada al usuario .                                                                                                                                        |                         |
+
+
 
 
 
@@ -939,6 +951,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 ![Impact Mapping Doméstico](../assets/impact-mapping/segmento-domestico.png)
 ![Impact Mapping Negocio](../assets/impact-mapping/segmento-negocio.png)
+![Imapct Mapping Especialista](../assets/impact-mapping/segmento-especialista.png)
 
 ## 3.4. Product Backlog.
 
