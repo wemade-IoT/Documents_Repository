@@ -1175,39 +1175,35 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 **Command Services**
 
-| Servicio                          | Método                                               |
-|----------------------------------|------------------------------------------------------|
-| RegisterPlantService             | register(type, thresholds, userId): Plant           |
-| RegisterPlantationService        | register(type, thresholds, areaCoverage, userId)    |
-| UpdatePlantThresholdsService     | update(id, thresholds): void                        |
-| ChangePlantStateService          | changeState(id, stateId): void                      |
+| Servicio                       | Método                                                                 |
+|--------------------------------|------------------------------------------------------------------------|
+| IPlantCommandService           | Handle(command: CreatePlantCommand): void<br>Handle(command: UpdatePlantCommand): void |
+| IPlantationCommandService      | Handle(command: CreatePlantationCommand): void<br>Handle(command: UpdatePlantationCommand): void |                |
 
 **Query Services**
 
-| Servicio                          | Método                                                   |
-|----------------------------------|-----------------------------------------------------------|
-| PlantQueryService                | getByUser(userId): List<Plant><br>getById(id): Plant      |
-| PlantationQueryService           | getByUser(userId): List<Plantation><br>getById(id): Plantation |
+| Servicio                       | Método                                                                 |
+|--------------------------------|------------------------------------------------------------------------|
+| PlantQueryService              | Handle(GetPlantsByUserIdQuery): List<Plant><br>Handle(GetPlantsByStateIdQuery): List<Plant> |
+| PlantationQueryService         | Handle(GetPlantationsByUserIdQuery): List<Plantation><br>Handle(GetPlantationsByStateIdQuery): List<Plantation> |
 
 ---
 
 #### Repositories (Interfaces)
 
-**PlantRepository**
+**IPlantRepository**
 
-| Método              | Descripción                                      |
-|---------------------|--------------------------------------------------|
-| findById(id)        | Buscar planta por ID                             |
-| findByUser(userId)  | Listar plantas por usuario                       |
-| save(plant)         | Persistir o actualizar la entidad                |
+| Método                             | Descripción                            |
+|------------------------------------|----------------------------------------|
+| FindByUserIdAsync(userId: int)     | Lista todas las plantas de un usuario |
+| FindByStateIdAsync(stateId: int)   | Lista todas las plantas por estado    |
 
-**PlantationRepository**
+**IPlantationRepository**
 
-| Método              | Descripción                                      |
-|---------------------|--------------------------------------------------|
-| findById(id)        | Buscar plantación por ID                         |
-| findByUser(userId)  | Listar plantaciones por usuario                  |
-| save(plantation)    | Persistir o actualizar la entidad                |
+| Método                                 | Descripción                                |
+|----------------------------------------|--------------------------------------------|
+| FindByUserIdAsync(userId: int)         | Lista todas las plantaciones de un usuario |
+| FindByStateIdAsync(stateId: int)       | Lista todas las plantaciones por estado    |
 
 
 #### 4.2.1.2. Interface Layer.
