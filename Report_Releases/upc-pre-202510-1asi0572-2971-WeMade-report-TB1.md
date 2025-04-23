@@ -1673,7 +1673,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  
  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
  
- **SesnorController**
+ **SensorController**
  
  
  | Ruta especifica             | Descripción                                      |
