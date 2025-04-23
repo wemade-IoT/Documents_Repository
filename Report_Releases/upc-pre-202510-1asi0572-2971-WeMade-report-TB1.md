@@ -1425,7 +1425,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
  | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
 
 ---
@@ -1436,10 +1435,21 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
+
  | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
 
 --- 
+
+#### Facades
+
+- Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | ISubscriptionServiceFacade        | Define un contrato para los servicios de dominio relacionados con suscripciones, que deben ser expuestos a servicios externos.            |
+ | SubscriptionServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+
+---
 
 #### Controllers 
 
@@ -1450,7 +1460,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  
  | Ruta especifica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
+ | /api/v1/subscription       | Gestiona la consulta de suscripciones  |
 
 ---
 #### 4.2.4.3. Application Layer.
@@ -1471,7 +1481,49 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.1. Domain Layer.
 -
 #### 4.2.5.2. Interface Layer.
--
+
+---
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+ 
+ ---
+ 
+ #### Resources
+ 
+ - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateInvoiceResource        | Recibe datos para la creación de una nueva factura.            |
+ 
+ 
+---
+
+#### Transforms/Assemblers
+ - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+ 
+ 
+ | Clase            | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | CreateInvoiceCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de factura.      |
+
+
+ ---
+ 
+ #### Controllers
+ 
+ - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+ 
+ **InvoiceController**
+ 
+ 
+ | Ruta especifica             | Descripción                                      |
+ |---------------------|--------------------------------------------------|
+ | /api/v1/invoice      | Gestiona la creación de facturas  |
+
+---
+
+
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
