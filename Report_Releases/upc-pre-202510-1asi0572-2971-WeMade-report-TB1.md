@@ -501,7 +501,7 @@ Además, se pueden implementar el soporte con APIs para empresas agrícolas que 
 
 ### 2.2.2. Registro de entrevistas.
 
-Las entrevistas están en un video en el siguiente URL: ... [Anexo 2.2.1.1]
+Las entrevistas están en un video en el siguiente URL: [Entrevistas WeMade - EcoGuardian](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8) [Anexo 2.2.1.1]
 
 
 **Segmento Doméstico**  
@@ -1105,19 +1105,19 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 # Conclusiones
 
-<br>**TB1**: ...
+<br>**TB1**: En esta TB1 realizamos un proceso preliminar al desarrollo de software concretando procesos importantes tales como las investigaciones y planteamiento de solución. Adicionalmente, se realiza el diseño de la arquitectura y una idea robusta del funcionamiento de la aplicación.
 
 # Conclusiones y recomendaciones.
 
-Como una conclusion general ...
+Como una conclusion general hemos realizado un primer avance aplicando un tabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.
 
-Como recomendaciones ...
+Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.
 
 # Video About-the-Team.
 
 En el video about the team se muestran testimonios del trabajo realizado.
 
-[https://youtu.be/2mOrsvJKwC8](https://youtu.be/2mOrsvJKwC8)
+[https://youtu.be/2mOrsvJKwC8](...)
 
 Microsoft Share:
 "https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/EZ8haON2Cs1Psmnw6Wo4E8ABnPYPXoNlPr1Vs4OlwC4jzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hzhCXD"
@@ -1168,12 +1168,9 @@ datos, gráficos, imágenes, esquemas, mapas de otros autores
 ---
 
 Link de entrevistas [Anexo 2.2.1.1] 
-<a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/ESxD6TAhfylMgJTLWMsn4F8BaCVSmqQuYn7hVIwYosnpvw?e=Wjhd8e&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</a>
+<a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
 
 
-
-Link entrevistas Heuristicas [Anexo 5.3.2]
-<a> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/Echosh-Q4yVOhOpOr5K74ukBRVTHjBVTjUICzn35RqF6hw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PYqtch</a>
 
 Importante! 
 
