@@ -458,7 +458,7 @@ Además, se pueden implementar el soporte con APIs para empresas agrícolas que 
 
 **Preguntas generales:**
 
-1. ¿Cuál es su nombre? 
+1. ¿Cuál es su nombre?  
 2. ¿Qué edad tiene? 
 3. ¿A qué se dedica? 
 4. ¿Qué navegador usa?
@@ -526,7 +526,6 @@ alt="Entrevista 1 Segmento Doméstico" width="500"/>
 Andrea es una ingeniera de software de profesión con 20 años de edad con pasión por el cuidado de sus plantas como hobby.
 En su experiencia personal nos menciona que al enfocarse en sus actividades diarias en ocasiones descuida el cuidado de sus plantas. Aunque les dedica entre 2 y 3 horas a la semana, considera que este tiempo no siempre es suficiente, lo que en ocasiones provoca cierto descuido en su mantenimiento. También nos menciona que actualmente consulta a especialistas en el tema para saber como gestionar el mantenimiento de sus plantas. Asimismo, nos menciona que utiliza google calendario como herramienta para saber en qué ocasiones debe darles mantenimiento. Por otro lado, comentó el interés en una solución que le permita saber el estado de sus plantas mediante el uso de alertas personalizadas. Finalmente, menciona que le gustaría disponer de un calendario donde pueda gestionar las actividades que debe realizar en la semana para el correcto mantenimiento de sus plantas.
 
-**Segmento Doméstico**  
 Nombre: Paquita Soto Camacho
 <br>
 Edad: 71
@@ -539,7 +538,7 @@ Device: Teléfono Samsung
 <br>
 Distrito: Trujillo, La libertad
 <br>
-Timing: 0:00
+Timing: 4:31
 <br>
 <img src="../assets/images-interviews/domestico/interview-domestico-2.png"
 alt="Entrevista 2 Segmento Doméstico" width="500"/>
@@ -551,7 +550,6 @@ respecto a la frecuencia de riego de la planta comenta que lo hace dependiendo d
 menciona que cada planta cuenta con un cuidado distinto y que hay características visuales que sirven de indicador para saber que requiere su planta.
 Menciona igualmente la importancia de saber las necesidades de la planta en especial el agua la tierra y el musgo de este.
 
-**Segmento Doméstico**  
 Nombre: Sergio Aguirre Castillo
 <br>
 Edad: 19
@@ -564,7 +562,7 @@ Device: Telefono IPhone
 <br>
 Distrito: Jesús María, Lima 
 <br>
-Timing: 0:00
+Timing: 8:49
 <br>
 
 <img src="../assets/images-interviews/domestico/interview-domestico-3.png"
@@ -591,7 +589,7 @@ Dispositivos: Teléfono Samsung Galaxy A52 Y Laptop Lenovo
 <br>
 Distritos: Carmen Alto, Ayacucho
 <br>
-Timing: 0:00
+Timing: 12:13
 <br>
 
 <img src="../assets/images-interviews/negocios/interview-1.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
@@ -622,7 +620,7 @@ Dispositivos: Teléfono Samsung Galaxy Y Laptop Asus
 <br>
 Distritos: La Victoria, Chiclayo
 <br>
-Timing: 0:00
+Timing: 20:10
 <br>
 
 <img src="../assets/images-interviews/negocios/interview-2.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
@@ -635,7 +633,7 @@ Alonso Chuctaya, productor agrícola de 40 años en Chiclayo, es gerente de una 
 **Browser:** Google Chrome  <br>
 **Device:** Laptop Toshiba  <br>
 **Distrito:** Miraflores, Lima  <br>
-**Timing:** 00:00  <br>
+**Timing:** 25:02  <br>
 
 <img src="../assets/images-interviews/negocios/interview-3.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
 
@@ -662,7 +660,7 @@ Plataforma de monitoreo agrícola que incluya:
 
 **Segmento Especialista**
 
-Nombre: Luis
+Nombre: Luis Eduardo Herrera
 <br>
 Edad: 20 años
 <br>
@@ -674,36 +672,88 @@ Dispositivos: Teléfono Iphone Y Mac Apple
 <br>
 Distritos: San Borja, Lima
 <br>
-Timing: 0:00
+Timing: 34:55
 <br>
 
-<img src="../assets/images-interviews/specialist/entrevista-segmento3.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
+<img src="../assets/images-interviews/specialist/entrevista-segmento3.png" alt="Entrevista 1 Segmento Especialista" width="500"/>
 
 Luis nos comenta en la entrevista respecto a la importancia en la búsqueda de cambios en la planta, ya sean hongos, insectos o cambios en el color, ya que ayudan a saber qué puede estar sucediéndole a la planta. Se le plantea un dashboard con información le ayudaría a saber más de la planta y le facilitará a realizar diagnósticos en base a los cambios aunque en su opinion menciona que una visualización de la planta siempre mejora la efectividad. Él comenta que un diagnóstico empresarial tomaría más tiempo. Menciona que una tarifa por subscripción se ve más prometedora. Menciona que las capacitaciones que se deberían realizar para un perfil como el suyo es necesario que la interfaz sea intuitiva para entender bien, comenta que quisiera un inicio donde pueda ver sus plantas. Comenta que realizar una respuesta fácil es importante para él y sería una razón para compartir la solución propuesta.
 
 
+Nombre: Esau Carretero Benites
+<br>
+Edad: 20 años
+<br>
+Ocupación: Estudiante Universitario dedicado a la botanica
+<br>
+Browser Preferido: Google Chrome
+<br>
+Dispositivos: Teléfono Iphone Apple
+<br>
+Distritos: Jesus Maria, Lima
+<br>
+Timing: 46:04
+<br>
+
+<img src="../assets/images-interviews/specialist/EntrevistaSegmento3_Esau.png" alt="Entrevista 2 Segmento Especialista" width="500"/>
+
+Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de la informacion adicional para el diagnosito de plantas, principalmente mencionando como en un area hipoteticamente laboral siente que datos como la humedad, iluminacion e incluso la temperatura en el ambiente puede afectar significativamente en la efficiencia de recomendacion. Al ser un estudiante universitario no ha tenido la experiencia previa de laborar como un especialista en agricultura o el cuidado de plantas, pero cuenta con vastos años de experiencia diagnosticando las necesidades de distintas plantas. Menciona que como medio de pago preferiria un salario por hora mas que un modelo de subscripcion o por cantidad de consultas. Asimismo se rescata la frase de "Facilitar el trabajo" para hacer alusion a la esperanza de que con la data que ofrezcamos el diagnostico sea mas facil de realizar. Finalmente comenta que entre un contexto de usuarios domesticos y empresariales siente que tiene mas problema con el domestico al esperar que la mayoria tenga conocimientos escasos o basicos respecto a el cuidado de plantas lo que puede resultar en preguntas innecesarias.
+
 ### 2.2.3. Análisis de entrevistas.
 
 
-**Segmento 1: (...):**
+**Segmento 1: (Domestico):**
 
 Estadísticas y Aspectos comunes:
+Todos los participantes de la encuesta cuentan con conocimientos basicos - intermedios del cuidado de plantas.
+33% de los participantes comentan la necesidad de un calendario para saber de que momento es el adecuado para el regado de las plantas.
+100% de los participantes concuerdan que una aplicacion que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
+Necesidades comunes:
 
+- Calendario personalizado para el cuidado de plantas.
+
+- Alertas y recordatorios para riego, fertilización y poda.
+
+- Monitoreo en tiempo real de condiciones como luz y humedad.
+
+- Recomendaciones personalizadas para el cuidado de plantas.
 
 Características Objetivas:
+- Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
+- Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
+- Frecuencia de cuidado: Interdiaria o según condiciones climáticas.
 
 Características Subjetivas:
+- Motivaciones: Pasión por el cuidado de plantas como hobby.
+- Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
+- Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 
 
-**Segmento 2: (...)**
+
+**Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
+100% de los entrevistados mencionan dificultades con el clima.
+33% comenta una dificultad con pestes.
+
+
+Desafíos comunes:
+- Clima variable que afecta los cultivos.
+- Falta de personal capacitado.
+- Necesidad de centralizar datos de clima, riego y plagas.
+- Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
 Características Objetivas:
+- Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
+- Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
 
 Características Subjetivas:
+- Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
+- Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
+- Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
-**Segmento 3: (...)**
+**Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
+100% de 
 
 Características Objetivas:
 
