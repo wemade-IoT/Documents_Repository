@@ -1084,24 +1084,175 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 ## 4.2. Tactical-Level Domain-Driven Design
 -
-### 4.2.X. Bounded Context: BoundedContext
+### 4.2.1. Bounded Context: BoundedContext
 -
-#### 4.2.X.1. Domain Layer.
+#### 4.2.1.1. Domain Layer.
 -
-#### 4.2.X.2. Interface Layer.
+#### 4.2.1.2. Interface Layer.
 -
-#### 4.2.X.3. Application Layer.
+#### 4.2.1.3. Application Layer.
 -
-#### 4.2.X.4. Infrastructure Layer.
+#### 4.2.1.4. Infrastructure Layer.
 -
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 -
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 -
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 -
-##### 4.2.X.6.2. Bounded Context Database Design Diagram.
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 -
+
+### 4.2.2. Bounded Context: BoundedContext
+-
+#### 4.2.2.1. Domain Layer.
+-
+#### 4.2.2.2. Interface Layer.
+-
+#### 4.2.2.3. Application Layer.
+-
+#### 4.2.2.4. Infrastructure Layer.
+-
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.3. Bounded Context: BoundedContext
+-
+#### 4.2.3.1. Domain Layer.
+-
+#### 4.2.3.2. Interface Layer.
+-
+#### 4.2.3.3. Application Layer.
+-
+#### 4.2.3.4. Infrastructure Layer.
+-
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.4. Bounded Context: BoundedContext
+-
+#### 4.2.4.1. Domain Layer.
+-
+#### 4.2.4.2. Interface Layer.
+-
+#### 4.2.4.3. Application Layer.
+-
+#### 4.2.4.4. Infrastructure Layer.
+-
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.4.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.5. Bounded Context: BoundedContext
+-
+#### 4.2.5.1. Domain Layer.
+-
+#### 4.2.5.2. Interface Layer.
+-
+#### 4.2.5.3. Application Layer.
+-
+#### 4.2.5.4. Infrastructure Layer.
+-
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.6. Bounded Context: BoundedContext
+-
+#### 4.2.6.1. Domain Layer.
+-
+#### 4.2.6.2. Interface Layer.
+-
+#### 4.2.6.3. Application Layer.
+-
+#### 4.2.6.4. Infrastructure Layer.
+-
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.7. Bounded Context: BoundedContext
+-
+#### 4.2.7.1. Domain Layer.
+-
+#### 4.2.7.2. Interface Layer.
+-
+#### 4.2.7.3. Application Layer.
+-
+#### 4.2.7.4. Infrastructure Layer.
+-
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.7.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.8. Bounded Context: BoundedContext
+-
+#### 4.2.8.1. Domain Layer.
+-
+#### 4.2.8.2. Interface Layer.
+-
+#### 4.2.8.3. Application Layer.
+-
+#### 4.2.8.4. Infrastructure Layer.
+-
+#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.8.6.2. Bounded Context Database Design Diagram.
+
+
+### 4.2.9. Bounded Context: BoundedContext
+-
+#### 4.2.9.1. Domain Layer.
+-
+#### 4.2.9.2. Interface Layer.
+-
+#### 4.2.9.3. Application Layer.
+-
+#### 4.2.9.4. Infrastructure Layer.
+-
+#### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
+-
+#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
+-
+##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
+-
+##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
 # Conclusiones
 
@@ -1115,13 +1266,6 @@ Como recomendaciones creemos que una mejora iterativa es necesaria para realment
 
 # Video About-the-Team.
 
-En el video about the team se muestran testimonios del trabajo realizado.
-
-[https://youtu.be/2mOrsvJKwC8](...)
-
-Microsoft Share:
-"https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211894_upc_edu_pe/EZ8haON2Cs1Psmnw6Wo4E8ABnPYPXoNlPr1Vs4OlwC4jzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hzhCXD"
-
 # Bibliografía
 
 
@@ -1131,30 +1275,6 @@ Microsoft Share:
 Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria.
         FAO. Recuperado el 2 de abril del 2025 de URL https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content
 
-
-
-Ostelea (2021, 10 de febrero). ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero?.
-        Ostelea. Recuperado el 6 de abril del 2024 de URL https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
-
-Raigoza, V. (s.f). LA IMPORTANCIA DEL SOFTWARE DE GESTIÓN HOTELERA.
-        Soho Apps. Recuperado el 3 de abril del 2024 de URL https://sohoapps.co/importancia-del-software-de-gestion-hotelera/#:~:text=La%20gestión%20de%20reservas%20esmayor%20rentabilidad%20para%20el%20hotel
-
-Rachio. (n.d.). Rachio products. Rachio. 
-        Recuperado el 5 de abril de 2025, de https://rachio.com/products/
-
-BIMnD (2024, 25 de enero). El impacto de la Digitalización en la sostenibilidad hotelera.
-        BIMnD. Recuperado el 4 de abril del 2024 de URL https://www.bimnd.es/el-impacto-de-la-digitalizacion-en-la-sostenibilidad-hotelera/
-
-Lacalle, E. (2023, 4 de octubre). El rol fundamental que desempeña la tecnología en la gestión hotelera.
-        Mews. Recuperado el 4 de abril del 2024 de URL https://www.mews.com/es/blog/tecnologia-en-operaciones-hoteleras
-
-Gonzales, M. (2023, 28 de octubre). Asociación de hoteles y restaurantes alertaron que ventas de su sector han caído un 40%: “No hay incentivos”.
-        infobae. https://www.infobae.com/peru/2023/10/29/asociacion-de-hoteles-y-restaurantes-alertaron-que-ventas-de-su-sector-han-caido-un-40-no-hay-incentivos/
-
-Gothelf, J. (2022, 29 de agosto). FAQ: WHAT DOES A COMPLETE LEAN UX CANVAS LOOK LIKE?.
-        jeff Gothelf. Recuperado el 24 de abril del 2024 de URL https://jeffgothelf.com/blog/faq-what-does-a-complete-lean-ux-canvas-look-like/
-
-Gothelf, J. Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/.
 ```
 
 # Anexos
