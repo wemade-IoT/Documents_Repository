@@ -719,9 +719,13 @@ Los user personas nos sirven para poder identificar como serán los comportamien
 
 <img src="../assets/user-personas/segmento-domestico.png"/>
 
-**Segmento 2:** <img src="../assets/user-personas/segmento-negocio.png"/>
+**Segmento 2:** 
 
-**Segmento 3:** <img src="../assets/user-personas/segmento-especialista.png"/>
+<img src="../assets/user-personas/segmento-negocio.png"/>
+
+**Segmento 3:** 
+
+<img src="../assets/user-personas/segmento-especialista.png"/>
 
 ---
 
@@ -768,13 +772,17 @@ En esta sección hacemos un journey mapping para comprender el camino que recorr
 
 ### 2.3.4. Empathy Mapping.
 
-**Segmento 1:** : 
+**Segmento 1:** 
 
 <img src="../assets/empathy-mapping/segmento-domestico.png" alt="Segmento doméstico"/>
 
-**Segmento 2:** <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
+**Segmento 2:** 
 
-**Segmento 3** <img src="../assets/empathy-mapping/segmento-especialista.png" alt="Segmento especialista"/>
+ <img src="../assets/empathy-mapping/segmento-negocio.png" alt="Segmento negocio"/>
+
+**Segmento 3:** 
+
+<img src="../assets/empathy-mapping/segmento-especialista.png" alt="Segmento especialista"/>
 
 ### 2.3.5. As-is Scenario Mapping.
 
