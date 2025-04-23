@@ -1144,6 +1144,25 @@ Entidad que representa una plantación registrada por un usuario.
 
 ---
 
+#### Aggregates
+
+**PlantAggregate**
+
+| Método                    | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| updateThresholds(...)     | Actualiza los umbrales                        |
+| changeState(stateId)      | Cambia el estado de la planta                 |
+| belongsTo(userId)         | Verifica pertenencia del usuario              |
+
+**PlantationAggregate**
+
+| Método                    | Descripción                                    |
+|---------------------------|------------------------------------------------|
+| updateThresholds(...)     | Actualiza los umbrales                        |
+| updateArea(area)          | Actualiza el área de cobertura                |
+| changeState(stateId)      | Cambia el estado de la plantación             |
+
+---
 
 
 -
