@@ -1173,15 +1173,38 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 
 ### 4.2.6. Bounded Context: Automation
--
+Este bounded context se encarga de automatizar el funcionamiento de los actuadores (aspersores de agua) en respuesta a eventos que indican que los niveles de humedad han alcanzado ciertos umbrales. La automatización permite documentar y ejecutar de manera eficiente los procesos de riego a nivel empresarial, respondiendo en tiempo real a las condiciones del suelo.
 #### 4.2.6.1. Domain Layer.
--
+En esta sección el core de el bounded context de automation recae principalmente en la entidad de **Actuator** el cual deberá persistir en la base de datos para tener un registro de los actuadores de la organizacion.
+A contiuacion se mencionan los integrantes del domain layer:
+
+``` 
+IActuatorRepository : Interface
+Actuator: Aggregate
+ValueObject: HumidtyThreshold (Este se recibe del bounded de Analytics)
+```
+
 #### 4.2.6.2. Interface Layer.
--
+``` 
+ActuatorController : Controller      
+```
+
 #### 4.2.6.3. Application Layer.
+
 -
+
+```
+ActivateActuatorCommandHandler : Comandos para activar el actuador
+CreateActuatorCommandHandler : Crea la instancia del actuador
+UpdateActuatorCommandHandler : Actualiza el estado del Threshold y el Actuador
+```
+
 #### 4.2.6.4. Infrastructure Layer.
 -
+
+```
+ActuatorRepository : Repository
+```
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 -
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
