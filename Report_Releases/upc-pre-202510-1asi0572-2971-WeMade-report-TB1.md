@@ -1206,9 +1206,82 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
 
 
+### 4.2.1. Bounded Context: Management
 
 #### 4.2.1.2. Interface Layer.
--
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+---
+
+#### Resources
+
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| CreatePlantResource        | Recibe datos para la creación de una nueva planta.            |
+| UpdatePlantResource  |  Recibe datos para la actualización de una planta existe.                |
+| PlantResource        | Devuelve datos de una planta al usuario         |
+| CreatePlantationResource      | Recibe datos para la creación de un nuevo plantation         |
+| UpdatePlantationResource      | Recibe datos para la actualización de un plantation existente       |
+| PlantationResource     | Devuelve datos de un plantation al usuario 
+
+
+---
+
+
+
+## Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| CreatePlantCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de planta.      |
+| UpdatePlantCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar una planta existente.              |
+| PlantResourceFromEntityAssembler        | Transforma una entidad del dominio en un recurso que puede ser devuelto al cliente.       |
+| CreatePlantationCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de plantation.         |
+| UpdatePlantationCommandFromResourceAssembler     | Transforma un recurso de entrada en un comando para actualizar un plantation existente.       |
+| PlantationResourceFromEntityAssembler     | Transforma una entidad del dominio de plantation en un recurso de salida para el cliente.
+
+---
+
+
+## Facades
+
+- Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| IPlantServiceFacade        | Define un contrato para los servicios de dominio relacionados con plantas, que deben ser expuestos a servicios externos.            |
+| PlantServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+
+
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**PlantController**
+
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/plant       | Gestiona la creación y consulta de plantas  |
+
+
+**PlantationController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/plantation       | Gestiona la creación y consulta de plantation  |
+
+
+
+
+
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
@@ -1433,7 +1506,7 @@ Link de entrevistas [Anexo 2.2.1.1]
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
 
 
-
+1
 Importante! 
 
 Hay links que tienen :v: para solucionar esto se debe de poner [": v :"] junto.
