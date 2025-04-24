@@ -1015,10 +1015,6 @@ para el negocio. Como resultado, se identificaron los siguientes bounded context
 
    Procesa transacciones financieras, incluyendo la realización y confirmación de pagos. Su función principal es garantizar que los pagos se completen correctamente y se registren en el sistema, integrando seguridad y trazabilidad en cada operación.
 
-- Plan Service
-
-   Mantiene y actualiza los planes de servicio, así como la creación y configuración de cuentas de usuario. Ajusta límites según las necesidades del cliente y centraliza la gestión de las reglas y restricciones asociadas a cada plan.
-
 - Installation
 
    Coordina la instalación y activación de sensores, desde la solicitud de asistencia técnica hasta la asignación, instalación y puesta en marcha de los dispositivos. Gestiona todo el ciclo de vida de los sensores dentro del sistema.
@@ -1027,7 +1023,9 @@ para el negocio. Como resultado, se identificaron los siguientes bounded context
 
   Proporciona análisis y reportes sobre el rendimiento de los cultivos, el consumo de recursos y la efectividad de los sistemas de riego. Su objetivo es ofrecer información valiosa para la toma de decisiones y la optimización de procesos.
 
-- 
+- Consulting
+
+    Facilita la interacción entre los usuarios y especialistas, permitiendo a los usuarios solicitar recomendaciones y recibir asesoramiento sobre el cuidado de sus plantas. Este contexto se centra en la gestión de consultas y la comunicación entre usuarios y expertos.
 #### 4.1.1.2 Domain Message Flows Modeling.
 Con el objetivo de comprender cómo interactúan los distintos bounded contexts identificados, se modelaron los flujos de mensajes del dominio (Domain Message Flows). Esta técnica permite visualizar los mensajes que se intercambian entre contextos, sistemas y actores, utilizando eventos, comandos y consultas.
 
@@ -1058,7 +1056,7 @@ posteriormente se definieron los patrones de relaciones entre Bounded Contexts d
 
 A continuación, se presenta el Context Map elegido que resume las relaciones entre los bounded contexts identificados:
 
-<img src="../assets/context-mapping/context-map.png" alt="Context Map"/>
+<img src="../assets/context-mapping/context-map.jpg" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
 
