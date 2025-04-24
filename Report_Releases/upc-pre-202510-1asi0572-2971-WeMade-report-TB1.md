@@ -1553,6 +1553,7 @@ Representa una consult en la aplicación.
 
 
 #### 4.2.3.2. Interface Layer.
+
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
@@ -2294,8 +2295,89 @@ Representa un sensor físico que ha sido instalado.
 -
 #### 4.2.9.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Notifications. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+
+---
+
+#### Aggregates
+
+**Invoice**
+
+Representa una notificacion creada en la aplicación.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Title     | String |
+| Content     | String |
+| Created_at     | String |
+| user_id     | String |
+
+---
+
+#### Commands
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| CreateNotificationCommand      | Representa un comando para la creación de una notificacion.                 |
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| INotificationCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Notification mediante comandos del dominio. |
+
+
+#### Repositories (Interfaces)  
+
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| INotificationRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla notifications.  |
+
+---
+
 #### 4.2.9.2. Interface Layer.
--
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+   
+  ---
+   
+   #### Resources
+   
+   - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+   
+   | Clase            | Descripción                                      |
+   |---------------------|--------------------------------------------------|
+   | CreateNotificationResource        | Recibe datos para la creación de una nueva notificación.            |
+   | NotificationResource  |  Recibe datos de una notificación para devolver un recurso al usuario .  
+  ---
+  
+    ## Transforms/Assemblers
+   - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+   
+   
+   | Clase            | Descripción                                      |
+   |---------------------|--------------------------------------------------|
+   |CreateNotificationCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de notificación.      
+   | NotificationResourceFromEntityAssembler        | Transforma una notificación en un recurso.         |
+  
+   ---
+  
+   #### Controllers
+   
+   - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+   
+   **NotificationController**
+   
+   
+   | Ruta especifica             | Descripción                                      |
+   |---------------------|--------------------------------------------------|
+   | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
+
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
