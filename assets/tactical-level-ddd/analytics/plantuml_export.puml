@@ -1,0 +1,81 @@
+@startuml
+
+class Actuator {
+  +id:int
+  +brand:int
+  +installedAt:DateTime
+  +activatedAt:DateTime
+  +Actuator()
+  +Actuator(command:CreateActuatorCommand)
+  +update(command:UpdateActuatorCommand):void
+  +activate(command:ActivateActuatorCommand):void
+}
+
+
+
+
+interface IExternalAnalyticsService{
+   + ifMetricExists(id:int,plantId:int): bool
+}
+
+
+class ExternalAnalyticsService implements IExternalAnalyticsService{
+
+}
+
+class CreateActuatorCommand {}
+class UpdateActuatorCommand{}
+
+class ActivateActuatorCommand {}
+class CreateActuatorResource {}
+class UpdateActuatorResource {}
+class ActuatorResource {}
+class ActuatorResourceFromEntityAssembler{}
+class CreateActuatorCommandFromResourceAssembler{}
+class UpdateActuatorCommandFromResourceAssembler{}
+
+class ActuatorController {}
+
+class ActuatorCommandService implements IActuatorCommandService {}
+class ActuatorRepository implements IActuatorRepository {}
+class ActuatorQueryService implements IActuatorQueryService {}
+
+interface IActuatorRepository {}
+interface IActuatorQueryService {
+  +handle()
+}
+
+interface IActuatorCommandService {
+  +handle(command:CreateActuatorCommand)
+  +handle(command:UpdateActuatorCommand)
+  +handle(command:ActivateActuatorCommand)
+}
+
+
+
+CreateActuatorCommandFromResourceAssembler  --> CreateActuatorCommand
+CreateActuatorCommandFromResourceAssembler  --> CreateActuatorResource
+
+UpdateActuatorCommandFromResourceAssembler --> UpdateActuatorCommand
+UpdateActuatorCommandFromResourceAssembler --> UpdateActuatorResource
+
+ActuatorResourceFromEntityAssembler --> Actuator
+ActuatorResourceFromEntityAssembler --> ActuatorResource
+
+Actuator ...> CreateActuatorCommand
+Actuator ...> UpdateActuatorCommand
+Actuator ...> ActivateActuatorCommand
+
+IActuatorCommandService --> CreateActuatorCommand
+IActuatorCommandService --> UpdateActuatorCommand
+IActuatorCommandService --> ActivateActuatorCommand
+
+ActuatorCommandService -[dotted]-> IActuatorRepository
+ActuatorCommandService -[dotted]-> IExternalAnalyticsService
+ActuatorQueryService -[dotted]-> IActuatorRepository
+
+IActuatorRepository -[dotted]-> Actuator
+ActuatorController -[dotted]-> IActuatorCommandService
+ActuatorController -[dotted]-> IActuatorQueryService
+
+@enduml

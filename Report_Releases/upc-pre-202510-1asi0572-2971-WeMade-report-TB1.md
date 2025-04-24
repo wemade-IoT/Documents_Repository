@@ -1395,7 +1395,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 <img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 <img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram"/>
 
@@ -1538,9 +1538,12 @@ Representa una consult en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
--
+
+<img src="../assets/tactical-level-ddd/analytics/DomainLayerClassDiagram_Analytics.png" alt="Analytics Domain Layer Class Diagrams"/>
+
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/analyticst-db-diagram.png" alt="Analytics Database Design Diagram"/>
