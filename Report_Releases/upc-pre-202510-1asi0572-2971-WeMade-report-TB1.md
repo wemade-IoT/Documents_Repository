@@ -2358,7 +2358,26 @@ Representa un usuario del sistema.
 ---
  
 #### 4.2.8.3. Application Layer.
--
+
+### CommandServices
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IUserCommandService`              | Maneja comandos para gestionar usuarios. Utiliza la *entidad* `User`. |
+| `IRoleCommandService`              | Maneja comandos para gestionar roles. Utiliza la *entidad* `Role`. |
+| `UserCommandService`               | Implementación del servicio que maneja los comandos relacionados con usuarios. |
+| `RoleCommandService`               | Implementación del servicio que maneja los comandos relacionados con roles. |
+
+### QueryServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IUserQueryService`                | Devuelve un usuario o lista de usuarios. Utiliza la *entidad* `User`. |
+| `UserQueryService`                 | Implementación del servicio que maneja las consultas sobre usuarios. |
+| `GetUserByIdQuery`                | Consulta para obtener un usuario por su ID. |
+| `GetUserByEmailQuery`             | Consulta para obtener un usuario por su correo electrónico. |
+
+
+
 #### 4.2.8.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
