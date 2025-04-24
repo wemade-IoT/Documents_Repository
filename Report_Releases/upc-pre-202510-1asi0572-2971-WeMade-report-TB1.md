@@ -156,7 +156,6 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [Anexos](#anexos)
 
 # Student Outcome
-
 El curso contribuye al cumplimiento del Student Outcome ABET:
 ABET – EAC - Student Outcome 5
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
@@ -168,8 +167,9 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio Especifico                                                                            | Acciones Realizadas | Conclusiones |
 |------------------------------------------------------------------------------------------------|---------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | **Manuel Sebastian Peña Rivera** <br> **TB1:** <br>Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realice de forma colaborativa de la creación de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams, y Container Level Diagrams. Para ello tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas.  <br><br>  **Italo D'Alessandro Luna Capuñay** <br> **TB1:** <br>  Tomé parte activa en las reuniones tanto virtuales como presenciales, contribuyendo con ideas para definir el enfoque del proyecto y trabajando en conjunto con mis compañeros para tomar decisiones importantes sobre el caso. También colaboré en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Diagramas de Clases del Capa de Dominio por Bounded Context, y Diagramas de Nivel de Contenedor. Para lograrlo, fue necesario coordinar varias reuniones donde planificamos y acordamos el desarrollo de dichos diagramas. | ...          |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Manuel Sebastian Peña Rivera**<br> **TB1:** <br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>  **Italo D'Alessandro Luna Capuñay**<br> **TB1:** <br>    Me centré en promover un entorno de trabajo colaborativo dentro del equipo, participando activamente en la definición de los objetivos y tareas del proyecto junto a mis compañeros. Contribuí al análisis competitivo y a la identificación de segmentos clave, como los usuarios del ámbito empresarial y los especialistas. También me encargué de desarrollar User Personas y AS-IS Scenario Mapping para dichos segmentos, garantizando que el diseño del producto respondiera a las necesidades reales del usuario. Para mantener una buena organización, cada semana establecí metas personales que me permitieron avanzar en las secciones correspondientes de cada capítulo, asegurando así una distribución eficiente de tareas y el cumplimiento de los objetivos trazados.        | ...          | 
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                | Manuel Sebastian Peña Rivera <br> TB1:<br> Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br> Mathias Kunimoto <br> TB1:<br> Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, los **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. | ...          |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Manuel Sebastian Peña Rivera<br> TB1:<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. | ...          |
+
 
 
 
@@ -1056,17 +1056,13 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 <img src="../assets/context-mapping/context-map.png" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
-
+-
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
-Un System Landscape diagram es realmente lo mismo que un  Context Diagram, sin un enfoque de un software en especifico.En este caso incluimos el mismo context diagram pero hacemos mencion a 
-
-<img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Landscape Diagram"/>
-
+-
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
 <img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
 -
-
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
 <img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
@@ -1077,7 +1073,7 @@ Un System Landscape diagram es realmente lo mismo que un  Context Diagram, sin u
 <img src="../assets/deployment-diagram/deployment-diagram.png" alt="EcoGuardian Deployment Diagram"/>
 
 ## 4.2. Tactical-Level Domain-Driven Design
-
+-
 ### 4.2.1. Bounded Context: Management
 
 #### 4.2.1.1. Domain Layer
@@ -1586,19 +1582,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
   | SignUpCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para el registro de usuarios.              |
  
   AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
-
-
-  ---
- 
- 
- ## Facades
- 
- - Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | IUserServiceFacade        | Define un contrato para los servicios de dominio relacionados con usuarios, que deben ser expuestos a servicios externos.            |
- | UserServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
  
   ---
  
@@ -1634,46 +1617,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.1. Domain Layer.
 -
 #### 4.2.9.2. Interface Layer.
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
-  
- ---
-  
-  #### Resources
-  
-  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | CreateNotificationResource        | Recibe datos para la creación de una nueva notificación.            |
-  | NotificationResource  |  Recibe datos de una notificación para devolver un recurso al usuario .  
- ---
- 
-   ## Transforms/Assemblers
-  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
-  
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  |CreateNotificationCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de notificación.      
-  | NotificationResourceFromEntityAssembler        | Transforma una notificación en un recurso.         |
- 
-  ---
- 
-  #### Controllers
-  
-  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
-  
-  **NotificationController**
-  
-  
-  | Ruta especifica             | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
-  
- 
-  ---
-
+-
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
