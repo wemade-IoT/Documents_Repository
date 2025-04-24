@@ -1461,7 +1461,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.5. Bounded Context: Payment
--
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.5.1. Domain Layer.
 -
 #### 4.2.5.2. Interface Layer.
