@@ -1,0 +1,101 @@
+@startuml
+
+title Bounded Context: Notification - Domain Layer Class Diagram
+
+' ======= ENTIDADES / AGREGADOS =======
+class Notification {
+  +id: int
+  +plantId: int
+  +title: string
+  +message: string
+  +seen: bool
+  +createdAt: DateTime
+}
+
+' ======= COMMANDS =======
+class CreateNotificationCommand {}
+class MarkNotificationAsSeenCommand {}
+
+' ======= QUERIES =======
+class GetNotificationByIdQuery {}
+class GetAllNotificationsByPlantIdQuery {}
+
+' ======= INTERFACES DE SERVICIOS =======
+interface INotificationCommandService {
+  +handle(command: CreateNotificationCommand): void
+  +handle(command: MarkNotificationAsSeenCommand): void
+}
+
+interface INotificationQueryService {
+  +handle(query: GetNotificationByIdQuery): Notification
+  +handle(query: GetAllNotificationsByPlantIdQuery): List<Notification>
+}
+
+' ======= SERVICIOS CONCRETOS =======
+class NotificationCommandService implements INotificationCommandService
+class NotificationQueryService implements INotificationQueryService
+
+' ======= REPOSITORIOS =======
+interface INotificationRepository {
+  +save(notification: Notification): void
+  +findById(id: int): Notification
+  +findAllByPlantId(plantId: int): List<Notification>
+}
+
+' ======= RESOURCES / DTOs =======
+class CreateNotificationResource {
+  +plantId: int
+  +title: string
+  +message: string
+}
+
+class NotificationResource {
+  +id: int
+  +plantId: int
+  +title: string
+  +message: string
+  +seen: bool
+  +createdAt: DateTime
+}
+
+' ======= ASSEMBLERS =======
+class CreateNotificationCommandFromResourceAssembler {
+  +toCommand(resource: CreateNotificationResource): CreateNotificationCommand
+}
+
+class NotificationResourceFromEntityAssembler {
+  +toResource(entity: Notification): NotificationResource
+}
+
+' ======= CONTROLLER =======
+class NotificationController {
+  +create(resource: CreateNotificationResource): void
+  +getAll(plantId: int): List<NotificationResource>
+  +getById(id: int, plantId: int): NotificationResource
+  +markAsSeen(id: int): void
+}
+
+' ======= RELACIONES =======
+CreateNotificationCommandFromResourceAssembler --> CreateNotificationCommand
+CreateNotificationCommandFromResourceAssembler --> CreateNotificationResource
+
+NotificationResourceFromEntityAssembler --> Notification
+NotificationResourceFromEntityAssembler --> NotificationResource
+
+INotificationCommandService --> CreateNotificationCommand
+INotificationCommandService --> MarkNotificationAsSeenCommand
+
+INotificationQueryService --> GetNotificationByIdQuery
+INotificationQueryService --> GetAllNotificationsByPlantIdQuery
+
+NotificationCommandService -[dotted]-> INotificationRepository
+NotificationQueryService -[dotted]-> INotificationRepository
+
+NotificationController -[dotted]-> INotificationCommandService
+NotificationController -[dotted]-> INotificationQueryService
+NotificationController --> CreateNotificationResource
+NotificationController --> NotificationResource
+NotificationController --> CreateNotificationCommandFromResourceAssembler
+NotificationController --> NotificationResourceFromEntityAssembler
+
+@enduml
