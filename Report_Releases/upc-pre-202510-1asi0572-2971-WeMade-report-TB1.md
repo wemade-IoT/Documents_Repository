@@ -1096,9 +1096,13 @@ Representa el estado actual de una planta o plantación (por ejemplo: Saludable,
 
 #### Value Objects
 
-| Nombre     | Descripción                                              |
+**States**
+
+| Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
-| States      | Representa el estado actual (`Id`, `Type`)               |
+| Healthy    | Representa el estado de una planta saludable              |
+| UnHealthy    | Representa el estado de una planta no saludable              |
+| Warning    | Representa el estado de una planta en riesgo       |
 
 ---
 
@@ -1122,8 +1126,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
-| UpdateThresholds(...) | Actualiza los umbrales definidos por el usuario.    |
-| ChangeState(state)    | Cambia el estado de la planta.                      |
+| Update | Aplica los cambios especificados por un comando de actualización para modificar los valores de la planta    |
 
 ---
 
@@ -1146,44 +1149,61 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| UpdateCoverage(area)     | Actualiza el área cubierta por la plantación.     |
-| ChangeState(state)       | Cambia el estado de la plantación.                |
+| Update     | Aplica los cambios especificados por un comando de actualización para modificar los valores de la plantación     |
 
 ---
 
-#### Domain Services
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreatePlantCommand      | Representa un comando para crear una nueva instancia del agregado Plant.                        |
+| UpdatePlantCommand      | Representa un comando para modificar una instancia existente del agregado Plant.                |
+| CreatePlantationCommand | Representa un comando para crear una nueva instancia del agregado Plantation.                  |
+| UpdatePlantationCommand | Representa un comando para modificar una instancia existente del agregado Plantation.          |
+| SeedStatesCommand       | Representa un comando para inicializar datos en la entidad State dentro del dominio. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPlantsByStateIdQuery      | Representa una consulta que recupera las plantas asociadas a un estado específico.                   |
+| GetPlantsByUserIdQuery      | Representa una consulta que obtiene todas las plantas asociadas a un usuario determinado.            |
+| IsPlantExistsByIdQuery      | Representa una consulta que verifica si existe una planta con un identificador específico.           |
+| GetPlantationsByStateIdQuery | Representa una consulta que recupera las plantaciones asociadas a un estado específico.              |
+| GetPlantationsByUserIdQuery  | Representa una consulta que obtiene todas las plantaciones asociadas a un usuario determinado.        |
+
+
+---
+
+#### Domain Services (Interfaces)
 
 **Command Services**
 
-| Servicio                  | Método                                                                 |
+|  Interface            | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| IPlantCommandService      | Handle(command: CreatePlantCommand): Void<br>Handle(command: UpdatePlantCommand): Void |
-| IPlantationCommandService | Handle(command: CreatePlantationCommand): Void<br>Handle(command: UpdatePlantationCommand): Void |
+| IPlantCommandService      | Define las operaciones que ejecutan cambios sobre el agregado Plant mediante comandos del dominio.  |
+| IPlantationCommandService | 	Define las operaciones que ejecutan cambios sobre el agregado Plantation mediante comandos del dominio. |
+| IStateCommandService | 	Define las operaciones que ejecutan cambios sobre el entity State mediante comandos del dominio. |
 
 **Query Services**
 
-| Servicio                  | Método                                                                 |
+| Interface                 | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| PlantQueryService         | Handle(query: GetPlantsByUserIdQuery): List<Plant><br>Handle(query: GetPlantsByStateIdQuery): List<Plant> |
-| PlantationQueryService    | Handle(query: GetPlantationsByUserIdQuery): List<Plantation><br>Handle(query: GetPlantationsByStateIdQuery): List<Plantation> |
+| IPlantQueryService         | Define las consultas que se ejecutan sobre el agregado Plant mediante consultas del dominio |
+| IPlantationQueryService    | Define las consultas que se ejecutan sobre el agregado Plantation mediante consultas del dominio |
+
 
 ---
 
 #### Repositories (Interfaces)  
 
-**IPlantRepository**
-
-| Método                         | Descripción                            |
+| Interface                         | Descripción                            |
 |--------------------------------|----------------------------------------|
-| FindByUserIdAsync(userId)      | Lista todas las plantas de un usuario |
-| FindByStateIdAsync(stateId)    | Lista todas las plantas por estado    |
-
-**IPlantationRepository**
-
-| Método                             | Descripción                                |
-|------------------------------------|--------------------------------------------|
-| FindByUserIdAsync(userId)          | Lista todas las plantaciones de un usuario |
-| FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
+| IPlantRepository      | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantas |
+|IPlantationRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantations    |
+| IStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de states |
 
 
 #### 4.2.1.2. Interface Layer.
@@ -1263,7 +1283,14 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+
+| Clase                | Interfaz Implementada | Descripción                                                                                                            |
+|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
+| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
@@ -1321,7 +1348,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                | Interfaz Implementada | Descripción                                                                    |
+|-----------------------|-----------------------|--------------------------------------------------------------------------------|
+| MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
@@ -1388,7 +1420,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| QuestionRepository | IQuestionRepository   | Implementa los métodos de consulta y persistencia de las consultas de los usuarios domésticos  a los especialistas. |
+| AnswerRepository   | IAnswerRepository     | Implementa los métodos de consulta y persistencia de las respuestas de los especialistas a los usuarios.            |
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
@@ -1397,7 +1435,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/consulting/consulting-class-diagram.png" alt="Consulting Class Diagram"/>
+<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
@@ -1446,7 +1484,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                             |
+|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
+| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram"/>
@@ -1510,7 +1553,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase             | Interfaz Implementada | Descripción                                                                                                       |
+|-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                             |
+|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
+| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
@@ -1578,7 +1631,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.6.4. Infrastructure Layer.
 
-### 
+
+### Implementación de las interfaces de los Repositories
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                          |
+|--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| ActuatorRepository | IActuatorRepository   | Implementa los métodos de consulta y persistencia de los actuadores de los usuarios al momento de realizar el riego. |
+
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1594,7 +1653,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 <img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
 
-### 4.2.7. Bounded Context: Instalation
+### 4.2.7. Bounded Context: Installation
 -
 #### 4.2.7.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -1645,7 +1704,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.7.3. Application Layer.
 -
 #### 4.2.7.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase            | Interfaz Implementada | Descripción                                                                                                          |
+|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
+
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
@@ -1687,7 +1751,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
   |---------------------|--------------------------------------------------|
   |SignInCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inicio de sesión.      |
   | SignUpCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para el registro de usuarios.              |
- 
   AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
  
   ---
@@ -1709,7 +1772,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase          | Interfaz Implementada | Descripción                                                                    |
+|----------------|-----------------------|--------------------------------------------------------------------------------|
+| UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
+
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram"/>
@@ -1732,7 +1800,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
+|------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
+
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram"/>
