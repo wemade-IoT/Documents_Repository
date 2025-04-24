@@ -1525,7 +1525,7 @@ Representa una consult en la aplicación.
  | /api/v1/metric       | Gestiona la creación y consulta de métricas  |
 
 
-#### 4.2.2.3. Application Layer.
+#### 4.2.2.3. Application Layer.  
 #### 4.2.2.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1604,7 +1604,7 @@ Representa una consult en la aplicación.
 ---
 
 #### 4.2.3.3. Application Layer.
-
+- La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
 
 
@@ -1946,6 +1946,30 @@ Representa una factura creada en la aplicación.
  ---
  
 #### 4.2.5.3. Application Layer.
+
+- La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
+### CommandServices
+
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| `InvoiceCommandService` | `IInvoiceCommandService`   |  Implementación del servicio que maneja los comandos de facturas. |
+          
+
+
+### OutboundServices
+
+
+
+| Interface                         | Descripción |
+|------------------------------------|-------------|
+| `IExternalCustomerService`             | Contrato que maneja consultas sobre el servicio externo de usuarios. |
+
+| Clase                        | Descripción |
+|------------------------------------|-------------|
+| `ExternalCustomerService`             | Implementación del contrato definido para la interacción con el servicio externo de usuarios. |
+
+
 -
 #### 4.2.5.4. Infrastructure Layer.
 
@@ -2334,7 +2358,26 @@ Representa un usuario del sistema.
 ---
  
 #### 4.2.8.3. Application Layer.
--
+
+### CommandServices
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IUserCommandService`              | Maneja comandos para gestionar usuarios. Utiliza la *entidad* `User`. |
+| `IRoleCommandService`              | Maneja comandos para gestionar roles. Utiliza la *entidad* `Role`. |
+| `UserCommandService`               | Implementación del servicio que maneja los comandos relacionados con usuarios. |
+| `RoleCommandService`               | Implementación del servicio que maneja los comandos relacionados con roles. |
+
+### QueryServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IUserQueryService`                | Devuelve un usuario o lista de usuarios. Utiliza la *entidad* `User`. |
+| `UserQueryService`                 | Implementación del servicio que maneja las consultas sobre usuarios. |
+| `GetUserByIdQuery`                | Consulta para obtener un usuario por su ID. |
+| `GetUserByEmailQuery`             | Consulta para obtener un usuario por su correo electrónico. |
+
+
+
 #### 4.2.8.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
