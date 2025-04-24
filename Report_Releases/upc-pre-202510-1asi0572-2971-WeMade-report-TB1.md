@@ -1628,7 +1628,26 @@ Representa una consult en la aplicación.
 #### 4.2.3.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
+### CommandServices
 
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+ |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+ | `QuestionCommandService` | `IQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas. |
+ | `AnswerCommandService`    | `IAnswerCommandService`      | Implementción del servicio que maneja los comandos de respuestas de los especialistas a los usuarios.         
+ 
+ ### QueryServices
+
+ | Clase              | Interfaz Implementada | Descripción                                                                                                         |
+ |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+ | `QuestionQueryService`  | `IQuestionQueryService`   |  Implementación del servicio que maneja los consultas de preguntas. |
+ | `AnswerQueryService`    | `IAnswerQueryService`      | Implementación del servicio que maneja las consultas de las respuestas de los especialistas a los usuarios.         
+ 
+
+ ### OutboundServices
+ | Interface                         | Descripción |
+ |------------------------------------|-------------|
+ | `IExternalUserService`             | Contrato que maneja consultas sobre el servicio externo de usuarios. |
+ | `ExternalUserService`             | Implementación del contrato definido para la interacción con el servicio externo de usuarios. |
 
 #### 4.2.3.2. Interface Layer.
 
