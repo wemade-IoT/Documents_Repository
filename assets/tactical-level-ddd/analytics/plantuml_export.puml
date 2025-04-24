@@ -1,81 +1,78 @@
 @startuml
 
-class Actuator {
-  +id:int
-  +brand:int
-  +installedAt:DateTime
-  +activatedAt:DateTime
-  +Actuator()
-  +Actuator(command:CreateActuatorCommand)
-  +update(command:UpdateActuatorCommand):void
-  +activate(command:ActivateActuatorCommand):void
-}
+title Bounded Context: Analytics - Domain Layer Class Diagram
+left to right direction
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
 
-
-
-
-interface IExternalAnalyticsService{
-   + ifMetricExists(id:int,plantId:int): bool
-}
-
-
-class ExternalAnalyticsService implements IExternalAnalyticsService{
+class Metric {
+  +Id: int
+  +PlantId: int
+  +MetricTypeId: int
+  +CreatedAt: DateTime
+  +MetricValue: double
+  +Metric()
+  +Metric(command:CreateMetricCommand)
+  +Update(command:UpdateMetricCommand): void
 
 }
 
-class CreateActuatorCommand {}
-class UpdateActuatorCommand{}
-
-class ActivateActuatorCommand {}
-class CreateActuatorResource {}
-class UpdateActuatorResource {}
-class ActuatorResource {}
-class ActuatorResourceFromEntityAssembler{}
-class CreateActuatorCommandFromResourceAssembler{}
-class UpdateActuatorCommandFromResourceAssembler{}
-
-class ActuatorController {}
-
-class ActuatorCommandService implements IActuatorCommandService {}
-class ActuatorRepository implements IActuatorRepository {}
-class ActuatorQueryService implements IActuatorQueryService {}
-
-interface IActuatorRepository {}
-interface IActuatorQueryService {
-  +handle()
+class MetricType {
+  +Id: int
+  +Type: string
+  +MetricType(type: MetricTypes)
 }
 
-interface IActuatorCommandService {
-  +handle(command:CreateActuatorCommand)
-  +handle(command:UpdateActuatorCommand)
-  +handle(command:ActivateActuatorCommand)
+enum MetricTypes {
+  Humidity,
+  Illumination,
+  Temperature
 }
 
+class CreateMetricCommand {}
+class UpdateMetricCommand {}
+class SeedMetricTypesCommand {}
+
+class GetMetricsByMetricTypeIdQuery {}
+class GetMetricByIdQuery {}
 
 
-CreateActuatorCommandFromResourceAssembler  --> CreateActuatorCommand
-CreateActuatorCommandFromResourceAssembler  --> CreateActuatorResource
+interface IMetricCommandService {
+  +Handle(command: CreateMetricCommand): void
+  +Handle(command: UpdateMetricCommand): void
+}
 
-UpdateActuatorCommandFromResourceAssembler --> UpdateActuatorCommand
-UpdateActuatorCommandFromResourceAssembler --> UpdateActuatorResource
+interface IMetricTypeCommandService {
+  +Handle(command: SeedMetricTypesCommand): void
+}
 
-ActuatorResourceFromEntityAssembler --> Actuator
-ActuatorResourceFromEntityAssembler --> ActuatorResource
+interface IMetricQueryService {
+  +Handle(query: GetMetricsByMetricTypeIdQuery): List<Metric>
+  +Handle(query: GetMetricByIdQuery): Metric
+}
 
-Actuator ...> CreateActuatorCommand
-Actuator ...> UpdateActuatorCommand
-Actuator ...> ActivateActuatorCommand
+interface IMetricRepository {
+  +GetByMetricTypeId(metricTypeId: int): List<Metric>
+}
 
-IActuatorCommandService --> CreateActuatorCommand
-IActuatorCommandService --> UpdateActuatorCommand
-IActuatorCommandService --> ActivateActuatorCommand
+interface IMetricTypeRepository {
+  +IsMetricTypeExists(type: MetricTypes): bool
+}
 
-ActuatorCommandService -[dotted]-> IActuatorRepository
-ActuatorCommandService -[dotted]-> IExternalAnalyticsService
-ActuatorQueryService -[dotted]-> IActuatorRepository
+MetricType --> MetricTypes
+IMetricRepository -[dotted]-> Metric
+IMetricTypeRepository -[dotted]-> MetricType
+Metric --> CreateMetricCommand
+Metric --> UpdateMetricCommand
+IMetricCommandService --> CreateMetricCommand
+IMetricCommandService --> UpdateMetricCommand
+IMetricTypeCommandService --> SeedMetricTypesCommand
+IMetricQueryService --> GetMetricsByMetricTypeIdQuery
+IMetricQueryService --> GetMetricByIdQuery
 
-IActuatorRepository -[dotted]-> Actuator
-ActuatorController -[dotted]-> IActuatorCommandService
-ActuatorController -[dotted]-> IActuatorQueryService
+
+
+
+
 
 @enduml
