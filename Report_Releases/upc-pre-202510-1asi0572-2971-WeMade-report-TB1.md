@@ -1401,7 +1401,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.4. Bounded Context: Subscription
--
+
 #### 4.2.4.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.4.2. Interface Layer.
@@ -1489,7 +1489,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.6.4. Infrastructure Layer.
--
+
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1498,7 +1498,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
--
+
+<img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
+
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 
