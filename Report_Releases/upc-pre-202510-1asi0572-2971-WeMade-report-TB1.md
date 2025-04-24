@@ -1466,7 +1466,47 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.5.2. Interface Layer.
--
+---
+ 
+ - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+  
+  ---
+  
+  #### Resources
+  
+  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | CreateInvoiceResource        | Recibe datos para la creación de una nueva factura.            |
+  
+  
+ ---
+ 
+ #### Transforms/Assemblers
+  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+  
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | CreateInvoiceCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de factura.      |
+ 
+ 
+  ---
+  
+  #### Controllers
+  
+  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+  
+  **InvoiceController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/invoice      | Gestiona la creación de facturas  |
+ 
+ ---
+ 
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
@@ -1489,6 +1529,47 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.6.2. Interface Layer.
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+  
+ ---
+  
+  #### Resources
+  
+  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | CreateActuatorResource        | Recibe datos para la creación de un nuevo actuador.            |
+  | UpdateActuatorResource  |  Recibe datos para la actualización de un actuador existe.
+   | DeleteActuatorResource  |  Recibe datos para la eliminación de un actuador existe.     
+ ---
+ 
+   ## Transforms/Assemblers
+  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+  
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  |CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuador.      |
+  | UpdateActuatorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un actuador existente.              |
+  | DeleteActuatorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un actuador existente.         |
+ 
+  ---
+ 
+  #### Controllers
+  
+  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+  
+  **ActuatorController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/actuator      | Gestiona la creación de actuadores  |
+  
+ 
+  ---
 
 
 #### 4.2.6.3. Application Layer.
@@ -1615,7 +1696,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
   
   - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
   
-  **ActuatorController**
+  **AuthController**
   
   
   | Ruta especifica             | Descripción                                      |
