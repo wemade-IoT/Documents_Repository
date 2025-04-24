@@ -2288,6 +2288,19 @@ Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, t
 
 ---
 
+
+### ValueObjects
+
+#### `SensorTypes`
+Representa los diferentes tipos de sensores disponibles.
+| Atributo | Descripción                                 |
+|----------|---------------------------------------------|
+| Humity      | Representa un sensor de humedad      |
+| Temperature     | Representa un sensor de temperatura   |
+| Light    | Representa un sensor de luz   |
+
+---
+
 ### Aggregates
 
 #### `Sensor`
@@ -2311,9 +2324,9 @@ Representa un sensor físico que ha sido instalado.
 
 | Clase                      | Descripción                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| InstallSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
+| CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
 | UpdateSensorCommand       | Comando para actualizar atributos como voltaje, memoria o tipo.             |
-| RemoveSensorCommand       | Comando para eliminar un sensor del sistema.                                |
+| DeleteSensorCommand       | Comando para eliminar un sensor del sistema.                                |
 | SeedSensorTypeCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
 
 ---
@@ -2387,9 +2400,6 @@ Representa un sensor físico que ha sido instalado.
 | Clase                        |Interface                  | Descripción                                                                                   |
 |-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
 | `SensorCommandService`      | `ISensorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Sensor.       |
-| `CreateSensorCommand`       | `ICreateSensorCommand`   | Comando que encapsula la lógica necesaria para crear una nueva instancia de Sensor.         |
-| `UpdateSensorCommand`       | `IUpdateSensorCommand`   | Comando que encapsula la lógica para modificar los datos de un Sensor ya existente.         |
-| `DeleteSensorCommand`       | `IDeleteSensorCommand`   | Comando que encapsula la lógica para eliminar un Sensor, cambiando su estado operativo.      |
 
 
 
