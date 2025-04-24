@@ -1305,13 +1305,15 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 <img src="../assets/tactical-level-ddd/db-diagrams/management-db-diagram.png" alt="Management Database Design Diagram"/>
 
 ### 4.2.2. Bounded Context: Analytics
--
 #### 4.2.2.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
 #### 4.2.2.2. Interface Layer.
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 --- 
+
 #### Resources
  
  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
@@ -1644,7 +1646,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 <img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram"/>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
+
+
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
 <img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
