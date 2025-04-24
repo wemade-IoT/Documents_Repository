@@ -1997,6 +1997,58 @@ Representa una factura creada en la aplicación.
 #### 4.2.6.1. Domain Layer.
 
 
+#### 4.2.7.1. Domain Layer.
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+### Entities
+
+### Aggregates
+
+#### `Actuator`
+Representa un actuador físico que ha sido instalado.
+
+| Atributo         | Tipo     | Descripción                                                   |
+|------------------|----------|---------------------------------------------------------------|
+| Id               | Int      | Identificador único del sensor                                |
+| Brand            | Text     | Marca del sensor                                              |
+| Voltage          | Text     | Voltaje del sensor                                            |
+| InstalledAt      | DateTime | Fecha de instalación del sensor                               |
+| ActivatedAt      | DateTime | Fecha de activación del sensor                                |
+
+---
+
+### Commands
+
+| Clase                      | Descripción                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| CreateActuatorCommand      | Comando para registrar un nuevo actuador con sus detalles técnicos.           |
+| UpdateActuatorCommand      | Comando para actualizar atributos como la fecha de activacion.             |
+| RemoveActuatorCommand      | Comando para eliminar un actuador del sistema.                                |
+
+
+---
+
+
+### Domain Services (Interfaces)
+
+#### Command Services
+
+| Interface                  | Descripción                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| ISensorCommandService     | Operaciones sobre sensores (crear, actualizar, eliminar).                   |
+| ISensorTypeCommandService | Operaciones sobre tipos de sensores.                                        |
+
+---
+
+### Repositories (Interfaces)
+
+| Interface               | Descripción                                                                   |
+|------------------------|--------------------------------------------------------------------------------|
+| ISensorRepository       | Persistencia y consultas de sensores.                                         |
+| ISensorTypeRepository   | Persistencia y consultas de tipos de sensores.                                |
+
+
+
 #### 4.2.6.2. Interface Layer.
 
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
