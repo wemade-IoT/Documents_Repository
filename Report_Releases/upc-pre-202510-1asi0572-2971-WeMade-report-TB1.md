@@ -1524,6 +1524,8 @@ Representa una consult en la aplicación.
 #### 4.2.3.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
+
+
 #### 4.2.3.2. Interface Layer.
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -1617,7 +1619,6 @@ Representa una consult en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
--
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
 <img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
@@ -1784,7 +1785,7 @@ Representa una suscripción disponible en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram"/>
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 <img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram"/>
 
@@ -1794,7 +1795,7 @@ Representa una suscripción disponible en la aplicación.
 <img src="../assets/tactical-level-ddd/db-diagrams/subsciption-db-diagram.png" alt="Subscription Database Design Diagram"/>
 
 ### 4.2.5. Bounded Context: Payment
-- 
+
 #### 4.2.5.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.5.2. Interface Layer.
@@ -1858,7 +1859,7 @@ Representa una suscripción disponible en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
@@ -2126,7 +2127,7 @@ Representa una suscripción disponible en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram"/>
 
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
