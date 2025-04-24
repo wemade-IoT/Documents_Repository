@@ -1421,6 +1421,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  | /api/v1/answer       | Gestiona la creación y consulta de respuestas  |
 
 ---
+
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
