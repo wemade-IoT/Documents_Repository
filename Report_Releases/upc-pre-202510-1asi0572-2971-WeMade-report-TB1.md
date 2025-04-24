@@ -1580,31 +1580,37 @@ Representa una consult en la aplicación.
 
 ### CommandServices
 
-| Clase                            | Descripción |
-|----------------------------------|-------------|
-| `IQuestionCommandService`        | Maneja comandos para crear y actualizar preguntas. |
-| `NotificationCommandService`     | Implementación del servicio que maneja los comandos de notificaciones. |
-| `IAnswerCommandService`          | Maneja comandos para crear y actualizar respuestas. |
-| `AnswerCommandService`           | Implementación del servicio que maneja los comandos de respuestas. |
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| `QuestionCommandService` | `IQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas. |
+| `AnswerCommandService`    | `IAnswerCommandService`      | Implementción del servicio que maneja los comandos de respuestas de los especialistas a los usuarios.         
+
+
 
 ### QueryServices
 
-| Clase                              | Descripción |
-|------------------------------------|-------------|
-| `IQuestionQueryService`            | Devuelve una lista de preguntas por el identificador de usuario. |
-| `NotificationQueryService`         | Devuelve una lista de notificaciones por el identificador de usuario. |
-| `IAnswerQueryService`              | Devuelve una lista de respuestas por el identificador de usuario o pregunta. |
-| `AnswerQueryService`               | Implementación del servicio que maneja las consultas de respuestas. |
-| `IQuestionPoolQueryService`        | Devuelve todas las preguntas y respuestas asociadas. |
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| `QuestionQueryService`  | `IQuestionQueryService`   |  Implementación del servicio que maneja los consultas de preguntas. |
+| `AnswerQueryService`    | `IAnswerQueryService`      | Implementación del servicio que maneja las consultas de las respuestas de los especialistas a los usuarios.         
+
+
 
 ### OutboundServices
 
-| Clase                              | Descripción |
+
+
+
+| Interface                         | Descripción |
 |------------------------------------|-------------|
-| `IExternalUserService`             | Verifica la existencia de un usuario a través de un servicio externo. |
-| `IEmailService`                    | Envia correos electrónicos, interfaz del servicio de correo electrónico. |
-| `SendGridEmailService`             | Implementación del servicio de envío de correos electrónicos con SendGrid. |
-| `EmailServiceAdapter`              | Adaptador para usar un servicio de correo electrónico con la interfaz `IEmailService`. |
+| `IExternalUserService`             | Contrato que maneja consultas sobre el servicio externo de usuarios. |
+
+| Clase                        | Descripción |
+|------------------------------------|-------------|
+| `ExternalUserService`             | Implementación del contrato definido para la interacción con el servicio externo de usuarios. |
+
 
 #### 4.2.3.4. Infrastructure Layer.
 
