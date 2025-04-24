@@ -2045,29 +2045,15 @@ Representa una factura creada en la aplicación.
 
 ### CommandServices
 
-| Clase                               | Descripción |
-|-------------------------------------|-------------|
-| `IActuatorCommandService`           | Maneja comandos para crear, actualizar y activar actuadores. Utiliza la *entidad* `Actuator`. |
-| `ActuatorCommandService`            | Implementación del servicio que maneja los comandos relacionados con actuadores. |
-| `CreateActuatorCommand`             | Comando para crear un actuador. |
-| `UpdateActuatorCommand`             | Comando para actualizar un actuador. |
-| `ActivateActuatorCommand`           | Comando para activar un actuador. |
+| Clase                        | Interface                  | Descripción                                                                                   |
+|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
+| `ActuatorCommandService`    | `IActuatorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Actuator.       |
+| `CreateActuatorCommand`     | `ICreateActuatorCommand`   | Comando que encapsula la lógica necesaria para crear una nueva instancia de Actuator.         |
+| `UpdateActuatorCommand`     | `IUpdateActuatorCommand`   | Comando que encapsula la lógica para modificar los datos de un Actuator ya existente.         |
+| `ActivateActuatorCommand`   | `IActivateActuatorCommand` | Comando que encapsula la lógica para activar un Actuator, cambiando su estado operativo.      |
 
-### QueryServices
 
-| Clase                               | Descripción |
-|-------------------------------------|-------------|
-| `IActuatorQueryService`             | Devuelve un actuador o lista de actuadores. Utiliza la *entidad* `Actuator`. |
-| `ActuatorQueryService`              | Implementación del servicio que maneja las consultas sobre actuadores. |
-| `GetActuatorsByUserIdQuery`        | Consulta para obtener actuadores por el identificador de usuario. |
-| `GetActuatorsByStateIdQuery`       | Consulta para obtener actuadores por el identificador de estado. |
 
-### OutboundServices
-
-| Clase                               | Descripción |
-|-------------------------------------|-------------|
-| `IExternalAnalyticsService`         | Servicio externo que verifica la existencia de métricas asociadas a un actuador. |
-| `ExternalAnalyticsService`          | Implementación del servicio que interactúa con una fuente externa para analizar métricas. |
 
 #### 4.2.6.4. Infrastructure Layer.
 
@@ -2142,15 +2128,6 @@ Representa un sensor físico que ha sido instalado.
 
 ---
 
-### Queries
-
-| Clase                     | Descripción                                                                   |
-|--------------------------|-------------------------------------------------------------------------------|
-| GetSensorsByBrandQuery   | Devuelve sensores filtrados por marca.                                        |
-| GetSensorByIdQuery       | Devuelve los detalles de un sensor por ID.                                    |
-| GetAllSensorTypesQuery   | Retorna todos los tipos de sensores definidos en el sistema.                  |
-
----
 
 ### Domain Services (Interfaces)
 
@@ -2160,13 +2137,6 @@ Representa un sensor físico que ha sido instalado.
 |---------------------------|-----------------------------------------------------------------------------|
 | ISensorCommandService     | Operaciones sobre sensores (crear, actualizar, eliminar).                   |
 | ISensorTypeCommandService | Operaciones sobre tipos de sensores.                                        |
-
-#### Query Services
-
-| Interface                  | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| ISensorQueryService       | Consultas sobre sensores.                                                   |
-| ISensorTypeQueryService   | Consultas sobre los tipos de sensores.                                      |
 
 ---
 
