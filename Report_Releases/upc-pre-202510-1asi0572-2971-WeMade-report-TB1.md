@@ -2386,9 +2386,11 @@ Representa un usuario del sistema.
 <img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram"/>
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
--
+
+<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
+
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/iamt-db-diagram.png" alt="Iam Database Design Diagram"/>
