@@ -2200,9 +2200,8 @@ Representa un sensor físico que ha sido instalado.
 
  ---
 
--
 #### 4.2.7.3. Application Layer.
--
+
 #### 4.2.7.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -2227,6 +2226,71 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.8.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+ ---
+#### Value Objects
+**Role**
+
+| Atributo   | Descripción                                  |
+|------------|----------------------------------------------|
+| Domestic   | Representa el rol de un usuario doméstico.   |
+| Business   | Representa el rol de un usuario de negocios. |
+| Specialist | Representa el rol de un especialista.        |
+
+ ---
+
+#### Aggregates
+**User**
+Representa un usuario del sistema.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| Id             | Int    |
+| Email          | String |
+| Password       | String |
+| Name           | String |
+| Address        | String |
+| RoleId         | Int    |
+| SubscriptionId | Int    |
+
+ ---
+#### Commands
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| SignInCommand                | Representa un comando que inicia sesión en el sistema.                                                     |
+| SignUpCommand                | Representa un comando que registra un nuevo usuario en el sistema.                                         |
+
+#### Queries
+| Clase                     | Descripción                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| GetUserByIdQuery          | Representa una consulta que obtiene un usuario específico mediante su identificador único.         |
+| GetUserByEmailQuery       | Representa una consulta que obtiene un usuario específico mediante su correo electrónico.         |
+
+ ---
+#### Domain Services (Interfaces)
+**Command Services**
+
+| Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| IUserCommandService           | Define las operaciones que ejecutan cambios sobre el agregado User mediante comandos del dominio. |
+| IRoleCommandService           | Define las operaciones que ejecutan cambios sobre la entidad Role mediante comandos del dominio. |
+
+**Query Services**
+
+| Interface                        | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| IUserQueryService              | Define las consultas que se ejecutan sobre el agregado User mediante consultas del dominio. |
+
+ ---
+#### Repositories (Interfaces)
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| IUserRepository                    | Define un contrato para el manejo de persistencia y consultas sobre la tabla users.             |
+| IRoleRepository                    | Define un contrato para el manejo de persistencia y consultas sobre la tabla roles.             |
+
+ ---
+
+
 #### 4.2.8.2. Interface Layer.
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
