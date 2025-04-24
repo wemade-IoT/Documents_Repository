@@ -1087,6 +1087,8 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 
 ### 4.1.1.3 Bounded Context Canvases. 
 
+**- Bounded Canvas Analytics**
+<img src="../assets/bounded-canvas/bounded-canvas-analytics.jpeg" alt="Bounded Canvas Analytics"/>
 
 ### 4.1.2. Context Mapping.
 
