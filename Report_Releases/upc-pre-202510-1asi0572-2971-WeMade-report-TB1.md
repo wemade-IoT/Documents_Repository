@@ -2334,8 +2334,9 @@ Representa un sensor físico que ha sido instalado.
 |---------------------------|-----------------------------------------------------------------------------|
 | CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
 | UpdateSensorCommand       | Comando para actualizar atributos como voltaje, memoria o tipo.             |
-| DeleteSensorCommand       | Comando para eliminar un sensor del sistema.                                |
-| SeedSensorTypeCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
+| ActivateSensorCommand       | Comando para activar un sensor en el sistema.                                |
+
+| SeedSensorTypesCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
 
 ---
 
@@ -2372,8 +2373,7 @@ Representa un sensor físico que ha sido instalado.
  | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
  | CreateSensorResource        | Recibe datos para la creación de un nuevo sensor.            |
- | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.
-  | DeleteSensorResource  |  Recibe datos para la eliminación de un sensor existe.     
+ | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.  
 ---
 
   #### Transforms/Assemblers
@@ -2384,7 +2384,6 @@ Representa un sensor físico que ha sido instalado.
  |---------------------|--------------------------------------------------|
  |CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
  | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.              |
- | DeleteSensorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un sensor existente.         |
 
  ---
 
@@ -2425,7 +2424,7 @@ Representa un sensor físico que ha sido instalado.
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
--
+<img src="../assets/tactical-level-ddd/instalation/instalation-diagram.jpeg" alt="Instalation diagram"/>
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/installation-db-diagram.png" alt="Installation Database Design Diagram"/>
