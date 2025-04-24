@@ -2729,11 +2729,14 @@ Link de entrevistas [Anexo 2.2.1.1]
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
 
 
-1
-Importante! 
+```
+
+Notas Adicionales:
 
 Hay links que tienen :v: para solucionar esto se debe de poner [": v :"] junto.
 Esto sucede por un error en la conversion a pdf
+
+``
 
 ---
 
