@@ -1415,7 +1415,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/consulting/consulting-class-diagram.png" alt="Consulting Class Diagram"/>
+<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 

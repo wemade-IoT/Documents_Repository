@@ -9,15 +9,7 @@ class Question {
   +Update(command: UpdateQuestionCommand)
 }
 
-class QuestionResource {
-}
 
-class QuestionResourceFromEntityAssembler {
-  +ToResourceFromEntity(question: Question): QuestionResource
-}
-
-class QuestionRepository{
-}
 
 interface IQuestionRepository{
  +FindQuestionsByUserIdAsync(userId: int): List<Question>
@@ -29,23 +21,10 @@ interface IQuestionCommandService{
  +Handle(command: UpdateQuestionCommand): Question
 }
 
-class QuestionCommandService{
-}
-
-class CreateQuestionResource
-
-class CreateQuestionCommandFromResourceAssembler {
-  +ToCommandFromResource(resource: CreateQuestionResource): CreateQuestionCommand
-}
 
 class CreateQuestionCommand {
 }
 
-class UpdateQuestionResource
-
-class UpdateQuestionCommandFromResourceAssembler {
-  +ToCommandFromResource(resource: UpdateQuestionResource): UpdateQuestionCommand
-}
 class UpdateQuestionCommand {
 }
 
@@ -58,34 +37,14 @@ class GetQuestionsByUserIdQuery {
 }
 class GetAllQuestionsQuery
 
- class QuestionQueryService
-
- class QuestionController {
- +CreateQuestion(resource: CreateQuestionResource)
-    +UpdateQuestion(resource: UpdateQuestionResource)
-    +GetQuestionsByUserId(query: GetQuestionsByUserIdQuery)
-}
 
 Question ..> CreateQuestionCommand
 Question ..> UpdateQuestionCommand
-QuestionResourceFromEntityAssembler --> Question
 IQuestionRepository ..> Question
-QuestionResourceFromEntityAssembler --> QuestionResource
-QuestionRepository ..|> IQuestionRepository
 IQuestionCommandService --> CreateQuestionCommand
 IQuestionCommandService --> UpdateQuestionCommand
-QuestionCommandService ..|> IQuestionCommandService
-QuestionCommandService ..> IQuestionRepository
-QuestionController ..> IQuestionCommandService
-QuestionController ..> IQuestionQueryService
-QuestionQueryService ..|> IQuestionQueryService
-QuestionQueryService ..> IQuestionRepository
 GetQuestionsByUserIdQuery ..> IQuestionQueryService
 GetAllQuestionsQuery ..> IQuestionQueryService
-CreateQuestionCommandFromResourceAssembler --> CreateQuestionCommand
-CreateQuestionCommandFromResourceAssembler --> CreateQuestionResource
-UpdateQuestionCommandFromResourceAssembler --> UpdateQuestionCommand
-UpdateQuestionCommandFromResourceAssembler --> UpdateQuestionResource
 
 
 
@@ -101,16 +60,6 @@ class Answer {
   +Update(command: UpdateAnswerCommand)
 }
 
-class AnswerResource {
-}
-
-class AnswerResourceFromEntityAssembler {
-  +ToResourceFromEntity(answer: Answer): AnswerResource
-}
-
-class AnswerRepository{
-}
-
 interface IAnswerRepository{
  +FindAnswersByQuestionIdAsync(questionId: int): List<Answer>
     +FindAnswersByUserIdAsync(userId: int): List<Answer>
@@ -121,20 +70,10 @@ interface IAnswerCommandService{
  +Handle(command: UpdateAnswerCommand): Answer
 }
 
-class AnswerCommandService{
-}
-
-class CreateAnswerResource
-class CreateAnswerCommandFromResourceAssembler {
-  +ToCommandFromResource(resource: CreateAnswerResource): CreateAnswerCommand
-}
 
 class CreateAnswerCommand {
 }
-class UpdateAnswerResource
-class UpdateAnswerCommandFromResourceAssembler {
-  +ToCommandFromResource(resource: UpdateAnswerResource): UpdateAnswerCommand
-}
+
 class UpdateAnswerCommand {
 }
 interface IAnswerQueryService {
@@ -147,35 +86,13 @@ class GetAnswersByUserIdQuery {
  }
 
 
-
-
- class AnswerQueryService
-
- class AnswerController {
- +CreateAnswer(resource: CreateAnswerResource)
-    +UpdateAnswer(resource: UpdateAnswerResource)
-    +GetAnswersByQuestionId(query: GetAnswersByQuestionIdQuery)
-}
 Answer ..> CreateAnswerCommand
 Answer ..> UpdateAnswerCommand
-AnswerResourceFromEntityAssembler --> Answer
 IAnswerRepository ..> Answer
-AnswerResourceFromEntityAssembler --> AnswerResource
-AnswerRepository ..|> IAnswerRepository
 IAnswerCommandService --> CreateAnswerCommand
 IAnswerCommandService --> UpdateAnswerCommand
-AnswerCommandService ..|> IAnswerCommandService
-AnswerCommandService ..> IAnswerRepository
-AnswerController ..> IAnswerCommandService
-AnswerController ..> IAnswerQueryService
-AnswerQueryService ..|> IAnswerQueryService
-AnswerQueryService ..> IAnswerRepository
 GetAnswersByQuestionIdQuery ..> IAnswerQueryService
 GetAnswersByUserIdQuery ..> IAnswerQueryService
-CreateAnswerCommandFromResourceAssembler --> CreateAnswerCommand
-CreateAnswerCommandFromResourceAssembler --> CreateAnswerResource
-UpdateAnswerCommandFromResourceAssembler --> UpdateAnswerCommand
-UpdateAnswerCommandFromResourceAssembler --> UpdateAnswerResource
 
 
 class QuestionPool {
@@ -188,8 +105,6 @@ class QuestionPool {
     +QuestionPool(questionAnswer: Text)
 }
 
-class QuestionPoolRepository{
-}
 interface IQuestionPoolRepository{
     +FindAllQuestionPoolsAsync(): List<QuestionPool>
 }
@@ -198,12 +113,8 @@ interface IQuestionPoolQueryService {
 }
 class GetAllQuestionPoolsQuery {
 }
-class QuestionPoolQueryService
 IQuestionPoolRepository ..> QuestionPool
 
-QuestionPoolRepository ..|> IQuestionPoolRepository
-QuestionPoolQueryService ..|> IQuestionPoolQueryService
-QuestionPoolQueryService ..> IQuestionPoolRepository
 GetAllQuestionPoolsQuery ..> IQuestionPoolQueryService
 
 
