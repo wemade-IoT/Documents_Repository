@@ -965,7 +965,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 ## 3.4. Product Backlog.
 
-Link Trello: 
+Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496480e011de94c8ed610564aEDA6CB98/ecoguardian
 
 ## User Stories en Orden
 
