@@ -1416,7 +1416,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
  | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
 
 ---
@@ -1427,8 +1426,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
- | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
+ SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
 
 --- 
 
@@ -1441,7 +1439,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  
  | Ruta especifica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
+ | /api/v1/subscription       | Gestiona la consulta de suscripciones  |
 
 ---
 
