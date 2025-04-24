@@ -1,0 +1,79 @@
+@startuml
+
+class User {
+  +Id: int
+  +Email: String
+  +Password: String
+  +Name: String
+  +Address: String
+  +RoleId: int
+  +SubscriptionId: int
+  +User()
+  +User(command: SignUpCommand)
+  +SignIn(command: SignInCommand)
+}
+
+class Role {
+  +Id: int
+  +Name: String
+  +Role()
+}
+
+interface IUserRepository {
+  +FindUserByIdAsync(userId: int): User
+  +FindUserByEmailAsync(email: String): User
+}
+
+interface IRoleRepository {
+  +FindRoleByIdAsync(roleId: int): Role
+}
+
+interface IUserCommandService {
+  +Handle(command: SignUpCommand): User
+  +Handle(command: SignInCommand): User
+}
+
+interface IUserQueryService {
+  +Handle(query: GetUserByIdQuery): User
+  +Handle(query: GetUserByEmailQuery): User
+}
+
+class SignUpCommand {
+  +Email: String
+  +Password: String
+  +Name: String
+  +Address: String
+  +RoleId: int
+  +SubscriptionId: int
+}
+
+class SignInCommand {
+  +Email: String
+  +Password: String
+}
+
+class GetUserByIdQuery {
+  +UserId: int
+}
+
+class GetUserByEmailQuery {
+  +Email: String
+}
+
+enum RoleType {
+  Domestic
+  Business
+  Specialist
+}
+
+User ..> SignUpCommand
+User ..> SignInCommand
+IUserRepository ..> User
+IRoleRepository ..> Role
+Role --> RoleType
+IUserCommandService --> SignUpCommand
+IUserCommandService --> SignInCommand
+GetUserByIdQuery ..> IUserQueryService
+GetUserByEmailQuery ..> IUserQueryService
+
+@enduml
