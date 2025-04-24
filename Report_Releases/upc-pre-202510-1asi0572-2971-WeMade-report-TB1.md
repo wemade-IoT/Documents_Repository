@@ -167,8 +167,8 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio Especifico                                                                             | Acciones Realizadas | Conclusiones |
 |-------------------------------------------------------------------------------------------------|---------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | Manuel Sebastian Peña Rivera <br> TB1:<br> Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br> Mathias Kunimoto <br> TB1:<br> Participé activamente en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, los **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**.<br/> Gustavo Huilca Chipana <br/>  TB1: <br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión. <br/> Sebastian Ramirez Hoffmann: En esta entrega realicé trabajo en equipo participando en diversas |              |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Manuel Sebastian Peña Rivera<br> TB1:<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br> Mathias Kunimoto<br> TB1:<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br/> Gustavo Huilca Chipana <br/>  TB1: <br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso.          |              |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicosComo los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br> **Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. **Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión. **Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**. |Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones.|
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Manuel Sebastian Peña Rivera<br> TB1:<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br> Mathias Kunimoto<br> TB1:<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br/> Gustavo Huilca Chipana <br/>  TB1: <br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br><br> Sebastian Ramirez Hoffmann <br> TB1: <br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos.       | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento.             |
 
 # Capítulo I: Introducción
 
@@ -389,9 +389,8 @@ En este caso sería desarrollar un prototipo parcialmente funcional donde lo que
 
 Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiándonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
 
-<image src ="../assets/lean-ux-canvas/lean-ux-canvas.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+<image src ="../assets/lean-ux-canvas/lean-ux-canva.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
-[Link del Lean UX Canvas](https://miro.com/app/board/uXjVI-2HZT4=/?share_link_id=253434395261)
 [Link del Lean UX Canvas](https://miro.com/app/board/uXjVI-2HZT4=/?share_link_id=253434395261)
 
 ## 1.3. Segmentos objetivo.
@@ -422,12 +421,12 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 |              **Precios**              | Modelo de pago con planes accesibles por número de plantas/áreas monitoreadas, . Opciones económicas para el hogar y versiones premium para uso agrícola. En el uso agrícola se hace una cotización dependiendo de la cantidad de sensores cubriendo un area. |                                                    Si bien no se menciona mas allá de las cotizaciones se espera de que se haga un presupuesto en base a el servicio especifico que se implementa y el uso de dispositivos necesarios en el area                                                     |                                                                 Alta relación calidad-precio para el usuario.                                                                  |                                                                                 Precios competitivos, con productos accesibles para el hogar y más avanzados para empresas.                                                                                  |
 
 
-| **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | competidor1 | Xiaomi Mi Flora | Rachio |
+| **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | Irritec | Xiaomi Mi Flora | Rachio |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|--------|
-| **Fortalezas**    | - Aplicación multiplataforma (web + móvil).<br/> - Recomendaciones personalizadas basadas en datos.<br/>- Escalabilidad por planes (hobby/empresarial).<br/>- Enfoque en experiencia de usuario y educación. |             |                 |        |
-| **Debilidades**   | - Marca menos reconocida vs. Xiaomi/Rachio.<br/> - Requiere mayor inversión inicial en sensores y suscripciones.<br/>- Dependencia de infraestructura IoT y una conectividad estable.<br/>                   |             |                 |        |
-| **Oportunidades** | - Alianzas con viveros y agricultura urbana.<br/> - Expansión a mercados emergentes con agricultura tecnológica.<br/>  - Integración con smart home (ej: Alexa, Google Home).                                |             |                 |        |
-| **Amenazas**      | ...                                                                                                                                                                                                          |             |                 |        |
+| **Fortalezas**    | Aplicación multiplataforma (web + móvil).<br/> Recomendaciones personalizadas basadas en datos.<br/> Escalabilidad por planes (hobby/empresarial).<br/> Enfoque en experiencia de usuario y educación. |      Experiencia en sistemas de riego profesional. <br> Presencia internacional y multisectorial (minería, agricultura). <br> Tecnologías avanzadas como monitoreo de pH.       |        Marca globalmente reconocida <br> Producto económico y de fácil uso. <br> Buen diseño y compatibilidad con apps móviles.         |   Enfoque especializado en riego inteligente.<br> Alta integración con smart homes. <br> Productos variados y funcionales para exteriores.     |
+| **Debilidades**   | Marca menos reconocida vs. Xiaomi/Rachio.<br/>  Requiere mayor inversión inicial en sensores y suscripciones.<br/> Dependencia de infraestructura IoT y una conectividad estable.<br/>                   |      Costos altos y soluciones complejas. <br> Enfocado principalmente al segmento industrial, no doméstico. <br> Menor accesibilidad para pequeños agricultores.       |       Limitada funcionalidad (sin alertas en tiempo real). <br> Dependencia de Bluetooth (rango limitado). <br> No escalable para cultivos grandes ni agricultura profesional.          |   No diseñado para interiores o plantas pequeñas. <br> Menos adecuado para cultivos industriales complejos. <br> Requiere cierta inversión inicial en infraestructura.     |
+| **Oportunidades** | Alianzas con viveros y agricultura urbana.<br/> Expansión a mercados emergentes con agricultura tecnológica.<br/> Integración con smart home (ej: Alexa, Google Home).                                |       Crecimiento del agrotech en Latinoamérica. <br> Integración con nuevos cultivos de precisión. <br> Expansión a nuevos sectores como la jardinería urbana.      |    Ampliación del mercado de usuarios domésticos. <br> Integración con más dispositivos Xiaomi del hogar. <br> Expansión de funcionalidades en versiones futuras.             |   Alianzas con gobiernos o ciudades para parques/jardines. <br> Expansión hacia cultivos más profesionales con IoT. <br> Posicionarse como referente en sostenibilidad del riego.   |
+| **Amenazas**      | Competencia con marcas posicionadas como Xiaomi y Rachio. <br> Limitaciones de presupuesto en usuarios pequeños.        |    Nuevas soluciones IoT más económicas. <br> Competencia de startups ágiles y especializadas. <br> Requiere asesoramiento técnico constante.         |        Productos más completos en el mismo rango de precio. <br> Alta competencia en el segmento de smart gardening. <br> Falta de servicio técnico localizado en algunos países.         |    Competencia de nuevas marcas con apps más personalizadas. <br> Usuarios domésticos que buscan opciones más asequibles. <br> Avances de empresas como Xiaomi en integración smart home.    |
 
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
@@ -951,13 +950,20 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 ## 3.3. Impact Mapping.
 
-![Impact Mapping Doméstico](../assets/impact-mapping/segmento-domestico.png)
-![Impact Mapping Negocio](../assets/impact-mapping/segmento-negocio.png)
-![Imapct Mapping Especialista](../assets/impact-mapping/segmento-especialista.png)
+
+<img src="../assets/impact-mapping/segmento-domestico.png" alt="Impact Mapping Doméstico">
+
+
+<img src="../assets/impact-mapping/segmento-negocio.png" alt="Impact Mapping Negocio">
+
+
+<img src="./assets/impact-mapping/segmento-especialista.png" alt="Imapct Mapping Especialista">
+
+
 
 ## 3.4. Product Backlog.
 
-Link Trello:
+Link Trello: 
 
 | #Orden | User Story ID | Titulo                   | Descripción                                                                                     | Story Points (1/2/3/5/8) |
 |--------|---------------|--------------------------|-------------------------------------------------------------------------------------------------|--------------------------|
@@ -1098,9 +1104,13 @@ Representa el estado actual de una planta o plantación (por ejemplo: Saludable,
 
 #### Value Objects
 
-| Nombre     | Descripción                                              |
+**States**
+
+| Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
-| States      | Representa el estado actual (`Id`, `Type`)               |
+| Healthy    | Representa el estado de una planta saludable              |
+| UnHealthy    | Representa el estado de una planta no saludable              |
+| Warning    | Representa el estado de una planta en riesgo       |
 
 ---
 
@@ -1124,8 +1134,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
-| UpdateThresholds(...) | Actualiza los umbrales definidos por el usuario.    |
-| ChangeState(state)    | Cambia el estado de la planta.                      |
+| Update | Aplica los cambios especificados por un comando de actualización para modificar los valores de la planta    |
 
 ---
 
@@ -1148,44 +1157,61 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| UpdateCoverage(area)     | Actualiza el área cubierta por la plantación.     |
-| ChangeState(state)       | Cambia el estado de la plantación.                |
+| Update     | Aplica los cambios especificados por un comando de actualización para modificar los valores de la plantación     |
 
 ---
 
-#### Domain Services
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreatePlantCommand      | Representa un comando para crear una nueva instancia del agregado Plant.                        |
+| UpdatePlantCommand      | Representa un comando para modificar una instancia existente del agregado Plant.                |
+| CreatePlantationCommand | Representa un comando para crear una nueva instancia del agregado Plantation.                  |
+| UpdatePlantationCommand | Representa un comando para modificar una instancia existente del agregado Plantation.          |
+| SeedStatesCommand       | Representa un comando para inicializar datos en la entidad State dentro del dominio. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPlantsByStateIdQuery      | Representa una consulta que recupera las plantas asociadas a un estado específico.                   |
+| GetPlantsByUserIdQuery      | Representa una consulta que obtiene todas las plantas asociadas a un usuario determinado.            |
+| IsPlantExistsByIdQuery      | Representa una consulta que verifica si existe una planta con un identificador específico.           |
+| GetPlantationsByStateIdQuery | Representa una consulta que recupera las plantaciones asociadas a un estado específico.              |
+| GetPlantationsByUserIdQuery  | Representa una consulta que obtiene todas las plantaciones asociadas a un usuario determinado.        |
+
+
+---
+
+#### Domain Services (Interfaces)
 
 **Command Services**
 
-| Servicio                  | Método                                                                 |
+|  Interface            | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| IPlantCommandService      | Handle(command: CreatePlantCommand): Void<br>Handle(command: UpdatePlantCommand): Void |
-| IPlantationCommandService | Handle(command: CreatePlantationCommand): Void<br>Handle(command: UpdatePlantationCommand): Void |
+| IPlantCommandService      | Define las operaciones que ejecutan cambios sobre el agregado Plant mediante comandos del dominio.  |
+| IPlantationCommandService | 	Define las operaciones que ejecutan cambios sobre el agregado Plantation mediante comandos del dominio. |
+| IStateCommandService | 	Define las operaciones que ejecutan cambios sobre el entity State mediante comandos del dominio. |
 
 **Query Services**
 
-| Servicio                  | Método                                                                 |
+| Interface                 | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| PlantQueryService         | Handle(query: GetPlantsByUserIdQuery): List<Plant><br>Handle(query: GetPlantsByStateIdQuery): List<Plant> |
-| PlantationQueryService    | Handle(query: GetPlantationsByUserIdQuery): List<Plantation><br>Handle(query: GetPlantationsByStateIdQuery): List<Plantation> |
+| IPlantQueryService         | Define las consultas que se ejecutan sobre el agregado Plant mediante consultas del dominio |
+| IPlantationQueryService    | Define las consultas que se ejecutan sobre el agregado Plantation mediante consultas del dominio |
+
 
 ---
 
 #### Repositories (Interfaces)  
 
-**IPlantRepository**
-
-| Método                         | Descripción                            |
+| Interface                         | Descripción                            |
 |--------------------------------|----------------------------------------|
-| FindByUserIdAsync(userId)      | Lista todas las plantas de un usuario |
-| FindByStateIdAsync(stateId)    | Lista todas las plantas por estado    |
-
-**IPlantationRepository**
-
-| Método                             | Descripción                                |
-|------------------------------------|--------------------------------------------|
-| FindByUserIdAsync(userId)          | Lista todas las plantaciones de un usuario |
-| FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
+| IPlantRepository      | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantas |
+|IPlantationRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantations    |
+| IStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de states |
 
 
 #### 4.2.1.2. Interface Layer.
@@ -1268,10 +1294,10 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ### Implementación de las interfaces de los Repositories
 
-| Clase                | Interfaz Implementada | Descripción                                                                                                            |
-|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
-| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
-| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+| Clase | Interfaz Implementada | Descripción|
+|------|--------------|------------------|
+ | PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
+| PlantationRepository | IPlantationRepository |Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1287,7 +1313,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 <img src="../assets/tactical-level-ddd/db-diagrams/management-db-diagram.png" alt="Management Database Design Diagram"/>
 
 ### 4.2.2. Bounded Context: Analytics
--
 #### 4.2.2.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
@@ -1371,9 +1396,11 @@ Representa una consult en la aplicación.
 | IAnalyticsReportTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla metric_types |
 
 #### 4.2.2.2. Interface Layer.
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 --- 
+
 #### Resources
  
  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
@@ -1440,6 +1467,7 @@ Representa una consult en la aplicación.
 #### Resources
 
 ---
+
  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
 
  | Clase            | Descripción                                      |
@@ -1450,6 +1478,7 @@ Representa una consult en la aplicación.
  | AnswerResource     | Devuelve datos de una respuesta
 
 ---
+
 #### Transforms/Assemblers
 
 - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
@@ -1480,6 +1509,7 @@ Representa una consult en la aplicación.
  | /api/v1/answer       | Gestiona la creación y consulta de respuestas  |
 
 ---
+
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
@@ -1507,10 +1537,100 @@ Representa una consult en la aplicación.
 ### 4.2.4. Bounded Context: Subscription
 
 #### 4.2.4.1. Domain Layer.
-- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+---
+
+#### Entities
+
+**SubscriptionType**
+
+Representa el tipo de suscripción (por ejemplo: Básico,Doméstico y Negocios). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Value Objects
+
+**SubscriptionTypes**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Basic    | Representa un tipo de suscripción básica              |
+| Domestic    | Representa un tipo de suscripción enfocados para usuarios domésticos              |
+| Business    | Representa un tipo de suscripción enfocados para usuarios de negocios     |
+
+---
+
+#### Aggregates
+
+**Subscription**
+
+Representa una suscripción disponible en la aplicación.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| CreatedAt             | DateTime |
+| ExpirationDate        | DateTime |
+| SubscriptionTypeId    | Int      |
+
+---
+
+#### Commands
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| SeedSubscriptionCommand      | Representa un comando que inicializa datos relacionados a suscripciones dentro del dominio.                 |
+| SeedSubscriptionTypeCommand  | Representa un comando que inicializa los tipos de suscripciones disponibles en el dominio.                  |
+
+
+#### Queries
+
+| Clase                     | Descripción                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| GetSubscriptionsQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
+| GetSubscriptionByIdQuery  | Representa una consulta que obtiene una suscripción específica mediante su identificador único.         |
+
+
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| ISubscriptionCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Subscription mediante comandos del dominio. |
+| ISubscriptionTypeCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionType mediante comandos del dominio. |
+
+**Query Services**
+
+| Interface                        | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| ISubscriptionQueryService        | Define las consultas que se ejecutan sobre el agregado Subscription mediante consultas del dominio. |
+
+---
+
+#### Repositories (Interfaces)  
+
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| ISubscriptionRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscriptions.  |
+| ISubscriptionTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_types |
+
+
+
+
 #### 4.2.4.2. Interface Layer.
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 ---
+
 #### Resources
 
 - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
@@ -1707,7 +1827,9 @@ Representa una consult en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram"/>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
+
+
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
 <img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
@@ -1778,7 +1900,7 @@ Representa una consult en la aplicación.
 <img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
@@ -1787,7 +1909,7 @@ Representa una consult en la aplicación.
 
 
 ### 4.2.8. Bounded Context: Identity and Access Management
--
+
 #### 4.2.8.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.8.2. Interface Layer.
@@ -1806,7 +1928,7 @@ Representa una consult en la aplicación.
    | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     
  ---
  
-   ## Transforms/Assemblers
+   #### Transforms/Assemblers
   - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
   
   
