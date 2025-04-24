@@ -1315,6 +1315,85 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| plantId  | Int    |
+| metric_value| double(2,3)    |
+| metric_type  | Int    |
+
+---
+
+#### Value Objects
+
+**MetricTypes**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Humidity    | Representa la metrica de humedad              |
+| Illumination    | Representa la metrica de iluminacion             |
+| Temperature    | Representa la metrica de temperatura     |
+
+---
+
+#### Aggregates
+
+**AnalyticReport**
+
+Representa una consult en la aplicación.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| PlantId                    | Int      |
+| MetricTypeId            | MetricTypes |
+| CreatedAt        | DateTime |
+| MetricValue    | double(2.3)|
+
+---
+
+#### Commands
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| SeedAnalyticsTypeCommand      | Representa un comando que inicializa datos relacionados a los typos de metricas dentro del dominio. |
+| CreateNewAnalyticReport  | Representa un comando que crea un reporte de analisis de los datos.                  |
+
+
+#### Queries
+
+| Clase                     | Descripción                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| GetAnalyticReportByIdQuery      | Representa una consulta que recupera un reporte especifico mediante su identificador único y el de una planta.            |
+| GetAllAnalyticReportQuery  | Representa una consulta que obtiene todos los reportes de una planta en especifico utilizando su identificador.         |
+
+
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| IAnalyticsReportCommandService    | Define las operaciones que ejecutan cambios sobre el agregado AnalyticsReport mediante comandos del dominio. |
+
+**Query Services**
+
+| Interface                        | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| IAnalyticsReportQueryService        | Define las consultas que se ejecutan sobre el agregado AnalyticsReport mediante consultas del dominio. |
+
+---
+
+#### Repositories (Interfaces)  
+
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| IAnalyticsRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla AnalyticsReport.  |
+| IAnalyticsReportTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla metric_types |
+
 #### 4.2.2.2. Interface Layer.
 
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -1379,6 +1458,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 #### 4.2.3.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
 #### 4.2.3.2. Interface Layer.
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
