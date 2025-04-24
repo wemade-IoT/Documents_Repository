@@ -1731,7 +1731,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
   |---------------------|--------------------------------------------------|
   |SignInCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inicio de sesión.      |
   | SignUpCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para el registro de usuarios.              |
- 
   AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
  
   ---
