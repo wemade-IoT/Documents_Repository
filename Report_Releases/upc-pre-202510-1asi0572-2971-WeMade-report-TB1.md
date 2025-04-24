@@ -2383,6 +2383,16 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.7.3. Application Layer.
 
+*CommandServices*
+| Clase                        |Interface                  | Descripción                                                                                   |
+|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
+| `SensorCommandService`      | `ISensorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Sensor.       |
+| `CreateSensorCommand`       | `ICreateSensorCommand`   | Comando que encapsula la lógica necesaria para crear una nueva instancia de Sensor.         |
+| `UpdateSensorCommand`       | `IUpdateSensorCommand`   | Comando que encapsula la lógica para modificar los datos de un Sensor ya existente.         |
+| `DeleteSensorCommand`       | `IDeleteSensorCommand`   | Comando que encapsula la lógica para eliminar un Sensor, cambiando su estado operativo.      |
+
+
+
 #### 4.2.7.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
