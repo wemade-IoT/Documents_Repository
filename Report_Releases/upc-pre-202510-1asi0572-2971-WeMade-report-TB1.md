@@ -1287,7 +1287,34 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.1.3. Application Layer.
--
+
+### CommandServices
+
+| Clase                                | Descripción |
+|--------------------------------------|-------------|
+| `IStateCommandService`               | Maneja comandos relacionados con el estado de las plantas, como la creación o actualización de estados. |
+| `IPlantationCommandService`          | Maneja los comandos para la creación y actualización de plantaciones. |
+| `IPlantCommandService`               | Maneja los comandos para crear y actualizar plantas. |
+| `PlantationCommandService`           | Implementación del servicio que maneja los comandos relacionados con las plantaciones. |
+| `StateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados. |
+
+### QueryServices
+
+| Clase                                | Descripción |
+|--------------------------------------|-------------|
+| `IPlantationQueryService`            | Devuelve información sobre plantaciones por usuario o por estado. |
+| `IPlantQueryService`                 | Devuelve información sobre plantas según diferentes criterios. |
+| `IStateQueryService`                 | Proporciona información sobre los estados de las plantas. |
+| `PlantationQueryService`             | Implementación del servicio que maneja las consultas relacionadas con las plantaciones. |
+| `PlantQueryService`                  | Implementación del servicio que maneja las consultas relacionadas con las plantas. |
+| `StateQueryService`                  | Implementación del servicio que maneja las consultas relacionadas con los estados. |
+
+### OutboundServices
+
+| Clase                                | Descripción |
+|--------------------------------------|-------------|
+| `IExternalAnalyticsService`          | Verifica la existencia de métricas asociadas a plantas a través de un servicio externo. |
+
 #### 4.2.1.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1433,7 +1460,6 @@ Representa una consult en la aplicación.
 
 
 #### 4.2.2.3. Application Layer.
--
 #### 4.2.2.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1509,7 +1535,35 @@ Representa una consult en la aplicación.
 ---
 
 #### 4.2.3.3. Application Layer.
--
+
+### CommandServices
+
+| Clase                            | Descripción |
+|----------------------------------|-------------|
+| `IQuestionCommandService`        | Maneja comandos para crear y actualizar preguntas. |
+| `NotificationCommandService`     | Implementación del servicio que maneja los comandos de notificaciones. |
+| `IAnswerCommandService`          | Maneja comandos para crear y actualizar respuestas. |
+| `AnswerCommandService`           | Implementación del servicio que maneja los comandos de respuestas. |
+
+### QueryServices
+
+| Clase                              | Descripción |
+|------------------------------------|-------------|
+| `IQuestionQueryService`            | Devuelve una lista de preguntas por el identificador de usuario. |
+| `NotificationQueryService`         | Devuelve una lista de notificaciones por el identificador de usuario. |
+| `IAnswerQueryService`              | Devuelve una lista de respuestas por el identificador de usuario o pregunta. |
+| `AnswerQueryService`               | Implementación del servicio que maneja las consultas de respuestas. |
+| `IQuestionPoolQueryService`        | Devuelve todas las preguntas y respuestas asociadas. |
+
+### OutboundServices
+
+| Clase                              | Descripción |
+|------------------------------------|-------------|
+| `IExternalUserService`             | Verifica la existencia de un usuario a través de un servicio externo. |
+| `IEmailService`                    | Envia correos electrónicos, interfaz del servicio de correo electrónico. |
+| `SendGridEmailService`             | Implementación del servicio de envío de correos electrónicos con SendGrid. |
+| `EmailServiceAdapter`              | Adaptador para usar un servicio de correo electrónico con la interfaz `IEmailService`. |
+
 #### 4.2.3.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1663,7 +1717,21 @@ Representa una suscripción disponible en la aplicación.
 ---
 
 #### 4.2.4.3. Application Layer.
--
+
+### CommandServices
+
+| Clase                              | Descripción |
+|------------------------------------|-------------|
+| `ISubscriptionCommandService`      | Maneja comandos para gestionar suscripciones. Utiliza la *entidad* `Subscription`. |
+| `ISubscriptionTypeCommandService`  | Maneja comandos para gestionar tipos de suscripción. Utiliza la *entidad* `SubscriptionType`. |
+
+### QueryServices
+
+| Clase                              | Descripción |
+|------------------------------------|-------------|
+| `ISubscriptionQueryService`        | Devuelve una suscripción por su identificador. Utiliza la *entidad* `Subscription`. |
+| `ISubscriptionTypeQueryService`    | Devuelve si existe un tipo de suscripción o lista de tipos. Utiliza la *entidad* `SubscriptionType`. |
+
 #### 4.2.4.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1808,7 +1876,31 @@ Representa una suscripción disponible en la aplicación.
 
 #### 4.2.6.3. Application Layer.
 
+### CommandServices
 
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IActuatorCommandService`           | Maneja comandos para crear, actualizar y activar actuadores. Utiliza la *entidad* `Actuator`. |
+| `ActuatorCommandService`            | Implementación del servicio que maneja los comandos relacionados con actuadores. |
+| `CreateActuatorCommand`             | Comando para crear un actuador. |
+| `UpdateActuatorCommand`             | Comando para actualizar un actuador. |
+| `ActivateActuatorCommand`           | Comando para activar un actuador. |
+
+### QueryServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IActuatorQueryService`             | Devuelve un actuador o lista de actuadores. Utiliza la *entidad* `Actuator`. |
+| `ActuatorQueryService`              | Implementación del servicio que maneja las consultas sobre actuadores. |
+| `GetActuatorsByUserIdQuery`        | Consulta para obtener actuadores por el identificador de usuario. |
+| `GetActuatorsByStateIdQuery`       | Consulta para obtener actuadores por el identificador de estado. |
+
+### OutboundServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IExternalAnalyticsService`         | Servicio externo que verifica la existencia de métricas asociadas a un actuador. |
+| `ExternalAnalyticsService`          | Implementación del servicio que interactúa con una fuente externa para analizar métricas. |
 
 #### 4.2.6.4. Infrastructure Layer.
 
