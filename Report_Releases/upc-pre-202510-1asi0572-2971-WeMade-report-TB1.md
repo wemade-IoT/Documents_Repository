@@ -257,7 +257,7 @@ del ABET – EAC - Student Outcome 5.
 | **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------|-------------------------|------------------|
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Mathias Alejandro Jave Diaz** <br>**TB1:**<br> Durante este avance del proyecto, participé activamente en reuniones presenciales y virtuales, donde contribuí con ideas clave para definir el flujo de negocio, fomentando así la claridad y el consenso entre todos los miembros del equipo. También participle activamente en la elaboración de la arquitectura de software y en el diseño táctico siguiendo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante el avance de esta entrega, participé de manera conjunta en las sesiones programadas por mi equipo de trabajo, en las cuales contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, de modo que todos los integrantes podamos esclarecer y tener un conocimiento adecuado sobre nuestra aplicación. Además, participé en la elaboración de las preguntas para cada uno de los segmentos objetivos, con el fin de recopilar información vital para la mejora continua y oportunidades de mejora para nuestra aplicación. Finalmente, colaboré en la elaboración del **Candidate Context Discovery** y el **Product Backlog**. <br><br>**Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas. <br><br>**Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. <br><br>**Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión. <br><br>**Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**. | Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>**Italo D'Alessandro Luna Capuñay**<br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante este avance del proyecto, fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, aseguramos que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br><br><br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>**Italo D'Alessandro Luna Capuñay**<br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
 
 
 
@@ -480,7 +480,8 @@ En este caso sería desarrollar un prototipo parcialmente funcional donde lo que
 
 Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiándonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
 
-<image src ="../assets/lean-ux-canvas/lean-ux-canva.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+<image src ="../assets/lean-ux-canvas/lean-ux-canvas.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+
 
 [Link del Lean UX Canvas](https://miro.com/app/board/uXjVI-2HZT4=/?share_link_id=253434395261)
 
@@ -2295,6 +2296,19 @@ Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, t
 
 ---
 
+
+### ValueObjects
+
+#### `SensorTypes`
+Representa los diferentes tipos de sensores disponibles.
+| Atributo | Descripción                                 |
+|----------|---------------------------------------------|
+| Humity      | Representa un sensor de humedad      |
+| Temperature     | Representa un sensor de temperatura   |
+| Light    | Representa un sensor de luz   |
+
+---
+
 ### Aggregates
 
 #### `Sensor`
@@ -2318,9 +2332,9 @@ Representa un sensor físico que ha sido instalado.
 
 | Clase                      | Descripción                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| InstallSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
+| CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
 | UpdateSensorCommand       | Comando para actualizar atributos como voltaje, memoria o tipo.             |
-| RemoveSensorCommand       | Comando para eliminar un sensor del sistema.                                |
+| DeleteSensorCommand       | Comando para eliminar un sensor del sistema.                                |
 | SeedSensorTypeCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
 
 ---
@@ -2389,6 +2403,13 @@ Representa un sensor físico que ha sido instalado.
  ---
 
 #### 4.2.7.3. Application Layer.
+
+*CommandServices*
+| Clase                        |Interface                  | Descripción                                                                                   |
+|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
+| `SensorCommandService`      | `ISensorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Sensor.       |
+
+
 
 #### 4.2.7.4. Infrastructure Layer.
 
@@ -2580,11 +2601,11 @@ Representa una notificacion creada en la aplicación.
 
 | Atributo | Tipo   |
 |----------|--------|
-| Id       | Int    |
-| Title     | String |
-| Content     | String |
-| Created_at     | String |
-| user_id     | String |
+| Id       | int    |
+| Title     | string |
+| Content     | string |
+| CreatedAt     | string |
+| UserId     | int |
 
 ---
 
@@ -2593,6 +2614,14 @@ Representa una notificacion creada en la aplicación.
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
 | CreateNotificationCommand      | Representa un comando para la creación de una notificacion.                 |
+
+---
+
+#### Queries
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| GetNotificationsByUserIdQuery     | Representa una consulta para obtener datos de notificaciones por usuario.      
 
 ---
 
@@ -2660,9 +2689,6 @@ Representa una notificacion creada en la aplicación.
 |-------------------------------------|-------------|
 | `INotificationCommandService`           | Maneja comandos para crear Notifications. Utiliza la *entidad* `Notification`. |
 | `NotificationCommandService`            | Implementación del servicio que maneja los comandos relacionados con Notifications. |
-| `CreateNotificationCommand`             | Comando para crear un Notifications. |
-| `UpdateNotificationCommand`             | Comando para actualizar un Notifications. |
-| `ActivateNotificationCommand`           | Comando para activar un Notifications. |
 
 ### QueryServices
 
@@ -2670,15 +2696,13 @@ Representa una notificacion creada en la aplicación.
 |-------------------------------------|-------------|
 | `INotificationQueryService`             | Devuelve un Notification o lista de Notifications. Utiliza la *entidad* `Notification`. |
 | `NotificationQueryService`              | Implementación del servicio que maneja las consultas sobre Notifications. |
-| `GetNotificationsByUserIdQuery`        | Consulta para obtener Notifications por el identificador de usuario. |
-| `GetNotificationsByStateIdQuery`       | Consulta para obtener Notifications por el identificador de estado. |
 
 ### OutboundServices
 
 | Clase                               | Descripción |
 |-------------------------------------|-------------|
-| `IExternalAnalyticsService`         | Servicio externo que envia las notificaciones asociadas a un servicio externo. |
-| `ExternalAnalyticsService`          | Implementación del servicio envia las notificaciones asociadas a un servicio externo. |
+| `IExternalUserService`         | Definición del contrato que permite la interacción con el sistema externo de usuarios. |
+| `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
 #### 4.2.9.4. Infrastructure Layer.
 
@@ -2694,7 +2718,7 @@ Representa una notificacion creada en la aplicación.
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/tactical-level-ddd/notification/DomainLayerClassDiagram_Notification.png" alt="Notification Context Domain Layer Class Diagrams"/>
+<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams"/>
 
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
@@ -2737,11 +2761,14 @@ Link de entrevistas [Anexo 2.2.1.1]
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
 
 
-1
-Importante! 
+```
+
+Notas Adicionales:
 
 Hay links que tienen :v: para solucionar esto se debe de poner [": v :"] junto.
 Esto sucede por un error en la conversion a pdf
+
+``
 
 ---
 
