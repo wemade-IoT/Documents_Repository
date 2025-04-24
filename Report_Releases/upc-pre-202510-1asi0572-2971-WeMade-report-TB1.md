@@ -40,13 +40,13 @@
 
 | Versión | Fecha       | Autor                                              | Descripción de modificación                                                                                               |
 |---------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 24/03/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes, definición del problema y validación inicial con actores clave mediante entrevistas exploratorias. |
-| TB1     | 24/03/2025  | Sebastian Ramirez Hoffmann           | Elaboración del Lean UX Canvas completo, incluyendo hipótesis, métricas de éxito y propuestas de valor iniciales.            |
-| TB1     | 24/03/2025  | Gustavo Huilca Chipana               | Diseño y segmentación de User Personas, definición de perfiles de usuario y mapeo de necesidades principales.                |
-| TB1     | 24/03/2025  | Manuel Sebastian Peña Rivera         | Facilitación de sesiones de Event Storming, desarrollo de diagramas técnicos (C4, DDD), y estructura de arquitectura propuesta. |
-| TB1     | 24/03/2025  | Mathias Alejandro Jave Diaz          | Diseño funcional del sistema IoT, especificación de sensores, recopilación de datos y análisis técnico de hardware.           |
-| TB1     | 24/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
-| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Desarrollo del prototipo móvil y validación de la experiencia de usuario en contexto real con pruebas iterativas.             |
+| TB1     | 3/04/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes y revisiones del documento. |
+| TB1     | 8/04/2025  | Sebastian Ramirez Hoffmann           | Revisión completa del Lean UX Canvas.            |
+| TB1     | 12/04/2025  | Gustavo Huilca Chipana               | Revisión preliminar del diseño y segmentación de User Personas y de las entrevistas.                |
+| TB1     | 19/03/2025  | Mathias Alejandro Jave Diaz        | Registro de event storming y revisión del desarrollo de diagramas técnicos y la estructura de arquitectura propuesta. |
+| TB1     | 21/03/2025  | Manuel Sebastian Peña Rivera          | Revisión preliminar de diagramas y registro de reuniones finales.           |
+| TB1     | 22/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Revisiones finales del modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
+| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Revisiones finales del informe y generación de documento a pdf             |
 
 
 
@@ -56,23 +56,23 @@
 
 Repositorios:
 
-Proyecto: [https://github.com/wemade-IoT/Documents_Repository.com](https://github.com/wemade-IoT/Documents_Repository.com)
+Proyecto: [https://github.com/wemade-IoT/Documents_Repository](https://github.com/wemade-IoT/Documents_Repository.com)
 
 
 ### TB1
 
-Para la entrega del TB1 se han hecho ...
+Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
-Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe
+Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.
 
-<img src=" " alt="imagen de las colaboraciones">  
+<img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
 [Colaboraciones del repositorio]
 
-<img src=" " alt="imagen de los commits">  
+<img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
 [Registro de los commits donde se realizaron la mayor cantidad]
 
-En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de abril.
+En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ---
 
@@ -1069,7 +1069,7 @@ Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496
 | 6      | HU06          | Monitoreo de sensores adicionales         | Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir. | 2                        |
 | 7      | HU07          | Descuento en el primer sensor            | Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible. | 2                        |
 | 8      | HU08          | Instalación incluida en el plan          | Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales. | 3                        |
-| 9      | HU09          | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | 0                        |
+| 9      | HU09          | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | 3                        |
 | 10     | HU10          | Integración de sensores IoT              | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | 3                        |
 | 11     | HU11          | API para el monitoreo de plantas         | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | 3                        |
 | 12     | HU12          | API Autenticación JWT                    | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | 5                        |
@@ -2733,16 +2733,22 @@ Como una conclusion general hemos realizado un primer avance aplicando un tabajo
 
 Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.
 
-# Video About-the-Team.
 
 # Bibliografía
-
-
-
 
 ``` 
 Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria.
         FAO. Recuperado el 2 de abril del 2025 de URL https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content
+
+Banco Mundial (2020). Soluciones Digitales para una Agricultura Sostenible: Oportunidades y desafíos en los países en desarrollo.  
+        Banco Mundial. Recuperado el 5 de abril del 2025 de URL https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf
+
+Instituto Interamericano de Cooperación para la Agricultura (IICA) (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina.  
+        IICA. Recuperado el 16 de abril del 2025 de URL https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf
+
+Ministerio de Agricultura y Riego del Perú (MINAGRI) (2018). Manual técnico de riego por goteo para cultivos de agroexportación.  
+        MINAGRI. Recuperado el 18 de abril del 2025 de URL https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo
+
 
 ```
 
