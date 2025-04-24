@@ -2135,8 +2135,6 @@ Representa una factura creada en la aplicación.
 
 #### 4.2.6.1. Domain Layer.
 
-
-#### 4.2.7.1. Domain Layer.
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ### Entities
