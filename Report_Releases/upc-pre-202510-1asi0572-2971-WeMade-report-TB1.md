@@ -2443,7 +2443,34 @@ Representa una notificacion creada en la aplicación.
    | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
 
 #### 4.2.9.3. Application Layer.
--
+ 
+ 
+### CommandServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `INotificationCommandService`           | Maneja comandos para crear Notifications. Utiliza la *entidad* `Notification`. |
+| `NotificationCommandService`            | Implementación del servicio que maneja los comandos relacionados con Notifications. |
+| `CreateNotificationCommand`             | Comando para crear un Notifications. |
+| `UpdateNotificationCommand`             | Comando para actualizar un Notifications. |
+| `ActivateNotificationCommand`           | Comando para activar un Notifications. |
+
+### QueryServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `INotificationQueryService`             | Devuelve un Notification o lista de Notifications. Utiliza la *entidad* `Notification`. |
+| `NotificationQueryService`              | Implementación del servicio que maneja las consultas sobre Notifications. |
+| `GetNotificationsByUserIdQuery`        | Consulta para obtener Notifications por el identificador de usuario. |
+| `GetNotificationsByStateIdQuery`       | Consulta para obtener Notifications por el identificador de estado. |
+
+### OutboundServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `IExternalAnalyticsService`         | Servicio externo que envia las notificaciones asociadas a un servicio externo. |
+| `ExternalAnalyticsService`          | Implementación del servicio envia las notificaciones asociadas a un servicio externo. |
+
 #### 4.2.9.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
