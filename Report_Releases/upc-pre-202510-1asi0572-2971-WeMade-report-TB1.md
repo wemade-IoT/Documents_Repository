@@ -38,9 +38,17 @@
 <div align="center">
 
 
-| Version |   Fecha    | Autor  | Descripcion de Modificacion |
-|---------|------------|--------|-----------------------------|
-| 0.0     | 24/03/2024 | Nombre |      Crea documento         |
+| Versión | Fecha       | Autor                                              | Descripción de modificación                                                                                               |
+|---------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 24/03/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes, definición del problema y validación inicial con actores clave mediante entrevistas exploratorias. |
+| TB1     | 24/03/2025  | Sebastian Ramirez Hoffmann           | Elaboración del Lean UX Canvas completo, incluyendo hipótesis, métricas de éxito y propuestas de valor iniciales.            |
+| TB1     | 24/03/2025  | Gustavo Huilca Chipana               | Diseño y segmentación de User Personas, definición de perfiles de usuario y mapeo de necesidades principales.                |
+| TB1     | 24/03/2025  | Manuel Sebastian Peña Rivera         | Facilitación de sesiones de Event Storming, desarrollo de diagramas técnicos (C4, DDD), y estructura de arquitectura propuesta. |
+| TB1     | 24/03/2025  | Mathias Alejandro Jave Diaz          | Diseño funcional del sistema IoT, especificación de sensores, recopilación de datos y análisis técnico de hardware.           |
+| TB1     | 24/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
+| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Desarrollo del prototipo móvil y validación de la experiencia de usuario en contexto real con pruebas iterativas.             |
+
+
 
 </div>
 
