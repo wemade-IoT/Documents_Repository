@@ -1449,7 +1449,96 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ### 4.2.4. Bounded Context: Subscription
 
 #### 4.2.4.1. Domain Layer.
-- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+---
+
+#### Entities
+
+**SubscriptionType**
+
+Representa el tipo de suscripción (por ejemplo: Básico,Doméstico y Negocios). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Value Objects
+
+**SubscriptionTypes**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Basic    | Representa un tipo de suscripción básica              |
+| Domestic    | Representa un tipo de suscripción enfocados para usuarios domésticos              |
+| Business    | Representa un tipo de suscripción enfocados para usuarios de negocios     |
+
+---
+
+#### Aggregates
+
+**Subscription**
+
+Representa una suscripción disponible en la aplicación.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| CreatedAt             | DateTime |
+| ExpirationDate        | DateTime |
+| SubscriptionTypeId    | Int      |
+
+---
+
+#### Commands
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| SeedSubscriptionCommand      | Representa un comando que inicializa datos relacionados a suscripciones dentro del dominio.                 |
+| SeedSubscriptionTypeCommand  | Representa un comando que inicializa los tipos de suscripciones disponibles en el dominio.                  |
+
+
+#### Queries
+
+| Clase                     | Descripción                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| GetSubscriptionsQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
+| GetSubscriptionByIdQuery  | Representa una consulta que obtiene una suscripción específica mediante su identificador único.         |
+
+
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| ISubscriptionCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Subscription mediante comandos del dominio. |
+| ISubscriptionTypeCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionType mediante comandos del dominio. |
+
+**Query Services**
+
+| Interface                        | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| ISubscriptionQueryService        | Define las consultas que se ejecutan sobre el agregado Subscription mediante consultas del dominio. |
+
+---
+
+#### Repositories (Interfaces)  
+
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| ISubscriptionRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscriptions.  |
+| ISubscriptionTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_types |
+
+
+
+
 #### 4.2.4.2. Interface Layer.
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 ---
