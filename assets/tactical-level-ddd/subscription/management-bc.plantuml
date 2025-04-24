@@ -1,0 +1,133 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+package "Domain Layer" {
+  class Plant {
+    +Id:int
+    +Type:string
+    +UserId:int
+    +WaterThreshold:decimal
+    +CreatedAt:DateTime
+    +UpdatedAt:DateTime
+    +LightThreshold:decimal
+    +TemperatureThreshold:decimal
+    +StateId:int
+    +Plant()
+    +Plant(command:CreatePlantCommand)
+    +Update(command:UpdatePlantCommand):void
+  }
+
+  class Plantation {
+    +Id:int
+    +Type:string
+    +UserId:int
+    +WaterThreshold:double
+    +LightThreshold:double
+    +AreaCoverage:double
+    +CreatedAt:DateTime
+    +UpdatedAt:DateTime
+    +StateId:int
+    +Plantation()
+    +Plantation(command:CreatePlantationCommand)
+    +Update(command:UpdatePlantationCommand):void
+  }
+
+  class State {
+    +Id:int
+    +Type:States
+    +State()
+    +State(type:string)
+  }
+
+  enum States {
+    Healthy
+    UnHealthy
+    Warning
+  }
+
+  State --> States
+
+  ' ======= Commands =======
+  class CreatePlantCommand
+  class UpdatePlantCommand
+  class CreatePlantationCommand
+  class UpdatePlantationCommand
+  class SeedStateCommand
+
+  ' ======= Queries =======
+  class GetPlantsByUserIdQuery
+  class GetPlantsByStateIdQuery
+  class GetPlantationByUserIdQuery
+  class GetPlantationByStateIdQuery
+  class IsPlantExistsByIdQuery
+
+  ' ======= Interfaces =======
+  interface IPlantCommandService {
+    +Handle(command:CreatePlantCommand):void
+    +Handle(command:UpdatePlantCommand):void
+  }
+
+  interface IPlantationCommandService {
+    +Handle(command:CreatePlantationCommand):void
+    +Handle(command:UpdatePlantationCommand):void
+  }
+
+  interface IPlantQueryService {
+    +Handle(query:GetPlantsByUserIdQuery):List<Plant>
+    +Handle(query:GetPlantsByStateIdQuery):List<Plant>
+    +Handle(query:IsPlantExistsByIdQuery):bool
+  }
+
+  interface IPlantationQueryService {
+    +Handle(query:GetPlantationByUserIdQuery):List<Plantation>
+    +Handle(query:GetPlantationByStateIdQuery):List<Plantation>
+  }
+
+  interface IStateCommandService {
+    +Handle(command:SeedStateCommand)
+  }
+
+  interface IPlantRepository {
+    +FindPlantsByUserIdAsync(userId:int):List<Plant>
+    +FindPlantsByStateIdAsync(stateId:int):List<Plant>
+    +IsPlantExistsByIdAsync(id:int):bool
+  }
+
+  interface IPlantationRepository {
+    +FindPlantationsByUserIdAsync(userId:int):List<Plantation>
+    +FindPlantationsByStateIdAsync(stateId:int):List<Plantation>
+  }
+
+  interface IStateRepository {
+    +IsStateExists(type:string):bool
+  }
+
+  ' ======= Relationships =======
+  Plant --> CreatePlantCommand
+  Plant --> UpdatePlantCommand
+
+  Plantation --> CreatePlantationCommand
+  Plantation --> UpdatePlantationCommand
+
+  IPlantCommandService --> CreatePlantCommand
+  IPlantCommandService --> UpdatePlantCommand
+
+  IPlantationCommandService --> CreatePlantationCommand
+  IPlantationCommandService --> UpdatePlantationCommand
+
+  IPlantQueryService --> GetPlantsByUserIdQuery
+  IPlantQueryService --> GetPlantsByStateIdQuery
+  IPlantQueryService --> IsPlantExistsByIdQuery
+
+  IPlantationQueryService --> GetPlantationByUserIdQuery
+  IPlantationQueryService --> GetPlantationByStateIdQuery
+
+  IPlantRepository -[dotted]-> Plant
+  IPlantationRepository -[dotted]-> Plantation
+  IStateRepository -[dotted]-> State
+
+  IStateCommandService --> SeedStateCommand
+}
+
+@enduml
