@@ -391,6 +391,7 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 
 <image src ="../assets/lean-ux-canvas/lean-ux-canva.jpeg" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
+[Link del Lean UX Canvas](https://miro.com/app/board/uXjVI-2HZT4=/?share_link_id=253434395261)
 
 ## 1.3. Segmentos objetivo.
 
