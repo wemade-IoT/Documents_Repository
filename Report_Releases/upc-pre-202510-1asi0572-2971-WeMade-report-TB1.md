@@ -1453,6 +1453,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.2. Interface Layer.
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 ---
+
 #### Resources
 
 - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
