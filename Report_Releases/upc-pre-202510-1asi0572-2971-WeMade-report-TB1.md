@@ -1335,7 +1335,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ### 4.2.3. Bounded Context: Consulting
 -
 #### 4.2.3.1. Domain Layer.
--
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.3.2. Interface Layer.
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -1413,7 +1413,6 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionResource        | Recibe datos para la creación de una nueva suscripción.            |
  | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
 
 ---
@@ -1424,8 +1423,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Clase            | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de suscripción.      |
- | SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
+ SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
 
 --- 
 
@@ -1438,7 +1436,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  
  | Ruta especifica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
- | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
+ | /api/v1/subscription       | Gestiona la consulta de suscripciones  |
 
 ---
 
@@ -1458,9 +1456,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.5. Bounded Context: Payment
-- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+- 
 #### 4.2.5.1. Domain Layer.
--
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.5.2. Interface Layer.
 -
 #### 4.2.5.3. Application Layer.
