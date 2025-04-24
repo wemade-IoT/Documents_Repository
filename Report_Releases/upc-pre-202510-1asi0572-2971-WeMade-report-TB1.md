@@ -1482,12 +1482,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
-| Atributo | Tipo   |
-|----------|--------|
-| Id       | Int    |
-| plantId  | Int    |
-| metric_value| double(2,3)    |
-| metric_type  | Int    |
+
+---
+
+### Entity
+
+**Metric**
+
+| Atributo    | Tipo                                            |
+|------------|----------------------------------------------------------|
+| Id    |  int              |
+| Type    | string             |
 
 ---
 
@@ -1505,7 +1510,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### Aggregates
 
-**AnalyticReport**
+**Metric**
 
 Representa una consult en la aplicación.
 
@@ -1523,16 +1528,17 @@ Representa una consult en la aplicación.
 
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| SeedAnalyticsTypeCommand      | Representa un comando que inicializa datos relacionados a los typos de metricas dentro del dominio. |
-| CreateNewAnalyticReport  | Representa un comando que crea un reporte de analisis de los datos.                  |
+| SeedMetricTypeCommand      | Representa un comando que inicializa datos relacionados a los tipos de metricas dentro del dominio. |
+| CreateMetricCommand  | Representa un comando que crea una nueva métrica.                  |
+| UpdateMetricCommand  | Representa un comando que actualiza una métrica ya existente.                  |
 
 
 #### Queries
 
 | Clase                     | Descripción                                                                                             |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetAnalyticReportByIdQuery      | Representa una consulta que recupera un reporte especifico mediante su identificador único y el de una planta.            |
-| GetAllAnalyticReportQuery  | Representa una consulta que obtiene todos los reportes de una planta en especifico utilizando su identificador.         |
+| GetMetricByIdQuery      | Representa una consulta que recupera una métrica especifica por su id         |
+| GetMetricsByMetricTypeQuery  | Representa una consulta que obtiene las métricas según un determinado tipo de metricas pre definido.        |
 
 
 
@@ -1544,13 +1550,13 @@ Representa una consult en la aplicación.
 
 |  Interface                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
-| IAnalyticsReportCommandService    | Define las operaciones que ejecutan cambios sobre el agregado AnalyticsReport mediante comandos del dominio. |
+| IMetricCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Metric mediante comandos del dominio. |
 
 **Query Services**
 
 | Interface                        | Descripción                                                                                      |
 |----------------------------------|--------------------------------------------------------------------------------------------------|
-| IAnalyticsReportQueryService        | Define las consultas que se ejecutan sobre el agregado AnalyticsReport mediante consultas del dominio. |
+| IMetricQueryService        | Define las consultas que se ejecutan sobre el agregado Metric mediante consultas del dominio. |
 
 ---
 
@@ -1601,6 +1607,39 @@ Representa una consult en la aplicación.
 
 
 #### 4.2.2.3. Application Layer.  
+
+
+- La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
+### CommandServices
+
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| `MetricCommandService` | `IMetricCommandService`   |  Implementación del servicio que maneja los comandos de métricas. |  
+
+
+
+### QueryServices
+
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| `MetricQueryService`  | `IMetricQueryService`   |  Implementación del servicio que maneja los consultas de métricas. |        
+
+
+
+### OutboundServices
+
+
+| Interface                         | Descripción |
+|------------------------------------|-------------|
+| `IExternalPlantService`             | Contrato que maneja consultas sobre el servicio externo de plantas. |
+
+| Clase                        | Descripción |
+|------------------------------------|-------------|
+| `ExternalPlantService`             | Implementación del contrato definido para la interacción con el servicio externo de plantas. |
+
+
 #### 4.2.2.4. Infrastructure Layer.
 
 ### Implementación de las interfaces de los Repositories
@@ -1616,7 +1655,7 @@ Representa una consult en la aplicación.
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/analytics/DomainLayerClassDiagram_Analytics.png" alt="Analytics Domain Layer Class Diagrams"/>
+<img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams"/>
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
