@@ -1263,7 +1263,14 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.3. Application Layer.
 -
 #### 4.2.1.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+
+| Clase                | Interfaz Implementada | Descripción                                                                                                            |
+|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
+| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
@@ -1321,7 +1328,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.3. Application Layer.
 -
 #### 4.2.2.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                | Interfaz Implementada | Descripción                                                                    |
+|-----------------------|-----------------------|--------------------------------------------------------------------------------|
+| MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
@@ -1388,7 +1400,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.3. Application Layer.
 -
 #### 4.2.3.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase              | Interfaz Implementada | Descripción                                                                                                         |
+|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
+| QuestionRepository | IQuestionRepository   | Implementa los métodos de consulta y persistencia de las consultas de los usuarios domésticos  a los especialistas. |
+| AnswerRepository   | IAnswerRepository     | Implementa los métodos de consulta y persistencia de las respuestas de los especialistas a los usuarios.            |
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
@@ -1446,7 +1464,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                             |
+|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
+| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram"/>
@@ -1510,7 +1533,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.3. Application Layer.
 -
 #### 4.2.5.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase             | Interfaz Implementada | Descripción                                                                                                       |
+|-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                             |
+|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
+| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
@@ -1578,7 +1611,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.6.4. Infrastructure Layer.
 
-### 
+
+### Implementación de las interfaces de los Repositories
+
+| Clase              | Interfaz Implementada | Descripción                                                                                                          |
+|--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| ActuatorRepository | IActuatorRepository   | Implementa los métodos de consulta y persistencia de los actuadores de los usuarios al momento de realizar el riego. |
+
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1594,7 +1633,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 <img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
 
-### 4.2.7. Bounded Context: Instalation
+### 4.2.7. Bounded Context: Installation
 -
 #### 4.2.7.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -1645,7 +1684,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.7.3. Application Layer.
 -
 #### 4.2.7.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase            | Interfaz Implementada | Descripción                                                                                                          |
+|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
+
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
@@ -1709,7 +1753,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.3. Application Layer.
 -
 #### 4.2.8.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase          | Interfaz Implementada | Descripción                                                                    |
+|----------------|-----------------------|--------------------------------------------------------------------------------|
+| UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
+
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram"/>
@@ -1732,7 +1781,12 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.3. Application Layer.
 -
 #### 4.2.9.4. Infrastructure Layer.
--
+
+### Implementación de las interfaces de los Repositories
+| Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
+|------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
+| NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
+
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 
 <img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram"/>
