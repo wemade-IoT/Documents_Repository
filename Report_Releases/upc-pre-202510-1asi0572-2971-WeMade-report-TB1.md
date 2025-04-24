@@ -1062,7 +1062,8 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
 <img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
--
+
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
 <img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
@@ -1266,13 +1267,17 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.4. Infrastructure Layer.
 -
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 <img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram"/>
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
 
 ### 4.2.2. Bounded Context: Analytics
 -
@@ -1320,7 +1325,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.2.4. Infrastructure Layer.
 -
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1384,7 +1391,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.3.4. Infrastructure Layer.
 -
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1435,12 +1444,15 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  | /api/v1/subscription       | Gestiona la creación y consulta de suscripciones  |
 
 ---
+
 #### 4.2.4.3. Application Layer.
 -
 #### 4.2.4.4. Infrastructure Layer.
 -
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram"/>
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1459,7 +1471,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.5.4. Infrastructure Layer.
 -
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1483,7 +1497,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram"/>
+
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1512,7 +1528,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
   | DeleteSensorResource  |  Recibe datos para la eliminación de un sensor existe.     
 ---
 
-  ## Transforms/Assemblers
+  #### Transforms/Assemblers
  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
  
  
@@ -1544,7 +1560,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.7.4. Infrastructure Layer.
 -
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
+
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1604,7 +1622,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.8.4. Infrastructure Layer.
 -
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram"/>
+
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -1623,7 +1643,9 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.9.4. Infrastructure Layer.
 -
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
--
+
+<img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram"/>
+
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
