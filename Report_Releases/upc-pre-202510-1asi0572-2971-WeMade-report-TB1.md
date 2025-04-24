@@ -1096,9 +1096,13 @@ Representa el estado actual de una planta o plantación (por ejemplo: Saludable,
 
 #### Value Objects
 
-| Nombre     | Descripción                                              |
+**States**
+
+| Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
-| States      | Representa el estado actual (`Id`, `Type`)               |
+| Healthy    | Representa el estado de una planta saludable              |
+| UnHealthy    | Representa el estado de una planta no saludable              |
+| Warning    | Representa el estado de una planta en riesgo       |
 
 ---
 
@@ -1122,8 +1126,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
-| UpdateThresholds(...) | Actualiza los umbrales definidos por el usuario.    |
-| ChangeState(state)    | Cambia el estado de la planta.                      |
+| Update | Aplica los cambios especificados por un comando de actualización para modificar los valores de la planta    |
 
 ---
 
@@ -1146,44 +1149,61 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| UpdateCoverage(area)     | Actualiza el área cubierta por la plantación.     |
-| ChangeState(state)       | Cambia el estado de la plantación.                |
+| Update     | Aplica los cambios especificados por un comando de actualización para modificar los valores de la plantación     |
 
 ---
 
-#### Domain Services
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreatePlantCommand      | Representa un comando para crear una nueva instancia del agregado Plant.                        |
+| UpdatePlantCommand      | Representa un comando para modificar una instancia existente del agregado Plant.                |
+| CreatePlantationCommand | Representa un comando para crear una nueva instancia del agregado Plantation.                  |
+| UpdatePlantationCommand | Representa un comando para modificar una instancia existente del agregado Plantation.          |
+| SeedStatesCommand       | Representa un comando para inicializar datos en la entidad State dentro del dominio. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPlantsByStateIdQuery      | Representa una consulta que recupera las plantas asociadas a un estado específico.                   |
+| GetPlantsByUserIdQuery      | Representa una consulta que obtiene todas las plantas asociadas a un usuario determinado.            |
+| IsPlantExistsByIdQuery      | Representa una consulta que verifica si existe una planta con un identificador específico.           |
+| GetPlantationsByStateIdQuery | Representa una consulta que recupera las plantaciones asociadas a un estado específico.              |
+| GetPlantationsByUserIdQuery  | Representa una consulta que obtiene todas las plantaciones asociadas a un usuario determinado.        |
+
+
+---
+
+#### Domain Services (Interfaces)
 
 **Command Services**
 
-| Servicio                  | Método                                                                 |
+|  Interface            | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| IPlantCommandService      | Handle(command: CreatePlantCommand): Void<br>Handle(command: UpdatePlantCommand): Void |
-| IPlantationCommandService | Handle(command: CreatePlantationCommand): Void<br>Handle(command: UpdatePlantationCommand): Void |
+| IPlantCommandService      | Define las operaciones que ejecutan cambios sobre el agregado Plant mediante comandos del dominio.  |
+| IPlantationCommandService | 	Define las operaciones que ejecutan cambios sobre el agregado Plantation mediante comandos del dominio. |
+| IStateCommandService | 	Define las operaciones que ejecutan cambios sobre el entity State mediante comandos del dominio. |
 
 **Query Services**
 
-| Servicio                  | Método                                                                 |
+| Interface                 | Descripción                                                                |
 |---------------------------|------------------------------------------------------------------------|
-| PlantQueryService         | Handle(query: GetPlantsByUserIdQuery): List<Plant><br>Handle(query: GetPlantsByStateIdQuery): List<Plant> |
-| PlantationQueryService    | Handle(query: GetPlantationsByUserIdQuery): List<Plantation><br>Handle(query: GetPlantationsByStateIdQuery): List<Plantation> |
+| IPlantQueryService         | Define las consultas que se ejecutan sobre el agregado Plant mediante consultas del dominio |
+| IPlantationQueryService    | Define las consultas que se ejecutan sobre el agregado Plantation mediante consultas del dominio |
+
 
 ---
 
 #### Repositories (Interfaces)  
 
-**IPlantRepository**
-
-| Método                         | Descripción                            |
+| Interface                         | Descripción                            |
 |--------------------------------|----------------------------------------|
-| FindByUserIdAsync(userId)      | Lista todas las plantas de un usuario |
-| FindByStateIdAsync(stateId)    | Lista todas las plantas por estado    |
-
-**IPlantationRepository**
-
-| Método                             | Descripción                                |
-|------------------------------------|--------------------------------------------|
-| FindByUserIdAsync(userId)          | Lista todas las plantaciones de un usuario |
-| FindByStateIdAsync(stateId)        | Lista todas las plantaciones por estado    |
+| IPlantRepository      | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantas |
+|IPlantationRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantations    |
+| IStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de states |
 
 
 #### 4.2.1.2. Interface Layer.
