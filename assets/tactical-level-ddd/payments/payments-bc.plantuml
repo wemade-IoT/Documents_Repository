@@ -1,0 +1,58 @@
+@startuml 
+left to right direction
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+
+package "Domain Layer" {
+    class Invoice{
+        +Id:int,
+        +Amount:double,
+        +CreatedAt:DateTime,
+        +UserId:int,
+        +InvoiceTypeId:int
+        +Invoice()
+        +Invoice(command:CreateInvoiceCommand)
+    }
+
+    class InvoiceType{
+        +Id:int,
+        +Type:string
+        +InvoiceType(type:InvoiceTypes)
+    }
+
+    enum InvoiceTypes{
+        Ruc,
+        Normal
+    }
+
+    class CreateInvoiceCommand{}
+    class SeedInvoiceTypesCommand{}
+
+    interface IInvoiceCommandService{
+        +Handle(command:CreateInvoiceCommand):void
+    }
+
+    interface IInvoiceTypeCommandService{
+        +Handle(command:SeedInvoiceTypesCommand):void
+    }
+
+    interface IInvoiceRepository{
+
+    }
+
+    interface IInvoiceTypeRepository{
+        +IsInvoiceTypeExists(type:InvoiceTypes):bool
+    }
+
+    InvoiceType --> InvoiceTypes
+
+    IInvoiceRepository -[dotted]-> Invoice
+    IInvoiceTypeRepository -[dotted]-> InvoiceType
+    Invoice --> CreateInvoiceCommand
+
+    IInvoiceCommandService --> CreateInvoiceCommand
+    IInvoiceTypeCommandService --> SeedInvoiceTypesCommand
+}
+
+
+@enduml

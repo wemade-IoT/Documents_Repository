@@ -1987,7 +1987,7 @@ Representa una factura creada en la aplicación.
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
--
+<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
