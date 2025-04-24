@@ -956,10 +956,10 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 <img src="../assets/impact-mapping/segmento-domestico.png" alt="Impact Mapping Doméstico">
 
 
-<img src="../assets/impact-mapping/segmento-negocio.png" alt="Impact Mapping Negocio">
+<img src="../assets/impact-mapping/IoT-%20Impact%20map%20negocios.png" alt="Impact Mapping Negocio">
 
 
-<img src="./assets/impact-mapping/segmento-especialista.png" alt="Imapct Mapping Especialista">
+<img src="../assets/impact-mapping/segmento-especialista.png" alt="Imapct Mapping Especialista">
 
 
 
