@@ -2161,7 +2161,8 @@ Representa una suscripción disponible en la aplicación.
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
--
+<img src="../assets/tactical-level-ddd/notification/DomainLayerClassDiagram_Notification.png" alt="Notification Context Domain Layer Class Diagrams"/>
+
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram"/>
