@@ -2583,11 +2583,11 @@ Representa una notificacion creada en la aplicación.
 
 | Atributo | Tipo   |
 |----------|--------|
-| Id       | Int    |
-| Title     | String |
-| Content     | String |
-| Created_at     | String |
-| user_id     | String |
+| Id       | int    |
+| Title     | string |
+| Content     | string |
+| CreatedAt     | string |
+| UserId     | int |
 
 ---
 
@@ -2596,6 +2596,14 @@ Representa una notificacion creada en la aplicación.
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
 | CreateNotificationCommand      | Representa un comando para la creación de una notificacion.                 |
+
+---
+
+#### Queries
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| GetNotificationsByUserIdQuery     | Representa una consulta para obtener datos de notificaciones por usuario.      
 
 ---
 
@@ -2663,9 +2671,6 @@ Representa una notificacion creada en la aplicación.
 |-------------------------------------|-------------|
 | `INotificationCommandService`           | Maneja comandos para crear Notifications. Utiliza la *entidad* `Notification`. |
 | `NotificationCommandService`            | Implementación del servicio que maneja los comandos relacionados con Notifications. |
-| `CreateNotificationCommand`             | Comando para crear un Notifications. |
-| `UpdateNotificationCommand`             | Comando para actualizar un Notifications. |
-| `ActivateNotificationCommand`           | Comando para activar un Notifications. |
 
 ### QueryServices
 
@@ -2673,15 +2678,13 @@ Representa una notificacion creada en la aplicación.
 |-------------------------------------|-------------|
 | `INotificationQueryService`             | Devuelve un Notification o lista de Notifications. Utiliza la *entidad* `Notification`. |
 | `NotificationQueryService`              | Implementación del servicio que maneja las consultas sobre Notifications. |
-| `GetNotificationsByUserIdQuery`        | Consulta para obtener Notifications por el identificador de usuario. |
-| `GetNotificationsByStateIdQuery`       | Consulta para obtener Notifications por el identificador de estado. |
 
 ### OutboundServices
 
 | Clase                               | Descripción |
 |-------------------------------------|-------------|
-| `IExternalAnalyticsService`         | Servicio externo que envia las notificaciones asociadas a un servicio externo. |
-| `ExternalAnalyticsService`          | Implementación del servicio envia las notificaciones asociadas a un servicio externo. |
+| `IExternalUserService`         | Definición del contrato que permite la interacción con el sistema externo de usuarios. |
+| `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
 #### 4.2.9.4. Infrastructure Layer.
 
@@ -2697,7 +2700,7 @@ Representa una notificacion creada en la aplicación.
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/tactical-level-ddd/notification/DomainLayerClassDiagram_Notification.png" alt="Notification Context Domain Layer Class Diagrams"/>
+<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams"/>
 
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
