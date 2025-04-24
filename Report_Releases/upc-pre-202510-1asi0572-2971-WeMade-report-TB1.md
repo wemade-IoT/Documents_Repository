@@ -1978,7 +1978,86 @@ Representa una suscripción disponible en la aplicación.
 ### 4.2.7. Bounded Context: Installation
 -
 #### 4.2.7.1. Domain Layer.
-- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+### Entities
+
+#### `SensorType`
+Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, temperatura, luz).
+
+| Atributo | Tipo   | Descripción                                 |
+|----------|--------|---------------------------------------------|
+| Id       | Int    | Identificador único del tipo de sensor      |
+| Type     | Text   | Nombre del tipo de sensor (ej. "Humedad")   |
+
+---
+
+### Aggregates
+
+#### `Sensor`
+Representa un sensor físico que ha sido instalado.
+
+| Atributo         | Tipo     | Descripción                                                   |
+|------------------|----------|---------------------------------------------------------------|
+| Id               | Int      | Identificador único del sensor                                |
+| Brand            | Text     | Marca del sensor                                              |
+| Voltage          | Text     | Voltaje del sensor                                            |
+| PowerCapacity    | Int      | Capacidad energética del sensor                               |
+| SensorTypesId    | Int      | Tipo de sensor (llave foránea a `SensorType`)                 |
+| InstalledAt      | DateTime | Fecha de instalación del sensor                               |
+| MemoryCapacity   | Int      | Capacidad de memoria del sensor                               |
+| ActivatedAt      | DateTime | Fecha de activación del sensor                                |
+| LastUpdated      | DateTime | Última vez que se actualizaron los datos del sensor           |
+
+---
+
+### Commands
+
+| Clase                      | Descripción                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| InstallSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
+| UpdateSensorCommand       | Comando para actualizar atributos como voltaje, memoria o tipo.             |
+| RemoveSensorCommand       | Comando para eliminar un sensor del sistema.                                |
+| SeedSensorTypeCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
+
+---
+
+### Queries
+
+| Clase                     | Descripción                                                                   |
+|--------------------------|-------------------------------------------------------------------------------|
+| GetSensorsByBrandQuery   | Devuelve sensores filtrados por marca.                                        |
+| GetSensorByIdQuery       | Devuelve los detalles de un sensor por ID.                                    |
+| GetAllSensorTypesQuery   | Retorna todos los tipos de sensores definidos en el sistema.                  |
+
+---
+
+### Domain Services (Interfaces)
+
+#### Command Services
+
+| Interface                  | Descripción                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| ISensorCommandService     | Operaciones sobre sensores (crear, actualizar, eliminar).                   |
+| ISensorTypeCommandService | Operaciones sobre tipos de sensores.                                        |
+
+#### Query Services
+
+| Interface                  | Descripción                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| ISensorQueryService       | Consultas sobre sensores.                                                   |
+| ISensorTypeQueryService   | Consultas sobre los tipos de sensores.                                      |
+
+---
+
+### Repositories (Interfaces)
+
+| Interface               | Descripción                                                                   |
+|------------------------|--------------------------------------------------------------------------------|
+| ISensorRepository       | Persistencia y consultas de sensores.                                         |
+| ISensorTypeRepository   | Persistencia y consultas de tipos de sensores.                                |
+
+
 #### 4.2.7.2. Interface Layer.
 
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
