@@ -1270,7 +1270,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 -
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
--
+<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram"/>
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 -
 
