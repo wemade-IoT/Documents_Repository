@@ -1390,6 +1390,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
  | AnswerResource     | Devuelve datos de una respuesta
 
 ---
+
 #### Transforms/Assemblers
 
 - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
