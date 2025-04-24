@@ -1494,7 +1494,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ### 4.2.7. Bounded Context: Instalation
 -
 #### 4.2.7.1. Domain Layer.
--
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.7.2. Interface Layer.
 
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
