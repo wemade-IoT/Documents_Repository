@@ -1286,10 +1286,10 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ### Implementación de las interfaces de los Repositories
 
-| Clase                | Interfaz Implementada | Descripción                                                                                                            |
-|----------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
-| PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
-| PlantationRepository | IPlantationRepository | Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+| Clase | Interfaz Implementada | Descripción|
+|------|--------------|------------------|
+ | PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
+| PlantationRepository | IPlantationRepository |Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1715,7 +1715,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 <img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
--
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
@@ -1724,7 +1724,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 ### 4.2.8. Bounded Context: Identity and Access Management
--
+
 #### 4.2.8.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 #### 4.2.8.2. Interface Layer.
@@ -1743,7 +1743,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
    | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     
  ---
  
-   ## Transforms/Assemblers
+   #### Transforms/Assemblers
   - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
   
   
