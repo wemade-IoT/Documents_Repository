@@ -1379,6 +1379,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 #### Resources
 
 ---
+
  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
 
  | Clase            | Descripción                                      |
