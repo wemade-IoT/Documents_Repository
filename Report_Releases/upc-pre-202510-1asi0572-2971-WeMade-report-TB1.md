@@ -1830,6 +1830,78 @@ Representa una suscripción disponible en la aplicación.
 
 #### 4.2.5.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+---
+
+#### Entities
+
+**InvoiceType**
+
+Representa el tipo de factura (por ejemplo: Ruc, Normal ). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Value Objects
+
+**InvoiceTypes**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Ruc    | Representa un tipo de factura electronica             |
+| Normal    | Representa un tipo de factura normal              |
+
+---
+
+#### Aggregates
+
+**Invoice**
+
+Representa una factura creada en la aplicación.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Amount                | double   |
+| CreatedAt             | DateTime |
+| UserId                | int      |
+| InvoiceType           | int      |
+
+---
+
+#### Commands
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| CreateInvoiceCommand      | Representa un comando para la creación de una factura.                 |
+| SeedIncoiceTypesCommand      | Representa un comando para la inicialización de datos para los tipos de factura.                 |
+
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| IInvoiceCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Invoice mediante comandos del dominio. |
+
+| IInvoiceTypeCommandService    | Define las operaciones que ejecutan cambios sobre la entidad InvoiceType mediante comandos del dominio. |
+
+
+#### Repositories (Interfaces)  
+
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| IInvoiceRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla invoices.  |
+| IInvoiceTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla invoice_types |
+
+---
 #### 4.2.5.2. Interface Layer.
 ---
  
