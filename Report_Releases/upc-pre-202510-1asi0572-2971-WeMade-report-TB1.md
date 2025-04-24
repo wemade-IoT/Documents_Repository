@@ -1275,7 +1275,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/management-db-diagram.png" alt="Management Database Design Diagram"/>
 
 ### 4.2.2. Bounded Context: Analytics
 -
@@ -1332,6 +1332,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/analyticst-db-diagram.png" alt="Analytics Database Design Diagram"/>
 
 ### 4.2.3. Bounded Context: Consulting
 -
@@ -1400,6 +1401,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/consulting-db-diagram.png" alt="Consulting Database Design Diagram"/>
 
 ### 4.2.4. Bounded Context: Subscription
 
@@ -1453,8 +1455,11 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 <img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram"/>
+
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/subsciption-db-diagram.png" alt="Subscription Database Design Diagram"/>
 
 ### 4.2.5. Bounded Context: Payment
 - 
@@ -1476,6 +1481,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
 
 ### 4.2.6. Bounded Context: Automation
 
@@ -1491,6 +1497,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.6.4. Infrastructure Layer.
 
+### 
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -1504,6 +1511,7 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
 
 ### 4.2.7. Bounded Context: Instalation
 -
@@ -1567,6 +1575,8 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/installation-db-diagram.png" alt="Installation Database Design Diagram"/>
+
 
 ### 4.2.8. Bounded Context: Identity and Access Management
 -
@@ -1629,6 +1639,8 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 -
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
+<img src="../assets/tactical-level-ddd/db-diagrams/iamt-db-diagram.png" alt="Iam Database Design Diagram"/>
+
 
 ### 4.2.9. Bounded Context: Notifications
 -
@@ -1649,6 +1661,8 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
 -
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+
+<img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram"/>
 
 # Conclusiones
 
