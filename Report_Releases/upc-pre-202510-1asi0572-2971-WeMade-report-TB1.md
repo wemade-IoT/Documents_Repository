@@ -1053,9 +1053,10 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 <img src="../assets/context-mapping/context-map.png" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
--
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
--
+<img src="../assets/system-landscape-diagram/system-landscape-diagram.jpg" alt="EcoGuardian Context Diagram"/>
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
 <img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
