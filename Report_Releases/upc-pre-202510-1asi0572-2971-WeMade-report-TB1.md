@@ -1096,6 +1096,9 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 **- Bounded Canvas Consulting**
 <img src="../assets/bounded-canvas/bounded-canvas-consulting.jpeg" alt="Bounded Canvas Consulting"/>
 
+**- Bounded Canvas Automation**
+<img src="../assets/bounded-canvas/bounded-canvas-automation.jpeg" alt="Bounded Canvas Automation"/>
+
 ### 4.1.2. Context Mapping.
 
 El Context Mapping es una técnica que permite visualizar las relaciones estructurales y de comunicación entre los diferentes bounded contexts identificados en el dominio. A través de esta técnica, se pueden identificar las interacciones, dependencias y posibles puntos de integración entre los contextos.
