@@ -836,7 +836,12 @@ Características Subjetivas:
 **Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
+
+<img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
+
 33% comenta una dificultad con pestes.
+
+<img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
 
 
 Desafíos comunes:
@@ -845,35 +850,53 @@ Desafíos comunes:
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
+<img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
+
+<img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
+
+<img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
+<img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
-Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
-Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
-50% piensa que una capacitacion basica ayudaria mucho.
+100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnóstico inicial.
+50% piensa que una capacitación básica ayudaría mucho.
+
+<img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
 
+<img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
+
+<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
+
+<img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
 
 ## 2.3. Needfinding.
 
