@@ -977,7 +977,7 @@ Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
 
 En la sección To-Be se utilizan los mismos escenarios, pero implementando la solución que proporciona nuestro proyecto.
 
-Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
+Miro con el As-Is To-Be: https://shorturl.at/49ZLS
 
 **Segmento Domestico**
 
@@ -2764,6 +2764,10 @@ datos, gráficos, imágenes, esquemas, mapas de otros autores
 
 Link de entrevistas [Anexo 2.2.1.1] 
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
+
+---
+
+
 
 
 ```
