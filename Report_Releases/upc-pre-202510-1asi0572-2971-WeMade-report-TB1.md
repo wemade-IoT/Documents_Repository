@@ -1093,16 +1093,15 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU01</td>
       <td>Conseguir información de la empresa</td>
       <td>Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto.</td>
-      <td>Escenario 1: Visualización de información de la empresa <br>
-Dado que el visitante se encuentra en la sección de about us <br>
-Cuando observa la información relevante sobre la empresa <br>
-Entonces se interesa en saber más del producto <br>
-Y se registra como usuario. 
+      <td>Escenario 1: Visualización de la misión de la empresa <br>
+Dado que el visitante se encuentra en el sitio web<br>
+Cuando encuentra la sección de "About Us" <br>
+Entonces el visitante visualiza la misión de la empresa
 <br> <br>
-Escenario 2: Acceso a detalles de misión y visión <br>
-Dado que el visitante está interesado en conocer más sobre la empresa <br>
-Cuando navega hasta la sección de misión y visión <br>
-Entonces puede comprender mejor los objetivos y valores de la empresa.</td>
+Escenario 2: Visualización de la visión de la empresa <br>
+Dado que el visitante se encuentra en la landing page<br>
+Cuando encuentra la sección de "About Us" <br>
+Entonces el visitante visualiza la visión de la empresa
       <td>EP01</td>
     </tr>
     <tr>
