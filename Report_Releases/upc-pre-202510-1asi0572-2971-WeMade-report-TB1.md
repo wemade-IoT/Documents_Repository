@@ -444,37 +444,49 @@ Desarrollar una solución con tecnologías IoT (*Internet of Things*) orientada 
 
 **Hipótesis**
 
-Siguiendo el formato de las Hipótesis usaremos la tabla ya proporcionada.
-Tomar en cuenta que cada hipótesis empieza con "Creemos que.." Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
+Siguiendo el formato de las Hipótesis, estas están alineadas con las **7 épicas** de nuestro proyecto. Tomar en cuenta que cada hipótesis empieza con "Creemos que...". Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
 
-| Business Outcome                                                       | Persona                                                                            | User Outcome                                                                | Feature/Solution                                                               |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Aumentar el tráfico a la landing page en un 1200 visitantes mensuales. | Dueños de plantas y empresas agrícolas.                                            | Descubrir la plataforma y entender su valor.                                | Campañas en redes sociales y contenido educativo sobre monitoreo de cultivos.  |
-| Convertir al menos un 45% de visitantes en usuarios registrados.       | Usuarios interesados en optimizar el crecimiento de sus cultivos.                  | Registrarse en la plataforma y configurar su cuenta.                        | Proceso de onboarding simplificado con guía paso a paso y beneficios claros.   |
-| Mantener al 60% de los usuarios activos diariamente en la plataforma.  | Usuarios que buscan mejorar la eficiencia del cuidado de sus cultivos.             | Consultar métricas y alertas en la plataforma para optimizar su producción. | Dashboard interactivo con reportes detallados sobre el estado de las plantas.  |
-| Generar ingresos con un 10% de conversión a planes pagos.              | Usuarios que necesitan monitorear más plantas de las incluidas en el plan inicial. | Contratar un plan premium para acceder a funciones avanzadas.               | Modelo de precios escalable con límites flexibles y herramientas avanzadas.    |
-| Lograr que al menos un 5% de los usuarios refieran la plataforma.      | Usuarios satisfechos con la solución.                                              | Compartir la plataforma con su red de contactos.                            | Programa de referidos con incentivos como descuentos o beneficios adicionales. |
+| **Business Outcome**                                                      | **Persona**                                                                     | **User Outcome**                                                               | **Feature/Solution**                                                           |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Mejorar la efectividad del cuidado de las plantas mediante un sistema de monitoreo.**   | Dueños de plantas y empresas agrícolas.                                         | Los usuarios podrán realizar un seguimiento más efectivo de sus plantas, mejorando su salud. | Implementación de sensores que monitoreen las condiciones ambientales (temperatura, humedad, luz). |
+| **Reducir el tiempo invertido en el monitoreo de las plantas.**        | Usuarios interesados en optimizar el crecimiento de sus cultivos.                  | Los usuarios lograrán ahorrar tiempo al automatizar el monitoreo y el riego.    | Sistema automatizado de riego basado en datos en tiempo real y sensores.        |
+| **Optimizar la toma de decisiones sobre el cuidado de las plantas.**   | Usuarios domésticos y empresariales interesados en mejorar el crecimiento de sus cultivos.   | Los usuarios tomarán decisiones informadas para el cuidado de las plantas, basadas en recomendaciones personalizadas. | Recomendaciones automáticas basadas en datos recolectados por sensores de las plantas. |
+| **Aumentar la adopción de plataformas tecnológicas para el cuidado de plantas.**      | Usuarios que no cuentan con herramientas tecnológicas avanzadas para monitorear sus plantas. | Los usuarios se familiarizarán con el uso de tecnologías IoT para el monitoreo y automatización del cuidado de sus plantas. | Implementación de una plataforma multiplataforma (web y móvil) accesible para los usuarios. |
+| **Mejorar la retención de usuarios mediante personalización de alertas.**      | Usuarios satisfechos con la plataforma y el cuidado automatizado de sus plantas. | Los usuarios seguirán utilizando la plataforma gracias a las alertas personalizadas para el riego y mantenimiento. | Sistema de alertas personalizadas para riego, fertilización y cuidados generales. |
+| **Aumentar la eficiencia en la gestión de cultivos agrícolas.**         | Empresas agrícolas que gestionan múltiples cultivos.                            | Las empresas podrán gestionar múltiples cultivos de manera más eficiente y con mayor control. | Plataforma que centraliza datos de cultivo (clima, humedad, plagas, riego). |
+| **Facilitar la adopción de sensores y automatización del riego en la agricultura.** | Agricultores que buscan optimizar el uso de agua y mejorar el rendimiento de sus cultivos. | Los agricultores implementarán sistemas automáticos para riego y monitoreo, mejorando la eficiencia en el uso de recursos. | Integración de sensores IoT para la automatización del riego según condiciones climáticas y del suelo. |
+
+---
+
+### Lo más importante que debemos aprender
+
+A partir de las hipótesis anteriores, necesitamos aprender lo siguiente:
+
+1. **¿Los usuarios (domésticos y empresariales) tienen realmente problemas para monitorear el estado de sus plantas sin una herramienta tecnológica?**
+2. **¿Están dispuestos a adoptar tecnologías de monitoreo (sensores IoT) para facilitar el cuidado de las plantas?**
+3. **¿Confiarán los usuarios en las recomendaciones automatizadas basadas en datos de sensores para cuidar sus plantas?**
+4. **¿Están dispuestos a pagar por un plan premium para acceder a características avanzadas como monitoreo de más plantas o control avanzado del riego?**
+5. **¿Con qué frecuencia están dispuestos a interactuar con la plataforma de monitoreo?**
+6. **¿Los usuarios prefieren una interfaz simple y accesible que les permita gestionar sus plantas sin complicaciones?**
+7. **¿La automatización del riego reduce significativamente el esfuerzo y mejora la eficiencia en el uso del agua?**
+
+De todas estas preguntas, el riesgo más crítico a validar sería si los usuarios **están dispuestos a usar sensores IoT y plataformas tecnológicas** para solucionar sus problemas de monitoreo y si confían en las recomendaciones automatizadas para el cuidado de sus plantas.
+
+---
+
+### Minimum Viable Product
+
+El **MVP** debe centrarse en validar los aspectos más importantes del producto en un corto período de tiempo. La pregunta clave es:
+
+**What’s the most important thing we need to learn first?**
+
+Nuestro **MVP** debe ser una versión simplificada del sistema que permita simular los datos y validar los intereses de los usuarios en las características principales del producto. Las funcionalidades clave a incluir son:
+
+1. **Monitoreo de plantas en tiempo real**: Para validar si los usuarios encuentran útil el monitoreo continuo de sus plantas mediante sensores.
+2. **Automatización del riego**: Para evaluar si los usuarios están interesados en adoptar un sistema automatizado que optimice el riego según datos de sensores y clima.
+3. **Recomendaciones personalizadas**: Para probar si los usuarios confían en las sugerencias automatizadas para el cuidado de sus plantas.
 
 
-**Que es lo más importante que debemos aprender**
-
-Debemos de analizar que es lo que debemos aprender de nuestras Hipótesis, entonces llegamos a nuestra siguiente conclusion respecto a lo más importante que debemos aprender:
-
-- Si los usuarios (domésticos y empresariales) realmente tienen problemas monitorizando el estado de sus plantas.
-- Si están dispuestos a usar sensores o plataformas tecnológicas para solucionarlo.
-- Si confiarían en las recomendaciones generadas por un sistema automatizado.
-- Si pagarían por una versión avanzada del sistema cuando se supere cierto límite de plantas.
-- Qué tan seguido están dispuestos a interactuar con una app de monitoreo.
-
-De estos posibles riesgos escogemos el más crítico que sería averiguar si los usuarios están dispuestos a usar sensores o plataformas tecnológicas para solucionar sus problemas.
-
-**Minimum viable product**
-
-Los MVP nos sirven para aprender cosas a corto plazo. para realizar esto se hace la pregunta: 
-What’s the most important thing we need to learn first?
-
-Nuestro MVP debe estar orientado a demostrar lo que ofrece nuestra solución como concepto para validar que el usuario este interesado en nuestros features principales.
-En este caso sería desarrollar un prototipo parcialmente funcional donde lo que debe observarse será la simulación de datos.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -789,18 +801,9 @@ Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de 
 **Segmento 1: (Domestico):**
 
 Estadísticas y Aspectos comunes:
-Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
-
-33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
-
-100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
-
+Todos los participantes de la encuesta cuentan con conocimientos basicos - intermedios del cuidado de plantas.
+33% de los participantes comentan la necesidad de un calendario para saber de que momento es el adecuado para el regado de las plantas.
+100% de los participantes concuerdan que una aplicacion que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
 Necesidades comunes:
 
 - Calendario personalizado para el cuidado de plantas.
@@ -811,37 +814,22 @@ Necesidades comunes:
 
 - Recomendaciones personalizadas para el cuidado de plantas.
 
-<img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
-
-<img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
-
-<img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
-
-- Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
+- Frecuencia de cuidado: Interdiaria o según condiciones climáticas.
 
 Características Subjetivas:
 - Motivaciones: Pasión por el cuidado de plantas como hobby.
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 
-<img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
+
 
 **Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
-
-<img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
-
 33% comenta una dificultad con pestes.
-
-<img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
 
 
 Desafíos comunes:
@@ -850,53 +838,35 @@ Desafíos comunes:
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
-<img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
-
-<img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
-
-<img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
-<img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
-
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
-Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
-Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnóstico inicial.
-50% piensa que una capacitación básica ayudaría mucho.
-
-<img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
+100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
+50% piensa que una capacitacion basica ayudaria mucho.
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
 
-<img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
-
-<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
-
-<img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
 
 ## 2.3. Needfinding.
 
@@ -977,7 +947,7 @@ En esta sección hacemos un journey mapping para comprender el camino que recorr
 
 As Is representa las fases donde aún no se está implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
 
-Link del Miro: https://shorturl.at/h0PPQ
+Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHbkE2RzdrTk9iVEhXZXZjUlhYR3UyZFQ3LzJFQVlLeGdYM0RTclFzZFFubUQ2TmJPWCsrUThVRTJhRDhTL29uWG1rS3dVdW10WUhnSlBIQ2lNK3pNYnJmZU5zUnlLcHNSWXd5OXZwQXJBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=64624328710
 
 **Segmento Domestico**
 
@@ -1019,7 +989,7 @@ Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
 
 En la sección To-Be se utilizan los mismos escenarios, pero implementando la solución que proporciona nuestro proyecto.
 
-Miro con el As-Is To-Be: https://shorturl.at/49ZLS
+Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
 
 **Segmento Domestico**
 
@@ -2806,12 +2776,6 @@ datos, gráficos, imágenes, esquemas, mapas de otros autores
 
 Link de entrevistas [Anexo 2.2.1.1] 
 <a>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8</a>
-
----
-
-Link del Miro - As-Is: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHbkE2RzdrTk9iVEhXZXZjUlhYR3UyZFQ3LzJFQVlLeGdYM0RTclFzZFFubUQ2TmJPWCsrUThVRTJhRDhTL29uWG1rS3dVdW10WUhnSlBIQ2lNK3pNYnJmZU5zUnlLcHNSWXd5OXZwQXJBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=64624328710
-
-Link del Miro - As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
 
 
 ```
