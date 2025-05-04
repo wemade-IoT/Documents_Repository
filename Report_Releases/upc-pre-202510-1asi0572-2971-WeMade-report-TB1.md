@@ -3293,21 +3293,16 @@ Como recomendaciones creemos que una mejora iterativa es necesaria para realment
 
 # Bibliografía
 
-``` 
-Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria.
-        FAO. Recuperado el 2 de abril del 2025 de URL https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content
+<div style="text-align: justify; text-indent: -1.5em; margin-left: 1.5em;">
+  <p><strong>Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO)</strong> (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria. <em>FAO</em>. Recuperado el 2 de abril del 2025 de <a href="https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content" target="_blank">https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content</a></p>
 
-Banco Mundial (2020). Soluciones Digitales para una Agricultura Sostenible: Oportunidades y desafíos en los países en desarrollo.  
-        Banco Mundial. Recuperado el 5 de abril del 2025 de URL https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf
+  <p><strong>Banco Mundial</strong> (2020). Soluciones Digitales para una Agricultura Sostenible: Oportunidades y desafíos en los países en desarrollo. <em>Banco Mundial</em>. Recuperado el 5 de abril del 2025 de <a href="https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf" target="_blank">https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf</a></p>
 
-Instituto Interamericano de Cooperación para la Agricultura (IICA) (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina.  
-        IICA. Recuperado el 16 de abril del 2025 de URL https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf
+  <p><strong>Instituto Interamericano de Cooperación para la Agricultura (IICA)</strong> (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina. <em>IICA</em>. Recuperado el 16 de abril del 2025 de <a href="https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf" target="_blank">https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf</a></p>
 
-Ministerio de Agricultura y Riego del Perú (MINAGRI) (2018). Manual técnico de riego por goteo para cultivos de agroexportación.  
-        MINAGRI. Recuperado el 18 de abril del 2025 de URL https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo
+  <p><strong>Ministerio de Agricultura y Riego del Perú (MINAGRI)</strong> (2018). Manual técnico de riego por goteo para cultivos de agroexportación. <em>MINAGRI</em>. Recuperado el 18 de abril del 2025 de <a href="https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo" target="_blank">https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo</a></p>
+</div>
 
-
-```
 
 # Anexos
 
