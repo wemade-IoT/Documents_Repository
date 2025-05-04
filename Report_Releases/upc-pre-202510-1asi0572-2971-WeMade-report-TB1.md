@@ -1009,48 +1009,573 @@ Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUU
 
 La sección de User Stories sirve para saber las distintas situaciones y puntos clave que tiene el usuario al realizar operaciones en los distintos aspectos del proyecto, desde la landing page hasta los aspectos técnicos que realizan los desarrolladores. Es importante debido a que nos ayuda a poder realizar un product backlog y con los criterios de aceptación sabremos como verificar que estas historias de usuario están siendo satisfechas.
 
-| HUX/EPX | Historia de Usuario / Épica | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---------|----------------------------|-------------|-------------------------|---------------------------|
-| EP01 | Información del producto | Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece. | | |
-| EP02 | Registro y recolección de datos de las plantas | Como usuario de negocios o doméstico quiero que la información registrada de mi planta recolecte datos a lo largo del tiempo para saber el avance sobre su cuidado. | | |
-| EP03 | Monitoreo de estados de clima a través de un dashboard | Como usuario de negocios quiero visualizar a través de un dashboard la evolución de las condiciones climáticas de mis plantas, para dar seguimiento a los cambios a lo largo del tiempo. | | |
-| EP04 | Recomendaciones personalizadas, notificaciones y consultas ante cambios climáticos para el cuidado de plantas | Como usuario doméstico o de negocios, quiero recibir notificaciones y recomendaciones personalizadas cuando se detecten cambios en las condiciones climáticas, así como poder realizar consultas a un especialista, para saber cómo cuidar adecuadamente mis plantas. | | |
-| EP05 | Adquirir servicios mediante planes de suscripción | Como usuario de negocios o doméstico, quiero poder adquirir servicios a través de planes de suscripción, para acceder a funcionalidades como la automatización del riego e instalación de sensores para el monitoreo de plantas. | | |
-| EP06 | Automatización de riego | Como usuario doméstico o de negocios, quiero un sistema de riego automatizado que optimice el uso de agua basado en datos de sensores y del clima, para maximizar la salud de las plantas y reducir costos operativos. | | |
-| EP07 | Implementación de hardware para monitoreo y automatización | Como maker, quiero implementar soluciones de hardware que permitan el monitoreo y la automatización del cuidado de plantas, para ofrecer un sistema fiable y preciso a los usuarios. | | |
-| HU01 | Conseguir información de la empresa | Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto. | **Escenario 1:** Visualización de información de la empresa <br>Dado que el visitante se encuentra en la sección de about us <br>Cuando observa la información relevante sobre la empresa <br>Entonces se interesa en saber más del producto <br>Y se registra como usuario. <br><br>**Escenario 2:** Acceso a detalles de misión y visión <br>Dado que el visitante está interesado en conocer más sobre la empresa <br>Cuando navega hasta la sección de misión y visión <br>Entonces puede comprender mejor los objetivos y valores de la empresa. | EP01 |
-| HU02 | Conocer los medios oficiales de la empresa | Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias. | **Escenario 1:** Acceso a redes sociales <br>Dado que el visitante se encuentra en la sección de footer <br>Cuando se encuentra interesado en conocer los medios oficiales <br>Entonces visita los medios oficiales de la empresa. <br><br>**Escenario 2:** Suscripción a newsletter <br>Dado que el visitante desea mantenerse informado <br>Cuando introduce su correo en el formulario de suscripción <br>Entonces recibe una confirmación de suscripción exitosa. | EP01 |
-| HU03 | Contactar a la empresa desde la sección Contáctanos | Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio. | **Escenario 1:** Envío de formulario de contacto <br>Dado que el visitante se encuentra en la sección de "Contact Us" <br>Cuando se encuentra interesado en contactar a la empresa <br>Entonces envía la consulta mediante un formulario <br>Y la consulta es recibida por la empresa. <br><br>**Escenario 2:** Visualización de información de contacto <br>Dado que el visitante necesita contactar directamente a la empresa <br>Cuando busca en la sección de contacto <br>Entonces puede ver el número telefónico, dirección y correo de la empresa. | EP01 |
-| HU04 | Conocer la misión y visión de la empresa | Como visitante del sitio web, quiero conocer la misión y visión de la empresa para comprender mejor sus valores y la proyección del producto. | **Escenario 1:** Visualización de misión y visión <br>Dado que el visitante se encuentra en la sección "About Us" <br>Cuando observa la información sobre la misión y visión de la empresa <br>Entonces obtiene una mejor perspectiva sobre los valores y la proyección del producto. <br><br>**Escenario 2:** Comprensión de objetivos empresariales <br>Dado que el visitante está interesado en los objetivos a largo plazo <br>Cuando lee la sección de visión de la empresa <br>Entonces comprende hacia dónde se dirige la empresa en el futuro. | EP01 |
-| HU05 | Ampliación de monitoreo de plantas | Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla. | **Escenario 1:** Adición de plantas adicionales <br>Dado que el usuario tiene un número de plantas limitado en su plan <br>Cuando decide agregar más plantas <br>Entonces el sistema debe permitirle agregar plantas extra, cobrando un monto adicional por cada una. <br><br>**Escenario 2:** Visualización del costo adicional <br>Dado que el usuario desea agregar plantas adicionales <br>Cuando selecciona la opción de agregar planta <br>Entonces el sistema muestra claramente el costo adicional antes de confirmar. | EP05 |
-| HU06 | Monitoreo de sensores adicionales | Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir. | **Escenario 1:** Adición de sensores <br>Dado que el usuario tiene un número de sensores limitado en su plan <br>Cuando el usuario decide agregar más sensores <br>Entonces el sistema debe permitirle añadir sensores extra, cobrando un monto adicional por cada sensor. <br><br>**Escenario 2:** Visualización de cobertura ampliada <br>Dado que el usuario ha añadido sensores adicionales <br>Cuando accede al mapa de cobertura <br>Entonces puede ver el área adicional que está siendo monitoreada. | EP05 |
-| HU07 | Descuento en el primer sensor | Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible. | **Escenario 1:** Aplicación automática de descuento <br>Dado que el usuario está comprando el primer sensor <br>Cuando lo agrega a su carrito <br>Entonces el sistema debe aplicar automáticamente un descuento al primer sensor. <br><br>**Escenario 2:** Visualización del descuento en factura <br>Dado que se ha aplicado el descuento <br>Cuando el usuario revisa su factura <br>Entonces puede ver claramente el monto descontado y el precio final. | EP05 |
-| HU08 | Instalación incluida en el plan | Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales. | **Escenario 1:** Confirmación de instalación incluida <br>Dado que el usuario selecciona el plan doméstico <br>Cuando completa su compra <br>Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>Y no habrá cargos adicionales. <br><br>**Escenario 2:** Programación de instalación <br>Dado que el usuario ha completado la compra <br>Cuando accede a la sección de programación <br>Entonces puede seleccionar una fecha para la instalación sin costos adicionales. | EP05 |
-| HU09 | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | **Escenario 1:** Cálculo automático de instalación <br>Dado que el usuario ha seleccionado el número de sensores <br>Y el área de las plantas <br>Cuando el sistema calcula el precio total <br>Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>Y debe ser visible en la factura. <br><br>**Escenario 2:** Personalización de instalación <br>Dado que el usuario necesita una instalación personalizada <br>Cuando especifica requisitos especiales <br>Entonces el sistema recalcula el costo de instalación acorde a las necesidades. | EP05 |
-| HU10 | Integración de sensores IoT | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | **Escenario 1:** Conexión exitosa de sensores <br>Dado que los sensores están configurados <br>Cuando se recibe la señal de los sensores <br>Entonces los datos deben ser enviados correctamente a la plataforma para su visualización. <br><br>**Escenario 2:** Detección de fallo en sensores <br>Dado que un sensor presenta un fallo <br>Cuando el sistema realiza verificaciones de conectividad <br>Entonces genera una alerta técnica para su revisión. | EP02 |
-| HU11 | API para el monitoreo de plantas | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | **Escenario 1:** Consulta exitosa de datos <br>Dado que la API está configurada <br>Cuando el usuario consulta el estado de sus plantas <br>Entonces los datos deben ser enviados correctamente a la aplicación del usuario. <br><br>**Escenario 2:** Actualización en tiempo real <br>Dado que existen cambios en los sensores <br>Cuando los datos cambian <br>Entonces la API debe enviar actualizaciones en tiempo real. | EP02 |
-| HU12 | API Autenticación JWT | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | **Escenario 1:** Autenticación exitosa <br>Dado que el usuario está en la página de inicio de sesión <br>Cuando ingresa sus credenciales correctamente <br>Entonces el sistema debe devolver un token JWT válido. <br><br>**Escenario 2:** Renovación de token <br>Dado que el token JWT está por expirar <br>Cuando el usuario continúa utilizando el sistema <br>Entonces se genera automáticamente un nuevo token válido. | EP02 |
-| HU13 | Generación de reportes de consumo de recursos | Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados. | **Escenario 1:** Generación de reporte <br>Dado que los datos de consumo están disponibles <br>Cuando el usuario solicita un reporte de recursos <br>Entonces el sistema debe mostrar el consumo por planta o área. <br><br>**Escenario 2:** Exportación de datos <br>Dado que se ha generado un reporte <br>Cuando el usuario selecciona la opción de exportar <br>Entonces puede descargarlo en formatos PDF, CSV o Excel. | EP03 |
-| HU14 | Integración de pagos | Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura. | **Escenario 1:** Procesamiento de pago exitoso <br>Dado que el sistema de pagos está integrado <br>Cuando el usuario introduce sus datos de pago <br>Entonces el sistema debe procesar el pago de forma correcta y segura. <br><br>**Escenario 2:** Manejo de errores en pagos <br>Dado que ocurre un error durante el proceso de pago <br>Cuando el usuario intenta completar la transacción <br>Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. | EP05 |
-| HU15 | Registro de Planta | Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas. | **Escenario 1:** Registro con instalación por servicio <br>Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. <br><br>**Escenario 2:** Registro con instalación manual <br>Dado que el usuario ha elegido la opción de instalación manual <br>Cuando completa el registro de la planta <br>Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. | EP02 |
-| HU16 | Edición de Planta | Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente. | **Escenario 1:** Modificación de datos básicos <br>Dado que me encuentro en la vista de "plantas" <br>Cuando presiono el card de la planta, y presiono el icono del lápiz <br>Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables. <br><br>**Escenario 2:** Actualización de información de cuidados <br>Dado que necesito cambiar información sobre el cuidado de la planta <br>Cuando accedo a la sección de edición de cuidados <br>Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. | EP02 |
-| HU17 | Eliminación de Planta | Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra. | **Escenario 1:** Confirmación de eliminación <br>Dado que me encuentro en la vista de "plantas" <br>Cuando presiono el card de la planta, y presiono el icono del basurero <br>Entonces aparecerá un dialogo informando que se borraran los datos permanentemente, y al presionarlo se eliminan los datos. <br><br>**Escenario 2:** Cancelación de eliminación <br>Dado que inicié el proceso de eliminación <br>Cuando decido cancelar la acción en el diálogo de confirmación <br>Entonces la planta no se elimina y regreso a la vista anterior. | EP02 |
-| HU18 | Registro de plantaciones empresarial | Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo. | **Escenario 1:** Registro exitoso de plantación <br>Dado que me encuentro en la vista de "plantaciones" <br>Cuando utilizo el botón de agregar plantación, y agrego la información del area que cubre la plantación e información adicional en un formulario <br>Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista. <br><br>**Escenario 2:** Importación masiva de plantaciones <br>Dado que tengo un archivo con datos de múltiples plantaciones <br>Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>Entonces el sistema valida y registra todas las plantaciones válidas. | EP02 |
-| HU19 | Recibir alertas sobre el estado de mis plantas | Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado. | **Escenario 1:** Notificación por cambio significativo <br>Dado que el usuario doméstico tiene activadas las notificaciones <br>Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>Entonces el usuario recibe una notificación con la información detallada del cambio y puede visualizar el nuevo estado de la planta afectada. <br><br>**Escenario 2:** Configuración de umbrales de notificación <br>Dado que el usuario desea personalizar sus alertas <br>Cuando accede a la configuración de notificaciones <br>Entonces puede establecer umbrales personalizados para cada tipo de alerta. | EP04 |
-| HU20 | Activación de riego automático | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | **Escenario 1:** Activación automática de riego <br>Dado que los sensores reporten datos de humedad <br>Cuando la humedad baje del umbral establecido <br>Entonces el sistema debe activar el riego automáticamente y registrar el evento. <br><br>**Escenario 2:** Programación de riego <br>Dado que el usuario quiere establecer horarios específicos <br>Cuando configura una programación de riego <br>Entonces el sistema riega según el horario incluso si no se alcanzan los umbrales críticos. | EP06 |
-| HU21 | Límites de riego configurables | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | **Escenario 1:** Límite de consumo alcanzado <br>Dado que el consumo de agua alcanza el límite establecido <br>Cuando el sistema detecte que se ha alcanzado el límite <br>Entonces envía una alerta y detiene el riego. <br><br>**Escenario 2:** Configuración de límites por zonas <br>Dado que el usuario quiere eficiencia en diferentes áreas <br>Cuando configura límites específicos por zona <br>Entonces el sistema aplica diferentes restricciones según la zona seleccionada. | EP06 |
-| HU22 | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | **Escenario 1:** Control de válvulas exitoso <br>Dado un request a la API válido <br>Cuando el sistema recibe la señal de activación/desactivación <br>Entonces la válvula de riego se activa/desactiva y se devuelve el código de respuesta HTTP 200 OK. <br><br>**Escenario 2:** Manejo de errores de comunicación <br>Dado que existe un problema de conectividad <br>Cuando se envía una orden a la válvula <br>Entonces el sistema reintenta la comunicación y notifica si persiste el problema. | EP06 |
-| HU23 | Soporte offline para riego automático | Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente. | **Escenario 1:** Almacenamiento local de eventos <br>Dado que el sistema está offline <br>Cuando el sensor detecta un nivel bajo de humedad <br>Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión. <br><br>**Escenario 2:** Sincronización de datos <br>Dado que el sistema recupera la conexión <br>Cuando hay datos almacenados localmente <br>Entonces sincroniza automáticamente con el servidor central. | EP06 |
-| HU24 | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | **Escenario 1:** Lectura correcta de sensor <br>Dado que el sensor está conectado al pin analógico A0 <br>Cuando se inicia el dispositivo <br>Entonces se debe leer y mostrar por consola el valor de humedad cada 10 segundos. <br><br>**Escenario 2:** Detección de suelo seco <br>Dado que el sensor está insertado en tierra seca <br>Cuando la lectura es menor a 300 <br>Entonces se muestra "Suelo seco detectado". | EP07 |
-| HU25 | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | **Escenario 1:** Activación del relé <br>Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>Cuando se evalúa la lectura del sensor <br>Entonces el sistema debe activar el relé por 5 segundos. <br><br>**Escenario 2:** Desactivación del relé <br>Dado que el valor de humedad se ha normalizado <br>Cuando se supera el umbral <br>Entonces el relé debe apagarse. | EP07 |
-| HU26 | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | **Escenario 1:** Visualización de lecturas normales <br>Dado que los sensores están conectados <br>Cuando el sistema hace lecturas <br>Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx. <br><br>**Escenario 2:** Alerta por condiciones críticas <br>Dado que ocurre una condición crítica <br>Cuando la temperatura es muy alta <br>Entonces se imprime: "Advertencia: Temperatura elevada". | EP07 |
-| HU27 | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | **Escenario 1:** Modificación de umbrales <br>Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>Cuando se cambia su valor y se carga el firmware <br>Entonces el nuevo umbral es utilizado por el sistema. <br><br>**Escenario 2:** Umbrales para diferentes plantas <br>Dado que se necesitan diferentes umbrales para distintas plantas <br>Cuando se configuran múltiples constantes según el tipo de planta <br>Entonces el sistema aplica el umbral adecuado según la planta seleccionada. | EP07 |
-| HU28 | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | **Escenario 1:** Activación de alerta visual <br>Dado que el valor de humedad está por debajo de 200 <br>Cuando el sistema detecta esta condición <br>Entonces se enciende el LED rojo de alerta. <br><br>**Escenario 2:** Desactivación de alerta <br>Dado que la condición mejora <br>Cuando la humedad supera el valor mínimo <br>Entonces el LED se apaga. | EP07 |
-| HU29 | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | **Escenario 1:** Generación de datos simulados <br>Dado que se ejecuta el sistema en modo test <br>Cuando se activa modo_simulacion = true <br>Entonces se imprimen datos ficticios por UART como: { "sensor": "humedad", "valor": 280 }. <br><br>**Escenario 2:** Configuración de parámetros de simulación <br>Dado que el sistema está en modo simulación <br>Cuando se modifican los rangos de valores simulados <br>Entonces el sistema genera datos dentro de los nuevos rangos especificados. | EP07 |
-| HU30 | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | **Escenario 1:** Activación de modo test <br>Dado que el monitor serial está abierto <br>Cuando el usuario escribe test_humedad <br>Entonces el sistema responde con una lectura simulada de humedad y omite la lógica de riego real. <br><br>**Escenario 2:** Salida del modo test <br>Dado que el sistema está en modo test <br>Cuando el usuario escribe exit_test <br>Entonces el sistema vuelve al modo de operación normal. | EP07 |
-| HU31 | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | **Escenario 1:** Sensor desconectado <br>Dado que el sensor de humedad no está conectado <br>Cuando el dispositivo intenta leer un valor <br>Entonces se imprime en consola: "Error: Sensor de humedad no detectado". <br><br>**Escenario 2:** Reconexión del sensor <br>Dado que previamente se detectó un error de conexión del sensor <br>Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. | EP07 |
-| HU32 | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | **Escenario 1:** Solicitud de recomendación <br>Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>Cuando el sistema detecte un cambio en las condiciones ambientales <br>Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista. <br><br>**Escenario 2:** Verificación de estado de solicitud <br>Dado que el usuario ha enviado una solicitud de recomendación <br>Cuando accede a la sección de "Mis solicitudes" en la aplicación <br>Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, completada) y el tiempo estimado de respuesta. | EP04 |
-| HU33 | Registrar recomendaciones | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | **Escenario 1:** Registro de recomendación <br>Dado que un usuario doméstico o de negocios solicita una recomendación a un especialista <br>Cuando un usuario doméstico o de negocios recibe una alerta sobre el estado de sus plantas <br>Entonces un especialista registra la recomendación dada al usuario. <br><br>**Escenario 2:** Revisión de historial de recomendaciones <br>Dado que un especialista necesita revisar las recomendaciones previas dadas a un usuario <br>Cuando accede al perfil del usuario o planta <br>Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. | EP04 |
+<table>
+  <thead>
+    <tr>
+      <th>HUX/EPX</th>
+      <th>Historia de Usuario / Épica</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Información del producto</td>
+      <td>Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Registro y recolección de datos de las plantas</td>
+      <td>Como usuario de negocios o doméstico quiero que la información registrada de mi planta recolecte datos a lo largo del tiempo para saber el avance sobre su cuidado.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Monitoreo de estados de clima a través de un dashboard</td>
+      <td>Como usuario de negocios quiero visualizar a través de un dashboard la evolución de las condiciones climáticas de mis plantas, para dar seguimiento a los cambios a lo largo del tiempo.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Recomendaciones personalizadas, notificaciones y consultas ante cambios climáticos para el cuidado de plantas</td>
+      <td>Como usuario doméstico o de negocios, quiero recibir notificaciones y recomendaciones personalizadas cuando se detecten cambios en las condiciones climáticas, así como poder realizar consultas a un especialista, para saber cómo cuidar adecuadamente mis plantas.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Adquirir servicios mediante planes de suscripción</td>
+      <td>Como usuario de negocios o doméstico, quiero poder adquirir servicios a través de planes de suscripción, para acceder a funcionalidades como la automatización del riego e instalación de sensores para el monitoreo de plantas.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP06</td>
+      <td>Automatización de riego</td>
+      <td>Como usuario doméstico o de negocios, quiero un sistema de riego automatizado que optimice el uso de agua basado en datos de sensores y del clima, para maximizar la salud de las plantas y reducir costos operativos.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP07</td>
+      <td>Implementación de hardware para monitoreo y automatización</td>
+      <td>Como maker, quiero implementar soluciones de hardware que permitan el monitoreo y la automatización del cuidado de plantas, para ofrecer un sistema fiable y preciso a los usuarios.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HU01</td>
+      <td>Conseguir información de la empresa</td>
+      <td>Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto.</td>
+      <td>Escenario 1: Visualización de información de la empresa <br>
+Dado que el visitante se encuentra en la sección de about us <br>
+Cuando observa la información relevante sobre la empresa <br>
+Entonces se interesa en saber más del producto <br>
+Y se registra como usuario. 
+<br> <br>
+Escenario 2: Acceso a detalles de misión y visión <br>
+Dado que el visitante está interesado en conocer más sobre la empresa <br>
+Cuando navega hasta la sección de misión y visión <br>
+Entonces puede comprender mejor los objetivos y valores de la empresa.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU02</td>
+      <td>Conocer los medios oficiales de la empresa</td>
+      <td>Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias.</td>
+      <td>Escenario 1: Acceso a redes sociales
+Dado que el visitante se encuentra en la sección de footer <br>
+Cuando se encuentra interesado en conocer los medios oficiales <br>
+Entonces visita los medios oficiales de la empresa. 
+<br> <br>
+Escenario 2: Suscripción a newsletter <br>
+Dado que el visitante desea mantenerse informado <br>
+Cuando introduce su correo en el formulario de suscripción <br>
+Entonces recibe una confirmación de suscripción exitosa.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU03</td>
+      <td>Contactar a la empresa desde la sección Contáctanos</td>
+      <td>Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio.</td>
+      <td>Escenario 1: Envío de formulario de contacto <br>
+Dado que el visitante se encuentra en la sección de "Contact Us" <br>
+Cuando se encuentra interesado en contactar a la empresa <br>
+Entonces envía la consulta mediante un formulario <br>
+Y la consulta es recibida por la empresa. 
+<br> <br>
+Escenario 2: Visualización de información de contacto <br>
+Dado que el visitante necesita contactar directamente a la empresa <br>
+Cuando busca en la sección de contacto <br>
+Entonces puede ver el número telefónico, dirección y correo de la empresa.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU04</td>
+      <td>Conocer la misión y visión de la empresa</td>
+      <td>Como visitante del sitio web, quiero conocer la misión y visión de la empresa para comprender mejor sus valores y la proyección del producto.</td>
+      <td>Escenario 1: Visualización de misión y visión <br>
+Dado que el visitante se encuentra en la sección "About Us" <br>
+Cuando observa la información sobre la misión y visión de la empresa <br>
+Entonces obtiene una mejor perspectiva sobre los valores y la proyección del producto.
+<br> <br>
+Escenario 2: Comprensión de objetivos empresariales <br>
+Dado que el visitante está interesado en los objetivos a largo plazo <br>
+Cuando lee la sección de visión de la empresa <br>
+Entonces comprende hacia dónde se dirige la empresa en el futuro. </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU05</td>
+      <td>Ampliación de monitoreo de plantas</td>
+      <td>Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla.</td>
+      <td>Escenario 1: Adición de plantas adicionales <br>
+Dado que el usuario tiene un número de plantas limitado en su plan <br>
+Cuando decide agregar más plantas <br>
+Entonces el sistema debe permitirle agregar plantas extra, cobrando un monto adicional por cada una.
+<br> <br>
+Escenario 2: Visualización del costo adicional <br>
+Dado que el usuario desea agregar plantas adicionales <br>
+Cuando selecciona la opción de agregar planta <br>
+Entonces el sistema muestra claramente el costo adicional antes de confirmar. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU06</td>
+      <td>Monitoreo de sensores adicionales</td>
+      <td>Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir.</td>
+      <td>Escenario 1: Adición de sensores <br>
+Dado que el usuario tiene un número de sensores limitado en su plan <br>
+Cuando el usuario decide agregar más sensores <br>
+Entonces el sistema debe permitirle añadir sensores extra, cobrando un monto adicional por cada sensor. 
+<br> <br>
+Escenario 2: Visualización de cobertura ampliada <br>
+Dado que el usuario ha añadido sensores adicionales <br>
+Cuando accede al mapa de cobertura <br>
+Entonces puede ver el área adicional que está siendo monitoreada. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU07</td>
+      <td>Descuento en el primer sensor</td>
+      <td>Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible.</td>
+      <td>Escenario 1: Aplicación automática de descuento <br>
+Dado que el usuario está comprando el primer sensor <br>
+Cuando lo agrega a su carrito <br>
+Entonces el sistema debe aplicar automáticamente un descuento al primer sensor.
+<br> <br>
+Escenario 2: Visualización del descuento en factura <br>
+Dado que se ha aplicado el descuento <br>
+Cuando el usuario revisa su factura <br>
+Entonces puede ver claramente el monto descontado y el precio final. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU08</td>
+      <td>Instalación incluida en el plan</td>
+      <td>Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales.</td>
+      <td>Escenario 1: Confirmación de instalación incluida <br>
+Dado que el usuario selecciona el plan doméstico <br>
+Cuando completa su compra <br>
+Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>
+Y no habrá cargos adicionales.
+<br> <br>
+Escenario 2: Programación de instalación <br>
+Dado que el usuario ha completado la compra <br>
+Cuando accede a la sección de programación <br>
+Entonces puede seleccionar una fecha para la instalación sin costos adicionales. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU09</td>
+      <td>Instalación agregada al costo del servicio</td>
+      <td>Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación.</td>
+      <td>Escenario 1: Cálculo automático de instalación <br>
+Dado que el usuario ha seleccionado el número de sensores <br>
+Y el área de las plantas <br>
+Cuando el sistema calcula el precio total <br>
+Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>
+Y debe ser visible en la factura. <br>
+<br> <br>
+Escenario 2: Personalización de instalación <br>
+Dado que el usuario necesita una instalación personalizada <br>
+Cuando especifica requisitos especiales <br>
+Entonces el sistema recalcula el costo de instalación acorde a las necesidades. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU10</td>
+      <td>Integración de sensores IoT</td>
+      <td>Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas.</td>
+      <td>Escenario 1: Conexión exitosa de sensores <br>
+Dado que los sensores están configurados <br>
+Cuando se recibe la señal de los sensores <br>
+Entonces los datos deben ser enviados correctamente a la plataforma para su visualización.
+<br> <br>
+Escenario 2: Detección de fallo en sensores <br>
+Dado que un sensor presenta un fallo <br>
+Cuando el sistema realiza verificaciones de conectividad <br>
+Entonces genera una alerta técnica para su revisión. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU11</td>
+      <td>API para el monitoreo de plantas</td>
+      <td>Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real.</td>
+      <td>Escenario 1: Consulta exitosa de datos <br>
+Dado que la API está configurada <br>
+Cuando el usuario consulta el estado de sus plantas <br>
+Entonces los datos deben ser enviados correctamente a la aplicación del usuario.
+<br> <br>
+Escenario 2: Actualización en tiempo real <br>
+Dado que existen cambios en los sensores <br>
+Cuando los datos cambian <br>
+Entonces la API debe enviar actualizaciones en tiempo real. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU12</td>
+      <td>API Autenticación JWT</td>
+      <td>Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema.</td>
+      <td>Escenario 1: Autenticación exitosa <br>
+Dado que el usuario está en la página de inicio de sesión <br>
+Cuando ingresa sus credenciales correctamente <br>
+Entonces el sistema debe devolver un token JWT válido.
+<br> <br>
+Escenario 2: Renovación de token <br>
+Dado que el token JWT está por expirar <br>
+Cuando el usuario continúa utilizando el sistema <br>
+Entonces se genera automáticamente un nuevo token válido. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU13</td>
+      <td>Generación de reportes de consumo de recursos</td>
+      <td>Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados.</td>
+      <td>Escenario 1: Generación de reporte <br>
+Dado que los datos de consumo están disponibles <br>
+Cuando el usuario solicita un reporte de recursos <br>
+Entonces el sistema debe mostrar el consumo por planta o área.
+<br> <br>
+Escenario 2: Exportación de datos <br>
+Dado que se ha generado un reporte <br>
+Cuando el usuario selecciona la opción de exportar <br>
+Entonces puede descargarlo en formatos PDF, CSV o Excel. </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>HU14</td>
+      <td>Integración de pagos</td>
+      <td>Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura.</td>
+      <td>Escenario 1: Procesamiento de pago exitoso <br>
+Dado que el sistema de pagos está integrado <br>
+Cuando el usuario introduce sus datos de pago <br>
+Entonces el sistema debe procesar el pago de forma correcta y segura.
+<br> <br>
+Escenario 2: Manejo de errores en pagos <br>
+Dado que ocurre un error durante el proceso de pago <br>
+Cuando el usuario intenta completar la transacción <br>
+Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU15</td>
+      <td>Registro de Planta</td>
+      <td>Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas.</td>
+      <td>Escenario 1: Registro con instalación por servicio <br>
+Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>
+Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>
+Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. 
+<br> <br>
+Escenario 2: Registro con instalación manual <br>
+Dado que el usuario ha elegido la opción de instalación manual <br>
+Cuando completa el registro de la planta <br>
+Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU16</td>
+      <td>Edición de Planta</td>
+      <td>Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente.</td>
+      <td>Escenario 1: Modificación de datos básicos <br>
+Dado que me encuentro en la vista de "plantas" <br>
+Cuando presiono el card de la planta, y presiono el icono del lápiz <br>
+Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables.
+<br> <br>
+Escenario 2: Actualización de información de cuidados <br>
+Dado que necesito cambiar información sobre el cuidado de la planta <br>
+Cuando accedo a la sección de edición de cuidados <br>
+Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU17</td>
+      <td>Eliminación de Planta</td>
+      <td>Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra.</td>
+      <td>Escenario 1: Confirmación de eliminación <br>
+Dado que me encuentro en la vista de "plantas" <br>
+Cuando presiono el card de la planta, y presiono el icono del basurero <br>
+Entonces aparecerá un dialogo informando que se borraran los datos permanentemente <br> 
+Y al presionarlo se eliminan los datos.
+<br> <br>
+Escenario 2: Cancelación de eliminación <br>
+Dado que inicié el proceso de eliminación <br>
+Cuando decido cancelar la acción en el diálogo de confirmación <br>
+Entonces la planta no se elimina y regreso a la vista anterior. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU18</td>
+      <td>Registro de plantaciones empresarial</td>
+      <td>Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
+      <td>Escenario 1: Registro exitoso de plantación <br>
+Dado que me encuentro en la vista de "plantaciones" <br>
+Cuando utilizo el botón de agregar plantación, <br>
+Y agrego la información del area que cubre la plantación e información adicional en un formulario <br>
+Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista.
+<br> <br>
+Escenario 2: Importación masiva de plantaciones <br>
+Dado que tengo un archivo con datos de múltiples plantaciones <br>
+Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>
+Entonces el sistema valida y registra todas las plantaciones válidas. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU19</td>
+      <td>Recibir alertas sobre el estado de mis plantas</td>
+      <td>Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado.</td>
+      <td>Escenario 1: Notificación por cambio significativo <br>
+Dado que el usuario doméstico tiene activadas las notificaciones <br>
+Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>
+Entonces el usuario recibe una notificación con la información detallada del cambio 
+Y puede visualizar el nuevo estado de la planta afectada. <br>
+<br> <br>
+Escenario 2: Configuración de umbrales de notificación <br>
+Dado que el usuario desea personalizar sus alertas <br>
+Cuando accede a la configuración de notificaciones <br>
+Entonces puede establecer umbrales personalizados para cada tipo de alerta. </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>HU20</td>
+      <td>Activación de riego automático</td>
+      <td>Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas.</td>
+      <td>Escenario 1: Activación automática de riego <br>
+Dado que los sensores reporten datos de humedad <br>
+Cuando la humedad baje del umbral establecido <br>
+Entonces el sistema debe activar el riego automáticamente <br>
+Y registrar el evento.
+<br> <br>
+Escenario 2: Programación de riego <br>
+Dado que el usuario quiere establecer horarios específicos <br>
+Cuando configura una programación de riego <br>
+Entonces el sistema riega según el horario incluso si no se alcanzan los umbrales críticos. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU21</td>
+      <td>Límites de riego configurables</td>
+      <td>Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos.</td>
+      <td>Escenario 1: Límite de consumo alcanzado <br>
+Dado que el consumo de agua alcanza el límite establecido <br>
+Cuando el sistema detecte que se ha alcanzado el límite <br>
+Entonces envía una alerta y detiene el riego.
+<br> <br>
+Escenario 2: Configuración de límites por zonas <br>
+Dado que el usuario quiere eficiencia en diferentes áreas <br>
+Cuando configura límites específicos por zona <br>
+Entonces el sistema aplica diferentes restricciones según la zona seleccionada. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU22</td>
+      <td>API para el control de válvulas de riego</td>
+      <td>Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real.</td>
+      <td>Escenario 1: Control de válvulas exitoso <br>
+Dado un request a la API válido <br>
+Cuando el sistema recibe la señal de activación/desactivación <br>
+Entonces la válvula de riego se activa/desactiva y se devuelve el código de respuesta HTTP 200 OK.
+<br> <br>
+Escenario 2: Manejo de errores de comunicación <br>
+Dado que existe un problema de conectividad <br>
+Cuando se envía una orden a la válvula <br>
+Entonces el sistema reintenta la comunicación y notifica si persiste el problema. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU23</td>
+      <td>Soporte offline para riego automático</td>
+      <td>Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente.</td>
+      <td>Escenario 1: Almacenamiento local de eventos <br>
+Dado que el sistema está offline <br>
+Cuando el sensor detecta un nivel bajo de humedad <br>
+Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión.
+<br> <br>
+Escenario 2: Sincronización de datos <br>
+Dado que el sistema recupera la conexión <br>
+Cuando hay datos almacenados localmente <br>
+Entonces sincroniza automáticamente con el servidor central. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU24</td>
+      <td>Integración del sensor de humedad del suelo</td>
+      <td>Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua.</td>
+      <td>Escenario 1: Lectura correcta de sensor <br>
+Dado que el sensor está conectado al pin analógico A0 <br>
+Cuando se inicia el dispositivo <br>
+Entonces se debe leer y mostrar por consola el valor de humedad cada 10 segundos.
+<br> <br>
+Escenario 2: Detección de suelo seco <br>
+Dado que el sensor está insertado en tierra seca <br>
+Cuando la lectura es menor a 300 <br>
+Entonces se muestra "Suelo seco detectado". </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU25</td>
+      <td>Activación automática de riego mediante relé</td>
+      <td>Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas.</td>
+      <td>Escenario 1: Activación del relé <br>
+Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>
+Cuando se evalúa la lectura del sensor <br>
+Entonces el sistema debe activar el relé por 5 segundos.
+<br> <br>
+Escenario 2: Desactivación del relé <br>
+Dado que el valor de humedad se ha normalizado <br>
+Cuando se supera el umbral <br>
+Entonces el relé debe apagarse. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU26</td>
+      <td>Visualización de datos en el monitor serial</td>
+      <td>Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real.</td>
+      <td>Escenario 1: Visualización de lecturas normales <br>
+Dado que los sensores están conectados <br>
+Cuando el sistema hace lecturas <br>
+Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
+<br> <br>
+Escenario 2: Alerta por condiciones críticas <br>
+Dado que ocurre una condición crítica <br>
+Cuando la temperatura es muy alta <br>
+Entonces se imprime: "Advertencia: Temperatura elevada". </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU27</td>
+      <td>Configuración de umbrales de humedad desde el firmware</td>
+      <td>Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas.</td>
+      <td>Escenario 1: Modificación de umbrales <br>
+Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>
+Cuando se cambia su valor y se carga el firmware <br>
+Entonces el nuevo umbral es utilizado por el sistema.
+<br> <br>
+Escenario 2: Umbrales para diferentes plantas <br>
+Dado que se necesitan diferentes umbrales para distintas plantas <br>
+Cuando se configuran múltiples constantes según el tipo de planta <br>
+Entonces el sistema aplica el umbral adecuado según la planta seleccionada. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU28</td>
+      <td>Alerta visual con LED en caso de condiciones críticas</td>
+      <td>Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app.</td>
+      <td>Escenario 1: Activación de alerta visual <br>
+Dado que el valor de humedad está por debajo de 200 <br>
+Cuando el sistema detecta esta condición <br>
+Entonces se enciende el LED rojo de alerta.
+<br> <br>
+Escenario 2: Desactivación de alerta <br>
+Dado que la condición mejora <br>
+Cuando la humedad supera el valor mínimo <br>
+Entonces el LED se apaga. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU29</td>
+      <td>Simulación de datos vía UART (modo desarrollo)</td>
+      <td>Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos.</td>
+      <td>Escenario 1: Generación de datos simulados <br>
+Dado que se ejecuta el sistema en modo test <br>
+Cuando se activa modo_simulacion = true <br>
+Entonces se imprimen datos ficticios por UART como: { "sensor": "humedad", "valor": 280 }.
+<br> <br>
+Escenario 2: Configuración de parámetros de simulación <br>
+Dado que el sistema está en modo simulación <br>
+Cuando se modifican los rangos de valores simulados <br>
+Entonces el sistema genera datos dentro de los nuevos rangos especificados. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU30</td>
+      <td>Activación de modo test desde consola serial</td>
+      <td>Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego.</td>
+      <td>Escenario 1: Activación de modo test <br>
+Dado que el monitor serial está abierto <br>
+Cuando el usuario escribe test_humedad <br>
+Entonces el sistema responde con una lectura simulada de humedad y omite la lógica de riego real.
+<br> <br>
+Escenario 2: Salida del modo test <br>
+Dado que el sistema está en modo test <br>
+Cuando el usuario escribe exit_test <br>
+Entonces el sistema vuelve al modo de operación normal. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU31</td>
+      <td>Mostrar mensaje de error si sensor no está conectado</td>
+      <td>Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware.</td>
+      <td>Escenario 1: Sensor desconectado <br>
+Dado que el sensor de humedad no está conectado <br>
+Cuando el dispositivo intenta leer un valor <br>
+Entonces se imprime en consola: "Error: Sensor de humedad no detectado".sistema responde con una lectura simulada de humedad y omite la lógica de riego real.
+<br> <br>
+Escenario 2: Reconexión del sensor <br>
+Dado que previamente se detectó un error de conexión del sensor <br>
+Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>
+Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU32</td>
+      <td>Solicitar recomendaciones a un especialista</td>
+      <td>Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. <br> </td>
+<td>Escenario 1: Solicitud de recomendación <br>
+Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>
+Cuando el sistema detecte un cambio en las condiciones ambientales <br>
+Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista.
+<br> <br>
+Escenario 2: Verificación de estado de solicitud <br>
+Dado que el usuario ha enviado una solicitud de recomendación <br>
+Cuando accede a la sección de "Mis solicitudes" en la aplicación <br>
+Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, completada) y el tiempo estimado de respuesta. </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>HU33</td>
+      <td>Registrar recomendaciones</td>
+      <td>Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. </td>
+<td>Escenario 1: Registro de recomendación
+Dado que un usuario doméstico o de negocios solicita una recomendación a un especialista <br>
+Cuando un usuario doméstico o de negocios recibe una alerta sobre el estado de sus plantas <br>
+Entonces un especialista registra la recomendación dada al usuario.
+<br> <br>
+Escenario 2: Revisión de historial de recomendaciones <br>
+Dado que un especialista necesita revisar las recomendaciones previas dadas a un usuario <br>
+Cuando accede al perfil del usuario o planta <br>
+Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. </td>
+      <td>EP04</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 3.3. Impact Mapping.
 
