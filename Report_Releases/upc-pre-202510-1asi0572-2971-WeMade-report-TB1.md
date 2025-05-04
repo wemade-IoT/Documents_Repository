@@ -966,20 +966,40 @@ Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHb
 
 ## 2.4. Ubiquitous Language.
 
-```
-Plant Guardian:	dispositivo IoT con sensores que monitorea condiciones ambientales de plantas.
- 
-Care Threshold:	valor límite (ej: 30% humedad) que activa alertas cuando se supera o no se alcanza.
-
-Growth Phase: etapa de la planta (ej: germinación, florecimiento) que determina recomendaciones.
-
-Plant Parent: usuario doméstico que gestiona pocas plantas en hogar/oficina.
-
-Crop Manager: usuario empresarial que supervisa múltiples plantas/cultivos.
-
-Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
-
-```
+<table>
+  <thead>
+    <tr>
+      <th>Termino</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Plant Guardian</td>
+      <td>Dispositivo IoT con sensores que monitorea condiciones ambientales de plantas.</td>
+    </tr>
+    <tr>
+      <td>Care Threshold</td>
+      <td>Valor límite (ej: 30% humedad) que activa alertas cuando se supera o no se alcanza.</td>
+    </tr>
+    <tr>
+      <td>Growth Phase</td>
+      <td>Etapa de la planta (ej: germinación, florecimiento) que determina recomendaciones.</td>
+    </tr>
+    <tr>
+      <td>Plant Parent</td>
+      <td>Usuario doméstico que gestiona pocas plantas en hogar/oficina.</td>
+    </tr>
+    <tr>
+      <td>Crop Manager</td>
+      <td>Usuario empresarial que supervisa múltiples plantas/cultivos.</td>
+    </tr>
+    <tr>
+      <td>Care Plan</td>
+      <td>Suscripción con niveles de servicio (ej: Basic, Pro).</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
