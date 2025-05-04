@@ -1100,7 +1100,7 @@ Entonces el visitante visualiza la misión de la empresa
 <br> <br>
 Escenario 2: Visualización de la visión de la empresa <br>
 Dado que el visitante se encuentra en la landing page<br>
-Cuando encuentra la sección de "About Us" <br>
+Cuando se ubica la sección de "About Us" <br>
 Entonces el visitante visualiza la visión de la empresa
       <td>EP01</td>
     </tr>
@@ -1137,17 +1137,19 @@ Entonces puede ver el número telefónico, dirección y correo de la empresa.</t
     </tr>
     <tr>
       <td>HU04</td>
-      <td>Conocer la misión y visión de la empresa</td>
-      <td>Como visitante del sitio web, quiero conocer la misión y visión de la empresa para comprender mejor sus valores y la proyección del producto.</td>
-      <td>Escenario 1: Visualización de misión y visión <br>
-Dado que el visitante se encuentra en la sección "About Us" <br>
-Cuando observa la información sobre la misión y visión de la empresa <br>
-Entonces obtiene una mejor perspectiva sobre los valores y la proyección del producto.
+      <td>Informarse sobre los beneficios del producto</td>
+      <td>Como visitante del sitio web, quiero informarme sobre los beneficios del producto ofrecido.</td>
+      <td>Escenario 1: Visualización de beneficios del producto <br>
+Dado que el visitante se encuentra en el sitio web <br>
+Cuando se ubica en la sección de benefits <br>
+Entonces observa los beneficios del producto que se ofrecen al usar nuestra solución  <br>
+Y Se registra como usuario.
 <br> <br>
-Escenario 2: Comprensión de objetivos empresariales <br>
-Dado que el visitante está interesado en los objetivos a largo plazo <br>
-Cuando lee la sección de visión de la empresa <br>
-Entonces comprende hacia dónde se dirige la empresa en el futuro. </td>
+Escenario 2: Comprensión de lo que EcoGuardian ofrece <br>
+Dado que el visitante se encuentra en el sitio web <br>
+Cuando navega hacia la sección "What We Made for You" <br>
+Entonces visualiza el producto de la solución <br>
+Y se visualiza información sobre el sistema de análisis y recopilación de datos de plantas. </td>
       <td>EP01</td>
     </tr>
     <tr>
