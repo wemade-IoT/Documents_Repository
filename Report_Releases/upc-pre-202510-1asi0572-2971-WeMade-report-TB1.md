@@ -1791,6 +1791,131 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 #### 4.2.1.1. Domain Layer
 
+
+
+Web App:
+
+### Model
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+**Plant**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number     |
+| type                  | string   |
+| userId                | number     |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number   |
+| createdAt             | date |
+| updatedAt             | date |
+| stateId               | number     |
+
+
+**Plantation**
+
+
+| Atributo             | Tipo     |
+|----------------------|----------|
+| id                   | number     |
+| type                 | string   |
+| userId               | number      |
+| waterThreshold       | number   |
+| lightThreshold       | number   |
+| temperatureThreshold | number   |
+| areaCoverage         | number   |
+| createdAt            | date |
+| updatedAt            | date |
+| stateId              | number      |
+
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+**PlantResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| type                  | string   |
+| userId                | int      |
+| waterThreshold        | double   |
+| lightThreshold        | double   |
+| temperatureThreshold  | double   |
+| createdAt             | dateTime |
+| updatedAt             | dateTime |
+| stateId               | int      |
+
+**PlantationResponseDTO**
+
+| Atributo             | Tipo     |
+|----------------------|----------|
+| id                   | int      |
+| type                 | string   |
+| userId               | int      |
+| waterThreshold       | double   |
+| lightThreshold       | double   |
+| temperatureThreshold | double   |
+| areaCoverage         | double   |
+| createdAt            | datetime |
+| updatedAt            | datetime |
+| stateId              | int      |
+
+
+
+**GetPlantsByUserIdDto**
+
+Representa la solicitud de consulta de plantas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+
+**GetPlantationsByUserIdDto**
+
+Representa la solicitud de consulta de plantaciones por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+
+
+
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ---
@@ -1921,6 +2046,41 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.1.2. Interface Layer.
+
+
+
+Web App:
+
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
+
+
+### Store
+
+**PlantStore**
+Permite gestionar el estado global de la planta seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+**PlantationStore**
+
+
+Permite gestionar el estado global de la plantación seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+Mobile:
+
+- En esta capa se definen los widgets que definen la interfaz de usuario, asi como clases relacionadas a la gestión de estados en la aplicación móvil.
+
+### Providers
+
+**PlantProvider**
+
+Permite gestionar el estado global de la planta seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+**PlantationProvider**
+
+Permite gestionar el estado global de la plantación seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 ---
