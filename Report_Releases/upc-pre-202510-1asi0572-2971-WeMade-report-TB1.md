@@ -2156,6 +2156,15 @@ Backend:
 
 #### 4.2.1.3. Application Layer.
 
+Web App:
+
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### CommandServices
 
 | Clase                                | Descripción |
@@ -2185,6 +2194,14 @@ Backend:
 
 #### 4.2.1.4. Infrastructure Layer.
 
+Web App:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 
 | Clase | Interfaz Implementada | Descripción|
@@ -2207,6 +2224,42 @@ Backend:
 
 ### 4.2.2. Bounded Context: Analytics
 #### 4.2.2.1. Domain Layer.
+
+
+App Web:
+
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+### Model
+
+**Metric**
+
+Representa la clase que se encarga de abstraer las respuestas relacionadas a metricas
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| plantId                    | number      |
+| metricTypeId            | number |
+| createdAt        | date |
+| metricValue    | number |
+
+### Service
+
+**MetricService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getMetricById  | Devuelve una métrica en especifico por su id    |
+| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 
@@ -2245,9 +2298,9 @@ Representa una consult en la aplicación.
 |-----------------------|----------|
 | Id                    | Int      |
 | PlantId                    | Int      |
-| MetricTypeId            | MetricTypes |
+| MetricTypeId            | Int |
 | CreatedAt        | DateTime |
-| MetricValue    | double(2.3)|
+| MetricValue    | Double |
 
 ---
 
@@ -2296,6 +2349,13 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.2. Interface Layer.
 
+App Web:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este bounded context.
+
+Mobile:
+- No aplica para este caso
+
+Backend:
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 --- 
@@ -2335,6 +2395,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.3. Application Layer.  
 
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
@@ -2369,6 +2437,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.4. Infrastructure Layer.
 
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase                | Interfaz Implementada | Descripción                                                                    |
 |-----------------------|-----------------------|--------------------------------------------------------------------------------|
@@ -2392,6 +2468,15 @@ Representa una consult en la aplicación.
 ### 4.2.3. Bounded Context: Consulting
 -
 #### 4.2.3.1. Domain Layer.
+
+App Web:
+- 
+
+Mobile:
+- 
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ### CommandServices
@@ -2417,6 +2502,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.3.2. Interface Layer.
 
+
+App Web:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este bounded context.
+
+Mobile:
+- En esta capa se definen los widgets re utilizables y aquellos que representan pantallas relacionadas a este bounded context.
+
+Backend:
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
@@ -2467,6 +2560,14 @@ Representa una consult en la aplicación.
 ---
 
 #### 4.2.3.3. Application Layer.
+
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
 
@@ -2503,6 +2604,14 @@ Representa una consult en la aplicación.
 
 
 #### 4.2.3.4. Infrastructure Layer.
+
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase              | Interfaz Implementada | Descripción                                                                                                         |
