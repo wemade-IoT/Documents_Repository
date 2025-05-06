@@ -1795,40 +1795,59 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 Web App:
 
-### Model
-
 En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
-**Plant**
+
+### Assembler
+
+
+**PlantAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| plantEntityFromResponseAssembler     | Crea una instancia del modelo plant en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+
+
+
+
+
+**PlantationAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| plantationEntityFromResponseAssembler     | Crea una instancia del modelo plantation en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+
+
+**PlantResponse**
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| id                    | number     |
+| id                    | number      |
 | type                  | string   |
 | userId                | number     |
 | waterThreshold        | number   |
 | lightThreshold        | number   |
-| temperatureThreshold  | number   |
+| temperatureThreshold  | number  |
 | createdAt             | date |
 | updatedAt             | date |
 | stateId               | number     |
 
-
-**Plantation**
-
+**PlantationResponse**
 
 | Atributo             | Tipo     |
 |----------------------|----------|
-| id                   | number     |
-| type                 | string   |
-| userId               | number      |
-| waterThreshold       | number   |
-| lightThreshold       | number   |
-| temperatureThreshold | number   |
-| areaCoverage         | number   |
-| createdAt            | date |
-| updatedAt            | date |
-| stateId              | number      |
+| id                   | number             |
+| type                 | string             |
+| userId               | number             |
+| waterThreshold       | number             |
+| lightThreshold       | number             |
+| temperatureThreshold | number             |
+| areaCoverage         | number             |
+| createdAt            | Date               |
+| updatedAt            | Date               |
+| stateId              | number             |
+
+
 
 
 ## Service
@@ -2053,6 +2072,43 @@ Web App:
 
 - En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
 
+## Components
+
+**PlantItemComponent**
+
+Componente reutilizable encargado de presentar la información detallada de una planta individual.
+
+**PlantListComponent**
+
+Componente orientado a la visualización de un conjunto de plantas.
+
+**PlantationItemComponent**
+
+Componente reutilizable diseñado para mostrar los datos específicos de una plantación.
+
+**PlantationListComponent**
+
+Componente que representa una colección de plantaciones.
+
+## Pages
+
+**PlantsVisualizationPage**
+
+Componente donde se mostrará las plantas registradas por cada usuario
+
+**PlantationVisualizationPage**
+
+Componente donde se mostrará las plantaciones registradas por cada usuario
+
+**PlantInformationPage**
+
+Componente donde se mostrará información detallada sobre una planta en especifico
+
+**PlantationInformationPage**
+
+Componente donde se mostrará información detallada sobre una plantaciôn en especifico
+
+
 
 ### Store
 
@@ -2067,6 +2123,26 @@ Permite gestionar el estado global de la plantación seleccionada, facilitando u
 Mobile:
 
 - En esta capa se definen los widgets que definen la interfaz de usuario, asi como clases relacionadas a la gestión de estados en la aplicación móvil.
+
+## Widgets
+
+**PlantPrototype**  
+Muestra un resumen visual de una planta.
+
+
+**PlantationPrototype**  
+Representa de forma compacta los datos principales de una plantación.
+
+## Screens
+
+**PlantInformationScreen**  
+Pantalla con información detallada de una planta específica.
+
+
+**PlantationInformationScreen**  
+Pantalla con los detalles completos de una plantación.
+
+
 
 ### Providers
 
