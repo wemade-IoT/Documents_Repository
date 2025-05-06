@@ -2944,6 +2944,15 @@ Backend:
 
 #### 4.2.4.3. Application Layer.
 
+
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
 ### CommandServices
 
 | Clase                              | Descripción |
@@ -2980,6 +2989,55 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/subsciption-db-diagram.png" alt="Subscription Database Design Diagram"/>
 
 ### 4.2.5. Bounded Context: Payment
+
+Web App:
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+#### Request
+
+**InvoiceRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| amount                | number   |
+| userId                | number      |
+| invoiceType           | number      |
+
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+
+
+
+
+
+Mobile App:
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+
+#### Request
+
+**InvoiceRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| amount                | double   |
+| userId                | int     |
+| invoiceType           | int    |
+
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+
+
+
+Backend:
 
 #### 4.2.5.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -3056,6 +3114,24 @@ Representa una factura creada en la aplicación.
 
 ---
 #### 4.2.5.2. Interface Layer.
+
+Web App:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio.
+
+#### Pages
+
+**CheckoutPaymentView**
+
+Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
+
+Mobile App:
+
+**CheckoutPaymentView**
+
+Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
+
+Backend:
+
 ---
  
  - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -3099,6 +3175,15 @@ Representa una factura creada en la aplicación.
  
 #### 4.2.5.3. Application Layer.
 
+
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
 
@@ -3124,6 +3209,14 @@ Representa una factura creada en la aplicación.
 
 -
 #### 4.2.5.4. Infrastructure Layer.
+
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase             | Interfaz Implementada | Descripción                                                                                                       |
