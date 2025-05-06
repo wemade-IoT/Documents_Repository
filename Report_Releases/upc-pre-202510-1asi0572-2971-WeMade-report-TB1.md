@@ -2734,6 +2734,52 @@ Backend:
 ### 4.2.4. Bounded Context: Subscription
 
 #### 4.2.4.1. Domain Layer.
+
+Web App:
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+
+## Request
+
+**UpdateSubscriptionRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | number    |
+| userId     | number |
+
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+
+Mobile App:
+
+
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+
+## Request
+
+**UpdateSubscriptionRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| userId     | int |
+
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ---
@@ -2825,6 +2871,41 @@ Representa una suscripción disponible en la aplicación.
 
 
 #### 4.2.4.2. Interface Layer.
+
+Web App:
+
+#### Components
+
+**PlanItemComponent**
+
+Representa un componente reutilizable para la visualización de la información de un plan.
+
+**PlanListComponent**
+
+Representa un componente para representar el conjunto de planes disponibles.
+
+#### Pages
+
+**MySubscriptionInformatiom**
+
+Represena un componente para la visualización de una suscripción actual o los tipos de planes disponibles.
+
+
+Mobile App:
+
+#### Widgets
+
+**PlanItemWidget**  
+Widget reutilizable que muestra la información de un plan individua.
+
+#### Screens
+
+**MySubscriptionInformationScreen**  
+Pantalla que muestra los detalles de la suscripción actual del usuario o los diferentes tipos de planes disponibles para seleccionar.
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 ---
 
