@@ -2306,9 +2306,18 @@ App Web:
 
 - En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
 
-### Model
+### Assembler
 
-**Metric**
+**MetricAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| metricEntityFromResponseAssembler | Crea una instancia del modelo metric en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase    |
+
+
+### Response
+
+**MetricResponse**
 
 Representa la clase que se encarga de abstraer las respuestas relacionadas a metricas
 
@@ -2425,8 +2434,22 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.2. Interface Layer.
 
-App Web:
-- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este bounded context.
+App Web:  
+
+- En esta capa se definen los componentes reutilizables que se utilizan en distintas pantallas relacionadas a este *bounded context*.
+
+## Components
+**MetricItemComponent**
+ Componente reutilizable para mostrar la información individual de una métrica, como valores de sensores o indicadores clave.
+
+ **MetricListComponent**
+Componente encargado de renderizar un conjunto de métricas.
+
+## Pages 
+
+**MetricInformationPage**
+Página que presenta información detallada de una métrica específica, incluyendo sus valores históricos, visualizaciones gráficas y metadatos asociados.
+
 
 Mobile:
 - No aplica para este caso
