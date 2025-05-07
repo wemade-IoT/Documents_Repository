@@ -3126,7 +3126,7 @@ Representa una vista que redirige al servicio de stripe para culminar un pago en
 
 Mobile App:
 
-**CheckoutPaymentView**
+**CheckoutPaymentScreen**
 
 Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
 
@@ -3242,6 +3242,19 @@ Backend:
 
 ### 4.2.6. Bounded Context: Automation
 
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 #### 4.2.6.1. Domain Layer.
 
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -3297,6 +3310,18 @@ Representa un actuador físico que ha sido instalado.
 
 #### 4.2.6.2. Interface Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
  ---
@@ -3341,6 +3366,18 @@ Representa un actuador físico que ha sido instalado.
 
 #### 4.2.6.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 ### CommandServices
 
 | Clase                        | Interface                  | Descripción                                                                                   |
@@ -3354,6 +3391,18 @@ Representa un actuador físico que ha sido instalado.
 
 
 #### 4.2.6.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
 
 
 ### Implementación de las interfaces de los Repositories
@@ -3380,8 +3429,19 @@ Representa un actuador físico que ha sido instalado.
 <img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
 
 ### 4.2.7. Bounded Context: Installation
--
+
 #### 4.2.7.1. Domain Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ### Entities
@@ -3462,6 +3522,18 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.7.2. Interface Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
  
 ---
@@ -3503,6 +3575,18 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.7.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 *CommandServices*
 | Clase                        |Interface                  | Descripción                                                                                   |
 |-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
@@ -3511,6 +3595,15 @@ Representa un sensor físico que ha sido instalado.
 
 
 #### 4.2.7.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
 
 ### Implementación de las interfaces de los Repositories
 | Clase            | Interfaz Implementada | Descripción                                                                                                          |
@@ -3532,7 +3625,53 @@ Representa un sensor físico que ha sido instalado.
 
 ### 4.2.8. Bounded Context: Identity and Access Management
 
+
+
 #### 4.2.8.1. Domain Layer.
+
+Mobile App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+#### DTO
+
+**SignInRequestDto**
+
+Representa una abstracción para la petición de inicio de sesión.
+
+**SignUpRequestDto**
+
+Representa una abstracción para la petición de registro de usuario.
+
+
+**UserAuthenticatedResponseDto**
+
+Representa una abstracción para la respuesta de un usuario autenticado.
+
+
+
+Web App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+### Request
+
+#### SignInRequest
+
+Representa una abstracción para la petición de inicio de sesión realizada.
+
+#### SignUpRequest
+
+Representa una abstracción para la petición de registro de usuario.
+
+
+### Response
+
+#### UserAuthenticatedResponse
+
+Representa una abstracción para la respuesta que contiene la información de un usuario autenticado.
+
+Backend:
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
  ---
@@ -3600,6 +3739,36 @@ Representa un usuario del sistema.
 
 
 #### 4.2.8.2. Interface Layer.
+
+Mobile App:
+
+- En esta capa se definen los widgets que permiten la visualización de información
+
+#### Widgets
+
+**SignInScreen**
+
+Este widget representa una vista para el inicio de sesión del usuario
+
+**SignUpScreen**
+
+Este widget representa una vista para el registro de usuarios
+
+Web App:
+
+- En esta capa se definen los componentes que permiten la visualización de información
+
+#### Pages
+
+**SignInPage**
+
+Este componente representa una vista para el inicio de sesión del usuario
+
+**SignUpPage**
+
+Este componente representa una vista para el registro de usuarios
+
+Backend:
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
  ---
@@ -3643,6 +3812,17 @@ Representa un usuario del sistema.
  
 #### 4.2.8.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
+
 ### CommandServices
 | Clase                               | Descripción |
 |-------------------------------------|-------------|
@@ -3663,6 +3843,17 @@ Representa un usuario del sistema.
 
 
 #### 4.2.8.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase          | Interfaz Implementada | Descripción                                                                    |
@@ -3685,8 +3876,81 @@ Representa un usuario del sistema.
 
 
 ### 4.2.9. Bounded Context: Notifications
--
+
 #### 4.2.9.1. Domain Layer.
+
+Web App:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
+
+#### Assembler
+
+**NotificationAssembler**
+
+
+|  Método                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
+
+
+
+#### Response
+
+**NotificationResponse**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
+
+#### Request
+
+**NotificationRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| title     | string |
+| content     | string |
+| userId     | number |
+
+
+#### Service 
+
+NotificationService
+
+
+
+Mobile App:
+- En esta capa se definen los widgets que definen la interfaz de usuario, asi como clases relacionadas a la gestión de estados en la aplicación móvil.
+
+#### DTO
+
+**CreateNotificationRequestDto**
+
+| Atributo | Tipo   |
+|----------|--------|
+| title     | string |
+| content     | string |
+| userId     | int |
+
+
+**NotificationResponseDto**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
+
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Notifications. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 
@@ -3694,7 +3958,7 @@ Representa un usuario del sistema.
 
 #### Aggregates
 
-**Invoice**
+**Notification**
 
 Representa una notificacion creada en la aplicación.
 
@@ -3743,6 +4007,38 @@ Representa una notificacion creada en la aplicación.
 
 #### 4.2.9.2. Interface Layer.
 
+
+Mobile App:
+
+- No aplica ara este caso, se hara uso de un push notification para el envio de notificaciones
+
+
+Web App:
+
+- En esta capa se definen los componentes reutilizables y vistas.
+
+#### Components
+
+**NotificationItemComponent**
+Este componente permite la visualización de una notificación en especifico. 
+
+
+**NotificationListComponent**
+
+Este componente permite la visualización de un conjunto de notificaciones.
+
+
+#### Pages
+
+**MyNotificationsPage**
+
+Este componente se utiliza para la visualización de las notificaciones del usuario.
+
+
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
    
   ---
@@ -3780,6 +4076,17 @@ Representa una notificacion creada en la aplicación.
    | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
 
 #### 4.2.9.3. Application Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
  
  
 ### CommandServices
@@ -3804,6 +4111,17 @@ Representa una notificacion creada en la aplicación.
 | `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
 #### 4.2.9.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
