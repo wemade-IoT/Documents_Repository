@@ -444,37 +444,49 @@ Desarrollar una solución con tecnologías IoT (*Internet of Things*) orientada 
 
 **Hipótesis**
 
-Siguiendo el formato de las Hipótesis usaremos la tabla ya proporcionada.
-Tomar en cuenta que cada hipótesis empieza con "Creemos que.." Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
+Siguiendo el formato de las Hipótesis, estas están alineadas con las **7 épicas** de nuestro proyecto. Tomar en cuenta que cada hipótesis empieza con "Creemos que...". Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
 
-| Business Outcome                                                       | Persona                                                                            | User Outcome                                                                | Feature/Solution                                                               |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| Aumentar el tráfico a la landing page en un 1200 visitantes mensuales. | Dueños de plantas y empresas agrícolas.                                            | Descubrir la plataforma y entender su valor.                                | Campañas en redes sociales y contenido educativo sobre monitoreo de cultivos.  |
-| Convertir al menos un 45% de visitantes en usuarios registrados.       | Usuarios interesados en optimizar el crecimiento de sus cultivos.                  | Registrarse en la plataforma y configurar su cuenta.                        | Proceso de onboarding simplificado con guía paso a paso y beneficios claros.   |
-| Mantener al 60% de los usuarios activos diariamente en la plataforma.  | Usuarios que buscan mejorar la eficiencia del cuidado de sus cultivos.             | Consultar métricas y alertas en la plataforma para optimizar su producción. | Dashboard interactivo con reportes detallados sobre el estado de las plantas.  |
-| Generar ingresos con un 10% de conversión a planes pagos.              | Usuarios que necesitan monitorear más plantas de las incluidas en el plan inicial. | Contratar un plan premium para acceder a funciones avanzadas.               | Modelo de precios escalable con límites flexibles y herramientas avanzadas.    |
-| Lograr que al menos un 5% de los usuarios refieran la plataforma.      | Usuarios satisfechos con la solución.                                              | Compartir la plataforma con su red de contactos.                            | Programa de referidos con incentivos como descuentos o beneficios adicionales. |
+| **Business Outcome**                                                      | **Persona**                                                                     | **User Outcome**                                                               | **Feature/Solution**                                                           |
+|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Mejorar la efectividad del cuidado de las plantas mediante un sistema de monitoreo.**   | Dueños de plantas y empresas agrícolas.                                         | Los usuarios podrán realizar un seguimiento más efectivo de sus plantas, mejorando su salud. | Implementación de sensores que monitoreen las condiciones ambientales (temperatura, humedad, luz). |
+| **Reducir el tiempo invertido en el monitoreo de las plantas.**        | Usuarios interesados en optimizar el crecimiento de sus cultivos.                  | Los usuarios lograrán ahorrar tiempo al automatizar el monitoreo y el riego.    | Sistema automatizado de riego basado en datos en tiempo real y sensores.        |
+| **Optimizar la toma de decisiones sobre el cuidado de las plantas.**   | Usuarios domésticos y empresariales interesados en mejorar el crecimiento de sus cultivos.   | Los usuarios tomarán decisiones informadas para el cuidado de las plantas, basadas en recomendaciones personalizadas. | Recomendaciones automáticas basadas en datos recolectados por sensores de las plantas. |
+| **Aumentar la adopción de plataformas tecnológicas para el cuidado de plantas.**      | Usuarios que no cuentan con herramientas tecnológicas avanzadas para monitorear sus plantas. | Los usuarios se familiarizarán con el uso de tecnologías IoT para el monitoreo y automatización del cuidado de sus plantas. | Implementación de una plataforma multiplataforma (web y móvil) accesible para los usuarios. |
+| **Mejorar la retención de usuarios mediante personalización de alertas.**      | Usuarios satisfechos con la plataforma y el cuidado automatizado de sus plantas. | Los usuarios seguirán utilizando la plataforma gracias a las alertas personalizadas para el riego y mantenimiento. | Sistema de alertas personalizadas para riego, fertilización y cuidados generales. |
+| **Aumentar la eficiencia en la gestión de cultivos agrícolas.**         | Empresas agrícolas que gestionan múltiples cultivos.                            | Las empresas podrán gestionar múltiples cultivos de manera más eficiente y con mayor control. | Plataforma que centraliza datos de cultivo (clima, humedad, plagas, riego). |
+| **Facilitar la adopción de sensores y automatización del riego en la agricultura.** | Agricultores que buscan optimizar el uso de agua y mejorar el rendimiento de sus cultivos. | Los agricultores implementarán sistemas automáticos para riego y monitoreo, mejorando la eficiencia en el uso de recursos. | Integración de sensores IoT para la automatización del riego según condiciones climáticas y del suelo. |
+
+---
+
+### Lo más importante que debemos aprender
+
+A partir de las hipótesis anteriores, necesitamos aprender lo siguiente:
+
+1. **¿Los usuarios (domésticos y empresariales) tienen realmente problemas para monitorear el estado de sus plantas sin una herramienta tecnológica?**
+2. **¿Están dispuestos a adoptar tecnologías de monitoreo (sensores IoT) para facilitar el cuidado de las plantas?**
+3. **¿Confiarán los usuarios en las recomendaciones automatizadas basadas en datos de sensores para cuidar sus plantas?**
+4. **¿Están dispuestos a pagar por un plan premium para acceder a características avanzadas como monitoreo de más plantas o control avanzado del riego?**
+5. **¿Con qué frecuencia están dispuestos a interactuar con la plataforma de monitoreo?**
+6. **¿Los usuarios prefieren una interfaz simple y accesible que les permita gestionar sus plantas sin complicaciones?**
+7. **¿La automatización del riego reduce significativamente el esfuerzo y mejora la eficiencia en el uso del agua?**
+
+De todas estas preguntas, el riesgo más crítico a validar sería si los usuarios **están dispuestos a usar sensores IoT y plataformas tecnológicas** para solucionar sus problemas de monitoreo y si confían en las recomendaciones automatizadas para el cuidado de sus plantas.
+
+---
+
+### Minimum Viable Product
+
+El **MVP** debe centrarse en validar los aspectos más importantes del producto en un corto período de tiempo. La pregunta clave es:
+
+**What’s the most important thing we need to learn first?**
+
+Nuestro **MVP** debe ser una versión simplificada del sistema que permita simular los datos y validar los intereses de los usuarios en las características principales del producto. Las funcionalidades clave a incluir son:
+
+1. **Monitoreo de plantas en tiempo real**: Para validar si los usuarios encuentran útil el monitoreo continuo de sus plantas mediante sensores.
+2. **Automatización del riego**: Para evaluar si los usuarios están interesados en adoptar un sistema automatizado que optimice el riego según datos de sensores y clima.
+3. **Recomendaciones personalizadas**: Para probar si los usuarios confían en las sugerencias automatizadas para el cuidado de sus plantas.
 
 
-**Que es lo más importante que debemos aprender**
-
-Debemos de analizar que es lo que debemos aprender de nuestras Hipótesis, entonces llegamos a nuestra siguiente conclusion respecto a lo más importante que debemos aprender:
-
-- Si los usuarios (domésticos y empresariales) realmente tienen problemas monitorizando el estado de sus plantas.
-- Si están dispuestos a usar sensores o plataformas tecnológicas para solucionarlo.
-- Si confiarían en las recomendaciones generadas por un sistema automatizado.
-- Si pagarían por una versión avanzada del sistema cuando se supere cierto límite de plantas.
-- Qué tan seguido están dispuestos a interactuar con una app de monitoreo.
-
-De estos posibles riesgos escogemos el más crítico que sería averiguar si los usuarios están dispuestos a usar sensores o plataformas tecnológicas para solucionar sus problemas.
-
-**Minimum viable product**
-
-Los MVP nos sirven para aprender cosas a corto plazo. para realizar esto se hace la pregunta: 
-What’s the most important thing we need to learn first?
-
-Nuestro MVP debe estar orientado a demostrar lo que ofrece nuestra solución como concepto para validar que el usuario este interesado en nuestros features principales.
-En este caso sería desarrollar un prototipo parcialmente funcional donde lo que debe observarse será la simulación de datos.
 
 #### 1.2.2.4. Lean UX Canvas.
 
@@ -954,20 +966,40 @@ Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHb
 
 ## 2.4. Ubiquitous Language.
 
-```
-Plant Guardian:	dispositivo IoT con sensores que monitorea condiciones ambientales de plantas.
- 
-Care Threshold:	valor límite (ej: 30% humedad) que activa alertas cuando se supera o no se alcanza.
-
-Growth Phase: etapa de la planta (ej: germinación, florecimiento) que determina recomendaciones.
-
-Plant Parent: usuario doméstico que gestiona pocas plantas en hogar/oficina.
-
-Crop Manager: usuario empresarial que supervisa múltiples plantas/cultivos.
-
-Care Plan: suscripción con niveles de servicio (ej: Basic, Pro).
-
-```
+<table>
+  <thead>
+    <tr>
+      <th>Termino</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Plant Guardian</td>
+      <td>Dispositivo IoT con sensores que monitorea condiciones ambientales de plantas.</td>
+    </tr>
+    <tr>
+      <td>Care Threshold</td>
+      <td>Valor límite (ej: 30% humedad) que activa alertas cuando se supera o no se alcanza.</td>
+    </tr>
+    <tr>
+      <td>Growth Phase</td>
+      <td>Etapa de la planta (ej: germinación, florecimiento) que determina recomendaciones.</td>
+    </tr>
+    <tr>
+      <td>Plant Parent</td>
+      <td>Usuario doméstico que gestiona pocas plantas en hogar/oficina.</td>
+    </tr>
+    <tr>
+      <td>Crop Manager</td>
+      <td>Usuario empresarial que supervisa múltiples plantas/cultivos.</td>
+    </tr>
+    <tr>
+      <td>Care Plan</td>
+      <td>Suscripción con niveles de servicio (ej: Basic, Pro).</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -997,48 +1029,574 @@ Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUU
 
 La sección de User Stories sirve para saber las distintas situaciones y puntos clave que tiene el usuario al realizar operaciones en los distintos aspectos del proyecto, desde la landing page hasta los aspectos técnicos que realizan los desarrolladores. Es importante debido a que nos ayuda a poder realizar un product backlog y con los criterios de aceptación sabremos como verificar que estas historias de usuario están siendo satisfechas.
 
-| HUX/EPX | Historia de Usuario / Épica | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|---------|----------------------------|-------------|-------------------------|---------------------------|
-| EP01 | Información del producto | Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece. | | |
-| EP02 | Registro y recolección de datos de las plantas | Como usuario de negocios o doméstico quiero que la información registrada de mi planta recolecte datos a lo largo del tiempo para saber el avance sobre su cuidado. | | |
-| EP03 | Monitoreo de estados de clima a través de un dashboard | Como usuario de negocios quiero visualizar a través de un dashboard la evolución de las condiciones climáticas de mis plantas, para dar seguimiento a los cambios a lo largo del tiempo. | | |
-| EP04 | Recomendaciones personalizadas, notificaciones y consultas ante cambios climáticos para el cuidado de plantas | Como usuario doméstico o de negocios, quiero recibir notificaciones y recomendaciones personalizadas cuando se detecten cambios en las condiciones climáticas, así como poder realizar consultas a un especialista, para saber cómo cuidar adecuadamente mis plantas. | | |
-| EP05 | Adquirir servicios mediante planes de suscripción | Como usuario de negocios o doméstico, quiero poder adquirir servicios a través de planes de suscripción, para acceder a funcionalidades como la automatización del riego e instalación de sensores para el monitoreo de plantas. | | |
-| EP06 | Automatización de riego | Como usuario doméstico o de negocios, quiero un sistema de riego automatizado que optimice el uso de agua basado en datos de sensores y del clima, para maximizar la salud de las plantas y reducir costos operativos. | | |
-| EP07 | Implementación de hardware para monitoreo y automatización | Como maker, quiero implementar soluciones de hardware que permitan el monitoreo y la automatización del cuidado de plantas, para ofrecer un sistema fiable y preciso a los usuarios. | | |
-| HU01 | Conseguir información de la empresa | Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto. | **Escenario 1:** Visualización de información de la empresa <br>Dado que el visitante se encuentra en la sección de about us <br>Cuando observa la información relevante sobre la empresa <br>Entonces se interesa en saber más del producto <br>Y se registra como usuario. <br><br>**Escenario 2:** Acceso a detalles de misión y visión <br>Dado que el visitante está interesado en conocer más sobre la empresa <br>Cuando navega hasta la sección de misión y visión <br>Entonces puede comprender mejor los objetivos y valores de la empresa. | EP01 |
-| HU02 | Conocer los medios oficiales de la empresa | Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias. | **Escenario 1:** Acceso a redes sociales <br>Dado que el visitante se encuentra en la sección de footer <br>Cuando se encuentra interesado en conocer los medios oficiales <br>Entonces visita los medios oficiales de la empresa. <br><br>**Escenario 2:** Suscripción a newsletter <br>Dado que el visitante desea mantenerse informado <br>Cuando introduce su correo en el formulario de suscripción <br>Entonces recibe una confirmación de suscripción exitosa. | EP01 |
-| HU03 | Contactar a la empresa desde la sección Contáctanos | Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio. | **Escenario 1:** Envío de formulario de contacto <br>Dado que el visitante se encuentra en la sección de "Contact Us" <br>Cuando se encuentra interesado en contactar a la empresa <br>Entonces envía la consulta mediante un formulario <br>Y la consulta es recibida por la empresa. <br><br>**Escenario 2:** Visualización de información de contacto <br>Dado que el visitante necesita contactar directamente a la empresa <br>Cuando busca en la sección de contacto <br>Entonces puede ver el número telefónico, dirección y correo de la empresa. | EP01 |
-| HU04 | Conocer la misión y visión de la empresa | Como visitante del sitio web, quiero conocer la misión y visión de la empresa para comprender mejor sus valores y la proyección del producto. | **Escenario 1:** Visualización de misión y visión <br>Dado que el visitante se encuentra en la sección "About Us" <br>Cuando observa la información sobre la misión y visión de la empresa <br>Entonces obtiene una mejor perspectiva sobre los valores y la proyección del producto. <br><br>**Escenario 2:** Comprensión de objetivos empresariales <br>Dado que el visitante está interesado en los objetivos a largo plazo <br>Cuando lee la sección de visión de la empresa <br>Entonces comprende hacia dónde se dirige la empresa en el futuro. | EP01 |
-| HU05 | Ampliación de monitoreo de plantas | Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla. | **Escenario 1:** Adición de plantas adicionales <br>Dado que el usuario tiene un número de plantas limitado en su plan <br>Cuando decide agregar más plantas <br>Entonces el sistema debe permitirle agregar plantas extra, cobrando un monto adicional por cada una. <br><br>**Escenario 2:** Visualización del costo adicional <br>Dado que el usuario desea agregar plantas adicionales <br>Cuando selecciona la opción de agregar planta <br>Entonces el sistema muestra claramente el costo adicional antes de confirmar. | EP05 |
-| HU06 | Monitoreo de sensores adicionales | Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir. | **Escenario 1:** Adición de sensores <br>Dado que el usuario tiene un número de sensores limitado en su plan <br>Cuando el usuario decide agregar más sensores <br>Entonces el sistema debe permitirle añadir sensores extra, cobrando un monto adicional por cada sensor. <br><br>**Escenario 2:** Visualización de cobertura ampliada <br>Dado que el usuario ha añadido sensores adicionales <br>Cuando accede al mapa de cobertura <br>Entonces puede ver el área adicional que está siendo monitoreada. | EP05 |
-| HU07 | Descuento en el primer sensor | Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible. | **Escenario 1:** Aplicación automática de descuento <br>Dado que el usuario está comprando el primer sensor <br>Cuando lo agrega a su carrito <br>Entonces el sistema debe aplicar automáticamente un descuento al primer sensor. <br><br>**Escenario 2:** Visualización del descuento en factura <br>Dado que se ha aplicado el descuento <br>Cuando el usuario revisa su factura <br>Entonces puede ver claramente el monto descontado y el precio final. | EP05 |
-| HU08 | Instalación incluida en el plan | Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales. | **Escenario 1:** Confirmación de instalación incluida <br>Dado que el usuario selecciona el plan doméstico <br>Cuando completa su compra <br>Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>Y no habrá cargos adicionales. <br><br>**Escenario 2:** Programación de instalación <br>Dado que el usuario ha completado la compra <br>Cuando accede a la sección de programación <br>Entonces puede seleccionar una fecha para la instalación sin costos adicionales. | EP05 |
-| HU09 | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | **Escenario 1:** Cálculo automático de instalación <br>Dado que el usuario ha seleccionado el número de sensores <br>Y el área de las plantas <br>Cuando el sistema calcula el precio total <br>Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>Y debe ser visible en la factura. <br><br>**Escenario 2:** Personalización de instalación <br>Dado que el usuario necesita una instalación personalizada <br>Cuando especifica requisitos especiales <br>Entonces el sistema recalcula el costo de instalación acorde a las necesidades. | EP05 |
-| HU10 | Integración de sensores IoT | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | **Escenario 1:** Conexión exitosa de sensores <br>Dado que los sensores están configurados <br>Cuando se recibe la señal de los sensores <br>Entonces los datos deben ser enviados correctamente a la plataforma para su visualización. <br><br>**Escenario 2:** Detección de fallo en sensores <br>Dado que un sensor presenta un fallo <br>Cuando el sistema realiza verificaciones de conectividad <br>Entonces genera una alerta técnica para su revisión. | EP02 |
-| HU11 | API para el monitoreo de plantas | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | **Escenario 1:** Consulta exitosa de datos <br>Dado que la API está configurada <br>Cuando el usuario consulta el estado de sus plantas <br>Entonces los datos deben ser enviados correctamente a la aplicación del usuario. <br><br>**Escenario 2:** Actualización en tiempo real <br>Dado que existen cambios en los sensores <br>Cuando los datos cambian <br>Entonces la API debe enviar actualizaciones en tiempo real. | EP02 |
-| HU12 | API Autenticación JWT | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | **Escenario 1:** Autenticación exitosa <br>Dado que el usuario está en la página de inicio de sesión <br>Cuando ingresa sus credenciales correctamente <br>Entonces el sistema debe devolver un token JWT válido. <br><br>**Escenario 2:** Renovación de token <br>Dado que el token JWT está por expirar <br>Cuando el usuario continúa utilizando el sistema <br>Entonces se genera automáticamente un nuevo token válido. | EP02 |
-| HU13 | Generación de reportes de consumo de recursos | Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados. | **Escenario 1:** Generación de reporte <br>Dado que los datos de consumo están disponibles <br>Cuando el usuario solicita un reporte de recursos <br>Entonces el sistema debe mostrar el consumo por planta o área. <br><br>**Escenario 2:** Exportación de datos <br>Dado que se ha generado un reporte <br>Cuando el usuario selecciona la opción de exportar <br>Entonces puede descargarlo en formatos PDF, CSV o Excel. | EP03 |
-| HU14 | Integración de pagos | Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura. | **Escenario 1:** Procesamiento de pago exitoso <br>Dado que el sistema de pagos está integrado <br>Cuando el usuario introduce sus datos de pago <br>Entonces el sistema debe procesar el pago de forma correcta y segura. <br><br>**Escenario 2:** Manejo de errores en pagos <br>Dado que ocurre un error durante el proceso de pago <br>Cuando el usuario intenta completar la transacción <br>Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. | EP05 |
-| HU15 | Registro de Planta | Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas. | **Escenario 1:** Registro con instalación por servicio <br>Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. <br><br>**Escenario 2:** Registro con instalación manual <br>Dado que el usuario ha elegido la opción de instalación manual <br>Cuando completa el registro de la planta <br>Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. | EP02 |
-| HU16 | Edición de Planta | Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente. | **Escenario 1:** Modificación de datos básicos <br>Dado que me encuentro en la vista de "plantas" <br>Cuando presiono el card de la planta, y presiono el icono del lápiz <br>Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables. <br><br>**Escenario 2:** Actualización de información de cuidados <br>Dado que necesito cambiar información sobre el cuidado de la planta <br>Cuando accedo a la sección de edición de cuidados <br>Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. | EP02 |
-| HU17 | Eliminación de Planta | Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra. | **Escenario 1:** Confirmación de eliminación <br>Dado que me encuentro en la vista de "plantas" <br>Cuando presiono el card de la planta, y presiono el icono del basurero <br>Entonces aparecerá un dialogo informando que se borraran los datos permanentemente, y al presionarlo se eliminan los datos. <br><br>**Escenario 2:** Cancelación de eliminación <br>Dado que inicié el proceso de eliminación <br>Cuando decido cancelar la acción en el diálogo de confirmación <br>Entonces la planta no se elimina y regreso a la vista anterior. | EP02 |
-| HU18 | Registro de plantaciones empresarial | Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo. | **Escenario 1:** Registro exitoso de plantación <br>Dado que me encuentro en la vista de "plantaciones" <br>Cuando utilizo el botón de agregar plantación, y agrego la información del area que cubre la plantación e información adicional en un formulario <br>Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista. <br><br>**Escenario 2:** Importación masiva de plantaciones <br>Dado que tengo un archivo con datos de múltiples plantaciones <br>Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>Entonces el sistema valida y registra todas las plantaciones válidas. | EP02 |
-| HU19 | Recibir alertas sobre el estado de mis plantas | Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado. | **Escenario 1:** Notificación por cambio significativo <br>Dado que el usuario doméstico tiene activadas las notificaciones <br>Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>Entonces el usuario recibe una notificación con la información detallada del cambio y puede visualizar el nuevo estado de la planta afectada. <br><br>**Escenario 2:** Configuración de umbrales de notificación <br>Dado que el usuario desea personalizar sus alertas <br>Cuando accede a la configuración de notificaciones <br>Entonces puede establecer umbrales personalizados para cada tipo de alerta. | EP04 |
-| HU20 | Activación de riego automático | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | **Escenario 1:** Activación automática de riego <br>Dado que los sensores reporten datos de humedad <br>Cuando la humedad baje del umbral establecido <br>Entonces el sistema debe activar el riego automáticamente y registrar el evento. <br><br>**Escenario 2:** Programación de riego <br>Dado que el usuario quiere establecer horarios específicos <br>Cuando configura una programación de riego <br>Entonces el sistema riega según el horario incluso si no se alcanzan los umbrales críticos. | EP06 |
-| HU21 | Límites de riego configurables | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | **Escenario 1:** Límite de consumo alcanzado <br>Dado que el consumo de agua alcanza el límite establecido <br>Cuando el sistema detecte que se ha alcanzado el límite <br>Entonces envía una alerta y detiene el riego. <br><br>**Escenario 2:** Configuración de límites por zonas <br>Dado que el usuario quiere eficiencia en diferentes áreas <br>Cuando configura límites específicos por zona <br>Entonces el sistema aplica diferentes restricciones según la zona seleccionada. | EP06 |
-| HU22 | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | **Escenario 1:** Control de válvulas exitoso <br>Dado un request a la API válido <br>Cuando el sistema recibe la señal de activación/desactivación <br>Entonces la válvula de riego se activa/desactiva y se devuelve el código de respuesta HTTP 200 OK. <br><br>**Escenario 2:** Manejo de errores de comunicación <br>Dado que existe un problema de conectividad <br>Cuando se envía una orden a la válvula <br>Entonces el sistema reintenta la comunicación y notifica si persiste el problema. | EP06 |
-| HU23 | Soporte offline para riego automático | Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente. | **Escenario 1:** Almacenamiento local de eventos <br>Dado que el sistema está offline <br>Cuando el sensor detecta un nivel bajo de humedad <br>Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión. <br><br>**Escenario 2:** Sincronización de datos <br>Dado que el sistema recupera la conexión <br>Cuando hay datos almacenados localmente <br>Entonces sincroniza automáticamente con el servidor central. | EP06 |
-| HU24 | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | **Escenario 1:** Lectura correcta de sensor <br>Dado que el sensor está conectado al pin analógico A0 <br>Cuando se inicia el dispositivo <br>Entonces se debe leer y mostrar por consola el valor de humedad cada 10 segundos. <br><br>**Escenario 2:** Detección de suelo seco <br>Dado que el sensor está insertado en tierra seca <br>Cuando la lectura es menor a 300 <br>Entonces se muestra "Suelo seco detectado". | EP07 |
-| HU25 | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | **Escenario 1:** Activación del relé <br>Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>Cuando se evalúa la lectura del sensor <br>Entonces el sistema debe activar el relé por 5 segundos. <br><br>**Escenario 2:** Desactivación del relé <br>Dado que el valor de humedad se ha normalizado <br>Cuando se supera el umbral <br>Entonces el relé debe apagarse. | EP07 |
-| HU26 | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | **Escenario 1:** Visualización de lecturas normales <br>Dado que los sensores están conectados <br>Cuando el sistema hace lecturas <br>Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx. <br><br>**Escenario 2:** Alerta por condiciones críticas <br>Dado que ocurre una condición crítica <br>Cuando la temperatura es muy alta <br>Entonces se imprime: "Advertencia: Temperatura elevada". | EP07 |
-| HU27 | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | **Escenario 1:** Modificación de umbrales <br>Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>Cuando se cambia su valor y se carga el firmware <br>Entonces el nuevo umbral es utilizado por el sistema. <br><br>**Escenario 2:** Umbrales para diferentes plantas <br>Dado que se necesitan diferentes umbrales para distintas plantas <br>Cuando se configuran múltiples constantes según el tipo de planta <br>Entonces el sistema aplica el umbral adecuado según la planta seleccionada. | EP07 |
-| HU28 | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | **Escenario 1:** Activación de alerta visual <br>Dado que el valor de humedad está por debajo de 200 <br>Cuando el sistema detecta esta condición <br>Entonces se enciende el LED rojo de alerta. <br><br>**Escenario 2:** Desactivación de alerta <br>Dado que la condición mejora <br>Cuando la humedad supera el valor mínimo <br>Entonces el LED se apaga. | EP07 |
-| HU29 | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | **Escenario 1:** Generación de datos simulados <br>Dado que se ejecuta el sistema en modo test <br>Cuando se activa modo_simulacion = true <br>Entonces se imprimen datos ficticios por UART como: { "sensor": "humedad", "valor": 280 }. <br><br>**Escenario 2:** Configuración de parámetros de simulación <br>Dado que el sistema está en modo simulación <br>Cuando se modifican los rangos de valores simulados <br>Entonces el sistema genera datos dentro de los nuevos rangos especificados. | EP07 |
-| HU30 | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | **Escenario 1:** Activación de modo test <br>Dado que el monitor serial está abierto <br>Cuando el usuario escribe test_humedad <br>Entonces el sistema responde con una lectura simulada de humedad y omite la lógica de riego real. <br><br>**Escenario 2:** Salida del modo test <br>Dado que el sistema está en modo test <br>Cuando el usuario escribe exit_test <br>Entonces el sistema vuelve al modo de operación normal. | EP07 |
-| HU31 | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | **Escenario 1:** Sensor desconectado <br>Dado que el sensor de humedad no está conectado <br>Cuando el dispositivo intenta leer un valor <br>Entonces se imprime en consola: "Error: Sensor de humedad no detectado". <br><br>**Escenario 2:** Reconexión del sensor <br>Dado que previamente se detectó un error de conexión del sensor <br>Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. | EP07 |
-| HU32 | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | **Escenario 1:** Solicitud de recomendación <br>Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>Cuando el sistema detecte un cambio en las condiciones ambientales <br>Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista. <br><br>**Escenario 2:** Verificación de estado de solicitud <br>Dado que el usuario ha enviado una solicitud de recomendación <br>Cuando accede a la sección de "Mis solicitudes" en la aplicación <br>Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, completada) y el tiempo estimado de respuesta. | EP04 |
-| HU33 | Registrar recomendaciones | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | **Escenario 1:** Registro de recomendación <br>Dado que un usuario doméstico o de negocios solicita una recomendación a un especialista <br>Cuando un usuario doméstico o de negocios recibe una alerta sobre el estado de sus plantas <br>Entonces un especialista registra la recomendación dada al usuario. <br><br>**Escenario 2:** Revisión de historial de recomendaciones <br>Dado que un especialista necesita revisar las recomendaciones previas dadas a un usuario <br>Cuando accede al perfil del usuario o planta <br>Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. | EP04 |
+<table>
+  <thead>
+    <tr>
+      <th>HUX/EPX</th>
+      <th>Historia de Usuario / Épica</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP01</td>
+      <td>Información del producto</td>
+      <td>Como visitante del sitio web, quiero obtener información relacionada al producto que se ofrece.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Registro y recolección de datos de las plantas</td>
+      <td>Como usuario de negocios o doméstico quiero que la información registrada de mi planta recolecte datos a lo largo del tiempo para saber el avance sobre su cuidado.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Monitoreo de estados de clima a través de un dashboard</td>
+      <td>Como usuario de negocios quiero visualizar a través de un dashboard la evolución de las condiciones climáticas de mis plantas, para dar seguimiento a los cambios a lo largo del tiempo.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Recomendaciones personalizadas, notificaciones y consultas ante cambios climáticos para el cuidado de plantas</td>
+      <td>Como usuario doméstico o de negocios, quiero recibir notificaciones y recomendaciones personalizadas cuando se detecten cambios en las condiciones climáticas, así como poder realizar consultas a un especialista, para saber cómo cuidar adecuadamente mis plantas.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Adquirir servicios mediante planes de suscripción</td>
+      <td>Como usuario de negocios o doméstico, quiero poder adquirir servicios a través de planes de suscripción, para acceder a funcionalidades como la automatización del riego e instalación de sensores para el monitoreo de plantas.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP06</td>
+      <td>Automatización de riego</td>
+      <td>Como usuario doméstico o de negocios, quiero un sistema de riego automatizado que optimice el uso de agua basado en datos de sensores y del clima, para maximizar la salud de las plantas y reducir costos operativos.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>EP07</td>
+      <td>Implementación de hardware para monitoreo y automatización</td>
+      <td>Como maker, quiero implementar soluciones de hardware que permitan el monitoreo y la automatización del cuidado de plantas, para ofrecer un sistema fiable y preciso a los usuarios.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HU01</td>
+      <td>Conseguir información de la empresa</td>
+      <td>Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto.</td>
+      <td>Escenario 1: Visualización de la misión de la empresa <br>
+Dado que el visitante se encuentra en el sitio web<br>
+Cuando encuentra la sección de "About Us" <br>
+Entonces el visitante visualiza la misión de la empresa
+<br> <br>
+Escenario 2: Visualización de la visión de la empresa <br>
+Dado que el visitante se encuentra en la landing page<br>
+Cuando se ubica la sección de "About Us" <br>
+Entonces el visitante visualiza la visión de la empresa
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU02</td>
+      <td>Conocer los medios oficiales de la empresa</td>
+      <td>Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias.</td>
+      <td>Escenario 1: Acceso a redes sociales
+Dado que el visitante se encuentra en la sección de footer <br>
+Cuando se encuentra interesado en conocer los medios oficiales <br>
+Entonces visita los medios oficiales de la empresa. 
+<br> <br>
+Escenario 2: Suscripción a newsletter <br>
+Dado que el visitante desea mantenerse informado <br>
+Cuando introduce su correo en el formulario de suscripción <br>
+Entonces recibe una confirmación de suscripción exitosa.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU03</td>
+      <td>Contactar a la empresa desde la sección Contáctanos</td>
+      <td>Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio.</td>
+      <td>Escenario 1: Envío de formulario de contacto <br>
+Dado que el visitante se encuentra en la sección de "Contact Us" <br>
+Cuando se encuentra interesado en contactar a la empresa <br>
+Entonces envía la consulta mediante un formulario <br>
+Y la consulta es recibida por la empresa. 
+<br> <br>
+Escenario 2: Visualización de información de contacto <br>
+Dado que el visitante necesita contactar directamente a la empresa <br>
+Cuando busca en la sección de contacto <br>
+Entonces puede ver el número telefónico, dirección y correo de la empresa.</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU04</td>
+      <td>Informarse sobre los beneficios del producto</td>
+      <td>Como visitante del sitio web, quiero informarme sobre los beneficios del producto ofrecido.</td>
+      <td>Escenario 1: Visualización de beneficios del producto <br>
+Dado que el visitante se encuentra en el sitio web <br>
+Cuando se ubica en la sección de benefits <br>
+Entonces observa los beneficios del producto que se ofrecen al usar nuestra solución  <br>
+Y Se registra como usuario.
+<br> <br>
+Escenario 2: Comprensión de lo que EcoGuardian ofrece <br>
+Dado que el visitante se encuentra en el sitio web <br>
+Cuando navega hacia la sección "What We Made for You" <br>
+Entonces visualiza el producto de la solución <br>
+Y se visualiza información sobre el sistema de análisis y recopilación de datos de plantas. </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>HU05</td>
+      <td>Ampliación de monitoreo de plantas</td>
+      <td>Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla.</td>
+      <td>Escenario 1: Adición de plantas adicionales <br>
+Dado que el usuario tiene un número de plantas limitado en su plan <br>
+Cuando decide agregar más plantas <br>
+Entonces el sistema debe permitirle agregar plantas extra, cobrando un monto adicional por cada una.
+<br> <br>
+Escenario 2: Visualización del costo adicional <br>
+Dado que el usuario desea agregar plantas adicionales <br>
+Cuando selecciona la opción de agregar planta <br>
+Entonces el sistema muestra claramente el costo adicional antes de confirmar. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU06</td>
+      <td>Monitoreo de sensores adicionales</td>
+      <td>Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir.</td>
+      <td>Escenario 1: Adición de sensores <br>
+Dado que el usuario tiene un número de sensores limitado en su plan <br>
+Cuando el usuario decide agregar más sensores <br>
+Entonces el sistema debe permitirle añadir sensores extra, cobrando un monto adicional por cada sensor. 
+<br> <br>
+Escenario 2: Visualización de cobertura ampliada <br>
+Dado que el usuario ha añadido sensores adicionales <br>
+Cuando accede al mapa de cobertura <br>
+Entonces puede ver el área adicional que está siendo monitoreada. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU07</td>
+      <td>Descuento en el primer sensor</td>
+      <td>Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible.</td>
+      <td>Escenario 1: Aplicación automática de descuento <br>
+Dado que el usuario está comprando el primer sensor <br>
+Cuando lo agrega a su carrito <br>
+Entonces el sistema debe aplicar automáticamente un descuento al primer sensor.
+<br> <br>
+Escenario 2: Visualización del descuento en factura <br>
+Dado que se ha aplicado el descuento <br>
+Cuando el usuario revisa su factura <br>
+Entonces puede ver claramente el monto descontado y el precio final. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU08</td>
+      <td>Instalación incluida en el plan</td>
+      <td>Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales.</td>
+      <td>Escenario 1: Confirmación de instalación incluida <br>
+Dado que el usuario selecciona el plan doméstico <br>
+Cuando completa su compra <br>
+Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>
+Y no habrá cargos adicionales.
+<br> <br>
+Escenario 2: Programación de instalación <br>
+Dado que el usuario ha completado la compra <br>
+Cuando accede a la sección de programación <br>
+Entonces puede seleccionar una fecha para la instalación sin costos adicionales. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU09</td>
+      <td>Instalación agregada al costo del servicio</td>
+      <td>Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación.</td>
+      <td>Escenario 1: Cálculo automático de instalación <br>
+Dado que el usuario ha seleccionado el número de sensores <br>
+Y el área de las plantas <br>
+Cuando el sistema calcula el precio total <br>
+Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>
+Y debe ser visible en la factura. <br>
+<br> <br>
+Escenario 2: Personalización de instalación <br>
+Dado que el usuario necesita una instalación personalizada <br>
+Cuando especifica requisitos especiales <br>
+Entonces el sistema recalcula el costo de instalación acorde a las necesidades. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU10</td>
+      <td>Integración de sensores IoT</td>
+      <td>Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas.</td>
+      <td>Escenario 1: Conexión exitosa de sensores <br>
+Dado que los sensores están configurados <br>
+Cuando se recibe la señal de los sensores <br>
+Entonces los datos deben ser enviados correctamente a la plataforma para su visualización.
+<br> <br>
+Escenario 2: Detección de fallo en sensores <br>
+Dado que un sensor presenta un fallo <br>
+Cuando el sistema realiza verificaciones de conectividad <br>
+Entonces genera una alerta técnica para su revisión. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU11</td>
+      <td>API para el monitoreo de plantas</td>
+      <td>Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real.</td>
+      <td>Escenario 1: Consulta exitosa de datos <br>
+Dado que la API está configurada <br>
+Cuando el usuario consulta el estado de sus plantas <br>
+Entonces los datos deben ser enviados correctamente a la aplicación del usuario.
+<br> <br>
+Escenario 2: Actualización en tiempo real <br>
+Dado que existen cambios en los sensores <br>
+Cuando los datos cambian <br>
+Entonces la API debe enviar actualizaciones en tiempo real. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU12</td>
+      <td>API Autenticación JWT</td>
+      <td>Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema.</td>
+      <td>Escenario 1: Autenticación exitosa <br>
+Dado que el usuario está en la página de inicio de sesión <br>
+Cuando ingresa sus credenciales correctamente <br>
+Entonces el sistema debe devolver un token JWT válido.
+<br> <br>
+Escenario 2: Renovación de token <br>
+Dado que el token JWT está por expirar <br>
+Cuando el usuario continúa utilizando el sistema <br>
+Entonces se genera automáticamente un nuevo token válido. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU13</td>
+      <td>Generación de reportes de consumo de recursos</td>
+      <td>Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados.</td>
+      <td>Escenario 1: Generación de reporte <br>
+Dado que los datos de consumo están disponibles <br>
+Cuando el usuario solicita un reporte de recursos <br>
+Entonces el sistema debe mostrar el consumo por planta o área.
+<br> <br>
+Escenario 2: Exportación de datos <br>
+Dado que se ha generado un reporte <br>
+Cuando el usuario selecciona la opción de exportar <br>
+Entonces puede descargarlo en formatos PDF, CSV o Excel. </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>HU14</td>
+      <td>Integración de pagos</td>
+      <td>Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura.</td>
+      <td>Escenario 1: Procesamiento de pago exitoso <br>
+Dado que el sistema de pagos está integrado <br>
+Cuando el usuario introduce sus datos de pago <br>
+Entonces el sistema debe procesar el pago de forma correcta y segura.
+<br> <br>
+Escenario 2: Manejo de errores en pagos <br>
+Dado que ocurre un error durante el proceso de pago <br>
+Cuando el usuario intenta completar la transacción <br>
+Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>HU15</td>
+      <td>Registro de Planta</td>
+      <td>Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas.</td>
+      <td>Escenario 1: Registro con instalación por servicio <br>
+Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>
+Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>
+Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. 
+<br> <br>
+Escenario 2: Registro con instalación manual <br>
+Dado que el usuario ha elegido la opción de instalación manual <br>
+Cuando completa el registro de la planta <br>
+Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU16</td>
+      <td>Edición de Planta</td>
+      <td>Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente.</td>
+      <td>Escenario 1: Modificación de datos básicos <br>
+Dado que me encuentro en la vista de "plantas" <br>
+Cuando presiono el card de la planta, y presiono el icono del lápiz <br>
+Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables.
+<br> <br>
+Escenario 2: Actualización de información de cuidados <br>
+Dado que necesito cambiar información sobre el cuidado de la planta <br>
+Cuando accedo a la sección de edición de cuidados <br>
+Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU17</td>
+      <td>Eliminación de Planta</td>
+      <td>Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra.</td>
+      <td>Escenario 1: Confirmación de eliminación <br>
+Dado que me encuentro en la vista de "plantas" <br>
+Cuando presiono el card de la planta, y presiono el icono del basurero <br>
+Entonces aparecerá un dialogo informando que se borraran los datos permanentemente <br> 
+Y al presionarlo se eliminan los datos.
+<br> <br>
+Escenario 2: Cancelación de eliminación <br>
+Dado que inicié el proceso de eliminación <br>
+Cuando decido cancelar la acción en el diálogo de confirmación <br>
+Entonces la planta no se elimina y regreso a la vista anterior. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU18</td>
+      <td>Registro de plantaciones empresarial</td>
+      <td>Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
+      <td>Escenario 1: Registro exitoso de plantación <br>
+Dado que me encuentro en la vista de "plantaciones" <br>
+Cuando utilizo el botón de agregar plantación, <br>
+Y agrego la información del area que cubre la plantación e información adicional en un formulario <br>
+Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista.
+<br> <br>
+Escenario 2: Importación masiva de plantaciones <br>
+Dado que tengo un archivo con datos de múltiples plantaciones <br>
+Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>
+Entonces el sistema valida y registra todas las plantaciones válidas. </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>HU19</td>
+      <td>Recibir alertas sobre el estado de mis plantas</td>
+      <td>Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado.</td>
+      <td>Escenario 1: Notificación por cambio significativo <br>
+Dado que el usuario doméstico tiene activadas las notificaciones <br>
+Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>
+Entonces el usuario recibe una notificación con la información detallada del cambio 
+Y puede visualizar el nuevo estado de la planta afectada. <br>
+<br> <br>
+Escenario 2: Configuración de umbrales de notificación <br>
+Dado que el usuario desea personalizar sus alertas <br>
+Cuando accede a la configuración de notificaciones <br>
+Entonces puede establecer umbrales personalizados para cada tipo de alerta. </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>HU20</td>
+      <td>Activación de riego automático</td>
+      <td>Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas.</td>
+      <td>Escenario 1: Activación automática de riego <br>
+Dado que los sensores reporten datos de humedad <br>
+Cuando la humedad baje del umbral establecido <br>
+Entonces el sistema debe activar el riego automáticamente <br>
+Y registrar el evento.
+<br> <br>
+Escenario 2: Programación de riego <br>
+Dado que el usuario quiere establecer horarios específicos <br>
+Cuando configura una programación de riego <br>
+Entonces el sistema riega según el horario incluso si no se alcanzan los umbrales críticos. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU21</td>
+      <td>Límites de riego configurables</td>
+      <td>Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos.</td>
+      <td>Escenario 1: Límite de consumo alcanzado <br>
+Dado que el consumo de agua alcanza el límite establecido <br>
+Cuando el sistema detecte que se ha alcanzado el límite <br>
+Entonces envía una alerta y detiene el riego.
+<br> <br>
+Escenario 2: Configuración de límites por zonas <br>
+Dado que el usuario quiere eficiencia en diferentes áreas <br>
+Cuando configura límites específicos por zona <br>
+Entonces el sistema aplica diferentes restricciones según la zona seleccionada. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU22</td>
+      <td>API para el control de válvulas de riego</td>
+      <td>Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real.</td>
+      <td>Escenario 1: Control de válvulas exitoso <br>
+Dado un request a la API válido <br>
+Cuando el sistema recibe la señal de activación/desactivación <br>
+Entonces la válvula de riego se activa/desactiva y se devuelve el código de respuesta HTTP 200 OK.
+<br> <br>
+Escenario 2: Manejo de errores de comunicación <br>
+Dado que existe un problema de conectividad <br>
+Cuando se envía una orden a la válvula <br>
+Entonces el sistema reintenta la comunicación y notifica si persiste el problema. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU23</td>
+      <td>Soporte offline para riego automático</td>
+      <td>Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente.</td>
+      <td>Escenario 1: Almacenamiento local de eventos <br>
+Dado que el sistema está offline <br>
+Cuando el sensor detecta un nivel bajo de humedad <br>
+Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión.
+<br> <br>
+Escenario 2: Sincronización de datos <br>
+Dado que el sistema recupera la conexión <br>
+Cuando hay datos almacenados localmente <br>
+Entonces sincroniza automáticamente con el servidor central. </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>HU24</td>
+      <td>Integración del sensor de humedad del suelo</td>
+      <td>Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua.</td>
+      <td>Escenario 1: Lectura correcta de sensor <br>
+Dado que el sensor está conectado al pin analógico A0 <br>
+Cuando se inicia el dispositivo <br>
+Entonces se debe leer y mostrar por consola el valor de humedad cada 10 segundos.
+<br> <br>
+Escenario 2: Detección de suelo seco <br>
+Dado que el sensor está insertado en tierra seca <br>
+Cuando la lectura es menor a 300 <br>
+Entonces se muestra "Suelo seco detectado". </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU25</td>
+      <td>Activación automática de riego mediante relé</td>
+      <td>Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas.</td>
+      <td>Escenario 1: Activación del relé <br>
+Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>
+Cuando se evalúa la lectura del sensor <br>
+Entonces el sistema debe activar el relé por 5 segundos.
+<br> <br>
+Escenario 2: Desactivación del relé <br>
+Dado que el valor de humedad se ha normalizado <br>
+Cuando se supera el umbral <br>
+Entonces el relé debe apagarse. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU26</td>
+      <td>Visualización de datos en el monitor serial</td>
+      <td>Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real.</td>
+      <td>Escenario 1: Visualización de lecturas normales <br>
+Dado que los sensores están conectados <br>
+Cuando el sistema hace lecturas <br>
+Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
+<br> <br>
+Escenario 2: Alerta por condiciones críticas <br>
+Dado que ocurre una condición crítica <br>
+Cuando la temperatura es muy alta <br>
+Entonces se imprime: "Advertencia: Temperatura elevada". </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU27</td>
+      <td>Configuración de umbrales de humedad desde el firmware</td>
+      <td>Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas.</td>
+      <td>Escenario 1: Modificación de umbrales <br>
+Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>
+Cuando se cambia su valor y se carga el firmware <br>
+Entonces el nuevo umbral es utilizado por el sistema.
+<br> <br>
+Escenario 2: Umbrales para diferentes plantas <br>
+Dado que se necesitan diferentes umbrales para distintas plantas <br>
+Cuando se configuran múltiples constantes según el tipo de planta <br>
+Entonces el sistema aplica el umbral adecuado según la planta seleccionada. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU28</td>
+      <td>Alerta visual con LED en caso de condiciones críticas</td>
+      <td>Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app.</td>
+      <td>Escenario 1: Activación de alerta visual <br>
+Dado que el valor de humedad está por debajo de 200 <br>
+Cuando el sistema detecta esta condición <br>
+Entonces se enciende el LED rojo de alerta.
+<br> <br>
+Escenario 2: Desactivación de alerta <br>
+Dado que la condición mejora <br>
+Cuando la humedad supera el valor mínimo <br>
+Entonces el LED se apaga. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU29</td>
+      <td>Simulación de datos vía UART (modo desarrollo)</td>
+      <td>Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos.</td>
+      <td>Escenario 1: Generación de datos simulados <br>
+Dado que se ejecuta el sistema en modo test <br>
+Cuando se activa modo_simulacion = true <br>
+Entonces se imprimen datos ficticios por UART como: { "sensor": "humedad", "valor": 280 }.
+<br> <br>
+Escenario 2: Configuración de parámetros de simulación <br>
+Dado que el sistema está en modo simulación <br>
+Cuando se modifican los rangos de valores simulados <br>
+Entonces el sistema genera datos dentro de los nuevos rangos especificados. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU30</td>
+      <td>Activación de modo test desde consola serial</td>
+      <td>Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego.</td>
+      <td>Escenario 1: Activación de modo test <br>
+Dado que el monitor serial está abierto <br>
+Cuando el usuario escribe test_humedad <br>
+Entonces el sistema responde con una lectura simulada de humedad y omite la lógica de riego real.
+<br> <br>
+Escenario 2: Salida del modo test <br>
+Dado que el sistema está en modo test <br>
+Cuando el usuario escribe exit_test <br>
+Entonces el sistema vuelve al modo de operación normal. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU31</td>
+      <td>Mostrar mensaje de error si sensor no está conectado</td>
+      <td>Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware.</td>
+      <td>Escenario 1: Sensor desconectado <br>
+Dado que el sensor de humedad no está conectado <br>
+Cuando el dispositivo intenta leer un valor <br>
+Entonces se imprime en consola: "Error: Sensor de humedad no detectado".sistema responde con una lectura simulada de humedad y omite la lógica de riego real.
+<br> <br>
+Escenario 2: Reconexión del sensor <br>
+Dado que previamente se detectó un error de conexión del sensor <br>
+Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>
+Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>HU32</td>
+      <td>Solicitar recomendaciones a un especialista</td>
+      <td>Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. <br> </td>
+<td>Escenario 1: Solicitud de recomendación <br>
+Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>
+Cuando el sistema detecte un cambio en las condiciones ambientales <br>
+Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista.
+<br> <br>
+Escenario 2: Verificación de estado de solicitud <br>
+Dado que el usuario ha enviado una solicitud de recomendación <br>
+Cuando accede a la sección de "Mis solicitudes" en la aplicación <br>
+Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, completada) y el tiempo estimado de respuesta. </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>HU33</td>
+      <td>Registrar recomendaciones</td>
+      <td>Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. </td>
+<td>Escenario 1: Registro de recomendación
+Dado que un usuario doméstico o de negocios solicita una recomendación a un especialista <br>
+Cuando un usuario doméstico o de negocios recibe una alerta sobre el estado de sus plantas <br>
+Entonces un especialista registra la recomendación dada al usuario.
+<br> <br>
+Escenario 2: Revisión de historial de recomendaciones <br>
+Dado que un especialista necesita revisar las recomendaciones previas dadas a un usuario <br>
+Cuando accede al perfil del usuario o planta <br>
+Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. </td>
+      <td>EP04</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 3.3. Impact Mapping.
 
@@ -1233,6 +1791,150 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 #### 4.2.1.1. Domain Layer
 
+
+
+Web App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+
+### Assembler
+
+
+**PlantAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| plantEntityFromResponseAssembler     | Crea una instancia del modelo plant en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+
+
+
+
+
+**PlantationAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| plantationEntityFromResponseAssembler     | Crea una instancia del modelo plantation en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+
+
+**PlantResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| type                  | string   |
+| userId                | number     |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number  |
+| createdAt             | date |
+| updatedAt             | date |
+| stateId               | number     |
+
+**PlantationResponse**
+
+| Atributo             | Tipo     |
+|----------------------|----------|
+| id                   | number             |
+| type                 | string             |
+| userId               | number             |
+| waterThreshold       | number             |
+| lightThreshold       | number             |
+| temperatureThreshold | number             |
+| areaCoverage         | number             |
+| createdAt            | Date               |
+| updatedAt            | Date               |
+| stateId              | number             |
+
+
+
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+**PlantResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| type                  | string   |
+| userId                | int      |
+| waterThreshold        | double   |
+| lightThreshold        | double   |
+| temperatureThreshold  | double   |
+| createdAt             | dateTime |
+| updatedAt             | dateTime |
+| stateId               | int      |
+
+**PlantationResponseDTO**
+
+| Atributo             | Tipo     |
+|----------------------|----------|
+| id                   | int      |
+| type                 | string   |
+| userId               | int      |
+| waterThreshold       | double   |
+| lightThreshold       | double   |
+| temperatureThreshold | double   |
+| areaCoverage         | double   |
+| createdAt            | datetime |
+| updatedAt            | datetime |
+| stateId              | int      |
+
+
+
+**GetPlantsByUserIdDto**
+
+Representa la solicitud de consulta de plantas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+
+**GetPlantationsByUserIdDto**
+
+Representa la solicitud de consulta de plantaciones por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+
+
+
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ---
@@ -1363,6 +2065,98 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 
 #### 4.2.1.2. Interface Layer.
+
+
+
+Web App:
+
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
+
+## Components
+
+**PlantItemComponent**
+
+Componente reutilizable encargado de presentar la información detallada de una planta individual.
+
+**PlantListComponent**
+
+Componente orientado a la visualización de un conjunto de plantas.
+
+**PlantationItemComponent**
+
+Componente reutilizable diseñado para mostrar los datos específicos de una plantación.
+
+**PlantationListComponent**
+
+Componente que representa una colección de plantaciones.
+
+## Pages
+
+**PlantsVisualizationPage**
+
+Componente donde se mostrará las plantas registradas por cada usuario
+
+**PlantationVisualizationPage**
+
+Componente donde se mostrará las plantaciones registradas por cada usuario
+
+**PlantInformationPage**
+
+Componente donde se mostrará información detallada sobre una planta en especifico
+
+**PlantationInformationPage**
+
+Componente donde se mostrará información detallada sobre una plantaciôn en especifico
+
+
+
+### Store
+
+**PlantStore**
+Permite gestionar el estado global de la planta seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+**PlantationStore**
+
+
+Permite gestionar el estado global de la plantación seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+Mobile:
+
+- En esta capa se definen los widgets que definen la interfaz de usuario, asi como clases relacionadas a la gestión de estados en la aplicación móvil.
+
+## Widgets
+
+**PlantPrototype**  
+Muestra un resumen visual de una planta.
+
+
+**PlantationPrototype**  
+Representa de forma compacta los datos principales de una plantación.
+
+## Screens
+
+**PlantInformationScreen**  
+Pantalla con información detallada de una planta específica.
+
+
+**PlantationInformationScreen**  
+Pantalla con los detalles completos de una plantación.
+
+
+
+### Providers
+
+**PlantProvider**
+
+Permite gestionar el estado global de la planta seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+**PlantationProvider**
+
+Permite gestionar el estado global de la plantación seleccionada, facilitando un acceso centralizado y eficiente a esta información en toda la aplicación. Esto optimiza el manejo de datos relacionados con la plantación y mejora la consistencia entre componentes.
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 ---
@@ -1438,6 +2232,15 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.1.3. Application Layer.
 
+Web App:
+
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### CommandServices
 
 | Clase                                | Descripción |
@@ -1467,6 +2270,14 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 #### 4.2.1.4. Infrastructure Layer.
 
+Web App:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 
 | Clase | Interfaz Implementada | Descripción|
@@ -1489,6 +2300,51 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 
 ### 4.2.2. Bounded Context: Analytics
 #### 4.2.2.1. Domain Layer.
+
+
+App Web:
+
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+### Assembler
+
+**MetricAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| metricEntityFromResponseAssembler | Crea una instancia del modelo metric en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase    |
+
+
+### Response
+
+**MetricResponse**
+
+Representa la clase que se encarga de abstraer las respuestas relacionadas a metricas
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| plantId                    | number      |
+| metricTypeId            | number |
+| createdAt        | date |
+| metricValue    | number |
+
+### Service
+
+**MetricService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getMetricById  | Devuelve una métrica en especifico por su id    |
+| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Analytics. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 
@@ -1527,9 +2383,9 @@ Representa una consult en la aplicación.
 |-----------------------|----------|
 | Id                    | Int      |
 | PlantId                    | Int      |
-| MetricTypeId            | MetricTypes |
+| MetricTypeId            | Int |
 | CreatedAt        | DateTime |
-| MetricValue    | double(2.3)|
+| MetricValue    | Double |
 
 ---
 
@@ -1578,6 +2434,27 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.2. Interface Layer.
 
+App Web:  
+
+- En esta capa se definen los componentes reutilizables que se utilizan en distintas pantallas relacionadas a este *bounded context*.
+
+## Components
+**MetricItemComponent**
+ Componente reutilizable para mostrar la información individual de una métrica, como valores de sensores o indicadores clave.
+
+ **MetricListComponent**
+Componente encargado de renderizar un conjunto de métricas.
+
+## Pages 
+
+**MetricInformationPage**
+Página que presenta información detallada de una métrica específica, incluyendo sus valores históricos, visualizaciones gráficas y metadatos asociados.
+
+
+Mobile:
+- No aplica para este caso
+
+Backend:
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
 --- 
@@ -1617,6 +2494,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.3. Application Layer.  
 
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
@@ -1651,6 +2536,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.2.4. Infrastructure Layer.
 
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase                | Interfaz Implementada | Descripción                                                                    |
 |-----------------------|-----------------------|--------------------------------------------------------------------------------|
@@ -1674,6 +2567,15 @@ Representa una consult en la aplicación.
 ### 4.2.3. Bounded Context: Consulting
 -
 #### 4.2.3.1. Domain Layer.
+
+App Web:
+- 
+
+Mobile:
+- 
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ### CommandServices
@@ -1699,6 +2601,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.3.2. Interface Layer.
 
+
+App Web:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este bounded context.
+
+Mobile:
+- En esta capa se definen los widgets re utilizables y aquellos que representan pantallas relacionadas a este bounded context.
+
+Backend:
 ---
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 
@@ -1749,6 +2659,14 @@ Representa una consult en la aplicación.
 ---
 
 #### 4.2.3.3. Application Layer.
+
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
 
@@ -1786,6 +2704,14 @@ Representa una consult en la aplicación.
 
 #### 4.2.3.4. Infrastructure Layer.
 
+App Web:
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase              | Interfaz Implementada | Descripción                                                                                                         |
 |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -1808,6 +2734,52 @@ Representa una consult en la aplicación.
 ### 4.2.4. Bounded Context: Subscription
 
 #### 4.2.4.1. Domain Layer.
+
+Web App:
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+
+## Request
+
+**UpdateSubscriptionRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | number    |
+| userId     | number |
+
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+
+Mobile App:
+
+
+- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+
+## Request
+
+**UpdateSubscriptionRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| userId     | int |
+
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ---
@@ -1899,6 +2871,41 @@ Representa una suscripción disponible en la aplicación.
 
 
 #### 4.2.4.2. Interface Layer.
+
+Web App:
+
+#### Components
+
+**PlanItemComponent**
+
+Representa un componente reutilizable para la visualización de la información de un plan.
+
+**PlanListComponent**
+
+Representa un componente para representar el conjunto de planes disponibles.
+
+#### Pages
+
+**MySubscriptionInformatiom**
+
+Represena un componente para la visualización de una suscripción actual o los tipos de planes disponibles.
+
+
+Mobile App:
+
+#### Widgets
+
+**PlanItemWidget**  
+Widget reutilizable que muestra la información de un plan individua.
+
+#### Screens
+
+**MySubscriptionInformationScreen**  
+Pantalla que muestra los detalles de la suscripción actual del usuario o los diferentes tipos de planes disponibles para seleccionar.
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
 ---
 
@@ -1937,6 +2944,15 @@ Representa una suscripción disponible en la aplicación.
 
 #### 4.2.4.3. Application Layer.
 
+
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
 ### CommandServices
 
 | Clase                              | Descripción |
@@ -1973,6 +2989,55 @@ Representa una suscripción disponible en la aplicación.
 <img src="../assets/tactical-level-ddd/db-diagrams/subsciption-db-diagram.png" alt="Subscription Database Design Diagram"/>
 
 ### 4.2.5. Bounded Context: Payment
+
+Web App:
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+#### Request
+
+**InvoiceRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| amount                | number   |
+| userId                | number      |
+| invoiceType           | number      |
+
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+
+
+
+
+
+Mobile App:
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+
+#### Request
+
+**InvoiceRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| amount                | double   |
+| userId                | int     |
+| invoiceType           | int    |
+
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+
+
+
+Backend:
 
 #### 4.2.5.1. Domain Layer.
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -2049,6 +3114,24 @@ Representa una factura creada en la aplicación.
 
 ---
 #### 4.2.5.2. Interface Layer.
+
+Web App:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio.
+
+#### Pages
+
+**CheckoutPaymentView**
+
+Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
+
+Mobile App:
+
+**CheckoutPaymentScreen**
+
+Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
+
+Backend:
+
 ---
  
  - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
@@ -2092,6 +3175,15 @@ Representa una factura creada en la aplicación.
  
 #### 4.2.5.3. Application Layer.
 
+
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
 ### CommandServices
 
@@ -2118,6 +3210,14 @@ Representa una factura creada en la aplicación.
 -
 #### 4.2.5.4. Infrastructure Layer.
 
+Web App:
+- No aplica para este caso
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase             | Interfaz Implementada | Descripción                                                                                                       |
 |-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
@@ -2141,6 +3241,19 @@ Representa una factura creada en la aplicación.
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
 
 ### 4.2.6. Bounded Context: Automation
+
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
 
 #### 4.2.6.1. Domain Layer.
 
@@ -2197,6 +3310,18 @@ Representa un actuador físico que ha sido instalado.
 
 #### 4.2.6.2. Interface Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
  ---
@@ -2241,6 +3366,18 @@ Representa un actuador físico que ha sido instalado.
 
 #### 4.2.6.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 ### CommandServices
 
 | Clase                        | Interface                  | Descripción                                                                                   |
@@ -2254,6 +3391,18 @@ Representa un actuador físico que ha sido instalado.
 
 
 #### 4.2.6.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
 
 
 ### Implementación de las interfaces de los Repositories
@@ -2280,8 +3429,19 @@ Representa un actuador físico que ha sido instalado.
 <img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
 
 ### 4.2.7. Bounded Context: Installation
--
+
 #### 4.2.7.1. Domain Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ### Entities
@@ -2362,6 +3522,18 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.7.2. Interface Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
  
 ---
@@ -2403,6 +3575,18 @@ Representa un sensor físico que ha sido instalado.
 
 #### 4.2.7.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
+
+
+Backend:
+
 *CommandServices*
 | Clase                        |Interface                  | Descripción                                                                                   |
 |-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
@@ -2411,6 +3595,15 @@ Representa un sensor físico que ha sido instalado.
 
 
 #### 4.2.7.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso
+
+
+Web App:
+
+- No aplica para este caso
 
 ### Implementación de las interfaces de los Repositories
 | Clase            | Interfaz Implementada | Descripción                                                                                                          |
@@ -2432,7 +3625,53 @@ Representa un sensor físico que ha sido instalado.
 
 ### 4.2.8. Bounded Context: Identity and Access Management
 
+
+
 #### 4.2.8.1. Domain Layer.
+
+Mobile App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+#### DTO
+
+**SignInRequestDto**
+
+Representa una abstracción para la petición de inicio de sesión.
+
+**SignUpRequestDto**
+
+Representa una abstracción para la petición de registro de usuario.
+
+
+**UserAuthenticatedResponseDto**
+
+Representa una abstracción para la respuesta de un usuario autenticado.
+
+
+
+Web App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+### Request
+
+#### SignInRequest
+
+Representa una abstracción para la petición de inicio de sesión realizada.
+
+#### SignUpRequest
+
+Representa una abstracción para la petición de registro de usuario.
+
+
+### Response
+
+#### UserAuthenticatedResponse
+
+Representa una abstracción para la respuesta que contiene la información de un usuario autenticado.
+
+Backend:
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
  ---
@@ -2500,6 +3739,36 @@ Representa un usuario del sistema.
 
 
 #### 4.2.8.2. Interface Layer.
+
+Mobile App:
+
+- En esta capa se definen los widgets que permiten la visualización de información
+
+#### Widgets
+
+**SignInScreen**
+
+Este widget representa una vista para el inicio de sesión del usuario
+
+**SignUpScreen**
+
+Este widget representa una vista para el registro de usuarios
+
+Web App:
+
+- En esta capa se definen los componentes que permiten la visualización de información
+
+#### Pages
+
+**SignInPage**
+
+Este componente representa una vista para el inicio de sesión del usuario
+
+**SignUpPage**
+
+Este componente representa una vista para el registro de usuarios
+
+Backend:
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
  ---
@@ -2543,6 +3812,17 @@ Representa un usuario del sistema.
  
 #### 4.2.8.3. Application Layer.
 
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
+
 ### CommandServices
 | Clase                               | Descripción |
 |-------------------------------------|-------------|
@@ -2563,6 +3843,17 @@ Representa un usuario del sistema.
 
 
 #### 4.2.8.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase          | Interfaz Implementada | Descripción                                                                    |
@@ -2585,8 +3876,81 @@ Representa un usuario del sistema.
 
 
 ### 4.2.9. Bounded Context: Notifications
--
+
 #### 4.2.9.1. Domain Layer.
+
+Web App:
+- En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
+
+#### Assembler
+
+**NotificationAssembler**
+
+
+|  Método                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
+
+
+
+#### Response
+
+**NotificationResponse**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
+
+#### Request
+
+**NotificationRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| title     | string |
+| content     | string |
+| userId     | number |
+
+
+#### Service 
+
+NotificationService
+
+
+
+Mobile App:
+- En esta capa se definen los widgets que definen la interfaz de usuario, asi como clases relacionadas a la gestión de estados en la aplicación móvil.
+
+#### DTO
+
+**CreateNotificationRequestDto**
+
+| Atributo | Tipo   |
+|----------|--------|
+| title     | string |
+| content     | string |
+| userId     | int |
+
+
+**NotificationResponseDto**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
+
+
+Backend:
+
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Notifications. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 
@@ -2594,7 +3958,7 @@ Representa un usuario del sistema.
 
 #### Aggregates
 
-**Invoice**
+**Notification**
 
 Representa una notificacion creada en la aplicación.
 
@@ -2643,6 +4007,38 @@ Representa una notificacion creada en la aplicación.
 
 #### 4.2.9.2. Interface Layer.
 
+
+Mobile App:
+
+- No aplica ara este caso, se hara uso de un push notification para el envio de notificaciones
+
+
+Web App:
+
+- En esta capa se definen los componentes reutilizables y vistas.
+
+#### Components
+
+**NotificationItemComponent**
+Este componente permite la visualización de una notificación en especifico. 
+
+
+**NotificationListComponent**
+
+Este componente permite la visualización de un conjunto de notificaciones.
+
+
+#### Pages
+
+**MyNotificationsPage**
+
+Este componente se utiliza para la visualización de las notificaciones del usuario.
+
+
+
+
+Backend:
+
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
    
   ---
@@ -2680,6 +4076,17 @@ Representa una notificacion creada en la aplicación.
    | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
 
 #### 4.2.9.3. Application Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
  
  
 ### CommandServices
@@ -2704,6 +4111,17 @@ Representa una notificacion creada en la aplicación.
 | `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
 #### 4.2.9.4. Infrastructure Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                                                      |
@@ -2736,21 +4154,16 @@ Como recomendaciones creemos que una mejora iterativa es necesaria para realment
 
 # Bibliografía
 
-``` 
-Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria.
-        FAO. Recuperado el 2 de abril del 2025 de URL https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content
+<div style="text-align: justify; text-indent: -1.5em; margin-left: 1.5em;">
+  <p><strong>Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO)</strong> (2023). Repercusiones de las Catástrofes en la Agricultura y la Seguridad Alimentaria. <em>FAO</em>. Recuperado el 2 de abril del 2025 de <a href="https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content" target="_blank">https://openknowledge.fao.org/server/api/core/bitstreams/3f35b839-87cb-442a-b264-1edb49c5da22/content</a></p>
 
-Banco Mundial (2020). Soluciones Digitales para una Agricultura Sostenible: Oportunidades y desafíos en los países en desarrollo.  
-        Banco Mundial. Recuperado el 5 de abril del 2025 de URL https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf
+  <p><strong>Banco Mundial</strong> (2020). Soluciones Digitales para una Agricultura Sostenible: Oportunidades y desafíos en los países en desarrollo. <em>Banco Mundial</em>. Recuperado el 5 de abril del 2025 de <a href="https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf" target="_blank">https://documents1.worldbank.org/curated/en/758051585124386841/pdf/Digital-Agriculture-Profiles.pdf</a></p>
 
-Instituto Interamericano de Cooperación para la Agricultura (IICA) (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina.  
-        IICA. Recuperado el 16 de abril del 2025 de URL https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf
+  <p><strong>Instituto Interamericano de Cooperación para la Agricultura (IICA)</strong> (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina. <em>IICA</em>. Recuperado el 16 de abril del 2025 de <a href="https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf" target="_blank">https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf</a></p>
 
-Ministerio de Agricultura y Riego del Perú (MINAGRI) (2018). Manual técnico de riego por goteo para cultivos de agroexportación.  
-        MINAGRI. Recuperado el 18 de abril del 2025 de URL https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo
+  <p><strong>Ministerio de Agricultura y Riego del Perú (MINAGRI)</strong> (2018). Manual técnico de riego por goteo para cultivos de agroexportación. <em>MINAGRI</em>. Recuperado el 18 de abril del 2025 de <a href="https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo" target="_blank">https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo</a></p>
+</div>
 
-
-```
 
 # Anexos
 
