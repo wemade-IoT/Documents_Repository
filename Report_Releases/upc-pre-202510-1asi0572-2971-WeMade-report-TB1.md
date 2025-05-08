@@ -2739,20 +2739,108 @@ Backend:
 
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
+#### Entities
+
+**QuestionTypes**
+
+Representa el tipo de pregunta que tiene una pregunta pre hecha.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Aggregates
+
+**Question**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetQuestion | Devuelve los valores de la pregunta por medio de comandos    |
+
+---
+
+**Answer**
+
+Representa una respuesta esta relacionada a una pregunta y al usuario que realiza la pregunta.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+| QuestionsId           | Int      |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| Get     | Devuelve los valores de la respuesta por medio de un comando   |
+
+---
+
+**PremadeQuestion**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Type                  | String   |
+| QuestionAnswer        |  String   |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetPremadeQuestion | Devuelve los valores de la pregunta pre hecha por medio de comandos    |
+
+--
+
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreateQuestionCommand      | Representa un comando para crear una nueva instancia del agregado Question.                        |
+| CreateAnswerCommand      | Representa un comando para crear una nueva instancia del agregado Answer.                        |
+| CreatePremadeQuestionCommand      | Representa un comando para crear una nueva instancia del agregado PremadeQuestion.                        |
+| UpdatePremadeQuestionData |  Representa un comando para actualizar la data de una pregunta pre hecha.    |
+| SeedQuestionTypesCommand       | Representa un comando para inicializar datos en la entidad QuestionTypes dentro del dominio. |
+| SeedPremadeQuestionsCommand       | Representa un comando para inicializar datos del agregado PremadeQuestions. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPremadeQuestionsByTypeQuery      | Representa una consulta que recupera las preguntas pre hechas asociadas a un tipo específico.                   |
+| GetQuestionsByUserIdQuery      | Representa una consulta que obtiene todas las preguntas asociadas a un usuario determinado.            |
+| GetAnswersByUserIdQuery      | Representa una consulta que obtiene todas las respuestas asociadas a un usuario determinado.            |
+| GetQuestionsAndAnsersByUserIdQuery      | Representa una consulta que obtiene todas las preguntas y sus respuestas asociadas a un usuario determinado.            |
+| IsAnswerExistsByQuestionIdQuery      | Representa una consulta que verifica si existe una respuesta con un identificador de pregunta específica.           |
+
+---
+
 ### CommandServices
 
 | Clase              | Interfaz Implementada | Descripción                                                                                                         |
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionCommandService` | `IQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas. |
  | `AnswerCommandService`    | `IAnswerCommandService`      | Implementción del servicio que maneja los comandos de respuestas de los especialistas a los usuarios.         
- 
+  | `PremadeQuestionCommandService` | `IPremadeQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas pre respondidas. |
  ### QueryServices
 
  | Clase              | Interfaz Implementada | Descripción                                                                                                         |
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionQueryService`  | `IQuestionQueryService`   |  Implementación del servicio que maneja los consultas de preguntas. |
  | `AnswerQueryService`    | `IAnswerQueryService`      | Implementación del servicio que maneja las consultas de las respuestas de los especialistas a los usuarios.         
- 
+   | `PremadeQuestionQueryService` | `IPremadeQuestionQueryService`   |  Implementación del servicio que maneja las consultas de preguntas pre hechas. |
 
  ### OutboundServices
  | Interface                         | Descripción |
