@@ -2287,7 +2287,15 @@ Backend:
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
+En esta sección se muestran los diagramas de componentes para este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-ManagementBCWebApp.png" alt="Management Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
