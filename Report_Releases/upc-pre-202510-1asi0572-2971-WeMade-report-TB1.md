@@ -3452,8 +3452,15 @@ Backend:
 
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-<img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram"/>
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-AutomationBCWebApp.png" alt="Automation Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram on API"/>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
