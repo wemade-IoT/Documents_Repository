@@ -2287,7 +2287,7 @@ Backend:
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
-En esta sección se muestran los diagramas de componentes para este bounded context, con el póposito de mostrar la interación interna del mismo.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
 Web App:
 
@@ -2558,7 +2558,7 @@ Backend:
 | MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
-En esta sección se muestran los diagramas de componentes para este bounded context, con el póposito de mostrar la interación interna del mismo.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
 Web App:
 
@@ -2735,7 +2735,15 @@ Backend:
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingBCWebApp.png" alt="Consulting Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
