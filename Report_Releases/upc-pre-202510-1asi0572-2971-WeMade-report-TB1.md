@@ -17,6 +17,7 @@
 #### Product: **EcoGuardian**
 
 </center>
+
 # Team Members:
 
 <div align="center">
@@ -2565,14 +2566,174 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/analyticst-db-diagram.png" alt="Analytics Database Design Diagram"/>
 
 ### 4.2.3. Bounded Context: Consulting
--
+
+
 #### 4.2.3.1. Domain Layer.
 
-App Web:
-- 
+Web App:
 
-Mobile:
-- 
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### Assembler
+
+
+**Question Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| questionEntityFromResponseAssembler     | Crea una instancia del modelo de pregunta en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se recolecta de un banco de "preguntas" en el back end      |
+
+**Question Pool Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| premade_questionsEntityFromResponseAssembler     | Crea una instancia del modelo de preguntas automatizadas en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se devuelven respuestas pre definidas en el back end.     |
+
+**Answer Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| answerEntityFromResponseAssembler     | Crea una instancia del modelo answer en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase. Cabe mencionar que esta relacionada al usuario que realizo la pregunta previamente      |
+
+
+**QuestionResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| content               | string   |
+| userId                | number     |
+
+**AnswerResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| content               | string   |
+| userId                | number   |
+| questionsId           | number   |
+
+**QuestionPoolResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| question_answer       | string   |
+
+
+## Service
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+**QuestionResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+
+**AnswerResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+| questionsId           | int      |
+
+**QuestionPoolResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| type                  | string   |
+| question_answer       | string   |
+
+
+
+**GetQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+
+**GetAnswersByUserIdDto**
+
+Representa la solicitud de consulta de respuestas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+**GetPremadeQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas pre respondidas.
+
+| Atributo | Tipo   |
+|----------|--------|
+| questionAnswer  | string |
+| type   | string    |
+
+**PostQuestionDto**
+
+Representa la solicitud de envio de pregunta por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+
+
+**PostAnswerDto**
+
+Representa la solicitud de envio de respuesta por usuario.
+
+| Atributo   | Tipo   |
+|------------|--------|
+| userId     | int    |
+| questionsId| int    |
+
+
+## Service
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+
 
 Backend:
 
