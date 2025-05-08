@@ -2558,8 +2558,15 @@ Backend:
 | MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+En esta sección se muestran los diagramas de componentes para este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-<img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBCWebApp.png" alt="Analytics Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
