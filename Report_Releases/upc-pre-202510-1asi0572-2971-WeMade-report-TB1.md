@@ -3261,7 +3261,15 @@ Backend:
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram on API"/>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
