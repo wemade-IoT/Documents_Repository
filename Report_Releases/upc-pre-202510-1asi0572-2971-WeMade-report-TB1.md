@@ -1595,6 +1595,22 @@ Cuando accede al perfil del usuario o planta <br>
 Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. </td>
       <td>EP04</td>
     </tr>
+    </tr>
+    <tr>
+      <td>HU34</td>
+      <td>Visualizar planes de pago</td>
+      <td>Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades.</td>
+<td>Escenario 1: Visualización de planes de pago
+Dado que el usuario está en la sección de planes de pago<br>
+Cuando navega por los planes disponibles <br>
+Entonces el usuario puede ver los detalles de cada plan de pago.
+<br> <br>
+Escenario 2: Filtrado de planes de pago<br>
+Dado que el usuario desea comparar planes<br>
+Cuando selecciona un filtro <br>
+Entonces el sistema debe mostrar los planes que cumplen con los criterios de filtrado. </td>
+      <td>EP05</td>
+    </tr>
   </tbody>
 </table>
 
