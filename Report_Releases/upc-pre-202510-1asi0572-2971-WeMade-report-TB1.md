@@ -2297,6 +2297,12 @@ Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
 
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-ManagementBoundedContextonMobileApp.png"
+alt="Management Component Diagram on Mobile App"/>
+
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -2568,6 +2574,11 @@ Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
 
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBoundedContextonMobileApp.png"
+alt="Management Component Diagram on Mobile App"/>
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -2745,7 +2756,13 @@ Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
 
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingBoundedContextonMobileApp.png"
+alt="Consulting Component Diagram on Mobile App"/>
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
 <img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
@@ -3009,6 +3026,11 @@ Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
 
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
+alt="Subscriptiom Component Diagram on Mobile App"/>
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -3271,6 +3293,11 @@ Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram on API"/>
 
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png"
+alt="Payment Component Diagram on Mobile App"/>
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -3461,6 +3488,11 @@ Web App:
 Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-AutomationBoundedContextonMobileApp.png"
+alt="Automation Component Diagram on Mobile App"/>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3667,6 +3699,11 @@ Web App:
 Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-InstallationBoundedContextonMobileApp.png"
+alt="Instalation Component Diagram on Mobile App"/>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3925,6 +3962,12 @@ Web App:
 Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram on API"/>
+
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
+alt="IAM Component Diagram on Mobile App"/>
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -4201,6 +4244,11 @@ Web App:
 Backend:
 
 <img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-NotificationBoundedContextonMobileApp.png"
+alt="Notification Component Diagram on Mobile App"/>
 
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
