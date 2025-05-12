@@ -2258,38 +2258,6 @@ Web App:
 En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
 
 
-### Model
-
-**PlantModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number   |
-| type                  | string   |
-| userId                | number   |
-| waterThreshold        | number   |
-| lightThreshold        | number   |
-| temperatureThreshold  | number   |
-| createdAt             | date     |
-| updatedAt             | date     |
-| stateId               | number   |
-
-
-**PlantationModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number   |
-| type                  | string   |
-| userId                | number   |
-| waterThreshold        | number   |
-| lightThreshold        | number   |
-| temperatureThreshold  | number   |
-| areaCoverage          | number   |
-| createdAt             | date     |
-| updatedAt             | date     |
-| stateId               | number   |
-
 
 ## Service
 
@@ -2305,40 +2273,6 @@ Representa la clase que se encargara de gestionar las solicitudes hacia el servi
 Mobile:
 
 En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
-
-
-
-### Model
-
-**PlantModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | int   |
-| type                  | String   |
-| userId                | int   |
-| waterThreshold        | double   |
-| lightThreshold        | double   |
-| temperatureThreshold  | double   |
-| createdAt             | Date     |
-| updatedAt             | Date     |
-| stateId               | int   |
-
-
-**PlantationModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | int   |
-| type                  | String   |
-| userId                | int   |
-| waterThreshold        | double   |
-| lightThreshold        | double   |
-| temperatureThreshold  | double   |
-| areaCoverage          | int   |
-| createdAt             | Date     |
-| updatedAt             | Date     |
-| stateId               | int   |
 
 ## Service
 
@@ -2387,8 +2321,8 @@ Web App:
 <img src="../assets/class-diagrams/managementWeb.png" alt ="Management class diagram on Web App"/>
 
 Mobile App:
-<img src="../assets/class-diagrams/managementMobile.png" alt ="Management class diagram on Mobile App"/>
 
+<img src="../assets/class-diagrams/managementMobile.png" alt ="Management class diagram on Mobile App"/>
 
 Backend:
 
@@ -2631,17 +2565,6 @@ Backend:
 App Web:
 
 En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
-
-
-### Model
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number      |
-| plantId                    | number      |
-| metricTypeId            | number |
-| createdAt        | date |
-| metricValue    | number |
 
 
 ### Service
@@ -3439,9 +3362,12 @@ alt="Payment Component Diagram on Mobile App"/>
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
+
 <img src="../assets/class-diagrams/paymentWeb.png" alt="Payment class diagram on Web App"/>
 
 Mobile App:
+
+
 <img src="../assets/class-diagrams/paymentMobile.png" alt="Payment class diagram on Mobile App"/>
 
 Backend:
