@@ -1820,6 +1820,9 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | plantationEntityFromResponseAssembler     | Crea una instancia del modelo plantation en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
 
 
+### Response
+
+
 **PlantResponse**
 
 | Atributo              | Tipo     |
@@ -2301,7 +2304,41 @@ Representa la clase que se encargara de gestionar las solicitudes hacia el servi
 
 Mobile:
 
-En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+
+### Model
+
+**PlantModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int   |
+| type                  | String   |
+| userId                | int   |
+| waterThreshold        | double   |
+| lightThreshold        | double   |
+| temperatureThreshold  | double   |
+| createdAt             | Date     |
+| updatedAt             | Date     |
+| stateId               | int   |
+
+
+**PlantationModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int   |
+| type                  | String   |
+| userId                | int   |
+| waterThreshold        | double   |
+| lightThreshold        | double   |
+| temperatureThreshold  | double   |
+| areaCoverage          | int   |
+| createdAt             | Date     |
+| updatedAt             | Date     |
+| stateId               | int   |
 
 ## Service
 
@@ -2864,6 +2901,9 @@ Web App:
 
 
 
+
+
+
 Mobile App:
 
 
@@ -2939,7 +2979,7 @@ Representa una suscripción disponible en la aplicación.
 
 | Clase                     | Descripción                                                                                             |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetSubscriptionsQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
+| GetSubscriptionByUserIdQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
 | GetSubscriptionByIdQuery  | Representa una consulta que obtiene una suscripción específica mediante su identificador único.         |
 
 
