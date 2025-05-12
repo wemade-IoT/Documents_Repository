@@ -2858,12 +2858,6 @@ Web App:
 | userId     | number |
 
 
-## Service
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
-
 
 Mobile App:
 
@@ -2881,11 +2875,6 @@ Mobile App:
 | userId     | int |
 
 
-## Service
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
 
 Backend:
 
@@ -3078,6 +3067,28 @@ Backend:
 
 #### 4.2.4.4. Infrastructure Layer.
 
+Web App:
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Mobile App:
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                             |
 |------------------------|-------------------------|-----------------------------------------------------------------------------------------|
@@ -3103,7 +3114,18 @@ alt="Subscriptiom Component Diagram on Mobile App"/>
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/subscriptionWeb.png" alt="Subscription class diagram on Web App"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/subscriptionMobile.png" alt="Subscription class diagram on Mobile App"/>
+
+Backend:
+
+<img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram on API"/>
 
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
