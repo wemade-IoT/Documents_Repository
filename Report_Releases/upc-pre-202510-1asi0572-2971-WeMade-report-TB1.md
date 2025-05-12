@@ -1798,6 +1798,40 @@ Web App:
 En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
 
+### Model
+
+**PlantModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| userId                | number   |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number   |
+| createdAt             | date     |
+| updatedAt             | date     |
+| stateId               | number   |
+
+
+**PlantationModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| userId                | number   |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number   |
+| areaCoverage          | number   |
+| createdAt             | date     |
+| updatedAt             | date     |
+| stateId               | number   |
+
+
+
 ### Assembler
 
 
@@ -1848,18 +1882,6 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | stateId              | number             |
 
 
-
-
-## Service
-
-**PlantService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
-| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 
 Mobile App:
@@ -1918,17 +1940,6 @@ Representa la solicitud de consulta de plantaciones por usuario.
 |----------|--------|
 | userId     | int |
 
-
-## Service
-
-**PlantService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
-| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 
 
@@ -2272,10 +2283,34 @@ Backend:
 #### 4.2.1.4. Infrastructure Layer.
 
 Web App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 Mobile:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 Backend:
 
@@ -2307,7 +2342,18 @@ alt="Management Component Diagram on Mobile App"/>
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/managementWeb.png" alt ="Management class diagram on Web App"/>
+
+Mobile App:
+<img src="../assets/class-diagrams/managementMobile.png" alt ="Management class diagram on Mobile App"/>
+
+
+Backend:
+
+<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram on Api"/>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
