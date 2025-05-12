@@ -1278,16 +1278,16 @@ Entonces se genera automáticamente un nuevo token válido. </td>
     <tr>
       <td>HU13</td>
       <td>Generación de reportes de consumo de recursos</td>
-      <td>Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados.</td>
+      <td>Como usuario de negocio, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados de mis plantas para tener un informe sobre las métricas registradas.</td>
       <td>Escenario 1: Generación de reporte <br>
 Dado que los datos de consumo están disponibles <br>
-Cuando el usuario solicita un reporte de recursos <br>
-Entonces el sistema debe mostrar el consumo por planta o área.
+Cuando el usuario de negocio solicita un reporte de recursos <br>
+Entonces el sistema muestra un reporte sobre el consumo por planta o área.
 <br> <br>
-Escenario 2: Exportación de datos <br>
-Dado que se ha generado un reporte <br>
-Cuando el usuario selecciona la opción de exportar <br>
-Entonces puede descargarlo en formatos PDF, CSV o Excel. </td>
+Escenario 2: Exportación del reporte <br>
+Dado que el usuario exporta el reporte de consumo generado  <br>
+Cuando el sistema genera un reporte  sobre el consumo por planta o área. <br>
+Entonces el sistema descarga el reporte de consumo en formato Excel. </td>
       <td>EP03</td>
     </tr>
     <tr>
