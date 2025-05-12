@@ -1798,38 +1798,6 @@ Web App:
 En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
 
-### Model
-
-**PlantModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number   |
-| type                  | string   |
-| userId                | number   |
-| waterThreshold        | number   |
-| lightThreshold        | number   |
-| temperatureThreshold  | number   |
-| createdAt             | date     |
-| updatedAt             | date     |
-| stateId               | number   |
-
-
-**PlantationModel**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number   |
-| type                  | string   |
-| userId                | number   |
-| waterThreshold        | number   |
-| lightThreshold        | number   |
-| temperatureThreshold  | number   |
-| areaCoverage          | number   |
-| createdAt             | date     |
-| updatedAt             | date     |
-| stateId               | number   |
-
 
 
 ### Assembler
@@ -2284,7 +2252,41 @@ Backend:
 
 Web App:
 
-En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+### Model
+
+**PlantModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| userId                | number   |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number   |
+| createdAt             | date     |
+| updatedAt             | date     |
+| stateId               | number   |
+
+
+**PlantationModel**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| userId                | number   |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number   |
+| areaCoverage          | number   |
+| createdAt             | date     |
+| updatedAt             | date     |
+| stateId               | number   |
+
 
 ## Service
 
@@ -2390,15 +2392,6 @@ Representa la clase que se encarga de abstraer las respuestas relacionadas a met
 | createdAt        | date |
 | metricValue    | number |
 
-## Model
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number      |
-| plantId                    | number      |
-| metricTypeId            | number |
-| createdAt        | date |
-| metricValue    | number |
 
 
 
@@ -2600,7 +2593,19 @@ Backend:
 
 App Web:
 
-En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+### Model
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| plantId                    | number      |
+| metricTypeId            | number |
+| createdAt        | date |
+| metricValue    | number |
+
 
 ### Service
 
