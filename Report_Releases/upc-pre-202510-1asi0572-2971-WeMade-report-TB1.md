@@ -4115,6 +4115,20 @@ Web App:
 | notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
 
 
+#### Model
+
+**NotificationModel**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
+
+
 
 #### Response
 
@@ -4140,9 +4154,6 @@ Web App:
 | userId     | number |
 
 
-#### Service 
-
-NotificationService
 
 
 
@@ -4157,17 +4168,6 @@ Mobile App:
 |----------|--------|
 | title     | string |
 | content     | string |
-| userId     | int |
-
-
-**NotificationResponseDto**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id       | int    |
-| title     | string |
-| content     | string |
-| createdAt     | string |
 | userId     | int |
 
 
@@ -4337,12 +4337,22 @@ Backend:
 
 Mobile App:
 
-- No aplica para este caso.
+- No aplica para este caso, las notificaciones seran temporales.
 
 
 Web App:
 
-- No aplica para este caso.
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service 
+
+NotificationService
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  createNotification              | Crea una nueva notificación. |
+| getNotificationsByUserId          | Devuelve las notificaciones por usuario. |
+
 
 Backend:
 
@@ -4371,7 +4381,17 @@ alt="Notification Component Diagram on Mobile App"/>
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/notificationWeb.png" alt="Notification Context Domain Layer Class Diagrams on API"/>
+
+Mobile App:
+<img src="../assets/class-diagrams/notificationMobile.png" alt="Notification Context Domain Layer Class Diagrams on Mobile App"/>
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams on API"/>
 
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
