@@ -2390,16 +2390,17 @@ Representa la clase que se encarga de abstraer las respuestas relacionadas a met
 | createdAt        | date |
 | metricValue    | number |
 
-### Service
+## Model
 
-**MetricService**
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| plantId                    | number      |
+| metricTypeId            | number |
+| createdAt        | date |
+| metricValue    | number |
 
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
 
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getMetricById  | Devuelve una métrica en especifico por su id    |
-| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
 
 Mobile:
 - No aplica para este caso
@@ -2413,7 +2414,7 @@ Backend:
 
 ### Entity
 
-**Metric**
+**MetricType**
 
 | Atributo    | Tipo                                            |
 |------------|----------------------------------------------------------|
@@ -2598,7 +2599,19 @@ Backend:
 #### 4.2.2.4. Infrastructure Layer.
 
 App Web:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service
+
+**MetricService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getMetricById  | Devuelve una métrica en especifico por su id    |
+| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
 
 Mobile:
 - No aplica para este caso
@@ -2630,7 +2643,16 @@ alt="Management Component Diagram on Mobile App"/>
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams"/>
+Web App:
+
+<img src="../assets/class-diagrams/analyticWeb.png" alt="Analytics Domain Layer Class Diagrams on Web App"/>
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams on API"/>
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
