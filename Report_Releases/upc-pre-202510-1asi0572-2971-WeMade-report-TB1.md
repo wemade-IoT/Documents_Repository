@@ -3148,14 +3148,6 @@ Web App:
 | invoiceType           | number      |
 
 
-#### Service
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
-
-
-
 
 
 Mobile App:
@@ -3172,12 +3164,6 @@ Mobile App:
 | userId                | int     |
 | invoiceType           | int    |
 
-
-#### Service
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 
 
@@ -3355,10 +3341,24 @@ Backend:
 #### 4.2.5.4. Infrastructure Layer.
 
 Web App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 Mobile App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 Backend:
 
@@ -3392,7 +3392,15 @@ alt="Payment Component Diagram on Mobile App"/>
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram"/>
+
+Web App:
+<img src="../assets/class-diagrams/paymentWeb.png" alt="Payment class diagram on Web App"/>
+
+Mobile App:
+<img src="../assets/class-diagrams/paymentMobile.png" alt="Payment class diagram on Mobile App"/>
+
+Backend:
+<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram on API"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
