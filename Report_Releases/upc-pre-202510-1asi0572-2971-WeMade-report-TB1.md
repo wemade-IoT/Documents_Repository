@@ -2076,17 +2076,12 @@ Web App:
 
 **PlantItemComponent**
 
-Componente reutilizable encargado de presentar la información detallada de una planta individual.
+Componente reutilizable encargado de presentar la información detallada de una planta o una plantación.
 
 **PlantListComponent**
 
-Componente orientado a la visualización de un conjunto de plantas.
+Componente orientado a la visualización de un conjunto de plantas o plantaciones.
 
-**PlantationItemComponent**
-
-Componente reutilizable diseñado para mostrar los datos específicos de una plantación.
-
-**PlantationListComponent**
 
 Componente que representa una colección de plantaciones.
 
@@ -2094,19 +2089,19 @@ Componente que representa una colección de plantaciones.
 
 **PlantsVisualizationPage**
 
-Componente donde se mostrará las plantas registradas por cada usuario
+Componente donde se mostrará las plantas o plantaciones registradas por cada usuario
 
-**PlantationVisualizationPage**
 
-Componente donde se mostrará las plantaciones registradas por cada usuario
 
 **PlantInformationPage**
 
-Componente donde se mostrará información detallada sobre una planta en especifico
+Componente donde se mostrará información detallada sobre una planta o plantación en especifico
 
-**PlantationInformationPage**
+**PlantRegisterOrEditPage**
 
-Componente donde se mostrará información detallada sobre una plantaciôn en especifico
+Componente donde se registrará o editará la información de una planta o plantación existente
+
+
 
 
 
@@ -2127,20 +2122,26 @@ Mobile:
 ## Widgets
 
 **PlantPrototype**  
-Muestra un resumen visual de una planta.
+Muestra un resumen visual de una planta o plantación.
 
 
-**PlantationPrototype**  
-Representa de forma compacta los datos principales de una plantación.
 
 ## Screens
 
+**PlantsVisualizationPage**
+
+Pantalla donde se mostrará las plantas o plantaciones registradas por cada usuario.
+
 **PlantInformationScreen**  
-Pantalla con información detallada de una planta específica.
+Pantalla con información detallada de una planta o plantación específica.
 
 
-**PlantationInformationScreen**  
-Pantalla con los detalles completos de una plantación.
+**PlantRegisterOrEditScreen**
+
+Pantalla donde se registrará o editará la información de una planta o plantación existente
+
+
+
 
 
 
