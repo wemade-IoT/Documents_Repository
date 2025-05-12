@@ -4036,12 +4036,31 @@ Backend:
 
 Mobile App:
 
-- No aplica para este caso.
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**AuthService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  signIn               | Permite autenticar un usuario con sus credenciales. |
+| signUp                 | Permite registrar un nuevo usuario |
+
 
 
 Web App:
 
-- No aplica para este caso.
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**AuthService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  signIn               | Permite autenticar un usuario con sus credenciales. |
+| signUp                 | Permite registrar un nuevo usuario |
 
 Backend:
 
