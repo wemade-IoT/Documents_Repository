@@ -1231,13 +1231,13 @@ Entonces el sistema recalcula el costo de instalación acorde a las necesidades.
       <td>EP05</td>
     </tr>
     <tr>
-      <td>HU10</td>
+      <td>TS01</td>
       <td>Integración de sensores IoT</td>
       <td>Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas.</td>
       <td>Escenario 1: Conexión exitosa de sensores <br>
 Dado que los sensores están configurados <br>
 Cuando se recibe la señal de los sensores <br>
-Entonces los datos deben ser enviados correctamente a la plataforma para su visualización.
+Entonces los datos son enviados correctamente a la plataforma para su visualización.
 <br> <br>
 Escenario 2: Detección de fallo en sensores <br>
 Dado que un sensor presenta un fallo <br>
@@ -1246,7 +1246,7 @@ Entonces genera una alerta técnica para su revisión. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU11</td>
+      <td>TS02</td>
       <td>API para el monitoreo de plantas</td>
       <td>Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real.</td>
       <td>Escenario 1: Consulta exitosa de datos <br>
@@ -1255,13 +1255,13 @@ Cuando el usuario consulta el estado de sus plantas <br>
 Entonces los datos deben ser enviados correctamente a la aplicación del usuario.
 <br> <br>
 Escenario 2: Actualización en tiempo real <br>
-Dado que existen cambios en los sensores <br>
-Cuando los datos cambian <br>
-Entonces la API debe enviar actualizaciones en tiempo real. </td>
+Dado que un sensor cambia su estado <br>
+Cuando un sensor reciben actualizaciones de estado <br>
+Entonces la API envia la actualización del estado en tiempo real. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU12</td>
+      <td>TS03</td>
       <td>API Autenticación JWT</td>
       <td>Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema.</td>
       <td>Escenario 1: Autenticación exitosa <br>
@@ -1276,7 +1276,7 @@ Entonces se genera automáticamente un nuevo token válido. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU13</td>
+      <td>HU10</td>
       <td>Generación de reportes de consumo de recursos</td>
       <td>Como usuario de negocio, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados de mis plantas para tener un informe sobre las métricas registradas.</td>
       <td>Escenario 1: Generación de reporte <br>
@@ -1291,68 +1291,65 @@ Entonces el sistema descarga el reporte de consumo en formato Excel. </td>
       <td>EP03</td>
     </tr>
     <tr>
-      <td>HU14</td>
+      <td>TS04</td>
       <td>Integración de pagos</td>
       <td>Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura.</td>
       <td>Escenario 1: Procesamiento de pago exitoso <br>
-Dado que el sistema de pagos está integrado <br>
-Cuando el usuario introduce sus datos de pago <br>
-Entonces el sistema debe procesar el pago de forma correcta y segura.
+Dado que el developer introduce información simulada de pago <br>
+Cuando sea realiza una prueba en la integración del pago <br>
+Entonces el sistema procesa el pago simulado.
 <br> <br>
 Escenario 2: Manejo de errores en pagos <br>
-Dado que ocurre un error durante el proceso de pago <br>
-Cuando el usuario intenta completar la transacción <br>
+Dado que ocurre un error durante el proceso de un pago simulado <br>
+Cuando el developer intenta completar la transacción simulada <br>
 Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. </td>
       <td>EP05</td>
     </tr>
     <tr>
-      <td>HU15</td>
+      <td>HU11</td>
       <td>Registro de Planta</td>
       <td>Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas.</td>
       <td>Escenario 1: Registro con instalación por servicio <br>
 Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>
-Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>
+Cuando el usuario registra una nueva planta <br>
+Y selecciona instalación por servicio <br>
 Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. 
 <br> <br>
 Escenario 2: Registro con instalación manual <br>
-Dado que el usuario ha elegido la opción de instalación manual <br>
+Dado que el usuario elige la opción de instalación manual <br>
 Cuando completa el registro de la planta <br>
 Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU16</td>
-      <td>Edición de Planta</td>
+      <td>HU12</td>
+      <td>Edición de planta</td>
       <td>Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente.</td>
-      <td>Escenario 1: Modificación de datos básicos <br>
-Dado que me encuentro en la vista de "plantas" <br>
-Cuando presiono el card de la planta, y presiono el icono del lápiz <br>
-Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables.
-<br> <br>
-Escenario 2: Actualización de información de cuidados <br>
-Dado que necesito cambiar información sobre el cuidado de la planta <br>
-Cuando accedo a la sección de edición de cuidados <br>
-Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. </td>
+      <td> <br>
+Escenario 1: Actualización de planta <br>
+Dado que el usuario ingresa información actualizada de una planta en especifico <br>
+Cuando el usuario requiere actualizar la información de una planta en especifico <br>
+Entonces el sistema actualiza la información de una planta especifica con la información modificada. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU17</td>
-      <td>Eliminación de Planta</td>
+      <td>HU13</td>
+      <td>Eliminación de planta</td>
       <td>Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra.</td>
-      <td>Escenario 1: Confirmación de eliminación <br>
-Dado que me encuentro en la vista de "plantas" <br>
-Cuando presiono el card de la planta, y presiono el icono del basurero <br>
-Entonces aparecerá un dialogo informando que se borraran los datos permanentemente <br> 
-Y al presionarlo se eliminan los datos.
-<br> <br>
-Escenario 2: Cancelación de eliminación <br>
-Dado que inicié el proceso de eliminación <br>
-Cuando decido cancelar la acción en el diálogo de confirmación <br>
-Entonces la planta no se elimina y regreso a la vista anterior. </td>
+      <td>Escenario 1: Visualización de alerta de eliminación <br>
+Dado el usuario se encuentra en proceso de eliminar una planta registrada <br>
+Cuando el usuario desea eliminar un registro especifico <br>
+Entonces el sistema muestra una alerta como parte del proceso de eliminación.
+<br> 
+Escenario 2: Confirmación de alerta de eliminación <br>
+Dado que el sistema muestra una alerta de eliminación de un registro especifico  <br>
+Cuando el usuario se encuentra en proceso de eliminar un registro especifico  <br>
+Entonces el sistema muestra una alerta confirmando la eliminación de un registro especifico  .  <br>
+</td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU18</td>
+      <td>HU14</td>
       <td>Registro de plantaciones empresarial</td>
       <td>Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
       <td>Escenario 1: Registro exitoso de plantación <br>
@@ -1368,12 +1365,12 @@ Entonces el sistema valida y registra todas las plantaciones válidas. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU19</td>
+      <td>HU15</td>
       <td>Recibir alertas sobre el estado de mis plantas</td>
       <td>Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado.</td>
       <td>Escenario 1: Notificación por cambio significativo <br>
 Dado que el usuario doméstico tiene activadas las notificaciones <br>
-Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>
+Cuando detecta un cambio significativo en el estado de alguna de sus plantas <br>
 Entonces el usuario recibe una notificación con la información detallada del cambio 
 Y puede visualizar el nuevo estado de la planta afectada. <br>
 <br> <br>
@@ -1384,12 +1381,12 @@ Entonces puede establecer umbrales personalizados para cada tipo de alerta. </td
       <td>EP04</td>
     </tr>
     <tr>
-      <td>HU20</td>
+      <td>HU16</td>
       <td>Activación de riego automático</td>
       <td>Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas.</td>
       <td>Escenario 1: Activación automática de riego <br>
 Dado que los sensores reporten datos de humedad <br>
-Cuando la humedad baje del umbral establecido <br>
+Cuando la humedad baja del umbral establecido <br>
 Entonces el sistema debe activar el riego automáticamente <br>
 Y registrar el evento.
 <br> <br>
@@ -1400,7 +1397,7 @@ Entonces el sistema riega según el horario incluso si no se alcanzan los umbral
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU21</td>
+      <td>HU17</td>
       <td>Límites de riego configurables</td>
       <td>Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos.</td>
       <td>Escenario 1: Límite de consumo alcanzado <br>
@@ -1415,7 +1412,7 @@ Entonces el sistema aplica diferentes restricciones según la zona seleccionada.
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU22</td>
+      <td>TS05</td>
       <td>API para el control de válvulas de riego</td>
       <td>Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real.</td>
       <td>Escenario 1: Control de válvulas exitoso <br>
@@ -1430,7 +1427,7 @@ Entonces el sistema reintenta la comunicación y notifica si persiste el problem
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU23</td>
+      <td>TS06</td>
       <td>Soporte offline para riego automático</td>
       <td>Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente.</td>
       <td>Escenario 1: Almacenamiento local de eventos <br>
@@ -1445,7 +1442,7 @@ Entonces sincroniza automáticamente con el servidor central. </td>
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU24</td>
+      <td>HU18</td>
       <td>Integración del sensor de humedad del suelo</td>
       <td>Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua.</td>
       <td>Escenario 1: Lectura correcta de sensor <br>
@@ -1460,12 +1457,12 @@ Entonces se muestra "Suelo seco detectado". </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU25</td>
+      <td>HU19</td>
       <td>Activación automática de riego mediante relé</td>
       <td>Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas.</td>
       <td>Escenario 1: Activación del relé <br>
 Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>
-Cuando se evalúa la lectura del sensor <br>
+Cuando evalua la lectura del sensor <br>
 Entonces el sistema debe activar el relé por 5 segundos.
 <br> <br>
 Escenario 2: Desactivación del relé <br>
@@ -1475,13 +1472,13 @@ Entonces el relé debe apagarse. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU26</td>
+      <td>HU20</td>
       <td>Visualización de datos en el monitor serial</td>
       <td>Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real.</td>
       <td>Escenario 1: Visualización de lecturas normales <br>
 Dado que los sensores están conectados <br>
 Cuando el sistema hace lecturas <br>
-Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
+Entonces la consola serial debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
 <br> <br>
 Escenario 2: Alerta por condiciones críticas <br>
 Dado que ocurre una condición crítica <br>
@@ -1490,12 +1487,13 @@ Entonces se imprime: "Advertencia: Temperatura elevada". </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU27</td>
+      <td>HU21</td>
       <td>Configuración de umbrales de humedad desde el firmware</td>
       <td>Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas.</td>
       <td>Escenario 1: Modificación de umbrales <br>
 Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>
-Cuando se cambia su valor y se carga el firmware <br>
+Cuando cambia su valor <br>
+Y se carga el firmware <br>
 Entonces el nuevo umbral es utilizado por el sistema.
 <br> <br>
 Escenario 2: Umbrales para diferentes plantas <br>
@@ -1505,13 +1503,13 @@ Entonces el sistema aplica el umbral adecuado según la planta seleccionada. </t
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU28</td>
+      <td>HU22</td>
       <td>Alerta visual con LED en caso de condiciones críticas</td>
       <td>Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app.</td>
       <td>Escenario 1: Activación de alerta visual <br>
 Dado que el valor de humedad está por debajo de 200 <br>
 Cuando el sistema detecta esta condición <br>
-Entonces se enciende el LED rojo de alerta.
+Entonces enciende el LED rojo de alerta.
 <br> <br>
 Escenario 2: Desactivación de alerta <br>
 Dado que la condición mejora <br>
@@ -1520,7 +1518,7 @@ Entonces el LED se apaga. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU29</td>
+      <td>HU23</td>
       <td>Simulación de datos vía UART (modo desarrollo)</td>
       <td>Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos.</td>
       <td>Escenario 1: Generación de datos simulados <br>
@@ -1535,7 +1533,7 @@ Entonces el sistema genera datos dentro de los nuevos rangos especificados. </td
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU30</td>
+      <td>HU24</td>
       <td>Activación de modo test desde consola serial</td>
       <td>Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego.</td>
       <td>Escenario 1: Activación de modo test <br>
@@ -1550,7 +1548,7 @@ Entonces el sistema vuelve al modo de operación normal. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU31</td>
+      <td>HU25</td>
       <td>Mostrar mensaje de error si sensor no está conectado</td>
       <td>Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware.</td>
       <td>Escenario 1: Sensor desconectado <br>
@@ -1565,7 +1563,7 @@ Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y 
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU32</td>
+      <td>HU26</td>
       <td>Solicitar recomendaciones a un especialista</td>
       <td>Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. <br> </td>
 <td>Escenario 1: Solicitud de recomendación <br>
@@ -1580,7 +1578,7 @@ Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, comp
       <td>EP04</td>
     </tr>
     <tr>
-      <td>HU33</td>
+      <td>HU27</td>
       <td>Registrar recomendaciones</td>
       <td>Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. </td>
 <td>Escenario 1: Registro de recomendación
