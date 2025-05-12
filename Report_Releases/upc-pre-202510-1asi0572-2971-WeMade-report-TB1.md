@@ -4451,6 +4451,16 @@ Backend:
 ## 5.2.1. Organization Systems.
 ## 5.2.2. Labeling Systems.
 ## 5.2.3. SEO Tags and Meta Tags
+
+Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nuevos usuarios y proporcionar información relevante sobre la landing page y la aplicación web, se incorporarán los siguientes "Meta Tags" como etiquetas HTML en las páginas principales de nuestra plataforma.
+
+```
+<title>EcoGuardian - Nurturing your future</title>
+<meta name="description" content="We take care of your plants future by innovating with technologies based on IoT giving you all the information you need.">
+<meta name="keywords" content="cuidado de plantas, monitoreo de cultivos, tecnologia para plantas, cultivos, sensores iot para plantas">
+<meta name="author" content="EcoGuardian Team">
+```
+
 ## 5.2.4. Searching Systems.
 ## 5.2.5. Navigation Systems.
 ## 5.3. Landing Page UI Design.
