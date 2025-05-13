@@ -5175,17 +5175,104 @@ Analytics Wireframe:
 
 <img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app"/>
 
+Mobile Aplication Wirefranes:
+
+Registro Plantacion Segmento Empresarial:
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+Registro Planta Segmento Domestico:
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app"/>
+
 ## 5.4.2. Applications Wireflow Diagrams.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
 para cada User goal, considerando los User Persona para cada aplicación que forma
 parte del alcance. En este caso consideramos los mas relevantes:
 
+
+
 ## 5.4.2. Applications Mock-ups.
+
 
 Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
 diseño inclusivo y arquitectura de información, así como el Design System
 establecido para los productos digitales.
+
+Mockups:
+
+<!-- General desktop wireframes -->
+<img src="../assets/mockups/Desktop - 2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 3.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 4.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 5.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/iPhone 16 - 8.png" alt="wireframe iPhone mockup"/>
+<img src="../assets/mockups/iPhone 16 - 6.png" alt="wireframe iPhone mockup"/>
+
+<!-- Consulting and dashboards -->
+<img src="../assets/mockups/Consulting Answer Creation.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Answer Creation-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Creation.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Creation-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe desktop app"/>
+
+<!-- Dashboard -->
+<img src="../assets/mockups/Dashboard Plantacion.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Dashboard Principal.png" alt="wireframe desktop app"/>
+
+<!-- Business & Consumer Edit/Register -->
+<img src="../assets/mockups/Management-Business-EditPlant.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-EditPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-EditPlant-2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-3.png" alt="wireframe desktop app"/>
+
+<img src="../assets/mockups/Management-Consumer-EditPlant.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-2.png" alt
+
+
+Mockups Mobile App:
+<!-- Business Register - Mobile -->
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- Consumer Register - Mobile -->
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- Delete Plant - Mobile -->
+<img src="../assets/mockups/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- iPhone mockups -->
+
+<img src="../assets/mockups/iPhone 16 - 9.png" alt="wireframe iPhone mockup"/>
+
+
 
 ## 5.4.3. Applications User Flow Diagrams.
 
