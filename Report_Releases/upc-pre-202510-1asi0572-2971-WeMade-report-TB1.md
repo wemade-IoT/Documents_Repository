@@ -36,22 +36,165 @@
 
 # Registro de Versiones del Informe
 
-<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- TB1 -->
+    <tr>
+      <td rowspan="7">TB1</td>
+      <td>29/03/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Antecedentes y Problemática</li>
+          <li>User stories</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Lean UX Process</li>
+          <li>Product Backlog</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Ubiquitous Language</li>
+          <li>Definición de Métricas UX</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>User Journey Mapping</li>
+          <li>Impact Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>As-is Scenario Mapping</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>User Task Matrix</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Segmentos Objetivos</li>
+          <li>User Persona</li>
+          <li>Análisis Entrevistas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Análisis Competitivo</li>
+          <li>Estrategias Frente a Competidores</li>
+          <li>Empathy Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="7">TP</td>
+      <td>12/05/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Software Development Environment & Deployment Configuration</li>
+          <li>Navigation & Searching Systems</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Source Code Style Guides and Management</li>
+          <li>Organizations & Labelling System</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Wireframes & Wireflow</li>
+          <li>Landing Page, Wireframe & Mockups</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Prototyping, Wireframe & Wireflow</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>General Style Guidelines</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-| Versión | Fecha       | Autor                                              | Descripción de modificación                                                                                               |
-|---------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 3/04/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes y revisiones del documento. |
-| TB1     | 8/04/2025  | Sebastian Ramirez Hoffmann           | Revisión completa del Lean UX Canvas.            |
-| TB1     | 12/04/2025  | Gustavo Huilca Chipana               | Revisión preliminar del diseño y segmentación de User Personas y de las entrevistas.                |
-| TB1     | 19/03/2025  | Mathias Alejandro Jave Diaz        | Registro de event storming y revisión del desarrollo de diagramas técnicos y la estructura de arquitectura propuesta. |
-| TB1     | 21/03/2025  | Manuel Sebastian Peña Rivera          | Revisión preliminar de diagramas y registro de reuniones finales.           |
-| TB1     | 22/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Revisiones finales del modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
-| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Revisiones finales del informe y generación de documento a pdf             |
-
-
-
-</div>
 
 # Project Report Collaboration Insights
 
