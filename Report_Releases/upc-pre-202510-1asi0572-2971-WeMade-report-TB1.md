@@ -1194,7 +1194,7 @@ Entonces el sistema debe aplicar automáticamente un descuento al primer sensor.
 Escenario 2: Visualización del descuento en factura <br>
 Dado que se ha aplicado el descuento <br>
 Cuando el usuario revisa su factura <br>
-Entonces puede ver claramente el monto descontado y el precio final. </td>
+Entonces visualiza el monto descontado y el precio final. </td>
       <td>EP05</td>
     </tr>
     <tr>
@@ -1204,7 +1204,7 @@ Entonces puede ver claramente el monto descontado y el precio final. </td>
       <td>Escenario 1: Confirmación de instalación incluida <br>
 Dado que el usuario selecciona el plan doméstico <br>
 Cuando completa su compra <br>
-Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>
+Entonces el sistema muestra que la instalación de los sensores está incluida en el precio <br>
 Y no habrá cargos adicionales.
 <br> <br>
 Escenario 2: Programación de instalación <br>
@@ -1218,10 +1218,10 @@ Entonces puede seleccionar una fecha para la instalación sin costos adicionales
       <td>Instalación agregada al costo del servicio</td>
       <td>Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación.</td>
       <td>Escenario 1: Cálculo automático de instalación <br>
-Dado que el usuario ha seleccionado el número de sensores <br>
+Dado que el usuario selecciona el número de sensores <br>
 Y el área de las plantas <br>
 Cuando el sistema calcula el precio total <br>
-Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>
+Entonces el costo de instalación se agrega automáticamente al costo total del servicio <br>
 Y debe ser visible en la factura. <br>
 <br> <br>
 Escenario 2: Personalización de instalación <br>
@@ -1313,7 +1313,7 @@ Entonces el sistema muestra un mensaje claro del error y opciones para resolverl
 Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>
 Cuando el usuario registra una nueva planta <br>
 Y selecciona instalación por servicio <br>
-Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. 
+Entonces el sistema redirige a un formulario para completar datos previos a la instalación. 
 <br> <br>
 Escenario 2: Registro con instalación manual <br>
 Dado que el usuario elige la opción de instalación manual <br>
@@ -1351,17 +1351,12 @@ Entonces el sistema muestra una alerta confirmando la eliminación de un registr
     <tr>
       <td>HU14</td>
       <td>Registro de plantaciones empresarial</td>
-      <td>Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
+      <td>Como usuario empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
       <td>Escenario 1: Registro exitoso de plantación <br>
-Dado que me encuentro en la vista de "plantaciones" <br>
-Cuando utilizo el botón de agregar plantación, <br>
-Y agrego la información del area que cubre la plantación e información adicional en un formulario <br>
-Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista.
-<br> <br>
-Escenario 2: Importación masiva de plantaciones <br>
-Dado que tengo un archivo con datos de múltiples plantaciones <br>
-Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>
-Entonces el sistema valida y registra todas las plantaciones válidas. </td>
+Dado que un usuario de negocio se encuentra registrando información de una plantación <br>
+Cuando el usuario de negocio desea registrar la información de una nueva plantación, <br>
+Entonces el sistema registra la información de una nueva plantación.
+<br>
       <td>EP02</td>
     </tr>
     <tr>
