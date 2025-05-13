@@ -4766,7 +4766,10 @@ maneras los usuarios irán recorriendo el contenido.
 * Contenido Clave: Incluye gráficos sobre el consumo de agua y energía a lo largo del tiempo, junto con estadísticas en tiempo real de las plantas registradas.
 * Navegación: El usuario puede visualizar las plantas, los valores de parámetros como humedad, temperatura y luz, y recibir notificaciones sobre el estado de las plantas.
 
-
+**Aplicación Móvil:**
+* Propósito Principal: Proporcionar un acceso rápido y conveniente a los datos en tiempo real de las plantas, desde cualquier lugar y en cualquier momento.
+* Contenido Clave: La interfaz es adaptada para la pantalla móvil, permitiendo a los usuarios ver las estadísticas de sus plantas, gestionar los umbrales de humedad, luz y temperatura, y recibir alertas personalizadas.
+* Navegación: Con un menú fácil de usar, el usuario puede navegar rápidamente entre secciones como la visualización de plantas, configuración de notificaciones y parámetros de control ambiental.
 
 
 ## 5.3. Landing Page UI Design.
