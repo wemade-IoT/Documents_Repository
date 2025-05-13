@@ -1326,10 +1326,18 @@ Entonces el sistema muestra instrucciones detalladas para la configuración manu
       <td>Edición de planta</td>
       <td>Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente.</td>
       <td> <br>
-Escenario 1: Actualización de planta <br>
+Escenario 1: Actualización de planta exitoso <br>
 Dado que el usuario ingresa información actualizada de una planta en especifico <br>
 Cuando el usuario requiere actualizar la información de una planta en especifico <br>
-Entonces el sistema actualiza la información de una planta especifica con la información modificada. </td>
+Entonces el sistema actualiza la información de una planta especifica con la información modificada. 
+
+<br>
+Escenario 2: Actualización de planta fallido <br>
+Dado que el usuario ingresa información actualizada de una planta en especifico <br>
+Cuando el usuario requiere actualizar la información de una planta en especifico <br>
+Entonces el sistema muestra una alerta de error al actualizar el registro.
+
+</td>
       <td>EP02</td>
     </tr>
     <tr>
