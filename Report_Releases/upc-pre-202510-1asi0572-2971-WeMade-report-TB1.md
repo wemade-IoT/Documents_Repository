@@ -4927,6 +4927,14 @@ Management Business Edit Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app"/>
 
+Management Delete Plant Wireframe:
+
+<img src="../assets/wireframes/Management-DeletePlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app"/>
+
 ## 5.4.2. Applications Wireflow Diagrams.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
