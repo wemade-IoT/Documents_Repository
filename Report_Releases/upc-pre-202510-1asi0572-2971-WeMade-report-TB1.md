@@ -5066,7 +5066,49 @@ Esta plataforma permite el modelado de diagramas de arquitectura de software. Se
 
 ## 6.1.2. Source Code Management.
 
+Para la gestión y actualización del proyecto, se creó una organización via GitHub, en la cual se tuvo un control sobre los cambios a lo largo del ciclo de vida del proyect. Se organizo de la siguiente manera.
+
+Organization: https://github.com/wemade-IoT 
+Landing page repository: https://github.com/wemade-IoT/landing-page
+
+Report repository: https://github.com/wemade-IoT/Documents_Repository
+
+Web Application repository: https://github.com/wemade-IoT/eco-guardian-frontend
+
+Para controlar de manera eficiente el flujo de trabajo se utilizó GitFlow, donde contamos con una rama principal main que es donde se encuentra la versión más estable y lista para pasar a producción del proyecto.
+
+Ramas auxiliares:
+
+hotfix: Es la rama donde almacenamos una copia sobre una versión estable del proyecto
+
+feature: Son las ramas donde se desarrollan las funcionalidades del proyecto. Luego de completarlas, se fusionan con la rama develop.
+
+La nomenclatura para los features fueron las siguientes: feature/name. Por ejemplo, feature/sign-in, para ingresar a la aplicación web.
+
+Se utilizo el formato "report_branch" para hacer referencia a las versiones registradas por cada entrega del documento
+
+Commit Conventions
+
+Para el formato de los commits se siguió la estructura de Conventional Commits 1.0.0, la cual tiene la siguiente estructura:
+
+< type > [optional scope]: < description > Donde:
+
+type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
+
+
 ## 6.1.3. Source Code Style Guide & Conventions.
+
+Para el desarrollo del código en HTML y CSS se decidió seguir la convención de Google HTML/CSS Style Guide. Entre las más importantes destacan:
+
+Es fundamental que el tipo de documento se declare al inicio del archivo mediante etiquetas meta. El elemento <title> debe colocarse dentro de las etiquetas <head>. Se debe aplicar una sangría de dos espacios. Es recomendable usar minúsculas para los elementos HTML, así como para sus atributos, valores, propiedades y selectores CSS. Los atributos en HTML deben estar entre comillas, y todos los elementos deben contar con su etiqueta de cierre correspondiente. Se aconseja evitar líneas de código excesivamente largas. Además, las imágenes deben tener definidos su ancho, alto y un texto alternativo (atributo alt).
+
+En cuanto al código JavaScript, se sigue la guía de estilo de Google para Java: cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato camelCase, y los valores de tipo cadena deben ir entre comillas simples.
+
+Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convenciones de Gherkin para especificaciones legibles”, que implican el uso de palabras clave como “Dado”, “Cuando”, “Entonces” y “Y”, junto con una sangría específica y comentarios bien separados.
+
+Por otro lado, el código en Java debe seguir las pautas del Google Java Style Guide, que establecen reglas sobre el formato de nombres de paquetes, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
+
+
 
 ## 6.1.4. Software Deployment Configuration.
 
