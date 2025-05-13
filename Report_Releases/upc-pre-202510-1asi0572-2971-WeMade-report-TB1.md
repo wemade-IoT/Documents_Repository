@@ -5062,6 +5062,10 @@ Netlify: https://www.netlify.com/
 
 Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
 
+Vercel: https://vercel.com/
+
+Es una plataforma en la cual hospedamos la aplicación web.
+
 Software Documentation
 
 Vertabelo: https://vertabelo.com/
