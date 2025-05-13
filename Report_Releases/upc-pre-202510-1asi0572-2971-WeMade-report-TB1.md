@@ -1590,7 +1590,7 @@ Entonces el sistema muestra un historial completo de todas las recomendaciones a
     </tr>
     </tr>
     <tr>
-      <td>HU34</td>
+      <td>HU28</td>
       <td>Visualizar planes de pago</td>
       <td>Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades.</td>
 <td>Escenario 1: Visualización de planes de pago
@@ -1661,6 +1661,11 @@ Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496
 | 30     | HU25          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
 | 31    | HU26          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
 | 32     | HU27          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
+| 33     | HU28         | Visualizar planes de pago                | Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades. | 2                        |
+
+
+
+
 
 
 # Capítulo IV:  Solution Software Design
