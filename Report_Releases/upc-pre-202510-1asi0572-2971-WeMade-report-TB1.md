@@ -4854,6 +4854,11 @@ Wireframes de la Landing page para Mobile web browser:
 Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
 para Desktop Web Browser como Mobile Web Browser.
 
+Mockup de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page"/>
+
+Mockup de la Landing page para Mobile web browser:
+
 ## 5.4. Applications UX/UI Design.
 
 Esta sección incluye secciones internas donde se presenta y explica la propuesta
