@@ -802,9 +802,18 @@ Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de 
 **Segmento 1: (Domestico):**
 
 Estadísticas y Aspectos comunes:
-Todos los participantes de la encuesta cuentan con conocimientos basicos - intermedios del cuidado de plantas.
-33% de los participantes comentan la necesidad de un calendario para saber de que momento es el adecuado para el regado de las plantas.
-100% de los participantes concuerdan que una aplicacion que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
+Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
+
+33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
+
+100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
+
 Necesidades comunes:
 
 - Calendario personalizado para el cuidado de plantas.
@@ -815,22 +824,37 @@ Necesidades comunes:
 
 - Recomendaciones personalizadas para el cuidado de plantas.
 
+<img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
+
+<img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
-- Frecuencia de cuidado: Interdiaria o según condiciones climáticas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
+
+- Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Pasión por el cuidado de plantas como hobby.
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 
-
+<img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
 
 **Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
+
+<img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
+
 33% comenta una dificultad con pestes.
+
+<img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
 
 
 Desafíos comunes:
@@ -839,35 +863,55 @@ Desafíos comunes:
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
+<img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
+
+<img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
+
+<img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
+<img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
-Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
-Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
-50% piensa que una capacitacion basica ayudaria mucho.
+100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnóstico inicial.
+50% piensa que una capacitación básica ayudaría mucho.
+
+<img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
 
+<img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
+
+<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
+
+<img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+
+
 
 ## 2.3. Needfinding.
 
