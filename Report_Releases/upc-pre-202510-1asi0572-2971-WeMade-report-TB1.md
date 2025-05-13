@@ -4760,6 +4760,13 @@ maneras los usuarios irán recorriendo el contenido.
 * Contenido Clave: El encabezado muestra el compromiso con la innovación y el cuidado de las plantas. El botón de "Get Started" facilita el acceso a la información y la interacción con el producto.
 * Navegación: El menú proporciona acceso a secciones clave como EcoGuardian, Beneficios, Precios, Acerca de Nosotros, y Trabaja con Nosotros.
 
+**Aplicación Web (Home Dashboard):**
+
+* Propósito Principal: Monitorear y gestionar las plantas mediante el seguimiento de consumo de agua, energía, y parámetros ambientales como humedad y temperatura.
+* Contenido Clave: Incluye gráficos sobre el consumo de agua y energía a lo largo del tiempo, junto con estadísticas en tiempo real de las plantas registradas.
+* Navegación: El usuario puede visualizar las plantas, los valores de parámetros como humedad, temperatura y luz, y recibir notificaciones sobre el estado de las plantas.
+
+
 
 
 ## 5.3. Landing Page UI Design.
