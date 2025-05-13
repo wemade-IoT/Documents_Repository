@@ -4742,10 +4742,29 @@ Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nu
 
 ## 5.2.4. Searching Systems.
 
-En esta sección el equipo explica qué medios de ayuda se brindará al usuario para la
-búsqueda de datos dentro del producto digital. Dichas decisiones sobre los sistemas
-de búsqueda tratan de evitar que los usuarios se sientan perdidos entre el volumen
-de información
+En EcoGuardian, se implementarán sistemas de búsqueda efectivos para garantizar que los usuarios puedan encontrar rápidamente la información que necesitan sin sentirse abrumados por el volumen de datos. La principal prioridad es facilitar la localización de información clave como datos de plantas, estadísticas de humedad, temperatura, consumo de agua y notificaciones sobre el estado de las plantas.
+
+**Opciones de Búsqueda:**
+
+* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta.
+* Búsqueda por Parámetros Ambientales: Los usuarios podrán filtrar las plantas según su humedad, temperatura o niveles de luz actuales. Esto será útil para gestionar un grupo de plantas con condiciones similares.
+
+**Filtros Disponibles:**
+
+* Rango de Humedad: Los usuarios podrán establecer un rango de humedad deseado para encontrar plantas que se ajusten a esos parámetros.
+* Temperatura: Los filtros permitirán buscar por un rango de temperatura adecuado para las plantas.
+* Fecha de Última Actualización: Los usuarios podrán filtrar las plantas según la fecha de la última actualización para ver las plantas que necesitan atención más reciente.
+**Resultados de la Búsqueda:**
+
+Después de realizar la búsqueda, los resultados se mostrarán de forma clara y ordenada. Los usuarios verán una lista de las plantas que cumplen con los filtros aplicados. Cada entrada mostrará:
+
+* Nombre de la Planta.
+* Estado actual.
+* Última actualización de sus datos.
+* Parámetros clave (humedad, temperatura, luz).
+* Acciones rápidas como ver más detalles o recibir recomendaciones.
+
+Este sistema de búsqueda permitirá a los usuarios encontrar y gestionar sus plantas de manera eficiente, mejorando la experiencia general y asegurando que no se pierdan entre la gran cantidad de datos disponibles.
 
 ## 5.2.5. Navigation Systems.
 
