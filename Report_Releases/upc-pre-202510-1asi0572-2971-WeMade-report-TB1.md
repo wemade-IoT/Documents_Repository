@@ -2649,23 +2649,23 @@ En esta capa se describen las clases que representan las abstracciones del domin
 ### Assembler
 
 
-**Question Assembler**
+**QuestionAssembler**
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| questionEntityFromResponseAssembler     | Crea una instancia del modelo de pregunta en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se recolecta de un banco de "preguntas" en el back end      |
+| toesponseAssembler     | Crea una instancia de la clase QuestionResponse     |
 
-**Question Pool Assembler**
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| premade_questionsEntityFromResponseAssembler     | Crea una instancia del modelo de preguntas automatizadas en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se devuelven respuestas pre definidas en el back end.     |
-
-**Answer Assembler**
+**QuestionPoolAssembler**
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| answerEntityFromResponseAssembler     | Crea una instancia del modelo answer en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase. Cabe mencionar que esta relacionada al usuario que realizo la pregunta previamente      |
+| toResponseAssembler     | Crea una instancia de la clase QuestionPoolResponse     |
+
+**AnswerAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toResponseAssembler     | Crea una instancia de la clase AnswerResponse     |
 
 
 **QuestionResponse**
@@ -3066,6 +3066,7 @@ alt="Consulting Component Diagram on Mobile App"/>
 
 Web App:
 
+<img src="../assets/class-diagrams/consultingWeb.png" alt="Consulting Class Diagram on Web App"/>
 
 Backend:
 
@@ -3073,6 +3074,7 @@ Backend:
 
 Mobile App:
 
+<img src="../assets/class-diagrams/consultingMobile.png" alt="Consulting Class Diagram on Web App"/>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
