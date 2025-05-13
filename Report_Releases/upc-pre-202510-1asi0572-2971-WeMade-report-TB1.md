@@ -4894,7 +4894,7 @@ usuario con los productos digitales.
 
 **Web Applicaction:**
 
-Management Register Plant section wireframe: 
+Management Register Plant Wireframe: 
 
 <img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app"/>
 
@@ -4906,19 +4906,26 @@ Management Register Plant section wireframe:
 
 <br>
 
-Management Edit Plant section wireframe: 
+Management Edit Plant section Wireframe: 
 
 <img src="../assets/wireframes/Management-Consumer-EditPlant.png" alt="wireframe web app"/>
 
 <img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app"/>
 
-Management Business Register Plant section wireframe: 
+Management Business Register Plant Wireframe: 
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app"/>
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant-1.png" alt="wireframe web app"/>
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app"/>
+
+Management Business Edit Plant Wireframe:
+
+<img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app"/>
+
+
+<img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app"/>
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
