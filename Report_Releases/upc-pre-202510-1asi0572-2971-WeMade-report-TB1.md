@@ -2593,8 +2593,7 @@ Backend:
 
 Mobile:
 
-<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBoundedContextonMobileApp.png"
-alt="Management Component Diagram on Mobile App"/>
+- No aplica para este caso
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3545,7 +3544,7 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-AutomationBCWebApp.png" alt="Automation Component Diagram on Web App"/>
+- No aplica para este caso
 
 Backend:
 
@@ -3553,8 +3552,7 @@ Backend:
 
 Mobile:
 
-<img src="../assets/component-diagrams/structurizr-101372-AutomationBoundedContextonMobileApp.png"
-alt="Automation Component Diagram on Mobile App"/>
+- No aplica para este caso
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3562,7 +3560,17 @@ alt="Automation Component Diagram on Mobile App"/>
 
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 <img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
+
+Mobile:
+
+- No aplica para este caso
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
@@ -3756,7 +3764,7 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-InstallationBCWebApp.png" alt="Installation Component Diagram on Web App"/>
+- No aplica para este caso
 
 Backend:
 
@@ -3764,13 +3772,24 @@ Backend:
 
 Mobile:
 
-<img src="../assets/component-diagrams/structurizr-101372-InstallationBoundedContextonMobileApp.png"
-alt="Instalation Component Diagram on Mobile App"/>
+- No aplica para este caso
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 <img src="../assets/tactical-level-ddd/instalation/instalation-diagram.jpeg" alt="Instalation diagram"/>
+
+Mobile:
+
+- No aplica para este caso
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/installation-db-diagram.png" alt="Installation Database Design Diagram"/>
