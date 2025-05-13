@@ -4899,8 +4899,8 @@ principales criterios para las decisiones de interacción.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
-## 6.2.X. Sprint n
-### 6.2.X.1. Sprint Planning n.
+## 6.2.1. Sprint 1
+### 6.2.1.1. Sprint Planning 1.
 
 <table border="1">
     <thead>
@@ -4958,6 +4958,22 @@ principales criterios para las decisiones de interacción.
     </tbody>
 </table>
 
+### 6.2.1.2. Aspect Leaders and Collaborators.
+En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
+Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el
+fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+Los aspectos que se tomaron en cuenta fueron en base a los bounded context identificados para la solución. 
+
+| Team Member (Last Name, First Name) | GitHub Username       | Management | Analytics | Consulting | Subscription | Payment | Automation | Installation | IAM    | Notifications |
+|-------------------------------------|-----------------------|------------|-----------|------------|--------------|---------|------------|--------------|--------|---------------|
+| Huilca Chipana, Gustavo             | &nbsp;GustavoHuilca31 | C          | **L**     | C          | &nbsp;       | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Jave Diaz Mathias Alejandro         | &nbsp;LordMathi2741   | **L**      | C         | &nbsp;     | C            | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Esteban Garcia Nicolas Sebastian    | &nbsp;Nekolas777      | C          | &nbsp;    | &nbsp;     | **L**        | C       | &nbsp;     | **L**        | &nbsp; | &nbsp;        |
+| Luna Capuñay Italo D'alessandro     | &nbsp;tatoft          | &nbsp;     | &nbsp;    | **L**      | &nbsp;       | C       | &nbsp;     | C            | &nbsp; | &nbsp;        |
+| Kunimoto Watanabe Mathias Tsuneo    | &nbsp;Kuni2005        | &nbsp;     | C         | &nbsp;     | &nbsp;       | **L**   | &nbsp;     | &nbsp;       | C      | C             |
+| Ramirez Hoffmann Sebastian          | &nbsp;SEBRH           | &nbsp;     | &nbsp;    | C          | C            | &nbsp;  | &nbsp;     | &nbsp;       | **L**  | C             |
+| Peña Rivera Manuel Sebastian        | &nbsp;U202210138      | &nbsp;     | &nbsp;    | &nbsp;     | &nbsp;       | &nbsp;  | **L**      | C            | C      | **L**         |
 
 # Conclusiones
 
