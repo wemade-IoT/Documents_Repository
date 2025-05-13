@@ -2318,7 +2318,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
+<img src="../assets/component-diagrams/structurizr-101372-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
 
 Mobile:
 
@@ -2611,7 +2611,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
 
 Mobile:
 
@@ -3053,7 +3053,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
 
 Mobile:
 
@@ -3347,7 +3347,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
 
 Mobile:
 
@@ -3625,7 +3625,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-PaymentSystem.png" alt="Payment Component Diagram on API"/>
 
 Mobile:
 
@@ -3832,7 +3832,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-AutomationSystem.png" alt="Automation Component Diagram on API"/>
 
 Mobile:
 
@@ -4052,7 +4052,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-InstallationSystem.png" alt="Installation Component Diagram on API"/>
 
 Mobile:
 
@@ -4345,7 +4345,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-IamSystem.png" alt="Iam Component Diagram on API"/>
 
 
 Mobile:
@@ -4643,7 +4643,7 @@ Web App:
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-NotificationSystem.png" alt="Notification Component Diagram on API"/>
 
 Mobile:
 
@@ -4676,7 +4676,6 @@ Backend:
 En esta sección, el equipo sienta las bases para contar con un repositorio central y
 organizado de uso común para todo el equipo, que incluye assets, fonts, etc. Esto
 con el fin de mantener una presentación consistente y enfocada. Se incluye
-18/41 V1.0
 secciones para General Style Guidelines, Web Style Guidelines y Mobile Style
 Guidelines.
 
@@ -4686,6 +4685,7 @@ Aquí se explica las decisiones y referencias visuales sobre conceptos generales
 básicos como Branding, Typography, Colors y Spacing, así como las dimensiones a
 adoptar para el tono de comunicación y lenguaje aplicado (Divertido/Serio,
 Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno).
+
 
 
 ## 5.1.2. Web, Mobile and IoT Style Guidelines.
@@ -4716,7 +4716,15 @@ usuarios).
 
 ## 5.2.2. Labeling Systems.
 En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para
-representar los conjuntos de información y las asociaciones4 entre las mismas.
+representar los conjuntos de información y las asociaciones entre las mismas.
+
+Para el desarrollo de las aplicaciones se decidió hacer uso de etiquetas simples que permitan facilitar la navegación y la comprensión de los usuarios. Las etiquetas se han diseñado para ser intuitivas y fáciles de recordar, lo que permitirá a los usuarios encontrar rápidamente la información que buscan.
+A continuación se presentan algunas etiquetas que se utilizarán en las aplicaciones:
+- **Home**: Página principal de la aplicación.
+- **Dashboard**: Panel de control donde se muestra información relevante.
+- **Consulting**: Sección donde se pueden realizar consultas a los especialistas.
+- **Management**: Sección donde se pueden gestionar los cultivos y plantas.
+- **Analytics**: Sección donde se pueden ver análisis y estadísticas de los cultivos.
 
 ## 5.2.3. SEO Tags and Meta Tags
 En esta sección se incluyen los SEO Tags y Meta Tags junto con los valores que
