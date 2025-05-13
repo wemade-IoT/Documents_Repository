@@ -4974,6 +4974,16 @@ Sign in/Sign up Wireframe:
 
 <img src="../assets/wireframes/Desktop - 3.png" alt="wireframe web app"/>
 
+<br>
+
+Sign in/Sign up Wireframe:
+
+<img src="../assets/wireframes/iPhone 16 - 6.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Desktop - 4.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app"/>
+
 ## 5.4.2. Applications Wireflow Diagrams.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
