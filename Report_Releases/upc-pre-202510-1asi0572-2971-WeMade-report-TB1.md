@@ -4841,6 +4841,69 @@ simulación de interacción y navegación, acorde con la propuesta de paths de U
 Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
 principales criterios para las decisiones de interacción.
 
+## 6.2.X. Sprint n
+### 6.2.X.1. Sprint Planning n.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint n</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sprint Planning Background</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>YYYY-MM-DD</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>HH:MM AM/PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Descripción de la ubicación de la reunión, física o virtual</td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td>Jiménez Rosas, Arturo Eduardo</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / …</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo</td>
+        </tr>
+        <tr>
+            <td>Sprint Goal & User Stories</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td>Definir el Goal del Sprint n y la métrica de cumplimiento.</td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td>Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.</td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.</td>
+        </tr>
+    </tbody>
+</table>
+
+
 # Conclusiones
 
 <br>**TB1**: En esta TB1 realizamos un proceso preliminar al desarrollo de software concretando procesos importantes tales como las investigaciones y planteamiento de solución. Adicionalmente, se realiza el diseño de la arquitectura y una idea robusta del funcionamiento de la aplicación.
