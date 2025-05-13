@@ -4984,6 +4984,14 @@ Sign in/Sign up Wireframe:
 
 <img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app"/>
 
+<br>
+
+Analytics Wireframe:
+
+<img src="../assets/wireframes/Dashboard Principal.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app"/>
+
 ## 5.4.2. Applications Wireflow Diagrams.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
