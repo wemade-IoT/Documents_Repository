@@ -1382,12 +1382,12 @@ Entonces el sistema muestra una alerta de error al registrar una nueva plantacio
 Dado que el usuario doméstico tiene activadas las notificaciones <br>
 Cuando detecta un cambio significativo en el estado de alguna de sus plantas <br>
 Entonces el usuario recibe una notificación con la información detallada del cambio 
-Y puede visualizar el nuevo estado de la planta afectada. <br>
+Y visualiza el nuevo estado de la planta afectada. <br>
 <br> <br>
 Escenario 2: Configuración de umbrales de notificación <br>
 Dado que el usuario desea personalizar sus alertas <br>
 Cuando accede a la configuración de notificaciones <br>
-Entonces puede establecer umbrales personalizados para cada tipo de alerta. </td>
+Entonces establece umbrales personalizados para cada tipo de alerta. </td>
       <td>EP04</td>
     </tr>
     <tr>
@@ -1412,7 +1412,7 @@ Entonces el sistema riega según el horario incluso si no se alcanzan los umbral
       <td>Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos.</td>
       <td>Escenario 1: Límite de consumo alcanzado <br>
 Dado que el consumo de agua alcanza el límite establecido <br>
-Cuando el sistema detecte que se ha alcanzado el límite <br>
+Cuando el sistema detecta un límite <br>
 Entonces envía una alerta y detiene el riego.
 <br> <br>
 Escenario 2: Configuración de límites por zonas <br>
@@ -1434,21 +1434,6 @@ Escenario 2: Manejo de errores de comunicación <br>
 Dado que existe un problema de conectividad <br>
 Cuando se envía una orden a la válvula <br>
 Entonces el sistema reintenta la comunicación y notifica si persiste el problema. </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>Soporte offline para riego automático</td>
-      <td>Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente.</td>
-      <td>Escenario 1: Almacenamiento local de eventos <br>
-Dado que el sistema está offline <br>
-Cuando el sensor detecta un nivel bajo de humedad <br>
-Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión.
-<br> <br>
-Escenario 2: Sincronización de datos <br>
-Dado que el sistema recupera la conexión <br>
-Cuando hay datos almacenados localmente <br>
-Entonces sincroniza automáticamente con el servidor central. </td>
       <td>EP06</td>
     </tr>
     <tr>
@@ -1487,13 +1472,13 @@ Entonces el relé debe apagarse. </td>
       <td>Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real.</td>
       <td>Escenario 1: Visualización de lecturas normales <br>
 Dado que los sensores están conectados <br>
-Cuando el sistema hace lecturas <br>
-Entonces la consola serial debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
+Cuando el sistema realiza lecturas <br>
+Entonces la consola serial imprime: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
 <br> <br>
 Escenario 2: Alerta por condiciones críticas <br>
 Dado que ocurre una condición crítica <br>
 Cuando la temperatura es muy alta <br>
-Entonces se imprime: "Advertencia: Temperatura elevada". </td>
+Entonces la consola serial imprime: "Advertencia: Temperatura elevada". </td>
       <td>EP07</td>
     </tr>
     <tr>
@@ -1569,7 +1554,7 @@ Entonces se imprime en consola: "Error: Sensor de humedad no detectado".sistema 
 Escenario 2: Reconexión del sensor <br>
 Dado que previamente se detectó un error de conexión del sensor <br>
 Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>
-Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
+Entonces la consola serial imprime "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
       <td>EP07</td>
     </tr>
     <tr>
@@ -1578,7 +1563,7 @@ Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y 
       <td>Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. <br> </td>
 <td>Escenario 1: Solicitud de recomendación <br>
 Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>
-Cuando el sistema detecte un cambio en las condiciones ambientales <br>
+Cuando el sistema detecta un cambio en las condiciones ambientales <br>
 Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista.
 <br> <br>
 Escenario 2: Verificación de estado de solicitud <br>
@@ -1649,17 +1634,16 @@ Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496
 | 20     | HU16          | Activación de riego automático           | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | 3                        |
 | 21     | H17          | Límites de riego configurables           | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | 3                        |
 | 22     | TS05          | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | 5                        |
-| 23     | TS06          | Soporte offline para riego automático   | Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente. | 3                        |
-| 24     | HU18          | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | 5                        |
-| 25     | HU19          | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | 5                        |
-| 26     | HU20          | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | 3                        |
-| 27     | HU21          | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | 3                        |
-| 28     | HU22          | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | 2                        |
-| 29     | HU23         | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | 5                        |
-| 30     | HU24          | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | 3                        |
-| 31     | HU25          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
-| 32     | HU26          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
-| 33     | HU27          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
+| 23     | HU18          | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | 5                        |
+| 24     | HU19          | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | 5                        |
+| 25     | HU20          | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | 3                        |
+| 26     | HU21          | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | 3                        |
+| 27     | HU22          | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | 2                        |
+| 28     | HU23         | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | 5                        |
+| 29     | HU24          | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | 3                        |
+| 30     | HU25          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
+| 31    | HU26          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
+| 32     | HU27          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
 
 
 # Capítulo IV:  Solution Software Design
