@@ -4958,6 +4958,14 @@ Consulting Creation Wireframe:
 
 <img src="../assets/wireframes/Consulting Creation-1.png" alt="wireframe web app"/>
 
+<br>
+
+Consulting Answer Creation Wireframe:
+
+<img src="../assets/wireframes/Consulting Answer Creation.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Answer Creation-1.png" alt="wireframe web app"/>
+
 ## 5.4.2. Applications Wireflow Diagrams.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
