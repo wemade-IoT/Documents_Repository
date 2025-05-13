@@ -4906,7 +4906,7 @@ principales criterios para las decisiones de interacción.
     <thead>
         <tr>
             <th>Sprint #</th>
-            <th>Sprint n</th>
+            <th>Sprint 1</th>
         </tr>
     </thead>
     <tbody>
@@ -4916,47 +4916,44 @@ principales criterios para las decisiones de interacción.
         </tr>
         <tr>
             <td>Date</td>
-            <td>YYYY-MM-DD</td>
+            <td> 2025-04-28</td>
         </tr>
         <tr>
             <td>Time</td>
-            <td>HH:MM AM/PM</td>
+            <td>19:20 PM</td>
         </tr>
         <tr>
             <td>Location</td>
-            <td>Descripción de la ubicación de la reunión, física o virtual</td>
+            <td> La reunión se realizo virtualmente via Discord </td>
         </tr>
         <tr>
             <td>Prepared By</td>
-            <td>Jiménez Rosas, Arturo Eduardo</td>
+            <td> Ramirez Hoffman, Sebastian</td>
         </tr>
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / …</td>
+            <td>Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro</td>
         </tr>
         <tr>
             <td>Sprint n – 1 Review Summary</td>
-            <td>Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.</td>
+            <td>No aplica</td>
         </tr>
         <tr>
             <td>Sprint n – 1 Retrospective Summary</td>
-            <td>Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo</td>
-        </tr>
-        <tr>
-            <td>Sprint Goal & User Stories</td>
-            <td></td>
+            <td>No aplica</td>
         </tr>
         <tr>
             <td>Sprint n Goal</td>
-            <td>Definir el Goal del Sprint n y la métrica de cumplimiento.</td>
+            <td> El objetivo de este sprint es alcanzar al menos 100 usuarios interesados en nuestra solución en un plazo de 2 semanas. Para lograrlo, desarrollaremos un sitio web informativo que permita a los visitantes conocer los beneficios de nuestra propuesta y los motive a convertirse en suscriptores.
+            </td>
         </tr>
         <tr>
             <td>Sprint n Velocity</td>
-            <td>Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.</td>
+            <td> 8 </td>
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.</td>
+            <td>0</td>
         </tr>
     </tbody>
 </table>
