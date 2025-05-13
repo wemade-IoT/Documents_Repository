@@ -4749,10 +4749,8 @@ de información
 
 ## 5.2.5. Navigation Systems.
 
-Aquí el equipo explica cuáles serán las acciones y técnicas que guiarán a los usuarios
-a través del Landing Page y las aplicaciones, permitiéndoles cumplir sus metas e
-interactuar de forma satisfactoria con el producto. Aquí se debe incluir de qué
-maneras los usuarios irán recorriendo el contenido.
+El Navigation System es crucial para guiar a los usuarios a través de las diferentes plataformas de EcoGuardian, ya sea en la Landing Page o en las aplicaciones web y móvil. Su diseño está orientado a facilitar la interacción fluida con el producto, permitiendo que los usuarios encuentren fácilmente lo que necesitan. Este sistema de navegación se centra en simplificar la experiencia de los usuarios mediante un acceso claro y directo a las secciones clave, garantizando que puedan alcanzar sus objetivos, como registrar plantas, consultar estadísticas, o recibir alertas y recomendaciones en tiempo real.
+Con un diseño intuitivo y accesible, el Navigation System asegura que los usuarios puedan navegar sin esfuerzo, mejorando su interacción y satisfacción con el producto.
 
 **Landing Page:**
 
