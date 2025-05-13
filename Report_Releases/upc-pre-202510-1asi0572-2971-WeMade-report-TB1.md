@@ -4878,6 +4878,7 @@ Wireframes de la Landing page para Mobile web browser:
 Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
 para Desktop Web Browser como Mobile Web Browser.
 
+Para esta entrega hemos recibido feedback orientado a distintos aspectos de diseño para mejorar los cuales se llegaron a implementar parcialmente en produccion, si bien no se pueden visualizar a nivel de mockup en subsiguientes entregas se hara la implementación.
 Mockup de la Landing page para Desktop web browser:
 <img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page"/>
 
@@ -4915,7 +4916,7 @@ Management Edit Plant section wireframe:
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
 para cada User goal, considerando los User Persona para cada aplicación que forma
-parte del alcance.
+parte del alcance. En este caso consideramos los mas relevantes:
 
 ## 5.4.2. Applications Mock-ups.
 
