@@ -5100,7 +5100,7 @@ type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, d
 
 Para el desarrollo del código en HTML y CSS se decidió seguir la convención de Google HTML/CSS Style Guide. Entre las más importantes destacan:
 
-Es fundamental que el tipo de documento se declare al inicio del archivo mediante etiquetas meta. El elemento <title> debe colocarse dentro de las etiquetas <head>. Se debe aplicar una sangría de dos espacios. Es recomendable usar minúsculas para los elementos HTML, así como para sus atributos, valores, propiedades y selectores CSS. Los atributos en HTML deben estar entre comillas, y todos los elementos deben contar con su etiqueta de cierre correspondiente. Se aconseja evitar líneas de código excesivamente largas. Además, las imágenes deben tener definidos su ancho, alto y un texto alternativo (atributo alt).
+Es fundamental que el tipo de documento se declare al inicio del archivo mediante etiquetas meta. El elemento ``` <title> ``` debe colocarse dentro de las etiquetas ``` <head> ```. Se debe aplicar una sangría de dos espacios. Es recomendable usar minúsculas para los elementos HTML, así como para sus atributos, valores, propiedades y selectores CSS. Los atributos en HTML deben estar entre comillas, y todos los elementos deben contar con su etiqueta de cierre correspondiente. Se aconseja evitar líneas de código excesivamente largas. Además, las imágenes deben tener definidos su ancho, alto y un texto alternativo (atributo alt).
 
 En cuanto al código JavaScript, se sigue la guía de estilo de Google para C# cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato upperCamelCase, y los valores de tipo cadena deben ir entre comillas simples.
 
@@ -5171,7 +5171,7 @@ Finalmente, en el caso del lenguaje Dart, se siguen las convenciones establecida
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>0</td>
+            <td>0 (En esta ocacion al estar en planificacion se mantiene como 0)</td>
         </tr>
     </tbody>
 </table>
