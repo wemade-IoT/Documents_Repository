@@ -36,22 +36,165 @@
 
 # Registro de Versiones del Informe
 
-<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- TB1 -->
+    <tr>
+      <td rowspan="7">TB1</td>
+      <td>29/03/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Antecedentes y Problemática</li>
+          <li>User stories</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Lean UX Process</li>
+          <li>Product Backlog</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Ubiquitous Language</li>
+          <li>Definición de Métricas UX</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>User Journey Mapping</li>
+          <li>Impact Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>As-is Scenario Mapping</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>User Task Matrix</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Segmentos Objetivos</li>
+          <li>User Persona</li>
+          <li>Análisis Entrevistas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Análisis Competitivo</li>
+          <li>Estrategias Frente a Competidores</li>
+          <li>Empathy Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="7">TP</td>
+      <td>12/05/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Software Development Environment & Deployment Configuration</li>
+          <li>Navigation & Searching Systems</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Source Code Style Guides and Management</li>
+          <li>Organizations & Labelling System</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Wireframes & Wireflow</li>
+          <li>Landing Page, Wireframe & Mockups</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Prototyping, Wireframe & Wireflow</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>General Style Guidelines</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-| Versión | Fecha       | Autor                                              | Descripción de modificación                                                                                               |
-|---------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 3/04/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes y revisiones del documento. |
-| TB1     | 8/04/2025  | Sebastian Ramirez Hoffmann           | Revisión completa del Lean UX Canvas.            |
-| TB1     | 12/04/2025  | Gustavo Huilca Chipana               | Revisión preliminar del diseño y segmentación de User Personas y de las entrevistas.                |
-| TB1     | 19/03/2025  | Mathias Alejandro Jave Diaz        | Registro de event storming y revisión del desarrollo de diagramas técnicos y la estructura de arquitectura propuesta. |
-| TB1     | 21/03/2025  | Manuel Sebastian Peña Rivera          | Revisión preliminar de diagramas y registro de reuniones finales.           |
-| TB1     | 22/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Revisiones finales del modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
-| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Revisiones finales del informe y generación de documento a pdf             |
-
-
-
-</div>
 
 # Project Report Collaboration Insights
 
@@ -232,7 +375,47 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)     
 [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)     
 [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)     
-[4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)     
+[4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
+
+[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui/ux-design)
+
+[5.1. Style Guidelines](#51-style-guidelines)      
+[5.1.1. General Style Guidelines](#511-general-style-guidelines)        
+[5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)          
+[5.2. Information Architecture](#52-information-architecture)      
+[5.2.1. Organization Systems](#521-organization-systems)      
+[5.2.2. Labeling Systems](#522-labeling-systems)       
+[5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)      
+[5.2.4. Searching Systems](#524-searching-systems)      
+[5.2.5. Navigation Systems](#525-navigation-systems)      
+[5.3. Landing Page UI Design](#53-landing-page-ui-design)      
+[5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)      
+[5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)      
+[5.4. Applications UX/UI Design](#54-applications-uxui-design)      
+[5.4.1. Applications Wireframes](#541-applications-wireframes)      
+[5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)      
+[5.4.2. Applications Mock-ups](#542-applications-mock-ups)      
+[5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+[5.5. Applications Prototyping](#55-applications-prototyping) 
+       
+[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+
+[6.1. Software Configuration Management](#61-software-configuration-management)      
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)        
+[6.1.2. Source Code Management](#612-source-code-management)       
+[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)       
+[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)          
+[6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)       
+[6.2.1. Sprint 1](#621-sprint-1)      
+[6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)      
+[6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)      
+[6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)      
+[6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)     
+[6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)     
+[6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)     
+[6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)     
+[6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)     
+[6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)        
              
 
 [Conclusiones](#conclusiones)
@@ -5297,10 +5480,8 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | f821302   | feat: add new consulting questions and update tips carousel to limit displayed queries                     |                     | 13/05/2025 2:03    |
 | <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 80b5ba9   | feat: remove unused specialist role check from analytics page                                              |                     | 13/05/2025 2:07    |
 
-
-
-
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 ### 6.2.1.6. Execution Evidence for Sprint Review.
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
