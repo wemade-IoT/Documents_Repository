@@ -4725,10 +4725,8 @@ Guidelines.
 
 ## 5.1.1. General Style Guidelines.
 
-Aquí se explica las decisiones y referencias visuales sobre conceptos generales
-básicos como Branding, Typography, Colors y Spacing, así como las dimensiones a
-adoptar para el tono de comunicación y lenguaje aplicado (Divertido/Serio,
-Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno).
+Aquí se explicamos las decisiones y referencias visuales sobre conceptos generales
+básicos como Branding, Typography, Colors y Spacing.
 
 <img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines"/>
 
@@ -4738,19 +4736,22 @@ En este caso tenemos nuestro general style guideline donde mostramos nuestra pal
 
 ## 5.1.2. Web, Mobile and IoT Style Guidelines.
 
-En esta sección se explica e ilustra las decisiones sobre los estándares visuales y de
+En esta sección se explicamos e ilustramos las decisiones sobre los estándares visuales y de
 interacción para responsive web interfaces y las interfaces en mobile application
 interfaces y IoT application user interface.
 
-## 5.2. Information Architecture.
+Respecto a responsive definimos media queries especificos para distintos breaking points de la aplicacion siguiendo los estandares definidos.
 
-En esta sección el equipo plantea las decisiones y sustento que dirigen la manera
-como se organizará el contenido en las experiencias web y móvil, incluyendo las
-Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los
-visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y
-puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones
-sobre los Organization Systems, Labeling Systems, Navigation Systems y Searching
-Systems
+|Media Query|Dispositivo|
+|-|-|
+| 1024px | Desktop |
+| 760px | Tablets |
+| 720px | Telefono |
+| 320px | Telefono Pequeño |
+
+con estas convenciones nos hemos guiado para saber en que momentos debemos realizar cambios significativos.
+
+## 5.2. Information Architecture.
 
 ## 5.2.1. Organization Systems.
 En esta sección el equipo explica en qué grupos de información aplicará cuáles
@@ -4760,6 +4761,13 @@ organización secuencial (step-by-step to accomplish) o matricial. Por otro lado
 también se debe explicar en qué casos se utilizará qué esquemas de categorización
 de contenido: alfabético, cronológico, por tópicos, según audiencia (grupos de
 usuarios).
+
+En esta ocacion para lo que seria nuestra landing page seguimos un approach basico donde nos basamos en una navegacion jerarquica donde empezamos con el hero section y culminamos con la seccion para reclutamiento (sin contar el footer).
+
+Esta decision fue tomada para mantener un estandar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorizacion de contenido va cambiando a medida que se llega al final de la pagina.
+
+En el caso de la aplicacion de escritorio web, (Web aplication), nos inspiramos en un sistema de widgets para organizar datos este seria un estilo matricial donde para categorizar utilizamos segun nuestros segmentos ya que no tienen las mismas caracteristicas.
+Adicionalmente a nivel de aplicacion movil se espera de que la aplicacion no tenga acceso a realizar pagos y en vez de eso rediriga al usuario a la pagina web, este modelo tiene inspiracion en como Spotify maneja sus subscripciones.
 
 
 ## 5.2.2. Labeling Systems.
