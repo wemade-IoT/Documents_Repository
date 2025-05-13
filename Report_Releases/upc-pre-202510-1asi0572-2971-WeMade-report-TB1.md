@@ -1356,7 +1356,14 @@ Entonces el sistema muestra una alerta confirmando la eliminación de un registr
 Dado que un usuario de negocio se encuentra registrando información de una plantación <br>
 Cuando el usuario de negocio desea registrar la información de una nueva plantación, <br>
 Entonces el sistema registra la información de una nueva plantación.
+<br> 
+Escenario 2: Registro fallido de plantación <br>
+Dado que un usuario de negocio se encuentra registrando información de una plantación <br>
+Cuando el usuario de negocio desea registrar la información de una nueva plantación, <br>
+Entonces el sistema muestra una alerta de error al registrar una nueva plantacion
 <br>
+
+</td>
       <td>EP02</td>
     </tr>
     <tr>
