@@ -4754,6 +4754,13 @@ a través del Landing Page y las aplicaciones, permitiéndoles cumplir sus metas
 interactuar de forma satisfactoria con el producto. Aquí se debe incluir de qué
 maneras los usuarios irán recorriendo el contenido.
 
+**Landing Page:**
+
+* Propósito Principal: Presentar la misión de EcoGuardian, enfocada en innovar en el cuidado de las plantas mediante tecnología IoT.
+* Contenido Clave: El encabezado muestra el compromiso con la innovación y el cuidado de las plantas. El botón de "Get Started" facilita el acceso a la información y la interacción con el producto.
+* Navegación: El menú proporciona acceso a secciones clave como EcoGuardian, Beneficios, Precios, Acerca de Nosotros, y Trabaja con Nosotros.
+
+
 
 ## 5.3. Landing Page UI Design.
 
