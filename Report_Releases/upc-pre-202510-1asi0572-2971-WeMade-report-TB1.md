@@ -17,6 +17,7 @@
 #### Product: **EcoGuardian**
 
 </center>
+
 # Team Members:
 
 <div align="center">
@@ -1587,6 +1588,22 @@ Cuando accede al perfil del usuario o planta <br>
 Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. </td>
       <td>EP04</td>
     </tr>
+    </tr>
+    <tr>
+      <td>HU34</td>
+      <td>Visualizar planes de pago</td>
+      <td>Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades.</td>
+<td>Escenario 1: Visualización de planes de pago
+Dado que el usuario está en la sección de planes de pago<br>
+Cuando navega por los planes disponibles <br>
+Entonces el usuario puede ver los detalles de cada plan de pago.
+<br> <br>
+Escenario 2: Filtrado de planes de pago<br>
+Dado que el usuario desea comparar planes<br>
+Cuando selecciona un filtro <br>
+Entonces el sistema debe mostrar los planes que cumplen con los criterios de filtrado. </td>
+      <td>EP05</td>
+    </tr>
   </tbody>
 </table>
 
@@ -2616,18 +2633,266 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/analyticst-db-diagram.png" alt="Analytics Database Design Diagram"/>
 
 ### 4.2.3. Bounded Context: Consulting
--
+
+
 #### 4.2.3.1. Domain Layer.
 
-App Web:
-- 
+Web App:
 
-Mobile:
-- 
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### Assembler
+
+
+**Question Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| questionEntityFromResponseAssembler     | Crea una instancia del modelo de pregunta en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se recolecta de un banco de "preguntas" en el back end      |
+
+**Question Pool Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| premade_questionsEntityFromResponseAssembler     | Crea una instancia del modelo de preguntas automatizadas en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase, en este contexto se devuelven respuestas pre definidas en el back end.     |
+
+**Answer Assembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| answerEntityFromResponseAssembler     | Crea una instancia del modelo answer en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase. Cabe mencionar que esta relacionada al usuario que realizo la pregunta previamente      |
+
+
+**QuestionResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| content               | string   |
+| userId                | number     |
+
+**AnswerResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| content               | string   |
+| userId                | number   |
+| questionsId           | number   |
+
+**QuestionPoolResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| question_answer       | string   |
+
+
+## Service
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+**QuestionResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+
+**AnswerResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+| questionsId           | int      |
+
+**QuestionPoolResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| type                  | string   |
+| question_answer       | string   |
+
+
+
+**GetQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+
+**GetAnswersByUserIdDto**
+
+Representa la solicitud de consulta de respuestas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+**GetPremadeQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas pre respondidas.
+
+| Atributo | Tipo   |
+|----------|--------|
+| questionAnswer  | string |
+| type   | string    |
+
+**PostQuestionDto**
+
+Representa la solicitud de envio de pregunta por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+
+
+**PostAnswerDto**
+
+Representa la solicitud de envio de respuesta por usuario.
+
+| Atributo   | Tipo   |
+|------------|--------|
+| userId     | int    |
+| questionsId| int    |
+
+
+## Service
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+
 
 Backend:
 
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+#### Entities
+
+**QuestionTypes**
+
+Representa el tipo de pregunta que tiene una pregunta pre hecha.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Aggregates
+
+**Question**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetQuestion | Devuelve los valores de la pregunta por medio de comandos    |
+
+---
+
+**Answer**
+
+Representa una respuesta esta relacionada a una pregunta y al usuario que realiza la pregunta.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+| QuestionsId           | Int      |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| Get     | Devuelve los valores de la respuesta por medio de un comando   |
+
+---
+
+**PremadeQuestion**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Type                  | String   |
+| QuestionAnswer        |  String   |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetPremadeQuestion | Devuelve los valores de la pregunta pre hecha por medio de comandos    |
+
+--
+
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreateQuestionCommand      | Representa un comando para crear una nueva instancia del agregado Question.                        |
+| CreateAnswerCommand      | Representa un comando para crear una nueva instancia del agregado Answer.                        |
+| CreatePremadeQuestionCommand      | Representa un comando para crear una nueva instancia del agregado PremadeQuestion.                        |
+| UpdatePremadeQuestionData |  Representa un comando para actualizar la data de una pregunta pre hecha.    |
+| SeedQuestionTypesCommand       | Representa un comando para inicializar datos en la entidad QuestionTypes dentro del dominio. |
+| SeedPremadeQuestionsCommand       | Representa un comando para inicializar datos del agregado PremadeQuestions. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPremadeQuestionsByTypeQuery      | Representa una consulta que recupera las preguntas pre hechas asociadas a un tipo específico.                   |
+| GetQuestionsByUserIdQuery      | Representa una consulta que obtiene todas las preguntas asociadas a un usuario determinado.            |
+| GetAnswersByUserIdQuery      | Representa una consulta que obtiene todas las respuestas asociadas a un usuario determinado.            |
+| GetQuestionsAndAnsersByUserIdQuery      | Representa una consulta que obtiene todas las preguntas y sus respuestas asociadas a un usuario determinado.            |
+| IsAnswerExistsByQuestionIdQuery      | Representa una consulta que verifica si existe una respuesta con un identificador de pregunta específica.           |
+
+---
 
 ### CommandServices
 
@@ -2635,14 +2900,14 @@ Backend:
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionCommandService` | `IQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas. |
  | `AnswerCommandService`    | `IAnswerCommandService`      | Implementción del servicio que maneja los comandos de respuestas de los especialistas a los usuarios.         
- 
+  | `PremadeQuestionCommandService` | `IPremadeQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas pre respondidas. |
  ### QueryServices
 
  | Clase              | Interfaz Implementada | Descripción                                                                                                         |
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionQueryService`  | `IQuestionQueryService`   |  Implementación del servicio que maneja los consultas de preguntas. |
  | `AnswerQueryService`    | `IAnswerQueryService`      | Implementación del servicio que maneja las consultas de las respuestas de los especialistas a los usuarios.         
- 
+   | `PremadeQuestionQueryService` | `IPremadeQuestionQueryService`   |  Implementación del servicio que maneja las consultas de preguntas pre hechas. |
 
  ### OutboundServices
  | Interface                         | Descripción |
