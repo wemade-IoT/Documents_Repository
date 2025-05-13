@@ -4839,10 +4839,15 @@ En esta sección el equipo elabora la propuesta de UI para el Landing Page. La s
 inicia con una introducción en la que el equipo explica cómo traduce las decisiones
 de diseño y arquitectura de información.
 
-## 5.3.1. Landing Page Wireframe.
+### 5.3.1. Landing Page Wireframe.
 
 Esta sección incluye una sección interna donde se presenta y explica los Wireframes
 del Landing Page para Desktop Web Browser y Mobile Web Browser
+
+Wireframes de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page"/>
+
+Wireframes de la Landing page para Mobile web browser:
 
 ## 5.3.2. Landing Page Mock-up.
 
