@@ -257,8 +257,8 @@ del ABET – EAC - Student Outcome 5.
 
 | **Criterio Específico**                                                                         | **Acciones Realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Mathias Alejandro Jave Diaz** <br>**TB1:**<br> Durante este avance del proyecto, participé activamente en reuniones presenciales y virtuales, donde contribuí con ideas clave para definir el flujo de negocio, fomentando así la claridad y el consenso entre todos los miembros del equipo. También participle activamente en la elaboración de la arquitectura de software y en el diseño táctico siguiendo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante el avance de esta entrega, asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog. <br><br>**Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas. <br><br>**Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. <br><br>**Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión.<br>**TP:**<br> En este avance del proyecto, trabajé en equipo, priorizando la comunicación entre los miembros para la correcta coordinación del desarrollo de la Landing Page y de la Aplicación Web, intentando evitar malentendidos y dejando muy en clara la arquitectura que debemos seguir.<br><br>**Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**.                                                                                                                                                                                        | Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones.                                                                                                                |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante este avance del proyecto, fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, aseguramos que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br><br><br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>**Italo D'Alessandro Luna Capuñay**<br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br>**TP:**<br> En este avance, hice uso de nuevas herramientas para la distribución de partes en el reporte y los productos a entregar a través de la división por aspectos, asignando líderes y colaboradores en cada aspecto. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Mathias Alejandro Jave Diaz** <br>**TB1:**<br> Durante este avance del proyecto, participé activamente en reuniones presenciales y virtuales, donde contribuí con ideas clave para definir el flujo de negocio, fomentando así la claridad y el consenso entre todos los miembros del equipo. También participle activamente en la elaboración de la arquitectura de software y en el diseño táctico siguiendo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante el avance de esta entrega, asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog. <br><br>**Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas. <br>**TP:**<br> En este entregable, contribuí de forma significativa al diseño y configuración del entorno de despliegue del sistema. También participé en la coordinación del equipo y brindé apoyo a mis compañeros durante la implementación de las aplicaciones web. <br><br>**Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. <br><br>**Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión.<br>**TP:**<br> En este avance del proyecto, trabajé en equipo, priorizando la comunicación entre los miembros para la correcta coordinación del desarrollo de la Landing Page y de la Aplicación Web, intentando evitar malentendidos y dejando muy en clara la arquitectura que debemos seguir.<br><br>**Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**.                                                                                                                                                                                        | Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones.                                                                                                                |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante este avance del proyecto, fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, aseguramos que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br><br><br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br>**TP:**<br> En esta entrega, fomenté la colaboración dentro del equipo, participando activamente en la planificación y coordinación de tareas técnicas vinculadas al entorno de desarrollo y al proceso de despliegue. Asimismo, aseguré una comunicación constante con el equipo para cumplir con los objetivos en los plazos establecidos. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br>**TP:**<br> En este avance, hice uso de nuevas herramientas para la distribución de partes en el reporte y los productos a entregar a través de la división por aspectos, asignando líderes y colaboradores en cada aspecto. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
 
 
 
@@ -802,18 +802,9 @@ Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de 
 **Segmento 1: (Domestico):**
 
 Estadísticas y Aspectos comunes:
-Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
-
-33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
-
-100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
-
+Todos los participantes de la encuesta cuentan con conocimientos basicos - intermedios del cuidado de plantas.
+33% de los participantes comentan la necesidad de un calendario para saber de que momento es el adecuado para el regado de las plantas.
+100% de los participantes concuerdan que una aplicacion que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
 Necesidades comunes:
 
 - Calendario personalizado para el cuidado de plantas.
@@ -824,37 +815,22 @@ Necesidades comunes:
 
 - Recomendaciones personalizadas para el cuidado de plantas.
 
-<img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
-
-<img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
-
-<img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
-
-- Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
-
-<img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
+- Frecuencia de cuidado: Interdiaria o según condiciones climáticas.
 
 Características Subjetivas:
 - Motivaciones: Pasión por el cuidado de plantas como hobby.
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 
-<img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
+
 
 **Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
-
-<img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
-
 33% comenta una dificultad con pestes.
-
-<img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
 
 
 Desafíos comunes:
@@ -863,54 +839,35 @@ Desafíos comunes:
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
-<img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
-
-<img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
-
-<img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
-<img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
-
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
-Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
-Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnóstico inicial.
-50% piensa que una capacitación básica ayudaría mucho.
-
-<img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
+100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
+50% piensa que una capacitacion basica ayudaria mucho.
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
 
-<img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
-
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
-
-<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
-
-<img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
-
 
 ## 2.3. Needfinding.
 
@@ -4138,37 +4095,14 @@ Mobile App:
 
 Representa una abstracción para la petición de inicio de sesión.
 
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| email   | String   |
-| password   | String |
-
 **SignUpRequestDto**
 
 Representa una abstracción para la petición de registro de usuario.
-
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| email   | String   |
-| password   | String |
-| name   | String |
-| address   | String |
-| subscriptionId   | int |
 
 
 **UserAuthenticatedResponseDto**
 
 Representa una abstracción para la respuesta de un usuario autenticado.
-
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| id   | int |
-| email   | String   |
-| name   | String |
-| address   | String |
-| token   | String |
-| roleId   | int |
-| subscriptionId   | int |
 
 
 
@@ -4178,53 +4112,20 @@ Web App:
 
 ### Request
 
-**SignInRequest**
+#### SignInRequest
 
 Representa una abstracción para la petición de inicio de sesión realizada.
 
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| email   | string   |
-| password   | string |
-
-
-**SignUpRequest**
+#### SignUpRequest
 
 Representa una abstracción para la petición de registro de usuario.
-
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| email   | string   |
-| password   | string |
-| name   | string |
-| address   | string |
-| subscriptionId   | number |
 
 
 ### Response
 
-**UserAuthenticatedResponse**
+#### UserAuthenticatedResponse
 
 Representa una abstracción para la respuesta que contiene la información de un usuario autenticado.
-
-| Atributo   | Tipo                             |
-|------------|----------------------------------------------|
-| id   | number |
-| email   | string   |
-| name   | string |
-| address   | string |
-| token   | string |
-| roleId   | number |
-| subscriptionId   | number |
-
-
-### Assembler
-
-**UserAssembler**
-
-| Método  | Descripción                                  |
-|------------|----------------------------------------------|
-| toResponse   |Crea una instancia de la clase UserAuthenticatedResponse   |
 
 Backend:
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
@@ -4458,15 +4359,11 @@ alt="IAM Component Diagram on Mobile App"/>
 
 Web App:
 
-<img src="../assets/class-diagrams/iamWeb.png" alt="Iam Context Domain Layer Class Diagrams on Web App"/>
-
 Mobile App:
-
-<img src="../assets/class-diagrams/iamMobile.png" alt="Iam Context Domain Layer Class Diagrams on Mobile App"/>
 
 Backend:
 
-<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams on API"/>
+<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
@@ -4487,7 +4384,20 @@ Web App:
 
 |  Método                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
-| toResponse    | Crea una nueva instancia de la clase NotificationResponse. |
+| notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
+
+
+#### Model
+
+**NotificationModel**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
 
 
 
