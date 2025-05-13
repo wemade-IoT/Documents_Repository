@@ -4138,14 +4138,37 @@ Mobile App:
 
 Representa una abstracción para la petición de inicio de sesión.
 
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| email   | String   |
+| password   | String |
+
 **SignUpRequestDto**
 
 Representa una abstracción para la petición de registro de usuario.
+
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| email   | String   |
+| password   | String |
+| name   | String |
+| address   | String |
+| subscriptionId   | int |
 
 
 **UserAuthenticatedResponseDto**
 
 Representa una abstracción para la respuesta de un usuario autenticado.
+
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| id   | int |
+| email   | String   |
+| name   | String |
+| address   | String |
+| token   | String |
+| roleId   | int |
+| subscriptionId   | int |
 
 
 
@@ -4155,20 +4178,53 @@ Web App:
 
 ### Request
 
-#### SignInRequest
+**SignInRequest**
 
 Representa una abstracción para la petición de inicio de sesión realizada.
 
-#### SignUpRequest
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| email   | string   |
+| password   | string |
+
+
+**SignUpRequest**
 
 Representa una abstracción para la petición de registro de usuario.
+
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| email   | string   |
+| password   | string |
+| name   | string |
+| address   | string |
+| subscriptionId   | number |
 
 
 ### Response
 
-#### UserAuthenticatedResponse
+**UserAuthenticatedResponse**
 
 Representa una abstracción para la respuesta que contiene la información de un usuario autenticado.
+
+| Atributo   | Tipo                             |
+|------------|----------------------------------------------|
+| id   | number |
+| email   | string   |
+| name   | string |
+| address   | string |
+| token   | string |
+| roleId   | number |
+| subscriptionId   | number |
+
+
+### Assembler
+
+**UserAssembler**
+
+| Método  | Descripción                                  |
+|------------|----------------------------------------------|
+| toResponse   |Crea una instancia de la clase UserAuthenticatedResponse   |
 
 Backend:
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
