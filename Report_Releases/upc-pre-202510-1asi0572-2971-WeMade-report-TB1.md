@@ -4766,8 +4766,15 @@ En esta ocacion para lo que seria nuestra landing page seguimos un approach basi
 
 Esta decision fue tomada para mantener un estandar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorizacion de contenido va cambiando a medida que se llega al final de la pagina.
 
+<img src="../assets/style-guidelines/Landing.png" alt="Landing"/>
+
+
 En el caso de la aplicacion de escritorio web, (Web aplication), nos inspiramos en un sistema de widgets para organizar datos este seria un estilo matricial donde para categorizar utilizamos segun nuestros segmentos ya que no tienen las mismas caracteristicas.
 Adicionalmente a nivel de aplicacion movil se espera de que la aplicacion no tenga acceso a realizar pagos y en vez de eso rediriga al usuario a la pagina web, este modelo tiene inspiracion en como Spotify maneja sus subscripciones.
+
+<img src="../assets/style-guidelines/WebApp.png" alt="Dashboard"/>
+
+<img src="../assets/style-guidelines/Card - Small.png" alt="Card to redirect"/>
 
 
 ## 5.2.2. Labeling Systems.
@@ -4789,12 +4796,14 @@ estático (Landing Page) como Web Application
 
 Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nuevos usuarios y proporcionar información relevante sobre la landing page y la aplicación web, se incorporarán los siguientes "Meta Tags" como etiquetas HTML en las páginas principales de nuestra plataforma.
 
-```
-<title>EcoGuardian - Nurturing your future</title>
-<meta name="description" content="We take care of your plants future by innovating with technologies based on IoT giving you all the information you need.">
-<meta name="keywords" content="cuidado de plantas, monitoreo de cultivos, tecnologia para plantas, cultivos, sensores iot para plantas">
-<meta name="author" content="EcoGuardian Team">
-```
+<pre>
+<code>
+  &lt title > EcoGuardian - Nurturing your future &lt/title>
+  &lt meta name="description" content="We take care of your plants future by innovating with technologies based on IoT giving you all the information you need.">
+  &lt meta name="keywords" content="cuidado de plantas, monitoreo de cultivos, tecnologia para plantas, cultivos, sensores iot para plantas">
+  &lt meta name="author" content="EcoGuardian Team">
+</code>
+</pre>
 
 ## 5.2.4. Searching Systems.
 
@@ -4802,7 +4811,10 @@ En EcoGuardian, se implementarán sistemas de búsqueda efectivos para garantiza
 
 **Opciones de Búsqueda:**
 
-* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta.
+* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta, cabe mencionar que no es la busqueda convencional que se hace por texto, actualmente contamos con una lista de plantas para ese usuario.
+
+
+
 * Búsqueda por Parámetros Ambientales: Los usuarios podrán filtrar las plantas según su humedad, temperatura o niveles de luz actuales. Esto será útil para gestionar un grupo de plantas con condiciones similares.
 
 **Filtros Disponibles:**
