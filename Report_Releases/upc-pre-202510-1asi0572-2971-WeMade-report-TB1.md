@@ -3064,7 +3064,15 @@ alt="Consulting Component Diagram on Mobile App"/>
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
+Web App:
+
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram on API"/>
+
+Mobile App:
+
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
