@@ -4458,11 +4458,15 @@ alt="IAM Component Diagram on Mobile App"/>
 
 Web App:
 
+<img src="../assets/class-diagrams/iamWeb.png" alt="Iam Context Domain Layer Class Diagrams on Web App"/>
+
 Mobile App:
+
+<img src="../assets/class-diagrams/iamMobile.png" alt="Iam Context Domain Layer Class Diagrams on Mobile App"/>
 
 Backend:
 
-<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
+<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams on API"/>
 
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram.
 
@@ -4483,20 +4487,7 @@ Web App:
 
 |  Método                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
-| notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
-
-
-#### Model
-
-**NotificationModel**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id       | int    |
-| title     | string |
-| content     | string |
-| createdAt     | string |
-| userId     | int |
+| toResponse    | Crea una nueva instancia de la clase NotificationResponse. |
 
 
 
