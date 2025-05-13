@@ -5098,6 +5098,10 @@ Mockup de la Landing page para Desktop web browser:
 
 Mockup de la Landing page para Mobile web browser:
 
+<img src="../assets/mockups/mockuplan.png" alt="Mockup landing page"/>
+
+<img src="../assets/mockups/mockup.png" alt="Mockup landing page"/>
+
 ## 5.4. Applications UX/UI Design.
 
 Esta sección incluye secciones internas donde se presenta y explica la propuesta
@@ -5234,7 +5238,7 @@ Registro Planta Segmento Domestico:
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
 para cada User goal, considerando los User Persona para cada aplicación que forma
-parte del alcance. En este caso consideramos los mas relevantes hasta el momento:
+parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
 
 
 **Registar Usuario**
