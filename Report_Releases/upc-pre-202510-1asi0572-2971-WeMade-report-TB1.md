@@ -5102,11 +5102,11 @@ Para el desarrollo del código en HTML y CSS se decidió seguir la convención d
 
 Es fundamental que el tipo de documento se declare al inicio del archivo mediante etiquetas meta. El elemento <title> debe colocarse dentro de las etiquetas <head>. Se debe aplicar una sangría de dos espacios. Es recomendable usar minúsculas para los elementos HTML, así como para sus atributos, valores, propiedades y selectores CSS. Los atributos en HTML deben estar entre comillas, y todos los elementos deben contar con su etiqueta de cierre correspondiente. Se aconseja evitar líneas de código excesivamente largas. Además, las imágenes deben tener definidos su ancho, alto y un texto alternativo (atributo alt).
 
-En cuanto al código JavaScript, se sigue la guía de estilo de Google para Java: cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato camelCase, y los valores de tipo cadena deben ir entre comillas simples.
+En cuanto al código JavaScript, se sigue la guía de estilo de Google para C# cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato upperCamelCase, y los valores de tipo cadena deben ir entre comillas simples.
 
 Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convenciones de Gherkin para especificaciones legibles”, que implican el uso de palabras clave como “Dado”, “Cuando”, “Entonces” y “Y”, junto con una sangría específica y comentarios bien separados.
 
-Por otro lado, el código en Java debe seguir las pautas del Google Java Style Guide, que establecen reglas sobre el formato de nombres de paquetes, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
+Por otro lado, el código en C# debe seguir las pautas del Microsoft Naming Conventions, que establecen reglas sobre el formato de nombres de carpetas, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
 
 
 
