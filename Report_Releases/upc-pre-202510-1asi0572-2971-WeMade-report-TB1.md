@@ -4911,8 +4911,7 @@ principales criterios para las decisiones de interacción.
     </thead>
     <tbody>
         <tr>
-            <td>Sprint Planning Background</td>
-            <td></td>
+            <td colspan="3">Sprint Planning Background</td>
         </tr>
         <tr>
             <td>Date</td>
