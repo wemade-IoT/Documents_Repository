@@ -5480,10 +5480,8 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | f821302   | feat: add new consulting questions and update tips carousel to limit displayed queries                     |                     | 13/05/2025 2:03    |
 | <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 80b5ba9   | feat: remove unused specialist role check from analytics page                                              |                     | 13/05/2025 2:07    |
 
-
-
-
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 ### 6.2.1.6. Execution Evidence for Sprint Review.
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
