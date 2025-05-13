@@ -4730,6 +4730,10 @@ básicos como Branding, Typography, Colors y Spacing, así como las dimensiones 
 adoptar para el tono de comunicación y lenguaje aplicado (Divertido/Serio,
 Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno).
 
+<img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines"/>
+
+En este caso tenemos nuestro general style guideline donde mostramos nuestra paleta basica de colores y tipografias junto con sus tamaños. Para esta ocacion buscamos generar un tono de orden pero organico, casual o incluso en este caso natural ya que va a la par del enfoque de nuestro proyecto.
+
 
 
 ## 5.1.2. Web, Mobile and IoT Style Guidelines.
