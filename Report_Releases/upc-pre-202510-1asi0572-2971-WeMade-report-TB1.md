@@ -1799,7 +1799,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| plantEntityFromResponseAssembler     | Crea una instancia del modelo plant en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+| toResponseAssembler     | Crea una instancia de la clase PlantResponse      |
 
 
 
@@ -1809,7 +1809,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| plantationEntityFromResponseAssembler     | Crea una instancia del modelo plantation en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+| toResponseAssembler     |Crea una instancia de la clase PlantationResponse      |
 
 
 ### Response
@@ -1840,8 +1840,8 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | lightThreshold       | number             |
 | temperatureThreshold | number             |
 | areaCoverage         | number             |
-| createdAt            | Date               |
-| updatedAt            | Date               |
+| createdAt            | date               |
+| updatedAt            | date               |
 | stateId              | number             |
 
 
@@ -2338,7 +2338,7 @@ App Web:
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| metricEntityFromResponseAssembler | Crea una instancia del modelo metric en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase    |
+| toResponseAssembler | Crea una instancia de la clase MetricResponse   |
 
 
 ### Response
@@ -4053,6 +4053,12 @@ alt="IAM Component Diagram on Mobile App"/>
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+Mobile App:
+
+Backend:
 
 <img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
