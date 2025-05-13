@@ -1265,14 +1265,14 @@ Entonces la API envia la actualización del estado en tiempo real. </td>
       <td>API Autenticación JWT</td>
       <td>Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema.</td>
       <td>Escenario 1: Autenticación exitosa <br>
-Dado que el usuario está en la página de inicio de sesión <br>
-Cuando ingresa sus credenciales correctamente <br>
-Entonces el sistema debe devolver un token JWT válido.
+Dado que el developer inicia el proceso de autenticación <br>
+Cuando realiza pruebas sobre la funcionalidad de autenticación <br>
+Entonces el sistema devuelve un token de acceso.
 <br> <br>
 Escenario 2: Renovación de token <br>
-Dado que el token JWT está por expirar <br>
-Cuando el usuario continúa utilizando el sistema <br>
-Entonces se genera automáticamente un nuevo token válido. </td>
+Dado que el token de acceso esta por expirar <br>
+Cuando el tiempo de uso del token llega a su límite <br>
+Entonces se renueva el tiempo de uso. </td>
       <td>EP02</td>
     </tr>
     <tr>
