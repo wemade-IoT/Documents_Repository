@@ -2694,20 +2694,6 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | question_answer       | string   |
 
 
-## Service
-
-**ConsultsService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
-| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
-| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
-| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
-| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
-
 
 Mobile App:
 
@@ -2791,20 +2777,6 @@ Representa la solicitud de envio de respuesta por usuario.
 | userId     | int    |
 | questionsId| int    |
 
-
-## Service
-
-**ConsultsService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
-| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
-| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
-| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
-| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
 
 
 Backend:
@@ -3026,10 +2998,42 @@ Backend:
 #### 4.2.3.4. Infrastructure Layer.
 
 App Web:
-- No aplica para este caso
+
+
+## Service
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
 
 Mobile:
-- No aplica para este caso
+
+
+## Service
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
 
 Backend:
 
