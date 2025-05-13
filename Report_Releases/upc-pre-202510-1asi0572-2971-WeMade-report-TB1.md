@@ -4940,7 +4940,48 @@ principales criterios para las decisiones de interacción.
 
 ## 6.1. Software Configuration Management.
 
+En los siguientes puntos, detallaremos las herramientas, convenciones, referencias y configuraciones empleadas a lo largo del desarrollo del proyecto, los cuales contribuyeron a mantener la base en el trabajo realizado.
+
+
+
 ## 6.1.1. Software Development Environment Configuration.
+Figma: https://www.figma.com/
+
+Es una herramienta visual, donde diseñamos el prototipo de la pagina web. Se usó para crear los wireframes, mock-ups, asi como los desktop and mobile application del proyecto.
+
+LucidChart: https://lucid.app/
+
+Es una plataforma, la cual tiene opciones que nos ayudaron en la creación de diagramas, mapas y flujos usando plantillas y tableros. Fue usado para la creación del event storming
+
+PlantText: https://www.planttext.com/
+
+Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
+
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+
+Frontend Web Applications
+
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Esta plataforma permite el modelado de diagramas de arquitectura de software. Se usó para la creación de los diagramas C4
+
+
+
+
 
 ## 6.1.2. Source Code Management.
 
