@@ -5011,6 +5011,18 @@ para cada User goal, considerando los User Persona para cada aplicación que for
 parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
 cuales se derivan.
 
+**Registar Usuario**
+<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app"/>
+
+**Registar Planta**
+<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app"/>
+
+**Editar Planta**
+<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app"/>
+
+**Eliminar Planta**
+<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app"/>
+
 ## 5.5. Applications Prototyping.
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
 simulación de interacción y navegación, acorde con la propuesta de paths de User
