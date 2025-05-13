@@ -5108,6 +5108,10 @@ Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convencio
 
 Por otro lado, el código en C# debe seguir las pautas del Microsoft Naming Conventions, que establecen reglas sobre el formato de nombres de carpetas, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
 
+Asimismo, para el desarrollo en C++ se aplican las convenciones de Google C++ Style Guide. Estas incluyen el uso de CamelCase para nombres de clases y snake_case para variables, funciones y archivos. Se deben emplear nombres descriptivos, evitar abreviaturas innecesarias y mantener una sangría consistente, generalmente de dos espacios.
+
+Finalmente, en el caso del lenguaje Dart, se siguen las convenciones establecidas en la Effective Dart Style Guide, donde se emplea lowerCamelCase para variables, funciones y parámetros; y UpperCamelCase para nombres de clases, tipos y enumeraciones. Los archivos deben usar snake_case, y se sugiere evitar líneas largas para mantener una coherencia en la sangria.
+
 
 
 ## 6.1.4. Software Deployment Configuration.
