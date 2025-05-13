@@ -4369,12 +4369,56 @@ Backend:
 # Capítulo V:  Solution UI/UX Design
 
 ## 5.1. Style Guidelines.
+
+En esta sección, el equipo sienta las bases para contar con un repositorio central y
+organizado de uso común para todo el equipo, que incluye assets, fonts, etc. Esto
+con el fin de mantener una presentación consistente y enfocada. Se incluye
+18/41 V1.0
+secciones para General Style Guidelines, Web Style Guidelines y Mobile Style
+Guidelines.
+
 ## 5.1.1. General Style Guidelines.
+
+Aquí se explica las decisiones y referencias visuales sobre conceptos generales
+básicos como Branding, Typography, Colors y Spacing, así como las dimensiones a
+adoptar para el tono de comunicación y lenguaje aplicado (Divertido/Serio,
+Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno).
+
+
 ## 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+En esta sección se explica e ilustra las decisiones sobre los estándares visuales y de
+interacción para responsive web interfaces y las interfaces en mobile application
+interfaces y IoT application user interface.
+
 ## 5.2. Information Architecture.
+
+En esta sección el equipo plantea las decisiones y sustento que dirigen la manera
+como se organizará el contenido en las experiencias web y móvil, incluyendo las
+Landing Page y las Aplicaciones. Dichas propuestas deben estar orientadas a que los
+visitantes y usuarios se adapten con facilidad a la funcionalidad de cada producto y
+puedan encontrar todo aquello que necesiten sin esfuerzo. Se incluyen las decisiones
+sobre los Organization Systems, Labeling Systems, Navigation Systems y Searching
+Systems
+
 ## 5.2.1. Organization Systems.
+En esta sección el equipo explica en qué grupos de información aplicará cuáles
+sistemas de organización. Aquí se incluye la explicación de en qué casos se aplicará la
+organización visual del contenido: de forma jerárquica (visual hierarchy),
+organización secuencial (step-by-step to accomplish) o matricial. Por otro lado,
+también se debe explicar en qué casos se utilizará qué esquemas de categorización
+de contenido: alfabético, cronológico, por tópicos, según audiencia (grupos de
+usuarios).
+
+
 ## 5.2.2. Labeling Systems.
+En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para
+representar los conjuntos de información y las asociaciones4 entre las mismas.
+
 ## 5.2.3. SEO Tags and Meta Tags
+En esta sección se incluyen los SEO Tags y Meta Tags junto con los valores que
+asignará en las principales páginas de la experiencia tanto a nivel del sitio web
+estático (Landing Page) como Web Application
 
 Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nuevos usuarios y proporcionar información relevante sobre la landing page y la aplicación web, se incorporarán los siguientes "Meta Tags" como etiquetas HTML en las páginas principales de nuestra plataforma.
 
@@ -4386,18 +4430,71 @@ Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nu
 ```
 
 ## 5.2.4. Searching Systems.
+
+En esta sección el equipo explica qué medios de ayuda se brindará al usuario para la
+búsqueda de datos dentro del producto digital. Dichas decisiones sobre los sistemas
+de búsqueda tratan de evitar que los usuarios se sientan perdidos entre el volumen
+de información
+
 ## 5.2.5. Navigation Systems.
+
+Aquí el equipo explica cuáles serán las acciones y técnicas que guiarán a los usuarios
+a través del Landing Page y las aplicaciones, permitiéndoles cumplir sus metas e
+interactuar de forma satisfactoria con el producto. Aquí se debe incluir de qué
+maneras los usuarios irán recorriendo el contenido.
+
+
 ## 5.3. Landing Page UI Design.
+
+En esta sección el equipo elabora la propuesta de UI para el Landing Page. La sección
+inicia con una introducción en la que el equipo explica cómo traduce las decisiones
+de diseño y arquitectura de información.
+
 ## 5.3.1. Landing Page Wireframe.
+
+Esta sección incluye una sección interna donde se presenta y explica los Wireframes
+del Landing Page para Desktop Web Browser y Mobile Web Browser
+
 ## 5.3.2. Landing Page Mock-up.
+
+Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
+para Desktop Web Browser como Mobile Web Browser.
+
 ## 5.4. Applications UX/UI Design.
+
+Esta sección incluye secciones internas donde se presenta y explica la propuesta
+visual y de interacción para las aplicaciones que constituyen la experiencia de
+usuario con los productos digitales.
+
 ## 5.4.1. Applications Wireframes.
+
+Esta sección incluye una sección interna donde se presenta y explica los Wireframes
+de las aplicaciones móviles.
+
 ## 5.4.2. Applications Wireflow Diagrams.
+
+Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
+para cada User goal, considerando los User Persona para cada aplicación que forma
+parte del alcance.
+
 ## 5.4.2. Applications Mock-ups.
+
+Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
+diseño inclusivo y arquitectura de información, así como el Design System
+establecido para los productos digitales.
+
 ## 5.4.3. Applications User Flow Diagrams.
+
+Esta sección presenta la propuesta de User Flows. Se considera un User Flow
+para cada User goal, considerando los User Persona para cada aplicación que forma
+parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
+cuales se derivan.
+
 ## 5.5. Applications Prototyping.
-
-
+Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
+simulación de interacción y navegación, acorde con la propuesta de paths de User
+Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
+principales criterios para las decisiones de interacción.
 
 # Conclusiones
 
