@@ -4879,8 +4879,17 @@ usuario con los productos digitales.
 
 ## 5.4.1. Applications Wireframes.
 
-Esta sección incluye una sección interna donde se presenta y explica los Wireframes
-de las aplicaciones móviles.
+**Web Applicaction:**
+
+Management Register Plant section wireframe: 
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-2.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-3.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-4.png" alt="wireframe web app"/>
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
