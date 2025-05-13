@@ -4912,6 +4912,8 @@ Management Edit Plant section Wireframe:
 
 <img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app"/>
 
+<br>
+
 Management Business Register Plant Wireframe: 
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app"/>
@@ -4920,12 +4922,15 @@ Management Business Register Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app"/>
 
+<br>
+
 Management Business Edit Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app"/>
 
-
 <img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app"/>
+
+<br>
 
 Management Delete Plant Wireframe:
 
@@ -4934,6 +4939,16 @@ Management Delete Plant Wireframe:
 <img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app"/>
 
 <img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app"/>
+
+<br>
+
+Consulting Dashboard Wireframe:
+
+<img src="../assets/wireframes/Consulting Dashboard.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe web app"/>
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
