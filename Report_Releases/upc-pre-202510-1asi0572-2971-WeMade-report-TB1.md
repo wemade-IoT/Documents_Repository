@@ -4843,15 +4843,25 @@ En esta sección el equipo elabora la propuesta de UI para el Landing Page. La s
 inicia con una introducción en la que el equipo explica cómo traduce las decisiones
 de diseño y arquitectura de información.
 
-## 5.3.1. Landing Page Wireframe.
+### 5.3.1. Landing Page Wireframe.
 
 Esta sección incluye una sección interna donde se presenta y explica los Wireframes
 del Landing Page para Desktop Web Browser y Mobile Web Browser
+
+Wireframes de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page"/>
+
+Wireframes de la Landing page para Mobile web browser:
 
 ## 5.3.2. Landing Page Mock-up.
 
 Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
 para Desktop Web Browser como Mobile Web Browser.
+
+Mockup de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page"/>
+
+Mockup de la Landing page para Mobile web browser:
 
 ## 5.4. Applications UX/UI Design.
 
@@ -4903,68 +4913,80 @@ principales criterios para las decisiones de interacción.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
-## 6.2.X. Sprint n
-### 6.2.X.1. Sprint Planning n.
+## 6.2.1. Sprint 1
+### 6.2.1.1. Sprint Planning 1.
 
 <table border="1">
     <thead>
         <tr>
             <th>Sprint #</th>
-            <th>Sprint n</th>
+            <th>Sprint 1</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Sprint Planning Background</td>
-            <td></td>
+            <td colspan="3">Sprint Planning Background</td>
         </tr>
         <tr>
             <td>Date</td>
-            <td>YYYY-MM-DD</td>
+            <td> 2025-04-28</td>
         </tr>
         <tr>
             <td>Time</td>
-            <td>HH:MM AM/PM</td>
+            <td>19:20 PM</td>
         </tr>
         <tr>
             <td>Location</td>
-            <td>Descripción de la ubicación de la reunión, física o virtual</td>
+            <td> La reunión se realizo virtualmente via Discord </td>
         </tr>
         <tr>
             <td>Prepared By</td>
-            <td>Jiménez Rosas, Arturo Eduardo</td>
+            <td> Ramirez Hoffman, Sebastian</td>
         </tr>
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Jiménez Rosas, Arturo Eduardo / Rodríguez Peña, Jorge Andrés / …</td>
+            <td>Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro</td>
         </tr>
         <tr>
             <td>Sprint n – 1 Review Summary</td>
-            <td>Resumen del Sprint anterior, en términos de resultados alcanzados a nivel de productos de software, opiniones de miembros y feedback de product owner.</td>
+            <td>No aplica</td>
         </tr>
         <tr>
             <td>Sprint n – 1 Retrospective Summary</td>
-            <td>Resumen del Sprint anterior, en términos de opiniones de miembros del equipo sobre aciertos u oportunidades de mejora en su forma de trabajo</td>
-        </tr>
-        <tr>
-            <td>Sprint Goal & User Stories</td>
-            <td></td>
+            <td>No aplica</td>
         </tr>
         <tr>
             <td>Sprint n Goal</td>
-            <td>Definir el Goal del Sprint n y la métrica de cumplimiento.</td>
+            <td> El objetivo de este sprint es alcanzar al menos 100 usuarios interesados en nuestra solución en un plazo de 2 semanas. Para lograrlo, desarrollaremos un sitio web informativo que permita a los visitantes conocer los beneficios de nuestra propuesta y los motive a convertirse en suscriptores.
+            </td>
         </tr>
         <tr>
             <td>Sprint n Velocity</td>
-            <td>Definir el Velocity establecido para el Sprint n, es decir cuántos Story Points puede aceptar el equipo para este Sprint n.</td>
+            <td> 8 </td>
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>Colocar la suma de los Story Points para los User Stories que se están incluyendo en este Sprint n.</td>
+            <td>0</td>
         </tr>
     </tbody>
 </table>
 
+### 6.2.1.2. Aspect Leaders and Collaborators.
+En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
+Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el
+fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+Los aspectos que se tomaron en cuenta fueron en base a los bounded context identificados para la solución. 
+
+| Team Member (Last Name, First Name) | GitHub Username       | Management | Analytics | Consulting | Subscription | Payment | Automation | Installation | IAM    | Notifications |
+|-------------------------------------|-----------------------|------------|-----------|------------|--------------|---------|------------|--------------|--------|---------------|
+| Huilca Chipana, Gustavo             | &nbsp;GustavoHuilca31 | C          | **L**     | C          | &nbsp;       | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Jave Diaz Mathias Alejandro         | &nbsp;LordMathi2741   | **L**      | C         | &nbsp;     | C            | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Esteban Garcia Nicolas Sebastian    | &nbsp;Nekolas777      | C          | &nbsp;    | &nbsp;     | **L**        | C       | &nbsp;     | **L**        | &nbsp; | &nbsp;        |
+| Luna Capuñay Italo D'alessandro     | &nbsp;tatoft          | &nbsp;     | &nbsp;    | **L**      | &nbsp;       | C       | &nbsp;     | C            | &nbsp; | &nbsp;        |
+| Kunimoto Watanabe Mathias Tsuneo    | &nbsp;Kuni2005        | &nbsp;     | C         | &nbsp;     | &nbsp;       | **L**   | &nbsp;     | &nbsp;       | C      | C             |
+| Ramirez Hoffmann Sebastian          | &nbsp;SEBRH           | &nbsp;     | &nbsp;    | C          | C            | &nbsp;  | &nbsp;     | &nbsp;       | **L**  | C             |
+| Peña Rivera Manuel Sebastian        | &nbsp;U202210138      | &nbsp;     | &nbsp;    | &nbsp;     | &nbsp;       | &nbsp;  | **L**      | C            | C      | **L**         |
 
 # Conclusiones
 
