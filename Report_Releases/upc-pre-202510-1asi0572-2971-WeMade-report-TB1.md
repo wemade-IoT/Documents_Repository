@@ -5073,6 +5073,8 @@ Esta sección incluye secciones internas donde se presenta y explica la propuest
 visual y de interacción para las aplicaciones que constituyen la experiencia de
 usuario con los productos digitales.
 
+
+
 ## 5.4.1. Applications Wireframes.
 
 **Web Applicaction:**
@@ -5201,11 +5203,24 @@ Registro Planta Segmento Domestico:
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
 para cada User goal, considerando los User Persona para cada aplicación que forma
-parte del alcance. En este caso consideramos los mas relevantes:
+parte del alcance. En este caso consideramos los mas relevantes hasta el momento:
 
+
+**Registar Usuario**
+<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app"/>
+
+**Registar Planta**
+<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app"/>
+
+**Editar Planta**
+<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app"/>
+
+**Eliminar Planta**
+<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app"/>
 
 
 ## 5.4.2. Applications Mock-ups.
+
 
 
 Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
@@ -5281,23 +5296,26 @@ para cada User goal, considerando los User Persona para cada aplicación que for
 parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
 cuales se derivan.
 
-**Registar Usuario**
-<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app"/>
+En este caso los user flow que definimos serian:
 
-**Registar Planta**
-<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app"/>
+Business: Proceso de pagos pendientes facturados
+<img src="../assets/wireframes/userflow2.png" alt="wireframe web app"/>
 
-**Editar Planta**
-<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app"/>
+Domestico: Registrar una planta comun
+<img src="../assets/wireframes/userflow3.png" alt="wireframe web app"/>
 
-**Eliminar Planta**
-<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app"/>
+Especialista: Proceso de notificacion de problemas
+<img src="../assets/wireframes/userflow1.png" alt="wireframe web app"/>
 
 ## 5.5. Applications Prototyping.
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
 simulación de interacción y navegación, acorde con la propuesta de paths de User
 Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
 principales criterios para las decisiones de interacción.
+
+<img src="../assets/mockups/prototype.png" alt="wireframe web app"/>
+
+link del figma: <a href = "https://www.figma.com/proto/0rjyzCalexoZmteQjXHSJl/Web-App?node-id=170-8218&p=f&t=oP3jf47NVjYvxxG8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=170%3A8218&show-proto-sidebar=1"> Link Figma </a>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -5401,6 +5419,9 @@ Finalmente, en el caso del lenguaje Dart, se siguen las convenciones establecida
 
 
 ## 6.1.4. Software Deployment Configuration.
+
+Para la configuracion de Landing Page y Web Aplication se hace uso de vercel y netlify.
+Como configuraciones se hace mencion de hacer un despliegue local al jsonServer para validar cierta data y hacer el efecto de mock de la data, en futuras entregas cuando tengamos una base de datos definida dejaremos de lado esa configuracion.
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -5570,14 +5591,49 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
 ### 6.2.1.6. Execution Evidence for Sprint Review.
+En nuestro video de exposicion se muestra la Demo de nuestra solucion de todas maneras se muestra evidencia de la solucion y una de sus vistas
+
+<img src="../assets/exec-evidence/Evidence.png" alt="Execution evidence"/>
+
+
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
+
+<img src="../assets/exec-evidence/evidence-docs.png" alt="Documentation Services evidence"/>
+
+
+
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.
+
+<img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence"/>
+
+<img src="../assets/exec-evidence/evidence-deploy-lan.png" alt="Deploy Lan evidence"/>
+
+
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page
+
+En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.
+<img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence"/>
+
+Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.
+<img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence"/>
+
+
+
 
 
 # Conclusiones
 
 <br>**TB1**: En esta TB1 realizamos un proceso preliminar al desarrollo de software concretando procesos importantes tales como las investigaciones y planteamiento de solución. Adicionalmente, se realiza el diseño de la arquitectura y una idea robusta del funcionamiento de la aplicación.
+
+<br>**TP**: En esta TP realizamos el diseño y desarrollo de ambas nuestra landing page y aplicacion web para nuestra solucion. Adicionalmente corregimos observaciones de la entrega anterior y optamos en continuar este proceso de mejora continua.
 
 # Conclusiones y recomendaciones.
 
