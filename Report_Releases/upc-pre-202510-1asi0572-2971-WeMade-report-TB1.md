@@ -17,6 +17,7 @@
 #### Product: **EcoGuardian**
 
 </center>
+
 # Team Members:
 
 <div align="center">
@@ -35,22 +36,165 @@
 
 # Registro de Versiones del Informe
 
-<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- TB1 -->
+    <tr>
+      <td rowspan="7">TB1</td>
+      <td>29/03/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Antecedentes y Problemática</li>
+          <li>User stories</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Lean UX Process</li>
+          <li>Product Backlog</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Ubiquitous Language</li>
+          <li>Definición de Métricas UX</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>User Journey Mapping</li>
+          <li>Impact Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>As-is Scenario Mapping</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>User Task Matrix</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Segmentos Objetivos</li>
+          <li>User Persona</li>
+          <li>Análisis Entrevistas</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>29/03/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Análisis Competitivo</li>
+          <li>Estrategias Frente a Competidores</li>
+          <li>Empathy Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="7">TP</td>
+      <td>12/05/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Software Development Environment & Deployment Configuration</li>
+          <li>Navigation & Searching Systems</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Source Code Style Guides and Management</li>
+          <li>Organizations & Labelling System</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Wireframes & Wireflow</li>
+          <li>Landing Page, Wireframe & Mockups</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Prototyping, Wireframe & Wireflow</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>General Style Guidelines</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Web Applications</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-
-| Versión | Fecha       | Autor                                              | Descripción de modificación                                                                                               |
-|---------|-------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 3/04/2025  | Nicolas Sebastian Esteban Garcia     | Redacción de antecedentes y revisiones del documento. |
-| TB1     | 8/04/2025  | Sebastian Ramirez Hoffmann           | Revisión completa del Lean UX Canvas.            |
-| TB1     | 12/04/2025  | Gustavo Huilca Chipana               | Revisión preliminar del diseño y segmentación de User Personas y de las entrevistas.                |
-| TB1     | 19/03/2025  | Mathias Alejandro Jave Diaz        | Registro de event storming y revisión del desarrollo de diagramas técnicos y la estructura de arquitectura propuesta. |
-| TB1     | 21/03/2025  | Manuel Sebastian Peña Rivera          | Revisión preliminar de diagramas y registro de reuniones finales.           |
-| TB1     | 22/03/2025  | Mathias Tsuneo Kunimoto Watanabe     | Revisiones finales del modelado de bounded contexts, definición de dominios funcionales, diseño de flujos de valor y responsabilidades por servicio.  |
-| TB1     | 24/03/2025  | Italo D'alessandro Luna Capuñay      | Revisiones finales del informe y generación de documento a pdf             |
-
-
-
-</div>
 
 # Project Report Collaboration Insights
 
@@ -73,6 +217,37 @@ Se muestran evidencias de los commits realizados en la entrega de la TB1 en el i
 [Registro de los commits donde se realizaron la mayor cantidad]
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
+
+### TP
+
+Para la entrega del **Trabajo Parcial (TP)** se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia, y como grupo nos dedicamos a mantener una frecuencia de *commits* y cambios proyectada a ser óptima a futuro.
+
+Se muestran evidencias de los *commits* realizados en la entrega del TP en el informe.
+
+<img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
+*Colaboraciones generales del repositorio*
+
+<img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
+*Registro de los commits generales donde se realizaron la mayor cantidad*
+
+En ambos casos se puede observar el incremento de modificaciones y revisiones en los días miércoles, y una cantidad mayor de cambios que commits. A continuación, se desglosa el trabajo realizado específicamente en la **landing page** y en la **aplicación web**:
+
+#### Landing Page
+
+<img src="../assets/inisghts/tp/landing.png" alt="Colaboraciones Landing Page">  
+*Colaboraciones realizadas en el diseño y maquetación de la landing page*
+
+<img src="../assets/inisghts/tp/landing-commits.png" alt="Commits Landing Page">  
+*Commits asociados al desarrollo visual y estructural de la landing page*
+
+#### Aplicación Web
+
+<img src="../assets/inisghts/tp/webapp-insights.jpeg" alt="Colaboraciones Webapp">  
+*Colaboraciones en el diseño y construcción de componentes funcionales de la aplicación web*
+
+<img src="../assets/inisghts/tp/webapp-commmits.jpeg" alt="Commits Webapp">  
+*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*
+
 
 ---
 
@@ -231,7 +406,47 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)     
 [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)     
 [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)     
-[4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)     
+[4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
+
+[Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui/ux-design)
+
+[5.1. Style Guidelines](#51-style-guidelines)      
+[5.1.1. General Style Guidelines](#511-general-style-guidelines)        
+[5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)          
+[5.2. Information Architecture](#52-information-architecture)      
+[5.2.1. Organization Systems](#521-organization-systems)      
+[5.2.2. Labeling Systems](#522-labeling-systems)       
+[5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)      
+[5.2.4. Searching Systems](#524-searching-systems)      
+[5.2.5. Navigation Systems](#525-navigation-systems)      
+[5.3. Landing Page UI Design](#53-landing-page-ui-design)      
+[5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)      
+[5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)      
+[5.4. Applications UX/UI Design](#54-applications-uxui-design)      
+[5.4.1. Applications Wireframes](#541-applications-wireframes)      
+[5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)      
+[5.4.2. Applications Mock-ups](#542-applications-mock-ups)      
+[5.4.3. Applications User Flow Diagrams](#543-applications-user-flow-diagrams)
+[5.5. Applications Prototyping](#55-applications-prototyping) 
+       
+[Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+
+[6.1. Software Configuration Management](#61-software-configuration-management)      
+[6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)        
+[6.1.2. Source Code Management](#612-source-code-management)       
+[6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)       
+[6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)          
+[6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)       
+[6.2.1. Sprint 1](#621-sprint-1)      
+[6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)      
+[6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)      
+[6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)      
+[6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)     
+[6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)     
+[6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)     
+[6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)     
+[6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)     
+[6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)        
              
 
 [Conclusiones](#conclusiones)
@@ -254,10 +469,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 5.
 
-| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones** |
-|-------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Mathias Alejandro Jave Diaz** <br>**TB1:**<br> Durante este avance del proyecto, participé activamente en reuniones presenciales y virtuales, donde contribuí con ideas clave para definir el flujo de negocio, fomentando así la claridad y el consenso entre todos los miembros del equipo. También participle activamente en la elaboración de la arquitectura de software y en el diseño táctico siguiendo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante el avance de esta entrega, asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog. <br><br>**Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas. <br><br>**Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. <br><br>**Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión. <br><br>**Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**. | Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante este avance del proyecto, fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, aseguramos que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br><br><br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos. <br><br>**Italo D'Alessandro Luna Capuñay**<br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
+| **Criterio Específico**                                                                         | **Acciones Realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Conclusiones**                                                                                                                                                                                                                                                                                   |
+|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                 | **Mathias Alejandro Jave Diaz** <br>**TB1:**<br> Durante este avance del proyecto, participé activamente en reuniones presenciales y virtuales, donde contribuí con ideas clave para definir el flujo de negocio, fomentando así la claridad y el consenso entre todos los miembros del equipo. También participle activamente en la elaboración de la arquitectura de software y en el diseño táctico siguiendo los principios de Domain Driven Design. <br> **TP** <br> Durante el desarrollo de este avance del proyecto, participé activamente en el desarrollo de la arquitectura de nuestra solución, teniendo en cuenta los enfoques de aplicación web, móvil y backend. También fomenté el cumplimiento de buenas prácticas a nivel de arquitectura y tome la iniciativa de brindar alcances a mi equipo sobre la distribución de lógica en la aplicación web.<br><br> **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante el avance de esta entrega, asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog. <br>**TP:**<br> A lo largo del desarrollo del proyecto, trabajé en equipo asumiendo un rol activo en la toma de decisiones y promoviendo el liderazgo compartido entre los integrantes. En distintas etapas, cada miembro lideró según sus competencias, lo que permitió una gestión eficiente del tiempo y los recursos. Personalmente, guié al equipo en el diseño de la landing page y la propuesta visual del prototipo web, coordinando ideas y fomentando un ambiente de respeto y participación equitativa. Esta dinámica fortaleció la colaboración, permitiendo alcanzar los objetivos planteados. <br><br>**Manuel Sebastian Peña Rivera** <br>**TB1:**<br> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas. <br> **TP:** <br> Mi principal enfoque fue en la creación de los wireframes y mockups tanto para la landing page como para el frontend. Además, participé activamente en la implementación de la estructura del sitio, desarrollando el footer y colaborando en la barra de navegación (navbar). Asistí a las reuniones del equipo, brindando apoyo en la coordinación de tareas y asegurándome de que todos tuviéramos claro el diseño y la arquitectura a seguir, evitando malentendidos y garantizando que el flujo de trabajo fuera eficiente <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas. <br>**TP:**<br> En este entregable, contribuí de forma significativa al diseño y configuración del entorno de despliegue del sistema. También participé en la coordinación del equipo y brindé apoyo a mis compañeros durante la implementación de las aplicaciones web. <br><br>**Mathias Kunimoto** <br>**TB1:**<br> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo completo del **Bounded Context de Installation** y del **Bounded Context Canvas**. <br><br>**Gustavo Huilca Chipana** <br>**TB1:**<br> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión.<br>**TP:**<br> En este avance del proyecto, trabajé en equipo, priorizando la comunicación entre los miembros para la correcta coordinación del desarrollo de la Landing Page y de la Aplicación Web, intentando evitar malentendidos y dejando muy en clara la arquitectura que debemos seguir.<br><br>**Sebastian Ramirez Hoffmann** <br>**TB1:**<br> En esta entrega realicé trabajo en equipo participando en diversas reuniones grupales que tuvimos a lo largo del desarrollo de la entrega. Adicionalmente, ayudé a proporcionar liderazgo al asignar distintas responsabilidades a mis compañeros en distintas secciones como **Domain Message Flows** o **Lean UX Process**. <br> **TP:** <br> En esta entrega siento que he trabajado en conjunto con mis demas compañeros de equipo de manera efectiva participando en reuniones micro sprint para organizar nuestros avances y segmentando el grupo en equipos de trabajo para optimizar el desarrollo. Siento que aporte liderazgo al grupo al asignar a mis compañeros a grupos de trabajo enfocados a un conjunto de tareas. | Como grupo logramos cumplir con el criterio al demostrar liderazgo compartido durante todo el desarrollo del proyecto. Cada integrante aportó activamente en la toma de decisiones. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **Mathias Alejandro Jave Diaz**<br>**TB1:**<br> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br> **TP**<br> Durante el desarrollo de este avance del proyecto, fomenté un entorno colaborativo e inclusivo en el equipo, promoviendo la participación activa de cada integrante en la revisión y análisis de la arquitectura propuesta. Además, participé en la definición conjunta de los objetivos para la aplicación web, contribuyendo en la planificación de tareas y asegurando el cumplimiento de los entregables establecidos para esta etapa. <br><br>  **Nicolas Sebastian Esteban García** <br>**TB1:**<br> Durante este avance del proyecto, fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, aseguramos que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br><br><br>**TP:**<br> Durante el desarrollo del proyecto, participé activamente en el diseño de la landing page y del prototipo de la aplicación web, colaborando con mi equipo en sesiones de diseño y toma de decisiones conjuntas. Establecimos metas claras, planificamos tareas mediante herramientas colaborativas y asignamos responsabilidades de acuerdo con las habilidades de cada integrante. Se promovió un entorno inclusivo donde todos pudieron aportar ideas, fortaleciendo la comunicación y el liderazgo compartido. La coordinación efectiva permitió cumplir con los objetivos dentro del plazo establecido..<br><br>**Manuel Sebastian Peña Rivera**<br>**TB1:**<br> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecía un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.<br> **TP:** <br> En este avance contribuí en la planificación y definición de metas, asegurándome de que el desarrollo de la landing page se realizara de manera organizada. Al colaborar en el diseño de los wireframes y mockups, así como en la construcción del footer y navbar, ayudé a cumplir los objetivos planteados, siempre respetando los plazos y trabajando de manera coordinada con mis compañeros. <br><br>**Italo D'Alessandro Luna Capuñay** <br>**TB1:**<br> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design. <br>**TP:**<br> En esta entrega, fomenté la colaboración dentro del equipo, participando activamente en la planificación y coordinación de tareas técnicas vinculadas al entorno de desarrollo y al proceso de despliegue. Asimismo, aseguré una comunicación constante con el equipo para cumplir con los objetivos en los plazos establecidos. <br><br>**Mathias Kunimoto**<br>**TB1:**<br> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto. <br>**TP:**<br> En esta etapa, contribuí al trabajo en equipo facilitando la organización y distribución de tareas relacionadas con el entorno de desarrollo y el proceso de despliegue. También mantuve una comunicación fluida con los demás integrantes para garantizar que los objetivos se alcanzaran dentro de los tiempos acordados. <br><br>**Gustavo Huilca Chipana**<br>**TB1:**<br> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso. <br>**TP:**<br> En este avance, hice uso de nuevas herramientas para la distribución de partes en el reporte y los productos a entregar a través de la división por aspectos, asignando líderes y colaboradores en cada aspecto. <br><br>**Sebastian Ramirez Hoffmann**<br>**TB1:**<br> En esta entrega fui participe en la creación de un entrono colaborativo e inclusivo ofreciéndole la oportunidad a mis compañeros a expresarse y compartir sus ideas asimismo como la planificación activa de tareas apoyando con los procesos de repartición de responsabilidades en las reuniones grupales y cumpliendo los objetivos propuestos. <br> **TP:** <br> En esta entrega fomentamos la inclusividad en el trabajo grupal al permitir todo tipos de ideas para ser integradas al proyecto, nosotros como equipo planificamos tareas para dividirnos y trabajar colaborativamente.Adicionalmente establecimos metas para el sprint de esta entrega. | El equipo de trabajo logra cumplir con los objetivos propuestos, la planificación de tareas y el establecimiento de tareas junto con la forestación de un ambiente colaborativo satisfactoriamente logrando estos criterios en las reuniones grupales y en el proceso de desarrollo del documento. |
 
 
 
@@ -801,9 +1016,18 @@ Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de 
 **Segmento 1: (Domestico):**
 
 Estadísticas y Aspectos comunes:
-Todos los participantes de la encuesta cuentan con conocimientos basicos - intermedios del cuidado de plantas.
-33% de los participantes comentan la necesidad de un calendario para saber de que momento es el adecuado para el regado de las plantas.
-100% de los participantes concuerdan que una aplicacion que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
+Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
+
+33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
+
+100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
+
 Necesidades comunes:
 
 - Calendario personalizado para el cuidado de plantas.
@@ -814,22 +1038,37 @@ Necesidades comunes:
 
 - Recomendaciones personalizadas para el cuidado de plantas.
 
+<img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
+
+<img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
-- Frecuencia de cuidado: Interdiaria o según condiciones climáticas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
+
+- Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
+
+<img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Pasión por el cuidado de plantas como hobby.
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 
-
+<img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
 
 **Segmento 2: (Negocios)**
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
+
+<img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
+
 33% comenta una dificultad con pestes.
+
+<img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
 
 
 Desafíos comunes:
@@ -838,35 +1077,55 @@ Desafíos comunes:
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
 
+<img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
+
+<img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
+
+<img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
 
+<img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+
 **Segmento 3: (Especialistas)**
 Estadísticas y Aspectos comunes:
-100% de los participantes piensan que la data adicional ayuda en la efficiencia de las recomendaciones.
-Ambos entrevistados creen que una aplicacion que les de informacion puede ser una herramienta llamativa.
-Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnostico inicial.
-50% piensa que una capacitacion basica ayudaria mucho.
+100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
+Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
+Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al diagnóstico inicial.
+50% piensa que una capacitación básica ayudaría mucho.
+
+<img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
 
+<img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
+
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
+
+<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
+
+<img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+
+
 
 ## 2.3. Needfinding.
 
@@ -1194,7 +1453,7 @@ Entonces el sistema debe aplicar automáticamente un descuento al primer sensor.
 Escenario 2: Visualización del descuento en factura <br>
 Dado que se ha aplicado el descuento <br>
 Cuando el usuario revisa su factura <br>
-Entonces puede ver claramente el monto descontado y el precio final. </td>
+Entonces visualiza el monto descontado y el precio final. </td>
       <td>EP05</td>
     </tr>
     <tr>
@@ -1204,7 +1463,7 @@ Entonces puede ver claramente el monto descontado y el precio final. </td>
       <td>Escenario 1: Confirmación de instalación incluida <br>
 Dado que el usuario selecciona el plan doméstico <br>
 Cuando completa su compra <br>
-Entonces el sistema debe mostrar que la instalación de los sensores está incluida en el precio <br>
+Entonces el sistema muestra que la instalación de los sensores está incluida en el precio <br>
 Y no habrá cargos adicionales.
 <br> <br>
 Escenario 2: Programación de instalación <br>
@@ -1218,10 +1477,10 @@ Entonces puede seleccionar una fecha para la instalación sin costos adicionales
       <td>Instalación agregada al costo del servicio</td>
       <td>Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación.</td>
       <td>Escenario 1: Cálculo automático de instalación <br>
-Dado que el usuario ha seleccionado el número de sensores <br>
+Dado que el usuario selecciona el número de sensores <br>
 Y el área de las plantas <br>
 Cuando el sistema calcula el precio total <br>
-Entonces el costo de instalación debe ser agregado automáticamente al costo total del servicio <br>
+Entonces el costo de instalación se agrega automáticamente al costo total del servicio <br>
 Y debe ser visible en la factura. <br>
 <br> <br>
 Escenario 2: Personalización de instalación <br>
@@ -1231,13 +1490,13 @@ Entonces el sistema recalcula el costo de instalación acorde a las necesidades.
       <td>EP05</td>
     </tr>
     <tr>
-      <td>HU10</td>
+      <td>TS01</td>
       <td>Integración de sensores IoT</td>
       <td>Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas.</td>
       <td>Escenario 1: Conexión exitosa de sensores <br>
 Dado que los sensores están configurados <br>
 Cuando se recibe la señal de los sensores <br>
-Entonces los datos deben ser enviados correctamente a la plataforma para su visualización.
+Entonces los datos son enviados correctamente a la plataforma para su visualización.
 <br> <br>
 Escenario 2: Detección de fallo en sensores <br>
 Dado que un sensor presenta un fallo <br>
@@ -1246,7 +1505,7 @@ Entonces genera una alerta técnica para su revisión. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU11</td>
+      <td>TS02</td>
       <td>API para el monitoreo de plantas</td>
       <td>Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real.</td>
       <td>Escenario 1: Consulta exitosa de datos <br>
@@ -1255,141 +1514,148 @@ Cuando el usuario consulta el estado de sus plantas <br>
 Entonces los datos deben ser enviados correctamente a la aplicación del usuario.
 <br> <br>
 Escenario 2: Actualización en tiempo real <br>
-Dado que existen cambios en los sensores <br>
-Cuando los datos cambian <br>
-Entonces la API debe enviar actualizaciones en tiempo real. </td>
+Dado que un sensor cambia su estado <br>
+Cuando un sensor reciben actualizaciones de estado <br>
+Entonces la API envia la actualización del estado en tiempo real. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU12</td>
+      <td>TS03</td>
       <td>API Autenticación JWT</td>
       <td>Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema.</td>
       <td>Escenario 1: Autenticación exitosa <br>
-Dado que el usuario está en la página de inicio de sesión <br>
-Cuando ingresa sus credenciales correctamente <br>
-Entonces el sistema debe devolver un token JWT válido.
+Dado que el developer inicia el proceso de autenticación <br>
+Cuando realiza pruebas sobre la funcionalidad de autenticación <br>
+Entonces el sistema devuelve un token de acceso.
 <br> <br>
 Escenario 2: Renovación de token <br>
-Dado que el token JWT está por expirar <br>
-Cuando el usuario continúa utilizando el sistema <br>
-Entonces se genera automáticamente un nuevo token válido. </td>
+Dado que el token de acceso esta por expirar <br>
+Cuando el tiempo de uso del token llega a su límite <br>
+Entonces se renueva el tiempo de uso. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU13</td>
+      <td>HU10</td>
       <td>Generación de reportes de consumo de recursos</td>
-      <td>Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados.</td>
+      <td>Como usuario de negocio, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados de mis plantas para tener un informe sobre las métricas registradas.</td>
       <td>Escenario 1: Generación de reporte <br>
 Dado que los datos de consumo están disponibles <br>
-Cuando el usuario solicita un reporte de recursos <br>
-Entonces el sistema debe mostrar el consumo por planta o área.
+Cuando el usuario de negocio solicita un reporte de recursos <br>
+Entonces el sistema muestra un reporte sobre el consumo por planta o área.
 <br> <br>
-Escenario 2: Exportación de datos <br>
-Dado que se ha generado un reporte <br>
-Cuando el usuario selecciona la opción de exportar <br>
-Entonces puede descargarlo en formatos PDF, CSV o Excel. </td>
+Escenario 2: Exportación del reporte <br>
+Dado que el usuario exporta el reporte de consumo generado  <br>
+Cuando el sistema genera un reporte  sobre el consumo por planta o área. <br>
+Entonces el sistema descarga el reporte de consumo en formato Excel. </td>
       <td>EP03</td>
     </tr>
     <tr>
-      <td>HU14</td>
+      <td>TS04</td>
       <td>Integración de pagos</td>
       <td>Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura.</td>
       <td>Escenario 1: Procesamiento de pago exitoso <br>
-Dado que el sistema de pagos está integrado <br>
-Cuando el usuario introduce sus datos de pago <br>
-Entonces el sistema debe procesar el pago de forma correcta y segura.
+Dado que el developer introduce información simulada de pago <br>
+Cuando sea realiza una prueba en la integración del pago <br>
+Entonces el sistema procesa el pago simulado.
 <br> <br>
 Escenario 2: Manejo de errores en pagos <br>
-Dado que ocurre un error durante el proceso de pago <br>
-Cuando el usuario intenta completar la transacción <br>
+Dado que ocurre un error durante el proceso de un pago simulado <br>
+Cuando el developer intenta completar la transacción simulada <br>
 Entonces el sistema muestra un mensaje claro del error y opciones para resolverlo. </td>
       <td>EP05</td>
     </tr>
     <tr>
-      <td>HU15</td>
+      <td>HU11</td>
       <td>Registro de Planta</td>
       <td>Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas.</td>
       <td>Escenario 1: Registro con instalación por servicio <br>
 Dado que el usuario se encuentra en la vista de registrar una nueva planta <br>
-Cuando el usuario desea registrar una nueva planta y selecciona instalación por servicio <br>
-Entonces el sistema le redirige a un formulario para completar datos previos a la instalación. 
+Cuando el usuario registra una nueva planta <br>
+Y selecciona instalación por servicio <br>
+Entonces el sistema redirige a un formulario para completar datos previos a la instalación. 
 <br> <br>
 Escenario 2: Registro con instalación manual <br>
-Dado que el usuario ha elegido la opción de instalación manual <br>
+Dado que el usuario elige la opción de instalación manual <br>
 Cuando completa el registro de la planta <br>
 Entonces el sistema muestra instrucciones detalladas para la configuración manual de los sensores. </td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU16</td>
-      <td>Edición de Planta</td>
+      <td>HU12</td>
+      <td>Edición de planta</td>
       <td>Como usuario domestico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente.</td>
-      <td>Escenario 1: Modificación de datos básicos <br>
-Dado que me encuentro en la vista de "plantas" <br>
-Cuando presiono el card de la planta, y presiono el icono del lápiz <br>
-Entonces aparecerá un textbox que permitirá re ingresar ciertos datos modificables.
-<br> <br>
-Escenario 2: Actualización de información de cuidados <br>
-Dado que necesito cambiar información sobre el cuidado de la planta <br>
-Cuando accedo a la sección de edición de cuidados <br>
-Entonces puedo modificar datos como frecuencia de riego o exposición solar recomendada. </td>
+      <td> <br>
+Escenario 1: Actualización de planta exitoso <br>
+Dado que el usuario ingresa información actualizada de una planta en especifico <br>
+Cuando el usuario requiere actualizar la información de una planta en especifico <br>
+Entonces el sistema actualiza la información de una planta especifica con la información modificada. 
+
+<br>
+Escenario 2: Actualización de planta fallido <br>
+Dado que el usuario ingresa información actualizada de una planta en especifico <br>
+Cuando el usuario requiere actualizar la información de una planta en especifico <br>
+Entonces el sistema muestra una alerta de error al actualizar el registro.
+
+</td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU17</td>
-      <td>Eliminación de Planta</td>
+      <td>HU13</td>
+      <td>Eliminación de planta</td>
       <td>Como usuario domestico, quiero eliminar mi planta para poder liberar espacio para otra.</td>
-      <td>Escenario 1: Confirmación de eliminación <br>
-Dado que me encuentro en la vista de "plantas" <br>
-Cuando presiono el card de la planta, y presiono el icono del basurero <br>
-Entonces aparecerá un dialogo informando que se borraran los datos permanentemente <br> 
-Y al presionarlo se eliminan los datos.
-<br> <br>
-Escenario 2: Cancelación de eliminación <br>
-Dado que inicié el proceso de eliminación <br>
-Cuando decido cancelar la acción en el diálogo de confirmación <br>
-Entonces la planta no se elimina y regreso a la vista anterior. </td>
+      <td>Escenario 1: Visualización de alerta de eliminación <br>
+Dado el usuario se encuentra en proceso de eliminar una planta registrada <br>
+Cuando el usuario desea eliminar un registro especifico <br>
+Entonces el sistema muestra una alerta como parte del proceso de eliminación.
+<br> 
+Escenario 2: Confirmación de alerta de eliminación <br>
+Dado que el sistema muestra una alerta de eliminación de un registro especifico  <br>
+Cuando el usuario se encuentra en proceso de eliminar un registro especifico  <br>
+Entonces el sistema muestra una alerta confirmando la eliminación de un registro especifico  .  <br>
+</td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU18</td>
+      <td>HU14</td>
       <td>Registro de plantaciones empresarial</td>
-      <td>Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
+      <td>Como usuario empresarial, quiero registrar las plantaciones para poder tener información del cultivo.</td>
       <td>Escenario 1: Registro exitoso de plantación <br>
-Dado que me encuentro en la vista de "plantaciones" <br>
-Cuando utilizo el botón de agregar plantación, <br>
-Y agrego la información del area que cubre la plantación e información adicional en un formulario <br>
-Entonces al presionar aceptar se muestra un dialogo de confirmación y luego la nueva plantación en la vista.
-<br> <br>
-Escenario 2: Importación masiva de plantaciones <br>
-Dado que tengo un archivo con datos de múltiples plantaciones <br>
-Cuando selecciono la opción de importar plantaciones y cargo el archivo <br>
-Entonces el sistema valida y registra todas las plantaciones válidas. </td>
+Dado que un usuario de negocio se encuentra registrando información de una plantación <br>
+Cuando el usuario de negocio desea registrar la información de una nueva plantación, <br>
+Entonces el sistema registra la información de una nueva plantación.
+<br> 
+Escenario 2: Registro fallido de plantación <br>
+Dado que un usuario de negocio se encuentra registrando información de una plantación <br>
+Cuando el usuario de negocio desea registrar la información de una nueva plantación, <br>
+Entonces el sistema muestra una alerta de error al registrar una nueva plantacion
+<br>
+
+</td>
       <td>EP02</td>
     </tr>
     <tr>
-      <td>HU19</td>
+      <td>HU15</td>
       <td>Recibir alertas sobre el estado de mis plantas</td>
       <td>Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado.</td>
       <td>Escenario 1: Notificación por cambio significativo <br>
 Dado que el usuario doméstico tiene activadas las notificaciones <br>
-Cuando se detecte un cambio significativo en el estado de alguna de sus plantas <br>
+Cuando detecta un cambio significativo en el estado de alguna de sus plantas <br>
 Entonces el usuario recibe una notificación con la información detallada del cambio 
-Y puede visualizar el nuevo estado de la planta afectada. <br>
+Y visualiza el nuevo estado de la planta afectada. <br>
 <br> <br>
 Escenario 2: Configuración de umbrales de notificación <br>
 Dado que el usuario desea personalizar sus alertas <br>
 Cuando accede a la configuración de notificaciones <br>
-Entonces puede establecer umbrales personalizados para cada tipo de alerta. </td>
+Entonces establece umbrales personalizados para cada tipo de alerta. </td>
       <td>EP04</td>
     </tr>
     <tr>
-      <td>HU20</td>
+      <td>HU16</td>
       <td>Activación de riego automático</td>
       <td>Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas.</td>
       <td>Escenario 1: Activación automática de riego <br>
 Dado que los sensores reporten datos de humedad <br>
-Cuando la humedad baje del umbral establecido <br>
+Cuando la humedad baja del umbral establecido <br>
 Entonces el sistema debe activar el riego automáticamente <br>
 Y registrar el evento.
 <br> <br>
@@ -1400,12 +1666,12 @@ Entonces el sistema riega según el horario incluso si no se alcanzan los umbral
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU21</td>
+      <td>HU17</td>
       <td>Límites de riego configurables</td>
       <td>Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos.</td>
       <td>Escenario 1: Límite de consumo alcanzado <br>
 Dado que el consumo de agua alcanza el límite establecido <br>
-Cuando el sistema detecte que se ha alcanzado el límite <br>
+Cuando el sistema detecta un límite <br>
 Entonces envía una alerta y detiene el riego.
 <br> <br>
 Escenario 2: Configuración de límites por zonas <br>
@@ -1415,7 +1681,7 @@ Entonces el sistema aplica diferentes restricciones según la zona seleccionada.
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU22</td>
+      <td>TS05</td>
       <td>API para el control de válvulas de riego</td>
       <td>Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real.</td>
       <td>Escenario 1: Control de válvulas exitoso <br>
@@ -1430,22 +1696,7 @@ Entonces el sistema reintenta la comunicación y notifica si persiste el problem
       <td>EP06</td>
     </tr>
     <tr>
-      <td>HU23</td>
-      <td>Soporte offline para riego automático</td>
-      <td>Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente.</td>
-      <td>Escenario 1: Almacenamiento local de eventos <br>
-Dado que el sistema está offline <br>
-Cuando el sensor detecta un nivel bajo de humedad <br>
-Entonces guarda el evento de riego en local y lo ejecuta cuando se restablezca la conexión.
-<br> <br>
-Escenario 2: Sincronización de datos <br>
-Dado que el sistema recupera la conexión <br>
-Cuando hay datos almacenados localmente <br>
-Entonces sincroniza automáticamente con el servidor central. </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>HU24</td>
+      <td>HU18</td>
       <td>Integración del sensor de humedad del suelo</td>
       <td>Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua.</td>
       <td>Escenario 1: Lectura correcta de sensor <br>
@@ -1460,12 +1711,12 @@ Entonces se muestra "Suelo seco detectado". </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU25</td>
+      <td>HU19</td>
       <td>Activación automática de riego mediante relé</td>
       <td>Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas.</td>
       <td>Escenario 1: Activación del relé <br>
 Dado que el valor de humedad está por debajo del umbral (ej. 300) <br>
-Cuando se evalúa la lectura del sensor <br>
+Cuando evalua la lectura del sensor <br>
 Entonces el sistema debe activar el relé por 5 segundos.
 <br> <br>
 Escenario 2: Desactivación del relé <br>
@@ -1475,27 +1726,28 @@ Entonces el relé debe apagarse. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU26</td>
+      <td>HU20</td>
       <td>Visualización de datos en el monitor serial</td>
       <td>Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real.</td>
       <td>Escenario 1: Visualización de lecturas normales <br>
 Dado que los sensores están conectados <br>
-Cuando el sistema hace lecturas <br>
-Entonces se debe imprimir: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
+Cuando el sistema realiza lecturas <br>
+Entonces la consola serial imprime: Humedad: 45% - Temperatura: 23°C - Luz: 500lx.
 <br> <br>
 Escenario 2: Alerta por condiciones críticas <br>
 Dado que ocurre una condición crítica <br>
 Cuando la temperatura es muy alta <br>
-Entonces se imprime: "Advertencia: Temperatura elevada". </td>
+Entonces la consola serial imprime: "Advertencia: Temperatura elevada". </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU27</td>
+      <td>HU21</td>
       <td>Configuración de umbrales de humedad desde el firmware</td>
       <td>Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas.</td>
       <td>Escenario 1: Modificación de umbrales <br>
 Dado que se define la constante UMBRAL_HUMEDAD en el sketch <br>
-Cuando se cambia su valor y se carga el firmware <br>
+Cuando cambia su valor <br>
+Y se carga el firmware <br>
 Entonces el nuevo umbral es utilizado por el sistema.
 <br> <br>
 Escenario 2: Umbrales para diferentes plantas <br>
@@ -1505,13 +1757,13 @@ Entonces el sistema aplica el umbral adecuado según la planta seleccionada. </t
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU28</td>
+      <td>HU22</td>
       <td>Alerta visual con LED en caso de condiciones críticas</td>
       <td>Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app.</td>
       <td>Escenario 1: Activación de alerta visual <br>
 Dado que el valor de humedad está por debajo de 200 <br>
 Cuando el sistema detecta esta condición <br>
-Entonces se enciende el LED rojo de alerta.
+Entonces enciende el LED rojo de alerta.
 <br> <br>
 Escenario 2: Desactivación de alerta <br>
 Dado que la condición mejora <br>
@@ -1520,7 +1772,7 @@ Entonces el LED se apaga. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU29</td>
+      <td>HU23</td>
       <td>Simulación de datos vía UART (modo desarrollo)</td>
       <td>Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos.</td>
       <td>Escenario 1: Generación de datos simulados <br>
@@ -1535,7 +1787,7 @@ Entonces el sistema genera datos dentro de los nuevos rangos especificados. </td
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU30</td>
+      <td>HU24</td>
       <td>Activación de modo test desde consola serial</td>
       <td>Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego.</td>
       <td>Escenario 1: Activación de modo test <br>
@@ -1550,7 +1802,7 @@ Entonces el sistema vuelve al modo de operación normal. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU31</td>
+      <td>HU25</td>
       <td>Mostrar mensaje de error si sensor no está conectado</td>
       <td>Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware.</td>
       <td>Escenario 1: Sensor desconectado <br>
@@ -1561,16 +1813,16 @@ Entonces se imprime en consola: "Error: Sensor de humedad no detectado".sistema 
 Escenario 2: Reconexión del sensor <br>
 Dado que previamente se detectó un error de conexión del sensor <br>
 Cuando el sensor es reconectado y el dispositivo realiza una nueva lectura <br>
-Entonces el sistema debe imprimir "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
+Entonces la consola serial imprime "Sensor de humedad conectado correctamente" y mostrar la lectura actual. </td>
       <td>EP07</td>
     </tr>
     <tr>
-      <td>HU32</td>
+      <td>HU26</td>
       <td>Solicitar recomendaciones a un especialista</td>
       <td>Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. <br> </td>
 <td>Escenario 1: Solicitud de recomendación <br>
 Dado que el usuario doméstico o de negocios recibe una alerta acerca del estado de su planta <br>
-Cuando el sistema detecte un cambio en las condiciones ambientales <br>
+Cuando el sistema detecta un cambio en las condiciones ambientales <br>
 Entonces el usuario doméstico o de negocios solicita una recomendación a un especialista.
 <br> <br>
 Escenario 2: Verificación de estado de solicitud <br>
@@ -1580,7 +1832,7 @@ Entonces puede ver el estado actual de su solicitud (pendiente, en proceso, comp
       <td>EP04</td>
     </tr>
     <tr>
-      <td>HU33</td>
+      <td>HU27</td>
       <td>Registrar recomendaciones</td>
       <td>Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. </td>
 <td>Escenario 1: Registro de recomendación
@@ -1593,6 +1845,22 @@ Dado que un especialista necesita revisar las recomendaciones previas dadas a un
 Cuando accede al perfil del usuario o planta <br>
 Entonces el sistema muestra un historial completo de todas las recomendaciones anteriores, permitiendo al especialista dar consejos más contextualizados y consistentes. </td>
       <td>EP04</td>
+    </tr>
+    </tr>
+    <tr>
+      <td>HU28</td>
+      <td>Visualizar planes de pago</td>
+      <td>Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades.</td>
+<td>Escenario 1: Visualización de planes de pago
+Dado que el usuario está en la sección de planes de pago<br>
+Cuando navega por los planes disponibles <br>
+Entonces el usuario puede ver los detalles de cada plan de pago.
+<br> <br>
+Escenario 2: Filtrado de planes de pago<br>
+Dado que el usuario desea comparar planes<br>
+Cuando selecciona un filtro <br>
+Entonces el sistema debe mostrar los planes que cumplen con los criterios de filtrado. </td>
+      <td>EP05</td>
     </tr>
   </tbody>
 </table>
@@ -1628,30 +1896,34 @@ Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496
 | 7      | HU07          | Descuento en el primer sensor            | Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible. | 2                        |
 | 8      | HU08          | Instalación incluida en el plan          | Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales. | 3                        |
 | 9      | HU09          | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | 3                        |
-| 10     | HU10          | Integración de sensores IoT              | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | 3                        |
-| 11     | HU11          | API para el monitoreo de plantas         | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | 3                        |
-| 12     | HU12          | API Autenticación JWT                    | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | 5                        |
-| 13     | HU13          | Generación de reportes de consumo de recursos | Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados. | 5                        |
-| 14     | HU14          | Integración de pagos                     | Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura. | 3                        |
-| 15     | HU15          | Registro de Planta                       | Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas. | 5                        |
-| 16     | HU16          | Edición de Planta                        | Como usuario doméstico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente. | 3                        |
-| 17     | HU17          | Eliminación de Planta                    | Como usuario doméstico, quiero eliminar mi planta para poder liberar espacio para otra. | 2                        |
-| 18     | HU18          | Registro de plantaciones empresarial     | Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo. | 3                        |
-| 19     | HU19          | Recibir alertas sobre el estado de mis plantas | Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado. | 2                        |
-| 20     | HU20          | Activación de riego automático           | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | 3                        |
-| 21     | HU21          | Límites de riego configurables           | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | 3                        |
-| 22     | HU22          | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | 5                        |
-| 23     | HU23          | Soporte offline para riego automático   | Como developer, quiero que el sistema almacene localmente comandos de riego si no hay conexión, para sincronizarlos posteriormente. | 3                        |
-| 24     | HU24          | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | 5                        |
-| 25     | HU25          | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | 5                        |
-| 26     | HU26          | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | 3                        |
-| 27     | HU27          | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | 3                        |
-| 28     | HU28          | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | 2                        |
-| 29     | HU29          | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | 5                        |
-| 30     | HU30          | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | 3                        |
-| 31     | HU31          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
-| 32     | HU32          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
-| 33     | HU33          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
+| 10     | TS01         | Integración de sensores IoT              | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | 3                        |
+| 11     | TS02          | API para el monitoreo de plantas         | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | 3                        |
+| 12     | TS03          | API Autenticación JWT                    | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | 5                        |
+| 13     | HU10         | Generación de reportes de consumo de recursos | Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados. | 5                        |
+| 14     | TS04          | Integración de pagos                     | Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura. | 3                        |
+| 15     | HU11          | Registro de Planta                       | Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas. | 5                        |
+| 16     | HU12          | Edición de Planta                        | Como usuario doméstico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente. | 3                        |
+| 17     | HU13          | Eliminación de Planta                    | Como usuario doméstico, quiero eliminar mi planta para poder liberar espacio para otra. | 2                        |
+| 18     | HU14          | Registro de plantaciones empresarial     | Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo. | 3                        |
+| 19     | HU15         | Recibir alertas sobre el estado de mis plantas | Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado. | 2                        |
+| 20     | HU16          | Activación de riego automático           | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | 3                        |
+| 21     | H17          | Límites de riego configurables           | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | 3                        |
+| 22     | TS05          | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | 5                        |
+| 23     | HU18          | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | 5                        |
+| 24     | HU19          | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | 5                        |
+| 25     | HU20          | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | 3                        |
+| 26     | HU21          | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | 3                        |
+| 27     | HU22          | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | 2                        |
+| 28     | HU23         | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | 5                        |
+| 29     | HU24          | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | 3                        |
+| 30     | HU25          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
+| 31    | HU26          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
+| 32     | HU27          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
+| 33     | HU28         | Visualizar planes de pago                | Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades. | 2                        |
+
+
+
+
 
 
 # Capítulo IV:  Solution Software Design
@@ -1798,6 +2070,8 @@ Web App:
 En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
 
+
+
 ### Assembler
 
 
@@ -1805,7 +2079,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| plantEntityFromResponseAssembler     | Crea una instancia del modelo plant en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+| toResponseAssembler     | Crea una instancia de la clase PlantResponse      |
 
 
 
@@ -1815,7 +2089,10 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| plantationEntityFromResponseAssembler     | Crea una instancia del modelo plantation en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase      |
+| toResponseAssembler     |Crea una instancia de la clase PlantationResponse      |
+
+
+### Response
 
 
 **PlantResponse**
@@ -1843,23 +2120,11 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | lightThreshold       | number             |
 | temperatureThreshold | number             |
 | areaCoverage         | number             |
-| createdAt            | Date               |
-| updatedAt            | Date               |
+| createdAt            | date               |
+| updatedAt            | date               |
 | stateId              | number             |
 
 
-
-
-## Service
-
-**PlantService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
-| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 
 Mobile App:
@@ -1918,17 +2183,6 @@ Representa la solicitud de consulta de plantaciones por usuario.
 |----------|--------|
 | userId     | int |
 
-
-## Service
-
-**PlantService**
-
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
-| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 
 
@@ -2076,17 +2330,12 @@ Web App:
 
 **PlantItemComponent**
 
-Componente reutilizable encargado de presentar la información detallada de una planta individual.
+Componente reutilizable encargado de presentar la información detallada de una planta o una plantación.
 
 **PlantListComponent**
 
-Componente orientado a la visualización de un conjunto de plantas.
+Componente orientado a la visualización de un conjunto de plantas o plantaciones.
 
-**PlantationItemComponent**
-
-Componente reutilizable diseñado para mostrar los datos específicos de una plantación.
-
-**PlantationListComponent**
 
 Componente que representa una colección de plantaciones.
 
@@ -2094,19 +2343,19 @@ Componente que representa una colección de plantaciones.
 
 **PlantsVisualizationPage**
 
-Componente donde se mostrará las plantas registradas por cada usuario
+Componente donde se mostrará las plantas o plantaciones registradas por cada usuario
 
-**PlantationVisualizationPage**
 
-Componente donde se mostrará las plantaciones registradas por cada usuario
 
 **PlantInformationPage**
 
-Componente donde se mostrará información detallada sobre una planta en especifico
+Componente donde se mostrará información detallada sobre una planta o plantación en especifico
 
-**PlantationInformationPage**
+**PlantRegisterOrEditPage**
 
-Componente donde se mostrará información detallada sobre una plantaciôn en especifico
+Componente donde se registrará o editará la información de una planta o plantación existente
+
+
 
 
 
@@ -2127,20 +2376,26 @@ Mobile:
 ## Widgets
 
 **PlantPrototype**  
-Muestra un resumen visual de una planta.
+Muestra un resumen visual de una planta o plantación.
 
 
-**PlantationPrototype**  
-Representa de forma compacta los datos principales de una plantación.
 
 ## Screens
 
+**PlantsVisualizationPage**
+
+Pantalla donde se mostrará las plantas o plantaciones registradas por cada usuario.
+
 **PlantInformationScreen**  
-Pantalla con información detallada de una planta específica.
+Pantalla con información detallada de una planta o plantación específica.
 
 
-**PlantationInformationScreen**  
-Pantalla con los detalles completos de una plantación.
+**PlantRegisterOrEditScreen**
+
+Pantalla donde se registrará o editará la información de una planta o plantación existente
+
+
+
 
 
 
@@ -2271,10 +2526,36 @@ Backend:
 #### 4.2.1.4. Infrastructure Layer.
 
 Web App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 Mobile:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+## Service
+
+**PlantService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
 
 Backend:
 
@@ -2287,12 +2568,37 @@ Backend:
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-ManagementSystem.png" alt="Management Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-ManagementBCWebApp.png" alt="Management Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-ManagementBoundedContextonMobileApp.png"
+alt="Management Component Diagram on Mobile App"/>
+
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/managementWeb.png" alt ="Management class diagram on Web App"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/managementMobile.png" alt ="Management class diagram on Mobile App"/>
+
+Backend:
+
+<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram on Api"/>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
@@ -2312,7 +2618,7 @@ App Web:
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
-| metricEntityFromResponseAssembler | Crea una instancia del modelo metric en base a otra que se encarga de abstraer las respuestas de los endpoints relacionados a esta clase    |
+| toResponseAssembler | Crea una instancia de la clase MetricResponse   |
 
 
 ### Response
@@ -2329,16 +2635,8 @@ Representa la clase que se encarga de abstraer las respuestas relacionadas a met
 | createdAt        | date |
 | metricValue    | number |
 
-### Service
 
-**MetricService**
 
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| getMetricById  | Devuelve una métrica en especifico por su id    |
-| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
 
 Mobile:
 - No aplica para este caso
@@ -2352,7 +2650,7 @@ Backend:
 
 ### Entity
 
-**Metric**
+**MetricType**
 
 | Atributo    | Tipo                                            |
 |------------|----------------------------------------------------------|
@@ -2537,7 +2835,20 @@ Backend:
 #### 4.2.2.4. Infrastructure Layer.
 
 App Web:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+### Service
+
+**MetricService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getMetricById  | Devuelve una métrica en especifico por su id    |
+| getMetricsByTypeId     | Devuelve un conjunto de métricas por su tipo     |
 
 Mobile:
 - No aplica para este caso
@@ -2550,14 +2861,34 @@ Backend:
 | MetricRepository      | IMetricRepository      | Implementa los métodos de consulta y persistencia de las métricas de las plantas |
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-<img src="../assets/component-diagrams/structurizr-84133-AnalyticsSystem.png" alt="Analytics Component Diagram"/>
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBCWebApp.png" alt="Analytics Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
+
+Mobile:
+
+- No aplica para este caso
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams"/>
+Web App:
+
+<img src="../assets/class-diagrams/analyticWeb.png" alt="Analytics Domain Layer Class Diagrams on Web App"/>
+
+Mobile App:
+- No aplica para este caso
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams on API"/>
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
@@ -2565,18 +2896,238 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/analyticst-db-diagram.png" alt="Analytics Database Design Diagram"/>
 
 ### 4.2.3. Bounded Context: Consulting
--
+
+
 #### 4.2.3.1. Domain Layer.
 
-App Web:
-- 
+Web App:
 
-Mobile:
-- 
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### Assembler
+
+
+**QuestionAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toesponseAssembler     | Crea una instancia de la clase QuestionResponse     |
+
+**QuestionPoolAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toResponseAssembler     | Crea una instancia de la clase QuestionPoolResponse     |
+
+**AnswerAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toResponseAssembler     | Crea una instancia de la clase AnswerResponse     |
+
+
+**QuestionResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number      |
+| content               | string   |
+| userId                | number     |
+
+**AnswerResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| content               | string   |
+| userId                | number   |
+| questionsId           | number   |
+
+**QuestionPoolResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| type                  | string   |
+| question_answer       | string   |
+
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+**QuestionResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+
+**AnswerResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| content               | string   |
+| userId                | int      |
+| questionsId           | int      |
+
+**QuestionPoolResponseDTO**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| type                  | string   |
+| question_answer       | string   |
+
+
+
+**GetQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| userId     | int |
+
+
+
+**GetAnswersByUserIdDto**
+
+Representa la solicitud de consulta de respuestas por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+**GetPremadeQuestionsByUserIdDto**
+
+Representa la solicitud de consulta de preguntas pre respondidas.
+
+| Atributo | Tipo   |
+|----------|--------|
+| questionAnswer  | string |
+| type   | string    |
+
+**PostQuestionDto**
+
+Representa la solicitud de envio de pregunta por usuario.
+
+| Atributo | Tipo   |
+|----------|--------|
+| content  | string |
+| userId   | int    |
+
+
+
+**PostAnswerDto**
+
+Representa la solicitud de envio de respuesta por usuario.
+
+| Atributo   | Tipo   |
+|------------|--------|
+| userId     | int    |
+| questionsId| int    |
+
+
 
 Backend:
 
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Consulting. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+#### Entities
+
+**QuestionTypes**
+
+Representa el tipo de pregunta que tiene una pregunta pre hecha.
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+---
+
+#### Aggregates
+
+**Question**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetQuestion | Devuelve los valores de la pregunta por medio de comandos    |
+
+---
+
+**Answer**
+
+Representa una respuesta esta relacionada a una pregunta y al usuario que realiza la pregunta.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Content               | String   |
+| UserId                | Int      |
+| QuestionsId           | Int      |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| Get     | Devuelve los valores de la respuesta por medio de un comando   |
+
+---
+
+**PremadeQuestion**
+
+Representa una pregunta realizada por un usuario.
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | Int      |
+| Type                  | String   |
+| QuestionAnswer        |  String   |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| GetPremadeQuestion | Devuelve los valores de la pregunta pre hecha por medio de comandos    |
+
+--
+
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| CreateQuestionCommand      | Representa un comando para crear una nueva instancia del agregado Question.                        |
+| CreateAnswerCommand      | Representa un comando para crear una nueva instancia del agregado Answer.                        |
+| CreatePremadeQuestionCommand      | Representa un comando para crear una nueva instancia del agregado PremadeQuestion.                        |
+| UpdatePremadeQuestionData |  Representa un comando para actualizar la data de una pregunta pre hecha.    |
+| SeedQuestionTypesCommand       | Representa un comando para inicializar datos en la entidad QuestionTypes dentro del dominio. |
+| SeedPremadeQuestionsCommand       | Representa un comando para inicializar datos del agregado PremadeQuestions. |
+
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetPremadeQuestionsByTypeQuery      | Representa una consulta que recupera las preguntas pre hechas asociadas a un tipo específico.                   |
+| GetQuestionsByUserIdQuery      | Representa una consulta que obtiene todas las preguntas asociadas a un usuario determinado.            |
+| GetAnswersByUserIdQuery      | Representa una consulta que obtiene todas las respuestas asociadas a un usuario determinado.            |
+| GetQuestionsAndAnsersByUserIdQuery      | Representa una consulta que obtiene todas las preguntas y sus respuestas asociadas a un usuario determinado.            |
+| IsAnswerExistsByQuestionIdQuery      | Representa una consulta que verifica si existe una respuesta con un identificador de pregunta específica.           |
+
+---
 
 ### CommandServices
 
@@ -2584,14 +3135,14 @@ Backend:
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionCommandService` | `IQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas. |
  | `AnswerCommandService`    | `IAnswerCommandService`      | Implementción del servicio que maneja los comandos de respuestas de los especialistas a los usuarios.         
- 
+  | `PremadeQuestionCommandService` | `IPremadeQuestionCommandService`   |  Implementación del servicio que maneja los comandos de preguntas pre respondidas. |
  ### QueryServices
 
  | Clase              | Interfaz Implementada | Descripción                                                                                                         |
  |--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
  | `QuestionQueryService`  | `IQuestionQueryService`   |  Implementación del servicio que maneja los consultas de preguntas. |
  | `AnswerQueryService`    | `IAnswerQueryService`      | Implementación del servicio que maneja las consultas de las respuestas de los especialistas a los usuarios.         
- 
+   | `PremadeQuestionQueryService` | `IPremadeQuestionQueryService`   |  Implementación del servicio que maneja las consultas de preguntas pre hechas. |
 
  ### OutboundServices
  | Interface                         | Descripción |
@@ -2705,10 +3256,42 @@ Backend:
 #### 4.2.3.4. Infrastructure Layer.
 
 App Web:
-- No aplica para este caso
+
+
+## Service
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
 
 Mobile:
-- No aplica para este caso
+
+
+## Service
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+**ConsultsService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getQuestionsByUserId       | Devuelve las preguntas por un determinado usuario       |
+| getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
+| getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
+| postQuestion  | Envia una pregunta hecha por un determinado usuario     |
+| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
 
 Backend:
 
@@ -2720,12 +3303,36 @@ Backend:
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-ConsultingSystem.png" alt="Consulting Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingBCWebApp.png" alt="Consulting Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingBoundedContextonMobileApp.png"
+alt="Consulting Component Diagram on Mobile App"/>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
-<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram"/>
+Web App:
+
+<img src="../assets/class-diagrams/consultingWeb.png" alt="Consulting Class Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/consulting/consulting-class diagram.png" alt="Consulting Class Diagram on API"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/consultingMobile.png" alt="Consulting Class Diagram on Web App"/>
 
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
@@ -2749,11 +3356,8 @@ Web App:
 | userId     | number |
 
 
-## Service
 
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
 
 
 Mobile App:
@@ -2772,11 +3376,6 @@ Mobile App:
 | userId     | int |
 
 
-## Service
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
 
 Backend:
 
@@ -2836,7 +3435,7 @@ Representa una suscripción disponible en la aplicación.
 
 | Clase                     | Descripción                                                                                             |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetSubscriptionsQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
+| GetSubscriptionByUserIdQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
 | GetSubscriptionByIdQuery  | Representa una consulta que obtiene una suscripción específica mediante su identificador único.         |
 
 
@@ -2969,6 +3568,28 @@ Backend:
 
 #### 4.2.4.4. Infrastructure Layer.
 
+Web App:
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Mobile App:
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+## Service
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| updateUserSubscription     | Actualiza la suscripción de un usuario     |
+
+Backend:
+
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                             |
 |------------------------|-------------------------|-----------------------------------------------------------------------------------------|
@@ -2976,12 +3597,36 @@ Backend:
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-SubscriptionSystem.png" alt="Subscription Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
+alt="Subscriptiom Component Diagram on Mobile App"/>
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/subscriptionWeb.png" alt="Subscription class diagram on Web App"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/subscriptionMobile.png" alt="Subscription class diagram on Mobile App"/>
+
+Backend:
+
+<img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram on API"/>
 
 
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram.
@@ -3004,14 +3649,6 @@ Web App:
 | invoiceType           | number      |
 
 
-#### Service
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
-
-
-
 
 
 Mobile App:
@@ -3028,12 +3665,6 @@ Mobile App:
 | userId                | int     |
 | invoiceType           | int    |
 
-
-#### Service
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 
 
@@ -3211,10 +3842,24 @@ Backend:
 #### 4.2.5.4. Infrastructure Layer.
 
 Web App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 Mobile App:
-- No aplica para este caso
+
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
 
 Backend:
 
@@ -3230,12 +3875,36 @@ Backend:
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-PaymentSystem.png" alt="Payment Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentSystem.png" alt="Payment Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png"
+alt="Payment Component Diagram on Mobile App"/>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/paymentWeb.png" alt="Payment class diagram on Web App"/>
+
+Mobile App:
+
+
+<img src="../assets/class-diagrams/paymentMobile.png" alt="Payment class diagram on Mobile App"/>
+
+Backend:
+<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram on API"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
@@ -3413,8 +4082,19 @@ Backend:
 
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
-<img src="../assets/component-diagrams/structurizr-84133-AutomationSystem.png" alt="Automation Component Diagram"/>
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-AutomationSystem.png" alt="Automation Component Diagram on API"/>
+
+Mobile:
+
+- No aplica para este caso
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3422,7 +4102,17 @@ Backend:
 
 ##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 <img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
+
+Mobile:
+
+- No aplica para este caso
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
@@ -3612,12 +4302,36 @@ Web App:
 
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-InstallationSystem.png" alt="Installation Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-InstallationSystem.png" alt="Installation Component Diagram on API"/>
+
+Mobile:
+
+- No aplica para este caso
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+- No aplica para este caso
+
+Backend:
+
 <img src="../assets/tactical-level-ddd/instalation/instalation-diagram.jpeg" alt="Instalation diagram"/>
+
+Mobile:
+
+- No aplica para este caso
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/installation-db-diagram.png" alt="Installation Database Design Diagram"/>
@@ -3846,12 +4560,31 @@ Backend:
 
 Mobile App:
 
-- No aplica para este caso.
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**AuthService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  signIn               | Permite autenticar un usuario con sus credenciales. |
+| signUp                 | Permite registrar un nuevo usuario |
+
 
 
 Web App:
 
-- No aplica para este caso.
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**AuthService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  signIn               | Permite autenticar un usuario con sus credenciales. |
+| signUp                 | Permite registrar un nuevo usuario |
 
 Backend:
 
@@ -3862,11 +4595,31 @@ Backend:
 
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-IamSystem.png" alt="Iam Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-IamBCWebApp.png" alt="IAM Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-IamSystem.png" alt="Iam Component Diagram on API"/>
+
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
+alt="IAM Component Diagram on Mobile App"/>
 
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+Mobile App:
+
+Backend:
 
 <img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
@@ -3890,6 +4643,20 @@ Web App:
 |  Método                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
 | notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
+
+
+#### Model
+
+**NotificationModel**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | int    |
+| title     | string |
+| content     | string |
+| createdAt     | string |
+| userId     | int |
+
 
 
 
@@ -3917,9 +4684,6 @@ Web App:
 | userId     | number |
 
 
-#### Service 
-
-NotificationService
 
 
 
@@ -3934,17 +4698,6 @@ Mobile App:
 |----------|--------|
 | title     | string |
 | content     | string |
-| userId     | int |
-
-
-**NotificationResponseDto**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id       | int    |
-| title     | string |
-| content     | string |
-| createdAt     | string |
 | userId     | int |
 
 
@@ -4114,12 +4867,22 @@ Backend:
 
 Mobile App:
 
-- No aplica para este caso.
+- No aplica para este caso, las notificaciones seran temporales.
 
 
 Web App:
 
-- No aplica para este caso.
+En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+#### Service 
+
+NotificationService
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  createNotification              | Crea una nueva notificación. |
+| getNotificationsByUserId          | Devuelve las notificaciones por usuario. |
+
 
 Backend:
 
@@ -4130,20 +4893,778 @@ Backend:
 
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
 
-<img src="../assets/component-diagrams/structurizr-84133-NotificationSystem.png" alt="Notification Component Diagram"/>
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-NotificationBCWebApp.png" alt="Notification Component Diagram on Web App"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-NotificationSystem.png" alt="Notification Component Diagram on API"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-NotificationBoundedContextonMobileApp.png"
+alt="Notification Component Diagram on Mobile App"/>
 
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
-<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams"/>
+
+Web App:
+
+<img src="../assets/class-diagrams/notificationWeb.png" alt="Notification Context Domain Layer Class Diagrams on API"/>
+
+Mobile App:
+<img src="../assets/class-diagrams/notificationMobile.png" alt="Notification Context Domain Layer Class Diagrams on Mobile App"/>
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams on API"/>
 
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram"/>
 
+# Capítulo V:  Solution UI/UX Design
+
+## 5.1. Style Guidelines.
+
+En esta sección, el equipo sienta las bases para contar con un repositorio central y
+organizado de uso común para todo el equipo, que incluye assets, fonts, etc. Esto
+con el fin de mantener una presentación consistente y enfocada. Se incluye
+secciones para General Style Guidelines, Web Style Guidelines y Mobile Style
+Guidelines.
+
+## 5.1.1. General Style Guidelines.
+
+Aquí se explicamos las decisiones y referencias visuales sobre conceptos generales
+básicos como Branding, Typography, Colors y Spacing.
+
+<img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines"/>
+
+En este caso tenemos nuestro general style guideline donde mostramos nuestra paleta basica de colores y tipografias junto con sus tamaños. Para esta ocacion buscamos generar un tono de orden pero organico, casual o incluso en este caso natural ya que va a la par del enfoque de nuestro proyecto.
+
+
+
+## 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+En esta sección se explicamos e ilustramos las decisiones sobre los estándares visuales y de
+interacción para responsive web interfaces y las interfaces en mobile application
+interfaces y IoT application user interface.
+
+Respecto a responsive definimos media queries especificos para distintos breaking points de la aplicacion siguiendo los estandares definidos.
+
+|Media Query|Dispositivo|
+|-|-|
+| 1024px | Desktop |
+| 760px | Tablets |
+| 720px | Telefono |
+| 320px | Telefono Pequeño |
+
+con estas convenciones nos hemos guiado para saber en que momentos debemos realizar cambios significativos.
+
+## 5.2. Information Architecture.
+
+## 5.2.1. Organization Systems.
+En esta sección el equipo explica en qué grupos de información aplicará cuáles
+sistemas de organización. Aquí se incluye la explicación de en qué casos se aplicará la
+organización visual del contenido: de forma jerárquica (visual hierarchy),
+organización secuencial (step-by-step to accomplish) o matricial. Por otro lado,
+también se debe explicar en qué casos se utilizará qué esquemas de categorización
+de contenido: alfabético, cronológico, por tópicos, según audiencia (grupos de
+usuarios).
+
+En esta ocacion para lo que seria nuestra landing page seguimos un approach basico donde nos basamos en una navegacion jerarquica donde empezamos con el hero section y culminamos con la seccion para reclutamiento (sin contar el footer).
+
+Esta decision fue tomada para mantener un estandar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorizacion de contenido va cambiando a medida que se llega al final de la pagina.
+
+<img src="../assets/style-guidelines/Landing.png" alt="Landing"/>
+
+
+En el caso de la aplicacion de escritorio web, (Web aplication), nos inspiramos en un sistema de widgets para organizar datos este seria un estilo matricial donde para categorizar utilizamos segun nuestros segmentos ya que no tienen las mismas caracteristicas.
+Adicionalmente a nivel de aplicacion movil se espera de que la aplicacion no tenga acceso a realizar pagos y en vez de eso rediriga al usuario a la pagina web, este modelo tiene inspiracion en como Spotify maneja sus subscripciones.
+
+<img src="../assets/style-guidelines/WebApp.png" alt="Dashboard"/>
+
+<img src="../assets/style-guidelines/Card - Small.png" alt="Card to redirect"/>
+
+
+## 5.2.2. Labeling Systems.
+En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para
+representar los conjuntos de información y las asociaciones entre las mismas.
+
+Para el desarrollo de las aplicaciones se decidió hacer uso de etiquetas simples que permitan facilitar la navegación y la comprensión de los usuarios. Las etiquetas se han diseñado para ser intuitivas y fáciles de recordar, lo que permitirá a los usuarios encontrar rápidamente la información que buscan.
+A continuación se presentan algunas etiquetas que se utilizarán en las aplicaciones:
+- **Home**: Página principal de la aplicación.
+- **Dashboard**: Panel de control donde se muestra información relevante.
+- **Consulting**: Sección donde se pueden realizar consultas a los especialistas.
+- **Management**: Sección donde se pueden gestionar los cultivos y plantas.
+- **Analytics**: Sección donde se pueden ver análisis y estadísticas de los cultivos.
+
+## 5.2.3. SEO Tags and Meta Tags
+En esta sección se incluyen los SEO Tags y Meta Tags junto con los valores que
+asignará en las principales páginas de la experiencia tanto a nivel del sitio web
+estático (Landing Page) como Web Application
+
+Con el objetivo de mejorar la visibilidad en los motores de búsqueda, atraer nuevos usuarios y proporcionar información relevante sobre la landing page y la aplicación web, se incorporarán los siguientes "Meta Tags" como etiquetas HTML en las páginas principales de nuestra plataforma.
+
+<pre>
+<code>
+  &lt title > EcoGuardian - Nurturing your future &lt/title>
+  &lt meta name="description" content="We take care of your plants future by innovating with technologies based on IoT giving you all the information you need.">
+  &lt meta name="keywords" content="cuidado de plantas, monitoreo de cultivos, tecnologia para plantas, cultivos, sensores iot para plantas">
+  &lt meta name="author" content="EcoGuardian Team">
+</code>
+</pre>
+
+## 5.2.4. Searching Systems.
+
+En EcoGuardian, se implementarán sistemas de búsqueda efectivos para garantizar que los usuarios puedan encontrar rápidamente la información que necesitan sin sentirse abrumados por el volumen de datos. La principal prioridad es facilitar la localización de información clave como datos de plantas, estadísticas de humedad, temperatura, consumo de agua y notificaciones sobre el estado de las plantas.
+
+**Opciones de Búsqueda:**
+
+* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta, cabe mencionar que no es la busqueda convencional que se hace por texto, actualmente contamos con una lista de plantas para ese usuario.
+
+
+
+* Búsqueda por Parámetros Ambientales: Los usuarios podrán filtrar las plantas según su humedad, temperatura o niveles de luz actuales. Esto será útil para gestionar un grupo de plantas con condiciones similares.
+
+**Filtros Disponibles:**
+
+* Rango de Humedad: Los usuarios podrán establecer un rango de humedad deseado para encontrar plantas que se ajusten a esos parámetros.
+* Temperatura: Los filtros permitirán buscar por un rango de temperatura adecuado para las plantas.
+* Fecha de Última Actualización: Los usuarios podrán filtrar las plantas según la fecha de la última actualización para ver las plantas que necesitan atención más reciente.
+**Resultados de la Búsqueda:**
+
+Después de realizar la búsqueda, los resultados se mostrarán de forma clara y ordenada. Los usuarios verán una lista de las plantas que cumplen con los filtros aplicados. Cada entrada mostrará:
+
+* Nombre de la Planta.
+* Estado actual.
+* Última actualización de sus datos.
+* Parámetros clave (humedad, temperatura, luz).
+* Acciones rápidas como ver más detalles o recibir recomendaciones.
+
+Este sistema de búsqueda permitirá a los usuarios encontrar y gestionar sus plantas de manera eficiente, mejorando la experiencia general y asegurando que no se pierdan entre la gran cantidad de datos disponibles.
+
+## 5.2.5. Navigation Systems.
+
+El Navigation System es crucial para guiar a los usuarios a través de las diferentes plataformas de EcoGuardian, ya sea en la Landing Page o en las aplicaciones web y móvil. Su diseño está orientado a facilitar la interacción fluida con el producto, permitiendo que los usuarios encuentren fácilmente lo que necesitan. Este sistema de navegación se centra en simplificar la experiencia de los usuarios mediante un acceso claro y directo a las secciones clave, garantizando que puedan alcanzar sus objetivos, como registrar plantas, consultar estadísticas, o recibir alertas y recomendaciones en tiempo real.
+Con un diseño intuitivo y accesible, el Navigation System asegura que los usuarios puedan navegar sin esfuerzo, mejorando su interacción y satisfacción con el producto.
+
+**Landing Page:**
+
+* Propósito Principal: Presentar la misión de EcoGuardian, enfocada en innovar en el cuidado de las plantas mediante tecnología IoT.
+* Contenido Clave: El encabezado muestra el compromiso con la innovación y el cuidado de las plantas. El botón de "Get Started" facilita el acceso a la información y la interacción con el producto.
+* Navegación: El menú proporciona acceso a secciones clave como EcoGuardian, Beneficios, Precios, Acerca de Nosotros, y Trabaja con Nosotros.
+
+**Aplicación Web (Home Dashboard):**
+
+* Propósito Principal: Monitorear y gestionar las plantas mediante el seguimiento de consumo de agua, energía, y parámetros ambientales como humedad y temperatura.
+* Contenido Clave: Incluye gráficos sobre el consumo de agua y energía a lo largo del tiempo, junto con estadísticas en tiempo real de las plantas registradas.
+* Navegación: El usuario puede visualizar las plantas, los valores de parámetros como humedad, temperatura y luz, y recibir notificaciones sobre el estado de las plantas.
+
+**Aplicación Móvil:**
+* Propósito Principal: Proporcionar un acceso rápido y conveniente a los datos en tiempo real de las plantas, desde cualquier lugar y en cualquier momento.
+* Contenido Clave: La interfaz es adaptada para la pantalla móvil, permitiendo a los usuarios ver las estadísticas de sus plantas, gestionar los umbrales de humedad, luz y temperatura, y recibir alertas personalizadas.
+* Navegación: Con un menú fácil de usar, el usuario puede navegar rápidamente entre secciones como la visualización de plantas, configuración de notificaciones y parámetros de control ambiental.
+
+
+## 5.3. Landing Page UI Design.
+
+En esta sección el equipo elabora la propuesta de UI para el Landing Page. La sección
+inicia con una introducción en la que el equipo explica cómo traduce las decisiones
+de diseño y arquitectura de información.
+
+### 5.3.1. Landing Page Wireframe.
+
+Esta sección incluye una sección interna donde se presenta y explica los Wireframes
+del Landing Page para Desktop Web Browser y Mobile Web Browser
+
+Wireframes de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page"/>
+
+Wireframes de la Landing page para Mobile web browser:
+
+## 5.3.2. Landing Page Mock-up.
+
+Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
+para Desktop Web Browser como Mobile Web Browser.
+
+Para esta entrega hemos recibido feedback orientado a distintos aspectos de diseño para mejorar los cuales se llegaron a implementar parcialmente en produccion, si bien no se pueden visualizar a nivel de mockup en subsiguientes entregas se hara la implementación.
+Mockup de la Landing page para Desktop web browser:
+<img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page"/>
+
+Mockup de la Landing page para Mobile web browser:
+
+## 5.4. Applications UX/UI Design.
+
+Esta sección incluye secciones internas donde se presenta y explica la propuesta
+visual y de interacción para las aplicaciones que constituyen la experiencia de
+usuario con los productos digitales.
+
+
+
+## 5.4.1. Applications Wireframes.
+
+**Web Applicaction:**
+
+Management Register Plant Wireframe: 
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-2.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-3.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-4.png" alt="wireframe web app"/>
+
+<br>
+
+Management Edit Plant section Wireframe: 
+
+<img src="../assets/wireframes/Management-Consumer-EditPlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app"/>
+
+<br>
+
+Management Business Register Plant Wireframe: 
+
+<img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Business-RegisterPlant-1.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app"/>
+
+<br>
+
+Management Business Edit Plant Wireframe:
+
+<img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app"/>
+
+<br>
+
+Management Delete Plant Wireframe:
+
+<img src="../assets/wireframes/Management-DeletePlant.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app"/>
+
+<br>
+
+Consulting Dashboard Wireframe:
+
+<img src="../assets/wireframes/Consulting Dashboard.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe web app"/>
+
+<br>
+
+Consulting Creation Wireframe:
+
+<img src="../assets/wireframes/Consulting Creation.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Creation-1.png" alt="wireframe web app"/>
+
+<br>
+
+Consulting Answer Creation Wireframe:
+
+<img src="../assets/wireframes/Consulting Answer Creation.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Consulting Answer Creation-1.png" alt="wireframe web app"/>
+
+<br>
+
+Sign in/Sign up Wireframe:
+
+<img src="../assets/wireframes/Desktop - 2.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Desktop - 3.png" alt="wireframe web app"/>
+
+<br>
+
+Sign in/Sign up Wireframe:
+
+<img src="../assets/wireframes/iPhone 16 - 6.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Desktop - 4.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app"/>
+
+<br>
+
+Analytics Wireframe:
+
+<img src="../assets/wireframes/Dashboard Principal.png" alt="wireframe web app"/>
+
+<img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app"/>
+
+Mobile Aplication Wirefranes:
+
+Registro Plantacion Segmento Empresarial:
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+Registro Planta Segmento Domestico:
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app"/>
+
+## 5.4.2. Applications Wireflow Diagrams.
+
+Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
+para cada User goal, considerando los User Persona para cada aplicación que forma
+parte del alcance. En este caso consideramos los mas relevantes hasta el momento:
+
+
+**Registar Usuario**
+<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app"/>
+
+**Registar Planta**
+<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app"/>
+
+**Editar Planta**
+<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app"/>
+
+**Eliminar Planta**
+<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app"/>
+
+
+## 5.4.2. Applications Mock-ups.
+
+
+
+Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
+diseño inclusivo y arquitectura de información, así como el Design System
+establecido para los productos digitales.
+
+Mockups:
+
+<!-- General desktop wireframes -->
+<img src="../assets/mockups/Desktop - 2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 3.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 4.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Desktop - 5.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/iPhone 16 - 8.png" alt="wireframe iPhone mockup"/>
+<img src="../assets/mockups/iPhone 16 - 6.png" alt="wireframe iPhone mockup"/>
+
+<!-- Consulting and dashboards -->
+<img src="../assets/mockups/Consulting Answer Creation.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Answer Creation-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Creation.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Creation-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe desktop app"/>
+
+<!-- Dashboard -->
+<img src="../assets/mockups/Dashboard Plantacion.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Dashboard Principal.png" alt="wireframe desktop app"/>
+
+<!-- Business & Consumer Edit/Register -->
+<img src="../assets/mockups/Management-Business-EditPlant.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-EditPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-EditPlant-2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-2.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-3.png" alt="wireframe desktop app"/>
+
+<img src="../assets/mockups/Management-Consumer-EditPlant.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-1.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-2.png" alt
+
+
+Mockups Mobile App:
+<!-- Business Register - Mobile -->
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- Consumer Register - Mobile -->
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- Delete Plant - Mobile -->
+<img src="../assets/mockups/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+
+<!-- iPhone mockups -->
+
+<img src="../assets/mockups/iPhone 16 - 9.png" alt="wireframe iPhone mockup"/>
+
+
+
+## 5.4.3. Applications User Flow Diagrams.
+
+Esta sección presenta la propuesta de User Flows. Se considera un User Flow
+para cada User goal, considerando los User Persona para cada aplicación que forma
+parte del alcance. Estos User Flows deben ser consistentes con los Wireflows de los
+cuales se derivan.
+
+En este caso los user flow que definimos serian:
+
+Business: Proceso de pagos pendientes facturados
+<img src="../assets/wireframes/userflow2.png" alt="wireframe web app"/>
+
+Domestico: Registrar una planta comun
+<img src="../assets/wireframes/userflow3.png" alt="wireframe web app"/>
+
+Especialista: Proceso de notificacion de problemas
+<img src="../assets/wireframes/userflow1.png" alt="wireframe web app"/>
+
+## 5.5. Applications Prototyping.
+Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
+simulación de interacción y navegación, acorde con la propuesta de paths de User
+Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
+principales criterios para las decisiones de interacción.
+
+<img src="../assets/mockups/prototype.png" alt="wireframe web app"/>
+
+link del figma: <a href = "https://www.figma.com/proto/0rjyzCalexoZmteQjXHSJl/Web-App?node-id=170-8218&p=f&t=oP3jf47NVjYvxxG8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=170%3A8218&show-proto-sidebar=1"> Link Figma </a>
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management.
+
+En los siguientes puntos, detallaremos las herramientas, convenciones, referencias y configuraciones empleadas a lo largo del desarrollo del proyecto, los cuales contribuyeron a mantener la base en el trabajo realizado.
+
+
+
+## 6.1.1. Software Development Environment Configuration.
+Figma: https://www.figma.com/
+
+Es una herramienta visual, donde diseñamos el prototipo de la pagina web. Se usó para crear los wireframes, mock-ups, asi como los desktop and mobile application del proyecto.
+
+LucidChart: https://lucid.app/
+
+Es una plataforma, la cual tiene opciones que nos ayudaron en la creación de diagramas, mapas y flujos usando plantillas y tableros. Fue usado para la creación del event storming
+
+PlantText: https://www.planttext.com/
+
+Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
+
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+
+Frontend Web Applications
+
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+
+Software Deployment
+
+Netlify: https://www.netlify.com/
+
+Es una plataforma en la cual hospedamos la lading page del proyecto, se integra con repositorios en Git.
+
+Vercel: https://vercel.com/
+
+Es una plataforma en la cual hospedamos la aplicación web.
+
+Software Documentation
+
+Vertabelo: https://vertabelo.com/
+
+Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+
+Structurizr: https://www.structurizr.com/
+
+Esta plataforma permite el modelado de diagramas de arquitectura de software. Se usó para la creación de los diagramas C4
+
+
+
+
+
+## 6.1.2. Source Code Management.
+
+Para la gestión y actualización del proyecto, se creó una organización via GitHub, en la cual se tuvo un control sobre los cambios a lo largo del ciclo de vida del proyect. Se organizo de la siguiente manera.
+
+Organization: https://github.com/wemade-IoT 
+Landing page repository: https://github.com/wemade-IoT/landing-page
+
+Report repository: https://github.com/wemade-IoT/Documents_Repository
+
+Web Application repository: https://github.com/wemade-IoT/eco-guardian-frontend
+
+Para controlar de manera eficiente el flujo de trabajo se utilizó GitFlow, donde contamos con una rama principal main que es donde se encuentra la versión más estable y lista para pasar a producción del proyecto.
+
+Ramas auxiliares:
+
+hotfix: Es la rama donde almacenamos una copia sobre una versión estable del proyecto
+
+feature: Son las ramas donde se desarrollan las funcionalidades del proyecto. Luego de completarlas, se fusionan con la rama develop.
+
+La nomenclatura para los features fueron las siguientes: feature/name. Por ejemplo, feature/sign-in, para ingresar a la aplicación web.
+
+Se utilizo el formato "report_branch" para hacer referencia a las versiones registradas por cada entrega del documento
+
+Commit Conventions
+
+Para el formato de los commits se siguió la estructura de Conventional Commits 1.0.0, la cual tiene la siguiente estructura:
+
+< type > [optional scope]: < description > Donde:
+
+type: Es el tipo de cambio. Tenemos valores como: fix, feat, build, chore, ci, docs, style, refactor, perf, test, etc. scope: Indica donde se realizó el commit (opcional). description: Menciona las actualizaciones del codigo.
+
+
+## 6.1.3. Source Code Style Guide & Conventions.
+
+Para el desarrollo del código en HTML y CSS se decidió seguir la convención de Google HTML/CSS Style Guide. Entre las más importantes destacan:
+
+Es fundamental que el tipo de documento se declare al inicio del archivo mediante etiquetas meta. El elemento ``` <title> ``` debe colocarse dentro de las etiquetas ``` <head> ```. Se debe aplicar una sangría de dos espacios. Es recomendable usar minúsculas para los elementos HTML, así como para sus atributos, valores, propiedades y selectores CSS. Los atributos en HTML deben estar entre comillas, y todos los elementos deben contar con su etiqueta de cierre correspondiente. Se aconseja evitar líneas de código excesivamente largas. Además, las imágenes deben tener definidos su ancho, alto y un texto alternativo (atributo alt).
+
+En cuanto al código JavaScript, se sigue la guía de estilo de Google para C# cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato upperCamelCase, y los valores de tipo cadena deben ir entre comillas simples.
+
+Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convenciones de Gherkin para especificaciones legibles”, que implican el uso de palabras clave como “Dado”, “Cuando”, “Entonces” y “Y”, junto con una sangría específica y comentarios bien separados.
+
+Por otro lado, el código en C# debe seguir las pautas del Microsoft Naming Conventions, que establecen reglas sobre el formato de nombres de carpetas, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
+
+Asimismo, para el desarrollo en C++ se aplican las convenciones de Google C++ Style Guide. Estas incluyen el uso de CamelCase para nombres de clases y snake_case para variables, funciones y archivos. Se deben emplear nombres descriptivos, evitar abreviaturas innecesarias y mantener una sangría consistente, generalmente de dos espacios.
+
+Finalmente, en el caso del lenguaje Dart, se siguen las convenciones establecidas en la Effective Dart Style Guide, donde se emplea lowerCamelCase para variables, funciones y parámetros; y UpperCamelCase para nombres de clases, tipos y enumeraciones. Los archivos deben usar snake_case, y se sugiere evitar líneas largas para mantener una coherencia en la sangria.
+
+
+
+## 6.1.4. Software Deployment Configuration.
+
+Para la configuracion de Landing Page y Web Aplication se hace uso de vercel y netlify.
+Como configuraciones se hace mencion de hacer un despliegue local al jsonServer para validar cierta data y hacer el efecto de mock de la data, en futuras entregas cuando tengamos una base de datos definida dejaremos de lado esa configuracion.
+
+## 6.2. Landing Page, Services & Applications Implementation.
+
+## 6.2.1. Sprint 1
+### 6.2.1.1. Sprint Planning 1.
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3">Sprint Planning Background</td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td> 2025-04-28</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>19:20 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td> La reunión se realizo virtualmente via Discord </td>
+        </tr>
+        <tr>
+            <td>Prepared By</td>
+            <td> Ramirez Hoffman, Sebastian</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Review Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n – 1 Retrospective Summary</td>
+            <td>No aplica</td>
+        </tr>
+        <tr>
+            <td>Sprint n Goal</td>
+            <td> El objetivo de este sprint es alcanzar al menos 100 usuarios interesados en nuestra solución en un plazo de 2 semanas. Para lograrlo, desarrollaremos un sitio web informativo que permita a los visitantes conocer los beneficios de nuestra propuesta y los motive a convertirse en suscriptores.
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint n Velocity</td>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <td>Sum of Story Points</td>
+            <td>0 (En esta ocacion al estar en planificacion se mantiene como 0)</td>
+        </tr>
+    </tbody>
+</table>
+
+### 6.2.1.2. Aspect Leaders and Collaborators.
+En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
+Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el
+fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
+
+Los aspectos que se tomaron en cuenta fueron en base a los bounded context identificados para la solución. 
+
+| Team Member (Last Name, First Name) | GitHub Username       | Management | Analytics | Consulting | Subscription | Payment | Automation | Installation | IAM    | Notifications |
+|-------------------------------------|-----------------------|------------|-----------|------------|--------------|---------|------------|--------------|--------|---------------|
+| Huilca Chipana, Gustavo             | &nbsp;GustavoHuilca31 | C          | **L**     | C          | &nbsp;       | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Jave Diaz Mathias Alejandro         | &nbsp;LordMathi2741   | **L**      | C         | &nbsp;     | C            | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
+| Esteban Garcia Nicolas Sebastian    | &nbsp;Nekolas777      | C          | &nbsp;    | &nbsp;     | **L**        | C       | &nbsp;     | **L**        | &nbsp; | &nbsp;        |
+| Luna Capuñay Italo D'alessandro     | &nbsp;tatoft          | &nbsp;     | &nbsp;    | **L**      | &nbsp;       | C       | &nbsp;     | C            | &nbsp; | &nbsp;        |
+| Kunimoto Watanabe Mathias Tsuneo    | &nbsp;Kuni2005        | &nbsp;     | C         | &nbsp;     | &nbsp;       | **L**   | &nbsp;     | &nbsp;       | C      | C             |
+| Ramirez Hoffmann Sebastian          | &nbsp;SEBRH           | &nbsp;     | &nbsp;    | C          | C            | &nbsp;  | &nbsp;     | &nbsp;       | **L**  | C             |
+| Peña Rivera Manuel Sebastian        | &nbsp;U202210138      | &nbsp;     | &nbsp;    | &nbsp;     | &nbsp;       | &nbsp;  | **L**      | C            | C      | **L**         |
+
+### 6.2.1.3. Sprint Backlog 1.
+
+| Sprint #   | Sprint 1                                 |                  |                                                |                                                                                                      |                    |                                  |                                              |
+|:-----------|:-----------------------------------------|:-----------------|:-----------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------|:---------------------------------|:---------------------------------------------|
+| User Story |                                          | Work-Item / Task |                                                |                                                                                                      |                    |                                  |                                              |
+| Id         | Title                                    | Id               | Title                                          | Description                                                                                          | Estimation (Hours) | Assigned To                      | Status (To-do / InProcess / ToReview / Done) |
+| HU01       | Conseguir información de la empresa      | T01              | Diseñar sección "About Us"                     | Crear interfaz con misión, visión y datos de la empresa.                                             | 1                  | Luna Capuñay Italo D'alessandro  | Done                                         |
+| HU02       | Conocer medios oficiales de la empresa   | T02              | Integrar enlaces a redes sociales en el footer | Agregar íconos de redes sociales en los footers                                                      | 1                  | Ramirez Hoffmann Sebastian       | Done                                         |
+| HU02       | Conocer medios oficiales de la empresa   | T03              | Integrar enlaces a perfiles de GitHub          | Integrar enlaces a perfiles de GitHub en la sección de About Us                                      | 1                  | Huilca Chipana, Gustavo          | Done                                         |
+| HU03       | Contactar a la empresa                   | T03              | Implementar formulario de contacto             | Desarrollo de formulario                                                                             | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
+| HU04       | Informarse sobre beneficios del producto | T04              | Crear sección de beneficios del producto       | Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA). | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
+| EP03       | Monitoreo de estados de clima            | T05              | Desarrollar dashboard de clima                 | Diseñar tarjetas para mostrar los datos del clima en una planta o plantación                         | 1                  | Huilca Chipana, Gustavo          | In-Process                                   |
+| HU10       | Generación de reportes de consumo        | T06              | Implementar descarga de reportes en Excel      | Integrar librería para exportar datos                                                                | 1                  | Esteban Garcia Nicolas Sebastian | In-Process                                   |
+| HU11       | Registro de planta                       | T08              | Formulario de registro de plantas              | Diseño de formulario con campos                                                                      | 1                  | Jave Diaz Mathias Alejandro      | In-Process                                   |
+| HU12       | Edición de planta                        | T09              | Implementar edición de plantas                 | Funcionalidad para modificar datos de plantas existentes.                                            | 1                  | Luna Capuñay Italo D'alessandro  | In-Process                                   |
+| HU13       | Eliminación de planta                    | T10              | Agregar funcionalidad de eliminación           | Funcionalidad de confirmación y lógica para eliminar plantas.                                        | 1                  | Kunimoto Watanabe Mathias Tsuneo | In-Process                                   |
+| HU14       | Registro de plantaciones empresarial     | T11              | Formulario para registro de plantaciones       | Campos específicos para áreas de cultivo empresarial                                                 | 1                  | Peña Rivera Manuel Sebastian     | In-Process                                   |
+
+### 6.2.1.4. Development Evidence for Sprint Review.
+
+| Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
+|:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 76447c5   | feat: initial setup                                                                                        |                     | 12/05/2025 9:28    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a47eee9   | chore: primevue config and dependencies for axios and vue router                                           |                     | 12/05/2025 9:56    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | f59d2d7   | fix: update favicon and title for EcoGuardian App                                                          |                     | 12/05/2025 16:39   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 776eff9   | feat: add chart.js and @types/node dependencies                                                            |                     | 12/05/2025 16:39   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | efaf98b   | feat: update tsconfig and vite config for path aliasing                                                    |                     | 12/05/2025 16:39   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | aee3d5d   | feat: add logo.svg file for EcoGuardian App branding                                                       |                     | 12/05/2025 16:39   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 4431400   | feat: add db.json file for server data storage                                                             |                     | 12/05/2025 16:39   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a33818e   | refactor: remove unused Button component and update template structure                                     |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 88d76fb   | style: format and organize imports in main.ts for improved readability                                     |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 59e9184   | feat: add TypeScript declaration for Vue components                                                        |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | df2d3bd   | style: update theme colors and scrollbar styles in style.css                                               |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | e6537f5   | chore: remove empty .gitkeep file from services directory                                                  |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 15cbd2d   | feat: add new Vue components for alerts list                                                               |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a0e14e4   | feat: create analytics page component with layout and imports for charts and lists                         |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a415fd8   | feat: add login page component with form and routing                                                       |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | cd08f5d   | feat: add registration page component with form fields and routing                                         |                     | 12/05/2025 16:40   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 199c18e   | feat: implement router configuration with login                                                            |                     | 12/05/2025 16:41   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 7f7704d   | feat: add sidebar component with navigation icons and user avatar                                          |                     | 12/05/2025 16:41   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9f34a7d   | feat: add toolbar component with alerts and date display                                                   |                     | 12/05/2025 16:41   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 4509505   | feat: create error page component with basic template                                                      |                     | 12/05/2025 16:41   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9343963   | feat: add main layout page with sidebar and toolbar components                                             |                     | 12/05/2025 16:41   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 52aaf35   | feat (analytics): add widgets container and cards                                                          |                     | 12/05/2025 18:30   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | c8d0813   | feat (notification): add alerts list and cards                                                             |                     | 12/05/2025 18:49   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9d8c62a   | feat: add tips carousel component with status display and improved layout                                  |                     | 12/05/2025 18:53   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3980503   | feat: remove unstyled option from PrimeVue configuration                                                   |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9ce0c99   | fix: add newline at end of file in style.css                                                               |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3b41fcb   | feat: enhance devices list component with detailed device information and layout improvements              |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3792c10   | feat: implement lines chart component with responsive design and data selection                            |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 70263b8   | feat: add chart options configuration and index file for analytics                                         |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 0605329   | feat: add new helper and interface files for analytics module                                              |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e30ab87   | feat: add mock chart data and type definitions for analytics module                                        |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 97cbc2b   | feat: add mock devices data and device state type definitions for analytics module                         |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 52045c3   | feat: add new mock data and type definition files for analytics module                                     |                     | 12/05/2025 19:31   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 7149550   | feat: update routing and add anatemporal page for dashboard                                                |                     | 12/05/2025 19:58   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1566bf3   | feat (management): add plant list and cards                                                                |                     | 12/05/2025 20:50   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ca27d01   | feat: add plant information component and update anatemporal page layout                                   |                     | 12/05/2025 21:34   |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | eb31eb5   | feat: add .env.template for API URL configuration                                                          |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 65ccc83   | feat: add .env to .gitignore to exclude environment variable files                                         |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e54eff5   | chore: update dependencies and add new packages                                                            |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a331225   | feat: initialize database structure with users                                                             |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 15d1a43   | feat: integrate Pinia for state management in the application                                              |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 241e92f   | feat: implement AnalyticsService for fetching analytics data                                               |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | d09ee88   | feat: update alert card component to format date and adjust alerts list to use created\_at                 |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 4d624ab   | feat: enhance devices list component with detailed device status and attributes                            |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | fdb8e5f   | feat: update lines chart component to handle empty chart data gracefully and fetch analytics data on mount |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | b7ccc07   | feat: enhance plant card component with improved styling and status representation                         |                     | 13/05/2025 1:46    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ff3ac82   | feat: refactor plants list component to fetch plants data from management service                          |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | afad7c9   | feat: refactor tips carousel component to fetch and display consulting queries dynamically                 |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ff96a03   | feat: refactor widget card and container components for improved styling and dynamic data fetching         |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a896333   | feat: restructure analytics page to conditionally display devices or plants list based on user role        |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | fd0286c   | feat: remove anatemporal page component and add new plant image asset                                      |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 57e1546   | feat: remove DECOMMISSIONED state from DEVICE\_STATE constant                                              |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 161ca9e   | feat: remove AnatemporalPage from router and update home path                                              |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 0570d1b   | feat: add HttpService for centralized axios configuration and token management                             |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3eab9cf   | feat: implement ConsultingService for API interaction using axios                                          |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e0a6940   | feat: implement AuthService for user authentication with axios                                             |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | df8b2b3   | feat: implement login form with email and password handling                                                |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e4cdc80   | feat: add auth store for user authentication and session management                                        |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 8b36dda   | feat: implement InstallationService for managing sensor data retrieval                                     |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e0cae5d   | feat: implement ManagementService for plant data retrieval                                                 |                     | 13/05/2025 1:47    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1a1b914   | feat: add NotificationsService for fetching notifications                                                  |                     | 13/05/2025 1:48    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 541ccf3   | feat: add logout functionality to sidebar component                                                        |                     | 13/05/2025 1:48    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1ec547b   | feat: restructure toolbar component layout for improved user role display                                  |                     | 13/05/2025 1:48    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | f821302   | feat: add new consulting questions and update tips carousel to limit displayed queries                     |                     | 13/05/2025 2:03    |
+| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 80b5ba9   | feat: remove unused specialist role check from analytics page                                              |                     | 13/05/2025 2:07    |
+
+### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
+### 6.2.1.6. Execution Evidence for Sprint Review.
+En nuestro video de exposicion se muestra la Demo de nuestra solucion de todas maneras se muestra evidencia de la solucion y una de sus vistas
+
+<img src="../assets/exec-evidence/Evidence.png" alt="Execution evidence"/>
+
+
+### 6.2.1.7. Services Documentation Evidence for Sprint Review.
+
+Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
+
+<img src="../assets/exec-evidence/evidence-docs.png" alt="Documentation Services evidence"/>
+
+
+
+### 6.2.1.8. Software Deployment Evidence for Sprint Review.
+
+Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.
+
+<img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence"/>
+
+<img src="../assets/exec-evidence/evidence-deploy-lan.png" alt="Deploy Lan evidence"/>
+
+
+### 6.2.1.9. Team Collaboration Insights during Sprint.
+
+Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page
+
+En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.
+<img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence"/>
+
+Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.
+<img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence"/>
+
+
+
+
+
 # Conclusiones
 
 <br>**TB1**: En esta TB1 realizamos un proceso preliminar al desarrollo de software concretando procesos importantes tales como las investigaciones y planteamiento de solución. Adicionalmente, se realiza el diseño de la arquitectura y una idea robusta del funcionamiento de la aplicación.
+
+<br>**TP**: En esta TP realizamos el diseño y desarrollo de ambas nuestra landing page y aplicacion web para nuestra solucion. Adicionalmente corregimos observaciones de la entrega anterior y optamos en continuar este proceso de mejora continua.
 
 # Conclusiones y recomendaciones.
 
