@@ -1352,46 +1352,54 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU01</td>
       <td>Conseguir información de la empresa</td>
       <td>Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto.</td>
-      <td>Escenario 1: Visualización de la misión de la empresa <br>
-Dado que el visitante se encuentra en el sitio web<br>
-Cuando encuentra la sección de "About Us" <br>
-Entonces el visitante visualiza la misión de la empresa
+      <td>Escenario 1: Visitante del sitio web encuentra información sobre la empresa a cargo del producto  <br>
+Dado que el visitante se encuentra interesado en conocer información sobre la empresa<br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Entonces el sitio web muestra al visitante información relevante de la empresa
 <br> <br>
-Escenario 2: Visualización de la visión de la empresa <br>
-Dado que el visitante se encuentra en la landing page<br>
-Cuando se ubica la sección de "About Us" <br>
-Entonces el visitante visualiza la visión de la empresa
+Escenario 2: Visitante del sitio web no encuetra información sobre la empresa  a cargo del producto <br>
+Dado que el visitante se encuentra interesado en conocer información sobre la empresa<br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Entonces el sitio web no muestra una información accesible al visitante <br>
+Y el visitante muestra desconfianza del producto <br>
+Y el visitante decide abandonar el sitio
       <td>EP01</td>
     </tr>
     <tr>
       <td>HU02</td>
       <td>Conocer los medios oficiales de la empresa</td>
-      <td>Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias.</td>
-      <td>Escenario 1: Acceso a redes sociales
-Dado que el visitante se encuentra en la sección de footer <br>
-Cuando se encuentra interesado en conocer los medios oficiales <br>
-Entonces visita los medios oficiales de la empresa. 
+      <td>Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para tener un mayor conocimiento sobre ella y recibir actualizaciones.</td>
+      <td>Escenario 1: Visitante del sitio web visualiza las redes sociales de la empresa
+Dado que el visitante se encuentra interesado en conocer mayor información de la empresa <br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Entonces el sitio web muestra de manera clara y accesible los enlaces a las redes sociales oficiales de la empresa
 <br> <br>
-Escenario 2: Suscripción a newsletter <br>
-Dado que el visitante desea mantenerse informado <br>
-Cuando introduce su correo en el formulario de suscripción <br>
-Entonces recibe una confirmación de suscripción exitosa.</td>
+Escenario 2: El sistema no muestra información accesible de las redes sociales de la empresa <br>
+Dado que el visitante se encuentra interesado en conocer mayor información de la empresa <br>
+Cuando el visitante navega sobre el sitio web del producto  <br>
+Entonces el sitio web no muestra información accesible al visitante.</td>
+Y el visitante experimenta desconfianza debido a la falta de transparencia <br>
+Y el visitante decide abandonar el sitio
       <td>EP01</td>
     </tr>
     <tr>
       <td>HU03</td>
-      <td>Contactar a la empresa desde la sección Contáctanos</td>
-      <td>Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio.</td>
-      <td>Escenario 1: Envío de formulario de contacto <br>
-Dado que el visitante se encuentra en la sección de "Contact Us" <br>
-Cuando se encuentra interesado en contactar a la empresa <br>
-Entonces envía la consulta mediante un formulario <br>
-Y la consulta es recibida por la empresa. 
+      <td>Ofrecer servicios de asesoria en cuidado de plantas a la empresa</td>
+      <td>Como visitante del sitio web, quiero tener la posibilidad de ofrecer servicios de asesoria en cuidado de plantas para tener la oportunidad de trabajar en la empresa.</td>
+      <td>Escenario 1: Solicitud de servicios se completa de manera éxitosa <br>
+Dado que el visitante se encuentra interesado en ofrecer sus servicios de asesoria en cuidado de plantas a la empresa <br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Y el vistante envia una solicitud para ofrecer sus servicios <br>
+Entonces el sitio web indica que la solicitud se ha procesado correctamente  <br>
+Y el visitante recibe una confirmación de envío <br>
 <br> <br>
-Escenario 2: Visualización de información de contacto <br>
-Dado que el visitante necesita contactar directamente a la empresa <br>
-Cuando busca en la sección de contacto <br>
-Entonces puede ver el número telefónico, dirección y correo de la empresa.</td>
+Escenario 2:  Solicitud de servicios no se completa correctamente <br>
+Dado que el visitante se encuentra interesado en ofrecer sus servicios de asesoria en cuidado de plantas a la empresa <br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Y el vistante envia una solicitud para ofrecer sus servicios <br>
+Entonces el sitio web inidica que la solicitud no se llego a completar <br>
+Y el visitante experimenta frustración debido a la falta de éxito en el envío <br>
+Y el visitante decide abandonar el sitio
       <td>EP01</td>
     </tr>
     <tr>
