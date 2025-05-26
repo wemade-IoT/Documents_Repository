@@ -1404,19 +1404,19 @@ Y el visitante decide abandonar el sitio
     </tr>
     <tr>
       <td>HU04</td>
-      <td>Informarse sobre los beneficios del producto</td>
-      <td>Como visitante del sitio web, quiero informarme sobre los beneficios del producto ofrecido.</td>
-      <td>Escenario 1: Visualización de beneficios del producto <br>
-Dado que el visitante se encuentra en el sitio web <br>
-Cuando se ubica en la sección de benefits <br>
-Entonces observa los beneficios del producto que se ofrecen al usar nuestra solución  <br>
-Y Se registra como usuario.
+      <td> Visualizar beneficios del producto</td>
+      <td>Como visitante del sitio web, quiero visualizar información sobre los beneficios del producto para conocer como puede resolver mis necesidades personales o de negocio.</td>
+      <td>Escenario 1: Visitante del sitio web visualiza correctamente la información sobre los beneficios <br>
+Dado que el visitante se encuentra interesado en conocer información sobre los beneficios del producto <br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Entonces el sitio web muestra información detallada sobre los beneficios de nuestro producto  <br>
 <br> <br>
-Escenario 2: Comprensión de lo que EcoGuardian ofrece <br>
-Dado que el visitante se encuentra en el sitio web <br>
-Cuando navega hacia la sección "What We Made for You" <br>
-Entonces visualiza el producto de la solución <br>
-Y se visualiza información sobre el sistema de análisis y recopilación de datos de plantas. </td>
+Escenario 2: Visitante del sitio web no encuentra información sobre los beneficios del producto <br>
+Dado que el visitante se encuentra interesado en conocer información sobre los beneficios del producto <br>
+Cuando el visitante navega sobre el sitio web del producto <br>
+Entonces el sitio web muestra no muestra información concisa sobre los beneficios del producto o esta no se encuentra disponible   <br>
+Y el visitante no se interesa en adquirir el producto <br>
+Y el visitante decide abandonar el sitio
       <td>EP01</td>
     </tr>
     <tr>
