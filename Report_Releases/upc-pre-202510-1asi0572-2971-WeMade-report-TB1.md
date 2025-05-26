@@ -1424,14 +1424,26 @@ Y el visitante decide abandonar el sitio
       <td>Ampliación de monitoreo de plantas</td>
       <td>Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla.</td>
       <td>Escenario 1: Adición de plantas adicionales <br>
-Dado que el usuario tiene un número de plantas limitado en su plan <br>
-Cuando decide agregar más plantas <br>
+Dado que el usuario desea agregar plantas adicionales <br>
+Cuando requiere agregar más plantas a su cuenta <br>
 Entonces el sistema debe permitirle agregar plantas extra, cobrando un monto adicional por cada una.
 <br> <br>
 Escenario 2: Visualización del costo adicional <br>
 Dado que el usuario desea agregar plantas adicionales <br>
-Cuando selecciona la opción de agregar planta <br>
-Entonces el sistema muestra claramente el costo adicional antes de confirmar. </td>
+Cuando se encuentra en proceso de añadir una nueva planta <br>
+Entonces el sistema muestra el costo adicional antes de confirmar. 
+
+<br> <br>
+Escenario 3: Planta agregada exitosamente a la cuenta del usuario <br>
+Dado que el usuario acaba de registrar una nueva planta a su cuenta <br>
+Cuando el usuario se encuentra interesado en agregar una nueva planta <br>
+Entonces el sistema muestra que la planta se agrego éxitosamente
+<br> <br>
+Escenario 4: Error al agregar una nueva planta a la cuenta del usuario <br>
+Dado que el usuario acaba de registrar una nueva planta a su cuenta <br>
+Cuando el usuario se encuentra interesado en agregar una nueva planta <br>
+Entonces el sistema muestra que el proceso de registro de planta no se completo con éxito <br>
+Y el sistema muestra una alerta indicando el error al usuario <br>
       <td>EP05</td>
     </tr>
     <tr>
