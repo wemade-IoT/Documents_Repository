@@ -3954,439 +3954,12 @@ Backend:
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
 
-### 4.2.6. Bounded Context: Automation
+
+### 4.2.6. Bounded Context: Identity and Access Management
 
 
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
 
 #### 4.2.6.1. Domain Layer.
-
-En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
-
-### Entities
-
-### Aggregates
-
-#### `Actuator`
-Representa un actuador físico que ha sido instalado.
-
-| Atributo         | Tipo     | Descripción                                                   |
-|------------------|----------|---------------------------------------------------------------|
-| Id               | Int      | Identificador único del sensor                                |
-| Brand            | Text     | Marca del sensor                                              |
-| Voltage          | Text     | Voltaje del sensor                                            |
-| InstalledAt      | DateTime | Fecha de instalación del sensor                               |
-| ActivatedAt      | DateTime | Fecha de activación del sensor                                |
-
----
-
-### Commands
-
-| Clase                      | Descripción                                                                 |
-|----------------------------|-----------------------------------------------------------------------------|
-| CreateActuatorCommand      | Comando para registrar un nuevo actuador con sus detalles técnicos.           |
-| UpdateActuatorCommand      | Comando para actualizar atributos como la fecha de activacion.             |
-| RemoveActuatorCommand      | Comando para eliminar un actuador del sistema.                                |
-
-
----
-
-
-### Domain Services (Interfaces)
-
-#### Command Services
-
-| Interface                  | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| ISensorCommandService     | Operaciones sobre sensores (crear, actualizar, eliminar).                   |
-| ISensorTypeCommandService | Operaciones sobre tipos de sensores.                                        |
-
----
-
-### Repositories (Interfaces)
-
-| Interface               | Descripción                                                                   |
-|------------------------|--------------------------------------------------------------------------------|
-| ISensorRepository       | Persistencia y consultas de sensores.                                         |
-| ISensorTypeRepository   | Persistencia y consultas de tipos de sensores.                                |
-
-
-
-#### 4.2.6.2. Interface Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
-  
- ---
-  
-  #### Resources
-  
-  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | CreateActuatorResource        | Recibe datos para la creación de un nuevo actuador.            |
-  | UpdateActuatorResource  |  Recibe datos para la actualización de un actuador existe.
-   | DeleteActuatorResource  |  Recibe datos para la eliminación de un actuador existe.     
- ---
- 
-   ## Transforms/Assemblers
-  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
-  
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  |CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuador.      |
-  | UpdateActuatorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un actuador existente.              |
-  | DeleteActuatorCommandFromResourceAssembler        | Transforma un recurso de entrada en un comando para eliminar un actuador existente.         |
- 
-  ---
- 
-  #### Controllers
-  
-  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
-  
-  **ActuatorController**
-  
-  
-  | Ruta especifica             | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | /api/v1/actuator      | Gestiona la creación de actuadores  |
-  
- 
-  ---
-
-
-#### 4.2.6.3. Application Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
-
-### CommandServices
-
-| Clase                        | Interface                  | Descripción                                                                                   |
-|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
-| `ActuatorCommandService`    | `IActuatorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Actuator.       |
-| `CreateActuatorCommand`     | `ICreateActuatorCommand`   | Comando que encapsula la lógica necesaria para crear una nueva instancia de Actuator.         |
-| `UpdateActuatorCommand`     | `IUpdateActuatorCommand`   | Comando que encapsula la lógica para modificar los datos de un Actuator ya existente.         |
-| `ActivateActuatorCommand`   | `IActivateActuatorCommand` | Comando que encapsula la lógica para activar un Actuator, cambiando su estado operativo.      |
-
-
-
-
-#### 4.2.6.4. Infrastructure Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
-
-
-### Implementación de las interfaces de los Repositories
-
-| Clase              | Interfaz Implementada | Descripción                                                                                                          |
-|--------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| ActuatorRepository | IActuatorRepository   | Implementa los métodos de consulta y persistencia de los actuadores de los usuarios al momento de realizar el riego. |
-
-
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
-En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
-
-Web App:
-
-- No aplica para este caso
-
-Backend:
-
-<img src="../assets/component-diagrams/structurizr-101372-AutomationSystem.png" alt="Automation Component Diagram on API"/>
-
-Mobile:
-
-- No aplica para este caso
-
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
-
-
-
-##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
-
-Web App:
-
-- No aplica para este caso
-
-Backend:
-
-<img src="../assets/tactical-level-ddd/automation/uml_automation.png" alt="Automation Class Diagram"/>
-
-Mobile:
-
-- No aplica para este caso
-
-##### 4.2.6.6.2. Bounded Context Database Design Diagram.
-
-<img src="../assets/tactical-level-ddd/db-diagrams/automation-db-diagram.png" alt="Automation Database Design Diagram"/>
-
-### 4.2.7. Bounded Context: Installation
-
-#### 4.2.7.1. Domain Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-Web App:
-
-- No aplica para este caso
-
-Backend:
-
-En esta capa se describen las clases que representan el núcleo del dominio del contexto de Instalation. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
-
-### Entities
-
-#### `SensorType`
-Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, temperatura, luz).
-
-| Atributo | Tipo   | Descripción                                 |
-|----------|--------|---------------------------------------------|
-| Id       | Int    | Identificador único del tipo de sensor      |
-| Type     | Text   | Nombre del tipo de sensor (ej. "Humedad")   |
-
----
-
-
-### ValueObjects
-
-#### `SensorTypes`
-Representa los diferentes tipos de sensores disponibles.
-| Atributo | Descripción                                 |
-|----------|---------------------------------------------|
-| Humity      | Representa un sensor de humedad      |
-| Temperature     | Representa un sensor de temperatura   |
-| Light    | Representa un sensor de luz   |
-
----
-
-### Aggregates
-
-#### `Sensor`
-Representa un sensor físico que ha sido instalado.
-
-| Atributo         | Tipo     | Descripción                                                   |
-|------------------|----------|---------------------------------------------------------------|
-| Id               | Int      | Identificador único del sensor                                |
-| Brand            | Text     | Marca del sensor                                              |
-| Voltage          | Text     | Voltaje del sensor                                            |
-| PowerCapacity    | Int      | Capacidad energética del sensor                               |
-| SensorTypesId    | Int      | Tipo de sensor (llave foránea a `SensorType`)                 |
-| InstalledAt      | DateTime | Fecha de instalación del sensor                               |
-| MemoryCapacity   | Int      | Capacidad de memoria del sensor                               |
-| ActivatedAt      | DateTime | Fecha de activación del sensor                                |
-| LastUpdated      | DateTime | Última vez que se actualizaron los datos del sensor           |
-
----
-
-### Commands
-
-| Clase                      | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
-| UpdateSensorCommand       | Comando para actualizar atributos como voltaje, memoria o tipo.             |
-| ActivateSensorCommand       | Comando para activar un sensor en el sistema.                                |
-
-| SeedSensorTypesCommand     | Comando para inicializar los tipos de sensores disponibles.                 |
-
----
-
-
-### Domain Services (Interfaces)
-
-#### Command Services
-
-| Interface                  | Descripción                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| ISensorCommandService     | Operaciones sobre sensores (crear, actualizar, eliminar).                   |
-| ISensorTypeCommandService | Operaciones sobre tipos de sensores.                                        |
-
----
-
-### Repositories (Interfaces)
-
-| Interface               | Descripción                                                                   |
-|------------------------|--------------------------------------------------------------------------------|
-| ISensorRepository       | Persistencia y consultas de sensores.                                         |
-| ISensorTypeRepository   | Persistencia y consultas de tipos de sensores.                                |
-
-
-#### 4.2.7.2. Interface Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
- 
----
- 
- #### Resources
- 
- - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | CreateSensorResource        | Recibe datos para la creación de un nuevo sensor.            |
- | UpdateSensorResource  |  Recibe datos para la actualización de un sensor existe.  
----
-
-  #### Transforms/Assemblers
- - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
- 
- 
- | Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- |CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
- | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.              |
-
- ---
-
- #### Controllers
- 
- - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
- 
- **SensorController**
- 
- 
- | Ruta especifica             | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | /api/v1/sensor      | Gestiona la creación de sensores |
- 
-
- ---
-
-#### 4.2.7.3. Application Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-
-Backend:
-
-*CommandServices*
-| Clase                        |Interface                  | Descripción                                                                                   |
-|-----------------------------|----------------------------|-----------------------------------------------------------------------------------------------|
-| `SensorCommandService`      | `ISensorCommandService`  | Servicio que implementa los comandos del dominio relacionados con el agregado Sensor.       |
-
-
-
-#### 4.2.7.4. Infrastructure Layer.
-
-Mobile App:
-
-- No aplica para este caso
-
-
-Web App:
-
-- No aplica para este caso
-
-### Implementación de las interfaces de los Repositories
-| Clase            | Interfaz Implementada | Descripción                                                                                                          |
-|------------------|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| SensorRepository | ISensorRepository     | Implementa los métodos de consulta y persistencia de los sensores del sistema al momento de realizar la instalación. |
-
-#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
-
-En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
-
-Web App:
-
-- No aplica para este caso
-
-Backend:
-
-<img src="../assets/component-diagrams/structurizr-101372-InstallationSystem.png" alt="Installation Component Diagram on API"/>
-
-Mobile:
-
-- No aplica para este caso
-
-#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
-
-##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
-
-Web App:
-
-- No aplica para este caso
-
-Backend:
-
-<img src="../assets/tactical-level-ddd/instalation/instalation-diagram.jpeg" alt="Instalation diagram"/>
-
-Mobile:
-
-- No aplica para este caso
-
-##### 4.2.7.6.2. Bounded Context Database Design Diagram.
-
-<img src="../assets/tactical-level-ddd/db-diagrams/installation-db-diagram.png" alt="Installation Database Design Diagram"/>
-
-
-### 4.2.8. Bounded Context: Identity and Access Management
-
-
-
-#### 4.2.8.1. Domain Layer.
 
 Mobile App:
 
@@ -4497,7 +4070,7 @@ Representa un usuario del sistema.
  ---
 
 
-#### 4.2.8.2. Interface Layer.
+#### 4.2.6.2. Interface Layer.
 
 Mobile App:
 
@@ -4569,7 +4142,7 @@ Backend:
  
 ---
  
-#### 4.2.8.3. Application Layer.
+#### 4.2.6.3. Application Layer.
 
 Mobile App:
 
@@ -4601,7 +4174,7 @@ Backend:
 
 
 
-#### 4.2.8.4. Infrastructure Layer.
+#### 4.2.6.4. Infrastructure Layer.
 
 Mobile App:
 
@@ -4638,7 +4211,7 @@ Backend:
 |----------------|-----------------------|--------------------------------------------------------------------------------|
 | UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
 
-#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
@@ -4656,9 +4229,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
 alt="IAM Component Diagram on Mobile App"/>
 
-#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
@@ -4668,14 +4241,14 @@ Backend:
 
 <img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
-##### 4.2.8.6.2. Bounded Context Database Design Diagram.
+##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/iamt-db-diagram.png" alt="Iam Database Design Diagram"/>
 
 
-### 4.2.9. Bounded Context: Notifications
+### 4.2.7. Bounded Context: Notifications
 
-#### 4.2.9.1. Domain Layer.
+#### 4.2.7.1. Domain Layer.
 
 Web App:
 - En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio, asi como las clases relacionadas a la gestión de estado.
@@ -4873,7 +4446,7 @@ Backend:
    |---------------------|--------------------------------------------------|
    | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
 
-#### 4.2.9.3. Application Layer.
+#### 4.2.7.3. Application Layer.
 
 Mobile App:
 
@@ -4908,7 +4481,7 @@ Backend:
 | `IExternalUserService`         | Definición del contrato que permite la interacción con el sistema externo de usuarios. |
 | `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
-#### 4.2.9.4. Infrastructure Layer.
+#### 4.2.7.4. Infrastructure Layer.
 
 Mobile App:
 
@@ -4936,7 +4509,7 @@ Backend:
 |------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
 | NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
 
-#### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
@@ -4953,9 +4526,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-NotificationBoundedContextonMobileApp.png"
 alt="Notification Component Diagram on Mobile App"/>
 
-#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
