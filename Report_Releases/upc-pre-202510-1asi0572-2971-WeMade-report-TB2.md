@@ -4998,7 +4998,7 @@ Software Development: Para el desarrollo de la landing page se utilizarón las t
 
 Frontend Web Applications
 
-Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas librerias de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas bibliotecas de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
 
 Software Deployment
 
@@ -5172,7 +5172,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | HU03       | Contactar a la empresa                   | T03              | Implementar formulario de contacto             | Desarrollo de formulario                                                                             | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
 | HU04       | Informarse sobre beneficios del producto | T04              | Crear sección de beneficios del producto       | Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA). | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
 | EP03       | Monitoreo de estados de clima            | T05              | Desarrollar dashboard de clima                 | Diseñar tarjetas para mostrar los datos del clima en una planta o plantación                         | 1                  | Huilca Chipana, Gustavo          | In-Process                                   |
-| HU10       | Generación de reportes de consumo        | T06              | Implementar descarga de reportes en Excel      | Integrar librería para exportar datos                                                                | 1                  | Esteban Garcia Nicolas Sebastian | In-Process                                   |
+| HU10       | Generación de reportes de consumo        | T06              | Implementar descarga de reportes en Excel      | Integrar biblioteca para exportar datos                                                                | 1                  | Esteban Garcia Nicolas Sebastian | In-Process                                   |
 | HU11       | Registro de planta                       | T08              | Formulario de registro de plantas              | Diseño de formulario con campos                                                                      | 1                  | Jave Diaz Mathias Alejandro      | In-Process                                   |
 | HU12       | Edición de planta                        | T09              | Implementar edición de plantas                 | Funcionalidad para modificar datos de plantas existentes.                                            | 1                  | Luna Capuñay Italo D'alessandro  | In-Process                                   |
 | HU13       | Eliminación de planta                    | T10              | Agregar funcionalidad de eliminación           | Funcionalidad de confirmación y lógica para eliminar plantas.                                        | 1                  | Kunimoto Watanabe Mathias Tsuneo | In-Process                                   |
