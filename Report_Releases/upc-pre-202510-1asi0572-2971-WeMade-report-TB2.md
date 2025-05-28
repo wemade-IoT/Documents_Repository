@@ -5624,18 +5624,11 @@ Landing Page: En esta ocacion al ser primero todo el equipo participo activament
 <img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence" width="400"/>
 
 
-
-
-
 # Conclusiones
-
-<br>**TB1**: En esta TB1 realizamos un proceso preliminar al desarrollo de software concretando procesos importantes tales como las investigaciones y planteamiento de solución. Adicionalmente, se realiza el diseño de la arquitectura y una idea robusta del funcionamiento de la aplicación.
-
-<br>**TP**: En esta TP realizamos el diseño y desarrollo de ambas nuestra landing page y aplicacion web para nuestra solucion. Adicionalmente corregimos observaciones de la entrega anterior y optamos en continuar este proceso de mejora continua.
 
 # Conclusiones y recomendaciones.
 
-Como una conclusion general hemos realizado un primer avance aplicando un tabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.
+Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.
 
 Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.
 
