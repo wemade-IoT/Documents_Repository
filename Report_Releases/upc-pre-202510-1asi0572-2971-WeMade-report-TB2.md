@@ -1926,7 +1926,7 @@ Entonces el sistema debe mostrar los planes que cumplen con los criterios de fil
 
 ## 3.4. Product Backlog.
 
-Link Trello: https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0dd13d0496480e011de94c8ed610564aEDA6CB98/ecoguardian
+Link Trello: https://shorturl.at/OzBw1
 
 ## User Stories en Orden
 
