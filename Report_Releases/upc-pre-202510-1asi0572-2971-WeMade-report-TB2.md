@@ -5287,29 +5287,72 @@ Dashboard de los análisis
 <img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app" width = "400"/>
 
 **Descripción:**
-Dashboard de su monitoreo de su plantación 
+Dashboard de su monitoreo de su plantación.
 
 **Mobile Aplication Wireframes:**
 
 
 #### Registro Plantacion Segmento Empresarial:
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Dashboard donde se muestra toda la información y el boton de agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Mensaje de éxito al agregar una planta.
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Dashboard de su monitoreo de su plantación
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Formulario de agregar nueva plantación para segmento empresa.
 
 #### Registro Planta Segmento Domestico:
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/> 
 
-<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app" height = "400" width = "250"/>
+**Descripción:**
+Dashboard donde se encuentra boton de agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Mensaje de éxito al agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Formulario de agregar planta.
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Historial de pagos
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista del perfil de usuario.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista de subcripciones.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista de perfil del segmento especialista.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Perfil con sección de pagos pendientes.
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
