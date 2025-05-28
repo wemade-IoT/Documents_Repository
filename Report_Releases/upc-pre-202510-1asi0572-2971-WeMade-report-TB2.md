@@ -5364,19 +5364,28 @@ parte del alcance. En este caso consideramos los mas relevantes hasta el momento
 **Registar Usuario**
 <img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Flujo de registro de nuevo usuario con ingreso de datos personales, selección de tipo de usuario y confirmación de cuenta.
+
 **Registar Planta**
 <img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app" width="400"/>
+
+**Descripción:**
+Proceso de registro de nueva planta con configuración de sensores y umbrales de monitoreo.
 
 **Editar Planta**
 <img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Flujo de edición de información de plantas existentes, permitiendo modificar parámetros y datos registrados.
+
 **Eliminar Planta**
 <img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Proceso de eliminación de plantas con confirmaciones de seguridad y gestión de datos asociados.
 
 ## 5.4.2. Applications Mock-ups.
-
-
 
 Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
 diseño inclusivo y arquitectura de información, así como el Design System
