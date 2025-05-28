@@ -513,13 +513,13 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 
 |                                                                                                                                                  | Miembros del equipo         | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/photos-members/Gustavo-Huilca-Chipana.png" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="150"/>            | Gustavo Huilca Chipana      | u202213983        | Ingeniería de Software | Cuento con conocimientos en UI/UX design, trabajo colaborativo de desarrollos ágiles a través de SCRUM, desarrollo de aplicaciones web y móvil haciendo uso de los frameworks Vue, Angular, Astro, ASP.NET Core y Spring Boot; así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente.                                                                                          |
-| <img src="../assets/photos-members/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" width="150" />                     | Mathias Alejandro Jave Diaz | u202212721        | Ingeniería de Software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo.                                                                 |
-| <img src="../assets/photos-members/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="150"/>                        | Mathias Kunimoto            | u202210148        | Ingeniería de Software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida.                                                           |
-| <img src="../assets/photos-members/Italo-Luna-Capunay.png" alt="Italo Luna" style="margin-bottom: 5px;" width="150"/>                            | Italo Luna                  | u202213375        | Ingeniería de Software | Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo.                                                                                                                   |
-| <img src="../assets/photos-members/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px;" width="150"/>                           | Manuel Peña                 | u202210138        | Ingeniería de Software | Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo.              |
-| <img src="../assets/photos-members/Nicolas-Esteban-Garcia.jpg" alt="Nicolas Esteban" style="margin-bottom: 5px;" width="150"/>                   | Nicolas Esteban             | u202217485        | Ingeniería de Software | Tengo experiencia en frameworks como Astro, Vue y React, y actualmente estoy aprendiendo Next.js y Express. Me apasiona el desarrollo frontend, siempre enfocado en ofrecer una experiencia de usuario fluida y cómoda. Me considero una persona sociable, responsable y proactiva, además, disfruto participar en proyectos multidisciplinarios y apoyar a comunidades que promueven el desarrollo web. Siempre busco dar lo mejor de mí para asegurar un rendimiento óptimo en cada aplicación. |
-| <img src="../assets/photos-members/Sebastian-Ramirez-Hoffmann.jpeg" alt="Sebastian Ramirez Hoffmann" style="margin-bottom: 5px;" width="150px"/> | Sebastian Ramirez Hoffmann  | U202211894        | Ingeniería de Software | Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos.                                                                            |
+| <img src="../assets/photos-members/Gustavo-Huilca-Chipana.png" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="1000"/>            | Gustavo Huilca Chipana      | u202213983        | Ingeniería de Software | Cuento con conocimientos en UI/UX design, trabajo colaborativo de desarrollos ágiles a través de SCRUM, desarrollo de aplicaciones web y móvil haciendo uso de los frameworks Vue, Angular, Astro, ASP.NET Core y Spring Boot; así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente.                                                                                          |
+| <img src="../assets/photos-members/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" width="1000" />                     | Mathias Alejandro Jave Diaz | u202212721        | Ingeniería de Software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo.                                                                 |
+| <img src="../assets/photos-members/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="1000"/>                        | Mathias Kunimoto            | u202210148        | Ingeniería de Software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida.                                                           |
+| <img src="../assets/photos-members/Italo-Luna-Capunay.png" alt="Italo Luna" style="margin-bottom: 5px;" width="1000"/>                            | Italo Luna                  | u202213375        | Ingeniería de Software | Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo.                                                                                                                   |
+| <img src="../assets/photos-members/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px;" width="1000"/>                           | Manuel Peña                 | u202210138        | Ingeniería de Software | Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo.              |
+| <img src="../assets/photos-members/Nicolas-Esteban-Garcia.jpg" alt="Nicolas Esteban" style="margin-bottom: 5px;" width="1000"/>                   | Nicolas Esteban             | u202217485        | Ingeniería de Software | Tengo experiencia en frameworks como Astro, Vue y React, y actualmente estoy aprendiendo Next.js y Express. Me apasiona el desarrollo frontend, siempre enfocado en ofrecer una experiencia de usuario fluida y cómoda. Me considero una persona sociable, responsable y proactiva, además, disfruto participar en proyectos multidisciplinarios y apoyar a comunidades que promueven el desarrollo web. Siempre busco dar lo mejor de mí para asegurar un rendimiento óptimo en cada aplicación. |
+| <img src="../assets/photos-members/Sebastian-Ramirez-Hoffmann.jpeg" alt="Sebastian Ramirez Hoffmann" style="margin-bottom: 5px;" width="1000px"/> | Sebastian Ramirez Hoffmann  | U202211894        | Ingeniería de Software | Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos.                                                                            |
 
 ## 1.2. Solution Profile
 
@@ -2034,7 +2034,7 @@ Este escenario describe cómo el usuario solicita la suscripción al servicio, s
 
 Este escenario representa cómo un usuario solicita ayuda especializada. La solicitud es procesada, un especialista es asignado, y ambos reciben confirmación mediante notificaciones.
 
-<img src="../assets/event-storming/domain-message-flows/message-flow-bounded-scenario2.jpg" alt="Domain Message Flows Modeling"/>
+<img src="../assets/event-storming/domain-message-flows/message-flow-bounded-scenario2.jpg" alt="Domain Message Flows Modeling" width="500"/>
 
 ### 4.1.1.3 Bounded Context Canvases. 
 
@@ -2081,7 +2081,7 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
-<img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
+<img src="../assets/container-diagram/container-diagran.png" alt="EcoGaurdian Container Diagram"/>
 -
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
@@ -2950,16 +2950,16 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-ManagementBCWebApp.png" alt="Management Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-ManagementBCWebApp.png" alt="Management Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-ManagementSystem.png" alt="Management Component Diagram on Backend"/>
+<img src="../assets/component-diagrams/structurizr-101372-ManagementSystem.png" alt="Management Component Diagram on Backend" width="350"/>
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-ManagementBoundedContextonMobileApp.png"
-alt="Management Component Diagram on Mobile App"/>
+alt="Management Component Diagram on Mobile App" width="350"/>
 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -2968,7 +2968,7 @@ alt="Management Component Diagram on Mobile App"/>
 
 Web App:
 
-<img src="../assets/class-diagrams/managementWeb.png" alt ="Management class diagram on Web App"/>
+<img src="../assets/class-diagrams/managementWeb.png" alt ="Management class diagram on Web App" />
 
 Mobile App:
 
@@ -2976,7 +2976,7 @@ Mobile App:
 
 Backend:
 
-<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram on Api"/>
+<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram on Api" />
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
@@ -3243,11 +3243,11 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBCWebApp.png" alt="Analytics Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsBCWebApp.png" alt="Analytics Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-AnalyticsSystem.png" alt="Analytics Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-AnalyticsSystem.png" alt="Analytics Component Diagram on API" width="350"/>
 
 Mobile:
 
@@ -3685,16 +3685,16 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-ConsultingBCWebApp.png" alt="Consulting Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingBCWebApp.png" alt="Consulting Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-ConsultingSystem.png" alt="Consulting Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-ConsultingSystem.png" alt="Consulting Component Diagram on API" width="350"/>
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-ConsultingBoundedContextonMobileApp.png"
-alt="Consulting Component Diagram on Mobile App"/>
+alt="Consulting Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -3979,16 +3979,16 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API" width="350"/>
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
-alt="Subscriptiom Component Diagram on Mobile App"/>
+alt="Subscriptiom Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -4257,16 +4257,16 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-PaymentSystem.png" alt="Payment Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-PaymentSystem.png" alt="Payment Component Diagram on API" width="350"/>
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png"
-alt="Payment Component Diagram on Mobile App"/>
+alt="Payment Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -4550,17 +4550,17 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-IamBCWebApp.png" alt="IAM Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-IamBCWebApp.png" alt="IAM Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-IamSystem.png" alt="Iam Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-IamSystem.png" alt="Iam Component Diagram on API" width="350"/>
 
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
-alt="IAM Component Diagram on Mobile App"/>
+alt="IAM Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -4848,16 +4848,16 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-NotificationBCWebApp.png" alt="Notification Component Diagram on Web App"/>
+<img src="../assets/component-diagrams/structurizr-101372-NotificationBCWebApp.png" alt="Notification Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-NotificationSystem.png" alt="Notification Component Diagram on API"/>
+<img src="../assets/component-diagrams/structurizr-101372-NotificationSystem.png" alt="Notification Component Diagram on API" width="350"/>
 
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-NotificationBoundedContextonMobileApp.png"
-alt="Notification Component Diagram on Mobile App"/>
+alt="Notification Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
 
@@ -4865,18 +4865,19 @@ alt="Notification Component Diagram on Mobile App"/>
 
 Web App:
 
-<img src="../assets/class-diagrams/notificationWeb.png" alt="Notification Context Domain Layer Class Diagrams on API"/>
+<img src="../assets/class-diagrams/notificationWeb.png" alt="Notification Context Domain Layer Class Diagrams on API" width="350"/>
 
 Mobile App:
+
 <img src="../assets/class-diagrams/notificationMobile.png" alt="Notification Context Domain Layer Class Diagrams on Mobile App"/>
 
 Backend:
 
-<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams on API"/>
+<img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams on API" width="350"/>
 
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram" width="350"/>
 
 # Capítulo V:  Solution UI/UX Design
 
@@ -4893,7 +4894,7 @@ Guidelines.
 Aquí se explicamos las decisiones y referencias visuales sobre conceptos generales
 básicos como Branding, Typography, Colors y Spacing.
 
-<img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines"/>
+<img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines" width="350"/>
 
 En este caso tenemos nuestro general style guideline donde mostramos nuestra paleta basica de colores y tipografias junto con sus tamaños. Para esta ocacion buscamos generar un tono de orden pero organico, casual o incluso en este caso natural ya que va a la par del enfoque de nuestro proyecto.
 
@@ -4931,15 +4932,15 @@ En esta ocacion para lo que seria nuestra landing page seguimos un approach basi
 
 Esta decision fue tomada para mantener un estandar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorizacion de contenido va cambiando a medida que se llega al final de la pagina.
 
-<img src="../assets/style-guidelines/Landing.png" alt="Landing"/>
+<img src="../assets/style-guidelines/Landing.png" alt="Landing" width="350"/>
 
 
 En el caso de la aplicacion de escritorio web, (Web aplication), nos inspiramos en un sistema de widgets para organizar datos este seria un estilo matricial donde para categorizar utilizamos segun nuestros segmentos ya que no tienen las mismas caracteristicas.
 Adicionalmente a nivel de aplicacion movil se espera de que la aplicacion no tenga acceso a realizar pagos y en vez de eso rediriga al usuario a la pagina web, este modelo tiene inspiracion en como Spotify maneja sus subscripciones.
 
-<img src="../assets/style-guidelines/WebApp.png" alt="Dashboard"/>
+<img src="../assets/style-guidelines/WebApp.png" alt="Dashboard" width="350"/>
 
-<img src="../assets/style-guidelines/Card - Small.png" alt="Card to redirect"/>
+<img src="../assets/style-guidelines/Card - Small.png" alt="Card to redirect" width="350"/>
 
 
 ## 5.2.2. Labeling Systems.
@@ -5034,7 +5035,7 @@ Esta sección incluye una sección interna donde se presenta y explica los Wiref
 del Landing Page para Desktop Web Browser y Mobile Web Browser
 
 Wireframes de la Landing page para Desktop web browser:
-<img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page"/>
+<img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page" width="350"/>
 
 Wireframes de la Landing page para Mobile web browser:
 
@@ -5045,13 +5046,14 @@ para Desktop Web Browser como Mobile Web Browser.
 
 Para esta entrega hemos recibido feedback orientado a distintos aspectos de diseño para mejorar los cuales se llegaron a implementar parcialmente en produccion, si bien no se pueden visualizar a nivel de mockup en subsiguientes entregas se hara la implementación.
 Mockup de la Landing page para Desktop web browser:
-<img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page"/>
+<img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page" width="350"/>
+
 
 Mockup de la Landing page para Mobile web browser:
 
-<img src="../assets/mockups/mockuplan.png" alt="Mockup landing page"/>
+<img src="../assets/mockups/mockuplan.png" alt="Mockup landing page" width="350"/>
 
-<img src="../assets/mockups/mockup.png" alt="Mockup landing page"/>
+<img src="../assets/mockups/mockup.png" alt="Mockup landing page" width="350"/>
 
 ## 5.4. Applications UX/UI Design.
 
@@ -5067,123 +5069,125 @@ usuario con los productos digitales.
 
 Management Register Plant Wireframe: 
 
-<img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app" width = "400" />
 
-<img src="../assets/wireframes/Management-Consumer-RegisterPlant-2.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-2.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Consumer-RegisterPlant-3.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-3.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Consumer-RegisterPlant-4.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-RegisterPlant-4.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Management Edit Plant section Wireframe: 
 
-<img src="../assets/wireframes/Management-Consumer-EditPlant.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-EditPlant.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Management Business Register Plant Wireframe: 
 
-<img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Business-RegisterPlant-1.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Business-RegisterPlant-1.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Management Business Edit Plant Wireframe:
 
-<img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Management Delete Plant Wireframe:
 
-<img src="../assets/wireframes/Management-DeletePlant.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-DeletePlant.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Consulting Dashboard Wireframe:
 
-<img src="../assets/wireframes/Consulting Dashboard.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Dashboard.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Consulting Creation Wireframe:
 
-<img src="../assets/wireframes/Consulting Creation.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Creation.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Consulting Creation-1.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Creation-1.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Consulting Answer Creation Wireframe:
 
-<img src="../assets/wireframes/Consulting Answer Creation.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Answer Creation.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Consulting Answer Creation-1.png" alt="wireframe web app"/>
-
-<br>
-
-Sign in/Sign up Wireframe:
-
-<img src="../assets/wireframes/Desktop - 2.png" alt="wireframe web app"/>
-
-<img src="../assets/wireframes/Desktop - 3.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Consulting Answer Creation-1.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Sign in/Sign up Wireframe:
 
-<img src="../assets/wireframes/iPhone 16 - 6.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Desktop - 2.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Desktop - 4.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Desktop - 3.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app"/>
+<br>
+
+Sign in/Sign up Wireframe:
+
+<img src="../assets/wireframes/iPhone 16 - 6.png" alt="wireframe web app" width = "400"/>
+
+<img src="../assets/wireframes/Desktop - 4.png" alt="wireframe web app" width = "400"/>
+
+<img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app" width = "400"/>
 
 <br>
 
 Analytics Wireframe:
 
-<img src="../assets/wireframes/Dashboard Principal.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Dashboard Principal.png" alt="wireframe web app" width = "400"/>
 
-<img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app" width = "400"/>
 
 Mobile Aplication Wirefranes:
 
 Registro Plantacion Segmento Empresarial:
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 Registro Planta Segmento Domestico:
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
-<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app"/><img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app"/>
-<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
@@ -5193,16 +5197,16 @@ parte del alcance. En este caso consideramos los mas relevantes hasta el momento
 
 
 **Registar Usuario**
-<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app"/>
+<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app" width="400"/>
 
 **Registar Planta**
-<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app"/>
+<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app" width="400"/>
 
 **Editar Planta**
-<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app"/>
+<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app" width="400"/>
 
 **Eliminar Planta**
-<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app"/>
+<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app" width="400"/>
 
 
 ## 5.4.2. Applications Mock-ups.
@@ -5216,62 +5220,63 @@ establecido para los productos digitales.
 Mockups:
 
 <!-- General desktop wireframes -->
-<img src="../assets/mockups/Desktop - 2.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Desktop - 3.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Desktop - 4.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Desktop - 5.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/iPhone 16 - 8.png" alt="wireframe iPhone mockup"/>
-<img src="../assets/mockups/iPhone 16 - 6.png" alt="wireframe iPhone mockup"/>
+<img src="../assets/mockups/Desktop - 2.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Desktop - 3.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Desktop - 4.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Desktop - 5.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/iPhone 16 - 8.png" alt="wireframe iPhone mockup" width="400"/>
+<img src="../assets/mockups/iPhone 16 - 6.png" alt="wireframe iPhone mockup" width="400"/>
 
 <!-- Consulting and dashboards -->
-<img src="../assets/mockups/Consulting Answer Creation.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Answer Creation-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Creation.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Creation-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Dashboard.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Dashboard-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Consulting Answer Creation.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Answer Creation-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Creation.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Creation-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Dashboard.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Dashboard-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe desktop app" width="400"/>
 
 <!-- Dashboard -->
-<img src="../assets/mockups/Dashboard Plantacion.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Dashboard Principal.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Dashboard Plantacion.png" alt="wireframe desktop app" width="400" />
+<img src="../assets/mockups/Dashboard Principal.png" alt="wireframe desktop app" width="400"/>
 
 <!-- Business & Consumer Edit/Register -->
-<img src="../assets/mockups/Management-Business-EditPlant.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Business-EditPlant-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Business-EditPlant-2.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-2.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-3.png" alt="wireframe desktop app"/>
+<img src="../assets/mockups/Management-Business-EditPlant.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Business-EditPlant-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Business-EditPlant-2.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-2.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-3.png" alt="wireframe desktop app" width="400"/>
 
-<img src="../assets/mockups/Management-Consumer-EditPlant.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Consumer-EditPlant-1.png" alt="wireframe desktop app"/>
-<img src="../assets/mockups/Management-Consumer-EditPlant-2.png" alt
+<img src="../assets/mockups/Management-Consumer-EditPlant.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-1.png" alt="wireframe desktop app" width="400"/>
+<img src="../assets/mockups/Management-Consumer-EditPlant-2.png" lt="wireframe desktop app" width="400"/>
+
 
 
 Mockups Mobile App:
 <!-- Business Register - Mobile -->
-<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 <!-- Consumer Register - Mobile -->
-<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 <!-- Delete Plant - Mobile -->
-<img src="../assets/mockups/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app"/>
-<img src="../assets/mockups/Management-DeletePlant-Mobile.png" alt="wireframe mobile app"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/mockups/Management-DeletePlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 <!-- iPhone mockups -->
 
-<img src="../assets/mockups/iPhone 16 - 9.png" alt="wireframe iPhone mockup"/>
+<img src="../assets/mockups/iPhone 16 - 9.png" alt="wireframe iPhone mockup" height = "400" width = "250"/>
 
 
 
@@ -5294,7 +5299,7 @@ Tomamos en cuenta que se debe cancelar el pago antes de hacer un registro nuevo.
 
 En esta situacion se consideran los happy y unhappy paths
 
-<img src="../assets/wireframes/userflows.png" alt="wireframe web app"/>
+<img src="../assets/wireframes/userflows.png" alt="wireframe web app" width="400"/>
 
 ## 5.5. Applications Prototyping.
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
@@ -5302,7 +5307,7 @@ simulación de interacción y navegación, acorde con la propuesta de paths de U
 Flow Diagrams. Esta sección inicia con una introducción en la que se explica los
 principales criterios para las decisiones de interacción.
 
-<img src="../assets/mockups/prototype.png" alt="wireframe web app"/>
+<img src="../assets/mockups/prototype.png" alt="wireframe web app" width="400"/>
 
 link del figma: <a href = "https://www.figma.com/proto/0rjyzCalexoZmteQjXHSJl/Web-App?node-id=170-8218&p=f&t=oP3jf47NVjYvxxG8-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=170%3A8218&show-proto-sidebar=1"> Link Figma </a>
 
@@ -5586,14 +5591,14 @@ En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramo
 ### 6.2.1.6. Execution Evidence for Sprint Review.
 En nuestro video de exposicion se muestra la Demo de nuestra solucion de todas maneras se muestra evidencia de la solucion y una de sus vistas
 
-<img src="../assets/exec-evidence/Evidence.png" alt="Execution evidence"/>
+<img src="../assets/exec-evidence/Evidence.png" alt="Execution evidence" width="400"/>
 
 
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
 
-<img src="../assets/exec-evidence/evidence-docs.png" alt="Documentation Services evidence"/>
+<img src="../assets/exec-evidence/evidence-docs.png" alt="Documentation Services evidence" width="400"/>
 
 
 
@@ -5601,9 +5606,9 @@ Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer 
 
 Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.
 
-<img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence"/>
+<img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence" width="400"/>
 
-<img src="../assets/exec-evidence/evidence-deploy-lan.png" alt="Deploy Lan evidence"/>
+<img src="../assets/exec-evidence/evidence-deploy-lan.png" alt="Deploy Lan evidence" width="400"/>
 
 
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
@@ -5611,12 +5616,12 @@ Se muestran los deployments para la app web y la landing page, en esta ocacion s
 Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page
 
 En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.
-<img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence"/>
-<img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence" width="400"/>
+<img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence" width="400"/>
 
 Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.
-<img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence"/>
-<img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence"/>
+<img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence" width="400"/>
+<img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence" width="400"/>
 
 
 
