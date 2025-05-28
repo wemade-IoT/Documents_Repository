@@ -5166,12 +5166,8 @@ Analytics Wireframe:
 <img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app" width = "400"/>
 
 **Mobile Aplication Wireframes:**
-
 Registro Plantacion Segmento Empresarial:
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
 Registro Planta Segmento Domestico:
 <img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
