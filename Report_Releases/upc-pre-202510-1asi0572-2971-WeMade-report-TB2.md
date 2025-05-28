@@ -2110,6 +2110,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
+| toRequestAssembler       | Crea una instancia de la clase PlantRequest         |
 | toResponseAssembler     | Crea una instancia de la clase PlantResponse      |
 
 
@@ -2120,7 +2121,24 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
+| toRequestAssembler       |   Crea una instancia de la clase PlantationRequest |
 | toResponseAssembler     |Crea una instancia de la clase PlantationResponse      |
+
+
+**SensorAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toRequestAssembler       |   Crea una instancia de la clase SensorRequest |
+| toResponseAssembler     |Crea una instancia de la clase SensorResponse      |
+
+
+**ActuatorAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toRequestAssembler       |   Crea una instancia de la clase ActuatorRequest |
+| toResponseAssembler     |Crea una instancia de la clase ActuatorResponse      |
 
 
 ### Response
@@ -2156,6 +2174,98 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | stateId              | number             |
 
 
+**SensorResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| statusId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+
+**ActuatorResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| statusId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+
+### Request
+
+
+
+**PlantRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| type                  | string   |
+| userId                | number     |
+| waterThreshold        | number   |
+| lightThreshold        | number   |
+| temperatureThreshold  | number  |
+| createdAt             | date |
+| updatedAt             | date |
+| stateId               | number     |
+
+**PlantationRequest**
+
+| Atributo             | Tipo     |
+|----------------------|----------|
+| type                 | string             |
+| userId               | number             |
+| waterThreshold       | number             |
+| lightThreshold       | number             |
+| temperatureThreshold | number             |
+| areaCoverage         | number             |
+| createdAt            | date               |
+| updatedAt            | date               |
+| stateId              | number             |
+
+
+**SensorRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+
+**ActuatorRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+
 
 
 Mobile App:
@@ -2165,7 +2275,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 ### DTO
 
 
-**PlantResponseDto**
+**PlantDto**
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
@@ -2179,20 +2289,56 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | updatedAt             | dateTime |
 | stateId               | int      |
 
-**PlantationResponseDTO**
 
-| Atributo             | Tipo     |
-|----------------------|----------|
-| id                   | int      |
-| type                 | string   |
-| userId               | int      |
-| waterThreshold       | double   |
-| lightThreshold       | double   |
-| temperatureThreshold | double   |
-| areaCoverage         | double   |
-| createdAt            | datetime |
-| updatedAt            | datetime |
-| stateId              | int      |
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+| fromJson | Crea una instancia de la clase PlantDto en base a una respuesta del servcio rest |
+
+
+
+**SensorDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+| fromJson | Crea una instancia de la clase SensorDto en base a una respuesta del servcio rest |
+
+
+**ActuatorDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+| fromJson | Crea una instancia de la clase ActuatorDto en base a una respuesta del servcio rest |
+
+
 
 
 
@@ -2206,13 +2352,24 @@ Representa la solicitud de consulta de plantas por usuario.
 
 
 
-**GetPlantationsByUserIdDto**
+**GetSensorsByPlantIdDto**
 
-Representa la solicitud de consulta de plantaciones por usuario.
+Representa la solicitud de consulta de sensores instalados por planta
 
 | Atributo | Tipo   |
 |----------|--------|
-| userId     | int |
+| plantId    | int |
+
+
+
+**GetActuatorsByPlantIdDto**
+
+Representa la solicitud de consulta de actuadores instalados por planta
+
+| Atributo | Tipo   |
+|----------|--------|
+| plantId    | int |
+
 
 
 
@@ -2226,7 +2383,7 @@ En esta capa se describen las clases que representan el núcleo del dominio del 
 
 #### Entities
 
-**State**
+**WellnessState**
 
 Representa el estado actual de una planta o plantación (por ejemplo: Saludable, EnRiesgo, Crítica). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
 
@@ -2235,17 +2392,57 @@ Representa el estado actual de una planta o plantación (por ejemplo: Saludable,
 | Id       | Int    |
 | Type     | String |
 
+
+**DeviceState**
+
+Representa el estado actual de un sensor o un actuador (por ejemplo: Activado, Pendiente a instalación, deshabilitado). 
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+
+**SensorType**
+
+
+Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, temperatura, luz).
+
+| Atributo | Tipo   | Descripción                                 |
+|----------|--------|---------------------------------------------|
+| Id       | Int    | Identificador único del tipo de sensor      |
+| Type     | Text   | Nombre del tipo de sensor (ej. "Humedad")   |
+
 ---
 
 #### Value Objects
 
-**States**
+**WelnessStates**
 
 | Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
 | Healthy    | Representa el estado de una planta saludable              |
 | UnHealthy    | Representa el estado de una planta no saludable              |
 | Warning    | Representa el estado de una planta en riesgo       |
+
+
+**DeviceStates**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+|  Active   | Representa el estado de un sensor activo             |
+| Inactive    | Representa el estado de un sensor inactivo             |
+| ToActive    | Representa el estado de un sensor por activar       |
+
+**SensorTypes**
+
+Representa los diferentes tipos de sensores disponibles.
+| Atributo | Descripción                                 |
+|----------|---------------------------------------------|
+| Humity      | Representa un sensor de humedad      |
+| Temperature     | Representa un sensor de temperatura   |
+| Light    | Representa un sensor de luz   |
+
 
 ---
 
@@ -2265,7 +2462,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 | TemperatureThreshold  | Double   |
 | CreatedAt             | DateTime |
 | UpdatedAt             | DateTime |
-| StateId               | Int      |
+| WelnessStateId               | Int      |
 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
@@ -2288,11 +2485,59 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | AreaCoverage          | Double   |
 | CreatedAt             | DateTime |
 | UpdatedAt             | DateTime |
-| StateId               | Int      |
+| WellnessStateId               | Int      |
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
 | Update     | Aplica los cambios especificados por un comando de actualización para modificar los valores de la plantación     |
+
+---
+
+**Sensor**
+Representa un sensor físico que ha sido asignado a una planta 
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Supplier              | string   |
+| Voltage               | int     |
+| SensorTypeId          | int     |
+| PlantId               | int     |
+| DeviceStateId              | int     |
+| InstalledAt           | DateTime     |
+| ActivatedAt           |  DateTime    |
+| LastUpdated           |  DateTime |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+|   UpdateStatus   | Método que permite actualizar el estado de un sensor     |
+|   Update   | Método que permite actualizar la información registrada de un sensor     |
+
+
+---
+
+**Actuator**
+
+Representa un actuador físico asignado a una determinada maceta
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Supplier              | string   |
+| Voltage               | int     |
+| PlantId               | int     |
+| DeviceStateId              | int     |
+| InstalledAt           | DateTime     |
+| ActivatedAt           |  DateTime    |
+| LastUpdated           |  DateTime |
+
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+|   UpdateStatus   | Método que permite actualizar el estado de un actuador  |
+|   Update   | Método que permite actualizar la información registrada de un actuador     |
+
+
 
 ---
 
@@ -2304,7 +2549,18 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | UpdatePlantCommand      | Representa un comando para modificar una instancia existente del agregado Plant.                |
 | CreatePlantationCommand | Representa un comando para crear una nueva instancia del agregado Plantation.                  |
 | UpdatePlantationCommand | Representa un comando para modificar una instancia existente del agregado Plantation.          |
-| SeedStatesCommand       | Representa un comando para inicializar datos en la entidad State dentro del dominio. |
+| SeedWellnessStateCommand       | Representa un comando para inicializar datos en la entidad WellnessState dentro del dominio. |
+
+| SeedSensorTypesCommand   | Representa un comando para inicializar datos en la entidad SensorType dentro del dominio. |
+| SeedDeviceStateCommand   | Representa un comando para inicializar datos en la entidad DeviceState dentro del dominio. |
+| CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
+| ActivateSensorCommand | Representa un comando para activar un sensor asignado a una planta. |
+| InactiveSensorCommand | Representa un comando para deshabilitar el estado de activación de un sensor activado previamente |
+| CreateActuatorCommand      | Comando para registrar un nuevo actuador con sus detalles técnicos.           |
+| UpdateSensorCommand | Representa un comando para actualizar la información registrada de un sensor |
+| ActivateActuatorCommand | Representa un comando para activar un actuador asignado a una planta. |
+| InactiveActuatorCommand | Representa un comando para deshabilitar el estado de activación de un actuador activado previamente |
+| UpdateActuatorCommand | Representa un comando para actualizar la información registrada de un actuador |
 
 
 #### Queries
@@ -2316,6 +2572,8 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 | IsPlantExistsByIdQuery      | Representa una consulta que verifica si existe una planta con un identificador específico.           |
 | GetPlantationsByStateIdQuery | Representa una consulta que recupera las plantaciones asociadas a un estado específico.              |
 | GetPlantationsByUserIdQuery  | Representa una consulta que obtiene todas las plantaciones asociadas a un usuario determinado.        |
+| GetSensorsByPlantIdQuery | Representa una consulta que obtiene los datos de sensores asignados a una determinada planta |
+| GetActuatorsByPlantIdQuery | Representa un consulta que obtiene los datos de los actuadores asignados a una determinada planta |
 
 
 ---
@@ -2328,7 +2586,11 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 |---------------------------|------------------------------------------------------------------------|
 | IPlantCommandService      | Define las operaciones que ejecutan cambios sobre el agregado Plant mediante comandos del dominio.  |
 | IPlantationCommandService | 	Define las operaciones que ejecutan cambios sobre el agregado Plantation mediante comandos del dominio. |
-| IStateCommandService | 	Define las operaciones que ejecutan cambios sobre el entity State mediante comandos del dominio. |
+| IWellnessStateCommandService | 	Define las operaciones que ejecutan cambios sobre el entity WellnessState mediante comandos del dominio. |
+| IDeviceStateCommandService | Define las operaciones que ejecutan cambios sobre el entity DeviceState mediante comandos del dominio |
+| ISensorTypeCommandService | Define las operaciones que ejecutan cambios sobre el entity SensorType mediante comandos del dominio |
+| ISensorCommandService | Define las operaciones que ejecutan cambios sobre el agregado Sensor mediante comandos del dominio |
+| IActuatorCommandService | Define las operaciones que ejecutan cambios sobre el agregado Actuator mediante comandos del dominio |
 
 **Query Services**
 
@@ -2336,6 +2598,8 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 |---------------------------|------------------------------------------------------------------------|
 | IPlantQueryService         | Define las consultas que se ejecutan sobre el agregado Plant mediante consultas del dominio |
 | IPlantationQueryService    | Define las consultas que se ejecutan sobre el agregado Plantation mediante consultas del dominio |
+| ISensorQueryServoce | Define las consultas que se ejecutan sobre el agregado Sensor mediante consultas del dominio |
+| IActuatorQueryService | Define las consultas que se ejecutan sobre el agregado Actuator mediante consultas del dominio |
 
 
 ---
@@ -2346,7 +2610,13 @@ Representa una plantación mayor, con área de cobertura y control de condicione
 |--------------------------------|----------------------------------------|
 | IPlantRepository      | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantas |
 |IPlantationRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de plantations    |
-| IStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de states |
+| IWellnessStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de welness_states |
+| IDeviceStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de device_states |
+| ISensorTypeRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de sensor_types |
+| ISensorRepoository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de sensors |
+| IActuatorRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de actuators |
+
+
 
 
 #### 4.2.1.2. Interface Layer.
@@ -2459,6 +2729,8 @@ Backend:
 | CreatePlantationResource      | Recibe datos para la creación de un nuevo plantation         |
 | UpdatePlantationResource      | Recibe datos para la actualización de un plantation existente       |
 | PlantationResource     | Devuelve datos de un plantation al usuario 
+| SensorResource | Devuelve datos de un sensor al usuario
+| ActuatorResource | Devuelve datos de un actuador al usuario
 
 
 ---
@@ -2477,6 +2749,18 @@ Backend:
 | CreatePlantationCommandFromResourceAssembler    | Transforma un recurso de entrada en un comando de creación de plantation.         |
 | UpdatePlantationCommandFromResourceAssembler     | Transforma un recurso de entrada en un comando para actualizar un plantation existente.       |
 | PlantationResourceFromEntityAssembler     | Transforma una entidad de plantation en un recurso de salida para el cliente.
+| SensorResourceFromEntityAssembler     | Transforma una entidad de sensor en un recurso de salida para el cliente.
+| ActuatorResourceFromEntityAssembler     | Transforma una entidad de actuator en un recurso de salida para el cliente.
+
+| CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
+| ActivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un sensor.      |
+| InactivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un sensor.      |
+| UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.    
+
+| CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuator.      |
+| ActivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un actuador.      |
+| InactivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un actuador.      |
+| UpdateActuatorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un actuator existente. 
 
 ---
 
@@ -2503,14 +2787,28 @@ Backend:
 
 | Ruta especifica             | Descripción                                      |
 |---------------------|--------------------------------------------------|
-| /api/v1/plant       | Gestiona la creación y consulta de plantas  |
+| /api/v1/plants       | Gestiona la creación y consulta de plantas  |
 
 
 **PlantationController**
 
 | Ruta especifica             | Descripción                                      |
 |---------------------|--------------------------------------------------|
-| /api/v1/plantation       | Gestiona la creación y consulta de plantation  |
+| /api/v1/plantations       | Gestiona la creación y consulta de plantation  |
+
+
+**SensorController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/sensors      | Gestiona la creación y consulta de sensores  |
+
+
+**ActuatorController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/actuators       | Gestiona la creación y consulta de actuadores  |
 
 
 
@@ -2529,24 +2827,21 @@ Backend:
 
 ### CommandServices
 
-| Clase                                | Descripción |
-|--------------------------------------|-------------|
-| `IStateCommandService`               | Maneja comandos relacionados con el estado de las plantas, como la creación o actualización de estados. |
-| `IPlantationCommandService`          | Maneja los comandos para la creación y actualización de plantaciones. |
-| `IPlantCommandService`               | Maneja los comandos para crear y actualizar plantas. |
 | `PlantationCommandService`           | Implementación del servicio que maneja los comandos relacionados con las plantaciones. |
-| `StateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados. |
+| `PlantCommandService`           | Implementación del servicio que maneja los comandos relacionados con las plantas. |
+| `SensorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los sensores. |
+| `ActuatorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los actuadores. |
+| `WellnessStateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados de una planta. |
+| `DeviceStateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados de una planta. |
 
 ### QueryServices
 
 | Clase                                | Descripción |
 |--------------------------------------|-------------|
-| `IPlantationQueryService`            | Devuelve información sobre plantaciones por usuario o por estado. |
-| `IPlantQueryService`                 | Devuelve información sobre plantas según diferentes criterios. |
-| `IStateQueryService`                 | Proporciona información sobre los estados de las plantas. |
 | `PlantationQueryService`             | Implementación del servicio que maneja las consultas relacionadas con las plantaciones. |
-| `PlantQueryService`                  | Implementación del servicio que maneja las consultas relacionadas con las plantas. |
-| `StateQueryService`                  | Implementación del servicio que maneja las consultas relacionadas con los estados. |
+| `PlantQueryService`                  | Implementación del servicio que maneja las consultas relacionadas con las plantas |
+| `SensorQueryService`                  | Implementación del servicio que maneja lasconsultas relacionadas con los sensores |
+| `ActuatorQueryService`                  | Implementación del servicio que maneja lasconsultas relacionadas con los actuadores |
 
 ### OutboundServices
 
@@ -2566,27 +2861,77 @@ En esta capa se incluyen las clases que se encargan de comunicarse y persistir l
 
 **PlantService**
 
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+Representa la clase que se encargara de gestionar las solicitudes hacia los endpoints relacionados a la ruta de plants
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
 | getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
+| createPlant           | Envia una solicitud para la creación de un nuevo recurso de planta |
+| updatePlant           | Envia una solicitud para la actualización de información de una planta |
+
+
+**PlantationService**
+
+Representa la clase que se encargara de gestionar las solicitudes hacia los endpoints relacionados a la ruta de plantations
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
 | getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+| createPlantation           | Envia una solicitud para la creación de un nuevo recurso de plantation |
+| updatePlantation           | Envia una solicitud para la actualización de información de una plantation |
+
+
+**SensorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de sensors
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getSensorsByPlantId     | Devuelve los sensores asignados a una determinada planta     |
+
+
+**ActuatorService**
+
+
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de actuators
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getActuatorsByPlantId     | Devuelve los actuadores asignados a una determinada planta     |
 
 Mobile:
 
 En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
 
-## Service
 
 **PlantService**
 
-Representa la clase que se encargara de gestionar las solicitudes hacia el servicio.
+Representa la clase que se encargara de gestionar las solicitudes hacia los endpoints relacionados a la ruta de plants
 
 | Método                   | Descripción                                        |
 |--------------------------|----------------------------------------------------|
 | getPlantsByUserId     | Devuelve las plantas por un determinado usuario     |
-| getPlantationsByUserId     | Devuelve las plantaciones por un determinado usuario     |
+| createPlant           | Envia una solicitud para la creación de un nuevo recurso de planta |
+| updatePlant           | Envia una solicitud para la actualización de información de una planta |
+
+
+**SensorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de sensors
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getSensorsByPlantId     | Devuelve los sensores asignados a una determinada planta     |
+
+
+**ActuatorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de actuators
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getActuatorsByPlantId     | Devuelve los actuadores asignados a una determinada planta     |
 
 Backend:
 
@@ -2596,6 +2941,8 @@ Backend:
 |------|--------------|------------------|
  | PlantRepository      | IPlantRepository      | Implementa los métodos de consulta y persistencia de las plantas (búsqueda de plantas por usuario y estado). |
 | PlantationRepository | IPlantationRepository |Implementa los métodos de consulta y persistencia de las plantaciones (búsqueda de plantaciones por usuario y estado). |
+| SensorRepository | ISensorRepository |Implementa los métodos de consulta y persistencia de los sensores |
+| ActuatorRepository | IActuatorRepository |Implementa los métodos de consulta y persistencia de los actuadores |
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
