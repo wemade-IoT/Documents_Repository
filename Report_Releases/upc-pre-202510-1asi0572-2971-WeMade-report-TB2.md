@@ -2041,23 +2041,44 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 **- Bounded Canvas Analytics**
 <img src="../assets/bounded-canvas/bounded-canvas-analytics.jpeg" alt="Bounded Canvas Analytics"/>
 
+**Descripción:**
+El sistema de Analytics proporciona información sobre el estado de las plantas y su entorno, facilitando la toma de decisiones mediante el análisis de datos confiables y automatizados.
+
 **- Bounded Canvas Management**
 <img src="../assets/bounded-canvas/bounded-canvas-management.jpeg" alt="Bounded Canvas Management"/>
+
+**Descripción:**
+El sistema de Management gestiona los datos de las plantas y permite al usuario visualizar cambios críticos para mejorar su cuidado, mediante registros, umbrales y una vista interactiva.
 
 **- Bounded Canvas Consulting**
 <img src="../assets/bounded-canvas/bounded-canvas-consulting.jpeg" alt="Bounded Canvas Consulting"/>
 
+**Descripción:**
+El sistema de Consulting brinda asesoría personalizada basada en datos recolectados, permitiendo tomar decisiones informadas para el cuidado óptimo de las plantas.
+
 **- Bounded Canvas Subscription**
 <img src="../assets/bounded-canvas/bounded-canvas-subscription.jpeg" alt="Bounded Canvas Subscription"/>
+
+**Descripción:**
+El sistema de Subscription gestiona el acceso del usuario a planes de suscripción,facilitando el proceso de pago en línea.
 
 **- Bounded Canvas Payment**
 <img src="../assets/bounded-canvas/bounded-canvas-payment.jpeg" alt="Bounded Canvas Payment"/>
 
+**Descripción:**
+El sistema de Payment gestiona la autorización, validación y registro de pagos, garantizando seguridad en las transacciones y una experiencia de usuario fluida.
+
 **- Bounded Canvas IAM**
 <img src="../assets/bounded-canvas/bounded-canvas-iam.jpeg" alt="Bounded Canvas IAM"/>
 
+**Descripción:**
+El sistema IAM gestiona la identidad, autenticación y autorización de usuarios, permitiendo la creación de cuentas y su vinculación con planes válidos de forma segura.
+
 **- Bounded Canvas Notifications**
 <img src="../assets/bounded-canvas/bounded-canvas-notifications.jpeg" alt="Bounded Canvas Notifications"/>
+
+**Descripción:**
+El sistema de Notifications gestiona alertas automáticas o solicitadas por el usuario, informando sobre eventos importantes mediante correo, app u otros canales.
 
 ### 4.1.2. Context Mapping.
 
@@ -2074,22 +2095,32 @@ A continuación, se presenta el Context Map elegido que resume las relaciones en
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 <img src="../assets/system-landscape-diagram/system-landscape-diagram.jpg" alt="EcoGuardian Context Diagram"/>
 
+**Descripción:**
+La arquitectura conecta a usuarios (domésticos, negocios y especialistas) con una plataforma IoT que gestiona el cuidado de plantas mediante sensores, envíos de notificaciones (correo), recomendaciones expertas y procesamiento de pagos con Stripe.
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
 <img src="../assets/context-diagram/SystemContext.png" alt="EcoGuardian Context Diagram"/>
 
+**Descripción**
+La arquitectura muestra cómo el sistema central se comunica con usuarios (domésticos, negocios y especialistas) e integra servicios externos como Stripe, Email System y hardware IoT para gestionar pagos, notificaciones y el control de las plantas.
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
 <img src="../assets/container-diagram/container-diagran.png" alt="EcoGaurdian Container Diagram"/>
--
+
+**Descripción**
+La arquitectura por contenedores distribuye la lógica del sistema entre aplicaciones web, móviles, embebidas y edge, que se comunican con un backend central vía API REST. Esta estructura permite procesar datos locales, enviar notificaciones, controlar hardware IoT y gestionar pagos de forma eficiente.
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
 <img src="../assets/deployment-diagram/deployment-diagram.png" alt="EcoGuardian Deployment Diagram"/>
 
+**Descripción**
+La arquitectura de despliegue distribuye sus componentes en servidores web, dispositivos móviles, microcontroladores y edge devices, conectados por una API REST que gestiona datos, pagos y control de hardware en tiempo real.
+
 ## 4.2. Tactical-Level Domain-Driven Design
--
+
 ### 4.2.1. Bounded Context: Management
 
 #### 4.2.1.1. Domain Layer
@@ -5037,6 +5068,10 @@ del Landing Page para Desktop Web Browser y Mobile Web Browser
 Wireframes de la Landing page para Desktop web browser:
 <img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page" width="350"/>
 
+**Descripción:**
+Wireframe de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
+
+
 Wireframes de la Landing page para Mobile web browser:
 
 ## 5.3.2. Landing Page Mock-up.
@@ -5048,12 +5083,17 @@ Para esta entrega hemos recibido feedback orientado a distintos aspectos de dise
 Mockup de la Landing page para Desktop web browser:
 <img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page" width="350"/>
 
+**Descripción**
+Mockup de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
 
 Mockup de la Landing page para Mobile web browser:
 
 <img src="../assets/mockups/mockuplan.png" alt="Mockup landing page" width="350"/>
 
 <img src="../assets/mockups/mockup.png" alt="Mockup landing page" width="350"/>
+
+**Descripción:**
+Mockup mobile de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
 
 ## 5.4. Applications UX/UI Design.
 
@@ -5071,11 +5111,23 @@ Management Register Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Consumer-RegisterPlant.png" alt="wireframe web app" width = "400" />
 
+**Descripción:**
+Dashboard en donde se mostrará toda la información requerida
+
 <img src="../assets/wireframes/Management-Consumer-RegisterPlant-2.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Registro de una planta con la información requerida
 
 <img src="../assets/wireframes/Management-Consumer-RegisterPlant-3.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Proceso para el pago para poder hacer la instalación
+
 <img src="../assets/wireframes/Management-Consumer-RegisterPlant-4.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Nueva planta agregada al dashboard
 
 <br>
 
@@ -5083,7 +5135,13 @@ Management Edit Plant section Wireframe:
 
 <img src="../assets/wireframes/Management-Consumer-EditPlant.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con toda la información
+
 <img src="../assets/wireframes/Management-Consumer-EditPlant-2.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Editar la información de la planta
 
 <br>
 
@@ -5091,9 +5149,18 @@ Management Business Register Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Business-RegisterPlant.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con toda la información
+
 <img src="../assets/wireframes/Management-Business-RegisterPlant-1.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Registrar una nueva plantación
+
 <img src="../assets/wireframes/Management-Business-RegisterPlant-2.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Proceso para el pago para poder hacer la instalación
 
 <br>
 
@@ -5101,7 +5168,13 @@ Management Business Edit Plant Wireframe:
 
 <img src="../assets/wireframes/Management-Business-EditPlant.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con toda la información
+
 <img src="../assets/wireframes/Management-Business-EditPlant-1.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Editar la información de la plantación 
 
 <br>
 
@@ -5109,9 +5182,18 @@ Management Delete Plant Wireframe:
 
 <img src="../assets/wireframes/Management-DeletePlant.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con toda la información
+
 <img src="../assets/wireframes/Management-DeletePlant-1.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Configuración para poder eliminar la planta
+
 <img src="../assets/wireframes/Management-DeletePlant-2.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Planta eliminada con su identificador ID 
 
 <br>
 
@@ -5119,9 +5201,18 @@ Consulting Dashboard Wireframe:
 
 <img src="../assets/wireframes/Consulting Dashboard.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con las preguntas realizadas y toda la información
+
 <img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard con las preguntas realizas y si han sido resolvidas
+
 <img src="../assets/wireframes/Consulting Dashboard - Domestic and Bussiness-1.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Registrar una pregunta frecuente con su respuesta 
 
 <br>
 
@@ -5129,7 +5220,13 @@ Consulting Creation Wireframe:
 
 <img src="../assets/wireframes/Consulting Creation.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Registrar una nueva pregunta con su contenido 
+
 <img src="../assets/wireframes/Consulting Creation-1.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Nueva pregunta realizada correctamente
 
 <br>
 
@@ -5137,7 +5234,13 @@ Consulting Answer Creation Wireframe:
 
 <img src="../assets/wireframes/Consulting Answer Creation.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Registrar respuesta a la pregunta realizada
+
 <img src="../assets/wireframes/Consulting Answer Creation-1.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Respuesta registrada a la pregunta realizada
 
 <br>
 
@@ -5145,7 +5248,13 @@ Sign in/Sign up Wireframe:
 
 <img src="../assets/wireframes/Desktop - 2.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Registro de información para hacer registro del usuario
+
 <img src="../assets/wireframes/Desktop - 3.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Inicio de sesión del usuario
 
 <br>
 
@@ -5153,9 +5262,18 @@ Sign in/Sign up Wireframe:
 
 <img src="../assets/wireframes/iPhone 16 - 6.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard del usuario iniciando sesión 
+
 <img src="../assets/wireframes/Desktop - 4.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Información de pago mostrando el estado de la suscripción del usuario mostrando su fecha de vencimiento y que versión tiene
+
 <img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Planes de pago y su metodo de pago
 
 <br>
 
@@ -5163,14 +5281,21 @@ Analytics Wireframe:
 
 <img src="../assets/wireframes/Dashboard Principal.png" alt="wireframe web app" width = "400"/>
 
+**Descripción:**
+Dashboard de los análisis 
+
 <img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app" width = "400"/>
+
+**Descripción:**
+Dashboard de su monitoreo de su plantación 
 
 **Mobile Aplication Wireframes:**
 
-Registro Plantacion Segmento Empresarial:
+
+#### Registro Plantacion Segmento Empresarial:
 <img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
 
-Registro Planta Segmento Domestico:
+#### Registro Planta Segmento Domestico:
 <img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
 <img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
 <img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
