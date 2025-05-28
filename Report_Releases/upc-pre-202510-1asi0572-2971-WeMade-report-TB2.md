@@ -1996,15 +1996,11 @@ Seguidamente, se agregaron las tarjetas de comandos (tarjetas azules), sistemas 
 El proceso de Candidate Context Discovery se realizó con el objetivo de identificar un primer acercamiento a los diferentes bounded contexts que podrían existir en el dominio. Se utilizó la técnica de start-with-value, con el objetivo de identificar las partes core del dominio que tienen el mayor peso
 para el negocio. Como resultado, se identificaron los siguientes bounded contexts:
 
-<img src="../assets/event-storming/bounded-contexts.jpg" alt="Bounded Contexts"/>
+<img src="../assets/event-storming/event-storming-bc.jpg" alt="Bounded Contexts"/>
 
 - Management
 
    Gestiona la información almacenada de las plantas, incluyendo el registro de información, el manejo de estados y las notificaciones. Su enfoque principal es mantener la integridad de los datos registrados y notificar modificaciones relevantes.
-
-- Automation
-
-   Controla los sistemas de riego automatizado mediante sensores que monitorean humedad y consumo de agua. Detecta cuando se superan umbrales, activa o desactiva el riego según necesidades, registra el consumo de agua y notifica cuando es necesario intervenir.
 
 - Subscription
 
@@ -2013,10 +2009,6 @@ para el negocio. Como resultado, se identificaron los siguientes bounded context
 - Payment
 
    Procesa transacciones financieras, incluyendo la realización y confirmación de pagos. Su función principal es garantizar que los pagos se completen correctamente y se registren en el sistema, integrando seguridad y trazabilidad en cada operación.
-
-- Installation
-
-   Coordina la instalación y activación de sensores, desde la solicitud de asistencia técnica hasta la asignación, instalación y puesta en marcha de los dispositivos. Gestiona todo el ciclo de vida de los sensores dentro del sistema.
 
 - Analytics
 
@@ -2055,9 +2047,6 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 **- Bounded Canvas Consulting**
 <img src="../assets/bounded-canvas/bounded-canvas-consulting.jpeg" alt="Bounded Canvas Consulting"/>
 
-**- Bounded Canvas Automation**
-<img src="../assets/bounded-canvas/bounded-canvas-automation.jpeg" alt="Bounded Canvas Automation"/>
-
 **- Bounded Canvas Subscription**
 <img src="../assets/bounded-canvas/bounded-canvas-subscription.jpeg" alt="Bounded Canvas Subscription"/>
 
@@ -2066,9 +2055,6 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 
 **- Bounded Canvas IAM**
 <img src="../assets/bounded-canvas/bounded-canvas-iam.jpeg" alt="Bounded Canvas IAM"/>
-
-**- Bounded Canvas Installation**
-<img src="../assets/bounded-canvas/bounded-canvas-installation.jpeg" alt="Bounded Canvas Installation"/>
 
 **- Bounded Canvas Notifications**
 <img src="../assets/bounded-canvas/bounded-canvas-notifications.jpeg" alt="Bounded Canvas Notifications"/>
@@ -2081,7 +2067,7 @@ posteriormente se definieron los patrones de relaciones entre Bounded Contexts d
 
 A continuación, se presenta el Context Map elegido que resume las relaciones entre los bounded contexts identificados:
 
-<img src="../assets/context-mapping/context-map.jpg" alt="Context Map"/>
+<img src="../assets/context-mapping/bc-mapping-2.jpg" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
 
