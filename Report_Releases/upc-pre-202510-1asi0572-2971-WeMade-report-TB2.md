@@ -5651,11 +5651,6 @@ Como recomendaciones creemos que una mejora iterativa es necesaria para realment
 # Anexos
 
 datos, gráficos, imágenes, esquemas, mapas de otros autores
-
-<img src = "./assets/anexos/jeffgothelf-leanuxcanvas/leanUxGothelf.png" alt = "Lean UX Canvas (V2) Jeff gothelf">
-
-<p>Lean UX Canvas hecho por Jeff Gothelf [Anexo 1.1]</p>
-
 ---
 
 
