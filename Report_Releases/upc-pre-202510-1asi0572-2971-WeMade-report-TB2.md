@@ -4270,7 +4270,7 @@ Mobile App:
 
 
 
-### 4.2.4. Bounded Context: Payment
+### 4.2.4. Bounded Context: Subscriptions And Payments
 
 Web App:
 - En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
@@ -4471,19 +4471,14 @@ Backend:
 
 **OrderState**
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App"/>
-
 | Atributo | Tipo   |
 |----------|--------|
 | Id       | Int    |
 | Type     | String |
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
 
 **SubscriptionType**
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
-alt="Subscriptiom Component Diagram on Mobile App"/>
 
 | Atributo | Tipo   |
 |----------|--------|
@@ -4823,7 +4818,7 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
 
 Backend:
 
