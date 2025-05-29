@@ -2514,28 +2514,42 @@ Seguidamente, se agregaron las tarjetas de comandos (tarjetas azules), sistemas 
 El proceso de Candidate Context Discovery se realizó con el objetivo de identificar un primer acercamiento a los diferentes bounded contexts que podrían existir en el dominio. Se utilizó la técnica de start-with-value, con el objetivo de identificar las partes core del dominio que tienen el mayor peso
 para el negocio. Como resultado, se identificaron los siguientes bounded contexts:
 
-<img src="../assets/event-storming/event-storming-bc.jpg" alt="Bounded Contexts"/>
+<img src="../assets/event-storming/event-storming-3.jpg" alt="Bounded Contexts"/>
 
-- Management
+- Operation and monitoring
 
    Gestiona la información almacenada de las plantas, incluyendo el registro de información, el manejo de estados y las notificaciones. Su enfoque principal es mantener la integridad de los datos registrados y notificar modificaciones relevantes.
 
-- Subscription
+- Analytics
 
-   Administra las suscripciones y planes de servicio, permitiendo a los usuarios (como Crop Manager o Plant Parent) seleccionar, cotizar y contratar servicios. Este contexto se encarga de mantener actualizada la información de los planes disponibles y gestionar el proceso de suscripción.
+    Proporciona análisis de datos sobre el estado de las plantas y su entorno, facilitando la toma de decisiones informadas a través de gráficos. Este contexto se centra en la visualización y análisis de datos históricos.
 
-- Payment
+- Subscriptions And Payments
 
    Procesa transacciones financieras, incluyendo la realización y confirmación de pagos. Su función principal es garantizar que los pagos se completen correctamente y se registren en el sistema, integrando seguridad y trazabilidad en cada operación.
 
-- Analytics
+- Customer Relationship Management (CRM)
 
-  Proporciona análisis y reportes sobre el rendimiento de los cultivos, el consumo de recursos y la efectividad de los sistemas de riego. Su objetivo es ofrecer información valiosa para la toma de decisiones y la optimización de procesos.
+   Facilita la interacción entre los usuarios y especialistas, permitiendo a los usuarios solicitar recomendaciones y recibir asesoramiento sobre el cuidado de sus plantas. Este contexto se centra en la gestión de consultas y la comunicación entre usuarios y expertos.
 
-- Consulting
+- Service Design and Planning
 
-    Facilita la interacción entre los usuarios y especialistas, permitiendo a los usuarios solicitar recomendaciones y recibir asesoramiento sobre el cuidado de sus plantas. Este contexto se centra en la gestión de consultas y la comunicación entre usuarios y expertos.
-#### 4.1.1.2 Domain Message Flows Modeling.
+    Permite a los usuarios realizar las órdenes de instalación de sensores y gestionar los detalles de la instalación. Del mismo modo, permite a los analistas planificar el servicio de manera efectiva.
+
+- Asset and Resource Management
+
+    Administra los recursos y activos del sistema, incluyendo la gestión de sensores, actuadores y otros componentes necesarios para el funcionamiento del sistema.
+
+- Profiles and Preferences
+
+    Permite a los usuarios gestionar sus perfiles, preferencias y configuraciones de notificaciones. Este contexto se centra en la personalización de la experiencia del usuario.
+
+- Identity and Access Management (IAM)
+
+    Gestiona la identidad de los usuarios, incluyendo la autenticación y autorización a través de roles y permisos.
+
+    #### 4.1.1.2 Domain Message Flows Modeling.
+
 Con el objetivo de comprender cómo interactúan los distintos bounded contexts identificados, se modelaron los flujos de mensajes del dominio (Domain Message Flows). Esta técnica permite visualizar los mensajes que se intercambian entre contextos, sistemas y actores, utilizando eventos, comandos y consultas.
 
 Para ello, se definieron diferentes escenarios clave del sistema, y se representaron visualmente los mensajes que fluyen entre los componentes. Esto ayudó a asegurar la correcta separación de responsabilidades, detectar dependencias entre bounded contexts, y facilitar la futura implementación de integraciones entre servicios.
@@ -2562,7 +2576,7 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 **Descripción:**
 El sistema de Analytics proporciona información sobre el estado de las plantas y su entorno, facilitando la toma de decisiones mediante el análisis de datos confiables y automatizados.
 
-**- Bounded Canvas Management**
+**- Bounded Canvas Operation and monitoring**
 <img src="../assets/bounded-canvas/bounded-canvas-management.jpeg" alt="Bounded Canvas Management"/>
 
 **Descripción:**
@@ -2574,17 +2588,11 @@ El sistema de Management gestiona los datos de las plantas y permite al usuario 
 **Descripción:**
 El sistema de Consulting brinda asesoría personalizada basada en datos recolectados, permitiendo tomar decisiones informadas para el cuidado óptimo de las plantas.
 
-**- Bounded Canvas Subscription**
+**- Bounded Canvas Subscriptions And Payments**
 <img src="../assets/bounded-canvas/bounded-canvas-subscription.jpeg" alt="Bounded Canvas Subscription"/>
 
 **Descripción:**
-El sistema de Subscription gestiona el acceso del usuario a planes de suscripción,facilitando el proceso de pago en línea.
-
-**- Bounded Canvas Payment**
-<img src="../assets/bounded-canvas/bounded-canvas-payment.jpeg" alt="Bounded Canvas Payment"/>
-
-**Descripción:**
-El sistema de Payment gestiona la autorización, validación y registro de pagos, garantizando seguridad en las transacciones y una experiencia de usuario fluida.
+El sistema de Subscription gestiona el acceso del usuario a planes de suscripción, facilitando el proceso de pago en línea.
 
 **- Bounded Canvas IAM**
 <img src="../assets/bounded-canvas/bounded-canvas-iam.jpeg" alt="Bounded Canvas IAM"/>
@@ -2592,11 +2600,6 @@ El sistema de Payment gestiona la autorización, validación y registro de pagos
 **Descripción:**
 El sistema IAM gestiona la identidad, autenticación y autorización de usuarios, permitiendo la creación de cuentas y su vinculación con planes válidos de forma segura.
 
-**- Bounded Canvas Notifications**
-<img src="../assets/bounded-canvas/bounded-canvas-notifications.jpeg" alt="Bounded Canvas Notifications"/>
-
-**Descripción:**
-El sistema de Notifications gestiona alertas automáticas o solicitadas por el usuario, informando sobre eventos importantes mediante correo, app u otros canales.
 
 ### 4.1.2. Context Mapping.
 
@@ -2606,7 +2609,7 @@ posteriormente se definieron los patrones de relaciones entre Bounded Contexts d
 
 A continuación, se presenta el Context Map elegido que resume las relaciones entre los bounded contexts identificados:
 
-<img src="../assets/context-mapping/bc-mapping-2.jpg" alt="Context Map"/>
+<img src="../assets/context-mapping/context-mapping-3.jpg" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
 
@@ -4265,22 +4268,101 @@ Mobile App:
 
 <img src="../assets/tactical-level-ddd/db-diagrams/consulting-db-diagram.png" alt="Consulting Database Design Diagram"/>
 
-### 4.2.4. Bounded Context: Subscription
 
-#### 4.2.4.1. Domain Layer.
+
+### 4.2.4. Bounded Context: Payment
 
 Web App:
-- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+#### Request
+
+**OrderRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| action                | string   |
+| userId                | number      |
+| sensorId           | number      |
+| actuatorId           | number      |
+| createdAt            | string      |
+| completedAt          | string      |
+| subscriptionId       | number      |
 
 
-## Request
+**SubscriptionRequest**
 
-**UpdateSubscriptionRequest**
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| expirationDate       | string      |
+| subscriptionTypeId   |  number        |
+| subscriptionStateId |  number        |
+| userId               |  number        |
+| createdAt            |  string     |
+
+
+**UpdateSubscriptionStatusRequest**
 
 | Atributo | Tipo   |
 |----------|--------|
-| id       | number    |
-| userId     | number |
+| id       | number |
+| subscriptionTypeId| number |
+
+
+
+
+#### Response 
+
+**OrderResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| action                | string   |
+| userId                | number      |
+| sensorId           | number      |
+| actuatorId           | number      |
+| createdAt            | string      |
+| completedAt          | string      |
+| orderStateId          | string      |
+| subscriptionId       | number      |
+
+
+
+
+**SubscriptionResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | number   |
+| expirationDate       | string      |
+| subscriptionTypeId   |  number        |
+| subscriptionStateId |  number        |
+| userId               |  number        |
+| createdAt            |  string     |
+
+
+#### Assembler
+
+**OrderAssembler**
+
+| Método             | Descripción     |
+|-----------------------|----------|
+| toRequestAssembler                    | Devuelve una instancia de UpdateOrderStatusRequest |
+| toRequestAssembler                    | Devuelve una instancia de OrderRequest   |
+| toResponseAssembler               | Devuelve una instancia de OrderResponse   |
+
+
+**SubscriptionAssembler**
+
+| Método             | Descripción     |
+|-----------------------|----------|
+| toRequestAssembler                    | Devuelve una instancia de SubscriptionRequest   |
+| toRequestAssembler                | Devuelve una instancia de UpdateSubscriptionStatusRequest |
+| toResponseAssembler               | Devuelve una instancia de SubscriptionResponse   |
+
+
+
 
 
 
@@ -4288,42 +4370,148 @@ Web App:
 
 
 Mobile App:
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
 
-- En esta capa se definen las clases relacionadas a la abstración de respuestas al servicio y también aquella que se encarga de gestionar las solicitudes.
+
+#### DTO
+
+**OrderRequestDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| action                | string   |
+| userId                | int      |
+| sensorId           | int   |
+| actuatorId           | int      |
+| createdAt            | string      |
+| completedAt          | string      |
+| subscriptionId       | int      |
 
 
-## Request
+| Método             | Descripción     |
+|-----------------------|----------|
+| toJson                    | Crea un objeto con los atributos de la clase OrderRequestDto    |
 
-**UpdateSubscriptionRequest**
+
+
+**OrderResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int   |
+| action                | string   |
+| userId                | int      |
+| sensorId           | int      |
+| actuatorId           | int      |
+| createdAt            | string      |
+| completedAt          | string      |
+| orderStateId          | string      |
+| subscriptionId       | int      |
+
+
+| Contructor             | Descripción     |
+|-----------------------|----------|
+| fromJson              | Crea una instancia de la clase OrderResponseDto en base a una respuesta del servidor    |
+
+
+
+**SubscriptionRequestDto**
 
 | Atributo | Tipo   |
 |----------|--------|
-| id       | int    |
-| userId     | int |
+| expirationDate       | string      |
+| subscriptionTypeId   |  int        |
+| subscriptionStateId |  int        |
+| userId               |  int        |
+| createdAt            |  string     |
+| Método             | Descripción     |
+|-----------------------|----------|
+| toJson                    | Crea un objeto con los atributos de la clase SubscriptionRequestDto    |
+
+
+**UpdateSubscriptionStatusRequestDto**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id| int |
+| subscriptionTypeId | int |
+
+| Método             | Descripción     |
+|-----------------------|----------|
+| toJson                    | Crea un objeto con los atributos de la clase UpdateSubscriptionRequestStatusDto    |
+
+
+**SubscriptionResponseDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int   |
+| expirationDate       | string      |
+| subscriptionTypeId   |  int        |
+| subscriptionStateId |  int        |
+| userId               |  int        |
+| createdAt            |  string     |
+
+
+| Contructor             | Descripción     |
+|-----------------------|----------|
+| fromJson              | Crea una instancia de la clase SubscriptionResponseDto en base a una respuesta del servidor    |
 
 
 
 Backend:
 
-En esta capa se describen las clases que representan el núcleo del dominio del contexto de Subscription. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+#### 4.2.4.1. Domain Layer.
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
 ---
 
 #### Entities
 
-**SubscriptionType**
+**OrderState**
 
-Representa el tipo de suscripción (por ejemplo: Básico,Doméstico y Negocios). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App"/>
 
 | Atributo | Tipo   |
 |----------|--------|
 | Id       | Int    |
 | Type     | String |
 
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
+
+**SubscriptionType**
+
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
+alt="Subscriptiom Component Diagram on Mobile App"/>
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+
+**SubcriptionState**
+
+Representa los estados de una suscripción (por ejemplo: Activa, Inactiva)
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+
+
 ---
 
 #### Value Objects
+
+**OrderStates**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| ToComplete   | Representa el estado de una orden por completar             |
+| Completed    | Representa el estado de una orden cancelada              |
+
 
 **SubscriptionTypes**
 
@@ -4333,9 +4521,36 @@ Representa el tipo de suscripción (por ejemplo: Básico,Doméstico y Negocios).
 | Domestic    | Representa un tipo de suscripción enfocados para usuarios domésticos              |
 | Business    | Representa un tipo de suscripción enfocados para usuarios de negocios     |
 
+**SubscriptionStates**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Active  | Representa el estado de una suscripción activa             |
+| Inactive    | Representa el estado de una suscripción inactiva             |
+
 ---
 
 #### Aggregates
+
+**Order**
+
+Representa una factura creada en la aplicación.
+
+  | Atributo              | Tipo     |
+  |-----------------------|----------|
+  | Id                    | int      |
+  | Action               | string   |
+  | UserId            | int |
+  | SensorId                | int      |
+  | ActuatorId           | int      |
+  | CreatedAt  | DateTime |
+  | CompletedAt | DateTime  |
+  | StateId | int |
+  | SubscriptionId | int |
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| UpdateOrderState      | Representa un método para actualizar el estado de una orden.                 |
 
 **Subscription**
 
@@ -4343,10 +4558,16 @@ Representa una suscripción disponible en la aplicación.
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| Id                    | Int      |
+| Id                    | int      |
 | CreatedAt             | DateTime |
 | ExpirationDate        | DateTime |
-| SubscriptionTypeId    | Int      |
+| SubscriptionTypeId    | int      |
+| SubscriptionStateId  |  int     |
+| UserId                |  int     |
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| UpdateState      | Representa un método para actualizar el estado de una suscripción.              |
 
 ---
 
@@ -4354,17 +4575,13 @@ Representa una suscripción disponible en la aplicación.
 
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| SeedSubscriptionCommand      | Representa un comando que inicializa datos relacionados a suscripciones dentro del dominio.                 |
-| SeedSubscriptionTypeCommand  | Representa un comando que inicializa los tipos de suscripciones disponibles en el dominio.                  |
-
-
-#### Queries
-
-| Clase                     | Descripción                                                                                             |
-|--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetSubscriptionByUserIdQuery      | Representa una consulta que recupera todas las suscripciones existentes dentro del dominio.             |
-| GetSubscriptionByIdQuery  | Representa una consulta que obtiene una suscripción específica mediante su identificador único.         |
-
+| CreateOrderCommand     | Representa un comando para la creación de una nueva orden                 |
+| UpdateOrderStateCommand      | Representa un comando para la actualización de estado de una orden                 |
+| CreateSubscriptionCommand     | Representa un comando para la creación de una nueva suscripción                 |
+| UpdateSubscriptionStatusCommand      | Representa un comando para la actualización de estado de una suscripción                 |
+| SeedOrderStatesCommand      | Representa un comando para la inicialización de datos para los tipos de estados de una orden               |
+| SeedSubscriptionTypeCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
+| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción               |
 
 
 ---
@@ -4375,303 +4592,25 @@ Representa una suscripción disponible en la aplicación.
 
 |  Interface                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
+| IOrderCommandService    | Define las operaciones que ejecutan cambios sobre el  agregado Order. |
+| IOrderStateCommandService    | Define las operaciones que ejecutan cambios sobre la entidad OrderState. |
 | ISubscriptionCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Subscription mediante comandos del dominio. |
 | ISubscriptionTypeCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionType mediante comandos del dominio. |
+| ISubscriptionStateCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionState mediante comandos del dominio. |
 
-**Query Services**
 
-| Interface                        | Descripción                                                                                      |
-|----------------------------------|--------------------------------------------------------------------------------------------------|
-| ISubscriptionQueryService        | Define las consultas que se ejecutan sobre el agregado Subscription mediante consultas del dominio. |
-
----
 
 #### Repositories (Interfaces)  
 
 | Interface                           | Descripción                                                                                     |
 |------------------------------------|-------------------------------------------------------------------------------------------------|
+| IOrderRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla orders.  |
+| IOrderStateRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla order_states |
 | ISubscriptionRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscriptions.  |
 | ISubscriptionTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_types |
-
-
-
-
+| ISubscriptionStateRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_states |
+---
 #### 4.2.4.2. Interface Layer.
-
-Web App:
-
-#### Components
-
-**PlanItemComponent**
-
-Representa un componente reutilizable para la visualización de la información de un plan.
-
-**PlanListComponent**
-
-Representa un componente para representar el conjunto de planes disponibles.
-
-#### Pages
-
-**MySubscriptionInformatiom**
-
-Represena un componente para la visualización de una suscripción actual o los tipos de planes disponibles.
-
-
-Mobile App:
-
-#### Widgets
-
-**PlanItemWidget**  
-Widget reutilizable que muestra la información de un plan individua.
-
-#### Screens
-
-**MySubscriptionInformationScreen**  
-Pantalla que muestra los detalles de la suscripción actual del usuario o los diferentes tipos de planes disponibles para seleccionar.
-
-
-Backend:
-
-- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
----
-
-#### Resources
-
-- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
-
-| Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | SubscriptionResource        | Devuelve datos de una suscripción al usuario         
-
----
-
-#### Transforms/Assemblers
-
-- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
-
-| Clase            | Descripción                                      |
- |---------------------|--------------------------------------------------|
- SubscriptionResourceFromEntityAssembler  |   Transforma una entidad de subscription en un recurso de salida para el cliente.
-
---- 
-
-#### Controllers 
-
-- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
-
-**SubscriptionController**
- 
- 
- | Ruta especifica             | Descripción                                      |
- |---------------------|--------------------------------------------------|
- | /api/v1/subscription       | Gestiona la consulta de suscripciones  |
-
----
-
-#### 4.2.4.3. Application Layer.
-
-
-Web App:
-- No aplica para este caso
-
-Mobile App:
-- No aplica para este caso
-
-Backend:
-
-### CommandServices
-
-| Clase                              | Descripción |
-|------------------------------------|-------------|
-| `ISubscriptionCommandService`      | Maneja comandos para gestionar suscripciones. Utiliza la *entidad* `Subscription`. |
-| `ISubscriptionTypeCommandService`  | Maneja comandos para gestionar tipos de suscripción. Utiliza la *entidad* `SubscriptionType`. |
-
-### QueryServices
-
-| Clase                              | Descripción |
-|------------------------------------|-------------|
-| `ISubscriptionQueryService`        | Devuelve una suscripción por su identificador. Utiliza la *entidad* `Subscription`. |
-| `ISubscriptionTypeQueryService`    | Devuelve si existe un tipo de suscripción o lista de tipos. Utiliza la *entidad* `SubscriptionType`. |
-
-#### 4.2.4.4. Infrastructure Layer.
-
-Web App:
-
-En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
-
-## Service
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
-
-Mobile App:
-
-En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
-
-## Service
-
-| Método                   | Descripción                                        |
-|--------------------------|----------------------------------------------------|
-| updateUserSubscription     | Actualiza la suscripción de un usuario     |
-
-Backend:
-
-### Implementación de las interfaces de los Repositories
-| Clase                  | Interfaz Implementada   | Descripción                                                                             |
-|------------------------|-------------------------|-----------------------------------------------------------------------------------------|
-| SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
-
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
-
-En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
-
-Web App:
-
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App" width="350"/>
-
-Backend:
-
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API" width="350"/>
-
-Mobile:
-
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
-alt="Subscriptiom Component Diagram on Mobile App" width="350"/>
-
-#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
-
-##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
-
-Web App:
-
-<img src="../assets/class-diagrams/subscriptionWeb.png" alt="Subscription class diagram on Web App"/>
-
-Mobile App:
-
-<img src="../assets/class-diagrams/subscriptionMobile.png" alt="Subscription class diagram on Mobile App"/>
-
-Backend:
-
-<img src="../assets/class-diagrams/domain-layer-subscription.jpeg" alt="Subscription class diagram on API"/>
-
-
-##### 4.2.4.6.2. Bounded Context Database Design Diagram.
-
-<img src="../assets/tactical-level-ddd/db-diagrams/subsciption-db-diagram.png" alt="Subscription Database Design Diagram"/>
-
-### 4.2.5. Bounded Context: Payment
-
-Web App:
-- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
-
-#### Request
-
-**InvoiceRequest**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| amount                | number   |
-| userId                | number      |
-| invoiceType           | number      |
-
-
-
-
-Mobile App:
-- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
-
-
-#### Request
-
-**InvoiceRequest**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| amount                | double   |
-| userId                | int     |
-| invoiceType           | int    |
-
-
-
-
-Backend:
-
-#### 4.2.5.1. Domain Layer.
-- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Payment. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
-
----
-
-#### Entities
-
-**InvoiceType**
-
-Representa el tipo de factura (por ejemplo: Ruc, Normal ). Es una entidad ya que posee identidad propia y puede relacionarse con múltiples agregados.
-
-| Atributo | Tipo   |
-|----------|--------|
-| Id       | Int    |
-| Type     | String |
-
----
-
-#### Value Objects
-
-**InvoiceTypes**
-
-| Atributo    | Descripción                                              |
-|------------|----------------------------------------------------------|
-| Ruc    | Representa un tipo de factura electronica             |
-| Normal    | Representa un tipo de factura normal              |
-
----
-
-#### Aggregates
-
-**Invoice**
-
-Representa una factura creada en la aplicación.
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| Id                    | int      |
-| Amount                | double   |
-| CreatedAt             | DateTime |
-| UserId                | int      |
-| InvoiceType           | int      |
-
----
-
-#### Commands
-
-| Clase                        | Descripción                                                                                               |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| CreateInvoiceCommand      | Representa un comando para la creación de una factura.                 |
-| SeedIncoiceTypesCommand      | Representa un comando para la inicialización de datos para los tipos de factura.                 |
-
-
----
-
-#### Domain Services (Interfaces)
-
-**Command Services**
-
-|  Interface                      | Descripción                                                                                     |
-|--------------------------------|-------------------------------------------------------------------------------------------------|
-| IInvoiceCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Invoice mediante comandos del dominio. |
-
-| IInvoiceTypeCommandService    | Define las operaciones que ejecutan cambios sobre la entidad InvoiceType mediante comandos del dominio. |
-
-
-#### Repositories (Interfaces)  
-
-| Interface                           | Descripción                                                                                     |
-|------------------------------------|-------------------------------------------------------------------------------------------------|
-| IInvoiceRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla invoices.  |
-| IInvoiceTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla invoice_types |
-
----
-#### 4.2.5.2. Interface Layer.
 
 Web App:
 - En esta capa se definen los componentes re utilizables en las diferentes pantallas relacionadas a este contexto de negocio.
@@ -4682,11 +4621,46 @@ Web App:
 
 Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
 
+**PaymentStatesView**
+
+Representa una vista para monitorear el estado de ordenes por usuario
+
+
+#### Components
+
+**SubcriptionSummary**
+
+Representa un componente para la visualización de información resumida sobre los beneficios de una suscripción
+
+
+**SubscriptionDetails**
+
+Representa un componente para la visualización para la visualización detallada de la suscripción detallada
+
+
 Mobile App:
+
+#### Screens
 
 **CheckoutPaymentScreen**
 
-Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
+Representa una pantalla que redirige al servicio de stripe para culminar un pago en la aplicación.
+
+**PaymentStatesScreen**
+
+Representa una pantalla para monitorear el estado de ordenes por usuario
+
+#### Widgets
+
+
+**SubcriptionSummary**
+
+Representa un widget para la visualización de información resumida sobre los beneficios de una suscripción
+
+
+**SubscriptionDetails**
+
+Representa un widget para la visualización para la visualización detallada de la suscripción detallada
 
 Backend:
 
@@ -4702,7 +4676,13 @@ Backend:
   
   | Clase            | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | CreateInvoiceResource        | Recibe datos para la creación de una nueva factura.            |
+  | CreateOrderResource        | Abstracción para representar la solicitud de creación de una orden.            |
+  | OrderResource        | Abstracción para representar los datos que devuelve el servidor relacionados a la clase Order           |
+  | UpdateOrderStateResource | Abstracción para representar la solicitud de actualización de estado de una orden |
+  | CreateSubscriptionResource        | Abstracción para representar la solicitud de creación de una suscripción.            |
+  | SubscriptionResource        | Abstracción para representar los datos que devuelve el servidor relacionados a la clase Subscription           |
+  | UpdateSubscriptionStateResource | Abstracción para representar la solicitud de actualización de estado de una suscripción |
+
   
   
  ---
@@ -4713,7 +4693,9 @@ Backend:
   
   | Clase            | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | CreateInvoiceCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de factura.      |
+  | CreateOrderCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de una orden.      |
+  | UpdateOrderStateCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de actualizacion de estado de una orden.      |
+  | OrderResourceFromEntityAssembler       | Transforma una entidad de entrada en un recurso que devuelve datos de la entidad order .      |
  
  
   ---
@@ -4722,16 +4704,25 @@ Backend:
   
   - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
   
-  **InvoiceController**
+  **OrderController**
   
   
   | Ruta especifica             | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | /api/v1/invoice      | Gestiona la creación de facturas  |
+  | /api/v1/orders     | Gestiona la creación y la consulta de ordenes |
+
+
+  **SubscriptionController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/subscriptions     | Gestiona la creación y la consulta de suscripciones |
+ 
  
  ---
  
-#### 4.2.5.3. Application Layer.
+#### 4.2.4.3. Application Layer.
 
 
 Web App:
@@ -4743,12 +4734,14 @@ Mobile App:
 Backend:
 
 - La capa de aplicación se encarga de coordinar los casos de uso del sistema mediante la implementación de servicios que interactúan con los contratos definidos en la capa de dominio.
+
 ### CommandServices
 
 
-| Clase              | Interfaz Implementada | Descripción                                                                                                         |
-|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|
-| `InvoiceCommandService` | `IInvoiceCommandService`   |  Implementación del servicio que maneja los comandos de facturas. |
+| Clase              |  Interfaz Implementada |Descripción                                                                                  |
+|--------------------|-----------------------------------|----------------------------------------------------------------------------------|
+| `OrderCommandService` |  `IOrderCommandService`   |  Implementación del servicio que maneja los comandos de ordenes. |
+| `SubscriptionCommandService` |  `ISubscriptionCommandService`   |  Implementación del servicio que maneja los comandos de suscripciones. |
           
 
 
@@ -4766,7 +4759,7 @@ Backend:
 
 
 -
-#### 4.2.5.4. Infrastructure Layer.
+#### 4.2.4.4. Infrastructure Layer.
 
 Web App:
 
@@ -4774,9 +4767,21 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 #### Service
 
+**OrderService**
+
 | Metodo           | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+  | createOrder     | Método para la creación de una nueva orden      |
+  | updateOrderState    | Método para la actualización del estado de orden      |
+
+
+**SubscriptionService**
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createSubscription     | Método para la creación de una nueva suscripción      |
+  | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
+
 
 Mobile App:
 
@@ -4784,23 +4789,35 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 #### Service
 
+**OrderService**
+
 | Metodo           | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | createInvoice     | Crea una nueva factura al finalizar una compra.      |
+  | createOrder     | Método para la creación de una nueva orden      |
+  | updateOrderStatus     | Método para la actualización del estado de orden      |
+
+**SubscriptionService**
+
+| Metodo           | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | createSubscription     | Método para la creación de una nueva suscripción      |
+  | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
 
 Backend:
 
 ### Implementación de las interfaces de los Repositories
 | Clase             | Interfaz Implementada | Descripción                                                                                                       |
 |-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
-| InvoiceRepository | IInvoiceRepository    | Implementa los métodos de consulta y persistencia de las facturas de los usuarios al momento de realizar el pago. |
+| OrderRepository | IOrderRepository    | Implementa los métodos de consulta y persistencia de las ordenes de los usuarios. |
+
+
 
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                             |
 |------------------------|-------------------------|-----------------------------------------------------------------------------------------|
 | SubscriptionRepository | ISubscriptionRepository | Implementa los métodos de consulta y persistencia de las suscripciones de los usuarios. |
 
-#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
@@ -4817,9 +4834,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png"
 alt="Payment Component Diagram on Mobile App" width="350"/>
 
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
@@ -4837,11 +4854,11 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
 
 
-### 4.2.6. Bounded Context: Identity and Access Management
+### 4.2.5. Bounded Context: Identity and Access Management
 
 
 
-#### 4.2.6.1. Domain Layer.
+#### 4.2.5.1. Domain Layer.
 
 Mobile App:
 
@@ -4952,7 +4969,7 @@ Representa un usuario del sistema.
  ---
 
 
-#### 4.2.6.2. Interface Layer.
+#### 4.2.5.2. Interface Layer.
 
 Mobile App:
 
@@ -5024,7 +5041,7 @@ Backend:
  
 ---
  
-#### 4.2.6.3. Application Layer.
+#### 4.2.5.3. Application Layer.
 
 Mobile App:
 
@@ -5056,7 +5073,7 @@ Backend:
 
 
 
-#### 4.2.6.4. Infrastructure Layer.
+#### 4.2.5.4. Infrastructure Layer.
 
 Mobile App:
 
@@ -5111,9 +5128,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
 alt="IAM Component Diagram on Mobile App" width="350"/>
 
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
@@ -5142,21 +5159,8 @@ Web App:
 
 |  Método                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
-| notificationEntityFromResourceAssembler    | Crea una nueva instancia de la clase notification en base a otra que abstrae la respuesta del servidor. |
-
-
-#### Model
-
-**NotificationModel**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id       | int    |
-| title     | string |
-| content     | string |
-| createdAt     | string |
-| userId     | int |
-
+|toResponse    | Crea una nueva instancia de la clase NotificationResponse |
+|toRequest    | Crea una nueva instancia de la clase NotificationRequest |
 
 
 
@@ -5258,7 +5262,7 @@ Representa una notificacion creada en la aplicación.
 
 ---
 
-#### 4.2.9.2. Interface Layer.
+#### 4.2.6.2. Interface Layer.
 
 
 Mobile App:
@@ -5328,7 +5332,7 @@ Backend:
    |---------------------|--------------------------------------------------|
    | /api/v1/notification      | Gestiona la creación y consulta de notificaciones |
 
-#### 4.2.7.3. Application Layer.
+#### 4.2.6.3. Application Layer.
 
 Mobile App:
 
@@ -5363,7 +5367,7 @@ Backend:
 | `IExternalUserService`         | Definición del contrato que permite la interacción con el sistema externo de usuarios. |
 | `ExternalUserService`          | Implementación del contrato que permite la interacción con el sistema externo de usuarios. |
 
-#### 4.2.7.4. Infrastructure Layer.
+#### 4.2.6.4. Infrastructure Layer.
 
 Mobile App:
 
@@ -5391,7 +5395,7 @@ Backend:
 |------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
 | NotificationRepository | INotificationRepository | Implementa los métodos de consulta y persistencia de las notificaciones del sistema que se envían a los usuarios |
 
-#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
@@ -5408,9 +5412,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-NotificationBoundedContextonMobileApp.png"
 alt="Notification Component Diagram on Mobile App" width="350"/>
 
-#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
@@ -5424,7 +5428,7 @@ Backend:
 
 <img src="../assets/tactical-level-ddd/notification/notification-class-diagram.jpeg" alt="Notification Context Domain Layer Class Diagrams on API" width="350"/>
 
-##### 4.2.9.6.2. Bounded Context Database Design Diagram.
+##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/notificationt-db-diagram.png" alt="Notification Database Design Diagram" width="350"/>
 
@@ -5805,29 +5809,72 @@ Dashboard de los análisis
 <img src="../assets/wireframes/Dashboard Plantación.png" alt="wireframe web app" width = "400"/>
 
 **Descripción:**
-Dashboard de su monitoreo de su plantación 
+Dashboard de su monitoreo de su plantación.
 
 **Mobile Aplication Wireframes:**
 
 
 #### Registro Plantacion Segmento Empresarial:
-<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Dashboard donde se muestra toda la información y el boton de agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Mensaje de éxito al agregar una planta.
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Dashboard de su monitoreo de su plantación
+
+<img src="../assets/wireframes/Web-App/Management-Business-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Formulario de agregar nueva plantación para segmento empresa.
 
 #### Registro Planta Segmento Domestico:
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/Management-DeletePlant-Mobile.png" alt="wireframe mobile app" height = "400" width = "250"/>
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/> 
 
-<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app" height = "400" width = "250"/><img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app" height = "400" width = "250"/>
+**Descripción:**
+Dashboard donde se encuentra boton de agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-2.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Mensaje de éxito al agregar planta.
+
+<img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-3.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Formulario de agregar planta.
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Historial de pagos
+
+<img src="../assets/wireframes/Web-App/iPhone 16 - 10.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista del perfil de usuario.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 11-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista de subcripciones.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 11.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Vista de perfil del segmento especialista.
+
 <img src="../assets/wireframes/Web-App/iPhone 16 - 9-1.png" alt="wireframe mobile app" height = "400" width = "250"/>
-<img src="../assets/wireframes/Web-App/iPhone 16 - 9.png" alt="wireframe mobile app" height = "400" width = "250"/>
+
+**Descripción:**
+Perfil con sección de pagos pendientes.
 
 ## 5.4.2. Applications Wireflow Diagrams.
 
@@ -5839,19 +5886,28 @@ parte del alcance. En este caso consideramos los mas relevantes hasta el momento
 **Registar Usuario**
 <img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Flujo de registro de nuevo usuario con ingreso de datos personales, selección de tipo de usuario y confirmación de cuenta.
+
 **Registar Planta**
 <img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app" width="400"/>
+
+**Descripción:**
+Proceso de registro de nueva planta con configuración de sensores y umbrales de monitoreo.
 
 **Editar Planta**
 <img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Flujo de edición de información de plantas existentes, permitiendo modificar parámetros y datos registrados.
+
 **Eliminar Planta**
 <img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app" width="400"/>
 
+**Descripción:**
+Proceso de eliminación de plantas con confirmaciones de seguridad y gestión de datos asociados.
 
 ## 5.4.2. Applications Mock-ups.
-
-
 
 Esta sección presenta y explica los Mock-ups de las aplicaciones. Se evidencia la aplicación de los principios, elementos de diseño,
 diseño inclusivo y arquitectura de información, así como el Design System
