@@ -1996,28 +1996,42 @@ Seguidamente, se agregaron las tarjetas de comandos (tarjetas azules), sistemas 
 El proceso de Candidate Context Discovery se realizó con el objetivo de identificar un primer acercamiento a los diferentes bounded contexts que podrían existir en el dominio. Se utilizó la técnica de start-with-value, con el objetivo de identificar las partes core del dominio que tienen el mayor peso
 para el negocio. Como resultado, se identificaron los siguientes bounded contexts:
 
-<img src="../assets/event-storming/event-storming-bc.jpg" alt="Bounded Contexts"/>
+<img src="../assets/event-storming/event-storming-3.jpg" alt="Bounded Contexts"/>
 
-- Management
+- Operation and monitoring
 
    Gestiona la información almacenada de las plantas, incluyendo el registro de información, el manejo de estados y las notificaciones. Su enfoque principal es mantener la integridad de los datos registrados y notificar modificaciones relevantes.
 
-- Subscription
+- Analytics
 
-   Administra las suscripciones y planes de servicio, permitiendo a los usuarios (como Crop Manager o Plant Parent) seleccionar, cotizar y contratar servicios. Este contexto se encarga de mantener actualizada la información de los planes disponibles y gestionar el proceso de suscripción.
+    Proporciona análisis de datos sobre el estado de las plantas y su entorno, facilitando la toma de decisiones informadas a través de gráficos. Este contexto se centra en la visualización y análisis de datos históricos.
 
-- Payment
+- Subscriptions And Payments
 
    Procesa transacciones financieras, incluyendo la realización y confirmación de pagos. Su función principal es garantizar que los pagos se completen correctamente y se registren en el sistema, integrando seguridad y trazabilidad en cada operación.
 
-- Analytics
+- Customer Relationship Management (CRM)
 
-  Proporciona análisis y reportes sobre el rendimiento de los cultivos, el consumo de recursos y la efectividad de los sistemas de riego. Su objetivo es ofrecer información valiosa para la toma de decisiones y la optimización de procesos.
+   Facilita la interacción entre los usuarios y especialistas, permitiendo a los usuarios solicitar recomendaciones y recibir asesoramiento sobre el cuidado de sus plantas. Este contexto se centra en la gestión de consultas y la comunicación entre usuarios y expertos.
 
-- Consulting
+- Service Design and Planning
 
-    Facilita la interacción entre los usuarios y especialistas, permitiendo a los usuarios solicitar recomendaciones y recibir asesoramiento sobre el cuidado de sus plantas. Este contexto se centra en la gestión de consultas y la comunicación entre usuarios y expertos.
-#### 4.1.1.2 Domain Message Flows Modeling.
+    Permite a los usuarios realizar las órdenes de instalación de sensores y gestionar los detalles de la instalación. Del mismo modo, permite a los analistas planificar el servicio de manera efectiva.
+
+- Asset and Resource Management
+
+    Administra los recursos y activos del sistema, incluyendo la gestión de sensores, actuadores y otros componentes necesarios para el funcionamiento del sistema.
+
+- Profiles and Preferences
+
+    Permite a los usuarios gestionar sus perfiles, preferencias y configuraciones de notificaciones. Este contexto se centra en la personalización de la experiencia del usuario.
+
+- Identity and Access Management (IAM)
+
+    Gestiona la identidad de los usuarios, incluyendo la autenticación y autorización a través de roles y permisos.
+
+    #### 4.1.1.2 Domain Message Flows Modeling.
+
 Con el objetivo de comprender cómo interactúan los distintos bounded contexts identificados, se modelaron los flujos de mensajes del dominio (Domain Message Flows). Esta técnica permite visualizar los mensajes que se intercambian entre contextos, sistemas y actores, utilizando eventos, comandos y consultas.
 
 Para ello, se definieron diferentes escenarios clave del sistema, y se representaron visualmente los mensajes que fluyen entre los componentes. Esto ayudó a asegurar la correcta separación de responsabilidades, detectar dependencias entre bounded contexts, y facilitar la futura implementación de integraciones entre servicios.
@@ -2044,7 +2058,7 @@ Este escenario representa cómo un usuario solicita ayuda especializada. La soli
 **Descripción:**
 El sistema de Analytics proporciona información sobre el estado de las plantas y su entorno, facilitando la toma de decisiones mediante el análisis de datos confiables y automatizados.
 
-**- Bounded Canvas Management**
+**- Bounded Canvas Operation and monitoring**
 <img src="../assets/bounded-canvas/bounded-canvas-management.jpeg" alt="Bounded Canvas Management"/>
 
 **Descripción:**
@@ -2056,17 +2070,11 @@ El sistema de Management gestiona los datos de las plantas y permite al usuario 
 **Descripción:**
 El sistema de Consulting brinda asesoría personalizada basada en datos recolectados, permitiendo tomar decisiones informadas para el cuidado óptimo de las plantas.
 
-**- Bounded Canvas Subscription**
+**- Bounded Canvas Subscriptions And Payments**
 <img src="../assets/bounded-canvas/bounded-canvas-subscription.jpeg" alt="Bounded Canvas Subscription"/>
 
 **Descripción:**
-El sistema de Subscription gestiona el acceso del usuario a planes de suscripción,facilitando el proceso de pago en línea.
-
-**- Bounded Canvas Payment**
-<img src="../assets/bounded-canvas/bounded-canvas-payment.jpeg" alt="Bounded Canvas Payment"/>
-
-**Descripción:**
-El sistema de Payment gestiona la autorización, validación y registro de pagos, garantizando seguridad en las transacciones y una experiencia de usuario fluida.
+El sistema de Subscription gestiona el acceso del usuario a planes de suscripción, facilitando el proceso de pago en línea.
 
 **- Bounded Canvas IAM**
 <img src="../assets/bounded-canvas/bounded-canvas-iam.jpeg" alt="Bounded Canvas IAM"/>
@@ -2074,11 +2082,6 @@ El sistema de Payment gestiona la autorización, validación y registro de pagos
 **Descripción:**
 El sistema IAM gestiona la identidad, autenticación y autorización de usuarios, permitiendo la creación de cuentas y su vinculación con planes válidos de forma segura.
 
-**- Bounded Canvas Notifications**
-<img src="../assets/bounded-canvas/bounded-canvas-notifications.jpeg" alt="Bounded Canvas Notifications"/>
-
-**Descripción:**
-El sistema de Notifications gestiona alertas automáticas o solicitadas por el usuario, informando sobre eventos importantes mediante correo, app u otros canales.
 
 ### 4.1.2. Context Mapping.
 
@@ -2088,7 +2091,7 @@ posteriormente se definieron los patrones de relaciones entre Bounded Contexts d
 
 A continuación, se presenta el Context Map elegido que resume las relaciones entre los bounded contexts identificados:
 
-<img src="../assets/context-mapping/bc-mapping-2.jpg" alt="Context Map"/>
+<img src="../assets/context-mapping/context-mapping-3.jpg" alt="Context Map"/>
 
 ### 4.1.3. Software Architecture.
 
