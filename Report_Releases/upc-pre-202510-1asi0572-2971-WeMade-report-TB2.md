@@ -3325,6 +3325,10 @@ Backend:
 |---------------------|--------------------------------------------------|
 | IPlantServiceFacade        | Define un contrato para los servicios de dominio relacionados con plantas, que deben ser expuestos a servicios externos.            |
 | PlantServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+| ISensorServiceFacade        | Define un contrato para los servicios de dominio relacionados con sensores, que deben ser expuestos a servicios externos.            |
+| SensorServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+| IActuatorServiceFacade        | Define un contrato para los servicios de dominio relacionados con actuadores, que deben ser expuestos a servicios externos.            |
+| ActuatorServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
 
 
 
@@ -4290,6 +4294,14 @@ Web App:
 | subscriptionId       | number      |
 
 
+**UpdateOrderStatusRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | number |
+| orderStatusId| number |
+
+
 **SubscriptionRequest**
 
 | Atributo              | Tipo     |
@@ -4376,6 +4388,7 @@ Mobile App:
 
 #### DTO
 
+
 **OrderRequestDto**
 
 | Atributo              | Tipo     |
@@ -4425,6 +4438,7 @@ Mobile App:
 | subscriptionStateId |  int        |
 | userId               |  int        |
 | createdAt            |  string     |
+
 | Método             | Descripción     |
 |-----------------------|----------|
 | toJson                    | Crea un objeto con los atributos de la clase SubscriptionRequestDto    |
@@ -4576,7 +4590,16 @@ Representa una suscripción disponible en la aplicación.
 | UpdateSubscriptionStatusCommand      | Representa un comando para la actualización de estado de una suscripción                 |
 | SeedOrderStatesCommand      | Representa un comando para la inicialización de datos para los tipos de estados de una orden               |
 | SeedSubscriptionTypeCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
-| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción               |
+| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción       |
+
+#### Queries
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| GetOrdersByUserIdQuery     | Representa una clase de consulta para obtener todas las ordenes que realizo un usuario                 |
+| GetSubscriptionByUserIdQuery     | Representa una clase de consulta para obtener información relacionada a la suscripción de un usuario                 |
+
+
 
 
 ---
@@ -4747,10 +4770,14 @@ Backend:
 | Interface                         | Descripción |
 |------------------------------------|-------------|
 | `IExternalCustomerService`             | Contrato que maneja consultas sobre el servicio externo de usuarios. |
+| `IExternalSensorService`             | Contrato que maneja consultas sobre el servicio externo de sensores. |
+| `IExternalActuatorService`             | Contrato que maneja consultas sobre el servicio externo de actuadores. |
 
 | Clase                        | Descripción |
 |------------------------------------|-------------|
 | `ExternalCustomerService`             | Implementación del contrato definido para la interacción con el servicio externo de usuarios. |
+| `ExternalSensorService`             | Implementación del contrato definido para la interacción con el servicio externo de sensores. |
+| `ExternalActuatorService`             | Implementación del contrato definido para la interacción con el servicio externo de actuadores. |
 
 
 -
@@ -4846,7 +4873,7 @@ Backend:
 <img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram on API"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/payment-subscriptions-diagram.jpeg" alt="Payment Database Design Diagram"/>
 
 
 ### 4.2.5. Bounded Context: Identity and Access Management
