@@ -40,6 +40,8 @@
 </div>
 </center>
 
+<center>
+
 # Registro de Versiones del Informe
 
 <table>
@@ -200,7 +202,7 @@
     </tr>
   </tbody>
 </table>
-
+</center>
 
 # Project Report Collaboration Insights
 
