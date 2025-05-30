@@ -6679,11 +6679,11 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
       <td>Done</td>
     </tr>
     <tr>
-      <td>EP03</td>
-      <td>Monitoreo de estados de clima</td>
+      <td>HU21</td>
+      <td>Monitoreo de estados de planta..</td>
       <td>T06</td>
-      <td>Desarrollar dashboard de clima</td>
-      <td>Diseñar tarjetas para mostrar los datos del clima en una planta o plantación</td>
+      <td>Desarrollar dashboard de planta o plantacion</td>
+      <td>Diseñar tarjetas para mostrar los datos en una planta o plantación</td>
       <td>1</td>
       <td>Huilca Chipana, Gustavo</td>
       <td>InProcess</td>
