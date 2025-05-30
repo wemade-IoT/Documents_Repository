@@ -3673,6 +3673,10 @@ Backend:
 |---------------------|--------------------------------------------------|
 | IPlantServiceFacade        | Define un contrato para los servicios de dominio relacionados con plantas, que deben ser expuestos a servicios externos.            |
 | PlantServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+| ISensorServiceFacade        | Define un contrato para los servicios de dominio relacionados con sensores, que deben ser expuestos a servicios externos.            |
+| SensorServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+| IActuatorServiceFacade        | Define un contrato para los servicios de dominio relacionados con actuadores, que deben ser expuestos a servicios externos.            |
+| ActuatorServiceFacade  |  	Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
 
 
 
@@ -4618,10 +4622,59 @@ Mobile App:
 
 
 
-### 4.2.4. Bounded Context: Payment
+### 4.2.4. Bounded Context: Subscriptions And Payments
 
 Web App:
 - En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+
+#### State
+
+Para gestionar el flujo de cambio de estados al completar el pago de una orden para un determinado servicio, se optó por el uso del patron state que permite manejar un flujo de estados de manera dinámica.
+
+**State**
+Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
+
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+**CompleteSubscribeOrderState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de suscripción
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| order                  | Order   |
+
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+**CompleteSensorPaymentState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de sensores
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| order                  | Order   |
+
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+**CompleteActuatorPaymentState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de actuadores
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| order                  | Order   |
+
+| Método | Descripción |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+
+
+
+
 
 #### Request
 
@@ -4633,28 +4686,32 @@ Web App:
 | userId                | number      |
 | sensorId           | number      |
 | actuatorId           | number      |
-| createdAt            | string      |
-| completedAt          | string      |
 | subscriptionId       | number      |
+
+
+**UpdateOrderStateRequest**
+
+| Atributo | Tipo   |
+|----------|--------|
+| id       | number |
+| orderStateId| number |
 
 
 **SubscriptionRequest**
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| expirationDate       | string      |
 | subscriptionTypeId   |  number        |
 | subscriptionStateId |  number        |
 | userId               |  number        |
-| createdAt            |  string     |
 
 
-**UpdateSubscriptionStatusRequest**
+**UpdateSubscriptionStateRequest**
 
 | Atributo | Tipo   |
 |----------|--------|
 | id       | number |
-| subscriptionTypeId| number |
+| subscriptionStateId| number |
 
 
 
@@ -4721,29 +4778,57 @@ Mobile App:
 - En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
 
 
+#### State
 
-#### DTO
+Para gestionar el flujo de cambio de estados al completar el pago de una orden para un determinado servicio, se optó por el uso del patron state que permite manejar un flujo de estados de manera dinámica.
 
-**OrderRequestDto**
+**State**
+Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
+
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+**CompleteSubscribeOrderState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de suscripción
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| action                | string   |
-| userId                | int      |
-| sensorId           | int   |
-| actuatorId           | int      |
-| createdAt            | string      |
-| completedAt          | string      |
-| subscriptionId       | int      |
+| order                  | Order   |
 
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
-| Método             | Descripción     |
+**CompleteSensorPaymentState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de sensores
+
+| Atributo              | Tipo     |
 |-----------------------|----------|
-| toJson                    | Crea un objeto con los atributos de la clase OrderRequestDto    |
+| order                  | Order   |
+
+| Método | Descripción     |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+
+**CompleteActuatorPaymentState**
+
+Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de actuadores
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| order                  | Order   |
+
+| Método | Descripción |
+| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 
 
-**OrderResponseDto**
+#### DTO
+
+
+
+
+**OrderDto**
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
@@ -4760,37 +4845,14 @@ Mobile App:
 
 | Contructor             | Descripción     |
 |-----------------------|----------|
-| fromJson              | Crea una instancia de la clase OrderResponseDto en base a una respuesta del servidor    |
+| fromJson              | Crea una instancia de la clase OrderDto en base a una respuesta del servidor    |
+| toRequest                    | Crea un objeto con los atributos de la clase OrderDto para realizar una solicitud    |
 
 
 
-**SubscriptionRequestDto**
-
-| Atributo | Tipo   |
-|----------|--------|
-| expirationDate       | string      |
-| subscriptionTypeId   |  int        |
-| subscriptionStateId |  int        |
-| userId               |  int        |
-| createdAt            |  string     |
-| Método             | Descripción     |
-|-----------------------|----------|
-| toJson                    | Crea un objeto con los atributos de la clase SubscriptionRequestDto    |
 
 
-**UpdateSubscriptionStatusRequestDto**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id| int |
-| subscriptionTypeId | int |
-
-| Método             | Descripción     |
-|-----------------------|----------|
-| toJson                    | Crea un objeto con los atributos de la clase UpdateSubscriptionRequestStatusDto    |
-
-
-**SubscriptionResponseDto**
+**SubscriptionDto**
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
@@ -4804,7 +4866,8 @@ Mobile App:
 
 | Contructor             | Descripción     |
 |-----------------------|----------|
-| fromJson              | Crea una instancia de la clase SubscriptionResponseDto en base a una respuesta del servidor    |
+| fromJson              | Crea una instancia de la clase SubscriptioDto en base a una respuesta del servidor    |
+| toRequest                    | Crea un objeto con los atributos de la clase SubscriptionDto para realizar una solicitud    |
 
 
 
@@ -4819,19 +4882,14 @@ Backend:
 
 **OrderState**
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Subscription Component Diagram on Web App"/>
-
 | Atributo | Tipo   |
 |----------|--------|
 | Id       | Int    |
 | Type     | String |
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionSystem.png" alt="Subscription Component Diagram on API"/>
 
 **SubscriptionType**
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBoundedContextonMobileApp.png"
-alt="Subscriptiom Component Diagram on Mobile App"/>
 
 | Atributo | Tipo   |
 |----------|--------|
@@ -4929,7 +4987,16 @@ Representa una suscripción disponible en la aplicación.
 | UpdateSubscriptionStatusCommand      | Representa un comando para la actualización de estado de una suscripción                 |
 | SeedOrderStatesCommand      | Representa un comando para la inicialización de datos para los tipos de estados de una orden               |
 | SeedSubscriptionTypeCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
-| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción               |
+| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción       |
+
+#### Queries
+
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| GetOrdersByUserIdQuery     | Representa una clase de consulta para obtener todas las ordenes que realizo un usuario                 |
+| GetSubscriptionByUserIdQuery     | Representa una clase de consulta para obtener información relacionada a la suscripción de un usuario                 |
+
+
 
 
 ---
@@ -5100,10 +5167,14 @@ Backend:
 | Interface                         | Descripción |
 |------------------------------------|-------------|
 | `IExternalCustomerService`             | Contrato que maneja consultas sobre el servicio externo de usuarios. |
+| `IExternalSensorService`             | Contrato que maneja consultas sobre el servicio externo de sensores. |
+| `IExternalActuatorService`             | Contrato que maneja consultas sobre el servicio externo de actuadores. |
 
 | Clase                        | Descripción |
 |------------------------------------|-------------|
 | `ExternalCustomerService`             | Implementación del contrato definido para la interacción con el servicio externo de usuarios. |
+| `ExternalSensorService`             | Implementación del contrato definido para la interacción con el servicio externo de sensores. |
+| `ExternalActuatorService`             | Implementación del contrato definido para la interacción con el servicio externo de actuadores. |
 
 
 -
@@ -5171,7 +5242,7 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
 
 Backend:
 
@@ -5199,7 +5270,7 @@ Backend:
 <img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram on API"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/tactical-level-ddd/db-diagrams/payment-db-diagram.png" alt="Payment Database Design Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/payment-subscriptions-diagram.jpeg" alt="Payment Database Design Diagram"/>
 
 
 ### 4.2.5. Bounded Context: Identity and Access Management
