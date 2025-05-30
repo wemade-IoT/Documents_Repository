@@ -202,9 +202,10 @@
     </tr>
   </tbody>
 </table>
-</center>
+
 
 # Project Report Collaboration Insights
+
 
 Repositorios:
 
@@ -218,7 +219,6 @@ Front End Web App Repository: [Front end Repository](https://github.com/wemade-I
 
 Front End Web Application: [Front End Application](https://eco-guardian-frontend-backup-76h2.vercel.app/login)
 
-
 Usuario Github | Nombre |
 |-|-|
 SEBRH | Sebastian Ramirez Hoffmann
@@ -228,53 +228,60 @@ GustavoHuilca31 | Gustavo Huilca Chipana
 U202210138 | Manuel Sebastian Peña Rivera
 kuni2005 | Mathias Tsuneo Kunimoto Watanabe
 Nekolas777 | Nicolas Sebastian Esteban Garcia
-
+</center>
 
 ### TB1
 
-Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+<p>Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.</p>
 
-Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.
-
+<p>Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.</p>
+<center>
 <img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
-[Colaboraciones del repositorio]
+[*Colaboraciones del repositorio*]
 
 <img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
-[Registro de los commits donde se realizaron la mayor cantidad]
 
+[*Registro de los commits donde se realizaron la mayor cantidad*]
+</center>
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ### TP
 
-Para la entrega del **Trabajo Parcial (TP)** se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia, y como grupo nos dedicamos a mantener una frecuencia de *commits* y cambios proyectada a ser óptima a futuro.
+<p>Para la entrega del <strong>Trabajo Parcial (TP)</strong> se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia, y como grupo nos dedicamos a mantener una frecuencia de <strong>commits</strong> y cambios proyectada a ser óptima a futuro.</p>
 
-Se muestran evidencias de los *commits* realizados en la entrega del TP en el informe.
-
+<p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TP en el informe.</p>
+<center>
 <img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
-*Colaboraciones generales del repositorio*
+
+[*Colaboraciones generales del repositorio*]
 
 <img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
-*Registro de los commits generales donde se realizaron la mayor cantidad*
 
-En ambos casos se puede observar el incremento de modificaciones y revisiones en los días miércoles, y una cantidad mayor de cambios que commits. A continuación, se desglosa el trabajo realizado específicamente en la **landing page** y en la **aplicación web**:
+[*Registro de los commits generales donde se realizaron la mayor cantidad*]
+</center>
+<p>En ambos casos se puede observar el incremento de modificaciones y revisiones en los días miércoles, y una cantidad mayor de cambios que commits. A continuación, se desglosa el trabajo realizado específicamente en la <strong>landing page</strong> y en la <strong>aplicación web</strong>:</p>
 
 #### Landing Page
-
+<center>
 <img src="../assets/inisghts/tp/landing.png" alt="Colaboraciones Landing Page">  
-*Colaboraciones realizadas en el diseño y maquetación de la landing page*
 
-<img src="../assets/inisghts/tp/landing-commits.png" alt="Commits Landing Page">  
-*Commits asociados al desarrollo visual y estructural de la landing page*
+[*Colaboraciones realizadas en el diseño y maquetación de la landing page*]
+
+<img src="../assets/inisghts/tp/landing-commits.png" alt="Commits Landing Page">
+
+[*Commits asociados al desarrollo visual y estructural de la landing page*]
 
 #### Aplicación Web
 
 <img src="../assets/inisghts/tp/webapp-insights.jpeg" alt="Colaboraciones Webapp">  
-*Colaboraciones en el diseño y construcción de componentes funcionales de la aplicación web*
+
+[*Colaboraciones en el diseño y construcción de componentes funcionales de la aplicación web*]
 
 <img src="../assets/inisghts/tp/webapp-commits.jpeg" alt="Commits Webapp">  
-*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*
 
+[*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*]
+</center>
 
 ---
 
