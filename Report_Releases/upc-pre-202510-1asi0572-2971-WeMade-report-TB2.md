@@ -754,15 +754,14 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 ### 2.1.1. Análisis Competitivo
 
 **Competitive Analysis Landscape**
-
-| ¿Por qué llevar a cabo este análisis? |                                                                                                                           Nosotros                                                                                                                            |                                                                                                                                               Irritec                                                                                                                                                |                                                                                Xiaomi Mi Flora                                                                                 |                                                                                                                            Rachio                                                                                                                            |
-|:-------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|             **Overview**              |              EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura y luz. Envía alertas inmediatas y genera recomendaciones personalizadas. Se adapta tanto a hogares como a empresas agrícolas.               | Irritec ofrece un servicio de Automatizacion y control remoto en el regado industrial de cultivos, ofrecen un control de PH y conductividad eléctrica de manera remota. Adicionalmente tienen funcionalidades como recetas de "fertirrigacion" (Irrigacion con fertilizantes) que se pueden ajustar. | Xiaomi ofrece sensores para plantas que miden humedad del suelo, luz, fertilidad y temperatura. Se conectan vía Bluetooth a una app móvil para mostrar el estado de la planta. | Rachio es una empresa especializada en productos inteligentes para cultivos y jardinería, sus productos son controladores de riego y sensores de humedad, los cuales optimizan el uso del agua y mejoran el cuidado de las plantas a través de su app móvil. |
-|        **Ventaja Competitiva**        |                        Plataforma multiplataforma (web y móvil), sistema de recomendaciones basadas en datos, enfoque en experiencia de usuario, escalabilidad por planes, y orientación tanto al hobby como a la agricultura técnica.                        |              Empresa internacional que cuenta con una aplicación móvil y pagina web y se han diversificado al sector minero y domestico, ofrecen el servicio de "fertirrigacion" y otros métodos de regado como goteo o inyección. Pueden monitorear el PH y conductividad electrónica.              |                 Producto de bajo costo, fácil de usar, respaldado por una marca reconocida globalmente. Buen diseño y app intuitiva para usuarios domésticos.                  |                             Empresa posicionada en el rubro, cuenta con diversos dispositivos enfocados en la tecnología de riego inteligente, integración solida con dispositivos smart home, y optimización del uso del agua.                              |
-|         **Mercado Objetivo**          |                                               	Hogares, oficinas, pequeños agricultores y empresas del sector agrícola interesados en cuidar plantas, automatizar tareas y recibir sugerencias personalizadas.                                                |                                                                                   Ofrecen el sector de agricultura especificando: Campo abierto, invernadero y Huertos. Tambien el sector de Jardinería y Minería                                                                                    |                             Usuarios domésticos y aficionados al cuidado de plantas de interior que buscan un sensor simple para monitoreo básico.                             |                                                           Hogares, cultivos, parques, y jardines de usuarios interesados en la optimización del riego, control de humedad y estado de las plantas.                                                           |
-|        **Perfil de Marketing**        |                                                      Contenido educativo en redes sociales, campañas de concienciación ambiental, y alianzas con viveros y comunidades de jardinería/agricultura urbana.                                                      |                                                                                                     Cuentan con una Landing Page y una pagina de Facebook donde hacen publicaciones regularmente                                                                                                     |                    	Promocionado a través de tiendas online (Amazon, AliExpress), y posicionamiento mediante influencers de tecnología y hogar inteligente.                    |                                                            Rachio utiliza marketing digital a través de redes sociales y participación en eventos de la industria para promocionar sus productos.                                                            |
-|        **Perfil del Producto**        |                                                  	Sensores inteligentes que miden humedad, temperatura y luz, conectados a una plataforma que ofrece estadísticas, alertas y recomendaciones personalizadas.                                                  |                                                                                              Sensores de PH, diversos sistemas de irrigación incluyéndose cintas de irrigación, mangueras, goteros etc.                                                                                              |                         Sensor compacto que mide 4 variables y se conecta vía Bluetooth. No tiene alertas en tiempo real ni integración IoT avanzada.                          |                                                         Controladores de riego inteligentes, sensores de humedad, y sistemas para mejorar el cuidado de plantas en jardines, cultivos y exteriores.                                                          |
-|              **Precios**              | Modelo de pago con planes accesibles por número de plantas/áreas monitoreadas, . Opciones económicas para el hogar y versiones premium para uso agrícola. En el uso agrícola se hace una cotización dependiendo de la cantidad de sensores cubriendo un area. |                                                    Si bien no se menciona mas allá de las cotizaciones se espera de que se haga un presupuesto en base a el servicio especifico que se implementa y el uso de dispositivos necesarios en el area                                                     |                                                                 Alta relación calidad-precio para el usuario.                                                                  |                                                                                 Precios competitivos, con productos accesibles para el hogar y más avanzados para empresas.                                                                                  |
+| ¿Por qué llevar a cabo este análisis? | Nosotros                                                   | Irritec                                                      | Xiaomi Mi Flora                                           | Rachio                                                     |
+|:-------------------------------------:|:----------------------------------------------------------|:------------------------------------------------------------|:---------------------------------------------------------|:-----------------------------------------------------------|
+| **Overview**                         | EcoGuardian es una solución IoT que cuida plantas con sensores de humedad, temperatura y luz. Envía alertas y recomendaciones. Adaptado para hogares y empresas agrícolas. | Servicio de automatización y control remoto de riego industrial. Control de pH y conductividad remotos. Ofrece recetas de fertirrigación ajustables. | Sensores que miden humedad, luz, fertilidad y temperatura. Conexión Bluetooth a app móvil para monitoreo. | Productos inteligentes para riego y sensores de humedad que optimizan el uso del agua vía app móvil. |
+| **Ventaja Competitiva**              | Plataforma web y móvil, recomendaciones basadas en datos, enfoque UX, escalabilidad y soporte para hobby y agricultura técnica. | Empresa internacional con app móvil y web, diversificada en minería y doméstico, ofrece fertirrigación y otros métodos de riego. | Producto económico, fácil de usar, marca global reconocida. Buen diseño y app intuitiva para usuarios domésticos. | Empresa consolidada en tecnología de riego inteligente, integración con smart home y optimización del agua. |
+| **Mercado Objetivo**                 | Hogares, oficinas, pequeños agricultores y empresas agrícolas que buscan cuidado y automatización. | Agricultura (campo abierto, invernadero, huertos), jardinería y minería. | Usuarios domésticos y aficionados al cuidado básico de plantas de interior. | Hogares, cultivos, parques y jardines interesados en optimización de riego y control de humedad. |
+| **Perfil de Marketing**              | Contenido educativo en redes, campañas ambientales, alianzas con viveros y comunidades urbanas. | Landing page y página de Facebook con publicaciones regulares. | Promoción en tiendas online y mediante influencers de tecnología y hogar inteligente. | Marketing digital en redes sociales y eventos de la industria. |
+| **Perfil del Producto**              | Sensores inteligentes que miden humedad, temperatura y luz, conectados a plataforma con estadísticas y alertas. | Sensores de pH, sistemas de irrigación (cintas, mangueras, goteros). | Sensor compacto que mide 4 variables, conexión Bluetooth, sin alertas en tiempo real. | Controladores de riego inteligentes y sensores para jardines y cultivos. |
+| **Precios**                        | Planes accesibles según número de plantas, opciones económicas y versiones premium. Cotización según área en uso agrícola. | Cotización basada en servicio específico y dispositivos necesarios. | Alta relación calidad-precio para usuarios domésticos. | Precios competitivos, desde hogar hasta empresas avanzadas. |
 
 
 | **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | Irritec | Xiaomi Mi Flora | Rachio |
@@ -1175,20 +1174,17 @@ Los user personas nos sirven para poder identificar como serán los comportamien
 ### 2.3.2. User Task Matrix.
 
 El user task matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos.
-
-|                                             | Doméstico       | Doméstico      | Empresa         | Empresa        | Especialista    | Especialista   |
-|---------------------------------------------|-----------------|----------------|-----------------|----------------|-----------------|----------------|
-| **Necesidad / Función**                     | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** |
-| Ver estado actual de plantas/cultivos       | Alta            | Media          | Alta            | Alta           | Alta            | Alta           |
-| Recibir alertas sobre humedad, luz o acidez | Alta            | Alta           | Alta            | Alta           | Media           | Media          |
-| Acceder a recomendaciones de especialistas  | Alta            | Alta           | Media           | Media          | Alta            | Alta           |
-| Consultar historial de datos                | Media           | Baja           | Alta            | Alta           | Alta            | Alta           |
-| Optimizar riego según sensores              | Alta            | Alta           | Alta            | Alta           | Baja            | Baja           |
-| Configurar múltiples sensores               | Baja            | Baja           | Alta            | Media          | Alta            | Media          |
-| Medir impacto económico/productivo          | Baja            | Nula           | Alta            | Alta           | Media           | Media          |
-| Compartir información o reportes            | Media           | Baja           | Alta            | Media          | Alta            | Alta           |
-| Acceso desde app móvil                      | Alta            | Alta           | Media           | Media          | Media           | Media          |
-
+| Necesidad / Función                      | Doméstico Importancia | Doméstico Frecuencia | Empresa Importancia | Empresa Frecuencia | Especialista Importancia | Especialista Frecuencia |
+|-----------------------------------------|----------------------|---------------------|--------------------|-------------------|-------------------------|------------------------|
+| Ver estado actual de plantas/cultivos  | Alta                 | Media               | Alta               | Alta              | Alta                    | Alta                   |
+| Recibir alertas sobre humedad, luz o acidez | Alta             | Alta                | Alta               | Alta              | Media                   | Media                  |
+| Acceder a recomendaciones de especialistas | Alta              | Alta                | Media              | Media             | Alta                    | Alta                   |
+| Consultar historial de datos            | Media                | Baja                | Alta               | Alta              | Alta                    | Alta                   |
+| Optimizar riego según sensores          | Alta                 | Alta                | Alta               | Alta              | Baja                    | Baja                   |
+| Configurar múltiples sensores           | Baja                 | Baja                | Alta               | Media             | Alta                    | Media                  |
+| Medir impacto económico/productivo      | Baja                 | Nula                | Alta               | Alta              | Media                   | Media                  |
+| Compartir información o reportes        | Media                | Baja                | Alta               | Media             | Alta                    | Alta                   |
+| Acceso desde app móvil                   | Alta                 | Alta                | Media              | Media             | Media                   | Media                  |
 
 Con este user task matrix entendemos las actividades que realizan nuestros usuarios segmento y la importancia que estas acciones tienen.
 
@@ -2446,43 +2442,395 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 
 Link Trello: https://shorturl.at/OzBw1
 
-## User Stories en Orden
-
-| #Orden | User Story ID | Título                                    | Descripción                                                                                     | Story Points (1/2/3/5/8) |
-|--------|---------------|-------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------|
-| 1      | HU01          | Conseguir información de la empresa       | Como visitante del sitio web, quiero obtener más información sobre la empresa a cargo del producto. | 2                        |
-| 2      | HU02          | Conocer los medios oficiales de la empresa | Como visitante del sitio web, quiero conocer los medios oficiales de la empresa para mantenerme actualizado de las últimas noticias. | 2                        |
-| 3      | HU03          | Contactar a la empresa desde la sección Contáctanos | Como visitante del sitio web, quiero tener la posibilidad de contactar a la empresa para resolver dudas sobre la información del servicio. | 2                       |
-| 4      | HU04          | Conocer la misión y visión de la empresa | Como visitante del sitio web, quiero conocer la misión y visión de la empresa para comprender mejor sus valores y la proyección del producto. | 2                        |
-| 5      | HU05          | Ampliación de monitoreo de plantas        | Como usuario doméstico, quiero poder agregar más plantas a mi cuenta para poder monitorearlas de manera sencilla. | 2                        |
-| 6      | HU06          | Monitoreo de sensores adicionales         | Como usuario de negocio, quiero poder agregar más sensores a mi cuenta, dependiendo de la cantidad de área que debo cubrir. | 2                        |
-| 7      | HU07          | Descuento en el primer sensor            | Como usuario doméstico, quiero recibir un descuento en el primer sensor, para que el costo inicial de monitoreo sea más accesible. | 2                        |
-| 8      | HU08          | Instalación incluida en el plan          | Como usuario doméstico, quiero que la instalación de los sensores esté incluida en el precio del plan de suscripción para no tener costos adicionales. | 3                        |
-| 9      | HU09          | Instalación agregada al costo del servicio | Como usuario de negocio, quiero que la instalación de los sensores esté incluida en el costo total del servicio, basado en la cantidad de sensores y área, para no tener que pagar un cargo separado por la instalación. | 3                        |
-| 10     | TS01         | Integración de sensores IoT              | Como developer, quiero integrar sensores especializados que recojan datos de temperatura, humedad, y luz para el monitoreo de plantas. | 3                        |
-| 11     | TS02          | API para el monitoreo de plantas         | Como developer, quiero crear una API para que los datos de los sensores se puedan consultar y actualizar en tiempo real. | 3                        |
-| 12     | TS03          | API Autenticación JWT                    | Como developer, quiero implementar autenticación basada en JWT para garantizar que solo los usuarios autenticados accedan al sistema. | 5                        |
-| 13     | HU10         | Generación de reportes de consumo de recursos | Como developer, quiero generar reportes sobre el consumo de recursos (agua, luz) basado en los datos recolectados. | 5                        |
-| 14     | TS04          | Integración de pagos                     | Como developer, quiero integrar un sistema de pagos para procesar las transacciones de los usuarios de forma segura. | 3                        |
-| 15     | HU11          | Registro de Planta                       | Como usuario doméstico o de negocios, quiero registrar mis plantas para monitorear información especifica de ellas. | 5                        |
-| 16     | HU12          | Edición de Planta                        | Como usuario doméstico, quiero editar la información de mis plantas para poder cambiar el nombre o algún dato ingresado erróneamente. | 3                        |
-| 17     | HU13          | Eliminación de Planta                    | Como usuario doméstico, quiero eliminar mi planta para poder liberar espacio para otra. | 2                        |
-| 18     | HU14          | Registro de plantaciones empresarial     | Como usuario Empresarial, quiero registrar las plantaciones para poder tener información del cultivo. | 3                        |
-| 19     | HU15         | Recibir alertas sobre el estado de mis plantas | Como usuario doméstico, quiero recibir notificaciones automáticas ante cualquier cambio significativo en el estado de mis plantas, para poder monitorearlas y tomar acciones a tiempo que aseguren su buen cuidado. | 2                        |
-| 20     | HU16          | Activación de riego automático           | Como usuario empresarial, quiero que el sistema active el riego automáticamente cuando la humedad baje del umbral establecido, para optimizar el uso de agua y asegurar el crecimiento de las plantas. | 3                        |
-| 21     | H17          | Límites de riego configurables           | Como usuario empresarial, quiero establecer límites de riego configurables, para controlar el uso de agua y los costos operativos. | 3                        |
-| 22     | TS05          | API para el control de válvulas de riego | Como developer, quiero que el sistema controle las válvulas de riego mediante una API, para asegurar la activación y desactivación del riego en tiempo real. | 5                        |
-| 23     | HU18          | Integración del sensor de humedad del suelo | Como maker, quiero conectar y leer el sensor de humedad del suelo, para medir si la planta necesita agua. | 5                        |
-| 24     | HU19          | Activación automática de riego mediante relé | Como maker, quiero activar un relé según el valor del sensor de humedad, para automatizar el riego de plantas. | 5                        |
-| 25     | HU20          | Visualización de datos en el monitor serial | Como maker, quiero que el dispositivo muestre las lecturas en el Monitor Serial, para verificar su funcionamiento en tiempo real. | 3                        |
-| 26     | HU21          | Configuración de umbrales de humedad desde el firmware | Como maker, quiero establecer el umbral de humedad desde el código, para calibrar el sistema a distintos tipos de plantas. | 3                        |
-| 27     | HU22          | Alerta visual con LED en caso de condiciones críticas | Como maker, quiero encender un LED cuando se detecten condiciones críticas, para que el usuario reciba una alerta visual sin revisar la app. | 2                        |
-| 28     | HU23         | Simulación de datos vía UART (modo desarrollo) | Como maker, quiero simular datos a través de UART, para probar la integración sin tener sensores físicos. | 5                        |
-| 29     | HU24          | Activación de modo test desde consola serial | Como maker, quiero poder activar el modo test desde el monitor serial, para validar sensores sin ejecutar toda la lógica de riego. | 3                        |
-| 30     | HU25          | Mostrar mensaje de error si sensor no está conectado | Como maker, quiero recibir un mensaje de error en el Monitor Serial si el sensor de humedad no está conectado, para facilitar el diagnóstico del hardware. | 2                        |
-| 31    | HU26          | Solicitar recomendaciones a un especialista | Como usuario doméstico o de negocios, quiero tener la opción de solicitar recomendaciones a un especialista, para obtener orientación sobre el cuidado de mis plantas y asegurar su bienestar. | 2                        |
-| 32     | HU27          | Registrar recomendaciones                | Como especialista quiero registrar las recomendaciones dadas a los usuarios de la aplicación para que tengan una orientación sobre el cuidado de sus plantas. | 3                        |
-| 33     | HU28         | Visualizar planes de pago                | Como usuario, quiero poder visualizar los planes de pago disponibles, para elegir el que mejor se adapte a mis necesidades. | 2                        |
+<table>
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Epic EP01 - Información del producto -->
+    <tr>
+      <td>1</td>
+      <td>HU01</td>
+      <td>Visualizar información institucional de la startup</td>
+      <td>Como visitante web quiero acceder fácilmente a información sobre la startup para conocer quién está detrás del desarrollo y generar confianza.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>HU02</td>
+      <td>Conocer los medios oficiales de la startup</td>
+      <td>Como visitante web quiero conocer los medios oficiales de la startup para recibir actualizaciones y noticias.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>HU03</td>
+      <td>Ofrecer servicios de asesoría en cuidado de plantas</td>
+      <td>Como visitante especialista quiero ofrecer servicios de asesoría para trabajar con la startup.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>HU04</td>
+      <td>Visualizar beneficios del producto</td>
+      <td>Como visitante web quiero ver los beneficios del producto para entender cómo puede ayudarme.</td>
+      <td>3</td>
+    </tr>
+    <!-- Epic EP02 - Registro de plantas y plantaciones -->
+    <tr>
+      <td>5</td>
+      <td>HU05</td>
+      <td>Registro de planta en plataforma web</td>
+      <td>Como usuario doméstico web quiero registrar mis plantas para monitorearlas.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>HU06</td>
+      <td>Registro de planta en plataforma móvil</td>
+      <td>Como usuario doméstico móvil quiero registrar mis plantas para monitorearlas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>HU07</td>
+      <td>Registro de plantación en plataforma web</td>
+      <td>Como usuario empresarial web quiero registrar plantaciones para monitoreo y automatización.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>HU08</td>
+      <td>Registro de plantación en plataforma móvil</td>
+      <td>Como usuario empresarial móvil quiero registrar plantaciones para monitoreo y automatización.</td>
+      <td>3</td>
+    </tr>
+    <!-- Epic EP03 - Registro de cuenta -->
+    <tr>
+      <td>9</td>
+      <td>HU09</td>
+      <td>Registro de usuario doméstico</td>
+      <td>Como usuario doméstico web quiero registrarme para usar los servicios con plan doméstico.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>HU10</td>
+      <td>Registro de usuario empresarial</td>
+      <td>Como usuario empresarial web quiero registrarme para usar los servicios con plan empresarial.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP04 - Autenticación -->
+    <tr>
+      <td>11</td>
+      <td>HU11</td>
+      <td>Autenticación de usuario especialista web</td>
+      <td>Como especialista web quiero ingresar a mi cuenta para trabajar con EcoGuardian.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>HU12</td>
+      <td>Autenticación de usuario especialista móvil</td>
+      <td>Como especialista móvil quiero ingresar a mi cuenta para trabajar con EcoGuardian.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>HU13</td>
+      <td>Autenticación de usuario web</td>
+      <td>Como usuario web quiero ingresar a mi cuenta para usar los servicios.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>HU14</td>
+      <td>Autenticación de usuario móvil</td>
+      <td>Como usuario móvil quiero ingresar a mi cuenta para usar los servicios.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>TS01</td>
+      <td>Autenticación usando MFA</td>
+      <td>Como desarrollador quiero implementar MFA para asegurar la seguridad del sistema.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP05 - Seguimiento de orden -->
+    <tr>
+      <td>16</td>
+      <td>HU15</td>
+      <td>Agendar fecha de instalación planta</td>
+      <td>Como usuario doméstico quiero agendar la fecha de instalación de mi planta para continuar el proceso.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>HU16</td>
+      <td>Agendar fecha de instalación plantación</td>
+      <td>Como usuario empresarial quiero agendar la fecha de instalación de mi plantación para continuar el proceso.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>HU17</td>
+      <td>Agendar fecha instalación por especialista</td>
+      <td>Como usuario empresarial quiero que el especialista agende la instalación de mi plantación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>HU18</td>
+      <td>Realizar pago para continuar orden</td>
+      <td>Como usuario quiero realizar el pago para completar mi orden y habilitar monitoreo.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>HU19</td>
+      <td>Pago de suscripción</td>
+      <td>Como usuario doméstico quiero pagar para continuar con mi suscripción activa.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>HU43</td>
+      <td>Vista instalación para especialista móvil</td>
+      <td>Como especialista móvil quiero ver órdenes de instalación asignadas para actualizar el proceso.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>HU44</td>
+      <td>Actualizar estado de instalación especialista móvil</td>
+      <td>Como especialista móvil quiero actualizar el estado de instalación para informar avance.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>HU45</td>
+      <td>Visualización detalles de instalación especialista móvil</td>
+      <td>Como especialista móvil quiero ver detalles técnicos para realizar la instalación.</td>
+      <td>3</td>
+    </tr>
+    <!-- Epic EP06 - Monitoreo -->
+    <tr>
+      <td>24</td>
+      <td>HU20</td>
+      <td>Monitoreo de plantas web</td>
+      <td>Como usuario doméstico web quiero monitorear las estadísticas de mis plantas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>HU21</td>
+      <td>Monitoreo de plantaciones web</td>
+      <td>Como usuario empresarial web quiero monitorear las estadísticas de mis plantaciones.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>HU22</td>
+      <td>Monitoreo de plantaciones móvil</td>
+      <td>Como usuario empresarial móvil quiero monitorear las estadísticas en la app.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>HU23</td>
+      <td>Monitoreo de plantas móvil</td>
+      <td>Como usuario doméstico móvil quiero monitorear las estadísticas de mis plantas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>TS02</td>
+      <td>Registro y entrega de estadísticas API</td>
+      <td>Como desarrollador quiero que la API entregue datos estadísticos optimizados para el frontend.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP07 - Pagos -->
+    <tr>
+      <td>29</td>
+      <td>HU24</td>
+      <td>Cartera de pagos</td>
+      <td>Como usuario quiero tener medios variados para realizar pagos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>HU25</td>
+      <td>Historial de pagos</td>
+      <td>Como usuario quiero ver el historial de mis pagos para control y comprobantes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>TS03</td>
+      <td>Integración de Stripe para pagos</td>
+      <td>Como desarrollador quiero integrar Stripe para manejar pagos y transacciones.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP08 - Gestión de dispositivos IoT -->
+    <tr>
+      <td>32</td>
+      <td>HU26</td>
+      <td>Registro y gestión de dispositivos IoT</td>
+      <td>Como maker quiero registrar y gestionar dispositivos IoT para control y visibilidad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>HU27</td>
+      <td>Configuración de parámetros de dispositivos IoT</td>
+      <td>Como maker quiero configurar parámetros para optimizar la recolección de datos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>HU28</td>
+      <td>Reporte de mantenimiento de dispositivos IoT</td>
+      <td>Como maker quiero conocer el estado de dispositivos para mantenimiento.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>HU29</td>
+      <td>Vinculación de dispositivos IoT a Edge, FOG y sistema central</td>
+      <td>Como maker quiero vincular sensores y nodos para asegurar comunicación y datos.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP09 - Seguridad y Autenticación -->
+    <tr>
+      <td>36</td>
+      <td>TS04</td>
+      <td>Implementación de autenticación con JWT</td>
+      <td>Como desarrollador quiero implementar JWT para proteger sesiones y datos sensibles.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>TS05</td>
+      <td>Gestión segura de API Keys</td>
+      <td>Como desarrollador quiero gestionar las API Keys en variables de entorno para seguridad.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>TS06</td>
+      <td>Implementación de políticas de acceso y roles</td>
+      <td>Como administrador quiero controlar acceso y permisos según roles.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>TS07</td>
+      <td>Seguridad y validación en procesos de pago</td>
+      <td>Como desarrollador quiero validar pagos para evitar fraudes y proteger datos.</td>
+      <td>5</td>
+    </tr>
+    <!-- Epic EP10 - Proceso de Consultas -->
+    <tr>
+      <td>40</td>
+      <td>HU30</td>
+      <td>Registro de pregunta usuario doméstico/empresarial</td>
+      <td>Como usuario quiero registrar preguntas para recibir soporte especializado.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>HU31</td>
+      <td>Visualización y gestión de preguntas para especialista</td>
+      <td>Como especialista quiero ver y gestionar preguntas por estado para soporte.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>HU32</td>
+      <td>Responder pregunta y cambiar estado</td>
+      <td>Como especialista quiero responder preguntas y cerrar solicitudes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>HU33</td>
+      <td>Solicitar ayuda adicional en pregunta</td>
+      <td>Como especialista quiero solicitar información adicional para mejorar soporte.</td>
+      <td>3</td>
+    </tr>
+    <!-- Epic EP11 - Gestión de perfil -->
+    <tr>
+      <td>44</td>
+      <td>HU34</td>
+      <td>Edición de datos personales</td>
+      <td>Como usuario quiero editar mis datos personales para mantener mi perfil actualizado.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>HU35</td>
+      <td>Cambio de contraseña</td>
+      <td>Como usuario quiero cambiar mi contraseña para mantener la seguridad.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>HU36</td>
+      <td>Edición de planta</td>
+      <td>Como usuario quiero editar los datos de mis plantas para actualizar información.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>HU37</td>
+      <td>Eliminación de planta</td>
+      <td>Como usuario quiero eliminar plantas para gestionar sólo las activas.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>HU38</td>
+      <td>Edición de plantación</td>
+      <td>Como usuario empresarial quiero editar datos de mis plantaciones para actualizarlos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>HU39</td>
+      <td>Eliminación de plantación</td>
+      <td>Como usuario empresarial quiero eliminar plantaciones para mantener la información organizada.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>HU40</td>
+      <td>Edición de umbrales y parámetros con advertencias</td>
+      <td>Como usuario quiero editar umbrales de plantas y plantaciones con advertencias sobre valores riesgosos.</td>
+      <td>3</td>
+    </tr>
+    <!-- Epic EP13 - Gestión de notificaciones -->
+    <tr>
+      <td>51</td>
+      <td>HU41</td>
+      <td>Visualización de notificaciones en web y móvil</td>
+      <td>Como usuario quiero ver notificaciones para revisar alertas activas o recientes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>HU42</td>
+      <td>Recepción de notificaciones push en móvil</td>
+      <td>Como usuario móvil quiero recibir notificaciones push para estar informado en tiempo real.</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -6195,22 +6543,133 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | Peña Rivera Manuel Sebastian        | &nbsp;U202210138      | &nbsp;     | &nbsp;    | &nbsp;     | &nbsp;       | &nbsp;  | **L**      | C            | C      | **L**         |
 
 ### 6.2.1.3. Sprint Backlog 1.
+<table>
+  <thead>
+    <tr>
+      <th>User Story Id</th>
+      <th>User Story Title</th>
+      <th>Work-Item / Task Id</th>
+      <th>Work-Item / Task Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU01</td>
+      <td>Conseguir información de la empresa</td>
+      <td>T01</td>
+      <td>Diseñar sección "About Us"</td>
+      <td>Crear interfaz con misión, visión y datos de la empresa.</td>
+      <td>1</td>
+      <td>Luna Capuñay Italo D'alessandro</td>
+      <td>Done</td>
+    </tr>
+    <tr>  
+      <td>HU02</td>
+      <td>Conocer medios oficiales de la empresa</td>
+      <td>T02</td>
+      <td>Integrar enlaces a redes sociales en el footer</td>
+      <td>Agregar íconos de redes sociales en los footers</td>
+      <td>1</td>
+      <td>Ramirez Hoffmann Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>HU02</td>
+      <td>Conocer medios oficiales de la empresa</td>
+      <td>T03</td>
+      <td>Integrar enlaces a perfiles de GitHub</td>
+      <td>Integrar enlaces a perfiles de GitHub en la sección de About Us</td>
+      <td>1</td>
+      <td>Huilca Chipana, Gustavo</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>HU03</td>
+      <td>Contactar a la empresa</td>
+      <td>T04</td>
+      <td>Implementar formulario de contacto</td>
+      <td>Desarrollo de formulario</td>
+      <td>1</td>
+      <td>Esteban Garcia Nicolas Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>HU04</td>
+      <td>Informarse sobre beneficios del producto</td>
+      <td>T05</td>
+      <td>Crear sección de beneficios del producto</td>
+      <td>Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA).</td>
+      <td>1</td>
+      <td>Esteban Garcia Nicolas Sebastian</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Monitoreo de estados de clima</td>
+      <td>T06</td>
+      <td>Desarrollar dashboard de clima</td>
+      <td>Diseñar tarjetas para mostrar los datos del clima en una planta o plantación</td>
+      <td>1</td>
+      <td>Huilca Chipana, Gustavo</td>
+      <td>InProcess</td>
+    </tr>
+    <tr>
+      <td>HU10</td>
+      <td>Generación de reportes de consumo</td>
+      <td>T07</td>
+      <td>Implementar descarga de reportes en Excel</td>
+      <td>Integrar biblioteca para exportar datos</td>
+      <td>1</td>
+      <td>Esteban Garcia Nicolas Sebastian</td>
+      <td>InProcess</td>
+    </tr>
+    <tr>
+      <td>HU05</td>
+      <td>Registro de planta web</td>
+      <td>T08</td>
+      <td>Formulario de registro de plantas</td>
+      <td>Diseño de formulario con campos</td>
+      <td>1</td>
+      <td>Jave Diaz Mathias Alejandro</td>
+      <td>InProcess</td>
+    </tr>
+    <tr>
+      <td>HU36</td>
+      <td>Edición de planta</td>
+      <td>T09</td>
+      <td>Implementar edición de plantas</td>
+      <td>Funcionalidad para modificar datos de plantas existentes.</td>
+      <td>1</td>
+      <td>Luna Capuñay Italo D'alessandro</td>
+      <td>InProcess</td>
+    </tr>
+    <tr>
+      <td>HU37</td>
+      <td>Eliminación de planta</td>
+      <td>T10</td>
+      <td>Agregar funcionalidad de eliminación</td>
+      <td>Funcionalidad de confirmación y lógica para eliminar plantas.</td>
+      <td>1</td>
+      <td>Kunimoto Watanabe Mathias Tsuneo</td>
+      <td>InProcess</td>
+    </tr>
+    <tr>
+      <td>HU07</td>
+      <td>Registro de plantación web</td>
+      <td>T11</td>
+      <td>Formulario para registro de plantaciones</td>
+      <td>Campos específicos para áreas de cultivo empresarial</td>
+      <td>1</td>
+      <td>Peña Rivera Manuel Sebastian</td>
+      <td>InProcess</td>
+    </tr>
+  </tbody>
+</table>
 
-| Sprint #   | Sprint 1                                 |                  |                                                |                                                                                                      |                    |                                  |                                              |
-|:-----------|:-----------------------------------------|:-----------------|:-----------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------|:---------------------------------|:---------------------------------------------|
-| User Story |                                          | Work-Item / Task |                                                |                                                                                                      |                    |                                  |                                              |
-| Id         | Title                                    | Id               | Title                                          | Description                                                                                          | Estimation (Hours) | Assigned To                      | Status (To-do / InProcess / ToReview / Done) |
-| HU01       | Conseguir información de la empresa      | T01              | Diseñar sección "About Us"                     | Crear interfaz con misión, visión y datos de la empresa.                                             | 1                  | Luna Capuñay Italo D'alessandro  | Done                                         |
-| HU02       | Conocer medios oficiales de la empresa   | T02              | Integrar enlaces a redes sociales en el footer | Agregar íconos de redes sociales en los footers                                                      | 1                  | Ramirez Hoffmann Sebastian       | Done                                         |
-| HU02       | Conocer medios oficiales de la empresa   | T03              | Integrar enlaces a perfiles de GitHub          | Integrar enlaces a perfiles de GitHub en la sección de About Us                                      | 1                  | Huilca Chipana, Gustavo          | Done                                         |
-| HU03       | Contactar a la empresa                   | T03              | Implementar formulario de contacto             | Desarrollo de formulario                                                                             | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
-| HU04       | Informarse sobre beneficios del producto | T04              | Crear sección de beneficios del producto       | Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA). | 1                  | Esteban Garcia Nicolas Sebastian | Done                                         |
-| EP03       | Monitoreo de estados de clima            | T05              | Desarrollar dashboard de clima                 | Diseñar tarjetas para mostrar los datos del clima en una planta o plantación                         | 1                  | Huilca Chipana, Gustavo          | In-Process                                   |
-| HU10       | Generación de reportes de consumo        | T06              | Implementar descarga de reportes en Excel      | Integrar biblioteca para exportar datos                                                                | 1                  | Esteban Garcia Nicolas Sebastian | In-Process                                   |
-| HU11       | Registro de planta                       | T08              | Formulario de registro de plantas              | Diseño de formulario con campos                                                                      | 1                  | Jave Diaz Mathias Alejandro      | In-Process                                   |
-| HU12       | Edición de planta                        | T09              | Implementar edición de plantas                 | Funcionalidad para modificar datos de plantas existentes.                                            | 1                  | Luna Capuñay Italo D'alessandro  | In-Process                                   |
-| HU13       | Eliminación de planta                    | T10              | Agregar funcionalidad de eliminación           | Funcionalidad de confirmación y lógica para eliminar plantas.                                        | 1                  | Kunimoto Watanabe Mathias Tsuneo | In-Process                                   |
-| HU14       | Registro de plantaciones empresarial     | T11              | Formulario para registro de plantaciones       | Campos específicos para áreas de cultivo empresarial                                                 | 1                  | Peña Rivera Manuel Sebastian     | In-Process                                   |
 
 ### 6.2.1.4. Development Evidence for Sprint Review.
 
@@ -6312,10 +6771,13 @@ Se muestran los deployments para la app web y la landing page, en esta ocacion s
 Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page
 
 En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.
+
 <img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence" width="400"/>
 <img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence" width="400"/>
 
+
 Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.
+
 <img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence" width="400"/>
 <img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence" width="400"/>
 
@@ -6343,10 +6805,6 @@ Como recomendaciones creemos que una mejora iterativa es necesaria para realment
 
 
 # Anexos
-
-datos, gráficos, imágenes, esquemas, mapas de otros autores
----
-
 
 
 [Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
