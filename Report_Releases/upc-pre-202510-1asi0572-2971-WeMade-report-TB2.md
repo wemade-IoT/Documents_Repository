@@ -863,10 +863,10 @@ Distrito: Santiago de Surco, Lima
 <br>
 Timing: 0:00
 <br>
-
+<center>
 <img src="../assets/images-interviews/domestico/interview1.jpeg"
 alt="Entrevista 1 Segmento Doméstico" width="500"/>
-
+</center>
 Andrea es una ingeniera de software de profesión con 20 años de edad con pasión por el cuidado de sus plantas como hobby.
 En su experiencia personal nos menciona que al enfocarse en sus actividades diarias en ocasiones descuida el cuidado de sus plantas. Aunque les dedica entre 2 y 3 horas a la semana, considera que este tiempo no siempre es suficiente, lo que en ocasiones provoca cierto descuido en su mantenimiento. También nos menciona que actualmente consulta a especialistas en el tema para saber como gestionar el mantenimiento de sus plantas. Asimismo, nos menciona que utiliza google calendario como herramienta para saber en qué ocasiones debe darles mantenimiento. Por otro lado, comentó el interés en una solución que le permita saber el estado de sus plantas mediante el uso de alertas personalizadas. Finalmente, menciona que le gustaría disponer de un calendario donde pueda gestionar las actividades que debe realizar en la semana para el correcto mantenimiento de sus plantas.
 
@@ -884,9 +884,10 @@ Distrito: Trujillo, La libertad
 <br>
 Timing: 4:31
 <br>
+<center>
 <img src="../assets/images-interviews/domestico/interview-domestico-2.png"
 alt="Entrevista 2 Segmento Doméstico" width="500"/>
-
+</center>
 La señora Paquita es jubilada y como hobby cuida de su helecho, cuenta con 71 años de edad y reside en la provincia de Trujillo.
 En la entrevista se nos comenta como sus principales dificultades resultan ser el clima en el cuidado de sus plantas,
 cuida de estas mismas de manera inter diaria y no cuenta con ningún dispositivo o herramienta para el cuidado de sus plantas, 
@@ -908,10 +909,10 @@ Distrito: Jesús María, Lima
 <br>
 Timing: 8:49
 <br>
-
+<center>
 <img src="../assets/images-interviews/domestico/interview-domestico-3.png"
 alt="Entrevista 3 Segmento Doméstico" width="500"/>
-
+</center>
 Sergio es un estudiante de Ingeniería de Software con una pasión por el cuidado de sus plantas como hobby.
 Nos comenta que a veces le resulta difícil coordinar los tiempos de riego y exposición a la luz. Semanalmente, le dedica entre 2 y 3 horas al monitoreo de sus plantas. Actualmente, utiliza dispositivos básicos como un termómetro y un medidor de humedad.
 Reconoce que una solución tecnológica sería muy útil, ya que ha perdido algunas plantas por falta de seguimiento. Además, está interesado en una solución que sea fácil de usar y económicamente accesible.
@@ -935,9 +936,9 @@ Distritos: Carmen Alto, Ayacucho
 <br>
 Timing: 12:13
 <br>
-
+<center>
 <img src="../assets/images-interviews/negocios/interview-1.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
-
+</center>
 El señor Julio Chipana Barrientos es un ingeniero agrónomo con 48 años de edad, actualmente trabaja como docente en la ciudad de Ayacucho. 
 En su experiencia laboral nos menciona que las herramientas que utiliza para monitorear sus cultivos son principalmente aplicaciones móviles que les permiten
 registrar datos de campo de sus cultivos como las condiciones en las que se desarrolla la etapa fenológica de la planta, así como sensores
@@ -966,8 +967,9 @@ Distritos: La Victoria, Chiclayo
 <br>
 Timing: 20:10
 <br>
-
+<center>
 <img src="../assets/images-interviews/negocios/interview-2.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
+</center>
 
 Alonso Chuctaya, productor agrícola de 40 años en Chiclayo, es gerente de una empresa familiar que cultiva papa nativa y quinua orgánica. Actualmente, monitorea sus cultivos con Excel, cuadernos de campo y sensores de humedad, aunque reconoce limitaciones en las apps que usa. Sus principales desafíos son el clima variable, el control de insumos y la falta de personal capacitado. Considera clave la adopción de nuevas tecnologías para mejorar la eficiencia. Le interesa una plataforma que centralice datos de clima, riego y plagas, con alertas automáticas y registro de insumos. Prioriza datos como estado del suelo, clima y rendimiento por cultivo. Estaría dispuesto a invertir en tecnología si es confiable, fácil de usar y ofrece ahorro de tiempo, recursos y mejor planificación.
 
@@ -978,9 +980,9 @@ Alonso Chuctaya, productor agrícola de 40 años en Chiclayo, es gerente de una 
 **Device:** Laptop Toshiba  <br>
 **Distrito:** Miraflores, Lima  <br>
 **Timing:** 25:02  <br>
-
+<center>
 <img src="../assets/images-interviews/negocios/interview-3.png" alt="Entrevista 1 Segmento Negocios" width="500"/>
-
+</center>
 Alvaro Jimenez, Gestor del sector Agrario, se dedica al manejo y supervisión de cultivos, aunque actualmente utiliza herramientas manuales como hojas de cálculo y registros en papel para hacer el seguimiento de sus cultivos. No cuenta con una herramienta centralizada que le permita gestionar de manera eficiente el riego, la temperatura y la humedad de sus cultivos. Uno de los principales desafíos que enfrenta es la **gestión del riego**, ya que no siempre sabe cuándo se necesita agua en cada parte del campo, lo que causa problemas de sobre-riego o falta de riego. Además, enfrenta dificultades con la **prevención de plagas** y el **monitoreo del clima**, lo que afecta la calidad de los cultivos.
 
 Alvaro considera que la **adopción de nuevas tecnologías** es crucial para optimizar los procesos, reducir costos y mejorar la calidad de los cultivos. A pesar de sus dudas sobre la inversión inicial y la adaptación a las nuevas tecnologías, está dispuesto a explorar plataformas que le ayuden a gestionar todos los aspectos de sus cultivos. Un sistema que le permita tener un **panorama completo** sobre el riego, las enfermedades, las plagas y el clima sería invaluable.
@@ -1018,9 +1020,9 @@ Distritos: San Borja, Lima
 <br>
 Timing: 34:55
 <br>
-
+<center>
 <img src="../assets/images-interviews/specialist/entrevista-segmento3.png" alt="Entrevista 1 Segmento Especialista" width="500"/>
-
+</center>
 Luis nos comenta en la entrevista respecto a la importancia en la búsqueda de cambios en la planta, ya sean hongos, insectos o cambios en el color, ya que ayudan a saber qué puede estar sucediéndole a la planta. Se le plantea un dashboard con información le ayudaría a saber más de la planta y le facilitará a realizar diagnósticos en base a los cambios aunque en su opinion menciona que una visualización de la planta siempre mejora la efectividad. Él comenta que un diagnóstico empresarial tomaría más tiempo. Menciona que una tarifa por subscripción se ve más prometedora. Menciona que las capacitaciones que se deberían realizar para un perfil como el suyo es necesario que la interfaz sea intuitiva para entender bien, comenta que quisiera un inicio donde pueda ver sus plantas. Comenta que realizar una respuesta fácil es importante para él y sería una razón para compartir la solución propuesta.
 
 
@@ -1038,16 +1040,16 @@ Distritos: Jesus Maria, Lima
 <br>
 Timing: 46:04
 <br>
-
+<center>
 <img src="../assets/images-interviews/specialist/EntrevistaSegmento3_Esau.png" alt="Entrevista 2 Segmento Especialista" width="500"/>
-
+</center>
 Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de la informacion adicional para el diagnosito de plantas, principalmente mencionando como en un area hipoteticamente laboral siente que datos como la humedad, iluminacion e incluso la temperatura en el ambiente puede afectar significativamente en la efficiencia de recomendacion. Al ser un estudiante universitario no ha tenido la experiencia previa de laborar como un especialista en agricultura o el cuidado de plantas, pero cuenta con vastos años de experiencia diagnosticando las necesidades de distintas plantas. Menciona que como medio de pago preferiria un salario por hora mas que un modelo de subscripcion o por cantidad de consultas. Asimismo se rescata la frase de "Facilitar el trabajo" para hacer alusion a la esperanza de que con la data que ofrezcamos el diagnostico sea mas facil de realizar. Finalmente comenta que entre un contexto de usuarios domesticos y empresariales siente que tiene mas problema con el domestico al esperar que la mayoria tenga conocimientos escasos o basicos respecto a el cuidado de plantas lo que puede resultar en preguntas innecesarias.
 
 ### 2.2.3. Análisis de entrevistas.
 
 
 **Segmento 1: (Domestico):**
-
+<center>
 Estadísticas y Aspectos comunes:
 Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
 
@@ -1060,7 +1062,7 @@ Todos los participantes de la encuesta cuentan con conocimientos básicos - inte
 100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
 
 <img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
-
+</center>
 Necesidades comunes:
 
 - Calendario personalizado para el cuidado de plantas.
@@ -1070,30 +1072,36 @@ Necesidades comunes:
 - Monitoreo en tiempo real de condiciones como luz y humedad.
 
 - Recomendaciones personalizadas para el cuidado de plantas.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
+</center>
 
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+</center>
 
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
+</center>
 
 - Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
+</center>
 
 Características Subjetivas:
 - Motivaciones: Pasión por el cuidado de plantas como hobby.
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
+</center>
 
 **Segmento 2: (Negocios)**
+<center>
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
 
@@ -1102,33 +1110,39 @@ Estadísticas y Aspectos comunes:
 33% comenta una dificultad con pestes.
 
 <img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
-
+</center>
 
 Desafíos comunes:
 - Clima variable que afecta los cultivos.
 - Falta de personal capacitado.
 - Necesidad de centralizar datos de clima, riego y plagas.
 - Interés en tecnologías que mejoren la eficiencia y reduzcan costos
-
+<center>
 <img src="../assets/images-interviews/negocios/graphic-data/3_desafios.png" alt="Cantidad de entrevistados según desafíos" width="500"/>
+</center>
 
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung Galaxy) y laptops (Lenovo, Asus, Toshiba).
-
+<center>
 <img src="../assets/images-interviews/negocios/graphic-data/4_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+</center>
 
 - Tecnologías adoptadas: Sensores de humedad, drones para control de plagas, aplicaciones móviles para registro de datos.
-
+<center>
 <img src="../assets/images-interviews/negocios/graphic-data/5_tecnologias-adoptadas.png" alt="Cantidad de entrevistados según tecnologías" width="500"/>
+</center>
 
 Características Subjetivas:
 - Motivaciones: Mejorar la productividad y eficiencia en la gestión agrícola.
 - Intereses: Plataformas que ofrezcan monitoreo en tiempo real, alertas sobre plagas y condiciones del suelo, y control remoto del riego.
 - Barreras: Costo de inversión y calidad de la información proporcionada por las plataformas.
-
+<center>
 <img src="../assets/images-interviews/negocios/graphic-data/6_caracteristicas-subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
+</center>
 
 **Segmento 3: (Especialistas)**
+
+<center>
 Estadísticas y Aspectos comunes:
 100% de los participantes piensa que la data adicional ayuda en la eficiencia de las recomendaciones.
 Ambos entrevistados creen que una aplicación que les dé información puede ser una herramienta llamativa.
@@ -1136,29 +1150,31 @@ Ambos entrevistados comentan que los datos visuales de la planta ayuda mucho al 
 50% piensa que una capacitación básica ayudaría mucho.
 
 <img src="../assets/images-interviews/specialist/graphic-data/1_aspectos-comunes.png" alt="Cantidad de entrevistados según data adicional" width="500"/>
+</center>
 
 Necesidades comunes:
 - Dashboard con información detallada sobre las plantas.
 - Visualización de datos como humedad, iluminación y temperatura.
 - Interfaz intuitiva para facilitar el diagnóstico.
-
+<center>
 <img src="../assets/images-interviews/specialist/graphic-data/2_necesidades.png" alt="Cantidad de entrevistados según necesidades comunes" width="500"/>
+</center>
 
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos iPhone y computadoras Mac.
-
-<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
-
 - Preferencias de pago: Tarifa por suscripción o salario por hora, dependiendo del contexto.
+<center>
+<img src="../assets/images-interviews/specialist/graphic-data/3_dispositivos.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+</center>
 
 Características Subjetivas:
 - Motivaciones: Facilitar el diagnóstico y cuidado de plantas mediante el acceso a información detallada y visual.
 - Intereses: Interfaz intuitiva que permita una fácil navegación y comprensión de los datos.
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
-
+<center>
 <img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
 
-
+</center>
 
 ## 2.3. Needfinding.
 
