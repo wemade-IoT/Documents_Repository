@@ -1,58 +1,176 @@
-@startuml 
-left to right direction
-skinparam packageStyle rectangle
-skinparam classAttributeIconSize 0
+@startuml
 
-package "Domain Layer" {
-    class Invoice{
-        +Id:int,
-        +Amount:double,
-        +CreatedAt:DateTime,
-        +UserId:int,
-        +InvoiceTypeId:int
-        +Invoice()
-        +Invoice(command:CreateInvoiceCommand)
-    }
-
-    class InvoiceType{
-        +Id:int,
-        +Type:string
-        +InvoiceType(type:InvoiceTypes)
-    }
-
-    enum InvoiceTypes{
-        Ruc,
-        Normal
-    }
-
-    class CreateInvoiceCommand{}
-    class SeedInvoiceTypesCommand{}
-
-    interface IInvoiceCommandService{
-        +Handle(command:CreateInvoiceCommand):void
-    }
-
-    interface IInvoiceTypeCommandService{
-        +Handle(command:SeedInvoiceTypesCommand):void
-    }
-
-    interface IInvoiceRepository{
-
-    }
-
-    interface IInvoiceTypeRepository{
-        +IsInvoiceTypeExists(type:InvoiceTypes):bool
-    }
-
-    InvoiceType --> InvoiceTypes
-
-    IInvoiceRepository -[dotted]-> Invoice
-    IInvoiceTypeRepository -[dotted]-> InvoiceType
-    Invoice --> CreateInvoiceCommand
-
-    IInvoiceCommandService --> CreateInvoiceCommand
-    IInvoiceTypeCommandService --> SeedInvoiceTypesCommand
+interface IOrderRepository {
+  +FindOrdersByUserId(userId:int): List<Order>
 }
+
+interface ISubscriptionRepository {
+  +FindSubscriptionByUserId(userId:int): Subscription
+}
+
+interface IOrderCommandService {
+  +Handle(command: CreateOrderCommand)
+  +Handle(command: UpdateOrderStateCommand)
+}
+
+interface ISubscriptionCommandService {
+   +Handle(command: CreateSubscriptionCommand)
+  +Handle(command: UpdateSubscriptionStateCommand)
+}
+
+interface IOrderQueryService {
+   +Handle(query: GetOrdersByUserIdQuery) : List<Order>
+}
+
+interface ISubscriptionQueryService {
+  +Handle(query: GetSubscriptionByUserIdQuery) : Subscription
+}
+
+
+class Order {
+  + Id : int
+  + Action : string
+  + UserId : int
+  + SensorId : int
+  + ActuatorId : int
+  + CreatedAt : DateTime
+  + CompletedAt : DateTime
+  + StateId : int
+  + SubscriptionId : int
+  +Order()
+  +Order(command:CreateOrderCommand)
+  +UpdateOrderState(stateId:int):void
+}
+
+class Subscription {
+   + Id : int
+  + CreatedAt : DateTime
+  + ExpirationDate : DateTime
+  + SubscriptionTypeId : int
+  + SubscriptionStateId : int
+  + UserId : int
+  + Subscription()
+  + Subscription (command:CreateSubscriptionCommand)
+  + UpdateSubscriptionState(stateId:int): void
+}
+
+class GetOrdersByUserIdQuery{
+
+}
+
+class GetSubscriptionByUserIdQuery {
+
+}
+
+class CreateOrderCommand {
+
+}
+
+class UpdteOrderStateCommand {
+
+}
+
+class CreateSubscriptionCommand {
+
+}
+
+class UpdateSubscriptionStateCommand {
+}
+
+class OrderState {
+  +Id:int
+  +Type:string
+  +OrderState()
+  +OrderState(type:string)
+}
+
+enum OrderStates {
+  ToComplete
+  Completed
+}
+
+class SeedOrderStatesCommand {
+
+}
+
+class SubscriptionState {
+  +Id:int
+  +Type:string
+  +SubscriptionState()
+  +SubscriptionState(type:string)
+}
+
+enum SubscriptionStates {
+ Active
+ Inactive
+}
+
+class SeedSubscriptionStatesCommand {
+
+}
+
+
+class SubscriptionType {
+  +Id:int
+  +Type:string
+  +SubscriptionType()
+  +SubscriptionType(type:string)
+}
+
+enum SubscriptionTypes{
+  Basic,
+  Domestic,
+  Business
+}
+
+class SeedSubscriptionTypeCommand {
+
+}
+
+interface IOrderStateCommandService {
+  +Handle(command:SeedOrderStatesCommand)
+}
+
+interface ISubscriptionTypeCommandService{
+  +Handle(command:SeedSubscriptionTypeCommand)
+}
+
+interface ISubscriptionStateComandService {
+  +Handle(command:SeedSubscriptionStatesCommand)
+}
+
+
+interface ISubscriptionStateRepository {
+   +IsStateExists(type:string):bool
+}
+
+
+interface IOrderStateRepository{
+  +IsStateExists(type:string):bool
+
+}
+
+interface ISubscriptionTypeRepository{
+  +IsTypeExists(type:string):bool
+}
+
+IOrderStateRepository --> OrderState
+ISubscriptionTypeRepository --> SubscriptionType
+ISubscriptionStateRepository --> SubscriptionState
+OrderState *-- "1" OrderStates
+SubscriptionType *-- "1" SubscriptionTypes
+SubscriptionState *-- "1"  SubscriptionStates
+IOrderStateCommandService -- SeedOrderStatesCommand
+ISubscriptionStateComandService -- SeedSubscriptionStatesCommand
+ISubscriptionTypeCommandService -- SeedSubscriptionTypeCommand
+IOrderRepository --> Order
+ISubscriptionRepository --> Subscription
+IOrderCommandService -- CreateOrderCommand
+IOrderCommandService -- UpdteOrderStateCommand
+ISubscriptionCommandService -- CreateSubscriptionCommand
+ISubscriptionCommandService -- UpdateSubscriptionStateCommand
+IOrderQueryService -- GetOrdersByUserIdQuery
+ISubscriptionQueryService -- GetSubscriptionByUserIdQuery
 
 
 @enduml

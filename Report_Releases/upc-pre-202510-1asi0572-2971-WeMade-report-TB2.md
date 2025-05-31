@@ -4644,7 +4644,9 @@ Para gestionar el flujo de cambio de estados al completar el pago de una orden p
 **State**
 Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
 
+
 | Método | Descripción     |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 **CompleteSubscribeOrderState**
@@ -4667,6 +4669,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | order                  | Order   |
 
 | Método | Descripción     |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 **CompleteActuatorPaymentState**
@@ -4795,6 +4798,7 @@ Para gestionar el flujo de cambio de estados al completar el pago de una orden p
 Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
 
 | Método | Descripción     |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 **CompleteSubscribeOrderState**
@@ -4993,10 +4997,10 @@ Representa una suscripción disponible en la aplicación.
 | CreateOrderCommand     | Representa un comando para la creación de una nueva orden                 |
 | UpdateOrderStateCommand      | Representa un comando para la actualización de estado de una orden                 |
 | CreateSubscriptionCommand     | Representa un comando para la creación de una nueva suscripción                 |
-| UpdateSubscriptionStatusCommand      | Representa un comando para la actualización de estado de una suscripción                 |
+| UpdateSubscriptionStateCommand      | Representa un comando para la actualización de estado de una suscripción                 |
 | SeedOrderStatesCommand      | Representa un comando para la inicialización de datos para los tipos de estados de una orden               |
-| SeedSubscriptionTypeCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
-| SeedSubscriptionStateCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción       |
+| SeedSubscriptionTypesCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
+| SeedSubscriptionStatesCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción       |
 
 #### Queries
 
@@ -5276,7 +5280,7 @@ Mobile App:
 <img src="../assets/class-diagrams/paymentMobile.png" alt="Payment class diagram on Mobile App"/>
 
 Backend:
-<img src="../assets/class-diagrams/domain-layer-diagram-payments.jpeg" alt="Payment class diagram on API"/>
+<img src="../assets/class-diagrams/domain-layer-payment-subscription.png" alt="Payment class diagram on API"/>
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-subscriptions-diagram.jpeg" alt="Payment Database Design Diagram"/>
