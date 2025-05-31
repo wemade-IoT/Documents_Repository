@@ -2973,6 +2973,21 @@ El sistema de Subscription gestiona el acceso del usuario a planes de suscripci�
 **Descripción:**
 El sistema IAM gestiona la identidad, autenticación y autorización de usuarios, permitiendo la creación de cuentas y su vinculación con planes válidos de forma segura.
 
+**- Bounded Canvas Service Design and Planning**
+<img src="../assets/bounded-canvas/service-design-bc-canvas.jpg" alt="Bounded Canvas Service Design"/>
+
+**Descripción:**
+El sistema de Service Design permite a los usuarios gestionar órdenes de instalación de sensores, facilitando la planificación y ejecución del servicio de manera eficiente.
+
+**- Bounded Canvas Asset and Resource Management**
+<img src="../assets/bounded-canvas/asset-resource-bc-canvas.jpg" alt="Bounded Canvas Asset"/>
+
+**Descripción:**
+El sistema de Asset and Resource Management gestiona los recursos y activos del sistema, incluyendo sensores y actuadores, asegurando su disponibilidad y correcto funcionamiento.
+
+**- Bounded Canvas Profiles and Preferences**
+<img src="../assets/bo/profiles-preferences-bc-canvas.jpg" alt="Bounded Canvas Profiles"/>
+
 
 ### 4.1.2. Context Mapping.
 
