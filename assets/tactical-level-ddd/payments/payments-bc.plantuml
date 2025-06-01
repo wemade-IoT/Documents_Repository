@@ -9,13 +9,13 @@ interface ISubscriptionRepository {
 }
 
 interface IOrderCommandService {
-  +Handle(command: CreateOrderCommand)
-  +Handle(command: UpdateOrderStateCommand)
+  +Handle(command: CreateOrderCommand) : bool
+  +Handle(command: UpdateOrderStateCommand) : bool
 }
 
 interface ISubscriptionCommandService {
-   +Handle(command: CreateSubscriptionCommand)
-  +Handle(command: UpdateSubscriptionStateCommand)
+   +Handle(command: CreateSubscriptionCommand) :bool
+  +Handle(command: UpdateSubscriptionStateCommand) : bool
 }
 
 interface IOrderQueryService {
@@ -39,7 +39,7 @@ class Order {
   + SubscriptionId : int
   +Order()
   +Order(command:CreateOrderCommand)
-  +UpdateOrderState(stateId:int):void
+  +UpdateOrderState(command:UpdateOrderStateCommand):void
 }
 
 class Subscription {
@@ -51,7 +51,7 @@ class Subscription {
   + UserId : int
   + Subscription()
   + Subscription (command:CreateSubscriptionCommand)
-  + UpdateSubscriptionState(stateId:int): void
+  + UpdateSubscriptionState(command: UpdateSubscriptionStateCommand): void
 }
 
 class GetOrdersByUserIdQuery{
@@ -128,15 +128,15 @@ class SeedSubscriptionTypeCommand {
 }
 
 interface IOrderStateCommandService {
-  +Handle(command:SeedOrderStatesCommand)
+  +Handle(command:SeedOrderStatesCommand) :void
 }
 
 interface ISubscriptionTypeCommandService{
-  +Handle(command:SeedSubscriptionTypeCommand)
+  +Handle(command:SeedSubscriptionTypeCommand) :void
 }
 
 interface ISubscriptionStateComandService {
-  +Handle(command:SeedSubscriptionStatesCommand)
+  +Handle(command:SeedSubscriptionStatesCommand) :void
 }
 
 
@@ -154,6 +154,10 @@ interface ISubscriptionTypeRepository{
   +IsTypeExists(type:string):bool
 }
 
+Order -- CreateOrderCommand
+
+Subscription -- CreateSubscriptionCommand
+Subscription -- UpdateSubscriptionStateCommand
 IOrderStateRepository --> OrderState
 ISubscriptionTypeRepository --> SubscriptionType
 ISubscriptionStateRepository --> SubscriptionState

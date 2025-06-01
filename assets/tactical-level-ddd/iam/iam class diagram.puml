@@ -1,79 +1,64 @@
 @startuml
 
-class User {
-  +Id: int
-  +Email: String
-  +Password: String
-  +Name: String
-  +Address: String
-  +RoleId: int
-  +SubscriptionId: int
-  +User()
-  +User(command: SignUpCommand)
-  +SignIn(command: SignInCommand)
-}
+class SignInCommand {
 
-class Role {
-  +Id: int
-  +Name: String
-  +Role()
-}
-
-interface IUserRepository {
-  +FindUserByIdAsync(userId: int): User
-  +FindUserByEmailAsync(email: String): User
-}
-
-interface IRoleRepository {
-  +FindRoleByIdAsync(roleId: int): Role
-}
-
-interface IUserCommandService {
-  +Handle(command: SignUpCommand): User
-  +Handle(command: SignInCommand): User
-}
-
-interface IUserQueryService {
-  +Handle(query: GetUserByIdQuery): User
-  +Handle(query: GetUserByEmailQuery): User
 }
 
 class SignUpCommand {
-  +Email: String
-  +Password: String
-  +Name: String
-  +Address: String
-  +RoleId: int
-  +SubscriptionId: int
+
 }
 
-class SignInCommand {
-  +Email: String
-  +Password: String
+class SeedRolesCommand {
+
 }
 
-class GetUserByIdQuery {
-  +UserId: int
+class User {
+   +Id:int
+   +Email:string
+   +Password:string
+   +RoleId:int
+   +User()
+   +User(command:SignUpCommand)
 }
 
-class GetUserByEmailQuery {
-  +Email: String
-}
-
-enum RoleType {
+enum Roles{
   Domestic
   Business
   Specialist
 }
 
-User ..> SignUpCommand
-User ..> SignInCommand
-IUserRepository ..> User
-IRoleRepository ..> Role
-Role --> RoleType
-IUserCommandService --> SignUpCommand
-IUserCommandService --> SignInCommand
-GetUserByIdQuery ..> IUserQueryService
-GetUserByEmailQuery ..> IUserQueryService
+
+class Role {
+  +Id:int
+  +Type:string
+  +Role()
+  +Role(type:string)
+}
+
+
+interface IRoleRepository{
+  +IsRoleExists(type:string):bool
+}
+
+interface IUserRepository{
+  +IsAlreadyExists(email:string): bool
+}
+
+interface IUserCommandService{
+  +Handle(command:SignUpCommand): bool
+  +Handle(command:SignInCommand) : User
+}
+
+interface IRoleCommandService {
+  +Handle(command:SeedRolesCommand):void
+}
+
+User -- SignUpCommand
+IUserRepository --> User
+IRoleRepository --> Role
+Role *-- "1" Roles
+IUserCommandService -- SignUpCommand
+IUserCommandService -- SignInCommand
+IRoleCommandService -- SeedRolesCommand
 
 @enduml

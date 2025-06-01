@@ -3924,7 +3924,7 @@ Mobile App:
 
 Backend:
 
-<img src="../assets/class-diagrams/domain-layer-diagram-management.jpeg" alt="management class diagram on Api" />
+<img src="../assets/class-diagrams/domain-layer-diagram-management.png" alt="management class diagram on Api" />
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
@@ -5325,7 +5325,7 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-subscriptions-diagram.jpeg" alt="Payment Database Design Diagram"/>
 
 
-### 4.2.5. Bounded Context: Identity and Access Management
+### 4.2.5. Bounded Context: Identity and Access Management (IAM)
 
 
 
@@ -5341,14 +5341,45 @@ Mobile App:
 
 Representa una abstracción para la petición de inicio de sesión.
 
+| Atributo       | Tipo   |
+|----------------|--------|
+| email        | string |
+| password       | string |
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nuevo objeto con los parametros de la instancia de la clase                                       |
+
 **SignUpRequestDto**
 
 Representa una abstracción para la petición de registro de usuario.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| email        | string |
+| password       | string |
+| roleId         |int     |
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nuevo objeto con los parametros de la instancia de la clase                                       |
 
 
 **UserAuthenticatedResponseDto**
 
 Representa una abstracción para la respuesta de un usuario autenticado.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| id             | int   |
+| email        | string |
+| token     | string |
+| roleId    | int |
+
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| fromJson                |  Devuelve una nueva instancia de la clase en base a la información proveniente de una respuesta del servidor                          |
 
 
 
@@ -5362,9 +5393,23 @@ Web App:
 
 Representa una abstracción para la petición de inicio de sesión realizada.
 
+| Atributo       | Tipo   |
+|----------------|--------|
+| email        | string |
+| password       | string |
+
 #### SignUpRequest
 
 Representa una abstracción para la petición de registro de usuario.
+
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| email        | string |
+| password       | string |
+| RoleId         | number    |
+
+
 
 
 ### Response
@@ -5373,18 +5418,55 @@ Representa una abstracción para la petición de registro de usuario.
 
 Representa una abstracción para la respuesta que contiene la información de un usuario autenticado.
 
+| Atributo       | Tipo   |
+|----------------|--------|
+| id             | number   |
+| email        | string |
+| token     | string |
+| roleId    | number |
+
+
+### Assembler
+
+**AuthAssembler** 
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nueva instancia de la clase SignInRequest                                                   |
+| toRequest                | Crea una nueva instancia de la clase SignUpRequest                                                     |
+| toResponse                | Crea una nueva instancia de la clase UserAuthenticatedResponse                                         |
+
+
+
 Backend:
 - En esta capa se describen las clases que representan el núcleo del dominio del contexto de Identity and Access Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
 
  ---
 #### Value Objects
-**Role**
+**Roles**
+
+Representa los tipos de roles disponibles para la asignación al usuario.
 
 | Atributo   | Descripción                                  |
 |------------|----------------------------------------------|
 | Domestic   | Representa el rol de un usuario doméstico.   |
 | Business   | Representa el rol de un usuario de negocios. |
 | Specialist | Representa el rol de un especialista.        |
+
+
+---
+#### Entities
+
+
+**Role**
+
+Representa un rol disponible en el sistema
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| Id             | int    |
+| Type          | string |
+
 
  ---
 
@@ -5394,13 +5476,10 @@ Representa un usuario del sistema.
 
 | Atributo       | Tipo   |
 |----------------|--------|
-| Id             | Int    |
-| Email          | String |
-| Password       | String |
-| Name           | String |
-| Address        | String |
-| RoleId         | Int    |
-| SubscriptionId | Int    |
+| Id             | int    |
+| Email          | string |
+| Password       | string |
+| RoleId         | int    |
 
  ---
 #### Commands
@@ -5408,12 +5487,8 @@ Representa un usuario del sistema.
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
 | SignInCommand                | Representa un comando que inicia sesión en el sistema.                                                     |
 | SignUpCommand                | Representa un comando que registra un nuevo usuario en el sistema.                                         |
+| SeedRolesCommand             | Representa un comando que inicializa los roles disponibles en el sistema.                                  |
 
-#### Queries
-| Clase                     | Descripción                                                                                             |
-|--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetUserByIdQuery          | Representa una consulta que obtiene un usuario específico mediante su identificador único.         |
-| GetUserByEmailQuery       | Representa una consulta que obtiene un usuario específico mediante su correo electrónico.         |
 
  ---
 #### Domain Services (Interfaces)
@@ -5424,11 +5499,7 @@ Representa un usuario del sistema.
 | IUserCommandService           | Define las operaciones que ejecutan cambios sobre el agregado User mediante comandos del dominio. |
 | IRoleCommandService           | Define las operaciones que ejecutan cambios sobre la entidad Role mediante comandos del dominio. |
 
-**Query Services**
 
-| Interface                        | Descripción                                                                                      |
-|----------------------------------|--------------------------------------------------------------------------------------------------|
-| IUserQueryService              | Define las consultas que se ejecutan sobre el agregado User mediante consultas del dominio. |
 
  ---
 #### Repositories (Interfaces)
@@ -5533,14 +5604,6 @@ Backend:
 | `UserCommandService`               | Implementación del servicio que maneja los comandos relacionados con usuarios. |
 | `RoleCommandService`               | Implementación del servicio que maneja los comandos relacionados con roles. |
 
-### QueryServices
-
-| Clase                               | Descripción |
-|-------------------------------------|-------------|
-| `IUserQueryService`                | Devuelve un usuario o lista de usuarios. Utiliza la *entidad* `User`. |
-| `UserQueryService`                 | Implementación del servicio que maneja las consultas sobre usuarios. |
-| `GetUserByIdQuery`                | Consulta para obtener un usuario por su ID. |
-| `GetUserByEmailQuery`             | Consulta para obtener un usuario por su correo electrónico. |
 
 
 
@@ -5556,7 +5619,7 @@ Mobile App:
 
 | Método                           | Descripción |
 |-------------------------------------|-------------|
-|  signIn               | Permite autenticar un usuario con sus credenciales. |
+| signIn               | Permite autenticar un usuario con sus credenciales. |
 | signUp                 | Permite registrar un nuevo usuario |
 
 
@@ -5605,11 +5668,15 @@ alt="IAM Component Diagram on Mobile App" width="350"/>
 
 Web App:
 
+<img src="../assets/class-diagrams/iamWeb.png" alt="Iam Context Domain Layer Class Diagrams"/>
+
 Mobile App:
+
+<img src="../assets/class-diagrams/iamMobile.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
 Backend:
 
-<img src="../assets/tactical-level-ddd/iam/iam-class-diagram.png" alt="Iam Context Domain Layer Class Diagrams"/>
+<img src="../assets/class-diagrams/iamBackend.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
