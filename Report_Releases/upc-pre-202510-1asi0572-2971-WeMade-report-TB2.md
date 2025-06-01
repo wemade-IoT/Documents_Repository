@@ -5545,6 +5545,9 @@ Backend:
 - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
   
  ---
+
+
+
   
   #### Resources
   
@@ -5553,8 +5556,8 @@ Backend:
   | Clase            | Descripción                                      |
   |---------------------|--------------------------------------------------|
   | SignInResource        | Recibe datos para el inicio de sesión.            |
-  | SignUpResource  |  Recibe datos para el registro de usuarios.
-   | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     
+  | SignUpResource  |  Recibe datos para el registro de usuarios.             |
+   | UserAuthenticatedResource |  Recibe datos para devolver los datos de inicio de sesión.     |
  ---
  
    #### Transforms/Assemblers
@@ -5568,6 +5571,18 @@ Backend:
   AuthenticatedUserResourceFromEntityAssembler        | Transforma los datos de la entidad user y el token en un recurso.       |
  
   ---
+
+
+  #### Facade
+
+  | Interfaz            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | IUserServiceFacade        | Maneja las consultas de dominio que seran expuestas a otros bounded context.            |
+
+
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | UserServiceFacade        | Implementación del contrato IUserServiceFacade.            |
  
   #### Controllers
   
@@ -5644,7 +5659,7 @@ Backend:
 |----------------|-----------------------|--------------------------------------------------------------------------------|
 | UserRepository | IUserRepository       | Implementa los métodos de consulta y persistencia de los usuarios del sistema. |
 
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
 En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
 
@@ -5678,9 +5693,422 @@ Backend:
 
 <img src="../assets/class-diagrams/iamBackend.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
-##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/iamt-db-diagram.png" alt="Iam Database Design Diagram"/>
+
+
+### 4.2.6. Bounded Context: Profiles and Preferences
+
+
+#### 4.2.6.1. Domain Layer.
+
+Mobile App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+#### DTO
+
+**ProfileDto**
+
+Representa una abstracción para representar un perfil en la aplicación
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| id           | int    |
+| email        | string |
+| name       | string |
+| address       | string |
+| subscriptionId | int   |
+| userId         |  int  |
+
+
+| Constructor Nombrado                       | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| fromJson                |  Crea una nueva instancia de la clase ProfileDto en base de una respuesta del servidor                               |
+
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nuevo objeto con los parametros de la instancia de la clase ProfileDto                                      |
+
+
+
+
+**NotificationDto**
+
+Representa una abstracción para la creación de notificaciones.
+
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| title        | string |
+| subject       | string |
+
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nuevo objeto con los parametros de la instancia de la clase NotificationDto                                      |                          |
+
+
+
+
+
+Web App:
+
+- En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
+
+### Request
+
+#### ProfileRequest
+
+Representa una abstracción para una solicitud relacionada al registro de un perfil.
+
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| email        | string |
+| name       | string |
+| address       | string |
+| subscriptionId | number   |
+| userId         |  number  |
+
+
+
+#### NotificationRequest
+
+Representa una abstracción para la petición de registro de una notificacion.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| title        | string |
+| subject       | string |
+| profileId         |  number  |
+
+### Response
+
+
+#### ProfileResponse
+
+Representa una abstracción para una respuesta del servidor relacionada a perfiles
+
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| id        | number |
+| email        | string |
+| name       | string |
+| address       | string |
+| subscriptionId | number   |
+| userId         |  int  |
+
+
+
+#### NotificationResponse
+
+Representa una abstracción para una respuesta del servidor relacionada a notificación
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| id        | number |
+| title        | string |
+| subject       | string |
+|createdAt      | string  |
+| profileId         |  int  |
+
+
+#### Assembler 
+
+**ProfileAssembler**
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nueva instancia de la clase ProfileRequest                 |
+| toResponse     |  Crea una nueva instancia de la clase ProfileResponse              |                        
+
+
+**NotificationAssembler**
+
+| Método                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| toRequest                |  Crea una nueva instancia de la clase NotificationRequest                 |
+| toResponse     |  Crea una nueva instancia de la clase NotificationResponse              |      
+
+
+
+Backend:
+- En esta capa se describen las clases que representan el núcleo del dominio del contexto de Profile and preferences. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+ ---
+
+
+#### Aggregates
+**Pofile**
+Representa un usuario del sistema.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| Id             | int    |
+| Email          | string |
+| Name           | string |
+| Address        | string |
+|  UserId         | int    |
+| SubscriptionId | int    |
+
+
+**Notification**
+Representa un notificación configurada por un perfil.
+
+| Atributo       | Tipo   |
+|----------------|--------|
+| Id             | int    |
+| Title          | string |
+| Subject        | string |
+| CreatedAt       | DateTime |
+|  ProfileId      | int    |
+
+ ---
+#### Commands
+| Clase                        | Descripción                                                                                               |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|
+| CreateProfileCommand                | Representa un comando para la creación de un nuevo perfil.                                                     |
+| CreateNotificationCommand                | Representa un comando para la creación de una nueva notificación.                                         |
+
+#### Queries
+| Clase                     | Descripción                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| GetProfileByEmailQuery          |Representa una consulta que obtiene un usuario específico mediante su correo electrónico.           |
+| GetNotificationsByProfileIdQuery       | Representa una consulta que obtiene todas las notificaciones por un perfil especifico.         |
+
+ ---
+#### Domain Services (Interfaces)
+**Command Services**
+
+| Interface                      | Descripción                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| IProfileCommandService           | Define las operaciones que ejecutan cambios sobre el agregado Profile mediante comandos del dominio. |
+| INotificationCommandService           | Define las operaciones que ejecutan cambios sobre el agregado Notification mediante comandos del dominio. |
+
+**Query Services**
+
+| Interface                        | Descripción                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------|
+| IProfileQueryService              | Define las consultas que se ejecutan sobre el agregado Profile mediante consultas del dominio. |
+| INotificationQueryService              | Define las consultas que se ejecutan sobre el agregado Notification mediante consultas del dominio. |
+
+ ---
+#### Repositories (Interfaces)
+| Interface                           | Descripción                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| IProfileRepository                    | Define un contrato para el manejo de persistencia y consultas sobre la tabla profiles.             |
+| INotificationRepository                    | Define un contrato para el manejo de persistencia y consultas sobre la tabla notifications.             |
+
+ ---
+
+#### 4.2.5.2. Interface Layer.
+
+Mobile App:
+
+- En esta capa se definen los widgets que permiten la visualización de información
+
+#### Widgets
+
+**ProfileSummary**
+
+Este widget representa una visualización de información del perfil
+
+
+#### Screen
+
+**AccountInformationScreen**
+
+Este widget representa una vista para la visualización de información del perfil
+
+Web App:
+
+- En esta capa se definen los componentes que permiten la visualización de información
+
+#### Components
+
+**ProfileSummary**
+
+Este widget representa una visualización de información del perfil
+
+**NotificationCard**
+
+Este widget representa una visualización de una notificación configurada a un perfil
+
+#### Pages
+
+**AccountInformationPage**
+
+Este widget representa una vista para la visualización de información del perfil
+
+Backend:
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+  
+ ---
+  
+  #### Resources
+  
+  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  |  NotificationResource        | Recibe datos para devolver una notificacion desde el servidor.            |
+  |  ProfileResource  |  Recibe datos para devolver un perfil desde el servidor. |
+   | CreateNotificationResource |  Recibe datos para la creación de una nueva notificación.     |
+   | CreateProfileResource |  Recibe datos para la creación de un nuevo perfil.     |
+ ---
+ 
+   #### Transforms/Assemblers
+  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+  
+  
+  | Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | CreateNotificationCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de un notificación .      |
+  | CreateProfileCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando de creación de un perfil.              |
+  |  NotificationResourceFromEntityAssembler        | Transforma los datos de la entidad notificación en un recurso.       |
+   |  ProfileResourceFromEntityAssembler        | Transforma los datos de la entidad perfil en un recurso.       |
+ 
+  ---
+ 
+  #### Controllers
+  
+  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+  
+  **AuthController**
+  
+  
+  | Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | /api/v1/profile      | Gestiona las consultas relacionadas a los perfiles  |
+  | /api/v1/notification      | Gestiona las consultas relacionadas a las notificaciones  |
+  
+ 
+---
+ 
+#### 4.2.5.3. Application Layer.
+
+Mobile App:
+
+- No aplica para este caso.
+
+Web App:
+
+- No aplica para este caso.
+
+Backend:
+
+### CommandServices
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `ProfileCommandService`               | Implementación del servicio que maneja los comandos relacionados con perfiles. |
+| `NotificationCommandService`               | Implementación del servicio que maneja los comandos relacionados con notificaciones. |
+
+### QueryServices
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `ProfileQueryService`                 | Implementación del servicio que maneja las consultas sobre perfiles. |
+| `NotificationQueryService`                | Implementación del servicio que maneja las consultas sobre notificaciones. |
+
+
+### OutBoundService 
+
+
+| Interfaz                               | Descripción |
+|-------------------------------------|-------------|
+| `IExternalUserService`                 | Contrato que permite manejar consultas hacia el servicio externo de usuarios. |
+
+| Clase                               | Descripción |
+|-------------------------------------|-------------|
+| `ExternalUserService`                 | Implementación del contrato para manejar consultas del bounded context externo de usuarios. |
+
+
+#### 4.2.5.4. Infrastructure Layer.
+
+Mobile App:
+
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**ProfileService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  getProfileByEmail               | Devuelve un perfil por su email. |
+|  createProfile                 | Permite la creación de un nuevo perfil |
+
+
+
+Web App:
+
+- En esta capa se incluyen las clases que se encargan de comunicarse con servicios web.
+
+### Service 
+
+**ProfileService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  getProfileByEmail               | Devuelve un perfil por su email. |
+|  createProfile                 | Permite la creación de un nuevo perfil |
+
+
+**NotificationService**
+
+| Método                           | Descripción |
+|-------------------------------------|-------------|
+|  getNotificationsByProfileId               | Devuelve todas las notificaciones relacionadas a un usuario. |
+|  createNotification                 | Permite la creación de un nueva notifiación |
+
+Backend:
+
+### Implementación de las interfaces de los Repositories
+| Clase          | Interfaz Implementada | Descripción                                                                    |
+|----------------|-----------------------|--------------------------------------------------------------------------------|
+| NotificationRepository | INotificationRepository       | Implementa los métodos de consulta y persistencia de las noificaciones del sistema. |
+| ProfileRepository | IProfileRepository       | Implementa los métodos de consulta y persistencia de los perfiles del sistema. |
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-ProfileBCWebApp.png" alt="Profile Component Diagram on Web App" width="350"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-ProfileBoundedContextonMobileApp.png" alt="Profile Component Diagram on API" width="350"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-ProfileSystem.png"
+alt="Profile Component Diagram on Mobile App" width="350"/>
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+<img src="../assets/class-diagrams/profileMobile.png" alt="Profile BC on Mobile App Class Diagram" width="350"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/profileWeb.png" alt="Profile BC on Mobile App Class Diagram" width="350"/>
+
+Backend:
+
+<img src="../assets/class-diagrams/profileBackend.png" alt="Profile BC API Class diagram"/>
+
+##### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+<img src="../assets/tactical-level-ddd/db-diagrams/profile-db-diagram.jpeg" alt="Profile Database Design Diagram"/>
 
 
 
