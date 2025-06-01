@@ -4716,6 +4716,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | order                  | Order   |
 
 | Método | Descripción |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 
@@ -4845,6 +4846,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de suscri
 | order                  | Order   |
 
 | Método | Descripción     |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 **CompleteSensorPaymentState**
@@ -4856,6 +4858,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | order                  | Order   |
 
 | Método | Descripción     |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 **CompleteActuatorPaymentState**
@@ -4867,6 +4870,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | order                  | Order   |
 
 | Método | Descripción |
+|-----------------------|----------|
 | completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 
