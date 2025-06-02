@@ -1224,19 +1224,30 @@ Características Subjetivas:
 
 ### 2.3.3. User Journey Mapping.
 
-En esta sección hacemos un journey mapping para comprender el camino que recorren nuestros segmentos en un escenario común en su área laboral
+En esta sección presentamos un journey mapping que describe el recorrido típico de nuestros segmentos de usuarios en sus respectivos contextos laborales, ayudándonos a entender sus metas, experiencias y desafíos comunes.
 
 **Segmento Doméstico**
 
+<p>Este journey map ilustra el recorrido típico del usuario doméstico, desde la búsqueda de una solución para cuidar sus plantas hasta la evaluación del uso continuo del sistema. Se identifican sus metas, procesos, problemas y emociones para optimizar su experiencia con EcoGuardian en el hogar.</p>
+
+<center>
 <img src="../assets/user-journey-mapping/user-journey-mapping-segmento-doméstico.png" alt="User Journey Mapping"/>
+</center>
 
 **Segmento Negocio**
 
+<p>El presente Journey Mapping ilustra el recorrido integral del usuario del segmento empresarial, desde la búsqueda inicial de soluciones tecnológicas para la gestión agrícola, pasando por la implementación y uso de la plataforma, hasta la evaluación continua del servicio. Este análisis contempla objetivos, procesos, desafíos y emociones para identificar oportunidades de mejora que garanticen una experiencia óptima y un uso eficiente de EcoGuardian en contextos profesionales.</p>
+
+<center>
 <img src="../assets/user-journey-mapping/user-journey-mapping-segmento-negocio.png" alt="User Journey Mapping"/>
+</center>
 
 **Segmento Especialista**
 
+<p>Este Journey Mapping describe el recorrido del usuario especialista en el uso de EcoGuardian para optimizar el cuidado de plantas. Se detallan sus objetivos, procesos, canales de interacción, dificultades y experiencias emocionales a lo largo de las fases de investigación, adopción, uso, desarrollo y evaluación. El análisis permite identificar oportunidades para mejorar la facilidad de uso, la precisión de los datos y la integración con otras plataformas, garantizando una experiencia efectiva y satisfactoria para usuarios avanzados.</p>
+<center>
 <img src="../assets/user-journey-mapping/user-journey-mapping-segmento-especialista.png" alt="User Journey Mapping"/>
+</center>
 
 ### 2.3.4. Empathy Mapping.
 
