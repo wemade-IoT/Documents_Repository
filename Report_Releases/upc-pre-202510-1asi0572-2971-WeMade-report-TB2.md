@@ -5720,7 +5720,7 @@ Backend:
 <img src="../assets/tactical-level-ddd/db-diagrams/profile-db-diagram.jpeg" alt="Profile Database Design Diagram"/>
 
 
-### 4.2.7. Bounded Context: Management
+### 4.2.7. Bounded Context: Assets and Resources
 
 #### 4.2.7.1. Domain Layer
 
@@ -6045,7 +6045,7 @@ Representa un actuador físico asignado a una determinada maceta
 
 
 
-#### 4.2.1.2. Interface Layer.
+#### 4.2.7.2. Interface Layer.
 
 
 Web App:
@@ -6134,7 +6134,7 @@ Backend:
 
 
 
-#### 4.2.1.3. Application Layer.
+#### 4.2.7.3. Application Layer.
 
 Web App:
 
@@ -6160,7 +6160,7 @@ Backend:
 | `ActuatorQueryService`                  | Implementación del servicio que maneja lasconsultas relacionadas con los actuadores |
 
 
-#### 4.2.1.4. Infrastructure Layer.
+#### 4.2.7.4. Infrastructure Layer.
 
 Web App:
 
@@ -6223,15 +6223,15 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-- No aplica
+<img src="/assets/component-diagrams/structurizr-101372-AssetsBCWebApp.png" alt="Assets Component Diagram on Web App" width="350"/>
 
 Backend:
 
 <img src="/assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="350"/>
 
 Mobile:
+<img src="/assets/component-diagrams/structurizr-101372-AssetsBoundedContextonMobileApp.png" alt="Assets Component Diagram on Mobile App" width="350"/>
 
-- No aplica
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
