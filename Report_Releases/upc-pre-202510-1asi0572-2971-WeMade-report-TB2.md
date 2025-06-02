@@ -1202,7 +1202,10 @@ Características Subjetivas:
 
 ### 2.3.2. User Task Matrix.
 
-El user task matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos.
+<p>El user task matrix nos sirve para identificar los procesos que realizan ambos segmentos donde se pueden observar las similitudes respecto a la importancia y frecuencias de estos procesos.</p>
+
+<center>
+
 | Necesidad / Función                      | Doméstico Importancia | Doméstico Frecuencia | Empresa Importancia | Empresa Frecuencia | Especialista Importancia | Especialista Frecuencia |
 |-----------------------------------------|----------------------|---------------------|--------------------|-------------------|-------------------------|------------------------|
 | Ver estado actual de plantas/cultivos  | Alta                 | Media               | Alta               | Alta              | Alta                    | Alta                   |
@@ -1214,11 +1217,8 @@ El user task matrix nos sirve para identificar los procesos que realizan ambos s
 | Medir impacto económico/productivo      | Baja                 | Nula                | Alta               | Alta              | Media                   | Media                  |
 | Compartir información o reportes        | Media                | Baja                | Alta               | Media             | Alta                    | Alta                   |
 | Acceso desde app móvil                   | Alta                 | Alta                | Media              | Media             | Media                   | Media                  |
-
-Con este user task matrix entendemos las actividades que realizan nuestros usuarios segmento y la importancia que estas acciones tienen.
-
-De las tareas principales que identificamos se observa.
-
+</center>
+<p>Con este user task matrix entendemos las actividades que realizan nuestros usuarios segmento y la importancia que estas acciones tienen de las tareas principales que identificamos se observa.</p>
 
 
 
