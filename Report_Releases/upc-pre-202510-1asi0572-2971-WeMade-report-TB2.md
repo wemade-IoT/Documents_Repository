@@ -2461,6 +2461,86 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       </td>
       <td>EP05</td>
     </tr>
+    <!-- EP13 - Visualización de datos y consumo de recursos -->
+<tr>
+      <td>EP13</td>
+      <td>Visualización de datos y consumo de recursos</td>
+      <td>Como usuario quiero ver el consumo de recursos de mis plantas y plantaciones, para optimizar su uso.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HU43</td>
+      <td>Visualización de consumo de recursos</td>
+      <td>Como usuario consumidor quiero ver el consumo de recursos de energía y agua de mis plantas y plantaciones para optimizar su uso.</td>
+      <td>
+        Escenario 1: Usuario visualiza consumo de recursos<br>
+        Dado que el usuario se encuentra identificado y tiene plantas/plantaciones registradas<br>
+        Cuando revisa la información general de sus plantas/plantaciones<br>
+        Entonces se muestra el consumo de energía y agua en un gráfico de línea.<br><br>
+        Escenario 2: No hay datos de consumo<br>
+        Dado que no hay datos de consumo registrados<br>
+        Cuando el usuario revisa la información<br>
+        Entonces se muestra un mensaje indicando "No hay datos de consumo disponibles".<br><br>
+    </td>
+        <td>EP13</td>
+</tr>
+    <tr>
+      <td>TS08</td>
+      <td>Cálculo de consumo de energía</td>
+      <td>Como desarrollador quiero calcular el consumo de energía de las plantas y plantaciones para informar al usuario.</td>
+      <td>
+        Escenario 1: Cálculo exitoso de consumo de energía<br>
+        Dado que se registran datos de sensores de energía<br>
+        Cuando el sistema procesa los datos<br>
+        Entonces calcula el consumo total y lo muestra en el dashboard del usuario.<br><br>
+        Escenario 2: No hay datos de sensores<br>
+        Entonces muestra mensaje indicando "No hay datos de consumo de energía disponibles".<br><br>
+      </td>
+      <td>EP13</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Cálculo de consumo de agua</td>
+      <td>Como desarrollador quiero calcular el consumo de agua de las plantas y plantaciones para informar al usuario.</td>
+      <td>
+        Escenario 1: Cálculo exitoso de consumo de agua<br>
+        Dado que se registran datos de sensores de agua<br>
+        Cuando el sistema procesa los datos<br>
+        Entonces calcula el consumo total y lo muestra en el dashboard del usuario.<br><br>
+        Escenario 2: No hay datos de sensores<br>
+        Entonces muestra mensaje indicando "No hay datos de consumo de agua disponibles".<br><br>
+      </td>
+      <td>EP13</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Cálculo de niveles de humedad en porcentaje</td>
+      <td>Como desarrollador quiero calcular los niveles de humedad en porcentaje para mostrar la información más efectiva.</td>
+      <td>
+        Escenario 1: Cálculo exitoso de niveles de humedad<br>
+        Dado que se registran datos de sensores de humedad<br>
+        Cuando el sistema procesa los datos<br>
+        Entonces calcula el nivel de humedad en porcentaje y lo muestra en el dashboard del usuario.<br><br>
+        Escenario 2: No hay datos de sensores<br>
+        Entonces muestra mensaje indicando "No hay datos de humedad disponibles".<br><br>
+        </td>
+      <td>EP13</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Cálculo de niveles de luz en porcentaje</td>
+      <td>Como desarrollador quiero calcular los niveles de luz en porcentaje para mostrar la información más efectiva.</td>
+        <td>
+            Escenario 1: Cálculo exitoso de niveles de luz<br>
+            Dado que se registran datos de sensores de luz<br>
+            Cuando el sistema procesa los datos<br>
+            Entonces calcula el nivel de luz en porcentaje y lo muestra en el dashboard del usuario.<br><br>
+            Escenario 2: No hay datos de sensores<br>
+            Entonces muestra mensaje indicando "No hay datos de luz disponibles".<br><br>
+        </td>
+        <td>EP13</td>
+</tr>
   </tbody>
 </table>
 
@@ -2868,6 +2948,41 @@ Link Trello: https://shorturl.at/OzBw1
       <td>Recepción de notificaciones push en móvil</td>
       <td>Como usuario móvil quiero recibir notificaciones push para estar informado en tiempo real.</td>
       <td>3</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>HU43</td>
+      <td>Visualización de consumo de recursos</td>
+      <td>Como usuario consumidor quiero ver el consumo de recursos de energía y agua de mis plantas y plantaciones para optimizar su uso.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>TS08</td>
+      <td>Cálculo de consumo de energía</td>
+        <td>Como desarrollador quiero calcular el consumo de energía de las plantas y plantaciones para informar al usuario.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>TS09</td>
+      <td>Cálculo de consumo de agua</td>
+      <td>Como desarrollador quiero calcular el consumo de agua de las plantas y plantaciones para informar al usuario.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>TS10</td>
+      <td>Cálculo de niveles de humedad en porcentaje</td>
+      <td>Como desarrollador quiero calcular los niveles de humedad de las plantas y plantaciones en porcentajes para mostrar la información de forma más efectiva.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>TS11</td>
+        <td>Cálculo de niveles de luz en porcentaje</td>
+        <td>Como desarrollador quiero calcular los niveles de luz de las plantas y plantaciones en porcentajes para mostrar la información de forma más efectiva.</td>
+        <td>3</td>
     </tr>
   </tbody>
 </table>
