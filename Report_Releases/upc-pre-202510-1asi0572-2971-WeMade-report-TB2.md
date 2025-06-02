@@ -5699,9 +5699,9 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-ProfileSystem.png"
 alt="Profile Component Diagram on Mobile App" width="350"/>
 
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
-##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+##### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
 Web App:
 
@@ -5718,6 +5718,542 @@ Backend:
 ##### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/profile-db-diagram.jpeg" alt="Profile Database Design Diagram"/>
+
+
+### 4.2.7. Bounded Context: Management
+
+#### 4.2.7.1. Domain Layer
+
+
+Web App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+
+
+### Assembler
+
+**SensorAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toRequestAssembler       |   Crea una instancia de la clase SensorRequest |
+| toResponseAssembler     |Crea una instancia de la clase SensorResponse      |
+
+**ActuatorAssembler**
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| toRequestAssembler       |   Crea una instancia de la clase ActuatorRequest |
+| toResponseAssembler     |Crea una instancia de la clase ActuatorResponse      |
+
+### Response
+
+
+**SensorResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| statusId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+**ActuatorResponse**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| statusId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+### Request
+
+
+
+**SensorRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+**ActuatorRequest**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+
+
+Mobile App:
+
+En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
+
+### DTO
+
+
+
+**SensorDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           |  date    |
+| lastUpdated           |  date |
+
+| Constructor nombrado                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| fromJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+
+**ActuatorDto**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| id                    | int      |
+| supplier              | string   |
+| voltage               | int     |
+| sensorTypeId          | int     |
+| plantId               | int     |
+| stateId              | int     |
+| installedAt           | date     |
+| activatedAt           | date    |
+| lastUpdated           |  date |
+
+
+| Constructor nombrado                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| fromJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+
+| Método                | Descripción                                          |
+|-----------------------|------------------------------------------------------|
+| toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
+
+
+
+
+
+
+**GetSensorsByPlantIdDto**
+
+Representa la solicitud de consulta de sensores instalados por planta
+
+| Atributo | Tipo   |
+|----------|--------|
+| plantId    | int |
+
+
+**GetActuatorsByPlantIdDto**
+
+Representa la solicitud de consulta de actuadores instalados por planta
+
+| Atributo | Tipo   |
+|----------|--------|
+| plantId    | int |
+
+
+
+
+
+Backend:
+
+En esta capa se describen las clases que representan el núcleo del dominio del contexto de Management. Se incluyen las entidades, objetos de valor, agregados, servicios de dominio bajo el patrón CQRS (Command Query Responsibility Segregation), y las interfaces de repositorio.
+
+---
+
+#### Entities
+
+**DeviceState**
+
+Representa el estado actual de un sensor o un actuador (por ejemplo: Activado, Pendiente a instalación, deshabilitado). 
+
+| Atributo | Tipo   |
+|----------|--------|
+| Id       | Int    |
+| Type     | String |
+
+**SensorType**
+
+Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, temperatura, luz).
+
+| Atributo | Tipo   | Descripción                                 |
+|----------|--------|---------------------------------------------|
+| Id       | Int    | Identificador único del tipo de sensor      |
+| Type     | Text   | Nombre del tipo de sensor (ej. "Humedad")   |
+
+---
+
+#### Value Objects
+
+**WelnessStates**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+| Healthy    | Representa el estado de una planta saludable              |
+| UnHealthy    | Representa el estado de una planta no saludable              |
+| Warning    | Representa el estado de una planta en riesgo       |
+
+**DeviceStates**
+
+| Atributo    | Descripción                                              |
+|------------|----------------------------------------------------------|
+|  Active   | Representa el estado de un sensor activo             |
+| Inactive    | Representa el estado de un sensor inactivo             |
+| ToActive    | Representa el estado de un sensor por activar       |
+
+
+---
+
+#### Aggregates
+
+
+**Sensor**
+Representa un sensor físico que ha sido asignado a una planta 
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Supplier              | string   |
+| Voltage               | int     |
+| SensorTypeId          | int     |
+| PlantId               | int     |
+| DeviceStateId              | int     |
+| InstalledAt           | DateTime     |
+| ActivatedAt           |  DateTime    |
+| LastUpdated           |  DateTime |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+|   UpdateStatus   | Método que permite actualizar el estado de un sensor     |
+|   Update   | Método que permite actualizar la información registrada de un sensor     |
+
+---
+
+**Actuator**
+
+Representa un actuador físico asignado a una determinada maceta
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Supplier              | string   |
+| Voltage               | int     |
+| PlantId               | int     |
+| DeviceStateId              | int     |
+| InstalledAt           | DateTime     |
+| ActivatedAt           |  DateTime    |
+| LastUpdated           |  DateTime |
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+|   UpdateStatus   | Método que permite actualizar el estado de un actuador  |
+|   Update   | Método que permite actualizar la información registrada de un actuador     |
+
+
+---
+
+#### Commands
+
+| Clase                   | Descripción                                                                                       |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| SeedSensorTypesCommand   | Representa un comando para inicializar datos en la entidad SensorType dentro del dominio. |
+| SeedDeviceStateCommand   | Representa un comando para inicializar datos en la entidad DeviceState dentro del dominio. |
+| CreateSensorCommand      | Comando para registrar un nuevo sensor con sus detalles técnicos.           |
+| ActivateSensorCommand | Representa un comando para activar un sensor asignado a una planta. |
+| InactiveSensorCommand | Representa un comando para deshabilitar el estado de activación de un sensor activado previamente |
+| CreateActuatorCommand      | Comando para registrar un nuevo actuador con sus detalles técnicos.           |
+| UpdateSensorCommand | Representa un comando para actualizar la información registrada de un sensor |
+| ActivateActuatorCommand | Representa un comando para activar un actuador asignado a una planta. |
+| InactiveActuatorCommand | Representa un comando para deshabilitar el estado de activación de un actuador activado previamente |
+| UpdateActuatorCommand | Representa un comando para actualizar la información registrada de un actuador |
+
+#### Queries
+
+| Clase                         | Descripción                                                                                          |
+|------------------------------|------------------------------------------------------------------------------------------------------|
+| GetSensorsByPlantIdQuery | Representa una consulta que obtiene los datos de sensores asignados a una determinada planta |
+| GetActuatorsByPlantIdQuery | Representa un consulta que obtiene los datos de los actuadores asignados a una determinada planta |
+
+---
+
+#### Domain Services (Interfaces)
+
+**Command Services**
+
+|  Interface            | Descripción                                                                |
+|---------------------------|------------------------------------------------------------------------|
+| IWellnessStateCommandService |  Define las operaciones que ejecutan cambios sobre el entity WellnessState mediante comandos del dominio. |
+| IDeviceStateCommandService | Define las operaciones que ejecutan cambios sobre el entity DeviceState mediante comandos del dominio |
+| ISensorTypeCommandService | Define las operaciones que ejecutan cambios sobre el entity SensorType mediante comandos del dominio |
+| ISensorCommandService | Define las operaciones que ejecutan cambios sobre el agregado Sensor mediante comandos del dominio |
+| IActuatorCommandService | Define las operaciones que ejecutan cambios sobre el agregado Actuator mediante comandos del dominio |
+
+**Query Services**
+
+| Interface                 | Descripción                                                                |
+|---------------------------|------------------------------------------------------------------------|
+| ISensorQueryServoce | Define las consultas que se ejecutan sobre el agregado Sensor mediante consultas del dominio |
+| IActuatorQueryService | Define las consultas que se ejecutan sobre el agregado Actuator mediante consultas del dominio |
+
+---
+
+#### Repositories (Interfaces)  
+
+| Interface                         | Descripción                            |
+|--------------------------------|----------------------------------------|
+| IWellnessStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de welness_states |
+| IDeviceStateRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de device_states |
+| ISensorTypeRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de sensor_types |
+| ISensorRepoository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de sensors |
+| IActuatorRepository    | Define un contrato para el manejo de persistencia y consultas sobre la tabla de actuators |
+
+
+
+#### 4.2.1.2. Interface Layer.
+
+
+Web App:
+
+- No aplica
+
+Mobile:
+
+- No aplica
+
+Backend:
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
+---
+
+#### Resources
+
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| SensorResource | Devuelve datos de un sensor al usuario                |
+| ActuatorResource | Devuelve datos de un actuador al usuario            |
+| CreateSensorResource | Representa un recurso de solicitud de creación de sensores                |
+| ActivateSensorResource | Representa un recurso de solicitud de activación de sensores            |
+| UpdateSensorResource | Representa un recurso de solicitud de actualización de sensores                |
+| InactivateSensorResource | Representa un recurso de solicitud de inactivación de sensores            |
+| CreateActuatorResource | Representa un recurso de solicitud de creación de actuadores               |
+| ActivateActuatorResource | Representa un recurso de solicitud de activación de actuadores            |
+| UpdateActuatorResource | Representa un recurso de solicitud de actualización de actuadors                |
+| InactivateActuatorResource | Representa un recurso de solicitud de inactivación de actuadores            |
+
+---
+
+
+#### Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| SensorResourceFromEntityAssembler     | Transforma una entidad de sensor en un recurso de salida para el cliente.
+| ActuatorResourceFromEntityAssembler     | Transforma una entidad de actuator en un recurso de salida para el cliente.
+
+| CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
+| ActivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un sensor.      |
+| InactivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un sensor.      |
+| UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.    
+
+| CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuator.      |
+| ActivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un actuador.      |
+| InactivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un actuador.      |
+| UpdateActuatorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un actuator existente. 
+
+---
+
+#### Facades
+
+- Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
+
+| ISensorServiceFacade        | Define un contrato para los servicios de dominio relacionados con sensores, que deben ser expuestos a servicios externos.            |
+| SensorServiceFacade  |    Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+| IActuatorServiceFacade        | Define un contrato para los servicios de dominio relacionados con actuadores, que deben ser expuestos a servicios externos.            |
+| ActuatorServiceFacade  |    Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
+
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+
+**SensorController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/sensors      | Gestiona la creación y consulta de sensores  |
+
+**ActuatorController**
+
+| Ruta especifica             | Descripción                                      |
+|---------------------|--------------------------------------------------|
+| /api/v1/actuators       | Gestiona la creación y consulta de actuadores  |
+
+
+
+
+#### 4.2.1.3. Application Layer.
+
+Web App:
+
+- No aplica para este caso
+
+Mobile:
+- No aplica para este caso
+
+Backend:
+
+### CommandServices
+
+| `SensorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los sensores. |
+| `ActuatorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los actuadores. |
+| `WellnessStateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados de una planta. |
+| `DeviceStateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados de una planta. |
+
+### QueryServices
+
+| Clase                                | Descripción |
+|--------------------------------------|-------------|
+| `SensorQueryService`                  | Implementación del servicio que maneja lasconsultas relacionadas con los sensores |
+| `ActuatorQueryService`                  | Implementación del servicio que maneja lasconsultas relacionadas con los actuadores |
+
+
+#### 4.2.1.4. Infrastructure Layer.
+
+Web App:
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+## Service
+
+
+**SensorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de sensors
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getSensorsByPlantId     | Devuelve los sensores asignados a una determinada planta     |
+
+**ActuatorService**
+
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de actuators
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getActuatorsByPlantId     | Devuelve los actuadores asignados a una determinada planta     |
+
+Mobile:
+
+En esta capa se incluyen las clases que se encargan de comunicarse y persistir la información obtenida de servicios web.
+
+
+**SensorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de sensors
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getSensorsByPlantId     | Devuelve los sensores asignados a una determinada planta     |
+
+**ActuatorService**
+
+Representa la clase que se encarga de gestionar las solicitudes hacia los endpoints relacionados a la ruta de actuators
+
+| Método                   | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| getActuatorsByPlantId     | Devuelve los actuadores asignados a una determinada planta     |
+
+Backend:
+
+### Implementación de las interfaces de los Repositories
+
+| Clase | Interfaz Implementada | Descripción|
+|------|--------------|------------------|
+| SensorRepository | ISensorRepository |Implementa los métodos de consulta y persistencia de los sensores |
+| ActuatorRepository | IActuatorRepository |Implementa los métodos de consulta y persistencia de los actuadores |
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+
+Web App:
+
+- No aplica
+
+Backend:
+
+<img src="/assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="350"/>
+
+Mobile:
+
+- No aplica
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+
+Web App:
+
+<img src="../assets/class-diagrams/assetsWeb.png" alt ="Management class diagram on Web App" />
+
+Mobile App:
+
+<img src="../assets/class-diagrams/assetsMobile.png" alt ="Management class diagram on Mobile App"/>
+
+Backend:
+
+<img src="../assets/tactical-level-ddd/assets/assets-class-diagram.png" alt="management class diagram on Api" />
+
+##### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+<img src="../assets/tactical-level-ddd/db-diagrams/assets-db-diagram.jpeg" alt="Management Database Design Diagram"/>
+
+
 
 
 
