@@ -7906,12 +7906,17 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 </center>
 
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review.
-En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
+<p>En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing</p>
+
 ### 6.2.1.6. Execution Evidence for Sprint Review.
-En nuestro video de exposicion se muestra la Demo de nuestra solucion de todas maneras se muestra evidencia de la solucion y una de sus vistas
+
+<center>
+
+<p>En nuestro video de exposicion se muestra la Demo de nuestra solucion de todas maneras se muestra evidencia de la solucion y una de sus vistas</p>
 
 <img src="../assets/exec-evidence/Evidence.png" alt="Execution evidence" width="400"/>
 
+</center>
 
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
