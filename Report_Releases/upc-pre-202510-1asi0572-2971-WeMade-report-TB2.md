@@ -7942,27 +7942,35 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
 
-Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page
+<center>
 
-En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.
+<p>Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page</p>
+
+<p>En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.</p1>
 
 <img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence" width="400"/>
+
 <img src="../assets/exec-evidence/evidence-network-front.png" alt="Collab evidence" width="400"/>
 
+</center>
 
-Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.
+<center>
+
+<p>Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.</p>
 
 <img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence" width="400"/>
+
 <img src="../assets/exec-evidence/evidence-network-lan.png" alt="Collab evidence" width="400"/>
 
+</center>
 
 # Conclusiones
 
 # Conclusiones y recomendaciones.
 
-Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.
+<p>Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.</p>
 
-Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.
+<p>Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.</p>
 
 
 # Bibliografía
