@@ -7060,6 +7060,8 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
 ## 6.2.1. Sprint 1
 ### 6.2.1.1. Sprint Planning 1.
 
+<center>
+
 <table border="1">
     <thead>
         <tr>
@@ -7117,6 +7119,8 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
     </tbody>
 </table>
 
+</center>
+
 ### 6.2.1.2. Aspect Leaders and Collaborators.
 En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
 Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el
@@ -7124,18 +7128,115 @@ fin de brindar mayor claridad y efectividad en la comunicación al interior del 
 
 Los aspectos que se tomaron en cuenta fueron en base a los bounded context identificados para la solución. 
 
-| Team Member (Last Name, First Name) | GitHub Username       | Management | Analytics | Consulting | Subscription | Payment | Automation | Installation | IAM    | Notifications |
-|-------------------------------------|-----------------------|------------|-----------|------------|--------------|---------|------------|--------------|--------|---------------|
-| Huilca Chipana, Gustavo             | &nbsp;GustavoHuilca31 | C          | **L**     | C          | &nbsp;       | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
-| Jave Diaz Mathias Alejandro         | &nbsp;LordMathi2741   | **L**      | C         | &nbsp;     | C            | &nbsp;  | C          | &nbsp;       | &nbsp; | &nbsp;        |
-| Esteban Garcia Nicolas Sebastian    | &nbsp;Nekolas777      | C          | &nbsp;    | &nbsp;     | **L**        | C       | &nbsp;     | **L**        | &nbsp; | &nbsp;        |
-| Luna Capuñay Italo D'alessandro     | &nbsp;tatoft          | &nbsp;     | &nbsp;    | **L**      | &nbsp;       | C       | &nbsp;     | C            | &nbsp; | &nbsp;        |
-| Kunimoto Watanabe Mathias Tsuneo    | &nbsp;Kuni2005        | &nbsp;     | C         | &nbsp;     | &nbsp;       | **L**   | &nbsp;     | &nbsp;       | C      | C             |
-| Ramirez Hoffmann Sebastian          | &nbsp;SEBRH           | &nbsp;     | &nbsp;    | C          | C            | &nbsp;  | &nbsp;     | &nbsp;       | **L**  | C             |
-| Peña Rivera Manuel Sebastian        | &nbsp;U202210138      | &nbsp;     | &nbsp;    | &nbsp;     | &nbsp;       | &nbsp;  | **L**      | C            | C      | **L**         |
+<center>
+
+<table border="1">
+    <thead>
+      <tr>
+        <th>Team Member (Last Name, First Name)</th>
+        <th>GitHub Username</th>
+        <th>Operation and Monitoring</th>
+        <th>Analytics</th>
+        <th>Consulting/CRM</th>
+        <th>Subscriptions and Payments</th>
+        <th>Service Design and Planning</th>
+        <th>Profiles and Preferences</th>
+        <th>Asset and Resource Management</th>
+        <th>IAM</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Huilca Chipana, Gustavo</td>
+        <td>GustavoHuilca31</td>
+        <td>C</td>
+        <td><strong>L</strong></td>
+        <td>C</td>
+        <td></td>
+        <td><strong>L</strong></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Jave Diaz Mathias Alejandro</td>
+        <td>LordMathi2741</td>
+        <td><strong>L</strong></td>
+        <td>C</td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>Esteban Garcia Nicolas Sebastian</td>
+        <td>Nekolas777</td>
+        <td>C</td>
+        <td></td>
+        <td>C</td>
+        <td><strong>L</strong></td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Luna Capuñay Italo D'alessandro</td>
+        <td>tatoft</td>
+        <td>C</td>
+        <td></td>
+        <td>C</td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><strong>L</strong></td>
+      </tr>
+      <tr>
+        <td>Kunimoto Watanabe Mathias Tsuneo</td>
+        <td>Kuni2005</td>
+        <td>C</td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>C</td>
+        <td><strong>L</strong></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ramirez Hoffmann Sebastian</td>
+        <td>SEBRH</td>
+        <td>C</td>
+        <td>C</td>
+        <td><strong>L</strong></td>
+        <td></td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Peña Rivera Manuel Sebastian</td>
+        <td>U202210138</td>
+        <td>C</td>
+        <td></td>
+        <td></td>
+        <td>C</td>
+        <td></td>
+        <td><strong>L</strong></td>
+        <td>C</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</center>
 
 ### 6.2.1.3. Sprint Backlog 1.
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>User Story Id</th>
