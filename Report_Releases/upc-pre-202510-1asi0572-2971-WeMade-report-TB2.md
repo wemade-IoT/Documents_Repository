@@ -7366,73 +7366,544 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ### 6.2.1.4. Development Evidence for Sprint Review.
 
-| Repository                                            | Branch | Commit Id | Commit Message                                                                                             | Commit Message Body | Commited on (Date) |
-|:------------------------------------------------------|:-------|:----------|:-----------------------------------------------------------------------------------------------------------|:--------------------|:-------------------|
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 76447c5   | feat: initial setup                                                                                        |                     | 12/05/2025 9:28    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a47eee9   | chore: primevue config and dependencies for axios and vue router                                           |                     | 12/05/2025 9:56    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | f59d2d7   | fix: update favicon and title for EcoGuardian App                                                          |                     | 12/05/2025 16:39   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 776eff9   | feat: add chart.js and @types/node dependencies                                                            |                     | 12/05/2025 16:39   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | efaf98b   | feat: update tsconfig and vite config for path aliasing                                                    |                     | 12/05/2025 16:39   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | aee3d5d   | feat: add logo.svg file for EcoGuardian App branding                                                       |                     | 12/05/2025 16:39   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 4431400   | feat: add db.json file for server data storage                                                             |                     | 12/05/2025 16:39   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a33818e   | refactor: remove unused Button component and update template structure                                     |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 88d76fb   | style: format and organize imports in main.ts for improved readability                                     |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 59e9184   | feat: add TypeScript declaration for Vue components                                                        |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | df2d3bd   | style: update theme colors and scrollbar styles in style.css                                               |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | e6537f5   | chore: remove empty .gitkeep file from services directory                                                  |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | 15cbd2d   | feat: add new Vue components for alerts list                                                               |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | main   | a0e14e4   | feat: create analytics page component with layout and imports for charts and lists                         |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a415fd8   | feat: add login page component with form and routing                                                       |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | cd08f5d   | feat: add registration page component with form fields and routing                                         |                     | 12/05/2025 16:40   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 199c18e   | feat: implement router configuration with login                                                            |                     | 12/05/2025 16:41   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 7f7704d   | feat: add sidebar component with navigation icons and user avatar                                          |                     | 12/05/2025 16:41   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9f34a7d   | feat: add toolbar component with alerts and date display                                                   |                     | 12/05/2025 16:41   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 4509505   | feat: create error page component with basic template                                                      |                     | 12/05/2025 16:41   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9343963   | feat: add main layout page with sidebar and toolbar components                                             |                     | 12/05/2025 16:41   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 52aaf35   | feat (analytics): add widgets container and cards                                                          |                     | 12/05/2025 18:30   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | c8d0813   | feat (notification): add alerts list and cards                                                             |                     | 12/05/2025 18:49   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9d8c62a   | feat: add tips carousel component with status display and improved layout                                  |                     | 12/05/2025 18:53   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3980503   | feat: remove unstyled option from PrimeVue configuration                                                   |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 9ce0c99   | fix: add newline at end of file in style.css                                                               |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3b41fcb   | feat: enhance devices list component with detailed device information and layout improvements              |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3792c10   | feat: implement lines chart component with responsive design and data selection                            |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 70263b8   | feat: add chart options configuration and index file for analytics                                         |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 0605329   | feat: add new helper and interface files for analytics module                                              |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e30ab87   | feat: add mock chart data and type definitions for analytics module                                        |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 97cbc2b   | feat: add mock devices data and device state type definitions for analytics module                         |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 52045c3   | feat: add new mock data and type definition files for analytics module                                     |                     | 12/05/2025 19:31   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 7149550   | feat: update routing and add anatemporal page for dashboard                                                |                     | 12/05/2025 19:58   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1566bf3   | feat (management): add plant list and cards                                                                |                     | 12/05/2025 20:50   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ca27d01   | feat: add plant information component and update anatemporal page layout                                   |                     | 12/05/2025 21:34   |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | eb31eb5   | feat: add .env.template for API URL configuration                                                          |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 65ccc83   | feat: add .env to .gitignore to exclude environment variable files                                         |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e54eff5   | chore: update dependencies and add new packages                                                            |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a331225   | feat: initialize database structure with users                                                             |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 15d1a43   | feat: integrate Pinia for state management in the application                                              |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 241e92f   | feat: implement AnalyticsService for fetching analytics data                                               |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | d09ee88   | feat: update alert card component to format date and adjust alerts list to use created\_at                 |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 4d624ab   | feat: enhance devices list component with detailed device status and attributes                            |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | fdb8e5f   | feat: update lines chart component to handle empty chart data gracefully and fetch analytics data on mount |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | b7ccc07   | feat: enhance plant card component with improved styling and status representation                         |                     | 13/05/2025 1:46    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ff3ac82   | feat: refactor plants list component to fetch plants data from management service                          |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | afad7c9   | feat: refactor tips carousel component to fetch and display consulting queries dynamically                 |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | ff96a03   | feat: refactor widget card and container components for improved styling and dynamic data fetching         |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | a896333   | feat: restructure analytics page to conditionally display devices or plants list based on user role        |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | fd0286c   | feat: remove anatemporal page component and add new plant image asset                                      |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 57e1546   | feat: remove DECOMMISSIONED state from DEVICE\_STATE constant                                              |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 161ca9e   | feat: remove AnatemporalPage from router and update home path                                              |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 0570d1b   | feat: add HttpService for centralized axios configuration and token management                             |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 3eab9cf   | feat: implement ConsultingService for API interaction using axios                                          |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e0a6940   | feat: implement AuthService for user authentication with axios                                             |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | df8b2b3   | feat: implement login form with email and password handling                                                |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e4cdc80   | feat: add auth store for user authentication and session management                                        |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 8b36dda   | feat: implement InstallationService for managing sensor data retrieval                                     |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | e0cae5d   | feat: implement ManagementService for plant data retrieval                                                 |                     | 13/05/2025 1:47    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1a1b914   | feat: add NotificationsService for fetching notifications                                                  |                     | 13/05/2025 1:48    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 541ccf3   | feat: add logout functionality to sidebar component                                                        |                     | 13/05/2025 1:48    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 1ec547b   | feat: restructure toolbar component layout for improved user role display                                  |                     | 13/05/2025 1:48    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | f821302   | feat: add new consulting questions and update tips carousel to limit displayed queries                     |                     | 13/05/2025 2:03    |
-| <https://github.com/wemade-IoT/eco-guardian-frontend> | dev    | 80b5ba9   | feat: remove unused specialist role check from analytics page                                              |                     | 13/05/2025 2:07    |
+<center>
+
+<table border="1">
+    <thead>
+      <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit Id</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed on (Date)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>76447c5</td>
+        <td>feat: initial setup</td>
+        <td></td>
+        <td>12/05/2025 9:28</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>a47eee9</td>
+        <td>chore: primevue config and dependencies for axios and vue router</td>
+        <td></td>
+        <td>12/05/2025 9:56</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>f59d2d7</td>
+        <td>fix: update favicon and title for EcoGuardian App</td>
+        <td></td>
+        <td>12/05/2025 16:39</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>776eff9</td>
+        <td>feat: add chart.js and @types/node dependencies</td>
+        <td></td>
+        <td>12/05/2025 16:39</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>efaf98b</td>
+        <td>feat: update tsconfig and vite config for path aliasing</td>
+        <td></td>
+        <td>12/05/2025 16:39</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>aee3d5d</td>
+        <td>feat: add logo.svg file for EcoGuardian App branding</td>
+        <td></td>
+        <td>12/05/2025 16:39</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>4431400</td>
+        <td>feat: add db.json file for server data storage</td>
+        <td></td>
+        <td>12/05/2025 16:39</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>a33818e</td>
+        <td>refactor: remove unused Button component and update template structure</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>88d76fb</td>
+        <td>style: format and organize imports in main.ts for improved readability</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>59e9184</td>
+        <td>feat: add TypeScript declaration for Vue components</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>df2d3bd</td>
+        <td>style: update theme colors and scrollbar styles in style.css</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>e6537f5</td>
+        <td>chore: remove empty .gitkeep file from services directory</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>15cbd2d</td>
+        <td>feat: add new Vue components for alerts list</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>main</td>
+        <td>a0e14e4</td>
+        <td>feat: create analytics page component with layout and imports for charts and lists</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>a415fd8</td>
+        <td>feat: add login page component with form and routing</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>cd08f5d</td>
+        <td>feat: add registration page component with form fields and routing</td>
+        <td></td>
+        <td>12/05/2025 16:40</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>199c18e</td>
+        <td>feat: implement router configuration with login</td>
+        <td></td>
+        <td>12/05/2025 16:41</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>7f7704d</td>
+        <td>feat: add sidebar component with navigation icons and user avatar</td>
+        <td></td>
+        <td>12/05/2025 16:41</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>9f34a7d</td>
+        <td>feat: add toolbar component with alerts and date display</td>
+        <td></td>
+        <td>12/05/2025 16:41</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>4509505</td>
+        <td>feat: create error page component with basic template</td>
+        <td></td>
+        <td>12/05/2025 16:41</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>9343963</td>
+        <td>feat: add main layout page with sidebar and toolbar components</td>
+        <td></td>
+        <td>12/05/2025 16:41</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>52aaf35</td>
+        <td>feat (analytics): add widgets container and cards</td>
+        <td></td>
+        <td>12/05/2025 18:30</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>c8d0813</td>
+        <td>feat (notification): add alerts list and cards</td>
+        <td></td>
+        <td>12/05/2025 18:49</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>9d8c62a</td>
+        <td>feat: add tips carousel component with status display and improved layout</td>
+        <td></td>
+        <td>12/05/2025 18:53</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>3980503</td>
+        <td>feat: remove unstyled option from PrimeVue configuration</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>9ce0c99</td>
+        <td>fix: add newline at end of file in style.css</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>3b41fcb</td>
+        <td>feat: enhance devices list component with detailed device information and layout improvements</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>3792c10</td>
+        <td>feat: implement lines chart component with responsive design and data selection</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>70263b8</td>
+        <td>feat: add chart options configuration and index file for analytics</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>0605329</td>
+        <td>feat: add new helper and interface files for analytics module</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>e30ab87</td>
+        <td>feat: add mock chart data and type definitions for analytics module</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>97cbc2b</td>
+        <td>feat: add mock devices data and device state type definitions for analytics module</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>52045c3</td>
+        <td>feat: add new mock data and type definition files for analytics module</td>
+        <td></td>
+        <td>12/05/2025 19:31</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>7149550</td>
+        <td>feat: update routing and add anatemporal page for dashboard</td>
+        <td></td>
+        <td>12/05/2025 19:58</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>1566bf3</td>
+        <td>feat (management): add plant list and cards</td>
+        <td></td>
+        <td>12/05/2025 20:50</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>ca27d01</td>
+        <td>feat: add plant information component and update anatemporal page layout</td>
+        <td></td>
+        <td>12/05/2025 21:34</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>eb31eb5</td>
+        <td>feat: add .env.template for API URL configuration</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>65ccc83</td>
+        <td>feat: add .env to .gitignore to exclude environment variable files</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>e54eff5</td>
+        <td>chore: update dependencies and add new packages</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>a331225</td>
+        <td>feat: initialize database structure with users</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>15d1a43</td>
+        <td>feat: integrate Pinia for state management in the application</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>241e92f</td>
+        <td>feat: implement AnalyticsService for fetching analytics data</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>d09ee88</td>
+        <td>feat: update alert card component to format date and adjust alerts list to use created_at</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>4d624ab</td>
+        <td>feat: enhance devices list component with detailed device status and attributes</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>fdb8e5f</td>
+        <td>feat: update lines chart component to handle empty chart data gracefully and fetch analytics data on mount</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>b7ccc07</td>
+        <td>feat: enhance plant card component with improved styling and status representation</td>
+        <td></td>
+        <td>13/05/2025 1:46</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>ff3ac82</td>
+        <td>feat: refactor plants list component to fetch plants data from management service</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>afad7c9</td>
+        <td>feat: refactor tips carousel component to fetch and display consulting queries dynamically</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>ff96a03</td>
+        <td>feat: refactor widget card and container components for improved styling and dynamic data fetching</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>a896333</td>
+        <td>feat: restructure analytics page to conditionally display devices or plants list based on user role</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>fd0286c</td>
+        <td>feat: remove anatemporal page component and add new plant image asset</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>57e1546</td>
+        <td>feat: remove DECOMMISSIONED state from DEVICE_STATE constant</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>161ca9e</td>
+        <td>feat: remove AnatemporalPage from router and update home path</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>0570d1b</td>
+        <td>feat: add HttpService for centralized axios configuration and token management</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>3eab9cf</td>
+        <td>feat: implement ConsultingService for API interaction using axios</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>e0a6940</td>
+        <td>feat: implement AuthService for user authentication with axios</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>df8b2b3</td>
+        <td>feat: implement login form with email and password handling</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>e4cdc80</td>
+        <td>feat: add auth store for user authentication and session management</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>8b36dda</td>
+        <td>feat: implement InstallationService for managing sensor data retrieval</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>e0cae5d</td>
+        <td>feat: implement ManagementService for plant data retrieval</td>
+        <td></td>
+        <td>13/05/2025 1:47</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>1a1b914</td>
+        <td>feat: add NotificationsService for fetching notifications</td>
+        <td></td>
+        <td>13/05/2025 1:48</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>541ccf3</td>
+        <td>feat: add logout functionality to sidebar component</td>
+        <td></td>
+        <td>13/05/2025 1:48</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>1ec547b</td>
+        <td>feat: restructure toolbar component layout for improved user role display</td>
+        <td></td>
+        <td>13/05/2025 1:48</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>f821302</td>
+        <td>feat: add new consulting questions and update tips carousel to limit displayed queries</td>
+        <td></td>
+        <td>13/05/2025 2:03</td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/wemade-IoT/eco-guardian-frontend">https://github.com/wemade-IoT/eco-guardian-frontend</a></td>
+        <td>dev</td>
+        <td>80b5ba9</td>
+        <td>feat: remove unused specialist role check from analytics page</td>
+        <td></td>
+        <td>13/05/2025 2:07</td>
+      </tr>
+    </tbody>
+  </table>
+
+</center>
 
 ### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 En el Sprint 1, debido al alcance de las implementaciones y a que nos encontramos en una fase de early development, no se llegó a realizar el proceso de testing
