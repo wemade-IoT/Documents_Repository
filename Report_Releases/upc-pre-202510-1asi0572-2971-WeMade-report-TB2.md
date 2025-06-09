@@ -6524,17 +6524,21 @@ de diseño y arquitectura de información.
 
 ### 5.3.1. Landing Page Wireframe.
 
-Esta sección incluye una sección interna donde se presenta y explica los Wireframes
-del Landing Page para Desktop Web Browser y Mobile Web Browser
+<p>Esta sección incluye una sección interna donde se presenta y explica los Wireframes
+del Landing Page para Desktop Web Browser y Mobile Web Browser</p>
 
-Wireframes de la Landing page para Desktop web browser:
+<center>
+
+<p>Wireframes de la Landing page para Desktop web browser:</p>
+
 <img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page" width="350"/>
 
 **Descripción:**
 Wireframe de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
 
+<p>Wireframes de la Landing page para Mobile web browser:</p>
 
-Wireframes de la Landing page para Mobile web browser:
+</center>
 
 ## 5.3.2. Landing Page Mock-up.
 
