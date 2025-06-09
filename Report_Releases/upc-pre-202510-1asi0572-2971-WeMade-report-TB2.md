@@ -7920,11 +7920,13 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
-Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.
+<center>
+
+<p>Se hace uso de JsonServer para simular endpoints de una API, es necesario hacer un despliegue previo a usar la app web en local.</p>
 
 <img src="../assets/exec-evidence/evidence-docs.png" alt="Documentation Services evidence" width="400"/>
 
-
+</center>
 
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
