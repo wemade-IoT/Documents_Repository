@@ -6534,7 +6534,7 @@ del Landing Page para Desktop Web Browser y Mobile Web Browser</p>
 <img src="../assets/landin-page-ui/landing-page-wireframe.png" alt="Wireframe landing page" width="350"/>
 
 **Descripción:**
-Wireframe de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
+<p>Wireframe de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.</p>
 
 <p>Wireframes de la Landing page para Mobile web browser:</p>
 
@@ -6542,17 +6542,21 @@ Wireframe de una página web informativa con secciones de beneficios, planes de 
 
 ## 5.3.2. Landing Page Mock-up.
 
-Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
-para Desktop Web Browser como Mobile Web Browser.
+<p>Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión
+para Desktop Web Browser como Mobile Web Browser.</p>
 
-Para esta entrega hemos recibido feedback orientado a distintos aspectos de diseño para mejorar los cuales se llegaron a implementar parcialmente en produccion, si bien no se pueden visualizar a nivel de mockup en subsiguientes entregas se hara la implementación.
-Mockup de la Landing page para Desktop web browser:
+<center>
+
+<p>Para esta entrega hemos recibido feedback orientado a distintos aspectos de diseño para mejorar los cuales se llegaron a implementar parcialmente en produccion, si bien no se pueden visualizar a nivel de mockup en subsiguientes entregas se hara la implementación.</p>
+
+<p>Mockup de la Landing page para Desktop web browser:</p>
+
 <img src="../assets/landin-page-ui/landing-page-mockup.png" alt="Mockup landing page" width="350"/>
 
-**Descripción**
-Mockup de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
+**Descripción:**
+<p>Mockup de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.</p>
 
-Mockup de la Landing page para Mobile web browser:
+<p>Mockup de la Landing page para Mobile web browser:</p>
 
 <img src="../assets/mockups/mockuplan.png" alt="Mockup landing page" width="350"/>
 
@@ -6560,6 +6564,8 @@ Mockup de la Landing page para Mobile web browser:
 
 **Descripción:**
 Mockup mobile de una página web informativa con secciones de beneficios, planes de suscripción y llamado a la acción para atraer y convertir usuarios.
+
+</center>
 
 ## 5.4. Applications UX/UI Design.
 
