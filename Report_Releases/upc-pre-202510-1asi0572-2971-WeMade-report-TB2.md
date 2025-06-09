@@ -7930,12 +7930,15 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
-Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.
+<center>
+
+<p>Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.</p>
 
 <img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence" width="400"/>
 
 <img src="../assets/exec-evidence/evidence-deploy-lan.png" alt="Deploy Lan evidence" width="400"/>
 
+</center>
 
 ### 6.2.1.9. Team Collaboration Insights during Sprint.
 
