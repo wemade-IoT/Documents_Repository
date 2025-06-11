@@ -1426,15 +1426,15 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Visualizar beneficios para segmento doméstico<br>
         Dado que el visitante está en la sección "Benefits"<br>
-        Cuando selecciona la pestaña o vista para segmento doméstico<br>
+        Cuando selecciona la pestaña para segmento doméstico<br>
         Entonces el sitio muestra información detallada sobre beneficios para usuarios domésticos.<br><br>
         Escenario 2: Visualizar beneficios para segmento empresarial<br>
         Dado que el visitante está en la sección "Benefits"<br>
-        Cuando selecciona la pestaña o vista para segmento empresarial<br>
+        Cuando selecciona la pestaña para segmento empresarial<br>
         Entonces el sitio muestra información detallada sobre beneficios para usuarios empresariales.<br><br>
         Escenario 3: Cambiar vista a beneficios del segmento deseado<br>
         Dado que el visitante está observando la sección "Benefits"<br>
-        Cuando observa información del segmento que no le interesa<br>
+        Cuando observa información de un segmento que no le interesa<br>
         Entonces el sitio cambia automáticamente a mostrar la información del segmento correcto después de un breve momento.
       </td>
       <td>EP01</td>
@@ -1455,15 +1455,14 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de planta de manera exitosa. <br><br>
         Dado que el usuario se encuentra en la aplicación web en la sección de mis plantas<br>
-        Cuando interactúa con el botón para agregar una planta <br>
-        Y llena un formulario con información de su planta.<br>
-        Entonces se debe observar una planta nueva en un listado de plantas <br>
+        Cuando ingresa los datos de su planta.<br>
+        Entonces se debe observar una planta nueva en un listado de plantas.<br>
         Y se debe generar un proceso de orden de planta con estado de pendiente a instalación en el perfil del usuario.<br><br>
-        Escenario 2: Ocurre un error de validación el proceso de registro de planta. <br><br>
+        Escenario 2: Ocurre un error de validación en el proceso de registro de planta. <br><br>
         Dado que el usuario se encuentra en la aplicación web en la sección de mis plantas<br>
-        Llena el formulario con información de su planta de manera incorrecta.<br>
+        Ingresa los datos de su planta de manera incorrecta.<br>
         Entonces se debe observar una advertencia que muestre el error de validación<br>
-        Y mencione que intente de nuevo
+        Y mencione que intente de nuevo.
       </td>
       <td>EP02</td>
     </tr>
@@ -1474,19 +1473,18 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de planta de manera exitosa. <br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la sección de mis plantas<br>
-        Cuando interactúa con el botón para agregar una planta <br>
-        Y llena un formulario con información de su planta.<br><br>
-        Entonces se debe observar una planta nueva en un listado de plantas <br>
+        Cuando ingresa los datos de su planta.<br><br>
+        Entonces se debe observar una planta nueva en un listado de plantas.<br>
         Y se debe generar un proceso de orden de planta con estado de pendiente a instalación en el perfil del usuario.<br><br>
-        Escenario 2: Ocurre un error de validación el proceso de registro de planta. <br><br>
+        Escenario 2: Ocurre un error de validación en el proceso de registro de planta. <br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la sección de mis plantas<br>
-        Llena el formulario con información de su planta de manera incorrecta.<br>
+        Ingresa los datos de su planta de manera incorrecta.<br>
         Entonces se debe observar una advertencia que muestre el error de validación<br>
-        Y mencione que intente de nuevo
+        Y mencione que intente de nuevo.
       </td>
       <td>EP02</td>
     </tr>
-    <!-- Registro plantacion -->
+    <!-- Registro plantación -->
     <tr>
       <td>HU07</td>
       <td>Registro de plantación en plataforma web</td>
@@ -1494,16 +1492,15 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de plantación de manera exitosa. <br><br>
         Dado que el usuario se encuentra en la aplicación web en la sección de mis plantaciones<br>
-        Cuando interactúa con el botón para agregar una plantación<br>
-        Y llena un formulario con información del área de la plantación.<br>
-        Entonces se debe calcular y mostrar un costo estimado de los dispositivos de en esa área <br>
-        Y se debe observar una plantación nueva en un listado de plantaciones<br>
+        Cuando ingresa los datos del área de la plantación.<br>
+        Entonces se debe calcular y mostrar un costo estimado de los dispositivos en esa área.<br>
+        Y se debe observar una plantación nueva en un listado de plantaciones.<br>
         Y se debe generar un proceso de orden de plantación con estado de pendiente a instalación en el perfil del usuario.<br><br>
         Escenario 2: Ocurre un error en el proceso de registro de plantación. <br><br>
         Dado que el usuario se encuentra en la aplicación web en la sección de mis plantaciones<br>
-        Cuando llena el formulario con datos errados o excesivos.<br>
+        Cuando ingresa los datos erróneos o excesivos.<br>
         Entonces se debe observar una advertencia que muestre un error de exceso<br>
-        Y mencione que intente de nuevo con datos menos grandes.
+        Y mencione que intente de nuevo con datos más pequeños.
       </td>
       <td>EP02</td>
     </tr>
@@ -1514,16 +1511,15 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de plantación de manera exitosa. <br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la sección de mis plantaciones<br>
-        Cuando interactúa con el botón para agregar una plantación<br>
-        Y llena un formulario con información del área de la plantación.<br>
-        Entonces se debe calcular y mostrar un costo estimado de los dispositivos en esa área <br>
-        Y se debe observar una plantación nueva en un listado de plantaciones<br>
+        Cuando ingresa los datos del área de la plantación.<br><br>
+        Entonces se debe calcular y mostrar un costo estimado de los dispositivos en esa área.<br>
+        Y se debe observar una plantación nueva en un listado de plantaciones.<br>
         Y se debe generar un proceso de orden de plantación con estado de pendiente a instalación en el perfil del usuario.<br><br>
         Escenario 2: Ocurre un error en el proceso de registro de plantación. <br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la sección de mis plantaciones<br>
-        Cuando llena el formulario con datos errados o excesivos.<br>
+        Cuando ingresa los datos erróneos o excesivos.<br>
         Entonces se debe observar una advertencia que muestre un error de exceso<br>
-        Y mencione que intente de nuevo con datos menos grandes.
+        Y mencione que intente de nuevo con datos más pequeños.
       </td>
       <td>EP02</td>
     </tr>
@@ -1542,8 +1538,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de usuario de manera exitosa (solo web). <br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignUp"<br>
-        Cuando hace clic en el botón para registrarse<br>
-        Y llena un formulario con información de su cuenta<br>
+        Cuando ingresa los datos de su cuenta<br>
         Y selecciona el plan de suscripción<br>
         Y proporciona información de pago válida<br>
         Y realiza el pago exitosamente<br>
@@ -1552,7 +1547,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "SignIn".<br><br>
         Escenario 2: Error en el proceso de pago (solo web)<br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignUp"<br>
-        Cuando hace clic en el botón para registrarse<br>
+        Cuando ingresa los datos de su cuenta<br>
         Y hace el proceso de registro<br>
         Y el pago falla en procesarse<br>
         Entonces se muestra un mensaje de error de pago<br>
@@ -1568,8 +1563,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se inicia el proceso de registro de usuario de manera exitosa (solo web). <br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignUp"<br>
-        Cuando hace clic en el botón para registrarse<br>
-        Y llena un formulario con información de su cuenta<br>
+        Cuando ingresa los datos de su cuenta<br>
         Y selecciona el plan de suscripción (Enterprise)<br>
         Y proporciona información de pago válida<br>
         Y realiza el pago exitosamente<br>
@@ -1578,7 +1572,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "SignIn".<br><br>
         Escenario 2: Error en el proceso de pago (solo web)<br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignUp"<br>
-        Cuando hace clic en el botón para registrarse<br>
+        Cuando ingresa los datos de su cuenta<br>
         Y hace el proceso de registro<br>
         Y el pago falla en procesarse<br>
         Entonces se muestra un mensaje de error de pago<br>
@@ -1602,7 +1596,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se logra una autenticación exitosa.<br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y se validan sus credenciales<br>
         Entonces el usuario ingresa a la aplicación web<br>
@@ -1610,7 +1604,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "Home".<br><br>
         Escenario 2: Error en la validación de credenciales.<br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y no se validan sus credenciales<br>
         Entonces se muestra un mensaje de acceso denegado explicando que la clave o contraseña están mal<br>
@@ -1625,7 +1619,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se logra una autenticación exitosa.<br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y se validan sus credenciales<br>
         Entonces el usuario ingresa a la aplicación móvil<br>
@@ -1633,7 +1627,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "Home".<br><br>
         Escenario 2: Error en la validación de credenciales.<br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y no se validan sus credenciales<br>
         Entonces se muestra un mensaje de acceso denegado explicando que la clave o contraseña están mal<br>
@@ -1648,7 +1642,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se logra una autenticación exitosa.<br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y se validan sus credenciales<br>
         Entonces el usuario ingresa a la aplicación web<br>
@@ -1656,7 +1650,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "Home".<br><br>
         Escenario 2: Error en la validación de credenciales.<br><br>
         Dado que el usuario se encuentra en la aplicación web en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y no se validan sus credenciales<br>
         Entonces se muestra un mensaje de acceso denegado explicando que la clave o contraseña están mal<br>
@@ -1671,7 +1665,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>
         Escenario 1: Se logra una autenticación exitosa.<br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y se validan sus credenciales<br>
         Entonces el usuario ingresa a la aplicación móvil<br>
@@ -1679,7 +1673,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         Y se redirecciona a la vista "Home".<br><br>
         Escenario 2: Error en la validación de credenciales.<br><br>
         Dado que el usuario se encuentra en la aplicación móvil en la vista "SignIn"<br>
-        Cuando llena las credenciales de su cuenta<br>
+        Cuando ingresa las credenciales de su cuenta<br>
         Y le da clic a "Ingresar"<br>
         Y no se validan sus credenciales<br>
         Entonces se muestra un mensaje de acceso denegado explicando que la clave o contraseña están mal<br>
@@ -1710,7 +1704,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
     <tr>
       <td>EP05</td>
       <td>Seguimiento de orden</td>
-      <td>Como usuario quiero realizar un seguimiento a mi orden para saber que acciones debo realizar y saber el estado de mi orden.</td>
+      <td>Como usuario quiero realizar un seguimiento a mi orden para saber qué acciones debo realizar y saber el estado de mi orden.</td>
       <td></td>
       <td></td>
     </tr>
@@ -1718,115 +1712,42 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU15</td>
       <td>Continuar el proceso de orden de agregar planta agregando fecha de instalación</td>
       <td>Como usuario doméstico quiero agendar una fecha de instalación para continuar con el proceso de mi orden.</td>
-      <td>
-        Escenario 1: Fecha de instalación agendada<br><br>
-        Dado que el usuario doméstico está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Entonces el sistema registra en la orden la fecha de instalación<br>
-        Y el estado de la orden cambia a "En instalación" <br><br>
-        Escenario 2: Fecha de instalación no es válida <br><br>
-        Dado que el usuario doméstico está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Y la fecha no es válida<br>
-        Entonces el sistema muestra una alerta mencionando que la fecha ingresada no es correcta<br>
-        Y se pide que se ingrese una fecha válida.
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>HU16</td>
       <td>Continuar el proceso de orden de agregar plantación agregando fecha de instalación</td>
       <td>Como usuario empresarial quiero agendar una fecha de instalación para continuar con el proceso de mi orden.</td>
-      <td>
-        Escenario 1: Fecha de instalación agendada <br><br>
-        Dado que el usuario empresarial está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Entonces el sistema registra en la orden la fecha de instalación<br>
-        Y el estado de la orden cambia a "En instalación" <br><br>
-        Escenario 2: Fecha de instalación no es válida <br><br>
-        Dado que el usuario empresarial está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Y la fecha no es válida<br>
-        Entonces el sistema muestra una alerta mencionando que la fecha ingresada no es correcta<br>
-        Y se pide que se ingrese una fecha válida.
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>HU17</td>
       <td>Continuar el proceso de orden de agregar plantación agregando fecha de instalación para especialista</td>
       <td>Como usuario empresarial quiero agendar una fecha de instalación para continuar con el proceso de mi orden.</td>
-      <td>
-        Escenario 1: Fecha de instalación agendada para ser realizada por especialista. <br><br>
-        Dado que el usuario empresarial está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Entonces el sistema registra en la orden la fecha de instalación<br>
-        Y el estado de la orden cambia a "En instalación" <br><br>
-        Escenario 2: Fecha de instalación no es válida <br><br>
-        Dado que el usuario doméstico está en la vista de "Profile" en la sección de órdenes <br>
-        Cuando agenda una fecha para la instalación<br>
-        Y la fecha no es válida<br>
-        Entonces el sistema muestra una alerta mencionando que la fecha ingresada no es correcta<br>
-        Y se pide que se ingrese una fecha válida.
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>HU18</td>
       <td>Continuar el proceso de orden de instalación con pago (solo web)</td>
       <td>Como usuario doméstico/empresarial quiero realizar el pago para continuar con el proceso de mi orden.</td>
-      <td>
-        Escenario 1: Pago de orden procesado correctamente. <br><br>
-        Dado que el usuario está en la vista de "Profile" en la sección de órdenes <br>
-        Y el estado de la orden está en "Pago Pendiente" <br>
-        Cuando realiza el pago de la orden<br>
-        Y el pago se procesa correctamente<br>
-        Entonces el estado de la orden pasa a "Orden Completa"<br>
-        Y la planta / plantación en sus listados pasan a estar habilitados para monitoreo  <br><br>
-        Escenario 2: Pago de orden procesado incorrectamente.<br><br>
-        Dado que el usuario está en la vista de "Profile" en la sección de órdenes <br>
-        Y el estado de la orden está en "Pago Pendiente" <br>
-        Cuando realiza el pago de la orden<br>
-        Y el pago no se procesa correctamente<br>
-        Entonces se muestra una advertencia mencionando que el pago no llegó a ser procesado.<br>
-        Y el estado de la orden no cambia <br><br>
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>HU19</td>
       <td>Continuar el proceso de orden de suscripción con pago (solo web)</td>
       <td>Como usuario doméstico quiero realizar el pago para continuar con el proceso de mi orden.</td>
-      <td>
-        Escenario 1: Pago de orden procesado correctamente. <br><br>
-        Dado que el usuario está en la vista de "Profile" en la sección de órdenes <br>
-        Y el estado de la orden está en "Pago Pendiente" <br>
-        Cuando realiza el pago de la orden<br>
-        Y el pago se procesa correctamente<br>
-        Entonces el estado de la orden pasa a "Orden Completa"<br>
-        Y se actualiza la suscripción de la cuenta<br><br>
-        Escenario 2: Pago de orden procesado incorrectamente.<br><br>
-        Dado que el usuario está en la vista de "Profile" en la sección de órdenes <br>
-        Y el estado de la orden está en "Pago Pendiente" <br>
-        Cuando realiza el pago de la orden<br>
-        Y el pago no se procesa correctamente<br>
-        Entonces se muestra una advertencia mencionando que el pago no llegó a ser procesado.<br>
-        Y el estado de la orden y cuenta no cambia <br><br>
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <tr>
-      <td>HU15M</td>
+      <td>HU15</td>
       <td>Seguimiento de orden móvil (solo lectura, sin pago)</td>
       <td>Como usuario móvil quiero ver el estado y detalles de mis órdenes para seguimiento, sin la opción de realizar pagos.</td>
-      <td>
-        Escenario 1: Visualización de estado y detalles<br>
-        Dado que el usuario móvil está en la sección "Profile" y "Órdenes"<br>
-        Cuando accede a sus órdenes<br>
-        Entonces puede ver el estado actual, fecha de instalación agendada y detalles.<br><br>
-        Escenario 2: No hay órdenes activas<br>
-        Entonces el sistema muestra mensaje indicando que no hay órdenes activas.
-      </td>
+      <td></td>
       <td>EP05</td>
     </tr>
     <!-- EP06 -->
@@ -1841,89 +1762,35 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU20</td>
       <td>Monitoreo de Plantas</td>
       <td>Como usuario doméstico quiero realizar el monitoreo de mis plantas para saber sus estadísticas.</td>
-      <td>
-        Escenario 1: Estadísticas registradas.<br><br>
-        Dado que el usuario está en la vista de "Analytics"<br>
-        Y existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas<br>
-        Entonces se deben mostrar distintos datos de humedad, iluminación y temperatura.<br><br>
-        Escenario 2: Falta de estadísticas registradas<br><br>
-        Dado que el usuario está en la vista de "Analytics"<br>
-        Y aún no existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas <br>
-        Entonces se debe mostrar un mensaje que mencione que los datos aún están siendo registrados.<br><br>
-      </td>
+      <td></td>
       <td>EP06</td>
     </tr>
     <tr>
       <td>HU21</td>
       <td>Monitoreo de Plantaciones</td>
       <td>Como usuario empresarial quiero realizar el monitoreo de mis plantaciones para saber sus estadísticas.</td>
-      <td>
-        Escenario 1: Estadísticas registradas.<br><br>
-        Dado que el usuario web está en la vista de "Analytics"<br>
-        Y existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas<br>
-        Entonces se deben mostrar distintos datos de consumo energético, agua, datos de humedad, iluminación y temperaturas generales.<br><br>
-        Escenario 2: Falta de estadísticas registradas<br><br>
-        Dado que el usuario está en la vista de "Analytics"<br>
-        Y aún no existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas <br>
-        Entonces se debe mostrar un mensaje que mencione que los datos aún están siendo registrados.<br><br>
-      </td>
+      <td></td>
       <td>EP06</td>
     </tr>
     <tr>
       <td>HU22</td>
       <td>Monitoreo de Plantaciones móvil</td>
       <td>Como usuario empresarial móvil quiero realizar el monitoreo de mis plantaciones para saber sus estadísticas en la app móvil.</td>
-      <td>
-        Escenario 1: Estadísticas registradas.<br><br>
-        Dado que el usuario móvil está en la vista de "Analytics"<br>
-        Y existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas<br>
-        Entonces se deben mostrar distintos datos de consumo energético, agua, datos de humedad, iluminación y temperaturas generales.<br><br>
-        Escenario 2: Falta de estadísticas registradas<br><br>
-        Dado que el usuario móvil está en la vista de "Analytics"<br>
-        Y aún no existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas <br>
-        Entonces se debe mostrar un mensaje que mencione que los datos aún están siendo registrados.<br><br>
-      </td>
+      <td></td>
       <td>EP06</td>
     </tr>
     <tr>
       <td>HU23</td>
       <td>Monitoreo de Plantas móvil</td>
       <td>Como usuario doméstico móvil quiero realizar el monitoreo de mis plantas para saber sus estadísticas.</td>
-      <td>
-        Escenario 1: Estadísticas registradas.<br><br>
-        Dado que el usuario doméstico móvil está en la vista de "Analytics"<br>
-        Y existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas<br>
-        Entonces se deben mostrar distintos datos de humedad, iluminación y temperatura.<br><br>
-        Escenario 2: Falta de estadísticas registradas<br><br>
-        Dado que el usuario móvil está en la vista de "Analytics"<br>
-        Y aún no existe data registrada de los sensores <br>
-        Cuando observa sus estadísticas <br>
-        Entonces se debe mostrar un mensaje que mencione que los datos aún están siendo registrados.<br><br>
-      </td>
+      <td></td>
       <td>EP06</td>
     </tr>
-    <!-- TS02 -->
     <tr>
       <td>TS02</td>
       <td>Registro de estadísticas</td>
       <td>Como desarrollador, quiero que la API procese y envíe datos estadísticos de manera optimizada y estructurada, para que el frontend los reciba listos para su uso y representación sin necesidad de procesamiento adicional.</td>
-      <td>
-        Escenario 1: La API devuelve datos estadísticos en formato estructurado<br><br>
-        Dado que la API recibe una solicitud de estadísticas<br>
-        Cuando procesa los datos<br>
-        Entonces devuelve los datos en un formato optimizado y fácilmente consumible por el frontend.<br><br>
-        Escenario 2: Manejo de errores en la entrega de estadísticas<br>
-        Dado que ocurre un error en el procesamiento de estadísticas<br>
-        Cuando la API no puede refinar los datos o falta información<br>
-        Entonces devuelve un mensaje de error claro y consistente para el frontend.
-      </td>
+      <td></td>
       <td>EP06</td>
     </tr>
     <!-- EP07 -->
@@ -1938,57 +1805,21 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU24</td>
       <td>Cartera de pagos</td>
       <td>Como usuario doméstico y empresarial quiero tener una cartera de pagos para tener distintos medios de pago.</td>
-      <td>
-        Escenario 1: Visualización de medios de pago disponibles<br>
-        Dado que el usuario está en la sección de pagos o configuración de pagos<br>
-        Cuando accede a la cartera de pagos<br>
-        Entonces se muestran los distintos medios de pago disponibles (tarjetas, PayPal, etc.)<br><br>
-        Escenario 2: Añadir nuevo medio de pago<br>
-        Dado que el usuario está en la sección de cartera de pagos<br>
-        Cuando añade un nuevo método de pago válido<br>
-        Entonces el sistema agrega el método a su cartera y lo muestra disponible para futuras transacciones.<br><br>
-        Escenario 3: Eliminación de medio de pago<br>
-        Dado que el usuario tiene métodos de pago en su cartera<br>
-        Cuando elimina un método de pago<br>
-        Entonces el sistema lo elimina y ya no estará disponible para pagos futuros.
-      </td>
+      <td></td>
       <td>EP07</td>
     </tr>
     <tr>
       <td>HU25</td>
       <td>Historial de pagos</td>
       <td>Como usuario quiero ver el historial de mis pagos para controlar mis gastos y acceder a comprobantes.</td>
-      <td>
-        Escenario 1: Visualización de historial completo<br>
-        Dado que el usuario está autenticado y en la sección "Historial de pagos"<br>
-        Cuando accede a su historial de pagos<br>
-        Entonces el sistema muestra una lista con todas las transacciones realizadas, incluyendo fecha, monto, método de pago y estado.<br><br>
-        Escenario 2: Filtrado por fecha y tipo de pago<br>
-        Dado que el usuario está en la sección "Historial de pagos"<br>
-        Cuando aplica un filtro por rango de fechas, estado de orden o tipo de pago<br>
-        Entonces el sistema muestra únicamente las transacciones que cumplen con los criterios seleccionados.<br><br>
-      </td>
+      <td></td>
       <td>EP07</td>
     </tr>
-    <!-- TS03 -->
     <tr>
       <td>TS03</td>
       <td>Integración de Stripe para gestión de historial de pagos</td>
       <td>Como desarrollador quiero integrar la API de Stripe en nuestro sistema para manejar el historial de pagos y las transacciones de manera segura y eficiente.</td>
-      <td>
-        Escenario 1: Integración exitosa de la API<br>
-        Dado que el sistema realiza una solicitud a Stripe para obtener el historial de pagos<br>
-        Cuando Stripe responde con los datos<br>
-        Entonces el sistema debe almacenar y mostrar la información correctamente en el frontend.<br><br>
-        Escenario 2: Manejo de errores en la comunicación con Stripe<br>
-        Dado que ocurre un error de conexión o respuesta incorrecta desde Stripe<br>
-        Cuando el sistema intenta obtener datos<br>
-        Entonces debe manejar el error adecuadamente mostrando mensajes claros o registrando el error para soporte.<br><br>
-        Escenario 3: Seguridad y control de acceso<br>
-        Dado que la información de pagos es sensible<br>
-        Cuando se muestran datos al usuario<br>
-        Entonces solo el usuario autorizado puede ver su historial de pagos, cumpliendo con normativas de protección de datos.
-      </td>
+      <td></td>
       <td>EP07</td>
     </tr>
     <!-- EP08 -->
@@ -2003,74 +1834,28 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU26</td>
       <td>Registro y gestión de dispositivos IoT</td>
       <td>Como maker quiero registrar y gestionar los dispositivos (sensores, edge nodes) para mantener el control y la visibilidad sobre ellos y continuar con el proceso de orden.</td>
-      <td>
-        Escenario 1: Configuración exitosa de dispositivo.<br>
-        Dado que el maker está instalando los dispositivos.<br>
-        Cuando prueba un dispositivo registrado en la orden.<br>
-        Y la conexión con el edge node y la aplicación es exitosa.<br>
-        Entonces el sistema actualiza la orden a estado "Operativo".<br><br>
-        Escenario 2: Error al registrar dispositivo.<br>
-        Dado que el maker no logra conectar el dispositivo.<br>
-        Entonces el sistema muestra un mensaje de error y no actualiza la orden.
-      </td>
+      <td></td>
       <td>EP08</td>
     </tr>
     <tr>
       <td>HU27</td>
       <td>Configuración de parámetros de dispositivos IoT</td>
       <td>Como maker quiero configurar los parámetros de los dispositivos (umbrales, frecuencias de muestreo) para optimizar la recolección de datos según el entorno.</td>
-      <td>
-        Escenario 1: Configuración exitosa.<br>
-        Dado que el maker está conectado a un dispositivo.<br>
-        Cuando actualiza los parámetros de umbral y frecuencia.<br>
-        Entonces el dispositivo guarda la nueva configuración y confirma la actualización.<br><br>
-        Escenario 2: Fallo en la configuración.<br>
-        Dado que el maker intenta configurar un dispositivo fuera de rango o desconectado.<br>
-        Entonces el sistema muestra un mensaje de error y no aplica los cambios.
-      </td>
+      <td></td>
       <td>EP08</td>
     </tr>
     <tr>
       <td>HU28</td>
       <td>Reporte de mantenimiento de dispositivos IoT</td>
       <td>Como maker quiero conocer el estado de dispositivos para saber cuáles necesitan revisión o reemplazo.</td>
-      <td>
-        Escenario 1: Identificación exitosa.<br>
-        Dado que el maker solicita un reporte de estado.<br>
-        Cuando el sistema procesa el historial y estado de los dispositivos.<br>
-        Entonces muestra devuelve información de los dispositivos que requieren mantenimiento.<br><br>
-        Escenario 2: Error al generar identificar errores.<br>
-        Dado que el maker solicita un reporte de estado.<br>
-        Cuando no se puede identificar el problema.<br>    
-        Entonces se reporta que el maker debería revisar el dispositivo más exhaustivamente.
-      </td>
+      <td></td>
       <td>EP08</td>
     </tr>
     <tr>
       <td>HU29</td>
       <td>Vinculación en cadena de dispositivos IoT a Edge, FOG y Sistema central</td>
-      <td>
-        Como maker quiero vincular sensores IoT a los edge nodes, estos a nodos FOG, y finalmente al sistema central, 
-        para asegurar que los datos fluyan correctamente y se mantenga la integridad y comunicación entre todos los niveles y completar el proceso de instalación de la orden.
-      </td>
-      <td>
-        Escenario 1: Vinculación exitosa de sensor a edge node.<br>
-        Dado que el maker tiene un sensor IoT listo para instalar.<br>
-        Cuando vincula el sensor al edge node asignado.<br>
-        Entonces el sensor se registra correctamente en el edge node y confirma conexión activa.<br><br>
-        Escenario 2: Vinculación exitosa de edge node a nodo FOG en casos empresariales.<br>
-        Dado que el edge node está vinculado a sensores.<br>
-        Cuando el maker vincula el edge node al nodo FOG correspondiente.<br>
-        Entonces el nodo FOG reconoce al edge node y confirma la conexión.<br><br>
-        Escenario 3: Vinculación exitosa del nodo FOG al sistema central.<br>
-        Dado que el nodo FOG tiene edge nodes vinculados.<br>
-        Cuando el sistema central recibe conexión y datos del nodo FOG.<br>
-        Entonces el sistema central registra el nodo FOG y establece comunicación segura.<br><br>
-        Escenario 4: Error en vinculación en cualquier nivel.<br>
-        Dado que el maker intenta vincular dispositivos.<br>
-        Cuando ocurre un error en la conexión o autenticación.<br>
-        Entonces el sistema muestra mensajes de error claros y solicita corrección o reintento.<br>
-      </td>
+      <td>Como maker quiero vincular sensores IoT a los edge nodes, estos a nodos FOG, y finalmente al sistema central, para asegurar que los datos fluyan correctamente y se mantenga la integridad y comunicación entre todos los niveles y completar el proceso de instalación de la orden.</td>
+      <td></td>
       <td>EP08</td>
     </tr>
     <!-- EP09 -->
@@ -2085,64 +1870,28 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>TS04</td>
       <td>Implementación de autenticación con JWT</td>
       <td>Como desarrollador quiero implementar JWT para autenticar usuarios y makers de manera segura y escalable, garantizando la protección de sesiones y datos sensibles.</td>
-      <td>
-        Escenario 1: Emisión y validación de token JWT exitosa.<br>
-        Dado que un usuario o maker ingresa credenciales válidas.<br>
-        Cuando el sistema genera un token JWT.<br>
-        Entonces el token se emite correctamente y se utiliza para autenticar solicitudes posteriores.<br><br>
-        Escenario 2: Token JWT inválido o expirado.<br>
-        Dado que un token JWT está expirado o manipulado.<br>
-        Cuando el sistema recibe una solicitud con dicho token.<br>
-        Entonces la solicitud es rechazada y se solicita reautenticación.
-      </td>
+      <td></td>
       <td>EP09</td>
     </tr>
     <tr>
       <td>TS05</td>
       <td>Gestión segura de API Keys en variables de entorno</td>
       <td>Como desarrollador quiero gestionar las API Keys y secretos en variables de entorno para evitar exponer información sensible en el código fuente y facilitar la rotación de claves.</td>
-      <td>
-        Escenario 1: API Keys correctamente almacenadas en variables de entorno.<br>
-        Dado que se requiere acceder a servicios externos.<br>
-        Cuando el sistema lee las claves desde variables de entorno.<br>
-        Entonces las claves se usan sin estar expuestas en el repositorio.<br><br>
-        Escenario 2: Error por claves no configuradas.<br>
-        Dado que una variable de entorno no está configurada.<br>
-        Cuando el sistema intenta usar la API Key.<br>
-        Entonces se genera un error claro y se detiene el proceso para evitar fallos silenciosos.
-      </td>
+      <td></td>
       <td>EP09</td>
     </tr>
     <tr>
       <td>TS06</td>
       <td>Implementación de políticas de acceso y roles</td>
       <td>Como administrador quiero definir roles y permisos para controlar el acceso a funcionalidades y datos, asegurando que cada tipo de usuario (usuario, maker, admin) sólo pueda realizar las acciones permitidas.</td>
-      <td>
-        Escenario 1: Asignación de roles y control de acceso exitoso.<br>
-        Dado que un usuario o maker tiene un rol asignado.<br>
-        Cuando intenta acceder a una funcionalidad.<br>
-        Entonces el sistema permite o deniega el acceso según los permisos del rol.<br><br>
-        Escenario 2: Acceso denegado por permisos insuficientes.<br>
-        Dado que un usuario intenta acceder a una funcionalidad para la que no tiene permiso.<br>
-        Cuando realiza la acción.<br>
-        Entonces el sistema muestra un mensaje de acceso denegado.
-      </td>
+      <td></td>
       <td>EP09</td>
     </tr>
     <tr>
       <td>TS07</td>
       <td>Seguridad y validación en procesos de pago</td>
       <td>Como desarrollador quiero asegurar que los pagos se procesen de forma segura, validando tokens y datos sensibles para evitar fraudes y proteger la información financiera de los usuarios.</td>
-      <td>
-        Escenario 1: Pago validado y procesado exitosamente.<br>
-        Dado que el usuario envía información de pago válida.<br>
-        Cuando el sistema valida y procesa el pago.<br>
-        Entonces se confirma la transacción y se actualiza el estado de la orden.<br><br>
-        Escenario 2: Pago rechazado por validación fallida.<br>
-        Dado que la información de pago es inválida o sospechosa.<br>
-        Cuando el sistema detecta el problema.<br>
-        Entonces se rechaza el pago y se informa al usuario del error.
-      </td>
+      <td></td>
       <td>EP09</td>
     </tr>
     <!-- EP10 -->
@@ -2156,78 +1905,29 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
     <tr>
       <td>HU30</td>
       <td>Registro de pregunta de usuario doméstico/empresarial</td>
-      <td>
-        Como usuario doméstico o empresarial quiero registrar una pregunta para recibir soporte especializado.
-      </td>
-      <td>
-        Escenario 1: Registro exitoso de pregunta.<br>
-        Dado que el usuario está en la vista "Consulting"<br>
-        Cuando llena el formulario con el texto de la pregunta<br>
-        Y selecciona la planta o plantación correspondiente<br>
-        Y opcionalmente sube una imagen<br>
-        Entonces el sistema guarda la pregunta con estado "In Queue"<br>
-        Y muestra un mensaje de confirmación al usuario.<br><br>
-        Escenario 2: Error en registro por falta de datos.<br>
-        Dado que el usuario está en la vista "Consulting"<br>
-        Cuando intenta enviar una pregunta sin texto o sin asignar planta/plantación<br>
-        Entonces el sistema muestra una advertencia solicitando completar los campos obligatorios.<br>
-      </td>
+      <td>Como usuario doméstico o empresarial quiero registrar una pregunta para recibir soporte especializado.</td>
+      <td></td>
       <td>EP10</td>
     </tr>
     <tr>
       <td>HU31</td>
       <td>Visualización y gestión de preguntas para especialista</td>
-      <td>
-        Como especialista quiero ver el listado de preguntas en las categorías "In Queue", "In Process" y "Answered/Closed" para gestionar las solicitudes de soporte.
-      </td>
-      <td>
-        Escenario 1: Visualización de preguntas organizadas.<br>
-        Dado que el especialista está en la vista "Consulting"<br>
-        Cuando accede a la lista de preguntas<br>
-        Entonces el sistema muestra las preguntas agrupadas por estado ("In Queue", "In Process", "Answered/Closed")<br>
-        Y muestra detalles básicos: usuario, planta/plantación asociada, fecha y resumen de la pregunta.<br><br>
-        Escenario 2: No hay preguntas en alguna categoría.<br>
-        Dado que el especialista está en la vista "Consulting"<br>
-        Cuando alguna categoría no tiene preguntas<br>
-        Entonces el sistema muestra un mensaje indicándolo.<br>
-      </td>
+      <td>Como especialista quiero ver el listado de preguntas en las categorías "In Queue", "In Process" y "Answered/Closed" para gestionar las solicitudes de soporte.</td>
+      <td></td>
       <td>EP10</td>
     </tr>
     <tr>
       <td>HU32</td>
       <td>Responder pregunta y cambiar estado</td>
-      <td>
-        Como especialista quiero responder una pregunta y cambiar su estado para cerrar el ciclo de soporte al usuario.
-      </td>
-      <td>
-        Escenario 1: Respuesta y cierre exitoso.<br>
-        Dado que el especialista accede a una pregunta en estado "In Queue" o "In Process"<br>
-        Cuando escribe y envía una respuesta<br>
-        Entonces el sistema guarda la respuesta, cambia el estado a "Answered/Closed"<br>
-        Y notifica al usuario sobre la respuesta.<br><br>
-        Escenario 2: Error al enviar respuesta.<br>
-        Dado que el especialista intenta enviar una respuesta vacía<br>
-        Entonces el sistema muestra un mensaje de error y no cambia el estado.<br>
-      </td>
+      <td>Como especialista quiero responder una pregunta y cambiar su estado para cerrar el ciclo de soporte al usuario.</td>
+      <td></td>
       <td>EP10</td>
     </tr>
     <tr>
       <td>HU33</td>
       <td>Solicitar ayuda adicional en pregunta</td>
-      <td>
-        Como especialista quiero poder solicitar ayuda adicional en una pregunta para obtener información de la planta relacionada y brindar mejor soporte.
-      </td>
-      <td>
-        Escenario 1: Solicitud de ayuda y consulta de información.<br>
-        Dado que el especialista está viendo una pregunta<br>
-        Cuando presiona el botón "Need Help?"<br>
-        Entonces el sistema muestra la información registrada de la planta o plantación asociada a la pregunta. <br>
-        Y se llama a la API externa para conseguir información adicional de la planta.<br><br>
-        Escenario 2: Información no disponible.<br>
-        Dado que la planta o plantación no tiene información registrada en la API externas<br>
-        Cuando el especialista solicita ayuda<br>
-        Entonces el sistema muestra un mensaje indicando que no hay información adicional disponible.<br>
-      </td>
+      <td>Como especialista quiero poder solicitar ayuda adicional en una pregunta para obtener información de la planta relacionada y brindar mejor soporte.</td>
+      <td></td>
       <td>EP10</td>
     </tr>
     <!-- EP11 -->
@@ -2242,34 +1942,14 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU34</td>
       <td>Edición de datos personales</td>
       <td>Como usuario quiero poder editar mis datos personales (nombre, correo, teléfono) para mantener mi perfil actualizado.</td>
-      <td>
-        Escenario 1: Edición exitosa.<br>
-        Dado que el usuario está en la vista de perfil<br>
-        Cuando modifica sus datos personales con información válida<br>
-        Y guarda los cambios<br>
-        Entonces el sistema actualiza los datos y muestra un mensaje de confirmación.<br><br>
-        Escenario 2: Error en edición.<br>
-        Dado que el usuario ingresa datos inválidos o incompletos<br>
-        Cuando intenta guardar<br>
-        Entonces el sistema muestra mensajes de error y no guarda los cambios.
-      </td>
+      <td></td>
       <td>EP11</td>
     </tr>
     <tr>
       <td>HU35</td>
       <td>Cambio de contraseña</td>
       <td>Como usuario quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.</td>
-      <td>
-        Escenario 1: Cambio exitoso.<br>
-        Dado que el usuario está en la vista de perfil y proporciona la contraseña actual válida<br>
-        Cuando ingresa y confirma la nueva contraseña válida<br>
-        Y guarda los cambios<br>
-        Entonces el sistema actualiza la contraseña y muestra confirmación.<br><br>
-        Escenario 2: Error en el cambio.<br>
-        Dado que el usuario ingresa la contraseña actual incorrecta o la nueva contraseña no cumple criterios<br>
-        Cuando intenta guardar<br>
-        Entonces el sistema muestra errores y no cambia la contraseña.
-      </td>
+      <td></td>
       <td>EP11</td>
     </tr>
     <!-- EP12 -->
@@ -2284,90 +1964,35 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU36</td>
       <td>Edición de planta</td>
       <td>Como usuario quiero poder editar los datos de mis plantas para corregir o actualizar información importante.</td>
-      <td>
-        Escenario 1: Edición exitosa.<br>
-        Dado que el usuario está en la vista "Mis Plantas"<br>
-        Cuando selecciona una planta y accede al formulario de edición<br>
-        Y modifica campos válidos<br>
-        Y guarda los cambios<br>
-        Entonces el sistema actualiza la información y muestra un mensaje de confirmación.<br><br>    
-        Escenario 2: Error en edición.<br>
-        Dado que el usuario intenta guardar cambios con datos inválidos o incompletos<br>
-        Entonces el sistema muestra advertencias y no guarda los cambios.
-      </td>
+      <td></td>
       <td>EP12</td>
     </tr>
     <tr>
       <td>HU37</td>
       <td>Eliminación de planta</td>
       <td>Como usuario quiero poder eliminar una planta para gestionar solo las plantas activas en mi perfil.</td>
-      <td>
-        Escenario 1: Eliminación confirmada.<br>
-        Dado que el usuario está en la vista "Mis Plantas"<br>
-        Cuando selecciona una planta y solicita eliminarla<br>
-        Y confirma la eliminación en el diálogo<br>
-        Entonces el sistema elimina la planta y actualiza la lista.<br><br>  
-        Escenario 2: Cancelación de eliminación.<br>
-        Dado que el usuario abre el diálogo para eliminar una planta<br>
-        Cuando cancela la acción<br>
-        Entonces el sistema mantiene la planta sin cambios.
-      </td>
+      <td></td>
       <td>EP12</td>
     </tr>
     <tr>
       <td>HU38</td>
       <td>Edición de plantación</td>
       <td>Como usuario empresarial quiero poder editar los datos de mis plantaciones para corregir o actualizar información relevante.</td>
-      <td>
-        Escenario 1: Edición exitosa.<br>
-        Dado que el usuario está en la vista "Mis Plantaciones"<br>
-        Cuando selecciona una plantación y accede al formulario de edición<br>
-        Y modifica campos válidos<br>
-        Y guarda los cambios<br>
-        Entonces el sistema actualiza la información y muestra un mensaje de confirmación.<br><br>    
-        Escenario 2: Error en edición.<br>
-        Dado que el usuario intenta guardar cambios con datos inválidos o incompletos<br>
-        Entonces el sistema muestra advertencias y no guarda los cambios.
-      </td>
+      <td></td>
       <td>EP12</td>
     </tr>
     <tr>
       <td>HU39</td>
       <td>Eliminación de plantación</td>
       <td>Como usuario empresarial quiero poder eliminar una plantación para mantener organizada la información activa en mi perfil.</td>
-      <td>
-        Escenario 1: Eliminación confirmada.<br>
-        Dado que el usuario está en la vista "Mis Plantaciones"<br>
-        Cuando selecciona una plantación y solicita eliminarla<br>
-        Y confirma la eliminación en el diálogo<br>
-        Entonces el sistema elimina la plantación y actualiza la lista.<br><br>   
-        Escenario 2: Cancelación de eliminación.<br>
-        Dado que el usuario abre el diálogo para eliminar una plantación<br>
-        Cuando cancela la acción<br>
-        Entonces el sistema mantiene la plantación sin cambios.
-      </td>
+      <td></td>
       <td>EP12</td>
     </tr>
     <tr>
       <td>HU40</td>
       <td>Edición de umbrales y parámetros de plantas y plantaciones con advertencias</td>
       <td>Como usuario quiero editar los umbrales y parámetros de mis plantas y plantaciones para optimizar su monitoreo, y recibir advertencias si los valores ingresados son riesgosos o poco recomendables.</td>
-      <td>
-        Escenario 1: Edición exitosa con valores recomendados.<br>
-        Dado que el usuario está en la vista de configuración de una planta o plantación<br>
-        Cuando modifica los umbrales y parámetros dentro de rangos recomendados<br>
-        Y guarda los cambios<br>
-        Entonces el sistema actualiza los parámetros y confirma la acción.<br>
-        Y advierte al usuario que cambios al umbral pueden alterar estadísticas.<br><br>
-        Escenario 2: Advertencia por valores riesgosos.<br>
-        Dado que el usuario ingresa valores fuera de los rangos recomendados (muy bajos o altos)<br>
-        Cuando intenta guardar dichos valores<br>
-        Entonces el sistema muestra una advertencia detallando los riesgos asociados<br>
-        Y solicita confirmar la acción para proceder.<br><br>
-        Escenario 3: Valores inválidos o incompletos.<br>
-        Dado que el usuario ingresa datos inválidos o incompletos<br>
-        Entonces el sistema bloquea el guardado y muestra errores específicos.
-      </td>
+      <td></td>
       <td>EP12</td>
     </tr>
     <!-- EP13 -->
@@ -2382,87 +2007,18 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU41</td>
       <td>Visualización de notificaciones en web y móvil</td>
       <td>Como usuario web y móvil quiero ver notificaciones, para revisar las alertas activas o recientes.</td>
-      <td>
-        Escenario 1: Usuario accede a su dashboard o sección de plantas/plantaciones<br>
-        Dado que existen notificaciones activas o nuevas<br>
-        Cuando el usuario visualiza la tarjeta de notificaciones<br>
-        Entonces se muestran las notificaciones con resumen y estado.<br><br>
-        Escenario 2: Usuario sin notificaciones nuevas<br>
-        Dado que no hay notificaciones nuevas<br>
-        Cuando el usuario visualiza la tarjeta de notificaciones<br>
-        Entonces se muestra un mensaje indicando "No hay notificaciones nuevas".<br><br>
-        Escenario 3: Usuario marca notificaciones como leídas<br>
-        Dado que el usuario visualiza las notificaciones<br>
-        Cuando marca una notificación como leída<br>
-        Entonces el sistema actualiza el estado de la notificación.
-      </td>
+      <td></td>
       <td>EP13</td>
     </tr>
     <tr>
       <td>HU42</td>
       <td>Recepción de notificaciones push en móvil</td>
       <td>Como usuario móvil quiero recibir notificaciones push activas para estar informado en tiempo real sobre eventos importantes de mis plantas y plantaciones.</td>
-      <td>
-        Escenario 1: Evento relevante genera notificación push<br>
-        Dado que ocurre un evento relevante (ej. humedad baja, fallo sensor)<br>
-        Cuando el sistema genera la notificación<br>
-        Entonces el usuario recibe la notificación push en su dispositivo móvil.<br><br>
-        Escenario 2: Usuario interactúa con notificación push<br>
-        Dado que el usuario recibe una notificación push<br>
-        Cuando toca la notificación<br>
-        Entonces se abre la app y navega al detalle correspondiente.<br><br>
-        Escenario 3: Usuario desactiva notificaciones push<br>
-        Dado que el usuario desactiva las notificaciones push desde la app<br>
-        Cuando ocurre un evento relevante<br>
-        Entonces el usuario no recibe notificaciones push.
-      </td>
+      <td></td>
       <td>EP13</td>
     </tr>
-    <!-- HU para especialista móvil (instalación) -->
-    <tr>
-      <td>HU43</td>
-      <td>Vista instalación de dispositivos para especialista móvil</td>
-      <td>Como especialista móvil quiero acceder a una vista exclusiva donde pueda ver las órdenes de instalación asignadas para realizar y actualizar el proceso.</td>
-      <td>
-        Escenario 1: Especialista accede a la vista de instalación<br>
-        Dado que el especialista tiene órdenes asignadas<br>
-        Cuando accede a la sección de instalación en la app móvil<br>
-        Entonces ve las órdenes con detalles como ubicación, dispositivos a instalar, y estado.<br><br>
-        Escenario 2: No hay órdenes asignadas<br>
-        Entonces muestra mensaje indicando que no hay órdenes para instalar.
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>HU44</td>
-      <td>Actualizar estado de instalación desde app móvil especialista</td>
-      <td>Como especialista móvil quiero poder actualizar el estado de instalación para informar el avance de la orden.</td>
-      <td>
-        Escenario 1: Estado actualizado exitosamente<br>
-        Dado que el especialista está en la vista de instalación<br>
-        Cuando marca el progreso o finaliza la instalación<br>
-        Entonces el sistema actualiza el estado de la orden y notifica al usuario.<br><br>
-        Escenario 2: Error al actualizar<br>
-        Entonces muestra mensaje de error y no cambia el estado.
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>HU45</td>
-      <td>Visualización de detalles de instalación y dispositivos desde app móvil especialista</td>
-      <td>Como especialista móvil quiero ver la información técnica necesaria para realizar la instalación (tipos de dispositivos, ubicación, configuraciones).</td>
-      <td>
-        Escenario 1: Información visible y clara<br>
-        Dado que el especialista accede a una orden<br>
-        Cuando visualiza la información de instalación<br>
-        Entonces puede ver los dispositivos a instalar, ubicación y pasos.<br><br>
-        Escenario 2: Información incompleta<br>
-        Entonces el sistema muestra alerta para que consulte al administrador.
-      </td>
-      <td>EP05</td>
-    </tr>
     <!-- EP13 - Visualización de datos y consumo de recursos -->
-<tr>
+    <tr>
       <td>EP13</td>
       <td>Visualización de datos y consumo de recursos</td>
       <td>Como usuario quiero ver el consumo de recursos de mis plantas y plantaciones, para optimizar su uso.</td>
@@ -2473,74 +2029,37 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
       <td>HU43</td>
       <td>Visualización de consumo de recursos</td>
       <td>Como usuario consumidor quiero ver el consumo de recursos de energía y agua de mis plantas y plantaciones para optimizar su uso.</td>
-      <td>
-        Escenario 1: Usuario visualiza consumo de recursos<br>
-        Dado que el usuario se encuentra identificado y tiene plantas/plantaciones registradas<br>
-        Cuando revisa la información general de sus plantas/plantaciones<br>
-        Entonces se muestra el consumo de energía y agua en un gráfico de línea.<br><br>
-        Escenario 2: No hay datos de consumo<br>
-        Dado que no hay datos de consumo registrados<br>
-        Cuando el usuario revisa la información<br>
-        Entonces se muestra un mensaje indicando "No hay datos de consumo disponibles".<br><br>
-    </td>
-        <td>EP13</td>
-</tr>
+      <td></td>
+      <td>EP13</td>
+    </tr>
     <tr>
       <td>TS08</td>
       <td>Cálculo de consumo de energía</td>
       <td>Como desarrollador quiero calcular el consumo de energía de las plantas y plantaciones para informar al usuario.</td>
-      <td>
-        Escenario 1: Cálculo exitoso de consumo de energía<br>
-        Dado que se registran datos de sensores de energía<br>
-        Cuando el sistema procesa los datos<br>
-        Entonces calcula el consumo total y lo muestra en el dashboard del usuario.<br><br>
-        Escenario 2: No hay datos de sensores<br>
-        Entonces muestra mensaje indicando "No hay datos de consumo de energía disponibles".<br><br>
-      </td>
+      <td></td>
       <td>EP13</td>
     </tr>
     <tr>
       <td>TS09</td>
       <td>Cálculo de consumo de agua</td>
       <td>Como desarrollador quiero calcular el consumo de agua de las plantas y plantaciones para informar al usuario.</td>
-      <td>
-        Escenario 1: Cálculo exitoso de consumo de agua<br>
-        Dado que se registran datos de sensores de agua<br>
-        Cuando el sistema procesa los datos<br>
-        Entonces calcula el consumo total y lo muestra en el dashboard del usuario.<br><br>
-        Escenario 2: No hay datos de sensores<br>
-        Entonces muestra mensaje indicando "No hay datos de consumo de agua disponibles".<br><br>
-      </td>
+      <td></td>
       <td>EP13</td>
     </tr>
     <tr>
       <td>TS10</td>
       <td>Cálculo de niveles de humedad en porcentaje</td>
       <td>Como desarrollador quiero calcular los niveles de humedad en porcentaje para mostrar la información más efectiva.</td>
-      <td>
-        Escenario 1: Cálculo exitoso de niveles de humedad<br>
-        Dado que se registran datos de sensores de humedad<br>
-        Cuando el sistema procesa los datos<br>
-        Entonces calcula el nivel de humedad en porcentaje y lo muestra en el dashboard del usuario.<br><br>
-        Escenario 2: No hay datos de sensores<br>
-        Entonces muestra mensaje indicando "No hay datos de humedad disponibles".<br><br>
-        </td>
+      <td></td>
       <td>EP13</td>
     </tr>
     <tr>
       <td>TS11</td>
       <td>Cálculo de niveles de luz en porcentaje</td>
       <td>Como desarrollador quiero calcular los niveles de luz en porcentaje para mostrar la información más efectiva.</td>
-        <td>
-            Escenario 1: Cálculo exitoso de niveles de luz<br>
-            Dado que se registran datos de sensores de luz<br>
-            Cuando el sistema procesa los datos<br>
-            Entonces calcula el nivel de luz en porcentaje y lo muestra en el dashboard del usuario.<br><br>
-            Escenario 2: No hay datos de sensores<br>
-            Entonces muestra mensaje indicando "No hay datos de luz disponibles".<br><br>
-        </td>
-        <td>EP13</td>
-</tr>
+      <td></td>
+      <td>EP13</td>
+    </tr>
   </tbody>
 </table>
 
@@ -3880,6 +3399,7 @@ Backend:
 | Clase                        | Descripción |
 |------------------------------------|-------------|
 | `ExternalPlantService`             | Implementación del contrato definido para la interacción con el servicio externo de plantas. |
+
 
 
 #### 4.2.2.4. Infrastructure Layer.
