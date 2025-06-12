@@ -2475,10 +2475,184 @@ La arquitectura de despliegue distribuye sus componentes en servidores web, disp
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context: Management
+### 4.2.1. Bounded Context: Operation and Monitoring
 
 #### 4.2.1.1. Domain Layer
 
+
+Embedded:
+
+En esta capa se describen las clases que representan el modelo de la aplicación embebida. Incluye sensores, actuadores, cliente del servidor y el controlador del dispositivo.
+
+
+## Dispositivo Principal
+
+### `MonitorinPlantDevice`
+
+| Atributo                | Tipo             |
+|-------------------------|------------------|
+| lightSensor             | LightSensor      |
+| waterSensor             | WaterSensor      |
+| temperatureSensor       | TemperatureSensor|
+| edgeServerClient        | EdgeServerClient |
+| WATER_PIN               | static const int |
+| TEMPERATURE_PIN         | static const int |
+| LIGHT_PIN               | static const int |
+
+| Método                           | Descripción                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| `MonitorinPlantDevice(...)`      | Constructor del dispositivo con los pines de cada sensor.                  |
+| `getLightSensor()`               | Retorna el sensor de luz.                                                  |
+| `getWaterSensor()`               | Retorna el sensor de humedad de agua.                                      |
+| `getTemperatureSensor()`         | Retorna el sensor de temperatura.                                          |
+| `init()`                         | Inicializa el dispositivo.                                                 |
+| `print(message: string)`         | Imprime un mensaje en el sistema (debug).                                  |
+| `handle(command: Command)`       | Maneja comandos entrantes.                                                 |
+| `on(event: Event)`               | Maneja eventos entrantes.                                                  |
+| `triggerWaterSensor()`           | Ejecuta la lectura y procesamiento del sensor de agua.                     |
+| `triggerLightSensor()`           | Ejecuta la lectura y procesamiento del sensor de luz.                      |
+| `triggerTemperatureSensor()`     | Ejecuta la lectura y procesamiento del sensor de temperatura.              |
+| `updateLightValue(value: float)` | Actualiza el valor medido por el sensor de luz.                            |
+| `updateTemperatureValue(value: float)` | Actualiza el valor medido por el sensor de temperatura.               |
+
+---
+
+## 🌡️ Sensores
+
+### `Sensor` (Clase abstracta)
+
+| Atributo        | Tipo         |
+|-----------------|--------------|
+| pin             | int          |
+| eventHandler    | EventHandler*|
+
+| Método                        | Descripción                                 |
+|-------------------------------|---------------------------------------------|
+| `Sensor(...)`                 | Constructor de clase base.                  |
+| `setHandler(EventHandler*)`   | Asigna un manejador de eventos.             |
+| `on(event: Event)`            | Maneja un evento.                           |
+
+---
+
+### `WaterSensor`
+
+| Atributo                  | Tipo           |
+|---------------------------|----------------|
+| TRIGGER_WATER_EVENT       | static Event   |
+| TRIGGER_WATER_EVENT_ID    | int            |
+
+| Método              | Descripción                                             |
+|---------------------|---------------------------------------------------------|
+| `WaterSensor(...)`  | Constructor con pin y handler.                          |
+| `getValue()`        | Retorna el valor medido (ej. humedad del suelo).        |
+
+---
+
+### `TemperatureSensor`
+
+| Atributo                    | Tipo         |
+|-----------------------------|--------------|
+| TRIGGER_TEMPERATURE_EVENT   | static Event |
+| TRIGGER_TEMPERATURE_EVENT_ID| int          |
+
+| Método                    | Descripción                                           |
+|---------------------------|-------------------------------------------------------|
+| `TemperatureSensor(...)`  | Constructor con pin y handler.                        |
+| `getValue()`              | Retorna el valor de temperatura actual.               |
+
+---
+
+### `LightSensor`
+
+| Atributo                  | Tipo             |
+|---------------------------|------------------|
+| TRIGGER_LIGHT_EVENT       | static Event     |
+| TRIGGER_LIGHT_EVENT_ID    | static const int |
+
+| Método              | Descripción                                        |
+|---------------------|----------------------------------------------------|
+| `LightSensor(...)`  | Constructor con pin y handler.                     |
+| `getValue()`        | Retorna el valor de intensidad de luz.            |
+
+---
+
+## Dispositivos y Actuadores
+
+### `Device` (Clase abstracta)
+
+| Método                        | Descripción                                  |
+|-------------------------------|----------------------------------------------|
+| `handle(command: Command)`    | Maneja un comando recibido.                  |
+| `on(event: Event)`            | Maneja un evento recibido.                   |
+
+---
+
+### `Actuator`
+
+| Atributo           | Tipo                |
+|--------------------|---------------------|
+| pin                | int                 |
+| commandHandler     | CommandHandler*     |
+
+| Método                           | Descripción                                       |
+|----------------------------------|---------------------------------------------------|
+| `Actuator(...)`                  | Constructor con pin y handler.                    |
+| `setHandler(CommandHandler*)`    | Asigna un manejador de comandos.                 |
+| `handle(command: Command)`       | Ejecuta un comando sobre el actuador.            |
+
+---
+
+## Interfaces
+
+### `EventHandler`
+
+| Método              | Descripción                                 |
+|---------------------|---------------------------------------------|
+| `on(event: Event)`  | Define la acción ante un evento recibido.   |
+
+---
+
+### `CommandHandler`
+
+| Método                    | Descripción                                  |
+|---------------------------|----------------------------------------------|
+| `handle(command: Command)`| Define la acción ante un comando recibido.   |
+
+---
+
+##  Comunicación
+
+### `WifiSecureClient`
+
+ Propósito: Cliente genérico de red para enviar datos de manera segura.
+
+---
+
+### `EdgeServerClient`
+
+| Atributo     | Tipo             |
+|--------------|------------------|
+| serverUrl    | string           |
+| deviceId     | string           |
+| client       | WifiSecureClient |
+
+---
+
+## Composición de Datos
+
+### `Event`
+
+| Atributo | Tipo |
+|----------|------|
+| id       | int  |
+
+---
+
+### `Command`
+
+| Atributo | Tipo |
+|----------|------|
+| id       | int  |
 
 
 Web App:
@@ -2714,6 +2888,8 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 #### 4.2.1.2. Interface Layer.
 
 
+Embedded 
+- No aplica para este caso
 
 Web App:
 
@@ -2964,6 +3140,10 @@ Mobile App:
 Backend:
 
 <img src="../assets/class-diagrams/domain-layer-diagram-management.png" alt="management class diagram on Api" />
+
+Embedded App:
+
+<img src="../assets/class-diagrams/embedded/embeddedApp.jpeg" alt="Embedded App"/>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
