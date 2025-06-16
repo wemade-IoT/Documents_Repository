@@ -905,13 +905,40 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 
 ## 1.3. Segmentos objetivo.
 
-|             | Segmento 1                                                                            | Segmento 2                                                                                                                                                                                                                                                               | Segmento 3                                                                                                                                                     |
-|-------------|---------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Variables   | Doméstico                                                                             | Negocios                                                                                                                                                                                                                                                                 | Especialistas                                                                                                                                                  |
-| Geográfica  | Depende de la ubicación del hogar del usuario                                         | Ubicación cercana al servicio y/o ubicados en áreas donde las industrias agrícolas, la agricultura urbana o sectores relacionados con las plantas están activos.                                                                                                         | Generalmente ubicados en centros de asesoría agrícola o jardines botánicos.                                                                                    |
-| Demográfica | Diversidad en edad y género                                                           | Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines.                                                                                                                                                       | Edad adulta, profesionales con formación en agronomía o áreas relacionadas con el medio ambiente, generalmente con experiencia práctica en el sector agrícola. |
-| Psicológica | Actitud hacia la adopción de herramientas tecnológicas para el cuidado de sus plantas | Una fuerte inclinación hacia la innovación y la eficiencia en el sector Agricola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad. | Apasionados por la sostenibilidad, el uso de nuevas tecnologías y la innovación en el cuidado de plantas. Buscan soluciones prácticas basadas en datos.        |
----
+<center>
+<table border="1">
+  <tr>
+    <td></td>
+    <td><b>Segmento 1</b></td>
+    <td><b>Segmento 2</b></td>
+    <td><b>Segmento 3</b></td>
+  </tr>
+  <tr>
+    <td><b>Variables</b></td>
+    <td>Doméstico</td>
+    <td>Negocios</td>
+    <td>Especialistas</td>
+  </tr>
+  <tr>
+    <td><b>Geográfica</b></td>
+    <td>Depende de la ubicación del hogar del usuario</td>
+    <td>Ubicación cercana al servicio y/o ubicados en áreas donde las industrias agrícolas, la agricultura urbana o sectores relacionados con las plantas están activos.</td>
+    <td>Generalmente ubicados en centros de asesoría agrícola o jardines botánicos.</td>
+  </tr>
+  <tr>
+    <td><b>Demográfica</b></td>
+    <td>Diversidad en edad y género</td>
+    <td>Edad adulta, posiblemente con formación universitaria en áreas relacionadas con las industrias agrícolas y afines.</td>
+    <td>Edad adulta, profesionales con formación en agronomía o áreas relacionadas con el medio ambiente, generalmente con experiencia práctica en el sector agrícola.</td>
+  </tr>
+  <tr>
+    <td><b>Psicológica</b></td>
+    <td>Actitud hacia la adopción de herramientas tecnológicas para el cuidado de sus plantas</td>
+    <td>Una fuerte inclinación hacia la innovación y la eficiencia en el sector Agrícola. Las empresas de este segmento son propensas a adoptar nuevas tecnologías, especialmente soluciones IoT que mejoren la eficiencia operativa, reduzcan costos y aseguren sostenibilidad.</td>
+    <td>Apasionados por la sostenibilidad, el uso de nuevas tecnologías y la innovación en el cuidado de plantas. Buscan soluciones prácticas basadas en datos.</td>
+  </tr>
+</table>
+</center>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
