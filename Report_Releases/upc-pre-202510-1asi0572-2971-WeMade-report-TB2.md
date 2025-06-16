@@ -680,11 +680,32 @@ Finalmente, de los usuarios que retuvimos, esperamos que un 5% nos referencien e
 **Users**  
 En esta sección creamos un Proto-Persona como una suposición de cómo son nuestros usuarios, enfocándonos más en el aspecto de actitud.
 
-| Demográfica                                          | Comportamiento                                                                                                                                                                                                                          | Necesidades / Obstáculos                                                                                                                                                                                                                                            |
-|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Alberto:<br>22 años<br>Entusiasta de botánica        | - Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida                                                                   | - Quiere cuidar de sus plantas<br> - No cuenta con el tiempo para mantenerlas<br> - Busca saber si las está cuidando correctamente<br> - Quiere saber lo necesario para asegurar su crecimiento saludable                                                           |
-| Valentina:<br>32 años<br>Ingeniera Agrícola          | - Gana lo esperado<br> - Trabaja en una empresa agrícola<br> - Busca optimizar la producción de su empresa                                                                                                                              | - Necesita saber el estado actual de una gran cantidad de plantaciones<br> - Requiere detectar cualquier problema en las plantaciones<br> - Requiere métricas cuantificables de la producción<br> - La gran cantidad de cultivos produce resultados poco homogéneos |
-| Godofredo:<br>27 años<br>Especialista en Agricultura | - Gana lo esperado<br> - Tiene conocimientos de botánica y el cuidado de plantas<br> - Busca compartir sus conocimientos a personas que buscan aprender mas del tema -Cuenta con una pequeña comunidad aficionada al cuidado de plantas | - Necesita una manera de poder contactar a las personas que este interesadas<br> - Requiere métricas cuantificables y visuales si es posible de el estado de la planta                                                                                              |
+<table style="width:100%; border-collapse: collapse;" border="1">
+  <thead>
+    <tr>
+      <th style="padding: 8px; text-align: left;">Demográfica</th>
+      <th style="padding: 8px; text-align: left;">Comportamiento</th>
+      <th style="padding: 8px; text-align: left;">Necesidades / Obstáculos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>Alberto:</b><br>22 años<br>Entusiasta de botánica</td>
+      <td style="padding: 8px; text-align: left;">- Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida</td>
+      <td style="padding: 8px; text-align: left;">- Quiere cuidar de sus plantas<br> - No cuenta con el tiempo para mantenerlas<br> - Busca saber si las está cuidando correctamente<br> - Quiere saber lo necesario para asegurar su crecimiento saludable</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>Valentina:</b><br>32 años<br>Ingeniera Agrícola</td>
+      <td style="padding: 8px; text-align: left;">- Gana lo esperado<br> - Trabaja en una empresa agrícola<br> - Busca optimizar la producción de su empresa</td>
+      <td style="padding: 8px; text-align: left;">- Necesita saber el estado actual de una gran cantidad de plantaciones<br> - Requiere detectar cualquier problema en las plantaciones<br> - Requiere métricas cuantificables de la producción<br> - La gran cantidad de cultivos produce resultados poco homogéneos</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>Godofredo:</b><br>27 años<br>Especialista en Agricultura</td>
+      <td style="padding: 8px; text-align: left;">- Gana lo esperado<br> - Tiene conocimientos de botánica y el cuidado de plantas<br> - Busca compartir sus conocimientos a personas que buscan aprender mas del tema - Cuenta con una pequeña comunidad aficionada al cuidado de plantas</td>
+      <td style="padding: 8px; text-align: left;">- Necesita una manera de poder contactar a las personas que este interesadas<br> - Requiere métricas cuantificables y visuales si es posible de el estado de la planta</td>
+    </tr>
+  </tbody>
+</table>
 
 Esta tabla refleja los dos principales usuarios que tenemos como suposición, junto con sus necesidades y comportamientos en el área laboral.
 
