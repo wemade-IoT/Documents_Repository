@@ -536,15 +536,47 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 
 Para la elaboración de la descripción de la problemática y antecedentes de la solución, se ha utilizado el método de las 5 'W's y 2 'H's.
 
-|                                             |                                                                                                                                                                                                         |
-|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿What? - ¿Cuál es el problema?              | Pérdida de plantas/cultivos debido a un monitoreo ineficiente de condiciones ambientales (humedad, luz, temperatura).                                                                                   |
-| ¿Who? - ¿Quienes son los beneficiarios?     | Personas sin conocimientos técnicos o profesionales con necesidad de precisión, además de personas con conocimientos en el área que deseen asesorar y apoyar a otras personas en el cuidado de plantas. |
-| ¿Cuando? - ¿Cuando se origina el problema?  | El problema ocurre en momentos críticos como cambios climáticos, durante ausencias del usuario o en etapas clave de crecimiento (floración, germinación).                                               |
-| ¿Why? - ¿Por qué se origina el problema?    | Se origina por la falta de herramientas accesibles para controlar el crecimiento de las plantas o por recomendaciones erróneas o genéricas.                                                             |
-| ¿Where? - ¿Dónde ocurre el problema?        | Espacios con plantas/cultivos: hogares, jardines, oficinas, invernaderos, campos abiertos.                                                                                                              |
-| ¿How? - ¿Como se origina el problema?       | Las plantas muestran signos de deterioro (hojas amarillas, baja producción) de forma gradual, pero el usuario lo nota demasiado tarde.                                                                  |
-| ¿How much? - ¿Cuánto dinero está implicado? | Costo emocional y monetario: entre 20-200 soles por mes para casos domésticos y entre 500-5000 soles por mes en casos de empresas agrícolas (FAO, 2023).                                                |
+<center>
+<table style="width:100%; border-collapse: collapse;" border="1">
+  <thead>
+    <tr>
+      <th style="padding: 8px; text-align: left;">Pregunta</th>
+      <th style="padding: 8px; text-align: left;">Respuesta</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Qué? - ¿Cuál es el problema?</b></td>
+      <td style="padding: 8px; text-align: left;">Pérdida de plantas/cultivos debido a un monitoreo ineficiente de condiciones ambientales (humedad, luz, temperatura).</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Quién? - ¿Quiénes son los beneficiarios?</b></td>
+      <td style="padding: 8px; text-align: left;">Personas sin conocimientos técnicos o profesionales con necesidad de precisión, además de personas con conocimientos en el área que deseen asesorar y apoyar a otras personas en el cuidado de plantas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Cuándo? - ¿Cuándo se origina el problema?</b></td>
+      <td style="padding: 8px; text-align: left;">El problema ocurre en momentos críticos como cambios climáticos, durante ausencias del usuario o en etapas clave de crecimiento (floración, germinación).</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Por qué? - ¿Por qué se origina el problema?</b></td>
+      <td style="padding: 8px; text-align: left;">Se origina por la falta de herramientas accesibles para controlar el crecimiento de las plantas o por recomendaciones erróneas o genéricas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Dónde? - ¿Dónde ocurre el problema?</b></td>
+      <td style="padding: 8px; text-align: left;">Espacios con plantas/cultivos: hogares, jardines, oficinas, invernaderos, campos abiertos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Cómo? - ¿Cómo se origina el problema?</b></td>
+      <td style="padding: 8px; text-align: left;">Las plantas muestran signos de deterioro (hojas amarillas, baja producción) de forma gradual, pero el usuario lo nota demasiado tarde.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: left;"><b>¿Cuánto? - ¿Cuánto dinero está implicado?</b></td>
+      <td style="padding: 8px; text-align: left;">Costo emocional y monetario: entre 20-200 soles por mes para casos domésticos y entre 500-5000 soles por mes en casos de empresas agrícolas (FAO, 2023).</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+
 
 ### 1.2.2 Lean UX Process.
 
