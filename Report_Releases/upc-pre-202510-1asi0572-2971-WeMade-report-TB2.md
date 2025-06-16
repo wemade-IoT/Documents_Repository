@@ -680,6 +680,7 @@ Finalmente, de los usuarios que retuvimos, esperamos que un 5% nos referencien e
 **Users**  
 En esta sección creamos un Proto-Persona como una suposición de cómo son nuestros usuarios, enfocándonos más en el aspecto de actitud.
 
+<center>
 <table style="width:100%; border-collapse: collapse;" border="1">
   <thead>
     <tr>
@@ -706,6 +707,7 @@ En esta sección creamos un Proto-Persona como una suposición de cómo son nues
     </tr>
   </tbody>
 </table>
+</center>
 
 Esta tabla refleja los dos principales usuarios que tenemos como suposición, junto con sus necesidades y comportamientos en el área laboral.
 
@@ -804,16 +806,62 @@ Desarrollar una solución con tecnologías IoT (*Internet of Things*) orientada 
 
 Siguiendo el formato de las Hipótesis, estas están alineadas con las **7 épicas** de nuestro proyecto. Tomar en cuenta que cada hipótesis empieza con "Creemos que...". Estas hipótesis se basan en los 450 usuarios que proyectamos tener.
 
-| **Business Outcome**                                                      | **Persona**                                                                     | **User Outcome**                                                               | **Feature/Solution**                                                           |
-|---------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Mejorar la efectividad del cuidado de las plantas mediante un sistema de monitoreo.**   | Dueños de plantas y empresas agrícolas.                                         | Los usuarios podrán realizar un seguimiento más efectivo de sus plantas, mejorando su salud. | Implementación de sensores que monitoreen las condiciones ambientales (temperatura, humedad, luz). |
-| **Reducir el tiempo invertido en el monitoreo de las plantas.**        | Usuarios interesados en optimizar el crecimiento de sus cultivos.                  | Los usuarios lograrán ahorrar tiempo al automatizar el monitoreo y el riego.    | Sistema automatizado de riego basado en datos en tiempo real y sensores.        |
-| **Optimizar la toma de decisiones sobre el cuidado de las plantas.**   | Usuarios domésticos y empresariales interesados en mejorar el crecimiento de sus cultivos.   | Los usuarios tomarán decisiones informadas para el cuidado de las plantas, basadas en recomendaciones personalizadas. | Recomendaciones automáticas basadas en datos recolectados por sensores de las plantas. |
-| **Aumentar la adopción de plataformas tecnológicas para el cuidado de plantas.**      | Usuarios que no cuentan con herramientas tecnológicas avanzadas para monitorear sus plantas. | Los usuarios se familiarizarán con el uso de tecnologías IoT para el monitoreo y automatización del cuidado de sus plantas. | Implementación de una plataforma multiplataforma (web y móvil) accesible para los usuarios. |
-| **Mejorar la retención de usuarios mediante personalización de alertas.**      | Usuarios satisfechos con la plataforma y el cuidado automatizado de sus plantas. | Los usuarios seguirán utilizando la plataforma gracias a las alertas personalizadas para el riego y mantenimiento. | Sistema de alertas personalizadas para riego, fertilización y cuidados generales. |
-| **Aumentar la eficiencia en la gestión de cultivos agrícolas.**         | Empresas agrícolas que gestionan múltiples cultivos.                            | Las empresas podrán gestionar múltiples cultivos de manera más eficiente y con mayor control. | Plataforma que centraliza datos de cultivo (clima, humedad, plagas, riego). |
-| **Facilitar la adopción de sensores y automatización del riego en la agricultura.** | Agricultores que buscan optimizar el uso de agua y mejorar el rendimiento de sus cultivos. | Los agricultores implementarán sistemas automáticos para riego y monitoreo, mejorando la eficiencia en el uso de recursos. | Integración de sensores IoT para la automatización del riego según condiciones climáticas y del suelo. |
-
+<center>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Business Outcome</th>
+      <th>Persona</th>
+      <th>User Outcome</th>
+      <th>Feature/Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mejorar la efectividad del cuidado de las plantas mediante un sistema de monitoreo.</td>
+      <td>Dueños de plantas y empresas agrícolas.</td>
+      <td>Los usuarios podrán realizar un seguimiento más efectivo de sus plantas, mejorando su salud.</td>
+      <td>Implementación de sensores que monitoreen las condiciones ambientales (temperatura, humedad, luz).</td>
+    </tr>
+    <tr>
+      <td>Reducir el tiempo invertido en el monitoreo de las plantas.</td>
+      <td>Usuarios interesados en optimizar el crecimiento de sus cultivos.</td>
+      <td>Los usuarios lograrán ahorrar tiempo al automatizar el monitoreo y el riego.</td>
+      <td>Sistema automatizado de riego basado en datos en tiempo real y sensores.</td>
+    </tr>
+    <tr>
+      <td>Optimizar la toma de decisiones sobre el cuidado de las plantas.</td>
+      <td>Usuarios domésticos y empresariales interesados en mejorar el crecimiento de sus cultivos.</td>
+      <td>Los usuarios tomarán decisiones informadas para el cuidado de las plantas, basadas en recomendaciones personalizadas.</td>
+      <td>Recomendaciones automáticas basadas en datos recolectados por sensores de las plantas.</td>
+    </tr>
+    <tr>
+      <td>Aumentar la adopción de plataformas tecnológicas para el cuidado de plantas.</td>
+      <td>Usuarios que no cuentan con herramientas tecnológicas avanzadas para monitorear sus plantas.</td>
+      <td>Los usuarios se familiarizarán con el uso de tecnologías IoT para el monitoreo y automatización del cuidado de sus plantas.</td>
+      <td>Implementación de una plataforma multiplataforma (web y móvil) accesible para los usuarios.</td>
+    </tr>
+    <tr>
+      <td>Mejorar la retención de usuarios mediante personalización de alertas.</td>
+      <td>Usuarios satisfechos con la plataforma y el cuidado automatizado de sus plantas.</td>
+      <td>Los usuarios seguirán utilizando la plataforma gracias a las alertas personalizadas para el riego y mantenimiento.</td>
+      <td>Sistema de alertas personalizadas para riego, fertilización y cuidados generales.</td>
+    </tr>
+    <tr>
+      <td>Aumentar la eficiencia en la gestión de cultivos agrícolas.</td>
+      <td>Empresas agrícolas que gestionan múltiples cultivos.</td>
+      <td>Las empresas podrán gestionar múltiples cultivos de manera más eficiente y con mayor control.</td>
+      <td>Plataforma que centraliza datos de cultivo (clima, humedad, plagas, riego).</td>
+    </tr>
+    <tr>
+      <td>Facilitar la adopción de sensores y automatización del riego en la agricultura.</td>
+      <td>Agricultores que buscan optimizar el uso de agua y mejorar el rendimiento de sus cultivos.</td>
+      <td>Los agricultores implementarán sistemas automáticos para riego y monitoreo, mejorando la eficiencia en el uso de recursos.</td>
+      <td>Integración de sensores IoT para la automatización del riego según condiciones climáticas y del suelo.</td>
+    </tr>
+  </tbody>
+</table>
+</center>
 ---
 
 ### Lo más importante que debemos aprender
