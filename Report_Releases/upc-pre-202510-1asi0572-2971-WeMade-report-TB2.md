@@ -1,3 +1,8 @@
+---
+title: "COURSE PROJECT"
+author: "UPC - Ingeniería de Software"
+date: "2025-06-16"
+---
 # <center>COURSE PROJECT</center>
 
 <p align="center">
@@ -692,7 +697,7 @@ En esta sección creamos un Proto-Persona como una suposición de cómo son nues
   <tbody>
     <tr>
       <td style="padding: 8px; text-align: left;"><b>Alberto:</b><br>22 años<br>Entusiasta de botánica</td>
-      <td style="padding: 8px; text-align: left;">- Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida</td>
+      <td style="padding: 8px; text-align: left;">- Tiene trabajo regular que lo mantiene lejos de casa<br> - Gana lo suficiente<br> - Aficionado o interesado en la botánica<br> - Tiene un jardín o plantas que cuida</td> <br>
       <td style="padding: 8px; text-align: left;">- Quiere cuidar de sus plantas<br> - No cuenta con el tiempo para mantenerlas<br> - Busca saber si las está cuidando correctamente<br> - Quiere saber lo necesario para asegurar su crecimiento saludable</td>
     </tr>
     <tr>
@@ -1316,13 +1321,13 @@ Estadísticas y Aspectos comunes:
 Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
 
 <img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
-
+</center>
 33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
-
+</center>
 100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
-
+<center>
 <img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
 </center>
 Necesidades comunes:
@@ -1366,9 +1371,9 @@ Características Subjetivas:
 <center>
 Estadísticas y Aspectos comunes:
 100% de los entrevistados mencionan dificultades con el clima.
-
+<center>
 <img src="../assets/images-interviews/negocios/graphic-data/1_dificultades_clima.png" alt="Cantidad de entrevistados según clima" width="500"/>
-
+</center>
 33% comenta una dificultad con pestes.
 
 <img src="../assets/images-interviews/negocios/graphic-data/2_dificultades-pestes.png" alt="Cantidad de entrevistados según pestes" width="500"/>
@@ -1435,7 +1440,6 @@ Características Subjetivas:
 - Desafíos: Adaptar la solución tecnológica a usuarios con conocimientos básicos en el cuidado de plantas
 <center>
 <img src="../assets/images-interviews/specialist/graphic-data/4_caracteristicas_subjetivas.png" alt="Cantidad de entrevistados según características subjetivas" width="500"/>
-
 </center>
 
 ## 2.3. Needfinding.
@@ -2749,7 +2753,7 @@ En esta capa se describen las clases que representan el modelo de la aplicación
 
 ## Dispositivo Principal
 
-### `MonitorinPlantDevice`
+### MonitorinPlantDevice
 
 | Atributo                | Tipo             |
 |-------------------------|------------------|
@@ -4558,7 +4562,7 @@ Representa una suscripción disponible en la aplicación.
 | ISubscriptionRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscriptions.  |
 | ISubscriptionTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_types |
 | ISubscriptionStateRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_states |
----
+
 #### 4.2.4.2. Interface Layer.
 
 Web App:
