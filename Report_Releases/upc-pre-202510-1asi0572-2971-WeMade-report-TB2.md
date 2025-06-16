@@ -520,15 +520,71 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                                                                                                                                                  | Miembros del equipo         | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/photos-members/Gustavo-Huilca-Chipana.png" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px;" width="1000"/>            | Gustavo Huilca Chipana      | u202213983        | Ingeniería de Software | Cuento con conocimientos en UI/UX design, trabajo colaborativo de desarrollos ágiles a través de SCRUM, desarrollo de aplicaciones web y móvil haciendo uso de los frameworks Vue, Angular, Astro, ASP.NET Core y Spring Boot; así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente.                                                                                          |
-| <img src="../assets/photos-members/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px;" width="1000" />                     | Mathias Alejandro Jave Diaz | u202212721        | Ingeniería de Software | Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo.                                                                 |
-| <img src="../assets/photos-members/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="1000"/>                        | Mathias Kunimoto            | u202210148        | Ingeniería de Software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida.                                                           |
-| <img src="../assets/photos-members/Italo-Luna-Capunay.png" alt="Italo Luna" style="margin-bottom: 5px;" width="1000"/>                            | Italo Luna                  | u202213375        | Ingeniería de Software | Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo.                                                                                                                   |
-| <img src="../assets/photos-members/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px;" width="1000"/>                           | Manuel Peña                 | u202210138        | Ingeniería de Software | Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo.              |
-| <img src="../assets/photos-members/Nicolas-Esteban-Garcia.jpg" alt="Nicolas Esteban" style="margin-bottom: 5px;" width="1000"/>                   | Nicolas Esteban             | u202217485        | Ingeniería de Software | Tengo experiencia en frameworks como Astro, Vue y React, y actualmente estoy aprendiendo Next.js y Express. Me apasiona el desarrollo frontend, siempre enfocado en ofrecer una experiencia de usuario fluida y cómoda. Me considero una persona sociable, responsable y proactiva, además, disfruto participar en proyectos multidisciplinarios y apoyar a comunidades que promueven el desarrollo web. Siempre busco dar lo mejor de mí para asegurar un rendimiento óptimo en cada aplicación. |
-| <img src="../assets/photos-members/Sebastian-Ramirez-Hoffmann.jpeg" alt="Sebastian Ramirez Hoffmann" style="margin-bottom: 5px;" width="1000px"/> | Sebastian Ramirez Hoffmann  | U202211894        | Ingeniería de Software | Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos.                                                                            |
+<center>
+<table style="width:100%; border-collapse: collapse;" border="1">
+  <thead>
+    <tr>
+      <th style="padding: 8px; text-align: left;"></th>
+      <th style="padding: 8px; text-align: left;">Miembros del equipo</th>
+      <th style="padding: 8px; text-align: left;">Código Estudiante</th>
+      <th style="padding: 8px; text-align: left;">Carrera</th>
+      <th style="padding: 8px; text-align: left;">Conocimientos / Habilidades</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Gustavo-Huilca-Chipana.png" alt="Gustavo Huilca Chipana" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Gustavo Huilca Chipana</td>
+      <td style="padding: 8px; text-align: left;">u202213983</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Cuento con conocimientos en UI/UX design, trabajo colaborativo de desarrollos ágiles a través de SCRUM, desarrollo de aplicaciones web y móvil haciendo uso de los frameworks Vue, Angular, Astro, ASP.NET Core y Spring Boot; así como habilidades blandas que me permiten a mí y a mis compañeros trabajar de forma organizada y eficiente, priorizando la comunicación y la participación permanente.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Mathias-Jave-Diaz.png" alt="Mathias Jave Diaz" style="margin-bottom: 5px; width: 450px;" /></td>
+      <td style="padding: 8px; text-align: left;">Mathias Alejandro Jave Diaz</td>
+      <td style="padding: 8px; text-align: left;">u202212721</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Cuento con experiencia en el desarrollo web y móvil, trabajando con frameworks como ASP.NET Core, NestJS y Spring Boot en el backend, así como React, Vue y Angular en el frontend, y Flutter para aplicaciones móviles. Además, tengo conocimientos en Arquitectura de Software y en la implementación de marcos de trabajo ágiles, especialmente Scrum. Me destaco por mi capacidad de autoorganización y aprendizaje autónomo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Mathias-Kunimoto.png" alt="Mathias Kunimoto" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Mathias Kunimoto</td>
+      <td style="padding: 8px; text-align: left;">u202210148</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Italo-Luna-Capunay.png" alt="Italo Luna" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Italo Luna</td>
+      <td style="padding: 8px; text-align: left;">u202213375</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Manuel-Peña-Rivera.jpg" alt="Manuel Peña" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Manuel Peña</td>
+      <td style="padding: 8px; text-align: left;">u202210138</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Cuento con experiencia en programación en C++, así como en desarrollo frontend con Vue, Angular y backend con tecnologías como JavaScript, Java, Spring Boot, C# y .NET. Me considero una persona responsable, flexible e innovadora, siempre abierta a escuchar activamente y mejorar en cada proyecto. Me esfuerzo por aprender constantemente y aportar soluciones efectivas, trabajando de manera colaborativa y con una actitud proactiva para lograr los objetivos del equipo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Nicolas-Esteban-Garcia.jpg" alt="Nicolas Esteban" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Nicolas Esteban</td>
+      <td style="padding: 8px; text-align: left;">u202217485</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Tengo experiencia en frameworks como Astro, Vue y React, y actualmente estoy aprendiendo Next.js y Express. Me apasiona el desarrollo frontend, siempre enfocado en ofrecer una experiencia de usuario fluida y cómoda. Me considero una persona sociable, responsable y proactiva, además, disfruto participar en proyectos multidisciplinarios y apoyar a comunidades que promueven el desarrollo web. Siempre busco dar lo mejor de mí para asegurar un rendimiento óptimo en cada aplicación.</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; text-align: center;"><img src="../assets/photos-members/Sebastian-Ramirez-Hoffmann.jpeg" alt="Sebastian Ramirez Hoffmann" style="margin-bottom: 5px; width: 450px;"/></td>
+      <td style="padding: 8px; text-align: left;">Sebastian Ramirez Hoffmann</td>
+      <td style="padding: 8px; text-align: left;">U202211894</td>
+      <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
+      <td style="padding: 8px; text-align: left;">Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos.</td>
+    </tr>
+  </tbody>
+</table>
+</center>
+
 
 ## 1.2. Solution Profile
 
