@@ -947,22 +947,100 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 ### 2.1.1. Análisis Competitivo
 
 **Competitive Analysis Landscape**
-| ¿Por qué llevar a cabo este análisis? | Nosotros                                                   | Irritec                                                      | Xiaomi Mi Flora                                           | Rachio                                                     |
-|:-------------------------------------:|:----------------------------------------------------------|:------------------------------------------------------------|:---------------------------------------------------------|:-----------------------------------------------------------|
-| **Overview**                         | EcoGuardian es una solución IoT que cuida plantas con sensores de humedad, temperatura y luz. Envía alertas y recomendaciones. Adaptado para hogares y empresas agrícolas. | Servicio de automatización y control remoto de riego industrial. Control de pH y conductividad remotos. Ofrece recetas de fertirrigación ajustables. | Sensores que miden humedad, luz, fertilidad y temperatura. Conexión Bluetooth a app móvil para monitoreo. | Productos inteligentes para riego y sensores de humedad que optimizan el uso del agua vía app móvil. |
-| **Ventaja Competitiva**              | Plataforma web y móvil, recomendaciones basadas en datos, enfoque UX, escalabilidad y soporte para hobby y agricultura técnica. | Empresa internacional con app móvil y web, diversificada en minería y doméstico, ofrece fertirrigación y otros métodos de riego. | Producto económico, fácil de usar, marca global reconocida. Buen diseño y app intuitiva para usuarios domésticos. | Empresa consolidada en tecnología de riego inteligente, integración con smart home y optimización del agua. |
-| **Mercado Objetivo**                 | Hogares, oficinas, pequeños agricultores y empresas agrícolas que buscan cuidado y automatización. | Agricultura (campo abierto, invernadero, huertos), jardinería y minería. | Usuarios domésticos y aficionados al cuidado básico de plantas de interior. | Hogares, cultivos, parques y jardines interesados en optimización de riego y control de humedad. |
-| **Perfil de Marketing**              | Contenido educativo en redes, campañas ambientales, alianzas con viveros y comunidades urbanas. | Landing page y página de Facebook con publicaciones regulares. | Promoción en tiendas online y mediante influencers de tecnología y hogar inteligente. | Marketing digital en redes sociales y eventos de la industria. |
-| **Perfil del Producto**              | Sensores inteligentes que miden humedad, temperatura y luz, conectados a plataforma con estadísticas y alertas. | Sensores de pH, sistemas de irrigación (cintas, mangueras, goteros). | Sensor compacto que mide 4 variables, conexión Bluetooth, sin alertas en tiempo real. | Controladores de riego inteligentes y sensores para jardines y cultivos. |
-| **Precios**                        | Planes accesibles según número de plantas, opciones económicas y versiones premium. Cotización según área en uso agrícola. | Cotización basada en servicio específico y dispositivos necesarios. | Alta relación calidad-precio para usuarios domésticos. | Precios competitivos, desde hogar hasta empresas avanzadas. |
 
+<center>
+<table border="1">
+  <tr>
+    <th>¿Por qué llevar a cabo este análisis?</th>
+    <th>Nosotros</th>
+    <th>Irritec</th>
+    <th>Xiaomi Mi Flora</th>
+    <th>Rachio</th>
+  </tr>
+  <tr>
+    <td><b>Overview</b></td>
+    <td>EcoGuardian es una solución IoT que cuida plantas con sensores de humedad, temperatura y luz. Envía alertas y recomendaciones. Adaptado para hogares y empresas agrícolas.</td>
+    <td>Servicio de automatización y control remoto de riego industrial. Control de pH y conductividad remotos. Ofrece recetas de fertirrigación ajustables.</td>
+    <td>Sensores que miden humedad, luz, fertilidad y temperatura. Conexión Bluetooth a app móvil para monitoreo.</td>
+    <td>Productos inteligentes para riego y sensores de humedad que optimizan el uso del agua vía app móvil.</td>
+  </tr>
+  <tr>
+    <td><b>Ventaja Competitiva</b></td>
+    <td>Plataforma web y móvil, recomendaciones basadas en datos, enfoque UX, escalabilidad y soporte para hobby y agricultura técnica.</td>
+    <td>Empresa internacional con app móvil y web, diversificada en minería y doméstico, ofrece fertirrigación y otros métodos de riego.</td>
+    <td>Producto económico, fácil de usar, marca global reconocida. Buen diseño y app intuitiva para usuarios domésticos.</td>
+    <td>Empresa consolidada en tecnología de riego inteligente, integración con smart home y optimización del agua.</td>
+  </tr>
+  <tr>
+    <td><b>Mercado Objetivo</b></td>
+    <td>Hogares, oficinas, pequeños agricultores y empresas agrícolas que buscan cuidado y automatización.</td>
+    <td>Agricultura (campo abierto, invernadero, huertos), jardinería y minería.</td>
+    <td>Usuarios domésticos y aficionados al cuidado básico de plantas de interior.</td>
+    <td>Hogares, cultivos, parques y jardines interesados en optimización de riego y control de humedad.</td>
+  </tr>
+  <tr>
+    <td><b>Perfil de Marketing</b></td>
+    <td>Contenido educativo en redes, campañas ambientales, alianzas con viveros y comunidades urbanas.</td>
+    <td>Landing page y página de Facebook con publicaciones regulares.</td>
+    <td>Promoción en tiendas online y mediante influencers de tecnología y hogar inteligente.</td>
+    <td>Marketing digital en redes sociales y eventos de la industria.</td>
+  </tr>
+  <tr>
+    <td><b>Perfil del Producto</b></td>
+    <td>Sensores inteligentes que miden humedad, temperatura y luz, conectados a plataforma con estadísticas y alertas.</td>
+    <td>Sensores de pH, sistemas de irrigación (cintas, mangueras, goteros).</td>
+    <td>Sensor compacto que mide 4 variables, conexión Bluetooth, sin alertas en tiempo real.</td>
+    <td>Controladores de riego inteligentes y sensores para jardines y cultivos.</td>
+  </tr>
+  <tr>
+    <td><b>Precios</b></td>
+    <td>Planes accesibles según número de plantas, opciones económicas y versiones premium. Cotización según área en uso agrícola.</td>
+    <td>Cotización basada en servicio específico y dispositivos necesarios.</td>
+    <td>Alta relación calidad-precio para usuarios domésticos.</td>
+    <td>Precios competitivos, desde hogar hasta empresas avanzadas.</td>
+  </tr>
+</table>
+</center>
 
-| **Análisis SWOT** | EcoGuardian                                                                                                                                                                                                  | Irritec | Xiaomi Mi Flora | Rachio |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|-----------------|--------|
-| **Fortalezas**    | Aplicación multiplataforma (web + móvil).<br/> Recomendaciones personalizadas basadas en datos.<br/> Escalabilidad por planes (hobby/empresarial).<br/> Enfoque en experiencia de usuario y educación. |      Experiencia en sistemas de riego profesional. <br> Presencia internacional y multisectorial (minería, agricultura). <br> Tecnologías avanzadas como monitoreo de pH.       |        Marca globalmente reconocida <br> Producto económico y de fácil uso. <br> Buen diseño y compatibilidad con apps móviles.         |   Enfoque especializado en riego inteligente.<br> Alta integración con smart homes. <br> Productos variados y funcionales para exteriores.     |
-| **Debilidades**   | Marca menos reconocida vs. Xiaomi/Rachio.<br/>  Requiere mayor inversión inicial en sensores y suscripciones.<br/> Dependencia de infraestructura IoT y una conectividad estable.<br/>                   |      Costos altos y soluciones complejas. <br> Enfocado principalmente al segmento industrial, no doméstico. <br> Menor accesibilidad para pequeños agricultores.       |       Limitada funcionalidad (sin alertas en tiempo real). <br> Dependencia de Bluetooth (rango limitado). <br> No escalable para cultivos grandes ni agricultura profesional.          |   No diseñado para interiores o plantas pequeñas. <br> Menos adecuado para cultivos industriales complejos. <br> Requiere cierta inversión inicial en infraestructura.     |
-| **Oportunidades** | Alianzas con viveros y agricultura urbana.<br/> Expansión a mercados emergentes con agricultura tecnológica.<br/> Integración con smart home (ej: Alexa, Google Home).                                |       Crecimiento del agrotech en Latinoamérica. <br> Integración con nuevos cultivos de precisión. <br> Expansión a nuevos sectores como la jardinería urbana.      |    Ampliación del mercado de usuarios domésticos. <br> Integración con más dispositivos Xiaomi del hogar. <br> Expansión de funcionalidades en versiones futuras.             |   Alianzas con gobiernos o ciudades para parques/jardines. <br> Expansión hacia cultivos más profesionales con IoT. <br> Posicionarse como referente en sostenibilidad del riego.   |
-| **Amenazas**      | Competencia con marcas posicionadas como Xiaomi y Rachio. <br> Limitaciones de presupuesto en usuarios pequeños.        |    Nuevas soluciones IoT más económicas. <br> Competencia de startups ágiles y especializadas. <br> Requiere asesoramiento técnico constante.         |        Productos más completos en el mismo rango de precio. <br> Alta competencia en el segmento de smart gardening. <br> Falta de servicio técnico localizado en algunos países.         |    Competencia de nuevas marcas con apps más personalizadas. <br> Usuarios domésticos que buscan opciones más asequibles. <br> Avances de empresas como Xiaomi en integración smart home.    |
+<center>
+<table border="1">
+  <tr>
+    <th>Análisis SWOT</th>
+    <th>EcoGuardian</th>
+    <th>Irritec</th>
+    <th>Xiaomi Mi Flora</th>
+    <th>Rachio</th>
+  </tr>
+  <tr>
+    <td><b>Fortalezas</b></td>
+    <td>Aplicación multiplataforma (web + móvil).<br/> Recomendaciones personalizadas basadas en datos.<br/> Escalabilidad por planes (hobby/empresarial).<br/> Enfoque en experiencia de usuario y educación.</td>
+    <td>Experiencia en sistemas de riego profesional. <br> Presencia internacional y multisectorial (minería, agricultura). <br> Tecnologías avanzadas como monitoreo de pH.</td>
+    <td>Marca globalmente reconocida <br> Producto económico y de fácil uso. <br> Buen diseño y compatibilidad con apps móviles.</td>
+    <td>Enfoque especializado en riego inteligente.<br> Alta integración con smart homes. <br> Productos variados y funcionales para exteriores.</td>
+  </tr>
+  <tr>
+    <td><b>Debilidades</b></td>
+    <td>Marca menos reconocida vs. Xiaomi/Rachio.<br/> Requiere mayor inversión inicial en sensores y suscripciones.<br/> Dependencia de infraestructura IoT y una conectividad estable.</td>
+    <td>Costos altos y soluciones complejas. <br> Enfocado principalmente al segmento industrial, no doméstico. <br> Menor accesibilidad para pequeños agricultores.</td>
+    <td>Limitada funcionalidad (sin alertas en tiempo real). <br> Dependencia de Bluetooth (rango limitado). <br> No escalable para cultivos grandes ni agricultura profesional.</td>
+    <td>No diseñado para interiores o plantas pequeñas. <br> Menos adecuado para cultivos industriales complejos. <br> Requiere cierta inversión inicial en infraestructura.</td>
+  </tr>
+  <tr>
+    <td><b>Oportunidades</b></td>
+    <td>Alianzas con viveros y agricultura urbana.<br/> Expansión a mercados emergentes con agricultura tecnológica.<br/> Integración con smart home (ej: Alexa, Google Home).</td>
+    <td>Crecimiento del agrotech en Latinoamérica. <br> Integración con nuevos cultivos de precisión. <br> Expansión a nuevos sectores como la jardinería urbana.</td>
+    <td>Ampliación del mercado de usuarios domésticos. <br> Integración con más dispositivos Xiaomi del hogar. <br> Expansión de funcionalidades en versiones futuras.</td>
+    <td>Alianzas con gobiernos o ciudades para parques/jardines. <br> Expansión hacia cultivos más profesionales con IoT. <br> Posicionarse como referente en sostenibilidad del riego.</td>
+  </tr>
+  <tr>
+    <td><b>Amenazas</b></td>
+    <td>Competencia con marcas posicionadas como Xiaomi y Rachio. <br> Limitaciones de presupuesto en usuarios pequeños.</td>
+    <td>Nuevas soluciones IoT más económicas. <br> Competencia de startups ágiles y especializadas. <br> Requiere asesoramiento técnico constante.</td>
+    <td>Productos más completos en el mismo rango de precio. <br> Alta competencia en el segmento de smart gardening. <br> Falta de servicio técnico localizado en algunos países.</td>
+    <td>Competencia de nuevas marcas con apps más personalizadas. <br> Usuarios domésticos que buscan opciones más asequibles. <br> Avances de empresas como Xiaomi en integración smart home.</td>
+  </tr>
+</table>
+</center>
 
 
 ### 2.1.2. Estrategias y Tácticas Frente a Competidores
