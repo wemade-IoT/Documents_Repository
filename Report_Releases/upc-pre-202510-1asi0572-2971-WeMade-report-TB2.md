@@ -1,19 +1,12 @@
----
-title: "COURSE PROJECT"
-author: "UPC - Ingeniería de Software"
-date: "2025-06-16"
----
-# <center>COURSE PROJECT</center>
-
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+<center> <strong> COURSE PROJECT</strong> </center>
+<center>
+<strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
     <strong>Ingeniería de Software</strong><br>
     <strong>Desarrollo de Soluciones IOT - 2971</strong><br>
     <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
     <br>INFORME
-</p>
-
+</center>
 
 <center>
 
