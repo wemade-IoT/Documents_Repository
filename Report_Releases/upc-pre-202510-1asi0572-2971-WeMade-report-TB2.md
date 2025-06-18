@@ -7986,7 +7986,13 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | https://github.com/wemade-IoT/EcoGuardian-Edge    | develop                         | b356689   | chore: create .gitignore                                                                                                                                                        |                                                                                                                                                 | Sun Jun 15 15:02:01 2025 -0500 |
 | https://github.com/wemade-IoT/EcoGuardian-Edge    | develop                         | 2a0d48b   | chore: initial project setup.                                                                                                                                                   |                                                                                                                                                 | Sun Jun 15 15:00:15 2025 -0500 |
 
+### 6.2.2.9 Team Collaboration Insights during Sprint 2
 
+<p>Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 2, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.</p>
+<p>Backend: Se trabajó en la implementación de servicios web para la gestión de información de plantas, plantaciones, consultas de usuarios, órdenes de instalación, pagos y suscripciones. Se enfocaron en asegurar que los servicios fueran eficientes y escalables, permitiendo una integración fluida con las aplicaciones frontend y móvil.</p>
+<img src="../assets/sprint2/team-collab/sprint-2-backend.png" alt="sprint-2-backend.png" class="img-fluid" style="width: 100%; height: auto;">
+<p>Edge: El equipo se centró en la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil. Trabajaron en la optimización del procesamiento de datos para garantizar una respuesta rápida y precisa a las consultas de los usuarios.</p>
+<img src="../assets/sprint2/team-collab/sprint-2-edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
 
 # Conclusiones
 
