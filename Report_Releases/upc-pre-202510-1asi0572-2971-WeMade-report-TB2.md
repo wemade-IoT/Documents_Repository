@@ -6744,10 +6744,53 @@ As a User I want to authenticate to platform for access to his services.
 
 **Registrar Planta**
 
-<img src="../assets/userflows/register-planta-userflow.png" alt="userflow auth usuario" width="400"/>
+<img src="../assets/userflows/register-planta-userflow.png" alt="userflow register plant" width="400"/>
 
 **User Goal:**
-As a User I want to authenticate to platform for access to his services.
+As a Consumer I want to register a plant to monitoring
+
+**Editar Planta**
+
+<img src="../assets/userflows/editar-plant-userflow.png" alt="userflow edit plant" width="400"/>
+
+**User Goal:**
+As a Consumer I want to edit a plant that I registered before for change his configuration.
+
+**Eliminar Planta**
+
+<img src="../assets/userflows/delete-plant-userflow.png" alt="userflow delete plant" width="400"/>
+
+**User Goal:**
+As a Consumer I want to delete a plant that I’m not using for save my current plan costs.
+
+**Pago Sucrcipción**
+
+<img src="../assets/userflows/payment-userflow.png" alt="userflow payment" width="400"/>
+
+**User Goal:**
+As a consumer, I want to select a subscription plan and pay using my bank account in order to complete my current order.
+
+**Consultas**
+
+<img src="../assets/userflows/consulting-userflow.png" alt="userflow consulting" width="400"/>
+
+**User Goal:**
+As a Consumer I want to make a question  to specialist about my plant metrics evaluated for get a detail reccomendation
+
+**Domestico Especialista Respuesta**
+
+<img src="../assets/userflows/domestic-userflow.png" alt="userflow domestic" width="400"/>
+
+**User Goal:**
+As a Specialist I want to answer questions that provides for consumers for give a detail recommendations
+
+**Registro de planta en el calendario**
+
+<img src="../assets/userflows/register-plant-calendar-userflow.png" alt="userflow domestic" width="400"/>
+
+**User Goal:**
+As a Consumer I want to register a plant into the calendar to monitoring the plant 
+
 
 ## 5.5. Applications Prototyping.
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
