@@ -7428,11 +7428,11 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
         </tr>
         <tr>
             <td>Sprint n Velocity</td>
-            <td> 8 </td>
+            <td> 103 </td>
         </tr>
         <tr>
             <td>Sum of Story Points</td>
-            <td>0 (En esta ocacion al estar en planificacion se mantiene como 0)</td>
+            <td>103</td>
         </tr>
     </tbody>
 </table>
@@ -7555,130 +7555,125 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ### 6.2.1.3. Sprint Backlog 1.
 <table border="1">
-  <thead>
+  <thead>
+    <tr>
+      <th>User Story ID</th>
+      <th>User Story Title</th>
+      <th>Work-Item / Task Id</th>
+      <th>Work-Item / Task Title</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / InProcess / ToReview / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+      <td>HU01</td>
+      <td>Conseguir información de la empresa</td>
+      <td>T01</td>
+      <td>Diseñar sección "About Us"</td>
+      <td>Crear interfaz con misión, visión y datos de la empresa.</td>
+      <td>4</td>       <td>Italo Luna</td>
+      <td>Done</td>
+    </tr>
+        <tr>  
+      <td>HU02</td>
+      <td>Conocer medios oficiales de la empresa</td>
+      <td>T02</td>
+      <td>Integrar enlaces a redes sociales en el footer</td>
+      <td>Agregar íconos de redes sociales en los footers</td>
+      <td>4</td>       <td>Sebastian Ramirez Hoffmann</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>HU02</td>
+      <td>Conocer medios oficiales de la empresa</td>
+      <td>T03</td>
+      <td>Integrar enlaces a perfiles de GitHub</td>
+      <td>Integrar enlaces a perfiles de GitHub en la sección de About Us</td>
+      <td>4</td>       <td>Gustavo Huilca Chipana</td>
+      <td>Done</td>
+    </tr>
+        <tr>
+      <td>HU03</td>
+      <td>Contactar a la empresa</td>
+      <td>T04</td>
+      <td>Implementar formulario de contacto</td>
+      <td>Desarrollo de formulario</td>
+      <td>4</td>       <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>Done</td>
+    </tr>
+        <tr>
+      <td>HU04</td>
+      <td>Informarse sobre beneficios del producto</td>
+      <td>T05</td>
+      <td>Crear sección de beneficios del producto</td>
+      <td>Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA).</td>
+      <td>4</td>       <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>Done</td>
+    </tr>
     <tr>
-      <th>User Story Id</th>
-      <th>User Story Title</th>
-      <th>Work-Item / Task Id</th>
-      <th>Work-Item / Task Title</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / InProcess / ToReview / Done)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>HU01</td>
-      <td>Conseguir información de la empresa</td>
-      <td>T01</td>
-      <td>Diseñar sección "About Us"</td>
-      <td>Crear interfaz con misión, visión y datos de la empresa.</td>
-      <td>1</td>
-      <td>Luna Capuñay Italo D'alessandro</td>
-      <td>Done</td>
-    </tr>
-    <tr>  
-      <td>HU02</td>
-      <td>Conocer medios oficiales de la empresa</td>
-      <td>T02</td>
-      <td>Integrar enlaces a redes sociales en el footer</td>
-      <td>Agregar íconos de redes sociales en los footers</td>
-      <td>1</td>
-      <td>Ramirez Hoffmann Sebastian</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>HU02</td>
-      <td>Conocer medios oficiales de la empresa</td>
-      <td>T03</td>
-      <td>Integrar enlaces a perfiles de GitHub</td>
-      <td>Integrar enlaces a perfiles de GitHub en la sección de About Us</td>
-      <td>1</td>
-      <td>Huilca Chipana, Gustavo</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>HU03</td>
-      <td>Contactar a la empresa</td>
-      <td>T04</td>
-      <td>Implementar formulario de contacto</td>
-      <td>Desarrollo de formulario</td>
-      <td>1</td>
-      <td>Esteban Garcia Nicolas Sebastian</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>HU04</td>
-      <td>Informarse sobre beneficios del producto</td>
-      <td>T05</td>
-      <td>Crear sección de beneficios del producto</td>
-      <td>Diseñar un bento con beneficios del producto para los distintos segmentos y llamados a acción (CTA).</td>
-      <td>1</td>
-      <td>Esteban Garcia Nicolas Sebastian</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>HU21</td>
-      <td>Monitoreo de estados de planta..</td>
-      <td>T06</td>
-      <td>Desarrollar dashboard de planta o plantacion</td>
-      <td>Diseñar tarjetas para mostrar los datos en una planta o plantación</td>
-      <td>1</td>
-      <td>Huilca Chipana, Gustavo</td>
-      <td>InProcess</td>
+        <td>HU21</td>
+        <td>Seguimiento de orden web</td>
+        <td>T01</td>
+        <td>Implementacion de componente para visualizar estado de orden de pago</td>
+        <td>Desarrollar un componente web para mostrar el estado actual de una orden de pago.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Doing</td>
     </tr>
     <tr>
-      <td>HU10</td>
-      <td>Generación de reportes de consumo</td>
-      <td>T07</td>
-      <td>Implementar descarga de reportes en Excel</td>
-      <td>Integrar biblioteca para exportar datos</td>
-      <td>1</td>
-      <td>Esteban Garcia Nicolas Sebastian</td>
-      <td>InProcess</td>
+        <td>HU10</td>
+        <td>Registro de usuario empresarial</td>
+        <td>T01</td>
+        <td>Formulario de registro de usuario empresarial</td>
+        <td>Desarrollar el formulario para el registro de nuevos usuarios empresariales.</td>
+        <td>4</td>
+        <td>Luna Capuñay Italo D'alessandro</td>
+        <td>Done</td>
     </tr>
     <tr>
-      <td>HU05</td>
-      <td>Registro de planta web</td>
-      <td>T08</td>
-      <td>Formulario de registro de plantas</td>
-      <td>Diseño de formulario con campos</td>
-      <td>1</td>
-      <td>Jave Diaz Mathias Alejandro</td>
-      <td>InProcess</td>
+        <td>HU05</td>
+        <td>Registro de planta en plataforma web</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantas en la aplicación web</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantas en la aplicación web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>InProcess</td>
     </tr>
     <tr>
-      <td>HU36</td>
-      <td>Edición de planta</td>
-      <td>T09</td>
-      <td>Implementar edición de plantas</td>
-      <td>Funcionalidad para modificar datos de plantas existentes.</td>
-      <td>1</td>
-      <td>Luna Capuñay Italo D'alessandro</td>
-      <td>InProcess</td>
+        <td>HU36</td>
+        <td>Mostrar información adicional de la API externa (Web)</td>
+        <td>T01</td>
+        <td>Implementar API externa para recibir datos adicionales en endpoint backend</td>
+        <td>Integrar una API externa en el backend para obtener datos complementarios.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>ToDo</td>
     </tr>
     <tr>
-      <td>HU37</td>
-      <td>Eliminación de planta</td>
-      <td>T10</td>
-      <td>Agregar funcionalidad de eliminación</td>
-      <td>Funcionalidad de confirmación y lógica para eliminar plantas.</td>
-      <td>1</td>
-      <td>Kunimoto Watanabe Mathias Tsuneo</td>
-      <td>InProcess</td>
+        <td>HU37</td>
+        <td>Registro de pregunta de usuario consumidor (Móvil)</td>
+        <td>T01</td>
+        <td>Registro de las preguntas según planta movile</td>
+        <td>Permitir el registro de preguntas relacionadas con plantas a través de la interfaz móvil.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Doing</td>
     </tr>
     <tr>
-      <td>HU07</td>
-      <td>Registro de plantación web</td>
-      <td>T11</td>
-      <td>Formulario para registro de plantaciones</td>
-      <td>Campos específicos para áreas de cultivo empresarial</td>
-      <td>1</td>
-      <td>Peña Rivera Manuel Sebastian</td>
-      <td>InProcess</td>
+        <td>HU07</td>
+        <td>Registro de plantación en plataforma web</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantaciones en la aplicación web</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantaciones en la aplicación web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>InProcess</td>
     </tr>
-  </tbody>
+  </tbody>
 </table>
 
 
@@ -8289,20 +8284,20 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 <p>Para el segundo sprint se planificó continuar con el desarrollo de la aplicación web, enfocándose en la implementación de nuevas funcionalidades y mejoras basadas en los comentarios recibidos durante la revisión del primer sprint. Además, se realizaron las primeras versiones de la aplicación móvil, edge y embebida.</p>
 
-| Sprint #                        | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint #                        | Sprint 2                                                                                |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sprint Planning Background      |
-| Date                            | 2025-05-26                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Time                            | 8:00 am                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Location                        | Vía presencial y virtual                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Prepared By                     | Ramirez Hoffman, Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Attendees (to planning meeting) | Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Sprint 1 Review Summary         | Durante el Sprint 1 se desarrolló el flujo principal de visualización de datos desde la aplicación front end, así como la primera versión de la Landing Page                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Sprint 1 Retrospective Summary  | Se determinó que, para el siguiente sprint se debe corregir el diseño de los flujos para que vayan más acordes con las user stories.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Date                            | 2025-05-26 |
+| Time                            | 8:00 am |
+| Location                        | Vía presencial y virtual |
+| Prepared By                     | Ramirez Hoffman, Sebastian |
+| Attendees (to planning meeting) | Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro |
+| Sprint 1 Review Summary         | Durante el Sprint 1 se desarrolló el flujo principal de visualización de datos desde la aplicación front end, así como la primera versión de la Landing Page |
+| Sprint 1 Retrospective Summary  | Se determinó que, para el siguiente sprint se debe corregir el diseño de los flujos para que vayan más acordes con las user stories. |
 | Sprint Goal & User Stories      |
 | Sprint 2 Goal                   | El objetivo de este sprint se enfoca en ofrecer a los usuarios consumidores el poder registrar y monitorear sus plantas y plantaciones, el registro de consultas, autenticación y el proceso de orden de instalación. Además, a los usuarios especialistas, se les ofrece la visualización de consultas y poder responderlas; a los developers, los servicios web de gestión de información de las plantas y plantaciones, consultas de los usuarios, órdenes de instalación, pagos y suscripciones; y autenticación de los usuarios y de los dispositivos IoT, así como el procesamiento y envío de las métricas de monitoreo consolidados. Finalmente, a los device makers, se les ofrece la recopilación de datos de los sensores de humedad, luz y temperatura y conectividad con las demás aplicaciones del sistema.Creemos que esto ofrecerá una visualización detallada sobre el estado de las plantas/plantaciones, así como la aclaración de dudas, resolución de consultas y el planeamiento de la orden de instalación de los dispositivos IoT. Además, ofrecerá la gestión de la información de las plantas, plantaciones, consultas de los usuarios, órdenes de instalación, pagos y suscripciones, y métricas recopiladas de los dispositivos IoT, así como la autenticación de los dispositivos registrados en el sistema y de los usuarios registrados.Esto podrá ser confirmado cuando los usuarios consumidores puedan registrarse e iniciar sesión, monitorear, agregar y hacer consultas sobre sus plantas/plantaciones, así como realizar órdenes de instalación. Además, se confirmará cuando los usuarios especialistas puedan responder las consultas y ver las órdenes de instalación que se le asignaron; los developers puedan integrar los servicios web en las aplicaciones web y móvil, así como gestionar la información de estos servicios; y los device makers puedan recopilar y enviar la información registrada de los sensores. |
-| Sprint 2 Velocity               | 10                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sum of Story Points             | 117                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 2 Velocity               | 98 |
+| Sum of Story Points             | 93                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ### 6.2.2.2. Aspect Leaders And Collaborators.
 <p>En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.</p>
@@ -8320,6 +8315,1079 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | Peña Rivera Manuel Sebastian        | U202210138      | C                        |           |                  | C                          |                             | L                        | C                             |     |
 
 ### 6.2.2.3. Sprint Backlog 2.
+
+<table>
+    <tr>
+        <td>User Story ID</td>
+        <td>User Story Title</td>
+        <td>Work-Item / Task Id</td>
+        <td>Work-Item / Task Title</td>
+        <td>Description</td>
+        <td>Estimation (Hours)</td>
+        <td>Assigned To</td>
+        <td>Status (To-do / InProcess / ToReview / Done)</td>
+    </tr>
+    <tr>
+        <td>HU05</td>
+        <td>Registro de planta en plataforma web</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantas en la aplicación web</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantas en la aplicación web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU05</td>
+        <td>Registro de planta en plataforma web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para el registro de plantas en la aplicación web</td>
+        <td>Conectar el formulario de registro de plantas con el backend para guardar los datos.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU07</td>
+        <td>Registro de plantación en plataforma web</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantaciones en la aplicación web</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantaciones en la aplicación web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU07</td>
+        <td>Registro de plantación en plataforma web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para el registro de plantaciones en la aplicación web</td>
+        <td>Conectar el formulario de registro de plantaciones con el backend para guardar los datos.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU08</td>
+        <td>Registro de plantación en plataforma móvil</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantaciones en la aplicación móvil</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantaciones en la aplicación móvil.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU08</td>
+        <td>Registro de plantación en plataforma móvil</td>
+        <td>T02</td>
+        <td>Integración de endpoint para el registro de plantaciones en la aplicación móvil</td>
+        <td>Conectar el formulario de registro de plantaciones con el backend para guardar los datos.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU06</td>
+        <td>Registro de planta en plataforma móvil</td>
+        <td>T01</td>
+        <td>Implementación de formulario de registro de plantas en la aplicación móvil</td>
+        <td>Desarrollar la interfaz para que los usuarios registren nuevas plantas en la aplicación móvil.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU06</td>
+        <td>Registro de planta en plataforma móvil</td>
+        <td>T02</td>
+        <td>Integración de endpoint para el registro de plantas en la aplicación móvil</td>
+        <td>Conectar el formulario de registro de plantas con el backend para guardar los datos.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU25</td>
+        <td>Monitoreo de Plantas móvil</td>
+        <td>T01</td>
+        <td>Implementación de cards para la vista de plantaciones por usuario</td>
+        <td>Diseñar y desarrollar las tarjetas para visualizar las plantaciones en la interfaz móvil.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU25</td>
+        <td>Monitoreo de Plantas móvil</td>
+        <td>T02</td>
+        <td>Integración de endpoint para la consulta de plantaciones por usuario</td>
+        <td>Conectar la vista de plantaciones en la aplicación móvil con el endpoint de consulta.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU25</td>
+        <td>Monitoreo de Plantas móvil</td>
+        <td>T03</td>
+        <td>Implementación de assembler para la serialización de información recopilada por plantación</td>
+        <td>Desarrollar el componente para transformar los datos de plantación para su visualización.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU24</td>
+        <td>Monitoreo de Plantas por Usuario</td>
+        <td>T01</td>
+        <td>Implementación de cards para la vista de plantas por usuario</td>
+        <td>Diseñar y desarrollar las tarjetas para visualizar las plantas en la interfaz móvil.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU24</td>
+        <td>Monitoreo de Plantas por Usuario</td>
+        <td>T02</td>
+        <td>Integración de endpoint para la consulta de plantas por usuario</td>
+        <td>Conectar la vista de plantas en la aplicación móvil con el endpoint de consulta.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU24</td>
+        <td>Monitoreo de Plantas por Usuario</td>
+        <td>T03</td>
+        <td>Implementación de assembler para la serialización de información recopilada por plantas</td>
+        <td>Desarrollar el componente para transformar los datos de plantas para su visualización.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU29</td>
+        <td>Registro y gestión de dispositivos IoT</td>
+        <td>T01</td>
+        <td>Integrar registro de IoT a edge app y sistema</td>
+        <td>Configurar la integración para registrar dispositivos IoT en la aplicación edge y el sistema central.</td>
+        <td>4</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU16</td>
+        <td>Seleccionar fecha y hora de instalación (Web)</td>
+        <td>T01</td>
+        <td>Creación del componente Date Picker</td>
+        <td>Desarrollar el componente de selección de fecha para la aplicación web.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU16</td>
+        <td>Seleccionar fecha y hora de instalación (Web)</td>
+        <td>T02</td>
+        <td>Creación del componente de visualización de Time Slots para la instalación</td>
+        <td>Desarrollar el componente para mostrar los bloques de tiempo disponibles para la instalación.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU16</td>
+        <td>Seleccionar fecha y hora de instalación (Web)</td>
+        <td>T03</td>
+        <td>Validación de horarios no disponibles</td>
+        <td>Implementar la lógica para verificar y deshabilitar horarios ya ocupados.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU16</td>
+        <td>Seleccionar fecha y hora de instalación (Web)</td>
+        <td>T04</td>
+        <td>Integración de backend</td>
+        <td>Conectar los componentes de fecha y hora con el backend para obtener y guardar la información.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU15</td>
+        <td>Seleccionar fecha y hora de instalación (Móvil)</td>
+        <td>T01</td>
+        <td>Creación del widget Date Picker</td>
+        <td>Desarrollar el widget de selección de fecha para la aplicación móvil.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU15</td>
+        <td>Seleccionar fecha y hora de instalación (Móvil)</td>
+        <td>T02</td>
+        <td>Creación del widget de visualización de Time Slots para la instalación</td>
+        <td>Desarrollar el widget para mostrar los bloques de tiempo disponibles para la instalación en móvil.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU15</td>
+        <td>Seleccionar fecha y hora de instalación (Móvil)</td>
+        <td>T03</td>
+        <td>Validación de horarios no disponibles</td>
+        <td>Implementar la lógica en móvil para verificar y deshabilitar horarios ya ocupados.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU15</td>
+        <td>Seleccionar fecha y hora de instalación (Móvil)</td>
+        <td>T04</td>
+        <td>Integración de backend</td>
+        <td>Conectar los widgets de fecha y hora con el backend para obtener y guardar la información en móvil.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU19</td>
+        <td>Pago de suscripción (Web)</td>
+        <td>T01</td>
+        <td>Validacion de pago de orden con Stripe</td>
+        <td>Implementar la validación del proceso de pago de suscripciones a través de Stripe.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU19</td>
+        <td>Pago de suscripción (Web)</td>
+        <td>T02</td>
+        <td>Formulario de registro para ingresar los detalles del pago de subscripcion</td>
+        <td>Desarrollar el formulario web para que los usuarios ingresen sus datos de pago de suscripción.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU18</td>
+        <td>Pago de instalación (Web)</td>
+        <td>T01</td>
+        <td>Validacion de pago de orden con Stripe</td>
+        <td>Implementar la validación del proceso de pago de instalaciones a través de Stripe.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU18</td>
+        <td>Pago de instalación (Web)</td>
+        <td>T02</td>
+        <td>Formulario de registro para ingresar los detalles del pago de instalacion</td>
+        <td>Desarrollar el formulario web para que los usuarios ingresen sus datos de pago de instalación.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU21</td>
+        <td>Seguimiento de orden web</td>
+        <td>T01</td>
+        <td>Implementacion de componente para visualizar estado de orden de pago</td>
+        <td>Desarrollar un componente web para mostrar el estado actual de una orden de pago.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU22</td>
+        <td>Monitoreo de Plantas web</td>
+        <td>T01</td>
+        <td>Implementación de cards para la vista de plantas por usuario</td>
+        <td>Diseñar y desarrollar las tarjetas para visualizar las plantas en la interfaz web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU22</td>
+        <td>Monitoreo de Plantas web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para la consulta de plantas por usuario</td>
+        <td>Conectar la vista de plantas en la aplicación web con el endpoint de consulta.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU22</td>
+        <td>Monitoreo de Plantas web</td>
+        <td>T03</td>
+        <td>Implementación de assembler para la serialización de información recopilada por planta</td>
+        <td>Desarrollar el componente para transformar los datos de planta para su visualización.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU23</td>
+        <td>Monitoreo de Plantaciones web</td>
+        <td>T01</td>
+        <td>Implementación de cards para la vista de plantaciones por usuario</td>
+        <td>Diseñar y desarrollar las tarjetas para visualizar las plantaciones en la interfaz web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU23</td>
+        <td>Monitoreo de Plantaciones web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para la consulta de plantaciones por usuario</td>
+        <td>Conectar la vista de plantaciones en la aplicación web con el endpoint de consulta.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU23</td>
+        <td>Monitoreo de Plantaciones web</td>
+        <td>T03</td>
+        <td>Implementación de assembler para la serialización de información recopilada por plantación</td>
+        <td>Desarrollar el componente para transformar los datos de plantación para su visualización.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS02</td>
+        <td>Registro de estadísticas</td>
+        <td>T01</td>
+        <td>Recepción de datos analíticos desde el Edge</td>
+        <td>Configurar el sistema para recibir y almacenar datos analíticos de los dispositivos Edge.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS02</td>
+        <td>Registro de estadísticas</td>
+        <td>T02</td>
+        <td>Procesamiento y creación de endpoint para los datos análiticos</td>
+        <td>Desarrollar la lógica de procesamiento y el endpoint para exponer los datos analíticos.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU09</td>
+        <td>Registro de usuario doméstico</td>
+        <td>T01</td>
+        <td>Formulario de registro de usuario domestico</td>
+        <td>Desarrollar el formulario para el registro de nuevos usuarios domésticos.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU09</td>
+        <td>Registro de usuario doméstico</td>
+        <td>T02</td>
+        <td>Integracion de registro de usuario domestico en backend</td>
+        <td>Conectar el formulario de registro con el backend para almacenar la información del usuario doméstico.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU09</td>
+        <td>Registro de usuario doméstico</td>
+        <td>T03</td>
+        <td>Validacion de pago antes de registrar usuario en backend</td>
+        <td>Implementar la validación de pago en el backend antes de completar el registro de usuario.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU10</td>
+        <td>Registro de usuario empresarial</td>
+        <td>T01</td>
+        <td>Formulario de registro de usuario empresarial</td>
+        <td>Desarrollar el formulario para el registro de nuevos usuarios empresariales.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU10</td>
+        <td>Registro de usuario empresarial</td>
+        <td>T02</td>
+        <td>Integracion de registro de usuario empresarial en backend</td>
+        <td>Conectar el formulario de registro con el backend para almacenar la información del usuario empresarial.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU10</td>
+        <td>Registro de usuario empresarial</td>
+        <td>T03</td>
+        <td>Validacion de pago antes de registrar usuario en backend</td>
+        <td>Implementar la validación de pago en el backend antes de completar el registro de usuario empresarial.</td>
+        <td>6</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU11</td>
+        <td>Autenticación de usuario especialista web</td>
+        <td>T01</td>
+        <td>Vista para realizar el ingreso de datos de cuenta de usuario especialista web</td>
+        <td>Diseñar y desarrollar la interfaz web para el inicio de sesión de especialistas.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU11</td>
+        <td>Autenticación de usuario especialista web</td>
+        <td>T02</td>
+        <td>Autenticacion de la cuenta y registro de sesion en backend</td>
+        <td>Implementar la lógica de autenticación y registro de sesión para especialistas en el backend.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU13</td>
+        <td>Autenticación de usuario web</td>
+        <td>T01</td>
+        <td>Vista para realizar el ingreso de datos de cuenta de usuario consumidor web</td>
+        <td>Diseñar y desarrollar la interfaz web para el inicio de sesión de usuarios consumidores.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU13</td>
+        <td>Autenticación de usuario web</td>
+        <td>T02</td>
+        <td>Autenticacion de la cuenta y registro de sesion en backend</td>
+        <td>Implementar la lógica de autenticación y registro de sesión para consumidores en el backend.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU12</td>
+        <td>Autenticación de usuario especialista móvil</td>
+        <td>T01</td>
+        <td>Vista para realizar el ingreso de datos de cuenta de usuario especialista móvil</td>
+        <td>Diseñar y desarrollar la interfaz móvil para el inicio de sesión de especialistas.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU12</td>
+        <td>Autenticación de usuario especialista móvil</td>
+        <td>T02</td>
+        <td>Autenticacion de la cuenta y registro de sesion en backend</td>
+        <td>Implementar la lógica de autenticación y registro de sesión para especialistas en el backend.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU14</td>
+        <td>Autenticación de usuario móvil</td>
+        <td>T01</td>
+        <td>Vista para realizar el ingreso de datos de cuenta de usuario consumidor móvil</td>
+        <td>Diseñar y desarrollar la interfaz móvil para el inicio de sesión de usuarios consumidores.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU14</td>
+        <td>Autenticación de usuario móvil</td>
+        <td>T02</td>
+        <td>Autenticacion de la cuenta y registro de sesion en backend</td>
+        <td>Implementar la lógica de autenticación y registro de sesión para consumidores en el backend.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU26</td>
+        <td>Cartera de pagos</td>
+        <td>T01</td>
+        <td>Implementacion de cartera de pagos en Backend para procesos de pago</td>
+        <td>Desarrollar la funcionalidad de cartera de pagos en el backend para gestionar las transacciones.</td>
+        <td>4</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU27</td>
+        <td>Historial de pagos web</td>
+        <td>T01</td>
+        <td>Implementacion de componente para visualizar historial de pago</td>
+        <td>Desarrollar un componente web para mostrar el historial de pagos del usuario.</td>
+        <td>4</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS03</td>
+        <td>Integración de Stripe para gestión proceso de pagos</td>
+        <td>T01</td>
+        <td>Configuracion de Stripe en Backend</td>
+        <td>Configurar la pasarela de pagos Stripe en el entorno de backend.</td>
+        <td>4</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS03</td>
+        <td>Integración de Stripe para gestión proceso de pagos</td>
+        <td>T02</td>
+        <td>Implementacion de Stripe en el sistema</td>
+        <td>Integrar la funcionalidad de Stripe en los módulos relevantes del sistema.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS04</td>
+        <td>Implementación de autenticación con JWT</td>
+        <td>T01</td>
+        <td>Integracion y configuracion de metodo JWT en Backend</td>
+        <td>Implementar y configurar la autenticación basada en JSON Web Tokens (JWT) en el backend.</td>
+        <td>6</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU17</td>
+        <td>Asignación de especialista para instalación (externo)</td>
+        <td>T01</td>
+        <td>Definición del proceso de asignación de especialista</td>
+        <td>Establecer el flujo y las reglas para la asignación de especialistas a las instalaciones.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS06</td>
+        <td>Implementación de políticas de acceso y roles</td>
+        <td>T01</td>
+        <td>Integracion y configuracion de metodo RBAC en Backend</td>
+        <td>Integrar y configurar el control de acceso basado en roles (RBAC) en el backend.</td>
+        <td>6</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU33</td>
+        <td>Registro de pregunta de usuario consumidor (Web)</td>
+        <td>T01</td>
+        <td>Registro de las preguntas según planta web</td>
+        <td>Permitir el registro de preguntas relacionadas con plantas a través de la interfaz web.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU33</td>
+        <td>Registro de pregunta de usuario consumidor (Web)</td>
+        <td>T02</td>
+        <td>Validacion de datos de formulario web</td>
+        <td>Implementar la validación de los datos ingresados en el formulario web de preguntas.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU33</td>
+        <td>Registro de pregunta de usuario consumidor (Web)</td>
+        <td>T03</td>
+        <td>Integracion de Endpoint para registro de pregunta en backend</td>
+        <td>Conectar el formulario de preguntas web con el endpoint del backend para su registro.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU33</td>
+        <td>Registro de pregunta de usuario consumidor (Web)</td>
+        <td>T04</td>
+        <td>Vista dedicada a mostrar el formulario o espacio para el registro de pregunta web</td>
+        <td>Diseñar y desarrollar la vista donde los usuarios puedan registrar sus preguntas en la web.</td>
+        <td>8</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU33</td>
+        <td>Registro de pregunta de usuario consumidor (Web)</td>
+        <td>T05</td>
+        <td>Registro de las preguntas según plantacion</td>
+        <td>Permitir el registro de preguntas relacionadas con plantaciones a través de la interfaz web.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU35</td>
+        <td>Responder pregunta y cambiar estado (Web)</td>
+        <td>T01</td>
+        <td>Formulario para responder pregunta</td>
+        <td>Desarrollar el formulario web para que los especialistas respondan las preguntas de los usuarios.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU35</td>
+        <td>Responder pregunta y cambiar estado (Web)</td>
+        <td>T02</td>
+        <td>Cambio de estado de pregunta al recibir registro de pregunta en backend</td>
+        <td>Implementar la lógica en el backend para actualizar el estado de una pregunta una vez respondida.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU35</td>
+        <td>Responder pregunta y cambiar estado (Web)</td>
+        <td>T03</td>
+        <td>Validacion de datos de formulario de pregunta web</td>
+        <td>Implementar la validación de los datos en el formulario web de respuesta de preguntas.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU34</td>
+        <td>Visualización y gestión de preguntas para especialista (Web)</td>
+        <td>T01</td>
+        <td>Vista para visualizar las preguntas registradas en el sistema</td>
+        <td>Diseñar y desarrollar la vista web para que los especialistas visualicen todas las preguntas.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU34</td>
+        <td>Visualización y gestión de preguntas para especialista (Web)</td>
+        <td>T02</td>
+        <td>Ordenar y Filtrar las preguntas según estado o prioridad</td>
+        <td>Implementar la funcionalidad de ordenar y filtrar preguntas por estado o prioridad en la vista web.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU34</td>
+        <td>Visualización y gestión de preguntas para especialista (Web)</td>
+        <td>T03</td>
+        <td>Integracion de endpoint para conseguir las preguntas en backend</td>
+        <td>Conectar la vista de preguntas web con el endpoint del backend para obtener los datos.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU41</td>
+        <td>Edición de datos personales web</td>
+        <td>T01</td>
+        <td>Edición de datos personales web frontend</td>
+        <td>Desarrollar la interfaz frontend para que los usuarios editen sus datos personales en la web.</td>
+        <td>6</td>
+        <td>Manuel Sebastian Peña Rivera</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU41</td>
+        <td>Edición de datos personales web</td>
+        <td>T02</td>
+        <td>Validación de email para evitar duplicados backend</td>
+        <td>Implementar la validación en el backend para asegurar que los emails no se dupliquen al editar.</td>
+        <td>4</td>
+        <td>Manuel Sebastian Peña Rivera</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU41</td>
+        <td>Edición de datos personales web</td>
+        <td>T03</td>
+        <td>Profiles Bounded Backend</td>
+        <td>Desarrollar la lógica de negocio en el backend para la gestión de perfiles de usuario.</td>
+        <td>8</td>
+        <td>Manuel Sebastian Peña Rivera</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU53</td>
+        <td>Visualización de consumo de recursos web</td>
+        <td>T01</td>
+        <td>Creación del componente de gráfico de línea</td>
+        <td>Desarrollar un componente de gráfico de línea para visualizar el consumo de recursos en la web.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU53</td>
+        <td>Visualización de consumo de recursos web</td>
+        <td>T02</td>
+        <td>Integración de backend</td>
+        <td>Conectar el componente de gráfico de línea con el backend para obtener los datos de consumo.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS11</td>
+        <td>Configuración del servicio de cálculo de niveles de agua en la Aplicación Edge</td>
+        <td>T01</td>
+        <td>Configuración del servicio de cálculo de niveles de agua en la Aplicación Edge.</td>
+        <td>Configurar el servicio en la aplicación Edge para calcular los niveles de agua.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS10</td>
+        <td>Configuración del servicio de cálculo de niveles de agua en la Aplicación Edge</td>
+        <td>T01</td>
+        <td>Configuración del servicio de cálculo de niveles de agua en la Aplicación Edge.</td>
+        <td>Configurar el servicio en la aplicación Edge para calcular los niveles de agua.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS09</td>
+        <td>Configuración del servicio de cálculo de consumo de agua en la Aplicación Edge</td>
+        <td>T01</td>
+        <td>Configuración del servicio de cálculo de consumo de agua en la Aplicación Edge.</td>
+        <td>Configurar el servicio en la aplicación Edge para calcular el consumo de agua.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU45</td>
+        <td>Edición de planta web</td>
+        <td>T01</td>
+        <td>Implementación de formulario para editar información de plantas en la aplicación web</td>
+        <td>Desarrollar el formulario web para que los usuarios editen la información de sus plantas.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU45</td>
+        <td>Edición de planta web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para editar información de plantas en la aplicación web</td>
+        <td>Conectar el formulario de edición de plantas web con el endpoint de backend.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU47</td>
+        <td>Edición de planta móvil</td>
+        <td>T01</td>
+        <td>Implementación de formulario para editar información de plantas en la aplicación móvil</td>
+        <td>Desarrollar el formulario móvil para que los usuarios editen la información de sus plantas.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU47</td>
+        <td>Edición de planta móvil</td>
+        <td>T02</td>
+        <td>Integración de endpoint para editar información de plantas en la aplicación móvil</td>
+        <td>Conectar el formulario de edición de plantas móvil con el endpoint de backend.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU46</td>
+        <td>Eliminación de planta web</td>
+        <td>T01</td>
+        <td>Implementación de modal para eliminar un registro de plantas en la aplicación web</td>
+        <td>Diseñar y desarrollar el modal de confirmación para eliminar plantas en la interfaz web.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU46</td>
+        <td>Eliminación de planta web</td>
+        <td>T02</td>
+        <td>Integración de endpoint para eliminar un registo de plantas en la aplicación web</td>
+        <td>Conectar el modal de eliminación de plantas web con el endpoint de backend.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU48</td>
+        <td>Eliminación de planta móvil</td>
+        <td>T01</td>
+        <td>Implementación de modal para eliminar un registro de plantas en la aplicación móvil</td>
+        <td>Diseñar y desarrollar el modal de confirmación para eliminar plantas en la interfaz móvil.</td>
+        <td>4</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU48</td>
+        <td>Eliminación de planta móvil</td>
+        <td>T02</td>
+        <td>Integración de endpoint para eliminar un registo de plantas en la aplicación móvil</td>
+        <td>Conectar el modal de eliminación de plantas móvil con el endpoint de backend.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU32</td>
+        <td>Vinculación de IoT a Edge, FOG y Sistema central</td>
+        <td>T01</td>
+        <td>Pruebas de conectividad FOG Edge</td>
+        <td>Realizar pruebas para asegurar la conexión entre los sistemas FOG y Edge.</td>
+        <td>8</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Doing</td>
+    </tr>
+    <tr>
+        <td>HU32</td>
+        <td>Vinculación de IoT a Edge, FOG y Sistema central</td>
+        <td>T02</td>
+        <td>Pruebas de conectividad Edge Embeded</td>
+        <td>Realizar pruebas para asegurar la conexión entre los dispositivos Edge y Embedded.</td>
+        <td>6</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU32</td>
+        <td>Vinculación de IoT a Edge, FOG y Sistema central</td>
+        <td>T03</td>
+        <td>Pruebas de conectividad Fog Sistema (Empresarial)</td>
+        <td>Realizar pruebas para asegurar la conexión entre el sistema FOG y el sistema empresarial.</td>
+        <td>8</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Doing</td>
+    </tr>
+    <tr>
+        <td>HU32</td>
+        <td>Vinculación de IoT a Edge, FOG y Sistema central</td>
+        <td>T04</td>
+        <td>Pruebas de conectividad Edge Sistema (Domestico)</td>
+        <td>Realizar pruebas para asegurar la conexión entre el sistema Edge y el sistema doméstico.</td>
+        <td>8</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU30</td>
+        <td>Configurar parámetros del dispositivo IoT</td>
+        <td>T01</td>
+        <td>Integrar la configuracion de parametros al dispositivo IoT</td>
+        <td>Implementar la integración para enviar y aplicar parámetros de configuración a los dispositivos IoT.</td>
+        <td>4</td>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU36</td>
+        <td>Mostrar información adicional de la API externa (Web)</td>
+        <td>T01</td>
+        <td>Implementar API externa para recibir datos adicionales en endpoint backend</td>
+        <td>Integrar una API externa en el backend para obtener datos complementarios.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU36</td>
+        <td>Mostrar información adicional de la API externa (Web)</td>
+        <td>T02</td>
+        <td>Mostrar informacion de la API externa al solicitar en front web</td>
+        <td>Desarrollar la interfaz web para mostrar la información obtenida de la API externa.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU38</td>
+        <td>Visualización y gestión de preguntas para especialista (Móvil)</td>
+        <td>T01</td>
+        <td>Vista para visualizar las preguntas registradas en el sistema</td>
+        <td>Diseñar y desarrollar la vista móvil para que los especialistas visualicen todas las preguntas.</td>
+        <td>8</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU38</td>
+        <td>Visualización y gestión de preguntas para especialista (Móvil)</td>
+        <td>T02</td>
+        <td>Ordenar y Filtrar las preguntas según estado o prioridad</td>
+        <td>Implementar la funcionalidad de ordenar y filtrar preguntas por estado o prioridad en la vista móvil.</td>
+        <td>4</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU38</td>
+        <td>Visualización y gestión de preguntas para especialista (Móvil)</td>
+        <td>T03</td>
+        <td>Integracion de endpoint para conseguir las preguntas en backend</td>
+        <td>Conectar la vista de preguntas móvil con el endpoint del backend para obtener los datos.</td>
+        <td>6</td>
+        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU43</td>
+        <td>Validación de cambio de contraseña (Web)</td>
+        <td>T01</td>
+        <td>Validacion de cambios de contraseña al recibir edicion de datos de perfil web</td>
+        <td>Implementar la validación para cambios de contraseña al editar el perfil de usuario web.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU49</td>
+        <td>Gestión de sensores y actuadores con IAM</td>
+        <td>T01</td>
+        <td>Validacion de IAM con sensores y Actuadores</td>
+        <td>Implementar la validación de la gestión de identidad y acceso (IAM) para sensores y actuadores.</td>
+        <td>6</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU49</td>
+        <td>Gestión de sensores y actuadores con IAM</td>
+        <td>T02</td>
+        <td>Cambio de umbrales y parametros desde backend a embeded</td>
+        <td>Desarrollar la funcionalidad para actualizar umbrales y parámetros desde el backend hacia los dispositivos embedded.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU50</td>
+        <td>Registro y visualización de anomalías (Web)</td>
+        <td>T01</td>
+        <td>Registro de cuando se registra una anomalia en el sistema en relacion a la planta/plantacion</td>
+        <td>Implementar la función para registrar anomalías detectadas en plantas/plantaciones en el sistema.</td>
+        <td>8</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU50</td>
+        <td>Registro y visualización de anomalías (Web)</td>
+        <td>T02</td>
+        <td>Visualizacion de card en vista y componentes de notificacion con datos de notificacion registrada</td>
+        <td>Diseñar y desarrollar la visualización de tarjetas y componentes de notificación con información de anomalías.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU51</td>
+        <td>Registro y visualización de anomalías (Móvil)</td>
+        <td>T01</td>
+        <td>Visualizacion de card en view y widgets de notificacion con datos de notificacion registrada</td>
+        <td>Diseñar y desarrollar la visualización de tarjetas y widgets de notificación con información de anomalías en móvil.</td>
+        <td>6</td>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU54</td>
+        <td>Visualización de consumo de recursos móvil</td>
+        <td>T01</td>
+        <td>Creación del widget de gráfico de línea</td>
+        <td>Desarrollar un widget de gráfico de línea para visualizar el consumo de recursos en la aplicación móvil.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>HU54</td>
+        <td>Visualización de consumo de recursos móvil</td>
+        <td>T02</td>
+        <td>Integración de backend</td>
+        <td>Conectar el widget de gráfico de línea móvil con el backend para obtener los datos de consumo.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS01</td>
+        <td>Integración de MFA en Backend</td>
+        <td>T01</td>
+        <td>Integracion y configuracion de metodo MFA en Backend</td>
+        <td>Integrar y configurar la autenticación multifactor (MFA) en el backend del sistema.</td>
+        <td>8</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS05</td>
+        <td>Gestión de variables de entorno</td>
+        <td>T01</td>
+        <td>Uso de variables de entorno y uso de estas en deployment</td>
+        <td>Configurar y utilizar variables de entorno para el despliegue de la aplicación.</td>
+        <td>4</td>
+        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS07</td>
+        <td>Validación de datos de pago en Backend</td>
+        <td>T01</td>
+        <td>Realizar validacion de datos de pago en Backend</td>
+        <td>Implementar la lógica de validación para los datos de pago recibidos en el backend.</td>
+        <td>6</td>
+        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS08</td>
+        <td>Configuración de servicio de cálculo de energía en Edge</td>
+        <td>T01</td>
+        <td>Configuración del servicio de cálculo de consumo de energía en la Aplicación Edge.</td>
+        <td>Configurar el servicio en la aplicación Edge para calcular el consumo de energía.</td>
+        <td>4</td>
+        <td>Gustavo Huilca Chipana</td>
+        <td>Done</td>
+    </tr>
+</table>
 
 ### 6.2.2.4. Development Evidence for Sprint Review.
 <p>En esta sección se presentan las evidencias de desarrollo del Sprint 2, incluyendo los commits realizados en el repositorio de GitHub, que reflejan el progreso y las implementaciones realizadas durante el sprint.</p>
