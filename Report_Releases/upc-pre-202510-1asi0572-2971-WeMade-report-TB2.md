@@ -6589,28 +6589,63 @@ parte del alcance. En este caso consideramos los mas relevantes hasta el momento
 
 
 **Registar Usuario**
-<img src="../assets/landin-page-ui/UserFlow Register User.png" alt="wireframe web app" width="400"/>
+
+<img src="../assets/wireflows/register-user-wireflow.jpeg" alt="wireframe Registrar usuario" width="400"/>
 
 **Descripción:**
 Flujo de registro de nuevo usuario con ingreso de datos personales, selección de tipo de usuario y confirmación de cuenta.
 
 **Registar Planta**
-<img src="../assets/landin-page-ui/UserFlow RegisterPlant.png" alt="wireframe web app" width="400"/>
+
+<img src="../assets/wireflows/register-plant-wireflow.jpeg" alt="Wireframe Registrar Planta" width="400"/>
 
 **Descripción:**
 Proceso de registro de nueva planta con configuración de sensores y umbrales de monitoreo.
 
 **Editar Planta**
-<img src="../assets/landin-page-ui/UserFlow EditPlant.png" alt="wireframe web app" width="400"/>
+
+<img src="../assets/wireflows/edit-plant-wireflow.jpeg" alt="wireframe editar planta" width="400"/>
 
 **Descripción:**
 Flujo de edición de información de plantas existentes, permitiendo modificar parámetros y datos registrados.
 
 **Eliminar Planta**
-<img src="../assets/landin-page-ui/UserFlow DeletePlant.png" alt="wireframe web app" width="400"/>
+
+<img src="../assets/wireflows/delete-plant-wireflow.jpeg" alt="wireframe Eliminar planta" width="400"/>
 
 **Descripción:**
 Proceso de eliminación de plantas con confirmaciones de seguridad y gestión de datos asociados.
+
+**Pago de Suscripción**
+
+<img src="../assets/wireflows/payment-wireflow.jpeg" alt="wireframe Payment usuario" width="400"/>
+
+**Descripción:**
+Proceso de pago de suscripción a la hora de escoger un plan y acceder al dashboard principal.
+
+**Consultas**
+
+<img src="../assets/wireflows/consulting-wireflow.jpeg" alt="wireframe consulta usuario" width="400"/>
+
+**Descripción:**
+Proceso de consulta del usuario por si tiene alguna pregunta y se envia la pregunta al especialista.
+
+**Domestico Especialista**
+
+<img src="../assets/wireflows/domestic-wireflow.jpeg" alt="wireframe domestic asnwer usuario" width="400"/>
+
+**Descripción:**
+Proceso de respuesta del especialista a la pregunta realizada por el usuario.
+
+**Registro de planta calendario**
+
+<img src="../assets/wireflows/register-plant-calendar-wireflow.jpeg" alt="wireframe register plant calendar" width="400"/>
+
+**Descripción:**
+Proceso de registro de planta en el calendario para hacer el respectivo monitoreo de la planta.
+
+
+
 
 ## 5.4.2. Applications Mock-ups.
 
@@ -6700,7 +6735,19 @@ Tomamos en cuenta que se debe cancelar el pago antes de hacer un registro nuevo.
 
 En esta situacion se consideran los happy y unhappy paths
 
-<img src="../assets/wireframes/userflows.png" alt="wireframe web app" width="400"/>
+**Autenticacion Usuario**
+
+<img src="../assets/userflows/auth-user-userflow.png" alt="userflow auth usuario" width="400"/>
+
+**User Goal:**
+As a User I want to authenticate to platform for access to his services.
+
+**Registrar Planta**
+
+<img src="../assets/userflows/register-planta-userflow.png" alt="userflow auth usuario" width="400"/>
+
+**User Goal:**
+As a User I want to authenticate to platform for access to his services.
 
 ## 5.5. Applications Prototyping.
 Esta sección incluye Prototipos de UI para Desktop y Mobile Web Browser con
