@@ -3237,7 +3237,7 @@ En esta capa se describen las clases que representan el modelo de la aplicación
 
 ---
 
-## 🌡️ Sensores
+## Sensores
 
 ### `Sensor` (Clase abstracta)
 
