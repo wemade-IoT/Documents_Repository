@@ -3479,19 +3479,9 @@ En esta capa se describen las clases que representan el modelo de la aplicación
 
 ##  Comunicación
 
-### `WifiSecureClient`
+### `InterfaceService`
 
  Propósito: Cliente genérico de red para enviar datos de manera segura.
-
----
-
-### `EdgeServerClient`
-
-| Atributo     | Tipo             |
-|--------------|------------------|
-| serverUrl    | string           |
-| deviceId     | string           |
-| client       | WifiSecureClient |
 
 ---
 
@@ -4286,6 +4276,11 @@ Mobile App:
 Backend:
 
 <img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams on API"/>
+
+Edge App:
+
+<img src="../assets/component-diagrams/structurizr-101372-EdgeSystem.png"
+alt="Edge Component Diagram on Mobile App" width="350"/>
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
@@ -5144,6 +5139,24 @@ Backend:
 
 #### 4.2.5.1. Domain Layer.
 
+Edge App:
+- En esta capa se describen las clases que describen el núcleo del dominio y manejan los contratos para la comunicación entre capas de mayor nivel
+
+
+**Entities**
+
+Esta clase se encarga de definir el nucleo del dominio y manejar estados a través de las capas de nivel superior
+
+| Atributo       |
+|----------------|
+| device_id        |
+| api_key       |
+| created_at        |
+
+**Services**
+
+Esta clase se encarga de la comunicacion hacia capas de nivel superior
+
 Mobile App:
 
 - En esta capa se definen las clases que abstraen las solicitudes y respuestas al servidor y aquellas que gestionan las consultas al servidor.
@@ -5326,6 +5339,14 @@ Representa un usuario del sistema.
 
 #### 4.2.5.2. Interface Layer.
 
+Edge App:
+
+- En esta capa se define el metodo que va a permitir la interacción hacia este bounded context
+
+  | Método          | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | authenticate_request        | Valida una solicitud de autenticación           |
+
 Mobile App:
 
 - En esta capa se definen los widgets que permiten la visualización de información
@@ -5413,6 +5434,18 @@ Backend:
  
 #### 4.2.5.3. Application Layer.
 
+Edge App:
+
+- Esta capa se encarga de manejar la implementación de los contratos definidos en la capa de dominio
+
+**Services**
+
+  | Método          | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+  | authenticate        | Valida una solicitud de autenticación           |
+  | get_or_create_test_device        | Realiza la creación de un nuevo dispositivo en la base de datos           |
+  | get_device_by_id_and_api_key     | Verifica un disposiitvo por su id y su api key |
+
 Mobile App:
 
 - No aplica para este caso.
@@ -5436,6 +5469,18 @@ Backend:
 
 
 #### 4.2.5.4. Infrastructure Layer.
+
+Edge App:
+
+- En esta capa se definen las clases que manejan las reglas de persistencia en una base de datos.
+
+**Models**
+
+En esta clase se definen las clases que van a ser mapeadas a la base de datos.
+
+**Repositories**
+
+En esta clase se definen los metodos que permitiran realizare consultas hacia la base de datos.
 
 Mobile App:
 
@@ -5490,6 +5535,11 @@ Mobile:
 <img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
 alt="IAM Component Diagram on Mobile App" width="350"/>
 
+Edge App:
+
+<img src="../assets/component-diagrams/structurizr-101372-EdgeSystem.png"
+alt="Edge Component Diagram on Mobile App" width="350"/>
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
@@ -5505,6 +5555,11 @@ Mobile App:
 Backend:
 
 <img src="../assets/class-diagrams/iamBackend.png" alt="Iam Context Domain Layer Class Diagrams"/>
+
+
+Edge App:
+
+<img src="../assets/class-diagrams/edge-iam-domain-class.png" alt="Iam Context Domain Layer Class Diagrams"/>
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
