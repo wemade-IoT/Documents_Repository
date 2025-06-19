@@ -9574,7 +9574,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | https://github.com/wemade-IoT/EcoGuardian-Edge    | develop                         | f3a0338   | chore: update .gitignore                                                                                                                                                        |                                                                                                                                                 | Sun Jun 15 15:08:43 2025 -0500 |
 | https://github.com/wemade-IoT/EcoGuardian-Edge    | develop                         | b356689   | chore: create .gitignore                                                                                                                                                        |                                                                                                                                                 | Sun Jun 15 15:02:01 2025 -0500 |
 | https://github.com/wemade-IoT/EcoGuardian-Edge    | develop                         | 2a0d48b   | chore: initial project setup.                                                                                                                                                   |                                                                                                                                                 | Sun Jun 15 15:00:15 2025 -0500 |
-table>
+<table>
     <tr>
         <td>https://github.com/wemade-IoT/eco-guardian-frontend</td>
         <td>develop</td>
