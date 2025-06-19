@@ -5569,7 +5569,7 @@ Backend:
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/tactical-level-ddd/db-diagrams/iamt-db-diagram.png" alt="Iam Database Design Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/iam-db-diagram.png" alt="Iam Database Design Diagram"/>
 
 
 ### 4.2.6. Bounded Context: Profiles and Preferences
