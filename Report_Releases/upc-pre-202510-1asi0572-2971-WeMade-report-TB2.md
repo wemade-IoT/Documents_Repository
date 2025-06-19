@@ -12271,6 +12271,8 @@ Andrea Cabanillas, encargada del cuidado de las plantas, menciono que el proceso
 
 [Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
 
+[Entrevistas de validación [Anexo 6.3.2] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
 
+[Video About the Product] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
 ---
 
