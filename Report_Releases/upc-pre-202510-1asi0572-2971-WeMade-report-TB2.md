@@ -12267,6 +12267,77 @@ El proceso de registro de plantas es directo, ahorrando tiempo y evitando errore
 
 ---
 
+## Entrevista de Validación: Empleado de Logística - Diego Hoffman
+
+**Nombre:** Diego Hoffman (Asignado por el usuario, no explícito en la transcripción)
+
+**Edad:** 30
+
+**Ocupación:** Empleado de Logística
+
+**Browser:** Chrome
+
+**Device:** Laptop
+
+**Distrito:** La Merced, Trujillo
+
+**Timing:** 15:00 (Inicio de la interacción con este usuario)
+
+<center>
+
+![Entrevista 3 Segmento Logística](../assets/images-interviews/negocios/validation/interview-2-v.png)
+
+</center>
+
+### Resumen:
+Diego Hoffman, un empleado con un rol en logística, encontró que el proceso inicial de creación de cuenta es bastante sencillo y que los planes de la aplicación están bien especificados, lo que facilita la comprensión de las opciones disponibles. A pesar de algunas interacciones que requirieron guía (como el ingreso de la tarjeta de prueba o la selección de la fecha de instalación), su apreciación general fue que el diseño de la aplicación es "bastante amigable" y el sistema es "bastante sencillo" de usar. Esto sugiere una base de usabilidad sólida en los elementos visuales y la navegación general.
+
+### **Objetivos y Feedback:**
+- **Proceso de creación de cuenta bastante sencillo.**
+- **Planes de suscripción bien especificados y claros.**
+- **Diseño de la aplicación amigable.**
+- **Sistema percibido como bastante sencillo en su uso general.**
+
+---
+
+## Entrevista de Validación: Segmento Doméstico -María Soto
+
+**Nombre:** María Soto
+
+**Edad:** 48
+
+**Ocupación:** Secretaria (Usuaria Doméstica)
+
+**Browser:** Chrome
+
+**Device:** Laptop
+
+**Distrito:** SanIdelfonso, Trujillo
+
+**Timing:** 31:40
+
+<center>
+
+![Entrevista 2 Segmento Doméstico](../assets/images-interviews/domestico/validation/interview-3v.png)
+
+</center>
+
+### Resumen:
+María Soto, una usuaria doméstica apasionada por la botánica, encontró el proceso de registro rápido y directo, destacando la facilidad para identificar el tipo de plan. Apreció el diseño de los planes de suscripción, que detallan claramente el consumo, y consideró el método de pago por tarjeta de crédito como práctico y sencillo. La página de bienvenida fue percibida como simple y con la información necesaria. Valoró la facilidad para manejar y distribuir los límites de agua, luz y temperatura de las plantas. El proceso para agendar la fecha de instalación fue rápido, y la opción de realizar consultas a especialistas fue muy bien recibida, ya que siempre surgen dudas sobre el cuidado de las plantas. En general, consideró la aplicación como sencilla, rápida de utilizar y fácil de entender, con información concisa.
+
+### **Objetivos y Feedback:**
+- **Registro rápido y directo.**
+- **Facilidad para encontrar y entender el tipo de plan.**
+- **Diseño de planes claro y detallado.**
+- **Método de pago práctico y fácil.**
+- **Página de bienvenida simple y funcional.**
+- **Límites de planta fáciles de manejar y bien distribuidos.**
+- **Agendamiento de instalación rápido.**
+- **Opción de consultas a especialistas muy útil y clara.**
+- **Aplicación sencilla, rápida y fácil de entender con información concisa.**
+
+---
+
 ## Entrevista de Validación: Segmento Doméstico - Andrea Cabanillas
 
 **Nombre:** Andrea Cabanillas
