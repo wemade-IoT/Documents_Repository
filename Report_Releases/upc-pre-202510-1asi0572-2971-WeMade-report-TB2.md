@@ -3479,19 +3479,9 @@ En esta capa se describen las clases que representan el modelo de la aplicación
 
 ##  Comunicación
 
-### `WifiSecureClient`
+### `InterfaceService`
 
  Propósito: Cliente genérico de red para enviar datos de manera segura.
-
----
-
-### `EdgeServerClient`
-
-| Atributo     | Tipo             |
-|--------------|------------------|
-| serverUrl    | string           |
-| deviceId     | string           |
-| client       | WifiSecureClient |
 
 ---
 
@@ -4286,6 +4276,11 @@ Mobile App:
 Backend:
 
 <img src="../assets/tactical-level-ddd/analytics/analytic-class-diagram.jpeg" alt="Analytics Domain Layer Class Diagrams on API"/>
+
+Edge App:
+
+<img src="../assets/component-diagrams/structurizr-101372-EdgeSystem.png"
+alt="Edge Component Diagram on Mobile App" width="350"/>
 
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram.
@@ -5489,6 +5484,11 @@ Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-IAMBoundedContextonMobileApp.png"
 alt="IAM Component Diagram on Mobile App" width="350"/>
+
+Edge App:
+
+<img src="../assets/component-diagrams/structurizr-101372-EdgeSystem.png"
+alt="Edge Component Diagram on Mobile App" width="350"/>
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
