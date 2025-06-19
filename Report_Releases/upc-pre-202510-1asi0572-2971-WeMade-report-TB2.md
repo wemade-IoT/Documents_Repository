@@ -5589,6 +5589,8 @@ Representa una abstracción para representar un perfil en la aplicación
 |----------------|--------|
 | id           | int    |
 | email        | string |
+| username       | string |
+| avatarUrl       | string |
 | name       | string |
 | address       | string |
 | subscriptionId | int   |
@@ -5641,6 +5643,8 @@ Representa una abstracción para una solicitud relacionada al registro de un per
 |----------------|--------|
 | email        | string |
 | name       | string |
+| username       | string |
+| avatarUrl       | string |
 | address       | string |
 | subscriptionId | number   |
 | userId         |  number  |
@@ -5670,6 +5674,8 @@ Representa una abstracción para una respuesta del servidor relacionada a perfil
 | id        | number |
 | email        | string |
 | name       | string |
+| username       | string |
+| avatarUrl       | string |
 | address       | string |
 | subscriptionId | number   |
 | userId         |  int  |
@@ -5723,6 +5729,8 @@ Representa un usuario del sistema.
 | Id             | int    |
 | Email          | string |
 | Name           | string |
+| username       | string |
+| avatarUrl       | string |
 | Address        | string |
 |  UserId         | int    |
 | SubscriptionId | int    |
