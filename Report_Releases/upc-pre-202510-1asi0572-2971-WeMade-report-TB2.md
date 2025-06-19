@@ -12050,7 +12050,9 @@ Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_u
 
 ### 6.2.2.7 Services Documentation Evidence for Sprint Review
 
-En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint.
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. 
+
+En este sprint logramos alcanzar, con respecto a los web services, la implementación de los servicios de autenticación, gestión de órdenes, pagos, suscripciones, plantas y perfiles de usuario. Estos servicios permiten a los usuarios registrarse, iniciar sesión, crear y gestionar órdenes, realizar pagos y administrar sus plantas y perfiles.
 
 A continuación se presenta una tabla con los endpoints, acciones implementadas, verbo HTTP, sintaxis, parámetros, ejemplo de response y los commits relacionados (puedes agregar la URL de la documentación en la columna que desees):
 
