@@ -12099,7 +12099,7 @@ A continuación se presenta una tabla con los endpoints, acciones implementadas,
 **Repositorio:** https://github.com/wemade-IoT/EcoGuardian-Backend
 
 
-### 6.2.2.9 Software Deployment evidence for spring preview
+### 6.2.2.8 Software Deployment evidence for spring preview
 
 ### Despliegue Aplicación Web
 
@@ -12123,7 +12123,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 
 <img src="../assets/sprint2/exce/deploy-backend.jpeg" alt="sprint-2-deploy.png" class="img-fluid" style="width: 100%; height: auto;">
 
-### 6.2.2.8 Team Collaboration Insights during Sprint 2
+### 6.2.2.9 Team Collaboration Insights during Sprint 2
 
 <p>Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 2, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.</p>
 <p>Frontend: En esta fase, se trabajó en el diseño e implementación de la interfaz de usuario, asegurando una experiencia de usuario fluida y atractiva. Se enfocaron en el desarrollo de componentes interactivos para la visualización de datos, gestión de plantas, órdenes de instalación, así como la integración de funcionalidades para pagos y suscripciones. Además, se priorizó la compatibilidad y responsividad en múltiples dispositivos, garantizando una experiencia óptima tanto en desktop como en dispositivos móviles.</p> <img src="../assets/sprint2/team-collab/spritn-2-frontend.png" alt="sprint-2-frontend.png" class="img-fluid" style="width: 100%; height: auto;">
