@@ -9470,6 +9470,52 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 <p>Edge: El equipo se centró en la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil. Trabajaron en la optimización del procesamiento de datos para garantizar una respuesta rápida y precisa a las consultas de los usuarios.</p>
 <img src="../assets/sprint2/team-collab/sprint-2-edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
 
+### 6.3.2. Registro de Entrevistas.
+
+**Preguntas generales:**
+
+1. ¿Cuál es su nombre?  
+2. ¿Qué edad tiene? 
+3. ¿A qué se dedica? 
+4. ¿Qué navegador usa?
+5. ¿Qué dispositivo usa con más frecuencia y de qué marca es?
+6. ¿En qué distrito se encuentra?
+
+
+**Entrevistas usuario segmento (Doméstico)**
+
+1. ¿Consideras que los pasos para el proceso de autenticación son claros desde una primera impresión?	
+2. ¿Consideras que el proceso de enviar consultas relacionadas a una planta es fácil de utilizar?
+3. ¿Consideras que es confiable poner una confirmación de pago para saber que el pago fue exitoso?
+4. ¿Consideras que el sistema muestra información detallada sobre el servicio de suscripción y sus beneficios?
+5. ¿Consideras que la aplicación web muestra información entendible a simple vista sobre el monitoreo de tus plantas?
+6. ¿Consideras que el proceso de registro de plantas desde la aplicación web y móvil es fácil de utilizar desde una primera impresión?
+7. ¿Consideras que el proceso de selección de fecha para la instalación de sensores  desde la aplicación web es manejable y muestra información en tiempo real sobre la fecha elegida?
+8. ¿Consideras que las operaciones que se pueden realizar a tus plantas son fáciles de localizar desde el dashboard?
+9. ¿Consideras que el sistema muestra información relevante sobre los resultados de procesos?
+
+
+**Entrevistas usuario segmento (Empresarial)**
+
+1. ¿Consideras que los pasos para el proceso de autenticación son claros desde una primera impresión?
+2. ¿Consideras que es confiable poner una confirmación de pago para saber que el pago fue exitoso?
+3. ¿Consideras que el diseño es intuitivo para ser utilizado correctamente?
+4. ¿Consideras que la aplicación web muestra información entendible a simple vista sobre el monitoreo de tus plantaciones?
+5. ¿Consideras que el proceso de registro de plantas es fácil de utilizar desde una primera impresión?
+6. ¿Consideras que el proceso de selección de fecha para la instalación de sensores  desde la aplicación web es manejable y muestra información en tiempo real sobre la fecha elegida?
+7. ¿Consideras que las operaciones que se pueden realizar a tus plantas son fáciles de localizar desde el dashboard?
+8. ¿Consideras que el sistema muestra información relevante sobre los resultados de procesos?
+
+
+**Entrevistas usuario segmento Especialista**
+
+1. ¿Consideras que la interfaz de visualizar preguntas es intuitiva desde una primera impresión?
+2. ¿Consideras que la aplicación web facilita el acceso a información detallada sobre las plantas registradas por el usuario?
+3. ¿Consideras que el proceso de emitir recomendaciones a los usuarios es simple de utilizar?
+4. ¿Consideras que la aplicación tiene instrucciones claras de cómo gestionar los problemas reportados? 
+
+
+
 # Conclusiones
 
 # Conclusiones y recomendaciones.
