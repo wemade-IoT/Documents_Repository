@@ -6378,6 +6378,8 @@ Backend:
 
 - Las fachadas definen un contrato que actúa como un puente de conexión hacia otro Bounded Context, protegiendo nuestro contexto de influencia externa mediante el principio de Anti Corruption Layer (ACL), evitando que conceptos o lógicas externas afecten nuestro dominio.
 
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
 | ISensorServiceFacade        | Define un contrato para los servicios de dominio relacionados con sensores, que deben ser expuestos a servicios externos.            |
 | SensorServiceFacade  |    Implementación concreta del contrato, proporcionando la interacción entre los servicios de dominio y los servicios externos.  |
 | IActuatorServiceFacade        | Define un contrato para los servicios de dominio relacionados con actuadores, que deben ser expuestos a servicios externos.            |
@@ -6419,6 +6421,8 @@ Backend:
 
 ### CommandServices
 
+| Clase            | Descripción                                      |
+|---------------------|--------------------------------------------------|
 | `SensorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los sensores. |
 | `ActuatorCommandService`           | Implementación del servicio que maneja los comandos relacionados con los actuadores. |
 | `WellnessStateCommandService`                | Implementación del servicio que maneja los comandos relacionados con los estados de una planta. |
