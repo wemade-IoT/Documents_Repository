@@ -9712,6 +9712,47 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 
 
+### 6.2.2.6 Execution Evidence for Sprint Review
+En este sprint pudimos lograr la implementación del monitoreo de plantas y plantaciones, así como la integración de los servicios de backend con las aplicaciones web y móvil, la visualización, creación y respuesta a consultas de usuarios, y la gestión de órdenes de instalación, pagos y suscripciones. Finalmente se logró la implementación de la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil.
+A continuación se presentan screenshots de las funcionalidades principales funcionales implementadas en el Sprint 2:
+
+Aplicación Embebida:
+
+<img src="../assets/sprint2/exce/embedded.png" alt="sprint-2-embedded.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Edge:
+
+<img src="../assets/sprint2/exce/edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Web Service:
+<img src="../assets/sprint2/exce/web-service.png" alt="sprint-2-web-service.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Web:
+
+<img src="../assets/sprint2/exce/web-app-1.png" alt="sprint-2-web-app.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/web-app-2.png" alt="sprint-2-web-app-2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/web-app-3.png" alt="sprint-2-web-app-3.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/web-app-4.png" alt="sprint-2-web-app-4.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/web-app-5.png" alt="sprint-2-web-app-5.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/web-app-6.png" alt="sprint-2-web-app-6.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Móvil:
+
+<img src="../assets/sprint2/exce/mobile-1.png" alt="sprint-2-mobile-app-1.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint2/exce/mobile-2.png" alt="sprint-2-mobile-app-2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Finalmente se presenta el video de ejecución de las funcionalidades principales del Sprint 2.
+
+<img src="../assets/sprint2/exce/excecution-vide.png" alt="sprint-2-execution-video.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EWh92TUIFxFMhfBSIyNnEuEB2FJpnlo8fkBxulUXMuTJ8Q?e=dZAiLJ
+
 ### 6.2.2.9 Team Collaboration Insights during Sprint 2
 
 <p>Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 2, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.</p>
