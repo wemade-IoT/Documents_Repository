@@ -5752,6 +5752,7 @@ Representa un notificación configurada por un perfil.
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
 | CreateProfileCommand                | Representa un comando para la creación de un nuevo perfil.                                                     |
+| UpdateProfileCommand                | Representa un comando para actualizar un perfil existente.                                                     |
 | CreateNotificationCommand                | Representa un comando para la creación de una nueva notificación.                                         |
 
 #### Queries
@@ -5839,6 +5840,7 @@ Backend:
   |  ProfileResource  |  Recibe datos para devolver un perfil desde el servidor. |
    | CreateNotificationResource |  Recibe datos para la creación de una nueva notificación.     |
    | CreateProfileResource |  Recibe datos para la creación de un nuevo perfil.     |
+   | UpdateProfileResource |  Recibe datos para actualizar un perfil existente.     |
  ---
  
    #### Transforms/Assemblers
@@ -5849,6 +5851,7 @@ Backend:
   |---------------------|--------------------------------------------------|
   | CreateNotificationCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de un notificación .      |
   | CreateProfileCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando de creación de un perfil.              |
+  | UpdateProfileCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando de actualización de un perfil.              |
   |  NotificationResourceFromEntityAssembler        | Transforma los datos de la entidad notificación en un recurso.       |
    |  ProfileResourceFromEntityAssembler        | Transforma los datos de la entidad perfil en un recurso.       |
  
