@@ -12006,6 +12006,10 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
     </tr>
 </table>
 
+### 6.2.2.5 Testing Suite Evidence for Sprint Review
+
+Dado que esta versión es un prototipo enfocado principalmente en la interfaz de usuario (UI) y en la validación de usuarios, y considerando que seguimos un enfoque basado en Domain-Driven Design (DDD) y Feature-Driven Design (FDD), en este sprint hemos decidido posponer la implementación de pruebas unitarias e integrales. Estas se abordarán en el próximo sprint, una vez que contemos con el sistema completo y las conexiones necesarias al fog, embedded y edge node ya estén integradas.
+
 
 ### 6.2.2.6 Execution Evidence for Sprint Review
 En este sprint pudimos lograr la implementación del monitoreo de plantas y plantaciones, así como la integración de los servicios de backend con las aplicaciones web y móvil, la visualización, creación y respuesta a consultas de usuarios, y la gestión de órdenes de instalación, pagos y suscripciones. Finalmente se logró la implementación de la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil.
