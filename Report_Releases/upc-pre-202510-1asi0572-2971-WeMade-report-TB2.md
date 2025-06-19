@@ -6363,12 +6363,10 @@ Backend:
 |---------------------|--------------------------------------------------|
 | SensorResourceFromEntityAssembler     | Transforma una entidad de sensor en un recurso de salida para el cliente.
 | ActuatorResourceFromEntityAssembler     | Transforma una entidad de actuator en un recurso de salida para el cliente.
-
 | CreateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de sensor.      |
 | ActivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un sensor.      |
 | InactivateSensorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un sensor.      |
 | UpdateSensorCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando para actualizar un sensor existente.    
-
 | CreateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de actuator.      |
 | ActivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de activacion de un actuador.      |
 | InactivateActuatorCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de inactivacion de un actuador.      |
