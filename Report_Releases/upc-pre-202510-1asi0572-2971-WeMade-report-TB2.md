@@ -217,15 +217,16 @@ Front End Web App Repository: [Front end Repository](https://github.com/wemade-I
 
 Front End Web Application: [Front End Application](https://eco-guardian-frontend-backup-76h2.vercel.app/login)
 
-Usuario Github | Nombre |
-|-|-|
-SEBRH | Sebastian Ramirez Hoffmann
-LordMathi2741 | Mathias Alejandro Jave Dias
-tatoft | Italo D'alessandro Luna Capuñay
-GustavoHuilca31 | Gustavo Huilca Chipana
-U202210138 | Manuel Sebastian Peña Rivera
-kuni2005 | Mathias Tsuneo Kunimoto Watanabe
-Nekolas777 | Nicolas Sebastian Esteban Garcia
+| Usuario Github     | Nombre                              |
+|--------------------|-------------------------------------|
+| SEBRH              | Sebastian Ramirez Hoffmann          |
+| LordMathi2741      | Mathias Alejandro Jave Diaz         |
+| tatoft             | Italo D'alessandro Luna Capuñay     |
+| GustavoHuilca31    | Gustavo Huilca Chipana              |
+| U202210138         | Manuel Sebastian Peña Rivera        |
+| kuni2005           | Mathias Tsuneo Kunimoto Watanabe    |
+| Nekolas777         | Nicolas Sebastian Esteban Garcia    |
+
 </center>
 
 ### TB1
