@@ -5232,12 +5232,13 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="../assets/component-diagrams/structurizr-101372-SubscriptionBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Payment Component Diagram on Web App" width="350"/>
 
 Backend:
 
-<img src="../assets/component-diagrams/structurizr-101372-PaymentSystem.png" alt="Payment Component Diagram on API" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png" alt="Payment Component Diagram on API" width="350"/>
 
+<br/>
 Mobile:
 
 <img src="../assets/component-diagrams/structurizr-101372-PaymentBoundedContextonMobileApp.png"
