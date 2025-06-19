@@ -9581,6 +9581,39 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 3. ¿Consideras que el proceso de emitir recomendaciones a los usuarios es simple de utilizar?
 4. ¿Consideras que la aplicación tiene instrucciones claras de cómo gestionar los problemas reportados? 
 
+## Entrevista de Validación: Segmento Empresarial - Alvaro Jimenez Agapito
+
+**Nombre:** Alvaro Jimenez Agapito  
+**Edad:** 28  
+**Ocupación:** Gestor del sector Agrario  
+**Browser:** Google Chrome  
+**Device:** Laptop Toshiba  
+**Distrito:** Miraflores, Lima  
+**Timing:** 25:02  
+
+<center>
+
+![Entrevista 1 Segmento Negocios](../assets/images-interviews/negocios/validation/interview-1.png)
+
+</center>
+
+### Resumen:
+Alvaro Jimenez, gestor en el sector agrario, destacó que el proceso de autenticación en la plataforma es claro y directo, permitiendo un acceso rápido y sin complicaciones. En cuanto a la confirmación de pago, considera que es esencial para brindar confianza y seguridad, especialmente en un entorno empresarial donde las transacciones tienen un impacto directo en las operaciones. 
+Sobre el diseño de la plataforma, opina que es intuitivo y fácil de usar, facilitando la adopción por parte de distintos miembros del equipo sin necesidad de capacitación extensa. La aplicación web muestra información clara sobre el monitoreo de las plantaciones, lo que permite tomar decisiones informadas de manera ágil.
+El proceso de registro de plantas es directo, ahorrando tiempo y evitando errores, y el proceso de selección de fecha para la instalación de sensores es manejable, permitiendo hacer ajustes inmediatos si es necesario. Las operaciones en el dashboard son fáciles de localizar, gracias a su interfaz organizada. Finalmente, resalta que el sistema proporciona información relevante sobre los resultados de las actividades realizadas, lo cual es crucial para medir el éxito de las operaciones agrícolas.
+
+### **Objetivos y Feedback:**
+- **Autenticación clara y directa.**
+- **Confirmación de pago confiable.**
+- **Diseño intuitivo y fácil de usar.**
+- **Información clara sobre el monitoreo de las plantaciones.**
+- **Registro de plantas eficiente y fácil de utilizar.**
+- **Selección de fecha clara para instalación de sensores.**
+- **Operaciones fáciles de localizar en el dashboard.**
+- **Información relevante y procesable sobre los resultados de procesos.**
+
+---
+
 
 
 # Conclusiones
