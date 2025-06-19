@@ -3540,6 +3540,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | Atributo              | Tipo     |
 |-----------------------|----------|
 | id                    | number      |
+| name                  | string      |
 | type                  | string   |
 | isPlantation          | number   |
 | areaCoverage          | number   |
@@ -3549,7 +3550,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | temperatureThreshold  | number  |
 | createdAt             | date |
 | updatedAt             | date |
-| stateId               | number     |
+| wellnessStateId               | number     |
 
 
 
@@ -3564,6 +3565,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
+| name                  | string      |
 | type                  | string   |
 | isPlantation          | number   |
 | areaCoverage          | number   |
@@ -3573,7 +3575,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | temperatureThreshold  | number  |
 | createdAt             | date |
 | updatedAt             | date |
-| stateId               | number     |
+| wellnessStateId                 | number     |
 
 
 
@@ -3591,6 +3593,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | Atributo              | Tipo     |
 |-----------------------|----------|
 | id                    | int      |
+| name                  | string      |
 | type                  | string   |
 | isPlantation          | int   |
 | areaCoverage          | int   |
@@ -3600,7 +3603,7 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | temperatureThreshold  | double   |
 | createdAt             | dateTime |
 | updatedAt             | dateTime |
-| stateId               | int      |
+| wellnessStateId               | int      |
 
 | Constructor nombrado                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
@@ -3610,20 +3613,6 @@ En esta capa se describen las clases que representan las abstracciones del domin
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
 | toJson | Crea una instancia de un objeto en base a los atributos de la clase    |
-
-
-
-
-
-
-**GetPlantsByUserIdDto**
-
-Representa la solicitud de consulta de plantas por usuario.
-
-| Atributo | Tipo   |
-|----------|--------|
-| userId     | int |
-
 
 
 
@@ -3673,13 +3662,14 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| Id                    | Int      |
-| Type                  | String   |
+| Id                    | int      |
+| Name                  | string   |
+| Type                  | string   |
 | AreaCoverage          | int      |
-| UserId                | Int      |
-| WaterThreshold        | Double   |
-| LightThreshold        | Double   |
-| TemperatureThreshold  | Double   |
+| UserId                | int      |
+| WaterThreshold        | double   |
+| LightThreshold        | double   |
+| TemperatureThreshold  | double   |
 | CreatedAt             | DateTime |
 | UpdatedAt             | DateTime |
 | IsPlantation          | bool     |
@@ -3688,6 +3678,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
 | Update | Aplica los cambios especificados por un comando de actualización para modificar los valores de la planta    |
+| UpdateState | Aplica el cambio de estado sobre una planta    |
 
 
 
@@ -3699,7 +3690,9 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 | Clase                   | Descripción                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------|
 | CreatePlantCommand      | Representa un comando para crear una nueva instancia del agregado Plant.                        |
+| UpdatePlantStateCommand      | Representa un comando para la actualización del estado de una instancia del agregado Plant.           |
 | UpdatePlantCommand      | Representa un comando para modificar una instancia existente del agregado Plant.                |
+| DeletePlantCommand      | Representa un comando para la eliminación de una instancia del agregado Plant.          |
 | SeedWellnessStateCommand       | Representa un comando para inicializar datos en la entidad WellnessState dentro del dominio. |
 
 
@@ -3708,7 +3701,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Clase                         | Descripción                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------------------|
-| GetPlantsByStateIdQuery      | Representa una consulta que recupera las plantas asociadas a un estado específico.                   |
+| GetPlantByUserIdQuery      | Representa una consulta que obtener una planta en especifico por su id.                   |
 | GetPlantsByUserIdQuery      | Representa una consulta que obtiene todas las plantas asociadas a un usuario determinado.            |
 
 
@@ -3754,32 +3747,22 @@ Web App:
 
 ## Components
 
-**PlantItemComponent**
+**PlantCard**
 
-Componente reutilizable encargado de presentar la información detallada de una planta o una plantación.
+Componente para la visualización de la información de una planta en especifico.
 
-**PlantListComponent**
+**PlantDetail**
 
-Componente orientado a la visualización de un conjunto de plantas o plantaciones.
+Componente para la visualización de detalles de una planta.
+**PlantDialog**
+Componente para la ejecución de registros y actualización de una planta.
 
+**PlantInformation**
+Componente para la visualización de la configuración detallada de una planta
 
-Componente que representa una colección de plantaciones.
+**PlantList**
+Componente para la visualización de una lista de plantas
 
-## Pages
-
-**PlantsVisualizationPage**
-
-Componente donde se mostrará las plantas o plantaciones registradas por cada usuario
-
-
-
-**PlantInformationPage**
-
-Componente donde se mostrará información detallada sobre una planta o plantación en especifico
-
-**PlantRegisterOrEditPage**
-
-Componente donde se registrará o editará la información de una planta o plantación existente
 
 
 
@@ -3795,24 +3778,31 @@ Mobile:
 
 ## Widgets
 
-**PlantPrototype**  
-Muestra un resumen visual de una planta o plantación.
+
+**PlantItem**
+
+Widget para la visualización de la información de una planta en especifico.
+
+**PlantList**
+Widget para la visualización de una lista de plantas
+
+**PlantDialog**
+Widget para la ejecución de registros y actualización de una planta.
+
+
+**PlantSection**
+Widget para la reutilización de estructura en una sección de plantas
 
 
 
 ## Screens
 
-**PlantsVisualizationPage**
+**MonitoringScreen**
 
-Pantalla donde se mostrará las plantas o plantaciones registradas por cada usuario.
+Pantalla donde se muestra información sobre el monitoreo de plantas 
 
 **PlantInformationScreen**  
 Pantalla con información detallada de una planta o plantación específica.
-
-
-**PlantRegisterOrEditScreen**
-
-Pantalla donde se registrará o editará la información de una planta o plantación existente
 
 
 
@@ -3900,6 +3890,10 @@ Mobile:
 - No aplica para este caso
 
 Backend:
+
+### Events
+
+| `SeedWellnessTypesEvent`           |Evento para la inicialización de tipos de estado por planta. |
 
 ### CommandServices
 
@@ -4000,11 +3994,11 @@ Backend:
 
 Embedded App:
 
-<img src="../assets/class-diagrams/embedded/embeddedApp.jpeg" alt="Embedded App"/>
+<img src="../assets/class-diagrams/embedded/embeddedApp.png" alt="Embedded App"/>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-<img src="../assets/tactical-level-ddd/db-diagrams/management-db-diagram.png" alt="Management Database Design Diagram"/>
+<img src="../assets/tactical-level-ddd/db-diagrams/management-db-diagram.jpeg" alt="Management Database Design Diagram"/>
 
 ### 4.2.2. Bounded Context: Analytics
 #### 4.2.2.1. Domain Layer.

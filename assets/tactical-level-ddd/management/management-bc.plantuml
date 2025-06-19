@@ -1,10 +1,9 @@
 @startuml "Management Domain Layer Diagram for Backend"
-left to right direction
-skinparam packageStyle rectangle
-skinparam classAttributeIconSize 0
-package "Domain Layer" {
   class Plant {
     +Id:int
+    +Name:string
+    +IsPlantation:bool
+    +AreaCoverage:double
     +Type:string
     +UserId:int
     +WaterThreshold:decimal
@@ -16,140 +15,9 @@ package "Domain Layer" {
     +Plant()
     +Plant(command:CreatePlantCommand)
     +Update(command:UpdatePlantCommand):void
+    +UpdateState(command:UpdatePlantStateCommand):void
   }
   
-  class Sensor {
-  - Id: int
-  - Supplier: string
-  - Voltage: int
-  - SensorTypeId: int
-  - PlantId: int
-  - DeviceStateId: int
-  - InstalledAt: DateTime
-  - ActivatedAt: DateTime
-  - LastUpdated: DateTime
-  
-  +Sensor()
-  +Sensor(command:CreateSensorCommand)
-  + UpdateStatus(command:ActivateSensorCommand): void
-  +UpdateStatus(command:InactiveSensorCommand):void
-  + Update(command:UpdateSensorCommand): void
-}
-
-class Actuator {
-  - Id: int
-  - Supplier: string
-  - Voltage: int
-  - PlantId: int
-  - DeviceStateId: int
-  - InstalledAt: DateTime
-  - ActivatedAt: DateTime
-  - LastUpdated: DateTime
-  +Actuator()
-  +Actuator(command:CreateActuatorCommand)
-  + UpdateStatus(command:ActivateActuatorCommand): void
-  + UpdateStatus(command:InactiveActuatorCommand): void
-  + Update(command:UpdateActuatorCommand): void
-}
-
-class DeviceState {
-  - Id: int
-  - Type: string
-}
-
-class SensorType {
-  - Id: int
-  - Type: string
-}
-
-
-enum DeviceStates {
-  Active
-  Inactive
-  ToActive
-}
-
-enum SensorTypes {
-  Humidity
-  Temperature
-  Light
-}
-
-class SeedSensorTypesCommand
-class SeedDeviceStateCommand
-class CreateSensorCommand
-class ActivateSensorCommand
-class InactiveSensorCommand
-class UpdateSensorCommand
-class CreateActuatorCommand
-class ActivateActuatorCommand
-class InactiveActuatorCommand
-class UpdateActuatorCommand
-
-class GetSensorsByPlantIdQuery
-class GetActuatorsByPlantIdQuery
-
-interface ISensorRepository{
-+GetByPlantId(plantId:int): List<Plant>
-}
-
-interface ISensorTypeRepository{
-  +IsTypeExists(type:string):bool
-}
-
-interface IActuatorRepository{
-  +GetByPlantId(plantId:int): List<Plant>
-}
-
-interface IDeviceStateRepository{
-+IsStateExists(state:string):bool
-}
-
-interface ISensorCommandService{
-  +Handle(command:CreateSensorCommand): void
-  +Handle(command:UpdateSensorCommand): void
-  +Handle(command:ActivateSensorCommand):void
-  +Handle(command:InactiveSensorCommand):void
-}
-
-interface IActuatorCommandService {
-+Handle(command:CreateActuatorCommand): void
-  +Handle(command:UpdateActuatorCommand): void
-  +Handle(command:ActivateActuatorCommand):void
-  +Handle(command:InactiveActuatorCommand):void
-}
-
-interface ISensorQueryService{
-  +Handle(query:GetSensorsByPlantIdQuery): List<Sensor>
-}
-
-interface IActuatorQueryService {
-   +Handle(query:GetActuatorsByPlantIdQuery): List<Actuator>
-}
-
-interface ISensorTypeCommandService{
-  +Handle(command:SeedSensorTypesCommand):void
-}
-
-interface IDeviceStateCommandService{
- +Handle(command:SeedDeviceStateCommand):void
-}
-
-
-  class Plantation {
-    +Id:int
-    +Type:string
-    +UserId:int
-    +WaterThreshold:double
-    +LightThreshold:double
-    +AreaCoverage:double
-    +CreatedAt:DateTime
-    +UpdatedAt:DateTime
-    +StateId:int
-    +Plantation()
-    +Plantation(command:CreatePlantationCommand)
-    +Update(command:UpdatePlantationCommand):void
-  }
 
   class WelnessState {
     +Id:int
@@ -165,106 +33,55 @@ interface IDeviceStateCommandService{
   }
 
   WelnessState *-- "1" WelnessStates
-  SensorType *-- "1" SensorTypes
-  DeviceState *-- "1" DeviceStates
 
-  ' ======= Commands =======
   class CreatePlantCommand
   class UpdatePlantCommand
-  class CreatePlantationCommand
-  class UpdatePlantationCommand
+  class UpdatePlantStateCommand
   class SeedWelnessStateCommand
 
-  ' ======= Queries =======
   class GetPlantsByUserIdQuery
-  class GetPlantsByStateIdQuery
-  class GetPlantationByUserIdQuery
-  class GetPlantationByStateIdQuery
-  class IsPlantExistsByIdQuery
+  class GetPlantByIdQuery
 
-  ' ======= Interfaces =======
+
   interface IPlantCommandService {
     +Handle(command:CreatePlantCommand):void
     +Handle(command:UpdatePlantCommand):void
+    +Handle(command:UpdatePlantStateCommand):void
   }
 
-  interface IPlantationCommandService {
-    +Handle(command:CreatePlantationCommand):void
-    +Handle(command:UpdatePlantationCommand):void
-  }
+
 
   interface IPlantQueryService {
     +Handle(query:GetPlantsByUserIdQuery):List<Plant>
-    +Handle(query:GetPlantsByStateIdQuery):List<Plant>
-    +Handle(query:IsPlantExistsByIdQuery):bool
+    +Handle(query:GetPlantByIdQuery):Plant
   }
 
-  interface IPlantationQueryService {
-    +Handle(query:GetPlantationByUserIdQuery):List<Plantation>
-    +Handle(query:GetPlantationByStateIdQuery):List<Plantation>
-  }
 
   interface IWelnessStateCommandService {
     +Handle(command:SeedWelnessStateCommand)
   }
 
   interface IPlantRepository {
-    +FindPlantsByUserIdAsync(userId:int):List<Plant>
-    +FindPlantsByStateIdAsync(stateId:int):List<Plant>
-    +IsPlantExistsByIdAsync(id:int):bool
-  }
-
-  interface IPlantationRepository {
-    +FindPlantationsByUserIdAsync(userId:int):List<Plantation>
-    +FindPlantationsByStateIdAsync(stateId:int):List<Plantation>
+    +GetPlantsByUserIdAsync(userId:int):List<Plant>
   }
 
   interface IWelnessStateRepository {
     +IsStateExists(type:string):bool
   }
 
-  ' ======= Relationships =======
-  Plant -- CreatePlantCommand
-  Plant -- UpdatePlantCommand
-
-  Plantation -- CreatePlantationCommand
-  Plantation -- UpdatePlantationCommand
 
   IPlantCommandService -- CreatePlantCommand
   IPlantCommandService -- UpdatePlantCommand
+  IPlantCommandService -- UpdatePlantStateCommand
 
-  IPlantationCommandService -- CreatePlantationCommand
-  IPlantationCommandService -- UpdatePlantationCommand
 
   IPlantQueryService -- GetPlantsByUserIdQuery
-  IPlantQueryService -- GetPlantsByStateIdQuery
-  IPlantQueryService -- IsPlantExistsByIdQuery
+  IPlantQueryService -- GetPlantByIdQuery
 
-  IPlantationQueryService -- GetPlantationByUserIdQuery
-  IPlantationQueryService -- GetPlantationByStateIdQuery
 
   IPlantRepository --> Plant
-  IPlantationRepository --> Plantation
   IWelnessStateRepository --> WelnessState
 
   IWelnessStateCommandService -- SeedWelnessStateCommand
   
-  ISensorRepository --> Sensor 
-  IActuatorRepository --> Actuator
-  IDeviceStateRepository --> DeviceState
-  ISensorTypeRepository --> SensorType
-  ISensorCommandService -- ActivateSensorCommand
-  ISensorCommandService -- InactiveSensorCommand
-  ISensorCommandService -- CreateSensorCommand
-  ISensorCommandService -- UpdateSensorCommand
-  ISensorTypeCommandService -- SeedSensorTypesCommand
-  IDeviceStateCommandService -- SeedDeviceStateCommand
-  ISensorQueryService -- GetSensorsByPlantIdQuery
-  IActuatorQueryService -- GetActuatorsByPlantIdQuery
-  IActuatorCommandService -- CreateActuatorCommand
-  IActuatorCommandService -- ActivateActuatorCommand
-  IActuatorCommandService -- InactiveActuatorCommand
-  IActuatorCommandService -- UpdateActuatorCommand
-}
-
 @enduml
