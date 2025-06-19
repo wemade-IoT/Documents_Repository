@@ -198,6 +198,73 @@
         </ul>
       </td>
     </tr>
+     <tr>
+      <td rowspan="7">1.2</td>
+      <td>15/05/2025</td>
+      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Design Update</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>16/05/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Deployment for backend</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>20/05/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>User Stories & Trello Management</li>
+          <li>Sprint Planner</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>21/05/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Architecture corrections</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>23/05/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Prototyping, Document maintenance</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>26/05/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Front end Implementation</li>
+          <li>Deployment evidence and execution</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Preliminary Corrections</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 
