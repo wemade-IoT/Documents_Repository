@@ -12092,12 +12092,39 @@ A continuación se presenta una tabla con los endpoints, acciones implementadas,
 
 **Repositorio:** https://github.com/wemade-IoT/EcoGuardian-Backend
 
-### 6.2.2.9 Team Collaboration Insights during Sprint 2
+
+### 6.2.2.9 Software Deployment evidence for spring preview
+
+### Despliegue Aplicación Web
+
+Se configuró el dominio de producción en **Vercel**, enlazado a la rama `main` para actualizaciones automáticas. Se añadieron las **variables de entorno** necesarias para conectar con los servicios backend y garantizar el correcto funcionamiento de la aplicación. El entorno cuenta con protección activa (bot y firewall) y está listo para escalar en producción.
+<img src="../assets/sprint2/exce/deploy.jpeg" alt="sprint-2-deploy.png" class="img-fluid" style="width: 100%; height: auto;">
+
+### Despliegue de Aplicación Móvil
+
+Se realizó el despliegue de la versión **1.0.0** de la app móvil mediante **Firebase App Distribution**, permitiendo distribuir el APK a los testers. Se invitó a 5 usuarios para realizar pruebas, facilitando la recopilación de comentarios antes del lanzamiento oficial. La versión incluye una *prueba de demostración* como etapa inicial de validación.
+<img src="../assets/sprint2/exce/deploy-mobile.jpeg" alt="sprint-2-deploy.png" class="img-fluid" style="width: 100%; height: auto;">
+
+### Despliegue de Backend en Microsoft Azure
+
+El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** bajo el servicio **App Service**. El nombre de la aplicación es **EcoGuardian** y se encuentra en ejecución en la región **Brazil South**. Utiliza el sistema operativo **Linux** para su funcionamiento. Además, el dominio predeterminado para el servicio es **ecoguardian-cgenhdd6dadrgbfz.brazilsouth-01.azurewebsites.net**, y se tiene la opción de agregar un dominio personalizado. El plan de servicio es **ASP-EcoGuardian-9695** y está configurado para manejar las necesidades de la plataforma con recursos optimizados para su operación.
+
+**Detalles importantes:**
+- **Estado:** En ejecución
+- **Suscripción:** Azure for Students
+- **Sistema Operativo:** Linux
+- **Plan de Hosting:** App Service
+
+<img src="../assets/sprint2/exce/deploy-backend.jpeg" alt="sprint-2-deploy.png" class="img-fluid" style="width: 100%; height: auto;">
+
+### 6.2.2.8 Team Collaboration Insights during Sprint 2
 
 <p>Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 2, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.</p>
 <p>Frontend: En esta fase, se trabajó en el diseño e implementación de la interfaz de usuario, asegurando una experiencia de usuario fluida y atractiva. Se enfocaron en el desarrollo de componentes interactivos para la visualización de datos, gestión de plantas, órdenes de instalación, así como la integración de funcionalidades para pagos y suscripciones. Además, se priorizó la compatibilidad y responsividad en múltiples dispositivos, garantizando una experiencia óptima tanto en desktop como en dispositivos móviles.</p> <img src="../assets/sprint2/team-collab/spritn-2-frontend.png" alt="sprint-2-frontend.png" class="img-fluid" style="width: 100%; height: auto;">
+
 <p>Backend: Se trabajó en la implementación de servicios web para la gestión de información de plantas, plantaciones, consultas de usuarios, órdenes de instalación, pagos y suscripciones. Se enfocaron en asegurar que los servicios fueran eficientes y escalables, permitiendo una integración fluida con las aplicaciones frontend y móvil.</p>
 <img src="../assets/sprint2/team-collab/sprint-2-backend.png" alt="sprint-2-backend.png" class="img-fluid" style="width: 100%; height: auto;">
+
 <p>Edge: El equipo se centró en la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil. Trabajaron en la optimización del procesamiento de datos para garantizar una respuesta rápida y precisa a las consultas de los usuarios.</p>
 <img src="../assets/sprint2/team-collab/sprint-2-edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
 
