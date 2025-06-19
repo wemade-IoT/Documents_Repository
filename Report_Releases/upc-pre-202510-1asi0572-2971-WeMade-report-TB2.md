@@ -330,6 +330,7 @@ Front End Web Application: [Front End Application](https://ecoguardian-tb2.verce
 <img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
 [*Colaboraciones del repositorio*]
+Se muestra evidencia del trabajo realizado en la TB1
 
 <img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
 
@@ -346,6 +347,8 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 <img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
+Se muestra evidencia del trabajo realizado en la Tp1
+
 
 <img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
 
@@ -372,6 +375,9 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 <img src="../assets/inisghts/tp/webapp-commits.jpeg" alt="Commits Webapp">  
 
 [*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*]
+
+### TB2
+
 </center>
 
 ---
