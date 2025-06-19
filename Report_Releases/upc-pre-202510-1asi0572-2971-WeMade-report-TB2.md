@@ -12242,7 +12242,280 @@ Andrea Cabanillas, encargada del cuidado de las plantas, menciono que el proceso
 - **Operaciones fáciles de localizar en el dashboard.**
 - **Información relevante y procesable sobre los resultados de procesos.**
 
+### 6.3.3 Evaluaciónes según Heurísticas
 
+CARRERA: Ingeniería de Software
+CURSO: Desarrollo de Soluciones IoT
+SECCIÓN: 2971
+PROFESORES: Ángel Augusto
+AUDITOR: WeMade
+CLIENTE(S): Álvaro Jiménez
+
+SITE o APP A EVALUAR:
+EcoGuardian
+
+TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+Registro de un usuario nuevo (Sector Empresarial)
+Selección y pago de plan de suscripción.
+Añadir una nueva planta.
+Agendar instalación de sensores.
+Actualizar información de una planta.
+Visualizar métricas de plantas en el Dashboard (Web).
+Enviar consultas a un especialista.
+Eliminar una planta.
+Monitoreo rápido de información de plantas (Móvil).
+Registrar/Editar planta desde la aplicación móvil.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+Cualquier funcionalidad no cubierta o no principal para esta etapa de validación tales como el uso de API externa de especialista, cambio de datos perfil, implementacion de CRM en su totalidad en movil. etc 
+
+<table>
+    <tr>
+        <td>Nivel</td>
+        <td>Descripción</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Problema superficial puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia No necesita ser arreglado a no ser que exista disponibilidad de tiempo</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Problema menor puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Problema mayor  ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe  signar una prioridad alta.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Problema muy grave un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.</td>
+    </tr>
+</table>
+
+<table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Problema</th>
+                <th>Escala de Severidad</th>
+                <th>Heurística/Principio violada(o)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="severity-3">
+                <td>1</td>
+                <td>Problemas en el proceso de registro de cuenta: Hubo un "error técnico" durante el registro  y las restricciones de contraseña (mayúscula, minúscula, admiración)  requirieron guía verbal, lo que dificultó la primera impresión.</td>
+                <td>3</td>
+                <td>Usabilidad: Prevención de errores / Ayuda y documentación / Coincidencia entre el sistema y el mundo real.</td>
+            </tr>
+            <tr class="severity-3">
+                <td>2</td>
+                <td>Confusión y dificultad en el proceso de selección de fecha para la instalación: Un usuario "se perdió"  y tuvo que ser guiado para seleccionar la fecha correcta en el calendario.</td>
+                <td>3</td>
+                <td>Usabilidad: Reconocimiento en lugar de recuerdo / Prevención de errores / Flexibilidad y eficiencia de uso.</td>
+            </tr>
+            <tr class="severity-3">
+                <td>3</td>
+                <td>Falta de opción de idioma español en la interfaz. </td>
+                <td>3</td>
+                <td>Diseño Inclusivo: Localización / Accesibilidad.</td>
+            </tr>
+            <tr class="severity-2">
+                <td>4</td>
+                <td>Problemas de visibilidad de scroll: Usuarios tuvieron que ser guiados para desplazarse hacia abajo y encontrar campos adicionales o selecciones de horario en formularios (ej. añadir planta, agendar instalación, secciones iniciales de Landing Page). </td>
+                <td>2</td>
+                <td>Usabilidad: Visibilidad del estado del sistema / Estética y diseño minimalista.</td>
+            </tr>
+            <tr class="severity-2">
+                <td>5</td>
+                <td>Ambigüedad en la entrada de datos de prueba: La interfaz para la fecha de expiración de la tarjeta de prueba no indicaba claramente el requisito de una fecha futura , y hubo confusión sobre cómo introducir el número de tarjeta de prueba. </td>
+                <td>2</td>
+                <td>Usabilidad: Consistencia y estándares / Ayuda y documentación.</td>
+            </tr>
+            <tr class="severity-2">
+                <td>6</td>
+                <td>Falta de opciones avanzadas de facturación y exportación de datos para el segmento empresarial: El usuario empresarial deseaba opciones de facturación más detalladas (ej. RUC, nombre de empresa)  y la capacidad de descargar datos del dashboard (ej. Excel) para análisis. </td>
+                <td>2</td>
+                <td>Usabilidad: Flexibilidad y eficiencia de uso / Coincidencia entre el sistema y el mundo real.</td>
+            </tr>
+            <tr class="severity-2">
+                <td>7</td>
+                <td>Iconografía o etiquetado poco claro: El significado del icono "ojo" para ver más información de la planta no fue inmediatamente claro para un usuario.  Hubo ligera confusión entre "nombre" y "tipo" de planta, y "título" y "descripción" para preguntas. </td>
+                <td>2</td>
+                <td>Usabilidad: Reconocimiento en lugar de recuerdo / Coincidencia entre el sistema y el mundo real.</td>
+            </tr>
+            <tr class="severity-2">
+                <td>8</td>
+                <td>Incapacidad para subir fotos a la información de la planta. </td>
+                <td>2</td>
+                <td>Usabilidad: Flexibilidad y eficiencia de uso (característica esperada).</td>
+            </tr>
+            <tr class="severity-2">
+                <td>9</td>
+                <td>Falta de claridad en la visibilidad de las respuestas a las consultas: Un usuario preguntó dónde aparecerían las respuestas de los especialistas. </td>
+                <td>2</td>
+                <td>Usabilidad: Visibilidad del estado del sistema / Ayuda y documentación.</td>
+            </tr>
+            <tr class="severity-1">
+                <td>10</td>
+                <td>Información de perfil estática: La sección de perfil del usuario mostraba datos fijos debido a problemas de conexión con la base de datos, lo que afectó la expectativa del usuario de ver su información dinámica. </td>
+                <td>1</td>
+                <td>Usabilidad: Coincidencia entre el sistema y el mundo real (limitación técnica impactando la expectativa).</td>
+            </tr>
+            <tr class="severity-1">
+                <td>11</td>
+                <td>Interrupciones o pausas en la aplicación móvil: Se observó una pausa inicial o problema de carga antes de que el usuario pudiera interactuar completamente con la aplicación móvil. </td>
+                <td>1</td>
+                <td>Usabilidad: Visibilidad del estado del sistema / Tiempos de respuesta.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+### PROBLEMA #1: Problemas en el proceso de registro de cuenta y restricciones de contraseña.
+Severidad: 3
+Heurística violada: Usabilidad: Prevención de errores / Ayuda y documentación / Coincidencia entre el sistema y el mundo real.
+
+Problema:
+Durante el proceso de registro de una nueva cuenta, específicamente para un usuario doméstico (la "secretaria Maria"), se reportó un "error técnico" no de contraseña que interrumpió el flujo. Adicionalmente, las restricciones de contraseña (requiriendo una mayúscula, una minúscula y un signo de admiración) no fueron comunicadas claramente en la interfaz, lo que obligó al entrevistador a brindar guía verbal ("Básicamente, la contraseña tiene una restricción que solicita que se tenga una mayúscula, una minúscula de admiración."). Esta falta de claridad y el error técnico inicial generan frustración y dificultan la primera interacción del usuario con la aplicación, afectando la experiencia de incorporación.
+
+Recomendación:
+
+Manejo de Errores: Investigar y resolver la causa del "error técnico" reportado durante el registro. Todos los errores deben ser comunicados al usuario de forma clara, con un lenguaje sencillo y ofreciendo una solución o indicando los siguientes pasos.
+Visibilidad de Restricciones de Contraseña: Mostrar las restricciones de contraseña de forma clara y visible junto al campo de entrada (ej., "La contraseña debe tener al menos 8 caracteres, incluyendo una mayúscula, una minúscula y un carácter especial como !"). Validar la entrada en tiempo real con feedback instantáneo al usuario para guiarlo hacia una contraseña válida antes de enviar el formulario.
+
+### PROBLEMA #2: Confusión y dificultad en el proceso de selección de fecha para la instalación.
+Severidad: 3
+Heurística violada: Usabilidad: Reconocimiento en lugar de recuerdo / Prevención de errores / Flexibilidad y eficiencia de uso.
+
+Problema:
+Un usuario durante la prueba del agendamiento de instalación expresó confusión ("acá me perdí") y tuvo dificultades para seleccionar una fecha correctamente, requiriendo intervención del entrevistador ("creo que debe presionar 2 meses, creo para que se registre correctamente. No, acá me perdí pásale ahí un botón, no, no selecciono la fecha"). Esto sugiere que la interacción con el calendario o el selector de fechas no es intuitiva, o que la confirmación de la selección no es suficientemente clara, impidiendo al usuario completar la tarea de forma autónoma.
+
+Recomendación:
+
+Claridad del Selector de Fechas: Revisar el diseño del componente del selector de fechas para asegurar que sea intuitivo.
+Feedback Visual: Proporcionar un feedback visual claro e inmediato cuando una fecha es seleccionada (ej. resaltando la fecha, o mostrando la fecha seleccionada en un resumen).
+Guía Explícita: Si hay pasos adicionales (ej., presionar "2 meses"), deben ser explícitos en la interfaz, no implícitos o que requieran conjeturas del usuario. Asegurar que haya un botón de "confirmar" o "siguiente" bien visible una vez que la selección esté completa.
+
+### PROBLEMA #3: Falta de opción de idioma español en la interfaz.
+Severidad: 3
+Heurística violada: Diseño Inclusivo: Localización / Accesibilidad.
+
+Problema:
+Un usuario doméstico recomendó explícitamente que la aplicación "sea también en idioma, en en español, español". Aunque la entrevista se realizó en español, la interfaz de usuario de la aplicación no ofrecía una opción clara para cambiar el idioma, sugiriendo que podría estar configurada en inglés o no ser adaptable. Esto limita la accesibilidad y la usabilidad para los usuarios hispanohablantes nativos, lo que es crítico en un mercado como Perú.
+
+Recomendación:
+
+Soporte Multi-idioma: Implementar un sistema de localización que permita traducir toda la interfaz de usuario al español y a otros idiomas relevantes.
+Selector de Idioma Visible: Colocar un selector de idioma de fácil acceso (ej., en el encabezado, pie de página o configuración del perfil) para que los usuarios puedan cambiar el idioma según sus preferencias.
+Detección Automática (Opcional): Considerar la detección del idioma del navegador o del dispositivo para ofrecer la aplicación en el idioma preferido del usuario por defecto, siempre con la opción de cambiarlo.
+### PROBLEMA #4: Problemas de visibilidad de scroll y falta de indicación de contenido oculto.
+Severidad: 2
+Heurística violada: Usabilidad: Visibilidad del estado del sistema / Estética y diseño minimalista.
+
+Problema:
+En múltiples ocasiones, los entrevistadores tuvieron que indicar a los usuarios que "bajen" o "hagan scroll hacia abajo" para poder ver campos adicionales en formularios (como al añadir una planta, ingresar el correo y país en el registro, o ver las opciones de horarios para la instalación). Esto indica que no hay suficientes indicadores visuales (ej., barras de scroll, elementos "cortados" en la parte inferior de la pantalla) que sugieran la presencia de contenido más allá del área visible inicial, lo que interrumpe el flujo del usuario y puede llevar a la omisión de información importante.
+
+(Incluir aquí una captura de pantalla de un formulario o sección donde se requirió el scroll manual, mostrando la parte superior sin indicar la presencia de más contenido debajo).
+
+Recomendación:
+
+Indicadores Visuales de Scroll: Asegurar que los formularios y secciones largas tengan barras de desplazamiento visibles o que los elementos se "corten" sutilmente en el borde inferior de la pantalla para indicar que hay más contenido.
+Optimización del Espacio: Rediseñar las interfaces para que los campos más importantes sean visibles sin necesidad de scroll inicial, especialmente en los primeros pasos de un proceso.
+Diseño Responsivo: Confirmar que la aplicación se adapta correctamente a diferentes tamaños de pantalla, minimizando la necesidad de scroll vertical excesivo en resoluciones comunes.
+### PROBLEMA #5: Ambigüedad en la entrada de datos de prueba.
+Severidad: 2
+Heurística violada: Usabilidad: Consistencia y estándares / Ayuda y documentación.
+
+Problema:
+Durante el proceso de pago simulado, los usuarios tuvieron dudas sobre cómo ingresar los datos de la tarjeta de prueba. Específicamente, se les tuvo que indicar verbalmente que la fecha de expiración debía ser "mayor" a la actual (ej. "28"), y hubo confusión sobre cómo llenar el número de tarjeta de prueba ("repetir el número 42, o sea, eso lo pongo 42 muchas... me imagino que es hasta el límite"). Esta falta de instrucciones claras en la interfaz para datos de prueba genera fricción y dependencia de la guía externa, lo que sería un problema en un entorno de usuario real.
+
+
+Recomendación:
+
+Instrucciones Claras para Datos de Prueba: En entornos de prueba o demostración, añadir instrucciones explícitas y sencillas sobre cómo introducir los datos de prueba (ej., "Para fines de demostración, use MM/AA: 12/28" o "Ingrese 16 dígitos cualesquiera, ejemplo: 4242...").
+Validación en Tiempo Real: Implementar validaciones en tiempo real para los campos que ofrezcan feedback inmediato y claro sobre el formato esperado.
+Campos de Entrada Estándar: Asegurarse de que los campos de entrada sigan convenciones estándar de la industria para tipos de datos como números de tarjeta o fechas.
+
+### PROBLEMA #6: Falta de opciones avanzadas de facturación y exportación de datos para el segmento empresarial.
+Severidad: 2
+Heurística violada: Usabilidad: Flexibilidad y eficiencia de uso / Coincidencia entre el sistema y el mundo real.
+
+Problema:
+El usuario del segmento empresarial expresó la necesidad de funcionalidades de facturación más robustas, como la capacidad de incluir datos de la empresa (ej. RUC) en las facturas, lo cual no estaba visiblemente disponible ("necesito poner los datos de la empresa, este poner el ruk cosillas así"). Además, solicitó opciones de filtrado más avanzadas en el dashboard (ej. por trimestre, por mes) y la capacidad de exportar datos a formatos como Excel, para un análisis más profundo ("una opción de descarga en Excel también me sirve porque a esos datos hay que tratarlos más"). Esto indica que la aplicación, en su estado actual, no satisface completamente las necesidades de gestión y análisis de datos más complejas de un usuario empresarial.
+
+
+Recomendación:
+
+Facturación Empresarial: Expandir las opciones de facturación para incluir campos para información corporativa (RUC, nombre de empresa, dirección fiscal) y permitir la generación de facturas detalladas.
+Filtros Avanzados en Dashboard: Añadir opciones de filtrado de tiempo más granulares (ej. día, semana, mes, trimestre, año) y personalizables en el dashboard.
+Exportación de Datos: Implementar funcionalidades de exportación de datos del dashboard a formatos comunes como CSV o Excel para permitir a los usuarios realizar análisis externos.
+
+### PROBLEMA #7: Iconografía o etiquetado poco claro.
+Severidad: 2
+Heurística violada: Usabilidad: Reconocimiento en lugar de recuerdo / Coincidencia entre el sistema y el mundo real.
+
+Problema:
+Un usuario tuvo dudas sobre el significado del icono de "ojito" en la interfaz ("el del ojito no estaba seguro. ¿Para qué era?"). Además, se observó una ligera confusión entre los términos "nombre" y "tipo" de planta al registrar una nueva planta, y entre "título" y "descripción" al formular una pregunta a un especialista. Estas inconsistencias o ambigüedades en la terminología y la iconografía requieren que el usuario adivine o dependa de la guía, lo que reduce la eficiencia y aumenta la carga cognitiva.
+
+
+Recomendación:
+
+Iconografía Intuitiva: Utilizar iconos universalmente reconocibles o añadir etiquetas de texto debajo de los iconos. Considerar tooltips al pasar el cursor sobre los iconos para proporcionar una descripción.
+Claridad Terminológica: Revisar la terminología utilizada en toda la aplicación para asegurar consistencia y que coincida con el lenguaje que los usuarios esperarían. Utilizar etiquetas claras para campos como "Nombre de la planta" y "Tipo de planta", o "Asunto de la pregunta" y "Detalle de la pregunta".
+Pruebas de Usabilidad Continua: Realizar más pruebas con usuarios para identificar cualquier otra área donde el etiquetado o la iconografía puedan ser ambiguos.
+### PROBLEMA #8: Ausencia de la función para subir fotos de plantas.
+Severidad: 2
+Heurística violada: Usabilidad: Flexibilidad y eficiencia de uso.
+
+Problema:
+Un usuario sugirió la adición de una funcionalidad para "colocarle las fotos, ahí hay imágenes" al registrar o gestionar una planta. Esta característica, que es común y esperada en aplicaciones de gestión de inventario o seguimiento, no estaba presente. Su ausencia limita la capacidad del usuario para personalizar y contextualizar la información de sus plantas de manera visual, lo que podría mejorar significativamente la experiencia y la utilidad de la aplicación.
+
+
+Recomendación:
+
+Implementar Carga de Imágenes: Desarrollar e integrar una funcionalidad que permita a los usuarios subir imágenes de sus plantas.
+Beneficios Claros: Comunicar cómo esta característica puede enriquecer la experiencia del usuario (ej., "Visualice sus plantas", "Identifique fácilmente cada planta").
+### PROBLEMA #9: Falta de claridad en la visibilidad de las respuestas a las consultas.
+Severidad: 2
+Heurística violada: Usabilidad: Visibilidad del estado del sistema / Ayuda y documentación.
+
+Problema:
+Después de enviar una consulta a un especialista, un usuario preguntó directamente: "¿Y la respuesta me sale acá también o me agenda como esa idea?". Esto indica que no hay una indicación clara en la interfaz sobre dónde o cómo el usuario recibirá la respuesta a su consulta, generando incertidumbre sobre el estado y el resultado de su acción.
+
+
+Recomendación:
+
+Notificaciones Claras: Al enviar una consulta, mostrar un mensaje de éxito que indique claramente: "Su consulta ha sido enviada. Recibirá una respuesta en la sección 'Mis Consultas' y/o por correo electrónico."
+Sección "Mis Consultas": Asegurarse de que la sección donde se mostrarán las respuestas sea fácilmente accesible y que tenga un indicador visual (ej., un punto de notificación) cuando haya una nueva respuesta.
+Comunicación Consistente: Si las respuestas también se envían por correo electrónico, mencionarlo explícitamente en la interfaz.
+### PROBLEMA #10: Información de perfil estática y no editable.
+Severidad: 1
+Heurística violada: Usabilidad: Coincidencia entre el sistema y el mundo real (debido a limitaciones técnicas).
+
+Problema:
+El entrevistador mencionó que la vista de perfil "más que nada lo hemos mantenido con datos fijos por el momento, ya que actualmente contamos con unos problemas para vincular en la base de datos la información de la cuenta, o sea del perfil del usuario, no de la cuenta." Aunque es una limitación técnica conocida por el equipo, para el usuario esto se percibe como una sección de perfil no funcional o incompleta, lo cual va en contra de la expectativa de poder ver y editar su propia información de cuenta en una aplicación moderna.
+
+
+Recomendación:
+
+Comunicación Temporal: Si la funcionalidad está deshabilitada temporalmente por problemas técnicos, considerar un mensaje discreto en la interfaz que informe al usuario (ej., "Estamos trabajando para mejorar tu perfil. La edición estará disponible pronto.").
+Priorizar Corrección: Corregir el problema de vinculación con la base de datos para habilitar la edición de perfiles lo antes posible.
+Funcionalidad Esencial: Asegurar que las funcionalidades básicas de gestión de perfil (ver datos, editar email/contraseña, etc.) estén operativas para proporcionar una experiencia de usuario completa y satisfactoria.
+
+### PROBLEMA #11: Pausas o cargas iniciales en la aplicación móvil.
+Severidad: 1
+Heurística violada: Usabilidad: Visibilidad del estado del sistema / Tiempos de respuesta.
+
+Problema:
+Se observó una pausa o un momento de carga inicial en la aplicación móvil antes de que el usuario pudiera ingresar su contraseña y acceder a la interfaz. Aunque no impidió el uso, cualquier retraso inicial en el acceso puede generar una percepción de lentitud o ineficiencia en la aplicación.
+
+Recomendación:
+
+Optimización del Rendimiento: Optimizar el rendimiento de la aplicación móvil para reducir los tiempos de carga inicial y asegurar una experiencia fluida desde el primer momento.
+Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visual claro (ej., spinner, barra de progreso) para que el usuario sepa que la aplicación está funcionando y no está congelada.
 
 # Conclusiones
 
