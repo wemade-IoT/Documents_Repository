@@ -4607,85 +4607,35 @@ Mobile App:
 <img src="../assets/tactical-level-ddd/db-diagrams/consulting-db-diagram.png" alt="Consulting Database Design Diagram"/>
 
 
-
 ### 4.2.4. Bounded Context: Subscriptions And Payments
 
 Web App:
-- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
-
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes así como aquellas que se encargan de realizar peticiones a nuestro servicio.
 
 #### State
 
-Para gestionar el flujo de cambio de estados al completar el pago de una orden para un determinado servicio, se optó por el uso del patron state que permite manejar un flujo de estados de manera dinámica.
+Para gestionar el flujo de cambio de estados de una suscripción, se utiliza el patrón state para manejar los estados de manera dinámica.
 
 **State**
-Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
-
+Interfaz que define el método que se ejecutará en las clases que manejan los estados de una suscripción.
 
 | Método | Descripción     |
 |-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+| completeSubscription | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
-**CompleteSubscribeOrderState**
+**CompleteSubscriptionPaymentState**
 
 Esta clase permite manejar los cambios de estado para el flujo de pago de suscripción
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| order                  | Order   |
-
-| Método | Descripción     |
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-**CompleteSensorPaymentState**
-
-Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de sensores
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| order                  | Order   |
+| subscription          | Subscription   |
 
 | Método | Descripción     |
 |-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-**CompleteActuatorPaymentState**
-
-Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de actuadores
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| order                  | Order   |
-
-| Método | Descripción |
-|-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-
-
-
-
+| completeSubscription | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 #### Request
-
-**OrderRequest**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| action                | string   |
-| userId                | number      |
-| sensorId           | number      |
-| actuatorId           | number      |
-| subscriptionId       | number      |
-
-
-**UpdateOrderStateRequest**
-
-| Atributo | Tipo   |
-|----------|--------|
-| id       | number |
-| orderStateId| number |
-
 
 **SubscriptionRequest**
 
@@ -4695,7 +4645,6 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | subscriptionStateId |  number        |
 | userId               |  number        |
 
-
 **UpdateSubscriptionStateRequest**
 
 | Atributo | Tipo   |
@@ -4703,27 +4652,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | id       | number |
 | subscriptionStateId| number |
 
-
-
-
-#### Response 
-
-**OrderResponse**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | number   |
-| action                | string   |
-| userId                | number      |
-| sensorId           | number      |
-| actuatorId           | number      |
-| createdAt            | string      |
-| completedAt          | string      |
-| orderStateId          | string      |
-| subscriptionId       | number      |
-
-
-
+#### Response
 
 **SubscriptionResponse**
 
@@ -4736,17 +4665,7 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | userId               |  number        |
 | createdAt            |  string     |
 
-
 #### Assembler
-
-**OrderAssembler**
-
-| Método             | Descripción     |
-|-----------------------|----------|
-| toRequestAssembler                    | Devuelve una instancia de UpdateOrderStatusRequest |
-| toRequestAssembler                    | Devuelve una instancia de OrderRequest   |
-| toResponseAssembler               | Devuelve una instancia de OrderResponse   |
-
 
 **SubscriptionAssembler**
 
@@ -4756,95 +4675,33 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | toRequestAssembler                | Devuelve una instancia de UpdateSubscriptionStatusRequest |
 | toResponseAssembler               | Devuelve una instancia de SubscriptionResponse   |
 
-
-
-
-
-
-
-
-
 Mobile App:
-- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes asi como aquellas que se encargaran de realizar peticiones a nuestro servicio.
-
+- En esta capa se describen las clases que representan las abstracciones del dominio. Se incluyen clases de serialización de respuestas y solicitudes así como aquellas que se encargan de realizar peticiones a nuestro servicio.
 
 #### State
 
-Para gestionar el flujo de cambio de estados al completar el pago de una orden para un determinado servicio, se optó por el uso del patron state que permite manejar un flujo de estados de manera dinámica.
+Para gestionar el flujo de cambio de estados de una suscripción, se utiliza el patrón state para manejar los estados de manera dinámica.
 
 **State**
-Interfaz que define el método que se ejecutaran en las clases que manejan los estados de una orden.
+Interfaz que define el método que se ejecutará en las clases que manejan los estados de una suscripción.
 
 | Método | Descripción     |
 |-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
+| completeSubscription | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
-**CompleteSubscribeOrderState**
+**CompleteSubscriptionPaymentState**
 
 Esta clase permite manejar los cambios de estado para el flujo de pago de suscripción
 
 | Atributo              | Tipo     |
 |-----------------------|----------|
-| order                  | Order   |
+| subscription          | Subscription   |
 
 | Método | Descripción     |
 |-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-**CompleteSensorPaymentState**
-
-Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de sensores
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| order                  | Order   |
-
-| Método | Descripción     |
-|-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-**CompleteActuatorPaymentState**
-
-Esta clase permite manejar los cambios de estado para el flujo de pago de instalación de actuadores
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| order                  | Order   |
-
-| Método | Descripción |
-|-----------------------|----------|
-| completeOrder | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
-
-
+| completeSubscription | Ejecuta un cambio de estado dinámico de acuerdo a la referencia de estado |
 
 #### DTO
-
-
-
-
-**OrderDto**
-
-| Atributo              | Tipo     |
-|-----------------------|----------|
-| id                    | int   |
-| action                | string   |
-| userId                | int      |
-| sensorId           | int      |
-| actuatorId           | int      |
-| createdAt            | string      |
-| completedAt          | string      |
-| orderStateId          | string      |
-| subscriptionId       | int      |
-
-
-| Contructor             | Descripción     |
-|-----------------------|----------|
-| fromJson              | Crea una instancia de la clase OrderDto en base a una respuesta del servidor    |
-| toRequest                    | Crea un objeto con los atributos de la clase OrderDto para realizar una solicitud    |
-
-
-
-
 
 **SubscriptionDto**
 
@@ -4857,13 +4714,10 @@ Esta clase permite manejar los cambios de estado para el flujo de pago de instal
 | userId               |  int        |
 | createdAt            |  string     |
 
-
 | Contructor             | Descripción     |
 |-----------------------|----------|
-| fromJson              | Crea una instancia de la clase SubscriptioDto en base a una respuesta del servidor    |
+| fromJson              | Crea una instancia de la clase SubscriptionDto en base a una respuesta del servidor    |
 | toRequest                    | Crea un objeto con los atributos de la clase SubscriptionDto para realizar una solicitud    |
-
-
 
 Backend:
 
@@ -4874,22 +4728,12 @@ Backend:
 
 #### Entities
 
-**OrderState**
-
-| Atributo | Tipo   |
-|----------|--------|
-| Id       | Int    |
-| Type     | String |
-
-
 **SubscriptionType**
 
-
 | Atributo | Tipo   |
 |----------|--------|
 | Id       | Int    |
 | Type     | String |
-
 
 **SubcriptionState**
 
@@ -4899,19 +4743,9 @@ Representa los estados de una suscripción (por ejemplo: Activa, Inactiva)
 | Id       | Int    |
 | Type     | String |
 
-
-
 ---
 
 #### Value Objects
-
-**OrderStates**
-
-| Atributo    | Descripción                                              |
-|------------|----------------------------------------------------------|
-| ToComplete   | Representa el estado de una orden por completar             |
-| Completed    | Representa el estado de una orden cancelada              |
-
 
 **SubscriptionTypes**
 
@@ -4931,26 +4765,6 @@ Representa los estados de una suscripción (por ejemplo: Activa, Inactiva)
 ---
 
 #### Aggregates
-
-**Order**
-
-Representa una factura creada en la aplicación.
-
-  | Atributo              | Tipo     |
-  |-----------------------|----------|
-  | Id                    | int      |
-  | Action               | string   |
-  | UserId            | int |
-  | SensorId                | int      |
-  | ActuatorId           | int      |
-  | CreatedAt  | DateTime |
-  | CompletedAt | DateTime  |
-  | StateId | int |
-  | SubscriptionId | int |
-
-| Método                        | Descripción                                                                                               |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| UpdateOrderState      | Representa un método para actualizar el estado de una orden.                 |
 
 **Subscription**
 
@@ -4975,11 +4789,8 @@ Representa una suscripción disponible en la aplicación.
 
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| CreateOrderCommand     | Representa un comando para la creación de una nueva orden                 |
-| UpdateOrderStateCommand      | Representa un comando para la actualización de estado de una orden                 |
 | CreateSubscriptionCommand     | Representa un comando para la creación de una nueva suscripción                 |
 | UpdateSubscriptionStateCommand      | Representa un comando para la actualización de estado de una suscripción                 |
-| SeedOrderStatesCommand      | Representa un comando para la inicialización de datos para los tipos de estados de una orden               |
 | SeedSubscriptionTypesCommand  | Representa un comando para la inicialización de datos para los tipos de suscripción               |
 | SeedSubscriptionStatesCommand  | Representa un comando para la inicialización de datos para los tipos de estados de una suscripción       |
 
@@ -4987,11 +4798,7 @@ Representa una suscripción disponible en la aplicación.
 
 | Clase                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| GetOrdersByUserIdQuery     | Representa una clase de consulta para obtener todas las ordenes que realizo un usuario                 |
 | GetSubscriptionByUserIdQuery     | Representa una clase de consulta para obtener información relacionada a la suscripción de un usuario                 |
-
-
-
 
 ---
 
@@ -5001,20 +4808,14 @@ Representa una suscripción disponible en la aplicación.
 
 |  Interface                      | Descripción                                                                                     |
 |--------------------------------|-------------------------------------------------------------------------------------------------|
-| IOrderCommandService    | Define las operaciones que ejecutan cambios sobre el  agregado Order. |
-| IOrderStateCommandService    | Define las operaciones que ejecutan cambios sobre la entidad OrderState. |
 | ISubscriptionCommandService    | Define las operaciones que ejecutan cambios sobre el agregado Subscription mediante comandos del dominio. |
 | ISubscriptionTypeCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionType mediante comandos del dominio. |
 | ISubscriptionStateCommandService | Define las operaciones que ejecutan cambios sobre la entidad SubscriptionState mediante comandos del dominio. |
 
-
-
-#### Repositories (Interfaces)  
+#### Repositories (Interfaces)
 
 | Interface                           | Descripción                                                                                     |
 |------------------------------------|-------------------------------------------------------------------------------------------------|
-| IOrderRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla orders.  |
-| IOrderStateRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla order_states |
 | ISubscriptionRepository            | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscriptions.  |
 | ISubscriptionTypeRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_types |
 | ISubscriptionStateRepository        | Define un contrato para el manejo de persistencia y consultas sobre la tabla subscription_states |
@@ -5030,22 +4831,15 @@ Web App:
 
 Representa una vista que redirige al servicio de stripe para culminar un pago en la aplicación.
 
-**PaymentStatesView**
-
-Representa una vista para monitorear el estado de ordenes por usuario
-
-
 #### Components
 
 **SubcriptionSummary**
 
 Representa un componente para la visualización de información resumida sobre los beneficios de una suscripción
 
-
 **SubscriptionDetails**
 
-Representa un componente para la visualización para la visualización detallada de la suscripción detallada
-
+Representa un componente para la visualización detallada de la suscripción
 
 Mobile App:
 
@@ -5055,84 +4849,60 @@ Mobile App:
 
 Representa una pantalla que redirige al servicio de stripe para culminar un pago en la aplicación.
 
-**PaymentStatesScreen**
-
-Representa una pantalla para monitorear el estado de ordenes por usuario
-
 #### Widgets
-
 
 **SubcriptionSummary**
 
 Representa un widget para la visualización de información resumida sobre los beneficios de una suscripción
 
-
 **SubscriptionDetails**
 
-Representa un widget para la visualización para la visualización detallada de la suscripción detallada
+Representa un widget para la visualización detallada de la suscripción
 
 Backend:
 
 ---
- 
- - En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
-  
+
+- En esta capa se definen las clases que representan las solicitudes desde la web y las respuestas del servidor, también aquellas clases que se comunican a través de la web y reglas de negocio de la aplicación.
+
   ---
-  
-  #### Resources
-  
-  - Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | CreateOrderResource        | Abstracción para representar la solicitud de creación de una orden.            |
-  | OrderResource        | Abstracción para representar los datos que devuelve el servidor relacionados a la clase Order           |
-  | UpdateOrderStateResource | Abstracción para representar la solicitud de actualización de estado de una orden |
-  | CreateSubscriptionResource        | Abstracción para representar la solicitud de creación de una suscripción.            |
-  | SubscriptionResource        | Abstracción para representar los datos que devuelve el servidor relacionados a la clase Subscription           |
-  | UpdateSubscriptionStateResource | Abstracción para representar la solicitud de actualización de estado de una suscripción |
 
-  
-  
- ---
- 
- #### Transforms/Assemblers
-  - Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
-  
-  
-  | Clase            | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | CreateOrderCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de una orden.      |
-  | UpdateOrderStateCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de actualizacion de estado de una orden.      |
-  | OrderResourceFromEntityAssembler       | Transforma una entidad de entrada en un recurso que devuelve datos de la entidad order .      |
- 
- 
-  ---
-  
-  #### Controllers
-  
-  - Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
-  
-  **OrderController**
-  
-  
-  | Ruta especifica             | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | /api/v1/orders     | Gestiona la creación y la consulta de ordenes |
+#### Resources
 
+- Cada solicitud al servidor se representa mediante clases de recursos, que actúan como objetos de transferencia de datos. Estas clases permiten estructurar y controlar tanto las peticiones como las respuestas, asegurando una separación clara entre la capa de interface y la lógica del dominio.
 
-  **SubscriptionController**
-  
-  
-  | Ruta especifica             | Descripción                                      |
+| Clase            | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | /api/v1/subscriptions     | Gestiona la creación y la consulta de suscripciones |
- 
- 
- ---
- 
+| CreateSubscriptionResource        | Abstracción para representar la solicitud de creación de una suscripción.            |
+| SubscriptionResource        | Abstracción para representar los datos que devuelve el servidor relacionados a la clase Subscription           |
+| UpdateSubscriptionStateResource | Abstracción para representar la solicitud de actualización de estado de una suscripción |
+
+---
+
+#### Transforms/Assemblers
+- Los transformadores se encargan de convertir los recursos de entrada en comandos y las entidades en recursos, utilizando el patrón Assembler para gestionar estas transformaciones de manera eficiente.
+
+| Clase            | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+| CreateSubscriptionCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de una suscripción.      |
+| UpdateSubscriptionStateCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de actualización de estado de una suscripción.      |
+| SubscriptionResourceFromEntityAssembler       | Transforma una entidad de entrada en un recurso que devuelve datos de la entidad subscription .      |
+
+---
+
+#### Controllers
+
+- Cada aggregate root dentro de nuestro Bounded Context cuenta con un controlador REST que expone de forma pública las operaciones relacionadas, permitiendo la interacción externa con la aplicación a través de solicitudes http.
+
+**SubscriptionController**
+
+| Ruta especifica             | Descripción                                      |
+  |---------------------|--------------------------------------------------|
+| /api/v1/subscriptions     | Gestiona la creación y la consulta de suscripciones |
+
+---
+
 #### 4.2.4.3. Application Layer.
-
 
 Web App:
 - No aplica para este caso
@@ -5146,17 +4916,11 @@ Backend:
 
 ### CommandServices
 
-
 | Clase              |  Interfaz Implementada |Descripción                                                                                  |
 |--------------------|-----------------------------------|----------------------------------------------------------------------------------|
-| `OrderCommandService` |  `IOrderCommandService`   |  Implementación del servicio que maneja los comandos de ordenes. |
 | `SubscriptionCommandService` |  `ISubscriptionCommandService`   |  Implementación del servicio que maneja los comandos de suscripciones. |
-          
-
 
 ### OutboundServices
-
-
 
 | Interface                         | Descripción |
 |------------------------------------|-------------|
@@ -5170,7 +4934,6 @@ Backend:
 | `ExternalSensorService`             | Implementación del contrato definido para la interacción con el servicio externo de sensores. |
 | `ExternalActuatorService`             | Implementación del contrato definido para la interacción con el servicio externo de actuadores. |
 
-
 -
 #### 4.2.4.4. Infrastructure Layer.
 
@@ -5180,21 +4943,12 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 #### Service
 
-**OrderService**
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createOrder     | Método para la creación de una nueva orden      |
-  | updateOrderState    | Método para la actualización del estado de orden      |
-
-
 **SubscriptionService**
 
 | Metodo           | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | createSubscription     | Método para la creación de una nueva suscripción      |
-  | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
-
+| createSubscription     | Método para la creación de una nueva suscripción      |
+| updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
 
 Mobile App:
 
@@ -5202,28 +4956,14 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 #### Service
 
-**OrderService**
-
-| Metodo           | Descripción                                      |
-  |---------------------|--------------------------------------------------|
-  | createOrder     | Método para la creación de una nueva orden      |
-  | updateOrderStatus     | Método para la actualización del estado de orden      |
-
 **SubscriptionService**
 
 | Metodo           | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | createSubscription     | Método para la creación de una nueva suscripción      |
-  | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
+| createSubscription     | Método para la creación de una nueva suscripción      |
+| updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
 
 Backend:
-
-### Implementación de las interfaces de los Repositories
-| Clase             | Interfaz Implementada | Descripción                                                                                                       |
-|-------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------|
-| OrderRepository | IOrderRepository    | Implementa los métodos de consulta y persistencia de las ordenes de los usuarios. |
-
-
 
 ### Implementación de las interfaces de los Repositories
 | Clase                  | Interfaz Implementada   | Descripción                                                                             |
@@ -5232,7 +4972,7 @@ Backend:
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
-En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el póposito de mostrar la interación interna del mismo.
+En esta sección se muestran los diagramas de componentes de los diferentes productos donde se hace uso de este bounded context, con el propósito de mostrar la interacción interna del mismo.
 
 Web App:
 
@@ -5258,7 +4998,6 @@ Web App:
 
 Mobile App:
 
-
 <img src="../assets/class-diagrams/paymentMobile.png" alt="Payment class diagram on Mobile App"/>
 
 Backend:
@@ -5266,6 +5005,8 @@ Backend:
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/payment-subscriptions-diagram.jpeg" alt="Payment Database Design Diagram"/>
+
+
 
 
 ### 4.2.5. Bounded Context: Identity and Access Management (IAM)
@@ -6599,6 +6340,164 @@ Backend:
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 <img src="../assets/tactical-level-ddd/db-diagrams/assets-db-diagram.jpeg" alt="Management Database Design Diagram"/>
+
+# 4.2.8. Service Design and Planning Bounded Context
+
+## 4.2.8.1. Descripción General
+
+Este bounded context gestiona la entidad Order, encargada de la planificación y diseño de servicios solicitados por los usuarios. La entidad Order ha sido extraída del contexto de Subscriptions and Payments para centralizar la lógica de planeamiento y diseño de servicios.
+
+## 4.2.8.2. Implementación de las interfaces de los Repositories
+
+| Clase            | Interfaz Implementada | Descripción                                                                 |
+|------------------|----------------------|-----------------------------------------------------------------------------|
+| OrderRepository  | IOrderRepository     | Implementa los métodos de consulta y persistencia de las órdenes de servicio.|
+
+## 4.2.8.3. Bounded Context Software Architecture Component Level Diagrams
+
+Web App:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Service Design Planning Component Diagram on Web App" width="350"/>
+
+Backend:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Service Design Planning Component Diagram on API" width="350"/>
+
+Mobile:
+
+<img src="../assets/component-diagrams/structurizr-101372-PaymentBCWebApp.png" alt="Service Design Planning Component Diagram on Mobile App" width="350"/>
+
+## 4.2.8.4. Bounded Context Software Architecture Code Level Diagrams
+
+### 4.2.8.4.1. Bounded Context Domain Layer Class Diagrams
+
+Web App:
+
+<img src="../assets/class-diagrams/planningWeb.png" alt="Service Design Planning class diagram on Web App"/>
+
+Mobile App:
+
+<img src="../assets/class-diagrams/planningMobile.png" alt="Service Design Planning class diagram on Mobile App"/>
+
+Backend:
+
+<img src="../assets/class-diagrams/domain-layer-planning.png" alt="Service Design Planning class diagram on API"/>
+
+### 4.2.8.4.2. Bounded Context Database Design Diagram
+
+<img src="../assets/class-diagrams/planning-diagram.png" alt="Service Design Planning Database Design Diagram"/>
+
+---
+
+## 4.2.8.5. Domain Layer
+
+### Entities
+
+**Order**
+
+| Atributo              | Tipo     |
+|-----------------------|----------|
+| Id                    | int      |
+| Action                | string   |
+| UserId                | int      |
+| SensorId              | int      |
+| ActuatorId            | int      |
+| CreatedAt             | DateTime |
+| CompletedAt           | DateTime |
+| StateId               | int      |
+| SubscriptionId        | int      |
+
+| Método                | Descripción                                               |
+|-----------------------|-----------------------------------------------------------|
+| UpdateOrderState      | Actualiza el estado de una orden.                         |
+
+### Value Objects
+
+**OrderStates**
+
+| Atributo    | Descripción                                  |
+|-------------|----------------------------------------------|
+| ToComplete  | Representa el estado de una orden por completar|
+| Completed   | Representa el estado de una orden completada  |
+
+### Commands
+
+| Clase                   | Descripción                                         |
+|-------------------------|-----------------------------------------------------|
+| CreateOrderCommand      | Comando para la creación de una nueva orden         |
+| UpdateOrderStateCommand | Comando para la actualización de estado de una orden|
+| SeedOrderStatesCommand  | Inicialización de datos para los estados de orden   |
+
+### Queries
+
+| Clase                  | Descripción                                         |
+|------------------------|-----------------------------------------------------|
+| GetOrdersByUserIdQuery | Consulta para obtener todas las órdenes de un usuario|
+
+### Domain Services (Interfaces)
+
+| Interface                | Descripción                                        |
+|--------------------------|----------------------------------------------------|
+| IOrderCommandService     | Operaciones que ejecutan cambios sobre Order        |
+| IOrderStateCommandService| Operaciones sobre los estados de la orden          |
+
+### Repositories (Interfaces)
+
+| Interface           | Descripción                                            |
+|---------------------|-------------------------------------------------------|
+| IOrderRepository    | Contrato para persistencia y consultas sobre órdenes   |
+| IOrderStateRepository| Contrato para persistencia y consultas sobre estados  |
+
+---
+
+## 4.2.8.6. Interface Layer
+
+### Backend
+
+#### Resources
+
+| Clase                  | Descripción                                         |
+|------------------------|-----------------------------------------------------|
+| CreateOrderResource    | Solicitud de creación de una orden                  |
+| OrderResource          | Datos de la entidad Order devueltos al cliente      |
+| UpdateOrderStateResource| Solicitud de actualización de estado de una orden  |
+
+#### Transforms/Assemblers
+
+| Clase                                 | Descripción                                         |
+|---------------------------------------|-----------------------------------------------------|
+| CreateOrderCommandFromResourceAssembler| Transforma recurso en comando de creación de orden   |
+| UpdateOrderStateCommandFromResourceAssembler| Transforma recurso en comando de actualización de estado |
+| OrderResourceFromEntityAssembler      | Transforma entidad Order en recurso para el cliente  |
+
+#### Controllers
+
+**OrderController**
+
+| Ruta especifica   | Descripción                                      |
+|-------------------|--------------------------------------------------|
+| /api/v1/orders    | Gestiona la creación y consulta de órdenes        |
+
+---
+
+## 4.2.8.7. Application Layer
+
+### Backend
+
+| Clase                | Interfaz Implementada   | Descripción                                 |
+|----------------------|------------------------|---------------------------------------------|
+| OrderCommandService  | IOrderCommandService   | Servicio que maneja los comandos de órdenes |
+
+---
+
+## 4.2.8.8. Infrastructure Layer
+
+### Backend
+
+| Clase            | Interfaz Implementada | Descripción                                         |
+|------------------|----------------------|-----------------------------------------------------|
+| OrderRepository  | IOrderRepository     | Implementa los métodos de consulta y persistencia    |
+
 
 
 
