@@ -12238,6 +12238,10 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 
 ### 6.3.2. Registro de Entrevistas.
 
+[Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
+
+Aqui se encuentran las entrevistas
+
 **Preguntas generales:**
 
 1. ¿Cuál es su nombre?  
@@ -12690,6 +12694,19 @@ Recomendación:
 Optimización del Rendimiento: Optimizar el rendimiento de la aplicación móvil para reducir los tiempos de carga inicial y asegurar una experiencia fluida desde el primer momento.
 Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visual claro (ej., spinner, barra de progreso) para que el usuario sepa que la aplicación está funcionando y no está congelada.
 
+## 6.4 Video About The Team
+
+En el video de about the team damos testimonios de lo que hicimos y de como nos sentimos en este proceso, pero la mayoria concuerda de que fue una experiencia que nos ayuda a fortalecer nuestras capacidades como futuros ingenieros. 
+Presentamos el link del video:
+
+![Entrevista 1 Segmento Doméstico](../assets/aboutteam/abtteam.png)
+
+
+[Video About the Team](https://www.youtube.com/watch?v=2BaLgVPwyto&t=1s)
+
+
+
+
 # Conclusiones
 
 # Conclusiones y recomendaciones.
@@ -12717,8 +12734,12 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
 
 [Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
 
-[Entrevistas de validación [Anexo 6.3.2] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
+[Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
 
-[Video About the Product] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+
+[Video About the Team](https://www.youtube.com/watch?v=2BaLgVPwyto&t=1s)
+
+
 ---
 
