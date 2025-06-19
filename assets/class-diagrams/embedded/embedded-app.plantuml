@@ -1,0 +1,122 @@
+@startuml
+
+struct Event {
+  +id: int
+  +Event(id:int)
+}
+
+struct Command {
+  +id:int
+  +Command(id:int)
+}
+ interface EventHandler{
+  +on(event:Event): void
+  ~EventHandler()
+}
+
+interface CommandHandler{
+  +handle(command:Command): void
+  ~CommandHandler()
+}
+
+abstract class Sensor extends EventHandler{
+  #pin:int
+  #eventHandler:EventHandler*
+  +on(event:Event): void
+  +setHandler(eventHandler:EventHandler*):void
+  +Sensor(pin:int,eventHandler:EventHandler*)
+  ~Sensor()
+}
+
+abstract class Actuator extends CommandHandler{
+  #pin:int
+  #commandHandler:CommandHandler*
+  +handle(command:Command): void
+  +setHandler(commandHandler:CommandHandler*):void
+  +Actuator(pin:int,commandHandler:CommandHandler*)
+  ~Actuator()
+}
+
+class WaterSensor extends Sensor {
+  +pin:int
+  +eventHandler:EventHandler*
+  +TRIGGER_WATER_EVENT:static Event
+  +TRIGGER_WATER_EVENT_ID:int
+  ~WaterSensor()
+  +WaterSensor(pin:int,eventHandler:EventHandler*)
+  +getValue():float
+}
+
+class TemperatureSensor extends Sensor {
+  +pin:int
+  +eventHandler:EventHandler*
+  +TRIGGER_TEMPERATURE_EVENT:static Event
+  +TRIGGER_TEMPERATURE_EVENT_ID:int
+  ~TemperatureSensor()
+  +TemperatureSensor(pin:int,eventHandler:EventHandler*)
+  +getValue():float
+}
+
+
+class LightSensor extends Sensor {
+  +pin:int
+  +eventHandler:EventHandler*
+  +TRIGGER_LIGHT_EVENT:static Event
+  +TRIGGER_LIGHT_EVENT_ID:static const int
+  ~LigthSensor()
+  +LigthSensor(pin:int,eventHandler:EventHandler*)
+  +getValue():float
+}
+
+abstract class Device extends EventHandler,CommandHandler{
+  + handle(command:Command): void
+  + on (event: Event): void
+  ~ Device()
+}
+
+class MonitorinPlantDevice extends Device {
+ - lightSensor: LightSensor
+ - waterSensor: WaterSensor
+ - temperatureSensor: temperatureSensor
+ - edgeServerClient: EdgeServerClient
+ + WATER_PIN: static const int
+ + TEMPERATURE_PIN: static const int
+ + LIGHT_PIN: static const int
+ 
+ ~MonitorinPlantDevice()
+ +MonitorinPlantDevice(waterPin:int,temperaturePin:int,lightPin:int)
+ + getLightSensor(): LightSensor
+ + getWaterSensor(): WaterSensor
+ + getTemperatureSensor(): TemperatureSensor
+ +init():void
+ +print(message&:string)
+ + on(event:Event): void
+ + handle(command:Command): void
+ + tiggerWaterSensor(): void
+ + triggerLightSensor(): void
+ + triggerTemperatureSensor(): void
+ +updateWaterValue(): void
+ +updateLightValue(): void
+ + updateTemperatureValue(): void
+ 
+}
+
+LightSensor --o MonitorinPlantDevice
+WaterSensor --o MonitorinPlantDevice
+TemperatureSensor --o MonitorinPlantDevice
+EdgeServerClient --o MonitorinPlantDevice
+
+
+class WifiSecureClient{
+
+}
+
+class EdgeServerClient{
++serverUrl:string
++deviceId:string
++client:WifiSecureClient
+}
+
+WifiSecureClient --o EdgeServerClient
+
+@enduml

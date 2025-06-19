@@ -1,10 +1,9 @@
-@startuml
-left to right direction
-skinparam packageStyle rectangle
-skinparam classAttributeIconSize 0
-package "Domain Layer" {
+@startuml "Management Domain Layer Diagram for Backend"
   class Plant {
     +Id:int
+    +Name:string
+    +IsPlantation:bool
+    +AreaCoverage:double
     +Type:string
     +UserId:int
     +WaterThreshold:decimal
@@ -16,118 +15,73 @@ package "Domain Layer" {
     +Plant()
     +Plant(command:CreatePlantCommand)
     +Update(command:UpdatePlantCommand):void
+    +UpdateState(command:UpdatePlantStateCommand):void
   }
+  
 
-  class Plantation {
+  class WelnessState {
     +Id:int
     +Type:string
-    +UserId:int
-    +WaterThreshold:double
-    +LightThreshold:double
-    +AreaCoverage:double
-    +CreatedAt:DateTime
-    +UpdatedAt:DateTime
-    +StateId:int
-    +Plantation()
-    +Plantation(command:CreatePlantationCommand)
-    +Update(command:UpdatePlantationCommand):void
+    +WelnessState()
+    +WelnessState(type:string)
   }
 
-  class State {
-    +Id:int
-    +Type:States
-    +State()
-    +State(type:string)
-  }
-
-  enum States {
+  enum WelnessStates {
     Healthy
     UnHealthy
     Warning
   }
 
-  State --> States
+  WelnessState *-- "1" WelnessStates
 
-  ' ======= Commands =======
   class CreatePlantCommand
   class UpdatePlantCommand
-  class CreatePlantationCommand
-  class UpdatePlantationCommand
-  class SeedStateCommand
+  class UpdatePlantStateCommand
+  class SeedWelnessStateCommand
 
-  ' ======= Queries =======
   class GetPlantsByUserIdQuery
-  class GetPlantsByStateIdQuery
-  class GetPlantationByUserIdQuery
-  class GetPlantationByStateIdQuery
-  class IsPlantExistsByIdQuery
+  class GetPlantByIdQuery
 
-  ' ======= Interfaces =======
+
   interface IPlantCommandService {
     +Handle(command:CreatePlantCommand):void
     +Handle(command:UpdatePlantCommand):void
+    +Handle(command:UpdatePlantStateCommand):void
   }
 
-  interface IPlantationCommandService {
-    +Handle(command:CreatePlantationCommand):void
-    +Handle(command:UpdatePlantationCommand):void
-  }
+
 
   interface IPlantQueryService {
     +Handle(query:GetPlantsByUserIdQuery):List<Plant>
-    +Handle(query:GetPlantsByStateIdQuery):List<Plant>
-    +Handle(query:IsPlantExistsByIdQuery):bool
+    +Handle(query:GetPlantByIdQuery):Plant
   }
 
-  interface IPlantationQueryService {
-    +Handle(query:GetPlantationByUserIdQuery):List<Plantation>
-    +Handle(query:GetPlantationByStateIdQuery):List<Plantation>
-  }
 
-  interface IStateCommandService {
-    +Handle(command:SeedStateCommand)
+  interface IWelnessStateCommandService {
+    +Handle(command:SeedWelnessStateCommand)
   }
 
   interface IPlantRepository {
-    +FindPlantsByUserIdAsync(userId:int):List<Plant>
-    +FindPlantsByStateIdAsync(stateId:int):List<Plant>
-    +IsPlantExistsByIdAsync(id:int):bool
+    +GetPlantsByUserIdAsync(userId:int):List<Plant>
   }
 
-  interface IPlantationRepository {
-    +FindPlantationsByUserIdAsync(userId:int):List<Plantation>
-    +FindPlantationsByStateIdAsync(stateId:int):List<Plantation>
-  }
-
-  interface IStateRepository {
+  interface IWelnessStateRepository {
     +IsStateExists(type:string):bool
   }
 
-  ' ======= Relationships =======
-  Plant --> CreatePlantCommand
-  Plant --> UpdatePlantCommand
 
-  Plantation --> CreatePlantationCommand
-  Plantation --> UpdatePlantationCommand
+  IPlantCommandService -- CreatePlantCommand
+  IPlantCommandService -- UpdatePlantCommand
+  IPlantCommandService -- UpdatePlantStateCommand
 
-  IPlantCommandService --> CreatePlantCommand
-  IPlantCommandService --> UpdatePlantCommand
 
-  IPlantationCommandService --> CreatePlantationCommand
-  IPlantationCommandService --> UpdatePlantationCommand
+  IPlantQueryService -- GetPlantsByUserIdQuery
+  IPlantQueryService -- GetPlantByIdQuery
 
-  IPlantQueryService --> GetPlantsByUserIdQuery
-  IPlantQueryService --> GetPlantsByStateIdQuery
-  IPlantQueryService --> IsPlantExistsByIdQuery
 
-  IPlantationQueryService --> GetPlantationByUserIdQuery
-  IPlantationQueryService --> GetPlantationByStateIdQuery
+  IPlantRepository --> Plant
+  IWelnessStateRepository --> WelnessState
 
-  IPlantRepository -[dotted]-> Plant
-  IPlantationRepository -[dotted]-> Plantation
-  IStateRepository -[dotted]-> State
-
-  IStateCommandService --> SeedStateCommand
-}
-
+  IWelnessStateCommandService -- SeedWelnessStateCommand
+  
 @enduml
