@@ -9582,6 +9582,70 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 4. ¿Consideras que la aplicación tiene instrucciones claras de cómo gestionar los problemas reportados? 
 
 
+## Entrevista de Validación: Segmento Empresarial - Alvaro Jimenez Agapito
+
+**Nombre:** Alvaro Jimenez Agapito  
+**Edad:** 28  
+**Ocupación:** Gestor del sector Agrario  
+**Browser:** Google Chrome  
+**Device:** Laptop Toshiba  
+**Distrito:** Miraflores, Lima  
+**Timing:** 25:02  
+
+<center>
+
+![Entrevista 1 Segmento Negocios](../assets/images-interviews/negocios/validation/interview-1.png)
+
+</center>
+
+### Resumen:
+Alvaro Jimenez, gestor en el sector agrario, destacó que el proceso de autenticación en la plataforma es claro y directo, permitiendo un acceso rápido y sin complicaciones. En cuanto a la confirmación de pago, considera que es esencial para brindar confianza y seguridad, especialmente en un entorno empresarial donde las transacciones tienen un impacto directo en las operaciones. 
+Sobre el diseño de la plataforma, opina que es intuitivo y fácil de usar, facilitando la adopción por parte de distintos miembros del equipo sin necesidad de capacitación extensa. La aplicación web muestra información clara sobre el monitoreo de las plantaciones, lo que permite tomar decisiones informadas de manera ágil.
+El proceso de registro de plantas es directo, ahorrando tiempo y evitando errores, y el proceso de selección de fecha para la instalación de sensores es manejable, permitiendo hacer ajustes inmediatos si es necesario. Las operaciones en el dashboard son fáciles de localizar, gracias a su interfaz organizada. Finalmente, resalta que el sistema proporciona información relevante sobre los resultados de las actividades realizadas, lo cual es crucial para medir el éxito de las operaciones agrícolas.
+
+### **Objetivos y Feedback:**
+- **Autenticación clara y directa.**
+- **Confirmación de pago confiable.**
+- **Diseño intuitivo y fácil de usar.**
+- **Información clara sobre el monitoreo de las plantaciones.**
+- **Registro de plantas eficiente y fácil de utilizar.**
+- **Selección de fecha clara para instalación de sensores.**
+- **Operaciones fáciles de localizar en el dashboard.**
+- **Información relevante y procesable sobre los resultados de procesos.**
+
+---
+
+## Entrevista de Validación: Segmento Doméstico - Andrea Cabanillas
+
+**Nombre:** Andrea Cabanillas
+**Edad:** 20
+**Ocupación:** Encargada de cuidar sus plantas
+**Browser:** Google Chrome  
+**Device:** Laptop Asus  
+**Distrito:** Santiago de Surco, Lima
+**Timing:** 24:38
+
+<center>
+
+![Entrevista 1 Segmento Doméstico](../assets/images-interviews/domestico/validation/andrea-cabanillas.jpeg)
+
+</center>
+
+## Resumen:
+
+Andrea Cabanillas, encargada del cuidado de las plantas, menciono que el proceso de autenticación es claro y muestra estructuradamente los pasos a seguir para dicho proceso, también destacó la simplicidad de la aplicación web para visualizar el consumo por planta, así como la facilidad para registrar y editar información tanto desde la aplicación web como móvil. Resaltó que estas funciones son fácilmente accesibles desde el panel principal. Además, valoró positivamente la visualización detallada del horario seleccionado durante el proceso de asignación de sensores, lo que facilita la elección del momento adecuado para la instalación. Finalmente, mencionó que el proceso para realizar consultas por planta es intuitivo y de fácil uso.
+
+
+### **Objetivos y Feedback:**
+- **Autenticación clara y directa.**
+- **Diseño intuitivo y fácil de usar.**
+- **Información clara sobre el monitoreo de las plantas.**
+- **Registro de plantas eficiente y fácil de utilizar.**
+- **Selección de fecha clara para instalación de sensores.**
+- **Operaciones fáciles de localizar en el dashboard.**
+- **Información relevante y procesable sobre los resultados de procesos.**
+
+
 
 # Conclusiones
 
