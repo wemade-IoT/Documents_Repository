@@ -3181,7 +3181,7 @@ La arquitectura muestra cómo el sistema central se comunica con usuarios (domé
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
-<img src="../assets/container-diagram/container-diagran.png" alt="EcoGaurdian Container Diagram"/>
+<img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
 
 **Descripción**
 La arquitectura por contenedores distribuye la lógica del sistema entre aplicaciones web, móviles, embebidas y edge, que se comunican con un backend central vía API REST. Esta estructura permite procesar datos locales, enviar notificaciones, controlar hardware IoT y gestionar pagos de forma eficiente.
