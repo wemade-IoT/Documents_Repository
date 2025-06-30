@@ -5679,16 +5679,6 @@ Representa una abstracción para una solicitud relacionada al registro de un per
 
 
 
-#### NotificationRequest
-
-Representa una abstracción para la petición de registro de una notificacion.
-
-| Atributo       | Tipo   |
-|----------------|--------|
-| title        | string |
-| subject       | string |
-| profileId         |  number  |
-
 ### Response
 
 
@@ -5737,7 +5727,6 @@ Representa una abstracción para una respuesta del servidor relacionada a notifi
 
 | Método                        | Descripción                                                                                               |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
-| toRequest                |  Crea una nueva instancia de la clase NotificationRequest                 |
 | toResponse     |  Crea una nueva instancia de la clase NotificationResponse              |      
 
 
@@ -5866,7 +5855,6 @@ Backend:
   |---------------------|--------------------------------------------------|
   |  NotificationResource        | Recibe datos para devolver una notificacion desde el servidor.            |
   |  ProfileResource  |  Recibe datos para devolver un perfil desde el servidor. |
-   | CreateNotificationResource |  Recibe datos para la creación de una nueva notificación.     |
    | CreateProfileResource |  Recibe datos para la creación de un nuevo perfil.     |
    | UpdateProfileResource |  Recibe datos para actualizar un perfil existente.     |
  ---
@@ -5877,7 +5865,6 @@ Backend:
   
   | Clase            | Descripción                                      |
   |---------------------|--------------------------------------------------|
-  | CreateNotificationCommandFromResourceAssembler       | Transforma un recurso de entrada en un comando de creación de un notificación .      |
   | CreateProfileCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando de creación de un perfil.              |
   | UpdateProfileCommandFromResourceAssembler  |  Transforma un recurso de entrada en un comando de actualización de un perfil.              |
   |  NotificationResourceFromEntityAssembler        | Transforma los datos de la entidad notificación en un recurso.       |
@@ -5974,7 +5961,6 @@ Web App:
 | Método                           | Descripción |
 |-------------------------------------|-------------|
 |  getNotificationsByProfileId               | Devuelve todas las notificaciones relacionadas a un usuario. |
-|  createNotification                 | Permite la creación de un nueva notifiación |
 
 Backend:
 
