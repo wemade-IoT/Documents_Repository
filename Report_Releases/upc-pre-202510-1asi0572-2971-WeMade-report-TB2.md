@@ -299,15 +299,15 @@
 
 Repositorios:
 
-Proyecto: [Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository)
+Proyecto: https://github.com/wemade-IoT/Documents_Repository | [Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository)
 
-Landing Page: [Landing Page Repository](https://github.com/wemade-IoT/landing-page)
+Landing Page: https://github.com/wemade-IoT/landing-page | [Landing Page Repository](https://github.com/wemade-IoT/landing-page)
 
-Landing Page: [Landing Page](https://sage-granita-e4aafb.netlify.app/)
+Landing Page: https://sage-granita-e4aafb.netlify.app/ | [Landing Page](https://sage-granita-e4aafb.netlify.app/)
 
-Front End Web App Repository: [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
+Front End Web App Repository: https://github.com/wemade-IoT/eco-guardian-frontend | [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
 
-Front End Web Application: [Front End Application](https://ecoguardian-tb2.vercel.app/)
+Front End Web Application: https://ecoguardian-tb2.vercel.app/ | [Front End Application](https://ecoguardian-tb2.vercel.app/)
 
 | Usuario Github     | Nombre                              |
 |--------------------|-------------------------------------|
@@ -12685,11 +12685,21 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
 
 # Anexos
 
+[Repositorio de documentos] https://github.com/wemade-IoT/Documents_Repository
 
-[Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
+[Landing Page Repository] https://github.com/wemade-IoT/landing-page
 
-[Entrevistas de validación [Anexo 6.3.2] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
+[Landing Page] https://sage-granita-e4aafb.netlify.app/
+
+[Front end Repository] https://github.com/wemade-IoT/eco-guardian-frontend
+
+[Front End Application] https://ecoguardian-tb2.vercel.app/
+
+[Link de entrevistas [Anexo 2.2.1.1] ] https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8
+
+[Entrevistas de validación [Anexo 6.3.2] ] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
 
 [Video About the Product] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+
 ---
 
