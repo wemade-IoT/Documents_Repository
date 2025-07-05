@@ -1665,18 +1665,18 @@ Características Subjetivas:
 **Segmento 1:** 
 <p>Maria Rodriguez es una usuaria doméstica que busca mantener su hogar armonioso y sus plantas saludables. Necesita una herramienta tecnológica que le facilite saber cuándo regar y cuidar sus plantas sin conocimientos avanzados. Su principal desafío es optimizar el tiempo dedicado al cuidado de sus plantas y evitar pérdidas por falta de monitoreo adecuado.</p>
 
-<img src="../assets/user-personas/segmento-domestico.png"/>
+<img src="../assets/user-personas/segmento-domestico.png" alt="Información user persona segmento domestico"/>
 
 **Segmento 2:** 
 
 <p>Antonio Belaunde es un ingeniero agrónomo con amplia experiencia en manejo y cuidado de plantas, que busca aplicar su conocimiento en proyectos tecnológicos. Necesita una plataforma que le permita compartir recomendaciones prácticas y participar en iniciativas de agricultura sostenible. Su principal reto es encontrar oportunidades para aplicar su expertise en soluciones innovadoras.</p>
 
-<img src="../assets/user-personas/segmento-negocio.png"/>
+<img src="../assets/user-personas/segmento-negocio.png" alt="Información user persona segmento negocio"/>
 
 **Segmento 3:** 
 
 <p>Antonio Belaunde es un ingeniero agrónomo con amplia experiencia en manejo y cuidado de plantas, que busca aplicar su conocimiento en proyectos tecnológicos. Necesita una plataforma que le permita compartir recomendaciones prácticas y participar en iniciativas de agricultura sostenible. Su principal reto es encontrar oportunidades para aplicar su expertise en soluciones innovadoras.</p>
-<img src="../assets/user-personas/segmento-especialista.png"/>
+<img src="../assets/user-personas/segmento-especialista.png" alt="Información user persona segmento especialista"/>
 
 ---
 
