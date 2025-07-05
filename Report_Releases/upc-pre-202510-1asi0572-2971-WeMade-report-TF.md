@@ -13201,9 +13201,17 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
 
 # Conclusiones y recomendaciones.
 
-<p>Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.</p>
+<p>El desarrollo de la solución EcoGuardian ha sido un proceso integral que abarcó desde la identificación de la problemática y el análisis del contexto, la recolección y análisis de requerimientos, hasta la especificación detallada de requisitos y funcionalidades, culminando en la implementación y validación de la arquitectura y tecnologías seleccionadas.</p>
 
-<p>Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.</p>
+<p>En la etapa inicial, se identificaron las necesidades reales de los usuarios a través de entrevistas, análisis de competencia y definición de user personas, lo que permitió comprender a fondo los distintos segmentos objetivo: doméstico, negocios y especialistas. Este enfoque permitió diseñar una solución alineada a las expectativas y retos de cada segmento, asegurando la relevancia y aplicabilidad del producto.</p>
+
+<p>Durante la fase de análisis y especificación de requerimientos, se emplearon herramientas como user stories, journey mapping y matrices de tareas, lo que facilitó la priorización de funcionalidades y la definición de un backlog claro y estructurado. Este trabajo colaborativo y multidisciplinario fue clave para establecer una visión compartida y un lenguaje ubicuo entre todos los participantes del proyecto.</p>
+
+<p>En la etapa de diseño e implementación, se aplicaron principios de Domain-Driven Design (DDD) y buenas prácticas de arquitectura de software. La integración de estos componentes permitió construir una plataforma robusta, escalable y alineada a los objetivos de negocio y usuario.</p>
+
+<p>Todo el proceso evidenció la importancia de la iteración continua, la validación temprana con usuarios y la documentación clara para la toma de decisiones. El trabajo en equipo, la comunicación constante y la adaptación a los cambios fueron factores determinantes para el éxito del proyecto.</p>
+
+<p>Como recomendaciones, se resalta la necesidad de mantener una mejora continua en los modelos y procesos, así como fortalecer la gestión del tiempo y la colaboración interdisciplinaria. Además, es fundamental seguir validando la solución con usuarios reales y estar atentos a la evolución tecnológica para mantener la competitividad y relevancia del producto.</p>
 
 
 # Bibliografía
@@ -13216,7 +13224,18 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
   <p><strong>Instituto Interamericano de Cooperación para la Agricultura (IICA)</strong> (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina. <em>IICA</em>. Recuperado el 16 de abril del 2025 de <a href="https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf" target="_blank">https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf</a></p>
 
   <p><strong>Ministerio de Agricultura y Riego del Perú (MINAGRI)</strong> (2018). Manual técnico de riego por goteo para cultivos de agroexportación. <em>MINAGRI</em>. Recuperado el 18 de abril del 2025 de <a href="https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo" target="_blank">https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo</a></p>
+
+  <p><strong>Node.js Documentation</strong> (2025). Node.js v20.x Documentation. Recuperado de <a href="https://nodejs.org/en/docs" target="_blank">https://nodejs.org/en/docs</a></p>
+  <p><strong>Flutter Documentation</strong> (2025). Flutter Docs. Recuperado de <a href="https://docs.flutter.dev/" target="_blank">https://docs.flutter.dev/</a></p>
+  <p><strong>Stripe Documentation</strong> (2025). Stripe API Reference. Recuperado de <a href="https://stripe.com/docs/api" target="_blank">https://stripe.com/docs/api</a></p>
+  <p><strong>Docker Documentation</strong> (2025). Docker Docs. Recuperado de <a href="https://docs.docker.com/" target="_blank">https://docs.docker.com/</a></p>
+    <p><strong>GitHub Documentation</strong> (2025). GitHub Docs. Recuperado de <a href="https://docs.github.com/en" target="_blank">https://docs.github.com/en</a></p>
+    <p><strong>Vue.js Documentation</strong> (2025). Vue.js Docs. Recuperado de <a href="https://vuejs.org/guide/introduction.html" target="_blank">https://vuejs.org/</a></p>
+    <p><strong>PrimeVue Documentation</strong> (2025). PrimeVue Docs. Recuperado de <a href="https://primevue.org/introduction/" target="_blank">https://primefaces.org/primevue/</a></p>
+    <p><strong>Flask Documentation</strong> (2025). Flask User’s Guide. Recuperado de <a href="https://flask.palletsprojects.com/" target="_blank">https://flask.palletsprojects.com/</a></p>
+    <p><strong>Simon Brown</strong> (2023). The C4 model for visualising software architecture. Recuperado de <a href="https://c4model.com/" target="_blank">https://c4model.com/</a></p>
 </div>
+
 
 
 # Anexos
