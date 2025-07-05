@@ -34,31 +34,31 @@
     </tr>
     <tr>
         <td>Nicolas Sebastian Esteban Garcia</td>
-        <td>u202217485</td>
+        <td>U202217485</td>
+    </tr>
+    <tr>
+        <td>Gustavo Huilca Chipana</td>
+        <td>U202213983</td>
+    </tr>
+    <tr>
+        <td>Mathias Alejandro Jave Diaz</td>
+        <td>U202212721</td>
+    </tr>
+    <tr>
+        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>U202210148</td>
+    </tr>
+    <tr>
+        <td>Italo D'alessandro Luna Capuñay</td>
+        <td>U202213375</td>
+    </tr>
+    <tr>
+        <td>Manuel Sebastian Peña Rivera</td>
+        <td>U202210138</td>
     </tr>
     <tr>
         <td>Sebastian Ramirez Hoffmann</td>
         <td>U202211894</td>
-    </tr>
-    <tr>
-        <td>Gustavo Huilca Chipana</td>
-        <td>u202213983</td>
-    </tr>
-    <tr>
-        <td>Manuel Sebastian Peña Rivera</td>
-        <td>u202210138</td>
-    </tr>
-    <tr>
-        <td>Mathias Alejandro Jave Diaz</td>
-        <td>u202212721</td>
-    </tr>
-    <tr>
-        <td>Mathias Tsuneo Kunimoto Watanabe</td>
-        <td>u202210148</td>
-    </tr>
-    <tr>
-        <td>Italo D&#39;alessandro Luna Capuñay</td>
-        <td>u202213375</td>
     </tr>
 </table>
 </center>
