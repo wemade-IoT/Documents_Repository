@@ -12676,6 +12676,515 @@ Recomendación:
 Optimización del Rendimiento: Optimizar el rendimiento de la aplicación móvil para reducir los tiempos de carga inicial y asegurar una experiencia fluida desde el primer momento.
 Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visual claro (ej., spinner, barra de progreso) para que el usuario sepa que la aplicación está funcionando y no está congelada.
 
+## 6.2.3. Sprint 3
+
+### 6.2.3.1. Sprint Planning 3.
+
+
+
+
+
+
+### 6.2.2.3. Sprint Backlog 3.
+
+<table border="1"> 
+  <thead> 
+    <tr> 
+      <th>User Story ID</th> 
+      <th>User Story Title</th> 
+      <th>Work-Item / Task Id</th> 
+      <th>Work-Item / Task Title</th> 
+      <th>Description</th> 
+      <th>Estimation (Hours)</th> 
+      <th>Assigned To</th> 
+      <th>Status (To-do / InProcess / ToReview / Done)</th> 
+    </tr> 
+  </thead> 
+  <tbody> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T01</td> 
+      <td>Integración y configuración de método JWT en Backend</td> 
+      <td>Configurar librerías JWT e implementar la generación de tokens seguros en el backend.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T02</td> 
+      <td>Implementar validación y manejo de tokens expirados</td> 
+      <td>Validar tokens en cada request y manejar correctamente los casos de expiración.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T03</td> 
+      <td>Implementar renovación automática de tokens</td> 
+      <td>Implementar sistema de refresh tokens y manejo de sesiones activas.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T01</td> 
+      <td>Uso de variables de entorno y uso de estas en deployment</td> 
+      <td>Configurar archivos .env y su uso seguro en cada ambiente de despliegue.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T02</td> 
+      <td>Implementar sistema de rotación de API Keys</td> 
+      <td>Implementar mecanismos para la rotación automática y segura de las API Keys.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T03</td> 
+      <td>Validación y control de acceso a API Keys</td> 
+      <td>Establecer restricciones y logs de acceso a las API Keys por componente.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T01</td> 
+      <td>Integración y configuración de método RBAC en Backend</td> 
+      <td>Diseñar e implementar la estructura de roles y permisos en la base de datos y backend.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T02</td> 
+      <td>Implementar definición y aplicación de roles</td> 
+      <td>Desarrollar el sistema de asignación y validación de permisos por funcionalidad.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T03</td> 
+      <td>Implementar prevención de escalación de privilegios</td> 
+      <td>Implementar validaciones de seguridad y controles automáticos para prevenir escalación de privilegios.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T01</td> 
+      <td>Validación de cambios de contraseña al recibir edición de datos de perfil móvil</td> 
+      <td>Implementar la validación para cambios de contraseña al editar el perfil de usuario móvil.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T02</td> 
+      <td>Manejo de error por contraseña actual incorrecta en el cambio de contraseña móvil</td> 
+      <td>Implementar manejo de errores como contraseña actual incorrecta en el cambio de contraseña móvil.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T03</td> 
+      <td>Implementación de opción de recuperación de contraseña desde el flujo de cambio en móvil</td> 
+      <td>Implementar opción de recuperación de contraseña y asegurar feedback claro en todos los casos.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T01</td> 
+      <td>Integración de método MFA en Backend</td> 
+      <td>Configura y habilita el método de autenticación MFA en el backend para los usuarios.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T02</td> 
+      <td>Validar código MFA y permitir acceso</td> 
+      <td>Valida el código MFA ingresado por el usuario y permite el acceso si es correcto.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T03</td> 
+      <td>Manejar errores e intentos fallidos de MFA</td> 
+      <td>Gestiona los errores y bloqueos por intentos fallidos de autenticación MFA, siguiendo las reglas de seguridad.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T01</td> 
+      <td>Definición del proceso de asignación de especialista</td> 
+      <td>Definir y documentar el proceso para asignar un especialista externo a la orden de instalación, de acuerdo con los criterios del negocio.</td> 
+      <td>1</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T02</td> 
+      <td>Implementación de la asignación de especialista en el sistema</td> 
+      <td>Desarrollar la funcionalidad para que el sistema permita asignar un especialista externo a la orden de instalación, según los criterios definidos.</td> 
+      <td>2</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T03</td> 
+      <td>Notificación y manejo de especialista no disponible</td> 
+      <td>Implementar la lógica para notificar y gestionar la no disponibilidad de un especialista, permitiendo la reasignación o notificación al usuario sobre la necesidad de un nuevo especialista.</td> 
+      <td>3</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T01</td> 
+      <td>Implementación de widget para visualizar estado de orden según pago</td> 
+      <td>Implementar un widget en la aplicación móvil que permita al usuario visualizar el estado de su orden y si requiere pago.</td> 
+      <td>3</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T02</td> 
+      <td>Implementación de notificaciones push por cambio de estado de orden</td> 
+      <td>Implementar las notificaciones push para que el usuario reciba avisos y vea la actualización en tiempo real cuando cambie el estado de cualquier orden.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T03</td> 
+      <td>Implementación de la visualización de detalles y progreso de la orden en la aplicación</td> 
+      <td>Mostrar información actualizada, próximos pasos y detalles de cada orden al usuario móvil.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T01</td> 
+      <td>Implementación de componente para visualizar estado de orden de pago</td> 
+      <td>Crear e integrar el componente que permita visualizar el estado actual de una orden, mostrando información actualizada y detalles de progreso, sin incluir la opción de pago.</td> 
+      <td>3</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T02</td> 
+      <td>Implementación de notificaciones de cambio de estado</td> 
+      <td>Desarrollar el sistema de notificaciones push para informar al usuario de cambios en el estado de sus órdenes activas, actualizando la información en tiempo real y permitiendo ver los detalles del cambio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T03</td> 
+      <td>Redirección a plataforma web para acciones de pago</td> 
+      <td>Implementar la lógica que, al detectar una orden que requiere acción de pago, redirija al usuario a la plataforma web correspondiente para completar el proceso fuera del seguimiento web.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T01</td> 
+      <td>Implementación de cartera de pagos en Backend para procesos de pago</td> 
+      <td>Implementar la lógica y endpoints necesarios en el backend para gestionar la cartera de pagos del usuario, permitiendo la selección y administración de distintos métodos de pago.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T02</td> 
+      <td>Implementación de componente para mostrar métodos de pago</td> 
+      <td>Crear e integrar el componente UI para que el usuario pueda ver y seleccionar entre sus métodos de pago guardados.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T03</td> 
+      <td>Integración y pruebas de selección de método de pago</td> 
+      <td>Integrar la selección de método de pago en el flujo de pago y realizar pruebas de funcionalidad.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T01</td> 
+      <td>Implementación de componente para visualizar historial de pago</td> 
+      <td>Desarrollar el componente visual que muestre la lista cronológica de todas las transacciones, permitiendo filtrar por fecha, monto o tipo de servicio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T02</td> 
+      <td>Implementación de filtros de búsqueda para historial de pagos</td> 
+      <td>Implementar los filtros para búsqueda específica de transacciones dentro del historial, facilitando la localización de pagos concretos y la generación de comprobantes detallados.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T03</td> 
+      <td>Generación y descarga de comprobantes de pago</td> 
+      <td>Permitir la generación y descarga de comprobantes detallados desde el historial de pagos.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T01</td> 
+      <td>Implementación de widget para visualizar historial de pago</td> 
+      <td>Crear el widget visual para la app móvil que muestre la lista cronológica de transacciones y permita filtrar por fecha, monto o tipo de servicio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T02</td> 
+      <td>Implementación de filtros de búsqueda para historial de pagos móvil</td> 
+      <td>Implementar los filtros de búsqueda específica en el historial de pagos en la app móvil para localizar transacciones fácilmente.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T03</td> 
+      <td>Generación y descarga de comprobantes desde la app móvil</td> 
+      <td>Permitir la generación y descarga de comprobantes de pago desde la aplicación móvil.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T01</td> 
+      <td>Integrar registro de IoT a edge app y sistema</td> 
+      <td>Integrar el registro de nuevos dispositivos IoT al sistema y la edge app, asegurando la configuración automática y la comunicación con la red (EdgeNode).</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T02</td> 
+      <td>Implementar gestión de dispositivos inactivos</td> 
+      <td>Desarrollar la lógica para detectar dispositivos inactivos y notificar a la edge application cuando se detecte la desconexión.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T03</td> 
+      <td>Registro de información y monitoreo de estado</td> 
+      <td>Implementar el registro continuo de información y el monitoreo del estado de los dispositivos registrados.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T01</td> 
+      <td>Integrar la configuración de parámetros al dispositivo IoT</td> 
+      <td>Desarrollar la función para integrar y aplicar la configuración de parámetros (umbrales, frecuencia, rango) a cada dispositivo IoT.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T02</td> 
+      <td>Implementar UI para configuración personalizada</td> 
+      <td>Crear la interfaz de usuario que permita a los makers ajustar los parámetros de configuración de los dispositivos.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T03</td> 
+      <td>Confirmación y monitoreo de nueva configuración</td> 
+      <td>Desarrollar la lógica para confirmar la recepción y aplicación de los nuevos parámetros por parte del dispositivo y monitorear los cambios.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Doing</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T01</td> 
+      <td>Formulario de edición de datos personales</td> 
+      <td>Permitir al usuario visualizar y editar sus datos personales (nombre, username, correo, imagen de perfil) desde la app móvil. Validar que los campos requeridos estén completos antes de guardar.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T02</td> 
+      <td>Actualización y guardado de los datos personales</td> 
+      <td>Al guardar, el sistema debe validar la información ingresada por el usuario. Si es válida, actualizar los datos en el perfil y mostrar confirmación.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T03</td> 
+      <td>Validación de duplicados</td> 
+      <td>Verificar que el email y username no estén registrados previamente por otro usuario. Si existe duplicidad, mostrar mensaje de error evitando la actualización.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T01</td> 
+      <td>Configuración de notificaciones push</td> 
+      <td>Permitir al usuario configurar sus preferencias de notificaciones push desde la app móvil y seleccionar qué tipos de alertas desea recibir.</td> 
+      <td>2</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T02</td> 
+      <td>Recepción y visualización de notificaciones push</td> 
+      <td>Implementar la recepción de notificaciones push en el dispositivo móvil y mostrar las notificaciones recibidas al usuario según sus preferencias.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T03</td> 
+      <td>Gestión y actualización de preferencias de notificación</td> 
+      <td>Permitir que el usuario pueda modificar sus preferencias de notificación posteriormente y actualizar el sistema para reflejar los cambios.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T01</td> 
+      <td>Visualización de notificaciones registradas en cards y widgets</td> 
+      <td>Permitir al usuario visualizar las notificaciones registradas en formato de card y widgets dentro de la app móvil, mostrando información relevante.</td> 
+      <td>3</td> 
+      <td>Mathias Jave</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T02</td> 
+      <td>Filtros y gestión multiplataforma de notificaciones</td> 
+      <td>Permitir al usuario filtrar las notificaciones por tipo de alerta o nivel de prioridad, mostrando alertas sincronizadas entre plataformas.</td> 
+      <td>1</td> 
+      <td>Mathias Jave</td> 
+      <td>ToDo</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T03</td> 
+      <td>Historial, tendencias y análisis de notificaciones</td> 
+      <td>Permitir acceso al historial de notificaciones para revisar alertas pasadas, mostrando tendencias y patrones recurrentes.</td> 
+      <td>1</td> 
+      <td>Mathias Jave</td> 
+      <td>ToDo</td> 
+    </tr> 
+  </tbody> 
+</table>
+
+
 # Conclusiones
 
 # Conclusiones y recomendaciones.
