@@ -13244,7 +13244,36 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
   </tbody> 
 </table>
 
-### 6.2.2.7 Services Documentation Evidence for Sprint Review
+### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de las pruebas realizadas durante el Sprint 3, incluyendo principalmente las pruebas unitarias de las funcionalidades core de nuestra aplicación en la herramienta NUNIT. Se han implementado pruebas para los siguientes aspectos:
+
+- **Registro de una nueva planta**: Verifica que el sistema permita registrar una nueva planta con los datos necesarios y que se almacenen correctamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-1.png" alt="Registro de una nueva planta" width="600">
+
+- **Actualización de datos de una planta**: Asegura que el sistema permita actualizar la información de una planta existente y que los cambios se reflejen correctamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-2.png" alt="Actualización de datos de una planta" width="600">
+
+- **Eliminación de una planta**: Comprueba que el sistema permita eliminar una planta y que esta acción se registre adecuadamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-3.png" alt="Eliminación de una planta" width="600">
+
+- **Consulta de plantas registradas por usuario**: Verifica que el sistema permita a los usuarios consultar las plantas que han registrado, mostrando la información correcta y actualizada.
+
+<img src="../assets/sprint3/testing-suite/unit-test-4.png" alt="Consulta de plantas registradas por usuario" width="600">
+
+- **Verificación de la existencia de un usuario para el registro de una planta**: Asegura que el sistema valide la existencia del usuario antes de permitir el registro de una nueva planta, evitando errores de integridad en la base de datos.
+
+Finalmente, se muestra la tabla de commits relacionados a las pruebas unitarias realizadas durante el Sprint 3.
+
+| Repository                                        | Branch  | Commit Id | Commit Message                                          | Commit Message Body | Commited on (Date)             |
+|---------------------------------------------------|---------|-----------|---------------------------------------------------------|---------------------|--------------------------------|
+| https://github.com/wemade-IoT/EcoGuardian-Backend | develop | bcf9b00   | feat(monitoring): added monitoring unit tests           |                     | Sat Jul 05 11:37:29 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend | develop | d7b0e82   | feat(monitoring): added get plants by user id unit test |                     | Sat Jul 05 11:50:29 2025 -0500 |
+
+### 6.2.3.7 Services Documentation Evidence for Sprint Review
 En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint.
 
 En la versión actual del backend de EcoGuardian, se han implementado y documentado los siguientes endpoints RESTful, cubriendo los servicios de autenticación, gestión de dispositivos, órdenes, pagos, suscripciones, plantas, perfiles de usuario, métricas, notificaciones y preguntas/respuestas. Los endpoints permiten a los usuarios autenticarse, registrar y actualizar perfiles, crear y consultar dispositivos y plantas, gestionar órdenes y pagos (incluyendo intents y confirmaciones), administrar suscripciones, consultar métricas por dispositivo y periodo, recibir notificaciones y participar en el módulo de preguntas y respuestas. Cada endpoint está protegido según el rol del usuario y soporta operaciones CRUD donde corresponde. La implementación incluye manejo de parámetros por ruta, query y body, respuestas estructuradas y manejo adecuado de errores y estados HTTP. Además, se han añadido endpoints específicos para operaciones como obtener métricas más recientes, listar pagos por tipo de suscripción, registrar respuestas a preguntas y obtener notificaciones por perfil, asegurando una cobertura funcional completa y alineada con las necesidades de la solución.
