@@ -1,6 +1,5 @@
 <center>
-
- <strong> COURSE PROJECT</strong>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
 
  </center>
 
@@ -8,7 +7,6 @@
       <strong>
       Universidad Peruana de Ciencias Aplicadas
       </strong><br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
       <strong>Ingeniería de Software</strong><br>
       <strong>Desarrollo de Soluciones IOT - 2971</strong><br>
       <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
@@ -21,10 +19,48 @@
 
 #### Product: **EcoGuardian**
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+#### Año: **2025**
+<br/>
+<br/>
+<br/>
+
 </center>
 
 # Team Members:
-
 
 <center>
 <table>
