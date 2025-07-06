@@ -12978,6 +12978,14 @@ Finalmente, se muestra la tabla de commits relacionados a las pruebas unitarias 
 En este sprint pudimos lograr la implementación del monitoreo de plantas y plantaciones, así como la integración de los servicios de backend con las aplicaciones web y móvil, la visualización, creación y respuesta a consultas de usuarios, y la gestión de órdenes de instalación, pagos y suscripciones. Finalmente se logró la implementación de la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil.
 A continuación se presentan capturas de pantalla de las funcionalidades principales funcionales implementadas en el Sprint 3:
 
+Aplicación web:
+
+<img src="../assets/sprint3/execution/web1.png" alt="sprint-3-web-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/web2.png" alt="sprint-3-web-evidence2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/web3.png" alt="sprint-3-web-evidence3.png" class="img-fluid" style="width: 100%; height: auto;">
+
 Aplicación Móvil:
 
 <img src="../assets/sprint3/execution/mobile1.jpeg" alt="sprint-3-mobile-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
