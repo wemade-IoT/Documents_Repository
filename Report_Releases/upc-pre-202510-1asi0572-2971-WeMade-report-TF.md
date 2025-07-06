@@ -378,7 +378,7 @@ Proyecto: https://github.com/wemade-IoT/Documents_Repository | [Repositorio de d
 
 Landing Page: https://github.com/wemade-IoT/landing-page | [Landing Page Repository](https://github.com/wemade-IoT/landing-page)
 
-Landing Page: https://sage-granita-e4aafb.netlify.app/ | [Landing Page](https://sage-granita-e4aafb.netlify.app/)
+Landing Page: https://inquisitive-taiyaki-8e3b96.netlify.app/ | [Landing Page](https://inquisitive-taiyaki-8e3b96.netlify.app/)
 
 Front End Web App Repository: https://github.com/wemade-IoT/eco-guardian-frontend | [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
 
@@ -394,7 +394,6 @@ Front End Web Application: https://ecoguardian-tb2.vercel.app/ | [Front End Appl
 | kuni2005           | Mathias Tsuneo Kunimoto Watanabe    |
 | Nekolas777         | Nicolas Sebastian Esteban Garcia    |
 
-</center>
 
 ### TB1
 
