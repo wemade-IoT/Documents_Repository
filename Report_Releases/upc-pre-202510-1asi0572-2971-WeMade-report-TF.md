@@ -13499,23 +13499,23 @@ Presentamos el link del video:
 
 # Anexos
 
-[Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository)
+[Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository): https://github.com/wemade-IoT/Documents_Repository
 
-[Landing Page Repository](https://github.com/wemade-IoT/landing-page)
+[Landing Page Repository](https://github.com/wemade-IoT/landing-page): https://github.com/wemade-IoT/landing-page
 
-[Landing Page](https://sage-granita-e4aafb.netlify.app/)
+[Landing Page](https://sage-granita-e4aafb.netlify.app/): https://sage-granita-e4aafb.netlify.app/
 
-[Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
+[Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend): https://github.com/wemade-IoT/eco-guardian-frontend
 
-[Front End Application](https://ecoguardian-tb2.vercel.app/)
+[Front End Application](https://ecoguardian-tb2.vercel.app/): https://ecoguardian-tb2.vercel.app/
 
-[Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
+[Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8): https://shorturl.at/9wVtT
 
-[Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
+[Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc): https://shorturl.at/kUrtH
 
-[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf): https://shorturl.at/nxNAJ
 
-[Video de exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Ef3WABIAuRpFoKhtB9vN3xIB1Nyqo7ecSkJgBmoJDon9IQ?e=2GaQjS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Video de exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Ef3WABIAuRpFoKhtB9vN3xIB1Nyqo7ecSkJgBmoJDon9IQ?e=2GaQjS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D): https://shorturl.at/v6hZS
 
 [Video de exposición TP](https://upcedupe-my.sharepoint.com/personal/u202213983_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213983%5Fupc%5Fedu%5Fpe%2FDocuments%2FCICLO%20VII%2FIOT%2FENTREVISTAS%2FDOMESTICO%2FTP%2Fupc%2Dpre%2D202510%2D1asi0572%2D2971%2DWeMade%2Dexpo%2DTP%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9c659581%2D9751%2D4ca0%2Da55f%2D69256fe9717f)
 
