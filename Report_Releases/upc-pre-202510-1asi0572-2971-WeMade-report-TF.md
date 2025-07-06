@@ -1,74 +1,64 @@
-<center>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
-
- </center>
-
   <center>
-      <strong>
-      Universidad Peruana de Ciencias Aplicadas
-      </strong><br>
-      <strong>Ingeniería de Software</strong><br>
-      <strong>Desarrollo de Soluciones IOT - 2971</strong><br>
-      <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
-      <br>INFORME
-  </center>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br> 
+  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+  Ingeniería de Software<br>
+  <strong>Desarrollo de Soluciones IOT - 1ASI0572</strong><br>
+  Profesor: Ángel Augusto Velásquez Núñez<br>
+  NCR:2971<br> 
+  <br>Informe de Trabajo Final - 2025 - 10
+</center>
 
 <center>
 
-#### Startup: **WeMade**
+#### Startup: <strong>WeMade</strong>
 
-#### Product: **EcoGuardian**
-
-
-<br/>
-
-#### Año: **2025**
-<br/>
-<br/>
-<br/>
+#### Product: <strong>EcoGuardian</strong>
 
 </center>
 
+
 # Team Members:
+
 
 <center>
 <table>
     <tr>
-        <td>Member</td>
-        <td>Code</td>
+        <td><strong>Member</strong></td>
+        <td><strong>Code</strong></td>
     </tr>
     <tr>
-        <td>Nicolas Sebastian Esteban Garcia</td>
-        <td>U202217485</td>
+        <td>Esteban García, Nicolás Sebastián</td>
+        <td>u202217485</td>
     </tr>
     <tr>
-        <td>Gustavo Huilca Chipana</td>
-        <td>U202213983</td>
+        <td>Huilca Chipana, Gustavo</td>
+        <td>u202213983</td>
     </tr>
     <tr>
-        <td>Mathias Alejandro Jave Diaz</td>
-        <td>U202212721</td>
+        <td>Jave Díaz, Mathias Alejandro</td>
+        <td>u202212721</td>
     </tr>
     <tr>
-        <td>Mathias Tsuneo Kunimoto Watanabe</td>
-        <td>U202210148</td>
+        <td>Kunimoto Watanabe, Mathias Tsuneo</td>
+        <td>u202210148</td>
     </tr>
     <tr>
-        <td>Italo D'alessandro Luna Capuñay</td>
-        <td>U202213375</td>
+        <td>Luna Capuñay, Ítalo D'Alessandro</td>
+        <td>u202213375</td>
     </tr>
     <tr>
-        <td>Manuel Sebastian Peña Rivera</td>
-        <td>U202210138</td>
+        <td>Peña Rivera, Manuel Sebastián</td>
+        <td>u202210138</td>
     </tr>
     <tr>
-        <td>Sebastian Ramirez Hoffmann</td>
+        <td>Ramírez Hoffmann, Sebastián</td>
         <td>U202211894</td>
     </tr>
 </table>
 </center>
 
 <div style="page-break-after: always;"></div>
+
 
 # Registro de Versiones del Informe
 <center>
@@ -86,7 +76,7 @@
     <tr>
       <td rowspan="7">0.1</td>
       <td>29/03/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Antecedentes y Problemática</li>
@@ -148,10 +138,10 @@
     </tr>
     <tr>
       <td>29/03/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
-          <li>Análisis Competitivo</li>
+          <li>Análisis competitivo</li>
           <li>Estrategias Frente a Competidores</li>
           <li>Empathy Mapping</li>
         </ul>
@@ -160,7 +150,7 @@
     <tr>
       <td rowspan="7">1.1</td>
       <td>12/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -220,7 +210,7 @@
     </tr>
     <tr>
       <td>12/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -228,10 +218,10 @@
         </ul>
       </td>
     </tr>
-     <tr>
+    <tr>
       <td rowspan="7">1.2</td>
       <td>15/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Design Update</li>
@@ -288,15 +278,95 @@
     </tr>
     <tr>
       <td>15/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Preliminary Corrections</li>
         </ul>
       </td>
     </tr>
+    <!-- TB2 -->
+    <tr>
+      <td rowspan="7">2.0</td>
+      <td>18/06/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Assets Management</li>
+          <li>Mobile Application Development</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Analytics & Service Design</li>
+          <li>Database Design and Configuration</li>
+          <li>Team Collaboration Insights</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Consulting & IAM</li>
+          <li>Frontend Implementation - Plant Management</li>
+          <li>Sprint 2 Documentation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Operation and Monitoring</li>
+          <li>Edge Application Development</li>
+          <li>Component Diagrams and Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Profiles and Preferences</li>
+          <li>Mobile Application Development</li>
+          <li>Testing Implementation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Frontend Implementation - Payment Integration</li>
+          <li>Mobile Application Development</li>
+          <li>Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - IAM & Security</li>
+          <li>Edge Application Development</li>
+          <li>Infrastructure Configuration</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
+</center>
 
 
 # Project Report Collaboration Insights
@@ -13005,9 +13075,19 @@ El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microc
 
 <img src="../assets/sprint3/deployments/embedded-deploy.jpg" alt="Despliegue de Embedded App a través de Arduino IDE" width="600">
 
+Despliegue de Mobile App en a través de Firebase App Distribution
+
+El despliegue de la aplicación móvil de EcoGuardian se realizó utilizando Firebase App Distribution. Este servicio permite distribuir versiones de la aplicación a testers y usuarios finales de manera eficiente. La aplicación está disponible para dispositivos móviles.
+
+<img src="../assets/sprint3/deployments/mobile.png" alt="Despliegue de Mobile App a través de Firebase App Distribution" width="600">
+
 ### 6.2.3.9 Team Collaboration Insights during Sprint 3
 
 Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 3, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.
+
+Frontend: Se trabajó en la implementación de la interfaz de usuario para la gestión de plantas, órdenes, pagos y suscripciones. Se realizaron mejoras en la experiencia del usuario .
+
+<img src="../assets/sprint3/insights/front.png" alt="Colaboración del equipo en Frontend" width="600">
 
 Backend: Se trabajó en la corrección y solución de errores para la gestión de dispositivos, órdenes, pagos y suscripciones, así como métricas y plantas. Se implementaron pruebas unitarias para asegurar la calidad del código y se documentaron los endpoints RESTful utilizando OpenAPI.
 
@@ -13560,7 +13640,7 @@ Presentamos el link del video:
 
 [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend): https://github.com/wemade-IoT/eco-guardian-frontend
 
-[Front End Application](https://ecoguardian-tb2.vercel.app/): https://ecoguardian-tb2.vercel.app/
+[Front End Application](https://ecoguardian-tf.vercel.app/): https://ecoguardian-tf.vercel.app/
 
 [Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8): https://shorturl.at/9wVtT
 
