@@ -1,25 +1,18 @@
-<center>
-
- <strong> COURSE PROJECT</strong>
-
- </center>
-
   <center>
-      <strong>
-      Universidad Peruana de Ciencias Aplicadas
-      </strong><br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
-      <strong>Ingeniería de Software</strong><br>
-      <strong>Desarrollo de Soluciones IOT - 2971</strong><br>
-      <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
-      <br>INFORME
-  </center>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br> 
+  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+  Ingeniería de Software<br>
+  <strong>Desarrollo de Soluciones IOT - 1ASI0572</strong><br>
+  Profesor: Ángel Augusto Velásquez Núñez<br>
+  NCR:2971<br> 
+  <br>Informe de Trabajo Final - 202501
+</center>
 
 <center>
 
-#### Startup: **WeMade**
+#### Startup: <strong>WeMade</strong>
 
-#### Product: **EcoGuardian**
+#### Product: <strong>EcoGuardian</strong>
 
 </center>
 
@@ -29,41 +22,39 @@
 <center>
 <table>
     <tr>
-        <td>Member</td>
-        <td>Code</td>
+        <td><strong>Member</strong></td>
+        <td><strong>Code</strong></td>
     </tr>
     <tr>
-        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Esteban Garcia, Nicolas Sebastian</td>
         <td>u202217485</td>
     </tr>
     <tr>
-        <td>Sebastian Ramirez Hoffmann</td>
-        <td>U202211894</td>
-    </tr>
-    <tr>
-        <td>Gustavo Huilca Chipana</td>
+        <td>Huilca Chipana, Gustavo</td>
         <td>u202213983</td>
     </tr>
     <tr>
-        <td>Manuel Sebastian Peña Rivera</td>
-        <td>u202210138</td>
-    </tr>
-    <tr>
-        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Jave Diaz, Mathias Alejandro</td>
         <td>u202212721</td>
     </tr>
     <tr>
-        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Kunimoto Watanabe, Mathias Tsuneo</td>
         <td>u202210148</td>
     </tr>
     <tr>
-        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Luna Capuñay, Italo D'Alessandro</td>
         <td>u202213375</td>
+    </tr>
+    <tr>
+        <td>Peña Rivera, Manuel Sebastian</td>
+        <td>u202210138</td>
+    </tr>
+    <tr>
+        <td>Ramirez Hoffmann, Sebastian</td>
+        <td>U202211894</td>
     </tr>
 </table>
 </center>
-
-
 
 # Registro de Versiones del Informe
 <center>
@@ -80,8 +71,8 @@
     <!-- TB1 -->
     <tr>
       <td rowspan="7">0.1</td>
-      <td>29/03/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>29/03/2025-10</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Antecedentes y Problemática</li>
@@ -90,7 +81,7 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
+      <td>29/03/2025-10</td>
       <td>Gustavo Huilca Chipana</td>
       <td>
         <ul>
@@ -100,7 +91,7 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
+      <td>29/03/2025-10</td>
       <td>Sebastian Ramirez Hoffmann</td>
       <td>
         <ul>
@@ -110,7 +101,7 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
+      <td>29/03/2025-10</td>
       <td>Mathias Alejandro Jave Diaz</td>
       <td>
         <ul>
@@ -120,7 +111,7 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
+      <td>29/03/2025-10</td>
       <td>Manuel Sebastian Peña Rivera</td>
       <td>
         <ul>
@@ -131,7 +122,7 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
+      <td>29/03/2025-10</td>
       <td>Nicolas Sebastian Esteban Garcia</td>
       <td>
         <ul>
@@ -142,8 +133,8 @@
       </td>
     </tr>
     <tr>
-      <td>29/03/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>29/03/2025-10</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Análisis Competitivo</li>
@@ -154,8 +145,8 @@
     </tr>
     <tr>
       <td rowspan="7">1.1</td>
-      <td>12/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>12/05/2025-10</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -164,7 +155,7 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
+      <td>12/05/2025-10</td>
       <td>Gustavo Huilca Chipana</td>
       <td>
         <ul>
@@ -174,7 +165,7 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
+      <td>12/05/2025-10</td>
       <td>Sebastian Ramirez Hoffmann</td>
       <td>
         <ul>
@@ -184,7 +175,7 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
+      <td>12/05/2025-10</td>
       <td>Mathias Alejandro Jave Diaz</td>
       <td>
         <ul>
@@ -194,7 +185,7 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
+      <td>12/05/2025-10</td>
       <td>Manuel Sebastian Peña Rivera</td>
       <td>
         <ul>
@@ -204,7 +195,7 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
+      <td>12/05/2025-10</td>
       <td>Nicolas Sebastian Esteban Garcia</td>
       <td>
         <ul>
@@ -214,8 +205,8 @@
       </td>
     </tr>
     <tr>
-      <td>12/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>12/05/2025-10</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -223,10 +214,10 @@
         </ul>
       </td>
     </tr>
-     <tr>
+    <tr>
       <td rowspan="7">1.2</td>
-      <td>15/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>15/05/2025-10</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Design Update</li>
@@ -235,7 +226,7 @@
       </td>
     </tr>
     <tr>
-      <td>16/05/2025</td>
+      <td>16/05/2025-10</td>
       <td>Gustavo Huilca Chipana</td>
       <td>
         <ul>
@@ -244,7 +235,7 @@
       </td>
     </tr>
     <tr>
-      <td>20/05/2025</td>
+      <td>20/05/2025-10</td>
       <td>Sebastian Ramirez Hoffmann</td>
       <td>
         <ul>
@@ -254,7 +245,7 @@
       </td>
     </tr>
     <tr>
-      <td>21/05/2025</td>
+      <td>21/05/2025-10</td>
       <td>Mathias Alejandro Jave Diaz</td>
       <td>
         <ul>
@@ -263,7 +254,7 @@
       </td>
     </tr>
     <tr>
-      <td>23/05/2025</td>
+      <td>23/05/2025-10</td>
       <td>Manuel Sebastian Peña Rivera</td>
       <td>
         <ul>
@@ -272,7 +263,7 @@
       </td>
     </tr>
     <tr>
-      <td>26/05/2025</td>
+      <td>26/05/2025-10</td>
       <td>Nicolas Sebastian Esteban Garcia</td>
       <td>
         <ul>
@@ -282,17 +273,96 @@
       </td>
     </tr>
     <tr>
-      <td>15/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>15/05/2025-10</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Preliminary Corrections</li>
         </ul>
       </td>
     </tr>
+    <!-- TB2 -->
+    <tr>
+      <td rowspan="7">2.0</td>
+      <td>18/06/2025-10</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Assets Management</li>
+          <li>Mobile Application Development</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Analytics & Service Design</li>
+          <li>Database Design and Configuration</li>
+          <li>Team Collaboration Insights</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Consulting & IAM</li>
+          <li>Frontend Implementation - Plant Management</li>
+          <li>Sprint 2 Documentation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Operation and Monitoring</li>
+          <li>Edge Application Development</li>
+          <li>Component Diagrams and Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Profiles and Preferences</li>
+          <li>Mobile Application Development</li>
+          <li>Testing Implementation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Frontend Implementation - Payment Integration</li>
+          <li>Mobile Application Development</li>
+          <li>Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025-10</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - IAM & Security</li>
+          <li>Edge Application Development</li>
+          <li>Infrastructure Configuration</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
-
+</center>
 
 # Project Report Collaboration Insights
 
