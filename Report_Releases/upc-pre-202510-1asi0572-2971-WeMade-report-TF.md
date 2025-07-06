@@ -13004,6 +13004,12 @@ El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microc
 
 <img src="../assets/sprint3/deployments/embedded-deploy.jpg" alt="Despliegue de Embedded App a través de Arduino IDE" width="600">
 
+Despliegue de Mobile App en a través de Firebase App Distribution
+
+El despliegue de la aplicación móvil de EcoGuardian se realizó utilizando Firebase App Distribution. Este servicio permite distribuir versiones de la aplicación a testers y usuarios finales de manera eficiente. La aplicación está disponible para dispositivos móviles.
+
+<img src="../assets/sprint3/deployments/mobile.png" alt="Despliegue de Mobile App a través de Firebase App Distribution" width="600">
+
 ### 6.2.3.9 Team Collaboration Insights during Sprint 3
 
 Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 3, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.
