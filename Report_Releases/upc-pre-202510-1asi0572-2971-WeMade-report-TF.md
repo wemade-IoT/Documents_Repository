@@ -12980,7 +12980,13 @@ A continuación se presentan capturas de pantalla de las funcionalidades princip
 
 Aplicación Móvil:
 
-<img src="../assets/sprint3/execution/mobile.png" alt="sprint-3-mobile-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+<img src="../assets/sprint3/execution/mobile1.jpeg" alt="sprint-3-mobile-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile2.jpeg" alt="sprint-3-mobile-evidence2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile3.jpeg" alt="sprint-3-mobile-evidence3.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile4.jpeg" alt="sprint-3-mobile-evidence4.png" class="img-fluid" style="width: 100%; height: auto;">
 
 Aplicación Embebida:
 
