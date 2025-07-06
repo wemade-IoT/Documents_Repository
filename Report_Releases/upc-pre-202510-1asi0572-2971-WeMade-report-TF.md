@@ -13246,6 +13246,7 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
 
 ### 6.2.3.4 Development Evidence for Sprint Review.
 En esta sección se presentan las evidencias de desarrollo del Sprint 3, incluyendo los commits realizados en el repositorio de GitHub, que reflejan el progreso y las implementaciones realizadas durante el sprint.
+
 | **Repository**                                     | **Branch** | **Commit Id** | **Commit Message**                                                                                       | **Commit Message Body** | **Commited on (Date)**         |
 |----------------------------------------------------|------------|---------------|----------------------------------------------------------------------------------------------------------|-------------------------|--------------------------------|
 | https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | c437e7b       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Sun Jul 6 12:01:07 2025 -0500  |
