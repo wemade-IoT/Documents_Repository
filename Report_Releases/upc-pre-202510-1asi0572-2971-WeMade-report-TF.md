@@ -12766,7 +12766,7 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
       <td>Implementación de autenticación con JWT</td> 
       <td>TS04-T01</td> 
       <td>Integración y configuración de método JWT en Backend</td> 
-      <td>Configurar librerías JWT e implementar la generación de tokens seguros en el backend.</td> 
+      <td>Configurar bibliotecas JWT e implementar la generación de tokens seguros en el backend.</td> 
       <td>3</td> 
       <td>Italo Luna</td> 
       <td>Done</td> 
@@ -13392,6 +13392,27 @@ A continuación se presenta una tabla con los endpoints, acciones implementadas,
 
 **Repositorio:** https://github.com/wemade-IoT/EcoGuardian-Backend
 
+### 6.2.3.8 Software Deployment evidence for spring preview
+
+Despliegue de Backend en Microsoft Azure
+El despliegue del backend de EcoGuardian se realizó en Microsoft Azure bajo el servicio App Service. El nombre de la aplicación es EcoGuardian y se encuentra en ejecución en la región Brazil South. Utiliza el sistema operativo Linux para su funcionamiento. Además, el dominio predeterminado para el servicio es ecoguardian-cgenhdd6dadrgbfz.brazilsouth-01.azurewebsites.net, y se tiene la opción de agregar un dominio personalizado. El plan de servicio es ASP-EcoGuardian-9695 y está configurado para manejar las necesidades de la plataforma con recursos optimizados para su operación.
+
+Detalles importantes:
+
+Estado: En ejecución
+Suscripción: Azure for Students
+Sistema Operativo: Linux
+Plan de Hosting: App Service
+
+<img src="../assets/sprint3/deployments/backend-depllo1.png" alt="Despliegue de Backend en Microsoft Azure" width="600">
+
+<img src="../assets/sprint3/deployments/backend-depllo2.png" alt="Despliegue de Backend en Microsoft Azure" width="600">
+
+Despliegue de Embedded App a través de Arduino IDE
+
+El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microcontrolador ESP32 utilizando el entorno de desarrollo Arduino IDE. El proceso de despliegue incluyó la carga del código fuente en el dispositivo, asegurando que todas las funcionalidades necesarias para la recolección de datos y la comunicación con el backend estuvieran correctamente implementadas.
+
+<img src="../assets/sprint3/deployments/embedded-deploy.jpg" alt="Despliegue de Embedded App a través de Arduino IDE" width="600">
 
 # Conclusiones
 
