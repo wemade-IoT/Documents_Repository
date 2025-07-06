@@ -13671,7 +13671,7 @@ Presentamos el link del video:
 
 [Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Eb-H4ytQkcRFmBGFdpRoAH4BFxTitpePsLtZuwY3QXsLfQ?e=04lzR7): https://shorturl.at/uIXSI
 
-[Video de exposición TF]()
+[Video de exposición TF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ESZ056STPJNEsuF3Y-QMnXoBnv3QJ9KMUHghoUyEZWJxhw?e=j920wt): https://shorturl.at/iq5zB
 
 ---
 
