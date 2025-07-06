@@ -5182,7 +5182,7 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 **SubscriptionService**
 
-| Metodo           | Descripción                                      |
+| Método           | Descripción                                      |
   |---------------------|--------------------------------------------------|
 | createSubscription     | Método para la creación de una nueva suscripción      |
 | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
@@ -5195,7 +5195,7 @@ En esta capa se incluyen las clases que se encargan de comunicarse con servicios
 
 **SubscriptionService**
 
-| Metodo           | Descripción                                      |
+| Método           | Descripción                                      |
   |---------------------|--------------------------------------------------|
 | createSubscription     | Método para la creación de una nueva suscripción      |
 | updateSubscriptionState     | Método para la actualización del estado de una suscripción      |
@@ -5454,7 +5454,7 @@ Representa un usuario del sistema.
 
 Edge App:
 
-- En esta capa se define el metodo que va a permitir la interacción hacia este bounded context
+- En esta capa se define el método que va a permitir la interacción hacia este bounded context
 
   | Método          | Descripción                                      |
   |---------------------|--------------------------------------------------|
@@ -5593,7 +5593,7 @@ En esta clase se definen las clases que van a ser mapeadas a la base de datos.
 
 **Repositories**
 
-En esta clase se definen los metodos que permitiran realizare consultas hacia la base de datos.
+En esta clase se definen los métodos que permitiran realizare consultas hacia la base de datos.
 
 Mobile App:
 
@@ -7159,7 +7159,7 @@ Información de pago mostrando el estado de la suscripción del usuario mostrand
 <img src="../assets/wireframes/Desktop - 5.png" alt="wireframe web app" width = "400"/>
 
 **Descripción:**
-Planes de pago y su metodo de pago
+Planes de pago y su método de pago
 
 <br>
 
@@ -9071,7 +9071,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>TS04</td>
         <td>Implementación de autenticación con JWT</td>
         <td>T01</td>
-        <td>Integracion y configuracion de metodo JWT en Backend</td>
+        <td>Integracion y configuracion de método JWT en Backend</td>
         <td>Implementar y configurar la autenticación basada en JSON Web Tokens (JWT) en el backend.</td>
         <td>6</td>
         <td>Italo D&#39;alessandro Luna Capuñay</td>
@@ -9091,7 +9091,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>TS06</td>
         <td>Implementación de políticas de acceso y roles</td>
         <td>T01</td>
-        <td>Integracion y configuracion de metodo RBAC en Backend</td>
+        <td>Integracion y configuracion de método RBAC en Backend</td>
         <td>Integrar y configurar el control de acceso basado en roles (RBAC) en el backend.</td>
         <td>6</td>
         <td>Italo D&#39;alessandro Luna Capuñay</td>
@@ -9551,7 +9551,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>TS01</td>
         <td>Integración de MFA en Backend</td>
         <td>T01</td>
-        <td>Integracion y configuracion de metodo MFA en Backend</td>
+        <td>Integracion y configuracion de método MFA en Backend</td>
         <td>Integrar y configurar la autenticación multifactor (MFA) en el backend del sistema.</td>
         <td>8</td>
         <td>Italo D&#39;alessandro Luna Capuñay</td>
