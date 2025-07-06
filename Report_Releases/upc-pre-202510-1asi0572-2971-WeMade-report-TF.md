@@ -12960,6 +12960,16 @@ El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microc
 
 <img src="../assets/sprint3/deployments/embedded-deploy.jpg" alt="Despliegue de Embedded App a través de Arduino IDE" width="600">
 
+### 6.2.3.9 Team Collaboration Insights during Sprint 3
+
+Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 3, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.
+
+Backend: Se trabajó en la corrección y solución de errores para la gestión de dispositivos, órdenes, pagos y suscripciones, así como métricas y plantas. Se implementaron pruebas unitarias para asegurar la calidad del código y se documentaron los endpoints RESTful utilizando OpenAPI.
+
+<img src="../assets/sprint3/insights/sprint-3-insights-backend.png" alt="Colaboración del equipo en Backend" width="600">
+
+
+
 ## 6.3 Entrevistas de Validación
 
 En esta sección se presentan las entrevistas realizadas a los usuarios de EcoGuardian, con el objetivo de validar las funcionalidades implementadas y obtener retroalimentación sobre la experiencia del usuario. Las entrevistas se llevaron a cabo con diferentes segmentos de usuarios: doméstico, empresarial y especialista. A continuación, se detallan las preguntas generales y específicas para cada segmento, así como un resumen de las respuestas obtenidas.
