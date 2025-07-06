@@ -26,7 +26,7 @@
         <td><strong>Code</strong></td>
     </tr>
     <tr>
-        <td>Esteban Garcia, Nicolas Sebastian</td>
+        <td>Esteban García, Nicolás Sebastián</td>
         <td>u202217485</td>
     </tr>
     <tr>
@@ -34,7 +34,7 @@
         <td>u202213983</td>
     </tr>
     <tr>
-        <td>Jave Diaz, Mathias Alejandro</td>
+        <td>Jave Díaz, Mathias Alejandro</td>
         <td>u202212721</td>
     </tr>
     <tr>
@@ -42,15 +42,15 @@
         <td>u202210148</td>
     </tr>
     <tr>
-        <td>Luna Capuñay, Italo D'Alessandro</td>
+        <td>Luna Capuñay, Ítalo D'Alessandro</td>
         <td>u202213375</td>
     </tr>
     <tr>
-        <td>Peña Rivera, Manuel Sebastian</td>
+        <td>Peña Rivera, Manuel Sebastián</td>
         <td>u202210138</td>
     </tr>
     <tr>
-        <td>Ramirez Hoffmann, Sebastian</td>
+        <td>Ramírez Hoffmann, Sebastián</td>
         <td>U202211894</td>
     </tr>
 </table>
@@ -137,7 +137,7 @@
       <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
-          <li>Análisis Competitivo</li>
+          <li>Análisis competitivo</li>
           <li>Estrategias Frente a Competidores</li>
           <li>Empathy Mapping</li>
         </ul>
@@ -379,7 +379,7 @@ Front End Web App Repository: https://github.com/wemade-IoT/eco-guardian-fronten
 
 Front End Web Application: https://ecoguardian-tb2.vercel.app/ | [Front End Application](https://ecoguardian-tb2.vercel.app/)
 
-| Usuario Github     | Nombre                              |
+| Usuario GitHub     | Nombre                              |
 |--------------------|-------------------------------------|
 | SEBRH              | Sebastian Ramirez Hoffmann          |
 | LordMathi2741      | Mathias Alejandro Jave Diaz         |
@@ -393,16 +393,16 @@ Front End Web Application: https://ecoguardian-tb2.vercel.app/ | [Front End Appl
 
 ### TB1
 
-<p>Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.</p>
+<p>Para la entrega del TB1, se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.</p>
 
 <p>Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.</p>
 <center>
-<img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
+<img src="../assets/insights/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
 [*Colaboraciones del repositorio*]
 Se muestra evidencia del trabajo realizado en la TB1
 
-<img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
+<img src="../assets/insights/tb1/commits.png" alt="imagen de los commits">  
 
 [*Registro de los commits donde se realizaron la mayor cantidad*]
 </center>
@@ -414,13 +414,13 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TP en el informe.</p>
 <center>
-<img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
+<img src="../assets/insights/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
 Se muestra evidencia del trabajo realizado en la Tp1
 
 
-<img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
+<img src="../assets/insights/tp/informe-commits.png" alt="Commits generales del repositorio">  
 
 [*Registro de los commits generales donde se realizaron la mayor cantidad*]
 </center>
@@ -428,36 +428,36 @@ Se muestra evidencia del trabajo realizado en la Tp1
 
 #### Landing Page
 <center>
-<img src="../assets/inisghts/tp/landing.png" alt="Colaboraciones Landing Page">  
+<img src="../assets/insights/tp/landing.png" alt="Colaboraciones Landing Page">  
 
 [*Colaboraciones realizadas en el diseño y maquetación de la landing page*]
 
-<img src="../assets/inisghts/tp/landing-commits.png" alt="Commits Landing Page">
+<img src="../assets/insights/tp/landing-commits.png" alt="Commits Landing Page">
 
 [*Commits asociados al desarrollo visual y estructural de la landing page*]
 
 #### Aplicación Web
 
-<img src="../assets/inisghts/tp/webapp-insights.jpeg" alt="Colaboraciones Webapp">  
+<img src="../assets/insights/tp/webapp-insights.jpeg" alt="Colaboraciones Webapp">  
 
 [*Colaboraciones en el diseño y construcción de componentes funcionales de la aplicación web*]
 
-<img src="../assets/inisghts/tp/webapp-commits.jpeg" alt="Commits Webapp">  
+<img src="../assets/insights/tp/webapp-commits.jpeg" alt="Commits Webapp">  
 
 [*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*]
 
 ### TB2
-<p>Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones desde embeded hasta mobile app. Adicionalmente, se hacen las correciones al ifnorme que se esperan de nosotros.</p>
+<p>Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones desde embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
 <center>
-<img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
+<img src="../assets/insights/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
-Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
+Se muestra evidencia del trabajo realizado en la TB2 donde podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encapsula a este reporte, no obstante si se quiere ver más informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
 
 
-<img src="../assets/inisghts/tb2/commits-tb2.png" alt="Commits generales del repositorio">  
+<img src="../assets/insights/tb2/commits-tb2.png" alt="Commits generales del repositorio">  
 
 [*Registro de los commits generales donde se realizaron la mayor cantidad*]
 </center>
@@ -735,7 +735,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 <span class="entry-type">TP:</span> Durante el desarrollo del proyecto, participé activamente en el diseño de la landing page y del prototipo de la aplicación web, colaborando con mi equipo en sesiones de diseño y toma de decisiones conjuntas. Establecimos metas claras, planificamos tareas mediante herramientas colaborativas y asignamos responsabilidades de acuerdo con las habilidades de cada integrante. Promovimos un entorno inclusivo donde todos pudimos aportar ideas, fortaleciendo la comunicación y el liderazgo compartido. La coordinación efectiva nos permitió cumplir con los objetivos dentro del plazo establecido.<br>
 <span class="entry-type">TB2:</span> Durante esta entrega, trabajé en el deploy del front-end y en la preparación del entorno de despliegue, asegurando que el equipo tuviera una base sólida para su trabajo colaborativo. Participé activamente en la maquetación de la **aplicación web (Figma)** y su integración con el backend (**APIs REST**), así como en la implementación de la estructura inicial de la **aplicación móvil (Android Studio)** y la **pasarela de pagos con Stripe**. Estas tareas, al ser colaborativas y con **metas claras en Trello**, me permitieron contribuir directamente al cumplimiento de los objetivos del sprint, fomentando un entorno de trabajo organizado y eficiente.
 <br><br><span class="person-name">Manuel Sebastian Peña Rivera</span><br>
-<span class="entry-type">TB1:</span> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecí un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.<br>
+<span class="entry-type">TB1:</span> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el Análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecí un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.<br>
 <span class="entry-type">TP:</span> En este avance contribuí en la planificación y definición de metas, asegurándome de que el desarrollo de la landing page se realizara de manera organizada. Al colaborar en el diseño de los wireframes y mockups, así como en la construcción del footer y navbar, ayudé a cumplir los objetivos planteados, siempre respetando los plazos y trabajando de manera coordinada con mis compañeros.<br>
 <span class="entry-type">TB2:</span> En esta entrega, participé activamente en las reuniones de planificación y en la asignación de tareas dentro del Product Backlog en **Trello**, asegurando la correcta distribución de responsabilidades en el desarrollo del *Bounded Context* de Profiles. Coordiné el progreso del equipo en la implementación del *front-end* y *back-end*, y ayudé a establecer metas claras, contribuyendo también al informe de Bounded Context: Profiles and Preferences, garantizando que las tareas se ejecutaran de manera eficiente y dentro del plazo.
 <br><br><span class="person-name">Italo D'Alessandro Luna Capuñay</span><br>
@@ -752,7 +752,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 <span class="entry-type">TB2:</span> En esta entrega, mi contribución al entorno colaborativo se manifestó en la **organización y facilitación de talleres de diseño** para la aplicación web y móvil utilizando **Figma**. Fomenté la **participación activa de todos en la ideación y maquetación**, y trabajé en la integración de *feedback* para refinar las interfaces. Estas acciones colaborativas, junto con la gestión de tareas en **Trello**, fueron cruciales para que como equipo **estableciéramos y cumpliéramos nuestras metas de diseño** y desarrollo, asegurando un producto coherente y centrado en el usuario.
 <br><br><span class="person-name">Sebastian Ramirez Hoffmann</span><br>
 <span class="entry-type">TB1:</span> Desde el inicio de esta entrega, **contribuí activamente a la creación de un entorno de trabajo colaborativo e inclusivo**. Me aseguré de **ofrecer oportunidades a mis compañeros para expresarse y compartir sus ideas**, valorando cada aportación. Mi participación en la **planificación activa de tareas** y el apoyo en la **repartición de responsabilidades durante las reuniones grupales** fueron clave para que como equipo **estableciéramos metas claras y cumpliéramos los objetivos propuestos**, fortaleciendo así nuestra sinergia y el sentido de pertenencia.<br>
-<span class="entry-type">TP:</span> Durante este avance, **fomentamos activamente la inclusividad en nuestro trabajo grupal**, asegurando que **todas las ideas fueran consideradas** e integradas en el proyecto, incluso a través de **sesiones de brainstorming en Figma**. **Planificamos las tareas de forma colaborativa** para dividir el trabajo eficientemente, lo que nos permitió **trabajar de manera coordinada y productiva**, **utilizando IntelliJ IDEA y Android Studio para la implementación**. Adicionalmente, **establecimos metas claras para el sprint**, lo cual fue fundamental para **mantenernos enfocados y alcanzar los objetivos** definidos como equipo, consolidando así nuestro entorno de colaboración.
+<span class="entry-type">TP:</span> Durante este avance, **fomentamos activamente la inclusividad en nuestro trabajo grupal**, asegurando que **todas las ideas fueran consideradas** e integradas en el proyecto, incluso a través de **sesiones de brainstorming en Figma**. **Planificamos las tareas de forma colaborativa** para dividir el trabajo de manera eficiente, lo que nos permitió **trabajar de manera coordinada y productiva**, **utilizando IntelliJ IDEA y Android Studio para la implementación**. Adicionalmente, **establecimos metas claras para el sprint**, lo cual fue fundamental para **mantenernos enfocados y alcanzar los objetivos** definidos como equipo, consolidando así nuestro entorno de colaboración.
 </td>
 <td class="final-comment-column">El equipo logró cumplir con los objetivos propuestos, la planificación y el establecimiento de tareas, junto con la construcción de un ambiente colaborativo, demostrando satisfactoriamente el cumplimiento de estos criterios en las reuniones grupales y durante el desarrollo del documento.</td>
 </tr>
@@ -765,7 +765,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### 1.1.1. Descripción de la Startup
 
-EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas realizadas por personal experimentado en el área. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola, cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en la monitorización, estadísticas, recomendaciones y seguimiento de crecimiento.
+EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas realizadas por personal experimentado en el área. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola, cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en la monitoreo, estadísticas, recomendaciones y seguimiento de crecimiento.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -828,7 +828,7 @@ EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de
       <td style="padding: 8px; text-align: left;">Sebastian Ramirez Hoffmann</td>
       <td style="padding: 8px; text-align: left;">U202211894</td>
       <td style="padding: 8px; text-align: left;">Ingeniería de Software</td>
-      <td style="padding: 8px; text-align: left;">Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías mas actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar eficientemente en proyectos colaborativos.</td>
+      <td style="padding: 8px; text-align: left;">Me dedico a realizar soluciones de software utilizando distintas tecnologías y frameworks de desarrollo como .NetCore, SpringBoot, Angular y Vue. Asimismo cuento con experiencia implementando tecnologías más actuales como Large Learning Models asi como modelos de cyber seguridad. Personalmente me considero una persona proactiva con vision y dispuesto a trabajar de manera eficiente en proyectos colaborativos.</td>
     </tr>
   </tbody>
 </table>
@@ -888,7 +888,7 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 #### 1.2.2.1. Lean UX Problem Statement.
 
 
-En el estado actual de la industria agrícola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas, especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en pérdidas significativas o irreparables para las plantas bajo cuidado. Además, existe una falta de conocimiento a fondo del correcto cuidado de plantas y las formas de aprenderlo son poco accesibles para una persona corriente.
+En el estado actual de la industria agrícola y en la comunidad de horticultura, se observan desafíos significativos en la continua monitoreo del estado de las plantas, especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en pérdidas significativas o irreparables para las plantas bajo cuidado. Además, existe una falta de conocimiento a fondo del correcto cuidado de plantas y las formas de aprenderlo son poco accesibles para una persona corriente.
 
 Otros productos han fallado en proveer recomendaciones hechas por expertos en agricultura y el debido cuidado de las plantas.
 
@@ -951,7 +951,7 @@ En esta sección creamos un Proto-Persona como una suposición de cómo son nues
     </tr>
     <tr>
       <td style="padding: 8px; text-align: left;"><b>Godofredo:</b><br>27 años<br>Especialista en Agricultura</td>
-      <td style="padding: 8px; text-align: left;">- Gana lo esperado<br> - Tiene conocimientos de botánica y el cuidado de plantas<br> - Busca compartir sus conocimientos a personas que buscan aprender mas del tema - Cuenta con una pequeña comunidad aficionada al cuidado de plantas</td>
+      <td style="padding: 8px; text-align: left;">- Gana lo esperado<br> - Tiene conocimientos de botánica y el cuidado de plantas<br> - Busca compartir sus conocimientos a personas que buscan aprender más del tema - Cuenta con una pequeña comunidad aficionada al cuidado de plantas</td>
       <td style="padding: 8px; text-align: left;">- Necesita una manera de poder contactar a las personas que este interesadas<br> - Requiere métricas cuantificables y visuales si es posible de el estado de la planta</td>
     </tr>
   </tbody>
@@ -989,7 +989,7 @@ El usuario revisa la app regularmente, ajusta su rutina de riego/cuidados según
 Optimizar la producción de cultivos con información precisa y accesible para maximizar la cosecha.
 
 **¿Cómo se quiere sentir el usuario en este proceso?**  
-Confiado y en control, sabiendo que la plataforma le brinda información confiable sin necesidad de monitorización manual constante.
+Confiado y en control, sabiendo que la plataforma le brinda información confiable sin necesidad de monitoreo manual constante.
 
 **¿Cómo nuestro producto acerca al usuario a un logro personal?**  
 Al aumentar la eficiencia del cultivo, logra mejorar la producción y rentabilidad, generando un impacto positivo en su negocio.
@@ -1193,7 +1193,7 @@ Finalmente, juntamos todo lo que hemos hecho en este proceso y lo agregamos en u
 
 ## 2.1. Competidores.
 
-### 2.1.1. Análisis Competitivo
+### 2.1.1. Análisis competitivo
 
 **Competitive Analysis Landscape**
 
@@ -1375,7 +1375,7 @@ Distrito: Santiago de Surco, Lima
 Timing: 0:00
 <br>
 <center>
-<img src="../assets/images-interviews/domestico/interview1.jpeg"
+<img src="../assets/images-interviews/Doméstico/interview1.jpeg"
 alt="Entrevista 1 Segmento Doméstico" width="500"/>
 </center>
 Andrea es una ingeniera de software de profesión con 20 años de edad con pasión por el cuidado de sus plantas como hobby.
@@ -1396,7 +1396,7 @@ Distrito: Trujillo, La libertad
 Timing: 4:31
 <br>
 <center>
-<img src="../assets/images-interviews/domestico/interview-domestico-2.png"
+<img src="../assets/images-interviews/Doméstico/interview-Doméstico-2.png"
 alt="Entrevista 2 Segmento Doméstico" width="500"/>
 </center>
 La señora Paquita es jubilada y como hobby cuida de su helecho, cuenta con 71 años de edad y reside en la provincia de Trujillo.
@@ -1421,7 +1421,7 @@ Distrito: Jesús María, Lima
 Timing: 8:49
 <br>
 <center>
-<img src="../assets/images-interviews/domestico/interview-domestico-3.png"
+<img src="../assets/images-interviews/Doméstico/interview-Doméstico-3.png"
 alt="Entrevista 3 Segmento Doméstico" width="500"/>
 </center>
 Sergio es un estudiante de Ingeniería de Software con una pasión por el cuidado de sus plantas como hobby.
@@ -1554,25 +1554,25 @@ Timing: 46:04
 <center>
 <img src="../assets/images-interviews/specialist/EntrevistaSegmento3_Esau.png" alt="Entrevista 2 Segmento Especialista" width="500"/>
 </center>
-Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de la informacion adicional para el diagnosito de plantas, principalmente mencionando como en un area hipoteticamente laboral siente que datos como la humedad, iluminacion e incluso la temperatura en el ambiente puede afectar significativamente en la efficiencia de recomendacion. Al ser un estudiante universitario no ha tenido la experiencia previa de laborar como un especialista en agricultura o el cuidado de plantas, pero cuenta con vastos años de experiencia diagnosticando las necesidades de distintas plantas. Menciona que como medio de pago preferiria un salario por hora mas que un modelo de subscripcion o por cantidad de consultas. Asimismo se rescata la frase de "Facilitar el trabajo" para hacer alusion a la esperanza de que con la data que ofrezcamos el diagnostico sea mas facil de realizar. Finalmente comenta que entre un contexto de usuarios domesticos y empresariales siente que tiene mas problema con el domestico al esperar que la mayoria tenga conocimientos escasos o basicos respecto a el cuidado de plantas lo que puede resultar en preguntas innecesarias.
+Esau nos comenta en su entrevista aspectos que nos corroboran la importancia de la informacion adicional para el diagnosito de plantas, principalmente mencionando como en un area hipoteticamente laboral siente que datos como la humedad, iluminacion e incluso la temperatura en el ambiente puede afectar significativamente en la efficiencia de recomendacion. Al ser un estudiante universitario no ha tenido la experiencia previa de laborar como un especialista en agricultura o el cuidado de plantas, pero cuenta con vastos años de experiencia diagnosticando las necesidades de distintas plantas. Menciona que como medio de pago preferiria un salario por hora más que un modelo de subscripcion o por cantidad de consultas. Asimismo se rescata la frase de "Facilitar el trabajo" para hacer alusion a la esperanza de que con la data que ofrezcamos el diagnostico sea más facil de realizar. Finalmente comenta que entre un contexto de usuarios Domésticos y empresariales siente que tiene más problema con el Doméstico al esperar que la mayoria tenga conocimientos escasos o basicos respecto a el cuidado de plantas lo que puede resultar en preguntas innecesarias.
 
 ### 2.2.3. Análisis de entrevistas.
 
 
-**Segmento 1: (Domestico):**
+**Segmento 1: (Doméstico):**
 <center>
 Estadísticas y Aspectos comunes:
 Todos los participantes de la encuesta cuentan con conocimientos básicos - intermedios del cuidado de plantas.
 
-<img src="../assets/images-interviews/domestico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/1_conocimiento.png" alt="Cantidad de entrevistados con conocimientos" width="500"/>
 </center>
 33% de los participantes comentan la necesidad de un calendario para saber de qué momento es el adecuado para el regado de las plantas.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/2_calendario.png" alt="Cantidad de entrevistados que usan calendario" width="500"/>
 </center>
 100% de los participantes concuerdan que una aplicación que haga seguimiento de sus plantas resulta llamativo y util para el cuidado de sus plantas.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/3_reconocimiento.png" alt="Cantidad de entrevistados que reconocen la utilidad del a aplicación" width="500"/>
 </center>
 Necesidades comunes:
 
@@ -1584,23 +1584,23 @@ Necesidades comunes:
 
 - Recomendaciones personalizadas para el cuidado de plantas.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/4_necesidades-comunes.png" alt="Cantidad de entrevistados según necesidades" width="500"/>
 </center>
 
 Características Objetivas:
 - Dispositivos utilizados: Teléfonos (Samsung, iPhone) y laptops (Asus).
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/5_dispositivos-usados.png" alt="Cantidad de entrevistados según dispositivos" width="500"/>
 </center>
 
 - Aplicaciones utilizadas: Google Calendar para programar tareas de cuidado.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/6_aplicaciones-usadas.png" alt="Cantidad de entrevistados según aplicaciones" width="500"/>
 </center>
 
 - Frecuencia de cuidado: Inter diaria o según condiciones climáticas.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/7_frecuencia-cuidado.png" alt="Cantidad de entrevistados según frecuencia de cuidado" width="500"/>
 </center>
 
 Características Subjetivas:
@@ -1608,7 +1608,7 @@ Características Subjetivas:
 - Desafíos: Dificultad para coordinar tiempos de cuidado debido a actividades diarias.
 - Intereses: Soluciones tecnológicas que faciliten el monitoreo y cuidado de plantas.
 <center>
-<img src="../assets/images-interviews/domestico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
+<img src="../assets/images-interviews/Doméstico/graphic-data/8_características-subjetivas.png" alt="Cantidad de entrevistados según intereses" width="500"/>
 </center>
 
 **Segmento 2: (Negocios)**
@@ -1695,7 +1695,7 @@ Características Subjetivas:
 **Segmento 1:** 
 <p>Maria Rodriguez es una usuaria doméstica que busca mantener su hogar armonioso y sus plantas saludables. Necesita una herramienta tecnológica que le facilite saber cuándo regar y cuidar sus plantas sin conocimientos avanzados. Su principal desafío es optimizar el tiempo dedicado al cuidado de sus plantas y evitar pérdidas por falta de monitoreo adecuado.</p>
 
-<img src="../assets/user-personas/segmento-domestico.png"/>
+<img src="../assets/user-personas/segmento-Doméstico.png"/>
 
 **Segmento 2:** 
 
@@ -1763,7 +1763,7 @@ En esta sección presentamos un journey mapping que describe el recorrido típic
 
 **Segmento 1:** 
 
-<img src="../assets/empathy-mapping/segmento-domestico.png" alt="Segmento doméstico"/>
+<img src="../assets/empathy-mapping/segmento-Doméstico.png" alt="Segmento doméstico"/>
 
 **Segmento 2:** 
 
@@ -1775,13 +1775,13 @@ En esta sección presentamos un journey mapping que describe el recorrido típic
 
 ### 2.3.5. As-is Scenario Mapping.
 
-As Is representa las fases donde aún no se está implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
+As-Is representa las fases donde aún no se está implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
 
 Link del Miro: https://miro.com/welcomeonboard/dGx3dm9LMGlsYkhBdmpWUzhFVkxrdGJHbkE2RzdrTk9iVEhXZXZjUlhYR3UyZFQ3LzJFQVlLeGdYM0RTclFzZFFubUQ2TmJPWCsrUThVRTJhRDhTL29uWG1rS3dVdW10WUhnSlBIQ2lNK3pNYnJmZU5zUnlLcHNSWXd5OXZwQXJBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=64624328710
 
-**Segmento Domestico**
+**Segmento Doméstico**
 
-<img src="../assets/as-is-scenario-mapping/as-is-scenario-domestico.jpg" alt="Segmento domestico">
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-Doméstico.jpg" alt="Segmento Doméstico">
 
 
 **Segmento Negocio**
@@ -1841,9 +1841,9 @@ En la sección To-Be se utilizan los mismos escenarios, pero implementando la so
 
 Miro con el As-Is To-Be: https://miro.com/welcomeonboard/aTZVNVpRQU54SUJDelF3cUUza1ZiVnFCUHBiS2VkazEzdWZIakxoajBqSVN6dTkybUdNTkwzVWR5SjZkZzRlMXhMVDNOYTl4bkhrNEJtZkNITG9pTm9uWG1rS3dVdW10WUhnSlBIQ2lNK3doa2VVZklodndnNGQycCtxL3hwYWFnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=512973809288
 
-**Segmento Domestico**
+**Segmento Doméstico**
 
-<img src="../assets/to-be-scenario-mapping/to-be-scenario-domestico.jpg" alt="Segmento domestico">
+<img src="../assets/to-be-scenario-mapping/to-be-scenario-Doméstico.jpg" alt="Segmento Doméstico">
 
 
 **Segmento Negocio**
@@ -1927,14 +1927,14 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         <td>HU07</td>
         <td>Registro de plantación en plataforma web</td>
         <td>Como usuario web doméstico quiero registrar una plantación para poder monitorearla y automatizar su riego.</td>
-        <td>Escenario 1: Registro exitoso de plantación con estimación de costosDado que el usuario empresarial desea registrar una plantaciónCuando proporciona las especificaciones del área (dimensiones, tipo de cultivo, condiciones ambientales)Entonces el sistema calcula y muestra una estimación de costos para los dispositivos necesariosY registra la plantación en el sistemaY genera una orden de instalación con estado &quot;pendiente&quot;.Escenario 2: Validación de dimensiones excesivasDado que el usuario intenta registrar una plantaciónCuando las dimensiones o especificaciones exceden los límites soportadosEntonces el sistema informa sobre las limitaciones del servicioY sugiere ajustar las especificaciones a rangos aceptables.</td>
+        <td>Escenario 1: Registro exitoso de plantación con estimación de costosDado que el usuario empresarial desea registrar una plantaciónCuando proporciona las específicaciones del área (dimensiones, tipo de cultivo, condiciones ambientales)Entonces el sistema calcula y muestra una estimación de costos para los dispositivos necesariosY registra la plantación en el sistemaY genera una orden de instalación con estado &quot;pendiente&quot;.Escenario 2: Validación de dimensiones excesivasDado que el usuario intenta registrar una plantaciónCuando las dimensiones o específicaciones exceden los límites soportadosEntonces el sistema informa sobre las limitaciones del servicioY sugiere ajustar las específicaciones a rangos aceptables.</td>
         <td>EP02</td>
     </tr>
     <tr>
         <td>HU08</td>
         <td>Registro de plantación en plataforma móvil</td>
         <td>Como usuario móvil doméstico quiero registrar una plantación para poder monitorearla y automatizar su riego.</td>
-        <td>Escenario 1: Registro exitoso de plantación desde dispositivo móvilDado que el usuario empresarial utiliza la aplicación móvilCuando ingresa las especificaciones completas de la plantaciónEntonces el sistema procesa la información y calcula los costos estimadosY registra la plantación con todos los parámetros necesariosY la orden de instalación queda programada para gestión posterior.Escenario 2: Manejo de especificaciones inválidas en móvilDado que el usuario móvil registra una plantaciónCuando las especificaciones no son técnicamente viablesEntonces el sistema proporciona alternativas o ajustes recomendadosY explica las razones técnicas de las limitaciones.</td>
+        <td>Escenario 1: Registro exitoso de plantación desde dispositivo móvilDado que el usuario empresarial utiliza la aplicación móvilCuando ingresa las específicaciones completas de la plantaciónEntonces el sistema procesa la información y calcula los costos estimadosY registra la plantación con todos los parámetros necesariosY la orden de instalación queda programada para gestión posterior.Escenario 2: Manejo de específicaciones inválidas en móvilDado que el usuario móvil registra una plantaciónCuando las específicaciones no son técnicamente viablesEntonces el sistema proporciona alternativas o ajustes recomendadosY explica las razones técnicas de las limitaciones.</td>
         <td>EP02</td>
     </tr>
     <tr>
@@ -2426,7 +2426,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
 ## 3.3. Impact Mapping.
 
 
-<img src="../assets/impact-mapping/segmento-domestico.png" alt="Impact Mapping Doméstico">
+<img src="../assets/impact-mapping/segmento-Doméstico.png" alt="Impact Mapping Doméstico">
 
 
 <img src="../assets/impact-mapping/IoT-%20Impact%20map%20negocios.png" alt="Impact Mapping Negocio">
@@ -3288,7 +3288,7 @@ actividades realizadas en equipo:
 
 En primer lugar, se realizó la identificación de eventos del dominio, en esta actividad se realizó un brainstorming de eventos del dominio, donde cada miembro del equipo propuso eventos que consideraba relevantes para el dominio. Se utilizó un formato de tarjeta naranja para representar cada evento.
 
-Posteriormente, se realizó una revisión de los eventos propuestos, donde se discutieron y refinaron los eventos para asegurar su relevancia y claridad. Se eliminaron eventos redundantes o poco claros, y se ordenaron los eventos en timelines.
+Posteriormente, se realizó una revisión de los eventos propuestos, donde se discutieron y refinaron los eventos para asegurar su relevancia y claridad. Se eliminaron eventos redundantes o poco claros, y se ordenaron los eventos en líneas de tiempo.
 
   <img src="../assets/event-storming/domain-events.jpg" alt="Event Storm"/>
 
@@ -3749,7 +3749,7 @@ Representa el estado actual de una planta o plantación (por ejemplo: Saludable,
 | Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
 | Healthy    | Representa el estado de una planta saludable              |
-| UnHealthy    | Representa el estado de una planta no saludable              |
+| Unhealthy    | Representa el estado de una planta no saludable              |
 | Warning    | Representa el estado de una planta en riesgo       |
 
 
@@ -3780,7 +3780,7 @@ Representa una planta individual gestionada por el usuario. Agrupa los umbrales 
 
 | Método                | Descripción                                          |
 |-----------------------|------------------------------------------------------|
-| Update | Aplica los cambios especificados por un comando de actualización para modificar los valores de la planta    |
+| Update | Aplica los cambios específicados por un comando de actualización para modificar los valores de la planta    |
 | UpdateState | Aplica el cambio de estado sobre una planta    |
 
 
@@ -3973,7 +3973,7 @@ Backend:
 **PlantController**
 
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
 |---------------------|--------------------------------------------------|
 | /api/v1/plants       | Gestiona la creación y consulta de plantas  |
 
@@ -4199,7 +4199,7 @@ Representa una consult en la aplicación.
 
 | Clase                     | Descripción                                                                                             |
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| GetMetricByIdQuery      | Representa una consulta que recupera una métrica especifica por su id         |
+| GetMetricByIdQuery      | Representa una consulta que recupera una métrica específica por su id         |
 | GetMetricsByMetricTypeQuery  | Representa una consulta que obtiene las métricas según un determinado tipo de metricas pre definido.        |
 
 
@@ -4284,7 +4284,7 @@ Backend:
 **MetricController**
  
  
- | Ruta especifica             | Descripción                                      |
+ | Ruta específica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
  | /api/v1/metric       | Gestiona la creación y consulta de métricas  |
 
@@ -4702,13 +4702,13 @@ Backend:
 
 **QuestionController**
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
  | /api/v1/question       | Gestiona la creación y consulta de preguntas |
 
 **AnswerController**
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
  |---------------------|--------------------------------------------------|
  | /api/v1/answer       | Gestiona la creación y consulta de respuestas  |
 
@@ -4777,7 +4777,7 @@ Representa la clase que se encargara de gestionar las solicitudes hacia el servi
 | getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
 | getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
 | postQuestion  | Envia una pregunta hecha por un determinado usuario     |
-| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+| postAnswer  | Envia una respuesta específicamente hecha por un determinado usuario especialista    |
 
 Mobile:
 
@@ -4796,7 +4796,7 @@ Representa la clase que se encargara de gestionar las solicitudes hacia el servi
 | getAnswersByUserId       | Devuelve las respuestas por un determinado usuario       |
 | getPremadeQuestions  | Devuelve las preguntas pre-respondidas por un determinado usuario     |
 | postQuestion  | Envia una pregunta hecha por un determinado usuario     |
-| postAnswer  | Envia una respuesta especificamente hecha por un determinado usuario especialista    |
+| postAnswer  | Envia una respuesta específicamente hecha por un determinado usuario especialista    |
 
 Backend:
 
@@ -5133,7 +5133,7 @@ Backend:
 
 **SubscriptionController**
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
   |---------------------|--------------------------------------------------|
 | /api/v1/subscriptions     | Gestiona la creación y la consulta de suscripciones |
 
@@ -5538,7 +5538,7 @@ Backend:
   **AuthController**
   
   
-  | Ruta especifica             | Descripción                                      |
+  | Ruta específica             | Descripción                                      |
   |---------------------|--------------------------------------------------|
   | /api/v1/auth      | Gestiona el inicio de sesión y registro de usuarios  |
   
@@ -5960,7 +5960,7 @@ Backend:
   **AuthController**
   
   
-  | Ruta especifica             | Descripción                                      |
+  | Ruta específica             | Descripción                                      |
   |---------------------|--------------------------------------------------|
   | /api/v1/profile      | Gestiona las consultas relacionadas a los perfiles  |
   | /api/v1/notification      | Gestiona las consultas relacionadas a las notificaciones  |
@@ -6295,7 +6295,7 @@ Representa los diferentes tipos de sensores disponibles (por ejemplo: humedad, t
 | Atributo    | Descripción                                              |
 |------------|----------------------------------------------------------|
 | Healthy    | Representa el estado de una planta saludable              |
-| UnHealthy    | Representa el estado de una planta no saludable              |
+| Unhealthy    | Representa el estado de una planta no saludable              |
 | Warning    | Representa el estado de una planta en riesgo       |
 
 **DeviceStates**
@@ -6490,13 +6490,13 @@ Backend:
 
 **SensorController**
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
 |---------------------|--------------------------------------------------|
 | /api/v1/sensors      | Gestiona la creación y consulta de sensores  |
 
 **ActuatorController**
 
-| Ruta especifica             | Descripción                                      |
+| Ruta específica             | Descripción                                      |
 |---------------------|--------------------------------------------------|
 | /api/v1/actuators       | Gestiona la creación y consulta de actuadores  |
 
@@ -6757,7 +6757,7 @@ Backend:
 
 **OrderController**
 
-| Ruta especifica   | Descripción                                      |
+| Ruta específica   | Descripción                                      |
 |-------------------|--------------------------------------------------|
 | /api/v1/orders    | Gestiona la creación y consulta de órdenes        |
 
@@ -6798,12 +6798,12 @@ Guidelines.
 
 ## 5.1.1. General Style Guidelines.
 
-Aquí se explicamos las decisiones y referencias visuales sobre conceptos generales
+Aquí se explican las decisiones y referencias visuales sobre conceptos generales
 básicos como Branding, Typography, Colors y Spacing.
 
 <img src="../assets/style-guidelines/Guideline.png" alt="General Style Guidelines" width="350"/>
 
-En este caso tenemos nuestro general style guideline donde mostramos nuestra paleta basica de colores y tipografias junto con sus tamaños. Para esta ocacion buscamos generar un tono de orden pero organico, casual o incluso en este caso natural ya que va a la par del enfoque de nuestro proyecto.
+En este caso tenemos nuestro general style guideline donde mostramos nuestra paleta basica de colores y tipografias junto con sus tamaños. Para esta ocasión buscamos generar un tono de orden pero organico, casual o incluso en este caso natural ya que va a la par del enfoque de nuestro proyecto.
 
 
 
@@ -6813,7 +6813,7 @@ En esta sección se explicamos e ilustramos las decisiones sobre los estándares
 interacción para responsive web interfaces y las interfaces en mobile application
 interfaces y IoT application user interface.
 
-Respecto a responsive definimos media queries especificos para distintos breaking points de la aplicacion siguiendo los estandares definidos.
+Respecto a responsive definimos media queries especificos para distintos breaking points de la aplicacion siguiendo los estándares definidos.
 
 |Media Query|Dispositivo|
 |-|-|
@@ -6827,7 +6827,7 @@ con estas convenciones nos hemos guiado para saber en que momentos debemos reali
 ## 5.2. Information Architecture.
 
 ## 5.2.1. Organization Systems.
-En esta sección el equipo explica en qué grupos de información aplicará cuáles
+En esta sección, el equipo explica en qué grupos de información aplicará cuáles
 sistemas de organización. Aquí se incluye la explicación de en qué casos se aplicará la
 organización visual del contenido: de forma jerárquica (visual hierarchy),
 organización secuencial (step-by-step to accomplish) o matricial. Por otro lado,
@@ -6835,9 +6835,9 @@ también se debe explicar en qué casos se utilizará qué esquemas de categoriz
 de contenido: alfabético, cronológico, por tópicos, según audiencia (grupos de
 usuarios).
 
-En esta ocacion para lo que seria nuestra landing page seguimos un approach basico donde nos basamos en una navegacion jerarquica donde empezamos con el hero section y culminamos con la seccion para reclutamiento (sin contar el footer).
+En esta ocasión para lo que seria nuestra landing page seguimos un approach basico donde nos basamos en una navegacion jerárquica donde empezamos con el hero section y culminamos con la seccion para reclutamiento (sin contar el footer).
 
-Esta decision fue tomada para mantener un estandar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorizacion de contenido va cambiando a medida que se llega al final de la pagina.
+Esta decision fue tomada para mantener un estándar y no saturar al usuario con propuestas que puedan distraerlo de nuestro servicio. Cabe mencionar que en esta seccion la categorización de contenido va cambiando a medida que se llega al final de la pagina.
 
 <img src="../assets/style-guidelines/Landing.png" alt="Landing" width="350"/>
 
@@ -6851,7 +6851,7 @@ Adicionalmente a nivel de aplicacion movil se espera de que la aplicacion no ten
 
 
 ## 5.2.2. Labeling Systems.
-En esta sección se especifican las etiquetas (con el mínimo número de palabras) a utilizar para
+En esta sección se específican las etiquetas (con el mínimo número de palabras) a utilizar para
 representar los conjuntos de información y las asociaciones entre las mismas.
 
 Para el desarrollo de las aplicaciones se decidió hacer uso de etiquetas simples que permitan facilitar la navegación y la comprensión de los usuarios. Las etiquetas se han diseñado para ser intuitivas y fáciles de recordar, lo que permitirá a los usuarios encontrar rápidamente la información que buscan.
@@ -6884,7 +6884,7 @@ En EcoGuardian, se implementarán sistemas de búsqueda efectivos para garantiza
 
 **Opciones de Búsqueda:**
 
-* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta, cabe mencionar que no es la busqueda convencional que se hace por texto, actualmente contamos con una lista de plantas para ese usuario.
+* Búsqueda por Nombre de Planta: Los usuarios podrán buscar directamente por el nombre de la planta registrada. Esto permitirá acceder rápidamente a la información específica de cada planta, cabe mencionar que no es la búsqueda convencional que se hace por texto, actualmente contamos con una lista de plantas para ese usuario.
 
 
 
@@ -6932,7 +6932,7 @@ Con un diseño intuitivo y accesible, el Navigation System asegura que los usuar
 
 ## 5.3. Landing Page UI Design.
 
-En esta sección el equipo elabora la propuesta de UI para el Landing Page. La sección
+En esta sección, el equipo elabora la propuesta de UI para el Landing Page. La sección
 inicia con una introducción en la que el equipo explica cómo traduce las decisiones
 de diseño y arquitectura de información.
 
@@ -7199,7 +7199,7 @@ Dashboard de su monitoreo de su plantación
 **Descripción:**
 Formulario de agregar nueva plantación para segmento empresa.
 
-#### Registro Planta Segmento Domestico:
+#### Registro Planta Segmento Doméstico:
 <img src="../assets/wireframes/Web-App/Management-Consumer-RegisterPlant-Mobile-1.png" alt="wireframe mobile app" height = "400" width = "250"/> 
 
 **Descripción:**
@@ -7244,7 +7244,7 @@ Perfil con sección de pagos pendientes.
 
 Esta sección presenta la propuesta de Wireflows. Debe considerarse un Wireflow
 para cada User goal, considerando los User Persona para cada aplicación que forma
-parte del alcance. En este caso consideramos los mas relevantes hasta el momento a nivel de funcionalidad inicial:
+parte del alcance. En este caso consideramos los más relevantes hasta el momento a nivel de funcionalidad inicial:
 
 
 **Registar Usuario**
@@ -7289,7 +7289,7 @@ Proceso de pago de suscripción a la hora de escoger un plan y acceder al dashbo
 **Descripción:**
 Proceso de consulta del usuario por si tiene alguna pregunta y se envia la pregunta al especialista.
 
-**Domestico Especialista**
+**Doméstico Especialista**
 
 <img src="../assets/wireflows/domestic-wireflow.jpeg" alt="wireframe domestic asnwer usuario" width="400"/>
 
@@ -7386,7 +7386,7 @@ En este caso los user flow que definimos serian:
 
 Business: Proceso de pagos pendientes facturados
 
-Domestico: Registrar una planta comun
+Doméstico: Registrar una planta comun
 
 Especialista: Proceso de notificacion de problemas
 
@@ -7440,7 +7440,7 @@ As a Consumer I want to make a question  to specialist about my plant metrics ev
 
 <img src="../assets/userflows/consulting-userflow.png" alt="userflow consulting" width="400"/>
 
-**Domestico Especialista Respuesta**
+**Doméstico Especialista Respuesta**
 
 **User Goal:**
 As a Specialist I want to answer questions that provides for consumers for give a detail recommendations
@@ -7486,11 +7486,11 @@ PlantText: https://www.planttext.com/
 
 Es una plataforma que permite interpretar código uml y diagramarlo. Fue usado para la creación de los diagramas de clase.
 
-Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías basicas del desarrollo web: HTML, CSS Y JS.
+Software Development: Para el desarrollo de la landing page se utilizarón las tecnologías búsqueda del desarrollo web: HTML, CSS Y JS.
 
 Frontend Web Applications
 
-Para el desarrollo del Frontend de la aplicación web se utilizó Vue.Js junto con algunas bibliotecas de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
+Para el desarrollo del Frontend de la aplicación web se utilizó Vue.js junto con algunas bibliotecas de material design como PrimeVue y PrimeFlex, además de Chart.Js para la generación de dashboards.
 
 Software Deployment
 
@@ -7506,7 +7506,7 @@ Software Documentation
 
 Vertabelo: https://vertabelo.com/
 
-Es una herramienta online la cual ayuda en el desarrollo y creacion de base de datos. Se usó para la base de datos del proyecto.
+Es una herramienta online la cual ayuda en el desarrollo y creación de base de datos. Se usó para la base de datos del proyecto.
 
 Structurizr: https://www.structurizr.com/
 
@@ -7558,7 +7558,7 @@ Es fundamental que el tipo de documento se declare al inicio del archivo mediant
 
 En cuanto al código JavaScript, se sigue la guía de estilo de Google para C# cada instrucción debe finalizar con un punto y coma, los nombres de variables y funciones deben escribirse en formato upperCamelCase, y los valores de tipo cadena deben ir entre comillas simples.
 
-Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convenciones de Gherkin para especificaciones legibles”, que implican el uso de palabras clave como “Dado”, “Cuando”, “Entonces” y “Y”, junto con una sangría específica y comentarios bien separados.
+Para desarrollar pruebas de aceptación con Gherkin, se aplican las “Convenciones de Gherkin para específicaciones legibles”, que implican el uso de palabras clave como “Dado”, “Cuando”, “Entonces” y “Y”, junto con una sangría específica y comentarios bien separados.
 
 Por otro lado, el código en C# debe seguir las pautas del Microsoft Naming Conventions, que establecen reglas sobre el formato de nombres de carpetas, clases y métodos, la estructura de la sangría, la división de líneas largas y la coincidencia entre el nombre del archivo y la clase que contiene. También se recomienda incluir un salto de línea después de cada declaración.
 
@@ -7609,7 +7609,7 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
         </tr>
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro</td>
+            <td>Jave Díaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Ítalo D'Alessandro</td>
         </tr>
         <tr>
             <td>Sprint n – 1 Review Summary</td>
@@ -7622,7 +7622,7 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
         <tr>
             <td>Sprint n Goal</td>
             <td> El objetivo de este sprint se enfoca en desarrollar la landing page y realizar un avance de nuestra plataforma web a nivel funcional.
-            Creemos que esto generara un impacto de conversion a futuros usuarios donde la facil accesibilidad a nuestra informacion sea prioritaria.<br>
+            Creemos que esto generara un impacto de conversión a futuros usuarios donde la facil accesibilidad a nuestra informacion sea prioritaria.<br>
             Esto se confirmara cuando tengamos flujos de usuarios basicos operativos y funcionales.
             </td>
         </tr>
@@ -7640,7 +7640,7 @@ Como configuraciones se hace mencion de hacer un despliegue local al jsonServer 
 </center>
 
 ### 6.2.1.2. Aspect Leaders and Collaborators.
-En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
+En esta sección, el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del
 Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el
 fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
 
@@ -8445,7 +8445,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 <center>
 
-<p>Se muestran los deployments para la app web y la landing page, en esta ocacion se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.</p>
+<p>Se muestran los deployments para la app web y la landing page, en esta ocasión se usaron servicios distintos debido a sus capacidades e utilidad dependiendo del proyecto.</p>
 
 <img src="../assets/exec-evidence/evidence-deploy-app.png" alt="Deploy App evidence" width="400"/>
 
@@ -8459,7 +8459,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 <p>Finalmente se muestran las evidencias de collaboracion en tanto front como en la landing Page</p>
 
-<p>En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede mas en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.</p>
+<p>En el Front end Web aplication por temas de tiempo se dividio a los equipos a trabajar en el informe mientras otro equipo avanzaba el desarrollo, esta situacion sucede más en esta primera entrega donde se hace una version preliminar y no totalmente funcional de la solucion, en consecuentes entregas se tomara en cuenta integrar a los miembros del equipo faltantes.</p>
 
 <img src="../assets/exec-evidence/evidence-insights-front.png" alt="Collab evidence" width="400"/>
 
@@ -8469,7 +8469,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 <center>
 
-<p>Landing Page: En esta ocacion al ser primero todo el equipo participo activamente en el desarrollo de la landing page.</p>
+<p>Landing Page: En esta ocasión al ser primero todo el equipo participo activamente en el desarrollo de la landing page.</p>
 
 <img src="../assets/exec-evidence/evidence-insights-lan.png" alt="Collab evidence" width="400"/>
 
@@ -8491,7 +8491,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | Time                            | 8:00 am |
 | Location                        | Vía presencial y virtual |
 | Prepared By                     | Ramirez Hoffman, Sebastian |
-| Attendees (to planning meeting) | Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro |
+| Attendees (to planning meeting) | Jave Díaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Ítalo D'Alessandro |
 | Sprint 1 Review Summary         | Durante el Sprint 1 se desarrolló el flujo principal de visualización de datos desde la aplicación front end, así como la primera versión de la Landing Page |
 | Sprint 1 Retrospective Summary  | Se determinó que, para el siguiente sprint se debe corregir el diseño de los flujos para que vayan más acordes con las user stories. |
 | Sprint Goal & User Stories      |
@@ -8500,11 +8500,11 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 | Sum of Story Points             | 93                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ### 6.2.2.2. Aspect Leaders And Collaborators.
-<p>En esta sección el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.</p>
+<p>En esta sección, el equipo que incluye la elaboración de un artefacto Leadership-andCollaboration Matrix (LACX), que indique por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.</p>
 
 <p>Los aspectos que se tomaron en cuenta fueron en base a los bounded context identificados para la solución.</p>
 
-| Team Member (Last Name, First Name) | Github Username | Operation and monitoring | Analytics | Consulting / CRM | Subscriptions and payments | Service Design And Planning | Profiles and Preferences | Asset and Resource Management | IAM |
+| Team Member (Last Name, First Name) | GitHub Username | Operation and monitoring | Analytics | Consulting / CRM | Subscriptions and payments | Service Design And Planning | Profiles and Preferences | Asset and Resource Management | IAM |
 |-------------------------------------|-----------------|--------------------------|-----------|------------------|----------------------------|-----------------------------|--------------------------|-------------------------------|-----|
 | Huilca Chipana, Gustavo             | GustavoHuilca31 | C                        | L         | C                |                            | L                           |                          |                               |     |
 | Jave Diaz Mathias Alejandro         | LordMathi2741   | L                        | C         | C                |                            |                             |                          |                               | C   |
@@ -8891,7 +8891,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>HU09</td>
         <td>Registro de usuario doméstico</td>
         <td>T01</td>
-        <td>Formulario de registro de usuario domestico</td>
+        <td>Formulario de registro de usuario Doméstico</td>
         <td>Desarrollar el formulario para el registro de nuevos usuarios domésticos.</td>
         <td>4</td>
         <td>Italo D&#39;alessandro Luna Capuñay</td>
@@ -8901,7 +8901,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>HU09</td>
         <td>Registro de usuario doméstico</td>
         <td>T02</td>
-        <td>Integracion de registro de usuario domestico en backend</td>
+        <td>Integracion de registro de usuario Doméstico en backend</td>
         <td>Conectar el formulario de registro con el backend para almacenar la información del usuario doméstico.</td>
         <td>4</td>
         <td>Italo D&#39;alessandro Luna Capuñay</td>
@@ -9401,7 +9401,7 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
         <td>HU32</td>
         <td>Vinculación de IoT a Edge, FOG y Sistema central</td>
         <td>T04</td>
-        <td>Pruebas de conectividad Edge Sistema (Domestico)</td>
+        <td>Pruebas de conectividad Edge Sistema (Doméstico)</td>
         <td>Realizar pruebas para asegurar la conexión entre el sistema Edge y el sistema doméstico.</td>
         <td>8</td>
         <td>Mathias Tsuneo Kunimoto Watanabe</td>
@@ -12393,11 +12393,11 @@ El proceso de registro de plantas es directo, ahorrando tiempo y evitando errore
 </center>
 
 ### Resumen:
-Diego Hoffman, un empleado con un rol en logística, encontró que el proceso inicial de creación de cuenta es bastante sencillo y que los planes de la aplicación están bien especificados, lo que facilita la comprensión de las opciones disponibles. A pesar de algunas interacciones que requirieron guía (como el ingreso de la tarjeta de prueba o la selección de la fecha de instalación), su apreciación general fue que el diseño de la aplicación es "bastante amigable" y el sistema es "bastante sencillo" de usar. Esto sugiere una base de usabilidad sólida en los elementos visuales y la navegación general.
+Diego Hoffman, un empleado con un rol en logística, encontró que el proceso inicial de creación de cuenta es bastante sencillo y que los planes de la aplicación están bien específicados, lo que facilita la comprensión de las opciones disponibles. A pesar de algunas interacciones que requirieron guía (como el ingreso de la tarjeta de prueba o la selección de la fecha de instalación), su apreciación general fue que el diseño de la aplicación es "bastante amigable" y el sistema es "bastante sencillo" de usar. Esto sugiere una base de usabilidad sólida en los elementos visuales y la navegación general.
 
 ### **Objetivos y Feedback:**
 - **Proceso de creación de cuenta bastante sencillo.**
-- **Planes de suscripción bien especificados y claros.**
+- **Planes de suscripción bien específicados y claros.**
 - **Diseño de la aplicación amigable.**
 - **Sistema percibido como bastante sencillo en su uso general.**
 
@@ -12421,7 +12421,7 @@ Diego Hoffman, un empleado con un rol en logística, encontró que el proceso in
 
 <center>
 
-![Entrevista 2 Segmento Doméstico](../assets/images-interviews/domestico/validation/interview-3v.png)
+![Entrevista 2 Segmento Doméstico](../assets/images-interviews/Doméstico/validation/interview-3v.png)
 
 </center>
 
@@ -12453,7 +12453,7 @@ María Soto, una usuaria doméstica apasionada por la botánica, encontró el pr
 
 <center>
 
-![Entrevista 1 Segmento Doméstico](../assets/images-interviews/domestico/validation/andrea-cabanillas.jpeg)
+![Entrevista 1 Segmento Doméstico](../assets/images-interviews/Doméstico/validation/andrea-cabanillas.jpeg)
 
 </center>
 
@@ -12765,7 +12765,7 @@ Presentamos el link del video:
 
 <p>Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.</p>
 
-<p>Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.</p>
+<p>Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera más efectiva.</p>
 
 
 # Bibliografía
