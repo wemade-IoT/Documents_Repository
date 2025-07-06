@@ -382,7 +382,7 @@ Landing Page: https://inquisitive-taiyaki-8e3b96.netlify.app/ | [Landing Page](h
 
 Front End Web App Repository: https://github.com/wemade-IoT/eco-guardian-frontend | [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
 
-Front End Web Application: https://ecoguardian-tf.vercel.app/| [Front End Application](https://ecoguardian-tb2.vercel.app/)
+Front End Web Application: https://ecoguardian-tf.vercel.app/ | [Front End Application](https://ecoguardian-tb2.vercel.app/)
 
 | Usuario Github     | Nombre                              |
 |--------------------|-------------------------------------|
