@@ -5,7 +5,7 @@
   <strong>Desarrollo de Soluciones IOT - 1ASI0572</strong><br>
   Profesor: Ángel Augusto Velásquez Núñez<br>
   NCR:2971<br> 
-  <br>Informe de Trabajo Final - 202501
+  <br>Informe de Trabajo Final - 2025-10
 </center>
 
 <center>
@@ -678,12 +678,8 @@ Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el p
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 ABET – EAC - Student Outcome 5
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros
-juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
-establecen objetivos, planifican tareas y cumplen objetivos.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de
-conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
-del ABET – EAC - Student Outcome 5.
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros, juntos, proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describen las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 <table>
 <thead>
 <tr>
@@ -769,7 +765,7 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.1. Descripción de la Startup
 
-EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas realizadas por un personal experimentado en el área. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en el monitorización,  estadísticas, recomendaciones y seguimiento de crecimiento.
+EcoGuardian es una solución IoT que ayuda a cuidar plantas mediante sensores de humedad, temperatura, luz, entre otros. La solución multiplataforma envía alertas inmediatas y recopila información para generar recomendaciones personalizadas realizadas por personal experimentado en el área. Ideal para hogares, oficinas, pequeños agricultores y empresas del sector agrícola, cada uno con distintos planes de pago. Algunas de las funciones principales se enfocan en la monitorización, estadísticas, recomendaciones y seguimiento de crecimiento.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -892,17 +888,17 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 #### 1.2.2.1. Lean UX Problem Statement.
 
 
-En el estado actual de la industria Agricola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en perdidas significativas o irreparables para las plantas bajo cuidado. Además, existe una falta de conocimiento a fondo del correcto cuidado de plantas y las formas de aprenderlos son poco accesibles para una persona corriente.
+En el estado actual de la industria agrícola y en la comunidad de horticultura se observan desafíos significativos en la continua monitorización del estado de las plantas, especialmente cuando se tienen en cuenta otras tareas administrativas o no se cuenta con el tiempo necesario. La falta de un seguimiento continuo puede resultar en pérdidas significativas o irreparables para las plantas bajo cuidado. Además, existe una falta de conocimiento a fondo del correcto cuidado de plantas y las formas de aprenderlo son poco accesibles para una persona corriente.
 
 Otros productos han fallado en proveer recomendaciones hechas por expertos en agricultura y el debido cuidado de las plantas.
 
-Nuestro producto se enfocará en proporcionar un seguimiento a los cultivos y plantas domésticas junto con recomendaciones de expertos, esto ofrece una mejor calidad de vida para la planta.
+Nuestro producto se enfocará en proporcionar un seguimiento a los cultivos y plantas domésticas junto con recomendaciones de expertos; esto ofrece una mejor calidad de vida para la planta.
 
 Nuestro enfoque principal se basa en el monitoreo de plantas y la recopilación de datos relevantes para asegurar su crecimiento saludable en el área doméstica.
 
 Como resultado, nos enfrentamos al siguiente problema: ¿Cómo podemos proveer una plataforma de monitoreo de plantas aumentando su crecimiento y/o cosecha en un 40% en un lapso de 6 meses?
 
-Nuestro producto se encargará de esta tarea al ofrecer un servicio de monitoreo que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en la afición del cuidado de plantas como las empresas agrícolas esto se lograra por medio del seguimiento de sensores y recomendaciones de expertos.
+Nuestro producto se encargará de esta tarea al ofrecer un servicio de monitoreo que pueda recopilar, visualizar y optimizar el cuidado de las plantas en entornos empresariales y domésticos para ambos interesados en la afición del cuidado de plantas como las empresas agrícolas. Esto se logrará por medio del seguimiento de sensores y recomendaciones de expertos.
 
 Sabremos que tuvimos éxito cuando podamos observar un 45% de satisfacción en las futuras encuestas de control donde las plantas hayan logrado un crecimiento y/o cosecha en un 40% en un lapso aproximado de 6 meses.
 
@@ -1124,7 +1120,7 @@ A partir de las hipótesis anteriores, necesitamos aprender lo siguiente:
 1. **¿Los usuarios (domésticos y empresariales) tienen realmente problemas para monitorear el estado de sus plantas sin una herramienta tecnológica?**
 2. **¿Están dispuestos a adoptar tecnologías de monitoreo (sensores IoT) para facilitar el cuidado de las plantas?**
 3. **¿Confiarán los usuarios en las recomendaciones automatizadas basadas en datos de sensores para cuidar sus plantas?**
-4. **¿Están dispuestos a pagar por un plan premium para acceder a características avanzadas como monitoreo de más plantas o control avanzado del riego?**
+4. **¿Están dispuestos a pagar por un plan premium para acceder a características avanzadas como el monitoreo de más plantas o el control avanzado del riego?**
 5. **¿Con qué frecuencia están dispuestos a interactuar con la plataforma de monitoreo?**
 6. **¿Los usuarios prefieren una interfaz simple y accesible que les permita gestionar sus plantas sin complicaciones?**
 7. **¿La automatización del riego reduce significativamente el esfuerzo y mejora la eficiencia en el uso del agua?**
@@ -2295,7 +2291,7 @@ La sección de User Stories sirve para saber las distintas situaciones y puntos 
         <td>HU43</td>
         <td>Cambio de contraseña web</td>
         <td>Como usuario web quiero cambiar mi contraseña para mantener la seguridad de mi cuenta.</td>
-        <td>Escenario 1: Cambio exitoso de contraseñaDado que el usuario quiere actualizar su contraseñaCuando proporciona la contraseña actual y la nueva contraseñaEntonces el sistema valida la contraseña actualY verifica que la nueva contraseña cumple con los requisitos de seguridadY actualiza la contraseña exitosamente.Escenario 2: Contraseña actual incorrectaDado que el usuario intenta cambiar su contraseñaCuando la contraseña actual proporcionada es incorrectaEntonces el sistema deniega el cambioY registra el intento para seguridadY ofrece la opción de recuperación de contraseña si es necesario.</td>
+        <td>Escenario 1: Cambio exitoso de contraseñaDado que el usuario quiere actualizar su contraseñaCuando proporciona la contraseña actual y la nueva contraseñaEntonces el sistema valida la contraseña actual Y verifica que la nueva contraseña cumple con los requerimientos de seguridad Y actualiza la contraseña exitosamente.Escenario 2: Contraseña actual incorrectaDado que el usuario intenta cambiar su contraseñaCuando la contraseña actual proporcionada es incorrectaEntonces el sistema deniega el cambioY registra el intento para seguridad Y ofrece la opción de recuperación de contraseña si es necesario.</td>
         <td>EP11</td>
     </tr>
     <tr>
