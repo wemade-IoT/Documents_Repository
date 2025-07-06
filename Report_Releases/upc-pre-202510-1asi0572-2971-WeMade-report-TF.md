@@ -12907,6 +12907,10 @@ Finalmente, se muestra la tabla de commits relacionados a las pruebas unitarias 
 En este sprint pudimos lograr la implementación del monitoreo de plantas y plantaciones, así como la integración de los servicios de backend con las aplicaciones web y móvil, la visualización, creación y respuesta a consultas de usuarios, y la gestión de órdenes de instalación, pagos y suscripciones. Finalmente se logró la implementación de la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil.
 A continuación se presentan capturas de pantalla de las funcionalidades principales funcionales implementadas en el Sprint 3:
 
+Aplicación Móvil:
+
+<img src="../assets/sprint3/execution/mobile.png" alt="sprint-3-mobile-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+
 Aplicación Embebida:
 
 <img src="../assets/sprint3/execution/sprint-3-embedded-evidence.png">
@@ -13008,6 +13012,21 @@ Backend: Se trabajó en la corrección y solución de errores para la gestión d
 
 <img src="../assets/sprint3/insights/sprint-3-insights-backend.png" alt="Colaboración del equipo en Backend" width="600">
 
+Mobile: Se realizaron correcciones y mejoras en la aplicación móvil, incluyendo la gestión de plantas, órdenes y pagos. 
+
+<img src="../assets/sprint3/execution/mobile.png" alt="Colaboración del equipo en Backend" width="600">
+
+Edge: Se trabajó en la implementación de la aplicación Edge, asegurando la correcta comunicación con el backend y la recolección de datos de los dispositivos IoT. 
+
+<img src="../assets/sprint3/insights/edge.png" alt="Colaboración del equipo en Edge" width="600">
+
+Embedded: Se implementó la aplicación Embedded en el microcontrolador ESP32, asegurando la recolección de datos de sensores y la comunicación con el edge. 
+
+<img src="../assets/sprint3/insights/embedded.png" alt="Colaboración del equipo en Embedded" width="600">
+
+Fog: Se trabajó en la implementación de la aplicación Fog, asegurando la correcta comunicación con el edge y el backend, así como la recolección de datos de los dispositivos IoT.
+
+<img src="../assets/sprint3/insights/fog.png" alt="Colaboración del equipo en Fog" width="600">
 
 
 ## 6.3 Entrevistas de Validación
