@@ -6537,14 +6537,15 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="/assets/component-diagrams/structurizr-101372-AssetsBCWebApp.png" alt="Assets Component Diagram on Web App" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-AssetsBCWebApp.png" alt="Assets Component Diagram on Web App" width="600"/>
 
 Backend:
 
-<img src="/assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="600"/>
 
 Mobile:
-<img src="/assets/component-diagrams/structurizr-101372-AssetsBoundedContextonMobileApp.png" alt="Assets Component Diagram on Mobile App" width="350"/>
+
+<img src="../assets/component-diagrams/structurizr-101372-AssetsBoundedContextonMobileApp.png" alt="Assets Component Diagram on Mobile App" width="350"/>
 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -13492,7 +13493,7 @@ Presentamos el link del video:
     <p><strong>Vue.js Documentation</strong> (2025). Vue.js Docs. Recuperado de <a href="https://vuejs.org/guide/introduction.html" target="_blank">https://vuejs.org/</a></p>
     <p><strong>PrimeVue Documentation</strong> (2025). PrimeVue Docs. Recuperado de <a href="https://primevue.org/introduction/" target="_blank">https://primefaces.org/primevue/</a></p>
     <p><strong>Flask Documentation</strong> (2025). Flask User’s Guide. Recuperado de <a href="https://flask.palletsprojects.com/" target="_blank">https://flask.palletsprojects.com/</a></p>
-    <p><strong>Simon Brown</strong> (2023). The C4 model for visualising software architecture. Recuperado de <a href="https://c4model.com/" target="_blank">https://c4model.com/</a></p>
+    <p><strong>Simon Brown</strong> (2023). The C4 model for visualizing software architecture. Recuperado de <a href="https://c4model.com/" target="_blank">https://c4model.com/</a></p>
 </div>
 
 
@@ -13517,9 +13518,9 @@ Presentamos el link del video:
 
 [Video de exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Ef3WABIAuRpFoKhtB9vN3xIB1Nyqo7ecSkJgBmoJDon9IQ?e=2GaQjS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D): https://shorturl.at/v6hZS
 
-[Video de exposición TP](https://upcedupe-my.sharepoint.com/personal/u202213983_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213983%5Fupc%5Fedu%5Fpe%2FDocuments%2FCICLO%20VII%2FIOT%2FENTREVISTAS%2FDOMESTICO%2FTP%2Fupc%2Dpre%2D202510%2D1asi0572%2D2971%2DWeMade%2Dexpo%2DTP%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9c659581%2D9751%2D4ca0%2Da55f%2D69256fe9717f)
+[Video de exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EbcYN1XXIiNLqVJukWh1G9oBsN8FnsewXG7f_B5VEoEaOw?e=i4FgN0): https://shorturl.at/np4Y7
 
-[Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Eb-H4ytQkcRFmBGFdpRoAH4BFxTitpePsLtZuwY3QXsLfQ?e=E6cIfr)
+[Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Eb-H4ytQkcRFmBGFdpRoAH4BFxTitpePsLtZuwY3QXsLfQ?e=04lzR7): https://shorturl.at/uIXSI
 
 [Video de exposición TF]()
 
