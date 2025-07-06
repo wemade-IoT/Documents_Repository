@@ -19,38 +19,7 @@
 
 #### Product: **EcoGuardian**
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <br/>
 
 #### Año: **2025**
@@ -99,7 +68,7 @@
 </table>
 </center>
 
-
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 <center>
@@ -12924,7 +12893,7 @@ Finalmente se presenta el video de ejecución de las funcionalidades principales
 <img src="../assets/sprint2/exce/excecution-vide.png" alt="sprint-2-execution-video.png" class="img-fluid" style="width: 100%; height: auto;">
 
 
-Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EWh92TUIFxFMhfBSIyNnEuEB2FJpnlo8fkBxulUXMuTJ8Q?e=dZAiLJ
+Enlace del video: [Video de Ejecución del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EXPjByQS9ZdBpppPsxTOyAQBJyBTj03tjY2Y1MgA0jAEDA?e=mb6Rqv)
 
 ### 6.2.3.7 Services Documentation Evidence for Sprint Review
 En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint.
