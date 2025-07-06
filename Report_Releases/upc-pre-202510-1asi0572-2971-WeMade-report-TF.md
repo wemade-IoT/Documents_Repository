@@ -12976,6 +12976,10 @@ El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microc
 
 Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 3, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.
 
+Frontend: Se trabajó en la implementación de la interfaz de usuario para la gestión de plantas, órdenes, pagos y suscripciones. Se realizaron mejoras en la experiencia del usuario .
+
+<img src="../assets/sprint3/insights/front.png" alt="Colaboración del equipo en Frontend" width="600">
+
 Backend: Se trabajó en la corrección y solución de errores para la gestión de dispositivos, órdenes, pagos y suscripciones, así como métricas y plantas. Se implementaron pruebas unitarias para asegurar la calidad del código y se documentaron los endpoints RESTful utilizando OpenAPI.
 
 <img src="../assets/sprint3/insights/sprint-3-insights-backend.png" alt="Colaboración del equipo en Backend" width="600">
