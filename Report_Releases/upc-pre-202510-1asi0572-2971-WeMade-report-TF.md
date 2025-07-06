@@ -12295,6 +12295,12 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 
 ### 6.2.3.3. Sprint Backlog 3.
 
+<p>En el Sprint 3 se definió como objetivo principal la implementación de las funcionalidades de edición de umbrales de plantas y plantaciones, visualización de notificaciones y consumo de recursos, seguimiento de orden, visualización y edición de perfil, gestión de preguntas en la aplicación móvil, promedios de métricas para developers, configuración de parámetros de dispositivos IoT y monitoreo de conexión.</p>
+
+<img src="../assets/sprint3/backlog/backlog3.png" alt="sprint-3-backlog.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Enlace al Board en Trello: [Sprint 3 Backlog](https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0e19e29e02410d6333d7bf71543f96f8662BD460/ecoguardian)
+
 <table border="1"> 
   <thead> 
     <tr> 
@@ -12347,7 +12353,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Configurar archivos .env y su uso seguro en cada ambiente de despliegue.</td> 
       <td>2</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS05</td> 
@@ -12357,7 +12363,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar mecanismos para la rotación automática y segura de las API Keys.</td> 
       <td>5</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS05</td> 
@@ -12367,7 +12373,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Establecer restricciones y logs de acceso a las API Keys por componente.</td> 
       <td>3</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS06</td> 
@@ -12407,7 +12413,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar la validación para cambios de contraseña al editar el perfil de usuario móvil.</td> 
       <td>2</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU44</td> 
@@ -12417,7 +12423,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar manejo de errores como contraseña actual incorrecta en el cambio de contraseña móvil.</td> 
       <td>1</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU44</td> 
@@ -12427,7 +12433,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar opción de recuperación de contraseña y asegurar feedback claro en todos los casos.</td> 
       <td>1</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS01</td> 
@@ -12437,7 +12443,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Configura y habilita el método de autenticación MFA en el backend para los usuarios.</td> 
       <td>5</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS01</td> 
@@ -12447,7 +12453,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Valida el código MFA ingresado por el usuario y permite el acceso si es correcto.</td> 
       <td>2</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>TS01</td> 
@@ -12457,7 +12463,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Gestiona los errores y bloqueos por intentos fallidos de autenticación MFA, siguiendo las reglas de seguridad.</td> 
       <td>1</td> 
       <td>Italo Luna</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU17</td> 
@@ -12497,7 +12503,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar un widget en la aplicación móvil que permita al usuario visualizar el estado de su orden y si requiere pago.</td> 
       <td>3</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU20</td> 
@@ -12507,7 +12513,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar las notificaciones push para que el usuario reciba avisos y vea la actualización en tiempo real cuando cambie el estado de cualquier orden.</td> 
       <td>2</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU20</td> 
@@ -12517,7 +12523,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Mostrar información actualizada, próximos pasos y detalles de cada orden al usuario móvil.</td> 
       <td>2</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU21</td> 
@@ -12537,7 +12543,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Desarrollar el sistema de notificaciones push para informar al usuario de cambios en el estado de sus órdenes activas, actualizando la información en tiempo real y permitiendo ver los detalles del cambio.</td> 
       <td>2</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU21</td> 
@@ -12547,7 +12553,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar la lógica que, al detectar una orden que requiere acción de pago, redirija al usuario a la plataforma web correspondiente para completar el proceso fuera del seguimiento web.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU26</td> 
@@ -12567,7 +12573,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Crear e integrar el componente UI para que el usuario pueda ver y seleccionar entre sus métodos de pago guardados.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU26</td> 
@@ -12577,7 +12583,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Integrar la selección de método de pago en el flujo de pago y realizar pruebas de funcionalidad.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU27</td> 
@@ -12597,7 +12603,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar los filtros para búsqueda específica de transacciones dentro del historial, facilitando la localización de pagos concretos y la generación de comprobantes detallados.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU27</td> 
@@ -12607,7 +12613,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir la generación y descarga de comprobantes detallados desde el historial de pagos.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU28</td> 
@@ -12617,7 +12623,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Crear el widget visual para la app móvil que muestre la lista cronológica de transacciones y permita filtrar por fecha, monto o tipo de servicio.</td> 
       <td>2</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU28</td> 
@@ -12627,7 +12633,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar los filtros de búsqueda específica en el historial de pagos en la app móvil para localizar transacciones fácilmente.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU28</td> 
@@ -12637,7 +12643,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir la generación y descarga de comprobantes de pago desde la aplicación móvil.</td> 
       <td>1</td> 
       <td>Nicolas Estaban</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU29</td> 
@@ -12677,7 +12683,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Desarrollar la función para integrar y aplicar la configuración de parámetros (umbrales, frecuencia, rango) a cada dispositivo IoT.</td> 
       <td>1</td> 
       <td>Mathias Kunimoto</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU30</td> 
@@ -12687,7 +12693,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Crear la interfaz de usuario que permita a los makers ajustar los parámetros de configuración de los dispositivos.</td> 
       <td>1</td> 
       <td>Mathias Kunimoto</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU30</td> 
@@ -12697,7 +12703,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Desarrollar la lógica para confirmar la recepción y aplicación de los nuevos parámetros por parte del dispositivo y monitorear los cambios.</td> 
       <td>1</td> 
       <td>Mathias Kunimoto</td> 
-      <td>Doing</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU42</td> 
@@ -12707,7 +12713,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir al usuario visualizar y editar sus datos personales (nombre, username, correo, imagen de perfil) desde la app móvil. Validar que los campos requeridos estén completos antes de guardar.</td> 
       <td>1</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU42</td> 
@@ -12717,7 +12723,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Al guardar, el sistema debe validar la información ingresada por el usuario. Si es válida, actualizar los datos en el perfil y mostrar confirmación.</td> 
       <td>1</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU42</td> 
@@ -12727,7 +12733,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Verificar que el email y username no estén registrados previamente por otro usuario. Si existe duplicidad, mostrar mensaje de error evitando la actualización.</td> 
       <td>1</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU52</td> 
@@ -12737,7 +12743,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir al usuario configurar sus preferencias de notificaciones push desde la app móvil y seleccionar qué tipos de alertas desea recibir.</td> 
       <td>2</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU52</td> 
@@ -12747,7 +12753,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Implementar la recepción de notificaciones push en el dispositivo móvil y mostrar las notificaciones recibidas al usuario según sus preferencias.</td> 
       <td>1</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU52</td> 
@@ -12757,7 +12763,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir que el usuario pueda modificar sus preferencias de notificación posteriormente y actualizar el sistema para reflejar los cambios.</td> 
       <td>1</td> 
       <td>Manuel Peña</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU51</td> 
@@ -12767,7 +12773,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir al usuario visualizar las notificaciones registradas en formato de card y widgets dentro de la app móvil, mostrando información relevante.</td> 
       <td>3</td> 
       <td>Mathias Jave</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU51</td> 
@@ -12777,7 +12783,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir al usuario filtrar las notificaciones por tipo de alerta o nivel de prioridad, mostrando alertas sincronizadas entre plataformas.</td> 
       <td>1</td> 
       <td>Mathias Jave</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
     <tr> 
       <td>HU51</td> 
@@ -12787,7 +12793,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
       <td>Permitir acceso al historial de notificaciones para revisar alertas pasadas, mostrando tendencias y patrones recurrentes.</td> 
       <td>1</td> 
       <td>Mathias Jave</td> 
-      <td>ToDo</td> 
+      <td>Done</td> 
     </tr> 
   </tbody> 
 </table>
