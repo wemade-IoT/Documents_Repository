@@ -536,7 +536,7 @@ Se muestra evidencia del trabajo realizado en la Tp1
 <img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
-Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
+Se muestra evidencia del trabajo realizado en la TB2 donde podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
 
 
 <img src="../assets/inisghts/tb2/commits-tb2.png" alt="Commits generales del repositorio">  
@@ -544,12 +544,12 @@ Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el p
 ### TF
 <p>Para la entrega del TF se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones y mejoras desde el embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
 
-<p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
+<p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TF en el informe.</p>
 
-<img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
+<img src="../assets/inisghts/tf/report-line.png" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
-Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
+Se muestra evidencia del trabajo realizado en el TF donde podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
 
 
 <img src="../assets/inisghts/tf/commits-tf.png" alt="Commits generales del repositorio"> 
