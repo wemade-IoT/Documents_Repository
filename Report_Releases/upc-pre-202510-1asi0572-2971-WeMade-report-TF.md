@@ -479,7 +479,7 @@ Front End Web Application: https://ecoguardian-tf.vercel.app/ | [Front End Appli
 <p>Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.</p>
 
 <p>Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
 [*Colaboraciones del repositorio*]
@@ -488,7 +488,7 @@ Se muestra evidencia del trabajo realizado en la TB1
 <img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
 
 [*Registro de los commits donde se realizaron la mayor cantidad*]
-</center>
+
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ### TP
@@ -496,7 +496,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 <p>Para la entrega del <strong>Trabajo Parcial (TP)</strong> se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia, y como grupo nos dedicamos a mantener una frecuencia de <strong>commits</strong> y cambios proyectada a ser óptima a futuro.</p>
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TP en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
@@ -506,11 +506,10 @@ Se muestra evidencia del trabajo realizado en la Tp1
 <img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
 
 [*Registro de los commits generales donde se realizaron la mayor cantidad*]
-</center>
+
 <p>En ambos casos se puede observar el incremento de modificaciones y revisiones en los días miércoles, y una cantidad mayor de cambios que commits. A continuación, se desglosa el trabajo realizado específicamente en la <strong>landing page</strong> y en la <strong>aplicación web</strong>:</p>
 
 #### Landing Page
-<center>
 <img src="../assets/inisghts/tp/landing.png" alt="Colaboraciones Landing Page">  
 
 [*Colaboraciones realizadas en el diseño y maquetación de la landing page*]
@@ -533,7 +532,7 @@ Se muestra evidencia del trabajo realizado en la Tp1
 <p>Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones desde embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
@@ -546,7 +545,7 @@ Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el p
 <p>Para la entrega del TF se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones y mejoras desde el embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
@@ -575,10 +574,7 @@ Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el p
 [*Commits correspondientes al desarrollo lógico y visual del prototipo de backend*]
 
 [*Registro de los commits generales donde se realizaron la mayor cantidad*]
-</center>
 
-
-</center>
 
 ---
 
@@ -820,8 +816,8 @@ del ABET – EAC - Student Outcome 5.
 <br><br><span class="person-name">Nicolas Sebastian Esteban García</span><br>
 <span class="entry-type">TB1:</span> Asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog.<br>
 <span class="entry-type">TP:</span> A lo largo del desarrollo del proyecto, trabajé en equipo asumiendo un rol activo en la toma de decisiones y promoviendo el liderazgo compartido entre los integrantes. En distintas etapas, cada miembro lideró según sus competencias, lo que permitió una gestión eficiente del tiempo y los recursos. Personalmente, guié al equipo en el diseño de la landing page y la propuesta visual del prototipo web, coordinando ideas y fomentando un ambiente de respeto y participación equitativa. Esta dinámica fortaleció la colaboración, permitiendo alcanzar los objetivos planteados.<br>
-<span class="entry-type">TB2:</span> Durante esta entrega, ejercí liderazgo técnico al trabajar activamente en el *deploy* del *front-end* y la preparación del entorno de despliegue. Me responsabilicé de la **maquetación de la aplicación web utilizando Figma y su integración con el *backend* vía APIs REST**, así como de la implementación de la estructura inicial de la **aplicación móvil en Android Studio**. Además, lideré la implementación de la **pasarela de pagos con Stripe** y el registro de cuenta de usuario. Mis acciones fueron clave para habilitar funcionalidades principales, demostrando liderazgo al tomar la responsabilidad de componentes críticos y guiar su implementación técnica.
-<span class="entry-type">TF:</span> En el desarrollo de esta entrega, aseguré una comunicación constante y efectiva entre los líderes de los diferentes aspectos de los bounded contexts, facilitando la integración de sus aportes para el beneficio del proyecto. Fomenté un ambiente inclusivo donde todas las ideas fueron valoradas, creando espacios para la retroalimentación y toma de decisiones conjunta. Participé activamente en la integración del frontend y backend, particularmente en la implementación de la pasarela de pagos y la creación de órdenes. Además, trabajé en la definición de metas claras y alcanzables, la planificación detallada de tareas y el seguimiento de los artefactos de requisitos, garantizando el cumplimiento de los objetivos establecidos de manera colaborativa.
+<span class="entry-type">TB2:</span> Durante esta entrega, ejercí liderazgo técnico al trabajar activamente en el *deploy* del *front-end* y la preparación del entorno de despliegue. Me responsabilicé de la **maquetación de la aplicación web utilizando Figma y su integración con el *backend* vía APIs REST**, así como de la implementación de la estructura inicial de la **aplicación móvil en Android Studio**. Además, lideré la implementación de la **pasarela de pagos con Stripe** y el registro de cuenta de usuario. Mis acciones fueron clave para habilitar funcionalidades principales, demostrando liderazgo al tomar la responsabilidad de componentes críticos y guiar su implementación técnica.<br>
+<span class="entry-type">TF:</span> En el desarrollo de esta entrega, aseguré una comunicación constante y efectiva entre los líderes de los diferentes aspectos de los bounded contexts, facilitando la integración de sus aportes para el beneficio del proyecto. Fomenté un ambiente inclusivo donde todas las ideas fueron valoradas, creando espacios para la retroalimentación y toma de decisiones conjunta. Participé activamente en la integración del frontend y backend, particularmente en la implementación de la pasarela de pagos y la creación de órdenes. Además, trabajé en la definición de metas claras y alcanzables, la planificación detallada de tareas y el seguimiento de los artefactos de requisitos, garantizando el cumplimiento de los objetivos establecidos de manera colaborativa.<br>
 <br><br><span class="person-name">Manuel Sebastian Peña Rivera</span><br>
 <span class="entry-type">TB1:</span> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas.<br>
 <span class="entry-type">TP:</span> Mi principal enfoque fue en la creación de los wireframes y mockups tanto para la landing page como para el frontend. Además, participé activamente en la implementación de la estructura del sitio, desarrollando el footer y colaborando en la barra de navegación (navbar). Asistí a las reuniones del equipo, brindando apoyo en la coordinación de tareas y asegurándome de que todos tuviéramos claro el diseño y la arquitectura a seguir, evitando malentendidos y garantizando que el flujo de trabajo fuera eficiente.<br>
@@ -839,14 +835,14 @@ del ABET – EAC - Student Outcome 5.
 <br><span class="person-name">Gustavo Huilca Chipana</span><br>
 <span class="entry-type">TB1:</span> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión.<br>
 <span class="entry-type">TP:</span> En este avance del proyecto, trabajé en equipo, priorizando la comunicación entre los miembros para la correcta coordinación del desarrollo de la Landing Page y de la Aplicación Web, intentando evitar malentendidos y dejando muy en clara la arquitectura que debemos seguir.<br>
-<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **validación de la interfaz de usuario (UI)** y la **experiencia de usuario (UX)** de la aplicación web y móvil. Organicé sesiones de revisión de prototipos en **Figma** y **pruebas de usabilidad** con el equipo, asegurando que el diseño cumpliera con las expectativas de los usuarios. Mis aportes fueron clave para **guiar las mejoras en la usabilidad** del producto, demostrando un liderazgo enfocado en la calidad y la satisfacción del usuario.
-<span class="entry-type">TP:</span> Durante este último avance del proyecto, trabajé en equipo para priorizar, organizar y coordinar las últimas correcciones y mejoras de los distintos productos de la solución, siempre manteniendo al día a mis compañeros sobre el estado de las tareas y asegurando que todos estuviéramos alineados con los objetivos del proyecto. Participé activamente en la revisión de los productos y en la implementación de las correcciones necesarias, contribuyendo a la mejora continua del proyecto.
+<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **validación de la interfaz de usuario (UI)** y la **experiencia de usuario (UX)** de la aplicación web y móvil. Organicé sesiones de revisión de prototipos en **Figma** y **pruebas de usabilidad** con el equipo, asegurando que el diseño cumpliera con las expectativas de los usuarios. Mis aportes fueron clave para **guiar las mejoras en la usabilidad** del producto, demostrando un liderazgo enfocado en la calidad y la satisfacción del usuario.<br>
+<span class="entry-type">TP:</span> Durante este último avance del proyecto, trabajé en equipo para priorizar, organizar y coordinar las últimas correcciones y mejoras de los distintos productos de la solución, siempre manteniendo al día a mis compañeros sobre el estado de las tareas y asegurando que todos estuviéramos alineados con los objetivos del proyecto. Participé activamente en la revisión de los productos y en la implementación de las correcciones necesarias, contribuyendo a la mejora continua del proyecto.<br>
 <br><br><span class="person-name">Sebastian Ramirez Hoffmann</span><br>
 <span class="entry-type">TB1:</span> En esta entrega, **ejercí liderazgo conjunto al trabajar activamente en equipo** y participar en diversas reuniones grupales. Contribuí a la **distribución equitativa de responsabilidades**, asignando tareas a mis compañeros en secciones clave como la elaboración de los **Domain Message Flows en Miro** y la implementación del **Lean UX Process**. Esta acción no solo optimizó el flujo de trabajo, sino que también **fomentó la autonomía y la participación activa** de cada miembro, demostrando un liderazgo compartido alineado con los objetivos de colaboración y eficiencia del proyecto.<br>
 <span class="entry-type">TP:</span> Durante este avance, **trabajé eficazmente en conjunto con mis compañeros de equipo**, participando en reuniones de *micro-sprint* en **Discord** para coordinar nuestros avances. **Demostré liderazgo al segmentar el grupo en equipos de trabajo**, asignando a mis compañeros a tareas específicas con el fin de **optimizar el desarrollo y el cumplimiento de los objetivos del proyecto**, **utilizando Trello para la gestión**. Esta estrategia no solo mejoró la eficiencia, sino que también **promovió la responsabilidad individual y colectiva**, un pilar fundamental del liderazgo compartido.<br>
-<span class="entry-type">TB2:</span> En el TB2, **asumí un rol de liderazgo técnico y colaborativo** al implementar las vistas del *front-end* en **Vue**, desarrollar el *backend* con **ASP.NET Core API REST**, y asegurar la **correcta conexión entre ambos**. Además, me enfoqué en la **corrección de Historias de Usuario (HU) y elementos del Product Backlog en Trello**, aplicando principios de **Gestión de Identidades y Acceso (IAM)** en las integraciones. Estas acciones fueron cruciales para el progreso del proyecto, ya que **garantizaron la funcionalidad de componentes clave** y la alineación con los requisitos definidos, **guiando al equipo hacia la consecución de objetivos técnicos y de producto**.
-<span class="entry-type">TF:</span> Durante esta entrega, lideré la implementación de un sistema de <strong>CRM</strong> (Customer Relationship Management), promoviendo una comunicación constante y efectiva entre los diferentes equipos involucrados en el proyecto. Trabajé estrechamente con los responsables de cada área para integrar sus aportes, optimizando el flujo de trabajo y asegurando que el sistema CRM cumpliera con las expectativas del proyecto. <br><br>
-Fomenté un ambiente colaborativo e inclusivo, donde se valoraron todas las ideas, creando espacios para la retroalimentación continua y la toma de decisiones en conjunto. Este enfoque permitió identificar y abordar mejoras clave en la <strong>interfaz web</strong>, brindando una experiencia más fluida y amigable para los usuarios. <br><br>
+<span class="entry-type">TB2:</span> En el TB2, **asumí un rol de liderazgo técnico y colaborativo** al implementar las vistas del *front-end* en **Vue**, desarrollar el *backend* con **ASP.NET Core API REST**, y asegurar la **correcta conexión entre ambos**. Además, me enfoqué en la **corrección de Historias de Usuario (HU) y elementos del Product Backlog en Trello**, aplicando principios de **Gestión de Identidades y Acceso (IAM)** en las integraciones. Estas acciones fueron cruciales para el progreso del proyecto, ya que **garantizaron la funcionalidad de componentes clave** y la alineación con los requisitos definidos, **guiando al equipo hacia la consecución de objetivos técnicos y de producto**.<br>
+<span class="entry-type">TF:</span> Durante esta entrega, lideré la implementación de un sistema de <strong>CRM</strong> (Customer Relationship Management), promoviendo una comunicación constante y efectiva entre los diferentes equipos involucrados en el proyecto. Trabajé estrechamente con los responsables de cada área para integrar sus aportes, optimizando el flujo de trabajo y asegurando que el sistema CRM cumpliera con las expectativas del proyecto.
+Fomenté un ambiente colaborativo e inclusivo, donde se valoraron todas las ideas, creando espacios para la retroalimentación continua y la toma de decisiones en conjunto. Este enfoque permitió identificar y abordar mejoras clave en la <strong>interfaz web</strong>, brindando una experiencia más fluida y amigable para los usuarios.
 Además, participé activamente en la <strong>definición de metas claras</strong> y alcanzables para el proyecto, garantizando una planificación detallada de tareas y un seguimiento eficaz de los artefactos de requisitos a lo largo del sprint de desarrollo. Mi participación ayudó a asegurar que los objetivos establecidos fueran alcanzados de manera eficiente y en colaboración con todo el equipo. <br>
 </td>
 
