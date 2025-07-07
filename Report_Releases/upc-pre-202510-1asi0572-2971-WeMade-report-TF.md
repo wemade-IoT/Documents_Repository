@@ -13683,7 +13683,7 @@ soportados por la solución.
 
 ![Video About the Product](../assets/about-product/about-the-product.png)
 
-[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+[Video About the Product](https://youtu.be/XBfqcqKVSgw)
 
 # Conclusiones
 
@@ -13751,7 +13751,7 @@ Presentamos el link del video:
 
 [Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc): https://shorturl.at/kUrtH
 
-[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf): https://shorturl.at/nxNAJ
+[Video About the Product](https://youtu.be/XBfqcqKVSgw): https://youtu.be/XBfqcqKVSgw
 
 [Video de exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Ef3WABIAuRpFoKhtB9vN3xIB1Nyqo7ecSkJgBmoJDon9IQ?e=2GaQjS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D): https://shorturl.at/v6hZS
 
