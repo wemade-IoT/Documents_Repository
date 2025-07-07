@@ -1,27 +1,21 @@
-<center>
-
- <strong> COURSE PROJECT</strong>
-
- </center>
-
   <center>
-      <strong>
-      Universidad Peruana de Ciencias Aplicadas
-      </strong><br>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
-      <strong>Ingeniería de Software</strong><br>
-      <strong>Desarrollo de Soluciones IOT - 2971</strong><br>
-      <strong>Profesor: Angel Augusto Velasquez Nuñez </strong><br>
-      <br>INFORME
-  </center>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br> 
+  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+  Ingeniería de Software<br>
+  <strong>Desarrollo de Soluciones IOT - 1ASI0572</strong><br>
+  Profesor: Ángel Augusto Velásquez Núñez<br>
+  NCR:2971<br> 
+  <br>Informe de Trabajo Final - 2025 - 10
+</center>
 
 <center>
 
-#### Startup: **WeMade**
+#### Startup: <strong>WeMade</strong>
 
-#### Product: **EcoGuardian**
+#### Product: <strong>EcoGuardian</strong>
 
 </center>
+
 
 # Team Members:
 
@@ -29,40 +23,41 @@
 <center>
 <table>
     <tr>
-        <td>Member</td>
-        <td>Code</td>
+        <td><strong>Member</strong></td>
+        <td><strong>Code</strong></td>
     </tr>
     <tr>
-        <td>Nicolas Sebastian Esteban Garcia</td>
+        <td>Esteban García, Nicolás Sebastián</td>
         <td>u202217485</td>
     </tr>
     <tr>
-        <td>Sebastian Ramirez Hoffmann</td>
-        <td>U202211894</td>
-    </tr>
-    <tr>
-        <td>Gustavo Huilca Chipana</td>
+        <td>Huilca Chipana, Gustavo</td>
         <td>u202213983</td>
     </tr>
     <tr>
-        <td>Manuel Sebastian Peña Rivera</td>
-        <td>u202210138</td>
-    </tr>
-    <tr>
-        <td>Mathias Alejandro Jave Diaz</td>
+        <td>Jave Díaz, Mathias Alejandro</td>
         <td>u202212721</td>
     </tr>
     <tr>
-        <td>Mathias Tsuneo Kunimoto Watanabe</td>
+        <td>Kunimoto Watanabe, Mathias Tsuneo</td>
         <td>u202210148</td>
     </tr>
     <tr>
-        <td>Italo D&#39;alessandro Luna Capuñay</td>
+        <td>Luna Capuñay, Ítalo D'Alessandro</td>
         <td>u202213375</td>
+    </tr>
+    <tr>
+        <td>Peña Rivera, Manuel Sebastián</td>
+        <td>u202210138</td>
+    </tr>
+    <tr>
+        <td>Ramírez Hoffmann, Sebastián</td>
+        <td>U202211894</td>
     </tr>
 </table>
 </center>
 
+<div style="page-break-after: always;"></div>
 
 
 # Registro de Versiones del Informe
@@ -81,7 +76,7 @@
     <tr>
       <td rowspan="7">0.1</td>
       <td>29/03/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Antecedentes y Problemática</li>
@@ -143,10 +138,10 @@
     </tr>
     <tr>
       <td>29/03/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
-          <li>Análisis Competitivo</li>
+          <li>Análisis competitivo</li>
           <li>Estrategias Frente a Competidores</li>
           <li>Empathy Mapping</li>
         </ul>
@@ -155,7 +150,7 @@
     <tr>
       <td rowspan="7">1.1</td>
       <td>12/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -215,7 +210,7 @@
     </tr>
     <tr>
       <td>12/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Web Applications</li>
@@ -223,10 +218,10 @@
         </ul>
       </td>
     </tr>
-     <tr>
+    <tr>
       <td rowspan="7">1.2</td>
       <td>15/05/2025</td>
-      <td>Mathias Tsneo Kunimoto Watanabe</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
       <td>
         <ul>
           <li>Design Update</li>
@@ -283,15 +278,174 @@
     </tr>
     <tr>
       <td>15/05/2025</td>
-      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
       <td>
         <ul>
           <li>Preliminary Corrections</li>
         </ul>
       </td>
     </tr>
+    <!-- TB2 -->
+    <tr>
+      <td rowspan="7">2.0</td>
+      <td>18/06/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Assets Management</li>
+          <li>Mobile Application Development</li>
+          <li>Correcciones del entregable anterior</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Analytics & Service Design</li>
+          <li>Database Design and Configuration</li>
+          <li>Team Collaboration Insights</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Consulting & IAM</li>
+          <li>Frontend Implementation - Plant Management</li>
+          <li>Sprint 2 Documentation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Operation and Monitoring</li>
+          <li>Edge Application Development</li>
+          <li>Component Diagrams and Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - Profiles and Preferences</li>
+          <li>Mobile Application Development</li>
+          <li>Testing Implementation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Frontend Implementation - Payment Integration</li>
+          <li>Mobile Application Development</li>
+          <li>Deployment Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>18/06/2025</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Backend Implementation - IAM & Security</li>
+          <li>Edge Application Development</li>
+          <li>Infrastructure Configuration</li>
+        </ul>
+      </td>
+    </tr>
+    <!-- TF -->
+    <tr>
+      <td rowspan="7">3.0</td>
+      <td>4/07/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Conexión Frontend y Backend de Resources</li>
+          <li>Desarrollo de Resources en la aplicación movil</li>
+          <li>Correcciones de Mejora continua en el informe</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Implementación del Fog y Edge</li>
+          <li>Configuración del Despliegue del Edge </li>
+          <li>Team Collaboration Insights</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Conexión de Frontend y Backend del CRM</li>
+          <li>Coreciones en el Frontend del Crm</li>
+          <li>Sprint 3 Documentation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Desarrollo Monitoring y Analytics de la aplicación movil</li>
+          <li>Conexion Frontend y backend de Analytics</li>
+          <li>Component Diagrams Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Conexión Frontend y Backend de Profile and Preferences</li>
+          <li>Desarrollo de Profile en aplicación movil</li>
+          <li>Desarrollo de pruebas unitarias y integrales</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Conexion Frontend y Backend de Payment y Subcriptions</li>
+          <li>Desarrollo en correcciones del Frontend</li>
+          <li>Configuración del despliegue de aplicación web</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Conexión del Frontend y Backend IAM & Security</li>
+          <li>Desarrollo del Edge</li>
+          <li>Configuración en el despligue de la aplicación movil</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
+</center>
 
 
 # Project Report Collaboration Insights
@@ -299,15 +453,15 @@
 
 Repositorios:
 
-Proyecto: [Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository)
+Proyecto: https://github.com/wemade-IoT/Documents_Repository | [Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository)
 
-Landing Page: [Landing Page Repository](https://github.com/wemade-IoT/landing-page)
+Landing Page: https://github.com/wemade-IoT/landing-page | [Landing Page Repository](https://github.com/wemade-IoT/landing-page)
 
-Landing Page: [Landing Page](https://sage-granita-e4aafb.netlify.app/)
+Landing Page: https://inquisitive-taiyaki-8e3b96.netlify.app/ | [Landing Page](https://inquisitive-taiyaki-8e3b96.netlify.app/)
 
-Front End Web App Repository: [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
+Front End Web App Repository: https://github.com/wemade-IoT/eco-guardian-frontend | [Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend)
 
-Front End Web Application: [Front End Application](https://ecoguardian-tb2.vercel.app/)
+Front End Web Application: https://ecoguardian-tf.vercel.app/ | [Front End Application](https://ecoguardian-tb2.vercel.app/)
 
 | Usuario Github     | Nombre                              |
 |--------------------|-------------------------------------|
@@ -319,14 +473,13 @@ Front End Web Application: [Front End Application](https://ecoguardian-tb2.verce
 | kuni2005           | Mathias Tsuneo Kunimoto Watanabe    |
 | Nekolas777         | Nicolas Sebastian Esteban Garcia    |
 
-</center>
 
 ### TB1
 
 <p>Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.</p>
 
 <p>Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tb1/colaborators.png" alt="imagen de las colaboraciones">  
 
 [*Colaboraciones del repositorio*]
@@ -335,7 +488,7 @@ Se muestra evidencia del trabajo realizado en la TB1
 <img src="../assets/inisghts/tb1/commits.png" alt="imagen de los commits">  
 
 [*Registro de los commits donde se realizaron la mayor cantidad*]
-</center>
+
 En ambos casos se puede observar el incremento de modificaciones y revisiones en los dias miercoles y una cantidad mayor de cambios que commits.
 
 ### TP
@@ -343,7 +496,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 <p>Para la entrega del <strong>Trabajo Parcial (TP)</strong> se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia, y como grupo nos dedicamos a mantener una frecuencia de <strong>commits</strong> y cambios proyectada a ser óptima a futuro.</p>
 
 <p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TP en el informe.</p>
-<center>
+
 <img src="../assets/inisghts/tp/informe-insights-tp.jpeg" alt="Colaboraciones generales del repositorio">  
 
 [*Colaboraciones generales del repositorio*]
@@ -353,11 +506,10 @@ Se muestra evidencia del trabajo realizado en la Tp1
 <img src="../assets/inisghts/tp/informe-commits.png" alt="Commits generales del repositorio">  
 
 [*Registro de los commits generales donde se realizaron la mayor cantidad*]
-</center>
+
 <p>En ambos casos se puede observar el incremento de modificaciones y revisiones en los días miércoles, y una cantidad mayor de cambios que commits. A continuación, se desglosa el trabajo realizado específicamente en la <strong>landing page</strong> y en la <strong>aplicación web</strong>:</p>
 
 #### Landing Page
-<center>
 <img src="../assets/inisghts/tp/landing.png" alt="Colaboraciones Landing Page">  
 
 [*Colaboraciones realizadas en el diseño y maquetación de la landing page*]
@@ -377,8 +529,52 @@ Se muestra evidencia del trabajo realizado en la Tp1
 [*Commits correspondientes al desarrollo lógico y visual del prototipo de la webapp*]
 
 ### TB2
+<p>Para la entrega del TB2 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones desde embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
 
-</center>
+<p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
+
+<img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
+
+[*Colaboraciones generales del repositorio*]
+Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
+
+
+<img src="../assets/inisghts/tb2/commits-tb2.png" alt="Commits generales del repositorio">  
+
+### TF
+<p>Para la entrega del TF se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega y del sprint. En este caso hemos implementado el avance de nuestras soluciones y mejoras desde el embeded hasta mobile app. Adicionalmente, se hacen las correciones al informe que se esperan de nosotros.</p>
+
+<p>Se muestran evidencias de los <strong>commits</strong> realizados en la entrega del TB2 en el informe.</p>
+
+<img src="../assets/inisghts/tb2/insights-tb2-pulse.png" alt="Colaboraciones generales del repositorio">  
+
+[*Colaboraciones generales del repositorio*]
+Se muestra evidencia del trabajo realizado en la TB2 dodne podemos observar el progreso que hemos tenido a lo largo de la entrega, claramente esto solo se encasilla a este reporte, no obstante si se quiere ver mas informacion de esta entrega en la seccion de Sprint 2 estan las evidencias de participacion en los demas repositorios.
+
+
+<img src="../assets/inisghts/tf/commits-tf.png" alt="Commits generales del repositorio"> 
+
+
+#### Aplicación Web
+
+<img src="../assets/inisghts/tf/commits-front-1.png" alt="Colaboraciones Webapp">  
+
+[*Colaboraciones en el diseño y construcción de componentes funcionales de la aplicación web*]
+
+#### Mobile
+
+<img src="../assets/inisghts/tf/commits-mobile.png" alt="Commits Mobile">  
+
+[*Commits correspondientes al desarrollo lógico y visual del prototipo de mobile*]
+
+#### Backend
+
+<img src="../assets/inisghts/tf/commits-back.png" alt="Commits Backend">  
+
+[*Commits correspondientes al desarrollo lógico y visual del prototipo de backend*]
+
+[*Registro de los commits generales donde se realizaron la mayor cantidad*]
+
 
 ---
 
@@ -617,32 +813,39 @@ del ABET – EAC - Student Outcome 5.
 <span class="entry-type">TB2:</span> Durante el desarrollo de este avance del proyecto, participé activamente en el desarrollo de los productos relacionados al bounded context de Operation and Monitoring. Colaboré estrechamente con otros líderes de aspecto en la **revisión de tareas en Trello** y el **diseño de APIs REST en ASP.NET Core** para el cumplimiento de las funcionalidades. Esta experiencia, que incluyó la revisión de aspectos del flujo de negocio y la aplicación de principios de **Domain-Driven Design**, me permitió fortalecer mis habilidades en liderazgo conjunto dentro de un equipo de desarrollo.
  <br>
 <span class="entry-type">TF:</span> Durante el desarrollo de este avance, participé activamente en el desarrollo de la aplicación móvil, fomentando un entorno colaborativo con mis compañeros para resolver problemas técnicos y de integración. Participé en la propuesta e implementación de mejoras en la lógica de negocio de nuestros bounded context principales como analytics y monitoring, aportando ideas viables que optimizaron el flujo de procesos. Además, ayude en la incorporación de Cloudinary para la gestión eficiente de imágenes, coordinando su correcta integración con los distintos líderes de aspecto. 
-
 <br><br><span class="person-name">Nicolas Sebastian Esteban García</span><br>
 <span class="entry-type">TB1:</span> Asumí un rol activo de liderazgo en las sesiones programadas por mi equipo de trabajo, promoviendo el orden, facilitando la toma de decisiones y fomentando la participación de todos los integrantes. Contribuí con ideas de mejora para definir correctamente nuestro flujo de negocio, asegurando un entendimiento claro por parte del equipo. Además, lideré la elaboración de preguntas clave para nuestros segmentos objetivos, lo cual permitió obtener información útil para la mejora continua de nuestra aplicación. Finalmente, coordiné y colaboré activamente en la elaboración del Candidate Context Discovery y en la priorización del Product Backlog.<br>
 <span class="entry-type">TP:</span> A lo largo del desarrollo del proyecto, trabajé en equipo asumiendo un rol activo en la toma de decisiones y promoviendo el liderazgo compartido entre los integrantes. En distintas etapas, cada miembro lideró según sus competencias, lo que permitió una gestión eficiente del tiempo y los recursos. Personalmente, guié al equipo en el diseño de la landing page y la propuesta visual del prototipo web, coordinando ideas y fomentando un ambiente de respeto y participación equitativa. Esta dinámica fortaleció la colaboración, permitiendo alcanzar los objetivos planteados.<br>
-<span class="entry-type">TB2:</span> Durante esta entrega, ejercí liderazgo técnico al trabajar activamente en el *deploy* del *front-end* y la preparación del entorno de despliegue. Me responsabilicé de la **maquetación de la aplicación web utilizando Figma y su integración con el *backend* vía APIs REST**, así como de la implementación de la estructura inicial de la **aplicación móvil en Android Studio**. Además, lideré la implementación de la **pasarela de pagos con Stripe** y el registro de cuenta de usuario. Mis acciones fueron clave para habilitar funcionalidades principales, demostrando liderazgo al tomar la responsabilidad de componentes críticos y guiar su implementación técnica.
+<span class="entry-type">TB2:</span> Durante esta entrega, ejercí liderazgo técnico al trabajar activamente en el *deploy* del *front-end* y la preparación del entorno de despliegue. Me responsabilicé de la **maquetación de la aplicación web utilizando Figma y su integración con el *backend* vía APIs REST**, así como de la implementación de la estructura inicial de la **aplicación móvil en Android Studio**. Además, lideré la implementación de la **pasarela de pagos con Stripe** y el registro de cuenta de usuario. Mis acciones fueron clave para habilitar funcionalidades principales, demostrando liderazgo al tomar la responsabilidad de componentes críticos y guiar su implementación técnica.<br>
+<span class="entry-type">TF:</span> En el desarrollo de esta entrega, aseguré una comunicación constante y efectiva entre los líderes de los diferentes aspectos de los bounded contexts, facilitando la integración de sus aportes para el beneficio del proyecto. Fomenté un ambiente inclusivo donde todas las ideas fueron valoradas, creando espacios para la retroalimentación y toma de decisiones conjunta. Participé activamente en la integración del frontend y backend, particularmente en la implementación de la pasarela de pagos y la creación de órdenes. Además, trabajé en la definición de metas claras y alcanzables, la planificación detallada de tareas y el seguimiento de los artefactos de requisitos, garantizando el cumplimiento de los objetivos establecidos de manera colaborativa.<br>
 <br><br><span class="person-name">Manuel Sebastian Peña Rivera</span><br>
-<span class="entry-type">TB1:</span> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y **Container Level Diagrams**. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas.<br>
+<span class="entry-type">TB1:</span> Participé en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y colaborando con mis compañeros para tomar decisiones clave sobre el caso propuesto. Realicé de forma colaborativa la creación de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para ello, tuvimos que realizar reuniones para planificar y estar de acuerdo sobre el desarrollo de estos diagramas.<br>
 <span class="entry-type">TP:</span> Mi principal enfoque fue en la creación de los wireframes y mockups tanto para la landing page como para el frontend. Además, participé activamente en la implementación de la estructura del sitio, desarrollando el footer y colaborando en la barra de navegación (navbar). Asistí a las reuniones del equipo, brindando apoyo en la coordinación de tareas y asegurándome de que todos tuviéramos claro el diseño y la arquitectura a seguir, evitando malentendidos y garantizando que el flujo de trabajo fuera eficiente.<br>
-<span class="entry-type">TB2:</span> Durante esta entrega, participé activamente en las reuniones, proporcionando ideas clave para el desarrollo del *front-end* y *back-end* de la sección Profiles. Colaboré en el desarrollo de perfiles en la aplicación móvil **(Android Studio)** y el *backend* (**ASP.NET Core**), asegurando la alineación con los objetivos del proyecto. También participé en entrevistas de validación, lo que me permitió tomar decisiones basadas en retroalimentación directa de los usuarios para **optimizar las User Stories**, fomentando así el trabajo conjunto y el liderazgo compartido en la definición y ejecución de las funcionalidades.
-<br><br><span class="person-name">Italo D'Alessandro Luna Capuñay</span><br>
+<span class="entry-type">TB2:</span> Durante esta entrega, participé activamente en las reuniones, proporcionando ideas clave para el desarrollo del front-end y back-end de la sección Profiles. Colaboré en el desarrollo de perfiles en la aplicación móvil **(Android Studio) y el backend (ASP.NET Core), asegurando la alineación con los objetivos del proyecto. También participé en entrevistas de validación, lo que me permitió tomar decisiones basadas en retroalimentación directa de los usuarios para **optimizar las User Stories, fomentando así el trabajo conjunto y el liderazgo compartido en la definición y ejecución de las funcionalidades.<br>
+<span class="entry-type">TF:</span> En esta entrega, trabajé activamente en equipo para desarrollar la sección de profiles en el front-end y la conexión con el backend, tanto en la aplicación web como en la móvil. Participé en las reuniones de planificación, donde colaboré en la asignación de tareas dentro del Product Backlog en Trello, contribuyendo a la toma de decisiones clave para asegurar que todos estuviéramos alineados y enfocados en las metas del proyecto. Además, realicé pruebas unitarias e integradas en el backend, asegurando una integración eficiente entre todos los componentes del sistema. <br>
+<br><span class="person-name">Italo D'Alessandro Luna Capuñay</span><br>
 <span class="entry-type">TB1:</span> Asistí a reuniones tanto virtuales como presenciales, donde contribuí con ideas para definir el enfoque del proyecto y trabajé junto a mis compañeros en la toma de decisiones importantes sobre el caso propuesto. Participé activamente en la elaboración conjunta de diagramas técnicos como los Domain Message Flows, Bounded Context Domain Layer Class Diagrams y Container Level Diagrams. Para llevar a cabo esta tarea, fue necesario coordinar varias reuniones en las que acordamos los lineamientos para el desarrollo de dichos diagramas.<br>
 <span class="entry-type">TP:</span> En este entregable, contribuí de forma significativa al diseño y configuración del entorno de despliegue del sistema. También participé en la coordinación del equipo y brindé apoyo a mis compañeros durante la implementación de las aplicaciones web.<br>
-<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **configuración y optimización de los entornos de despliegue** para las aplicaciones web y móvil. mi liderazgo en la gestión técnica **impactó directamente en el cumplimiento de los objetivos de rendimiento** y estabilidad del proyecto.
-<br><br><span class="person-name">Mathias Kunimoto</span><br>
+<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **configuración y optimización de los entornos de despliegue** para las aplicaciones web y móvil. mi liderazgo en la gestión técnica **impactó directamente en el cumplimiento de los objetivos de rendimiento** y estabilidad del proyecto.<span class="entry-type">TF:</span> En esta entrega, trabajé en el desarrollo y mejora del IAM Mobile, abordando tanto aspectos funcionales como de diseño. Participé activamente en la revisión del flujo de usuario, realizando ajustes necesarios para mejorar la usabilidad y consistencia en la experiencia móvil. Además, colaboré con el equipo para resolver incidencias detectadas durante las pruebas, lo que permitió asegurar un funcionamiento estable. Mi participación incluyó la coordinación de tareas en Trello y la validación de entregables de acuerdo con los criterios definidos para el sprint. <br>
+<br><span class="person-name"> Mathias Kunimoto</span><br>
 <span class="entry-type">TB1:</span> Fui participante en las reuniones virtuales y presenciales, aportando ideas sobre cómo abordar el proyecto y tomando decisiones clave sobre el caso propuesto. Trabajé directamente en el desarrollo de los diagramas técnicos como los **Domain Message Flows**, **Bounded Context Domain Layer Class Diagrams** y los **Container Level Diagrams**. Además, colaboré en la elaboración del **User Journey Mapping del Segmento 2**, en la **realización de entrevistas para el Segmento 2**, en la construcción del **Lean UX Canvas**, y en el desarrollo inicial del **Bounded Context de Assets** y del **Bounded Context Canvas**.<br>
 <span class="entry-type">TP:</span> En este entregable, aporté de manera destacada al diseño y la configuración del entorno de despliegue del sistema. Además, participé en la coordinación del equipo y proporcioné apoyo a mis compañeros durante la implementación de las aplicaciones web.<br>
-<span class="entry-type">TB2:</span> Durante esta entrega, participé activamente en las reuniones, aportando ideas clave para el desarrollo del *back-end* de la gestión de recursos y activos, incluyendo la **definición de APIs REST con ASP.NET Core**. Además, estuve involucrado en entrevistas de validación, lo que me permitió tomar decisiones basadas en retroalimentación directa de los usuarios para **refinar las funcionalidades y los flujos de usuario en Figma**, promoviendo un enfoque de trabajo colaborativo y liderazgo compartido en la definición del producto.
-<br><br><span class="person-name">Gustavo Huilca Chipana</span><br>
+<span class="entry-type">TB2:</span> Durante esta entrega, participé activamente en las reuniones, aportando ideas clave para el desarrollo del *back-end* de la gestión de recursos y activos, incluyendo la **definición de APIs REST con ASP.NET Core**. Además, estuve involucrado en entrevistas de validación, lo que me permitió tomar decisiones basadas en retroalimentación directa de los usuarios para **refinar las funcionalidades y los flujos de usuario en Figma**, promoviendo un enfoque de trabajo colaborativo y liderazgo compartido en la definición del producto.<span class="entry-type">TF:</span> En esta entrega, trabajé en la implementación de mejoras en la aplicación mobile, enfocándome en optimizar la interfaz y la navegación para una mejor experiencia del usuario. También contribuí en la integración del sistema de i18n, permitiendo que la plataforma soporte el idioma ingles de manera eficiente. Adicionalmente, realicé reajustes en el backend orientados a mejorar la comunicación entre servicios y el manejo de datos. Durante el sprint, gestioné mis tareas en Trello y colaboré activamente en la validación de los entregables, asegurando que cumplieran con los criterios establecidos por el equipo.
+<br>
+<br><span class="person-name">Gustavo Huilca Chipana</span><br>
 <span class="entry-type">TB1:</span> En este avance del proyecto, pude trabajar en equipo de forma eficiente, haciendo uso de herramientas como documentos compartidos para la creación de diagramas y la repartición de tareas. Participé activamente en las reuniones virtuales y presenciales y apoyé a mis compañeros a participar y expresar su opinión.<br>
 <span class="entry-type">TP:</span> En este avance del proyecto, trabajé en equipo, priorizando la comunicación entre los miembros para la correcta coordinación del desarrollo de la Landing Page y de la Aplicación Web, intentando evitar malentendidos y dejando muy en clara la arquitectura que debemos seguir.<br>
-<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **validación de la interfaz de usuario (UI)** y la **experiencia de usuario (UX)** de la aplicación web y móvil. Organicé sesiones de revisión de prototipos en **Figma** y **pruebas de usabilidad** con el equipo, asegurando que el diseño cumpliera con las expectativas de los usuarios. Mis aportes fueron clave para **guiar las mejoras en la usabilidad** del producto, demostrando un liderazgo enfocado en la calidad y la satisfacción del usuario.
+<span class="entry-type">TB2:</span> Para el TB2, asumí un rol de liderazgo en la **validación de la interfaz de usuario (UI)** y la **experiencia de usuario (UX)** de la aplicación web y móvil. Organicé sesiones de revisión de prototipos en **Figma** y **pruebas de usabilidad** con el equipo, asegurando que el diseño cumpliera con las expectativas de los usuarios. Mis aportes fueron clave para **guiar las mejoras en la usabilidad** del producto, demostrando un liderazgo enfocado en la calidad y la satisfacción del usuario.<br>
+<span class="entry-type">TP:</span> Durante este último avance del proyecto, trabajé en equipo para priorizar, organizar y coordinar las últimas correcciones y mejoras de los distintos productos de la solución, siempre manteniendo al día a mis compañeros sobre el estado de las tareas y asegurando que todos estuviéramos alineados con los objetivos del proyecto. Participé activamente en la revisión de los productos y en la implementación de las correcciones necesarias, contribuyendo a la mejora continua del proyecto.<br>
 <br><br><span class="person-name">Sebastian Ramirez Hoffmann</span><br>
 <span class="entry-type">TB1:</span> En esta entrega, **ejercí liderazgo conjunto al trabajar activamente en equipo** y participar en diversas reuniones grupales. Contribuí a la **distribución equitativa de responsabilidades**, asignando tareas a mis compañeros en secciones clave como la elaboración de los **Domain Message Flows en Miro** y la implementación del **Lean UX Process**. Esta acción no solo optimizó el flujo de trabajo, sino que también **fomentó la autonomía y la participación activa** de cada miembro, demostrando un liderazgo compartido alineado con los objetivos de colaboración y eficiencia del proyecto.<br>
 <span class="entry-type">TP:</span> Durante este avance, **trabajé eficazmente en conjunto con mis compañeros de equipo**, participando en reuniones de *micro-sprint* en **Discord** para coordinar nuestros avances. **Demostré liderazgo al segmentar el grupo en equipos de trabajo**, asignando a mis compañeros a tareas específicas con el fin de **optimizar el desarrollo y el cumplimiento de los objetivos del proyecto**, **utilizando Trello para la gestión**. Esta estrategia no solo mejoró la eficiencia, sino que también **promovió la responsabilidad individual y colectiva**, un pilar fundamental del liderazgo compartido.<br>
-<span class="entry-type">TB2:</span> En el TB2, **asumí un rol de liderazgo técnico y colaborativo** al implementar las vistas del *front-end* en **Vue**, desarrollar el *backend* con **ASP.NET Core API REST**, y asegurar la **correcta conexión entre ambos**. Además, me enfoqué en la **corrección de Historias de Usuario (HU) y elementos del Product Backlog en Trello**, aplicando principios de **Gestión de Identidades y Acceso (IAM)** en las integraciones. Estas acciones fueron cruciales para el progreso del proyecto, ya que **garantizaron la funcionalidad de componentes clave** y la alineación con los requisitos definidos, **guiando al equipo hacia la consecución de objetivos técnicos y de producto**.
+<span class="entry-type">TB2:</span> En el TB2, **asumí un rol de liderazgo técnico y colaborativo** al implementar las vistas del *front-end* en **Vue**, desarrollar el *backend* con **ASP.NET Core API REST**, y asegurar la **correcta conexión entre ambos**. Además, me enfoqué en la **corrección de Historias de Usuario (HU) y elementos del Product Backlog en Trello**, aplicando principios de **Gestión de Identidades y Acceso (IAM)** en las integraciones. Estas acciones fueron cruciales para el progreso del proyecto, ya que **garantizaron la funcionalidad de componentes clave** y la alineación con los requisitos definidos, **guiando al equipo hacia la consecución de objetivos técnicos y de producto**.<br>
+<span class="entry-type">TF:</span> Durante esta entrega, lideré la implementación de un sistema de <strong>CRM</strong> (Customer Relationship Management), promoviendo una comunicación constante y efectiva entre los diferentes equipos involucrados en el proyecto. Trabajé estrechamente con los responsables de cada área para integrar sus aportes, optimizando el flujo de trabajo y asegurando que el sistema CRM cumpliera con las expectativas del proyecto.
+Fomenté un ambiente colaborativo e inclusivo, donde se valoraron todas las ideas, creando espacios para la retroalimentación continua y la toma de decisiones en conjunto. Este enfoque permitió identificar y abordar mejoras clave en la <strong>interfaz web</strong>, brindando una experiencia más fluida y amigable para los usuarios.
+Además, participé activamente en la <strong>definición de metas claras</strong> y alcanzables para el proyecto, garantizando una planificación detallada de tareas y un seguimiento eficaz de los artefactos de requisitos a lo largo del sprint de desarrollo. Mi participación ayudó a asegurar que los objetivos establecidos fueran alcanzados de manera eficiente y en colaboración con todo el equipo. <br>
 </td>
+
 <td class="final-comment-column">El grupo demostró liderazgo compartido durante todo el proyecto. Cada integrante aportó activamente en la toma de decisiones, cumpliendo satisfactoriamente con este criterio.</td>
 </tr>
 <tr>
@@ -651,32 +854,39 @@ del ABET – EAC - Student Outcome 5.
 <span class="person-name">Mathias Alejandro Jave Diaz</span><br>
 <span class="entry-type">TB1:</span> Durante el desarrollo del proyecto, me enfoqué en fomentar un entorno colaborativo e inclusivo dentro del equipo, promoviendo la participación activa de todos los miembros mediante el envío constante de retroalimentaciones constructivas. Contribuí al diseño del event storming y a la estimación de tareas considerando el valor que estas aportan al negocio. Para ello, tomé en cuenta las opiniones de mis compañeros, lo cual permitió definir metas claras, planificar de manera efectiva y cumplir con los objetivos propuestos bajo los principios de Domain Driven Design. <br>
 <span class="entry-type">TP:</span> Durante el desarrollo de este avance del proyecto, fomenté un entorno colaborativo e inclusivo en el equipo, promoviendo la participación activa de cada integrante en la revisión y análisis de la arquitectura propuesta. Además, participé en la definición conjunta de los objetivos para la aplicación web, contribuyendo en la planificación de tareas y asegurando el cumplimiento de los entregables establecidos para esta etapa. <br>
-<span class="entry-type">TB2:</span> Durante el desarrollo del TB2, contribuí a crear un entorno colaborativo e inclusivo dentro del equipo, fomentando la comunicación constante a través de reuniones diarias y el uso de Trello. Participé activamente en la planificación del sprint backlog, estableciendo metas claras y priorizando tareas alineadas con los objetivos del *bounded context* de Operation and Monitoring. Junto con otros líderes de aspecto, organicé nuestras responsabilidades en el desarrollo del backend con ASP.NET Core y me aseguré de cumplir con los entregables, demostrando mi capacidad para trabajar con enfoque en objetivos comunes y respetar las perspectivas diversas del equipo.
+<span class="entry-type">TB2:</span> Durante el desarrollo del TB2, contribuí a crear un entorno colaborativo e inclusivo dentro del equipo, fomentando la comunicación constante a través de **reuniones diarias y el uso de Trello**. Participé activamente en la planificación del *sprint backlog*, estableciendo metas claras y priorizando tareas alineadas con los objetivos del *bounded context* de Operation and Monitoring. Junto con otros líderes de aspecto, organicé nuestras responsabilidades en el **desarrollo del *backend* con ASP.NET Core** y me aseguré de cumplir con los entregables, demostrando mi capacidad para trabajar con enfoque en objetivos comunes y respetar las perspectivas diversas del equipo.
 <br>
 <span class="entry-type">TF:</span> Durante el desarrollo de esta entrega, fomenté una comunicación constante y efectiva entre los líderes de aspecto de los diferentes bounded contexts, asegurando la integración de sus aportes en beneficio del proyecto. Promoví un ambiente inclusivo donde se valoraron todas las ideas, facilitando espacios para la retroalimentación y toma de decisiones conjunta. Asimismo, participé activamente en la definición de metas claras y alcanzables, la planificación detallada de tareas y el seguimiento de los artefactos de requisitos durante todo el sprint de desarrollo, asegurando que se cumplieran los objetivos establecidos de forma colaborativa.
 <br><br><span class="person-name">Nicolas Sebastian Esteban García</span><br>
 <span class="entry-type">TB1:</span> Fomenté la comunicación abierta y continua dentro del equipo, asegurando que todos los miembros pudieran expresar sus ideas y aportar soluciones. Me encargué de la planificación de tareas, organizando el Product Backlog y facilitando el proceso de Event Storming para definir los eventos clave del sistema. A través de la asignación de tareas y el uso de herramientas de colaboración, me aseguré de que todos los integrantes del equipo tuvieran claridad sobre sus responsabilidades. Establecimos metas claras y trabajamos de manera eficiente, lo que permitió cumplir con los objetivos establecidos en el tiempo previsto.<br>
 <span class="entry-type">TP:</span> Durante el desarrollo del proyecto, participé activamente en el diseño de la landing page y del prototipo de la aplicación web, colaborando con mi equipo en sesiones de diseño y toma de decisiones conjuntas. Establecimos metas claras, planificamos tareas mediante herramientas colaborativas y asignamos responsabilidades de acuerdo con las habilidades de cada integrante. Promovimos un entorno inclusivo donde todos pudimos aportar ideas, fortaleciendo la comunicación y el liderazgo compartido. La coordinación efectiva nos permitió cumplir con los objetivos dentro del plazo establecido.<br>
 <span class="entry-type">TB2:</span> Durante esta entrega, trabajé en el deploy del front-end y en la preparación del entorno de despliegue, asegurando que el equipo tuviera una base sólida para su trabajo colaborativo. Participé activamente en la maquetación de la **aplicación web (Figma)** y su integración con el backend (**APIs REST**), así como en la implementación de la estructura inicial de la **aplicación móvil (Android Studio)** y la **pasarela de pagos con Stripe**. Estas tareas, al ser colaborativas y con **metas claras en Trello**, me permitieron contribuir directamente al cumplimiento de los objetivos del sprint, fomentando un entorno de trabajo organizado y eficiente.
+<span class="entry-type">TF:</span> En el desarrollo de esta entrega, creé un entorno colaborativo e inclusivo al asegurar una comunicación constante y efectiva entre los líderes de los diferentes aspectos de los bounded contexts, promoviendo la integración de sus aportes para el beneficio del proyecto. Fomenté espacios para la retroalimentación y toma de decisiones conjunta, donde todas las ideas fueron valoradas. Participé activamente en el desarrollo del frontend y en la integración de la pasarela de pagos, asegurando que ambos aspectos se alinearan de manera eficiente. Además, trabajé en la definición de metas claras y alcanzables, la planificación detallada de tareas y el seguimiento de los artefactos de requisitos, garantizando que los objetivos establecidos se cumplieran de manera colaborativa.
 <br><br><span class="person-name">Manuel Sebastian Peña Rivera</span><br>
 <span class="entry-type">TB1:</span> Estuve enfocado en fomentar un ambiente de colaboración dentro del equipo. Trabajé en conjunto con mis compañeros para definir los objetivos y tareas del proyecto. Colaboré en el análisis competitivo y en la definición de segmentos clave como el de negocios y especialistas. Además, me encargué de crear user personas y empathy maps para estos segmentos, asegurando que el desarrollo del producto estuviera alineado con las necesidades del usuario. Cada semana establecí un límite personal para realizar las secciones de cada capítulo, de esta forma me aseguré de que todas las tareas estuvieran bien organizadas y distribuidas para cumplir con los objetivos establecidos.<br>
 <span class="entry-type">TP:</span> En este avance contribuí en la planificación y definición de metas, asegurándome de que el desarrollo de la landing page se realizara de manera organizada. Al colaborar en el diseño de los wireframes y mockups, así como en la construcción del footer y navbar, ayudé a cumplir los objetivos planteados, siempre respetando los plazos y trabajando de manera coordinada con mis compañeros.<br>
-<span class="entry-type">TB2:</span> En esta entrega, participé activamente en las reuniones de planificación y en la asignación de tareas dentro del Product Backlog en **Trello**, asegurando la correcta distribución de responsabilidades en el desarrollo del *Bounded Context* de Profiles. Coordiné el progreso del equipo en la implementación del *front-end* y *back-end*, y ayudé a establecer metas claras, contribuyendo también al informe de Bounded Context: Profiles and Preferences, garantizando que las tareas se ejecutaran de manera eficiente y dentro del plazo.
-<br><br><span class="person-name">Italo D'Alessandro Luna Capuñay</span><br>
+<span class="entry-type">TB2:</span> En esta entrega, participé activamente en las reuniones de planificación y en la asignación de tareas dentro del Product Backlog en Trello, asegurando la correcta distribución de responsabilidades en el desarrollo del *Bounded Context* de Profiles. Coordiné el progreso del equipo en la implementación del front-end y back-end, y ayudé a establecer metas claras, contribuyendo también al informe de Bounded Context: Profiles and Preferences, garantizando que las tareas se ejecutaran de manera eficiente y dentro del plazo.<br>
+<span class="entry-type">TF:</span> En esta etapa final del proyecto, mostré compromiso con el trabajo en equipo, participando activamente en la organización interna y apoyando a mis compañeros en el cumplimiento de sus tareas. Mantuve una comunicación constante durante las reuniones, aportando ideas y escuchando diferentes puntos de vista para llegar a acuerdos efectivos. Además, me involucré en la asignación de tareas y el seguimiento del progreso, lo que permitió mantener una buena coordinación y avanzar de manera ordenada hacia los objetivos del proyecto.<br>
+<br><span class="person-name">Italo D'Alessandro Luna Capuñay</span><br>
 <span class="entry-type">TB1:</span> A lo largo del proyecto, mi objetivo principal fue crear un ambiente de trabajo inclusivo y cooperativo, incentivando la participación activa de todos los integrantes del equipo a través de retroalimentaciones constantes y constructivas. Participé en el diseño del event storming y en la estimación de tareas, considerando siempre el valor que estas aportaban al negocio. Para lograrlo, integré las opiniones de mis compañeros, lo que nos permitió establecer metas claras, organizar las actividades de forma eficiente y alcanzar los objetivos definidos según los principios del Domain Driven Design.<br>
 <span class="entry-type">TP:</span> En esta entrega, fomenté la colaboración dentro del equipo, participando activamente en la planificación y coordinación de tareas técnicas vinculadas al entorno de desarrollo y al proceso de despliegue. Asimismo, aseguré una comunicación constante con el equipo para cumplir con los objetivos en los plazos establecidos.<br>
-<span class="entry-type">TB2:</span> En esta entrega, mi contribución principal al entorno colaborativo se centró en la **configuración del entorno de desarrollo compartido** y en facilitar el trabajo del equipo en la **gestión de dependencias y versiones de software**. Colaboré estrechamente en la **resolución de problemas técnicos** relacionados con el despliegue de las aplicaciones **web (ASP.NET Core)** y **móvil (Android Studio)**, asegurando que todos tuviéramos las herramientas necesarias y un flujo de trabajo sin interrupciones para alcanzar nuestras metas del *sprint*.
-<br><br><span class="person-name">Mathias Kunimoto</span><br>
+<span class="entry-type">TB2:</span> En esta entrega, mi contribución principal al entorno colaborativo se centró en la **configuración del entorno de desarrollo compartido** y en facilitar el trabajo del equipo en la **gestión de dependencias y versiones de software**. Colaboré estrechamente en la **resolución de problemas técnicos** relacionados con el despliegue de las aplicaciones **web (ASP.NET Core)** y **móvil (Android Studio)**, asegurando que todos tuviéramos las herramientas necesarias y un flujo de trabajo sin interrupciones para alcanzar nuestras metas del *sprint*.<span class="entry-type">TF:</span> Durante este ciclo, me enfoqué en tareas clave relacionadas con los módulos Pon correcciones e IAM Mobile. Realicé ajustes funcionales y mejoras en la interfaz, asegurando una experiencia fluida para el usuario. Además, participé en la identificación y solución de errores, contribuyendo a la estabilidad general del sistema. Mi trabajo se mantuvo alineado con los objetivos del equipo, cumpliendo con los plazos establecidos y manteniendo una comunicación constante para asegurar el avance del proyecto.<br>
+<br><span class="person-name">Mathias Kunimoto</span><br>
 <span class="entry-type">TB1:</span> Me concentré en mantener un entorno colaborativo y enfocado en los objetivos del equipo. Contribuí en la planificación de tareas clave para los entregables semanales, alineando los esfuerzos del grupo con los segmentos priorizados. Además, elaboré user personas y empathy maps para entender mejor las necesidades del usuario objetivo, y ayudé a organizar el trabajo en base a metas semanales que garantizaran una entrega coordinada y efectiva del proyecto.<br>
 <span class="entry-type">TP:</span> En esta etapa, contribuí al trabajo en equipo facilitando la organización y distribución de tareas relacionadas con el entorno de desarrollo y el proceso de despliegue. También mantuve una comunicación fluida con los demás integrantes para garantizar que los objetivos se alcanzaran dentro de los tiempos acordados.<br>
-<span class="entry-type">TB2:</span> En esta entrega, contribuí a la creación de un entorno más eficiente al adoptar un enfoque estructurado y planificado para la asignación de tareas en **Trello** y la organización de las reuniones. Mi objetivo fue **optimizar la colaboración y la eficiencia del equipo** en el desarrollo del *backend* de gestión de recursos y activos, asegurando que cada miembro tuviera claridad en sus responsabilidades y los recursos necesarios para realizar sus actividades de manera más efectiva y cumplir con las metas del *sprint*.
-<br><br><span class="person-name">Gustavo Huilca Chipana</span><br>
+<span class="entry-type">TB2:</span> En esta entrega, contribuí a la creación de un entorno más eficiente al adoptar un enfoque estructurado y planificado para la asignación de tareas en **Trello** y la organización de las reuniones. Mi objetivo fue **optimizar la colaboración y la eficiencia del equipo** en el desarrollo del *backend* de gestión de recursos y activos, asegurando que cada miembro tuviera claridad en sus responsabilidades y los recursos necesarios para realizar sus actividades de manera más efectiva y cumplir con las metas del *sprint*.<span class="entry-type">TF:</span> Durante esta última fase del proyecto, aporté al fortalecimiento de un ambiente de trabajo participativo y respetuoso, manteniendo una actitud proactiva en las reuniones y adaptándome con flexibilidad a las tareas asignadas. Promoví la comunicación abierta entre los integrantes del equipo, lo que facilitó la definición de objetivos comunes y una mejor organización de las actividades. Asimismo, colaboré en la distribución equitativa de responsabilidades, contribuyendo a una dinámica grupal más cohesionada y eficiente.<br>
+<br><span class="person-name">Gustavo Huilca Chipana</span><br>
 <span class="entry-type">TB1:</span> En este avance del proyecto, me encargué de la organización de las reuniones, así como de la creación y repartición de tareas. En cada reunión, me aseguré de que todos los miembros del equipo tuvieran la oportunidad de expresar sus ideas y opiniones, fomentando un ambiente colaborativo y respetuoso.<br>
 <span class="entry-type">TP:</span> En este avance, hice uso de nuevas herramientas para la distribución de partes en el reporte y los productos a entregar a través de la división por aspectos, asignando líderes y colaboradores en cada aspecto.<br>
 <span class="entry-type">TB2:</span> En esta entrega, mi contribución al entorno colaborativo se manifestó en la **organización y facilitación de talleres de diseño** para la aplicación web y móvil utilizando **Figma**. Fomenté la **participación activa de todos en la ideación y maquetación**, y trabajé en la integración de *feedback* para refinar las interfaces. Estas acciones colaborativas, junto con la gestión de tareas en **Trello**, fueron cruciales para que como equipo **estableciéramos y cumpliéramos nuestras metas de diseño** y desarrollo, asegurando un producto coherente y centrado en el usuario.
+<span class="entry-type">TF:</span> En esta última entrega, **contribuí a la creación de un entorno de trabajo colaborativo e inclusivo** al participar activamente en las reuniones grupales, adaptarme de forma dinámica a las tareas asignadas y fomentar la participación de todos los miembros del equipo. Me aseguré de que cada integrante tuviera la oportunidad de expresar sus ideas y opiniones, lo que permitió una planificación efectiva de las tareas y el establecimiento de metas claras. Además, trabajé en la **repartición de responsabilidades durante las reuniones grupales**, lo que fortaleció nuestra sinergia y sentido de pertenencia como equipo.<br>
 <br><br><span class="person-name">Sebastian Ramirez Hoffmann</span><br>
 <span class="entry-type">TB1:</span> Desde el inicio de esta entrega, **contribuí activamente a la creación de un entorno de trabajo colaborativo e inclusivo**. Me aseguré de **ofrecer oportunidades a mis compañeros para expresarse y compartir sus ideas**, valorando cada aportación. Mi participación en la **planificación activa de tareas** y el apoyo en la **repartición de responsabilidades durante las reuniones grupales** fueron clave para que como equipo **estableciéramos metas claras y cumpliéramos los objetivos propuestos**, fortaleciendo así nuestra sinergia y el sentido de pertenencia.<br>
 <span class="entry-type">TP:</span> Durante este avance, **fomentamos activamente la inclusividad en nuestro trabajo grupal**, asegurando que **todas las ideas fueran consideradas** e integradas en el proyecto, incluso a través de **sesiones de brainstorming en Figma**. **Planificamos las tareas de forma colaborativa** para dividir el trabajo eficientemente, lo que nos permitió **trabajar de manera coordinada y productiva**, **utilizando IntelliJ IDEA y Android Studio para la implementación**. Adicionalmente, **establecimos metas claras para el sprint**, lo cual fue fundamental para **mantenernos enfocados y alcanzar los objetivos** definidos como equipo, consolidando así nuestro entorno de colaboración.
+<span class="entry-type">TB2:</span> En esta entrega, **contribuí a la creación de un entorno colaborativo e inclusivo** al participar activamente en las reuniones grupales y adaptarme de forma dinámica a las tareas asignadas. Me aseguré de que cada integrante tuviera la oportunidad de expresar sus ideas y opiniones, lo que permitió una planificación efectiva de las tareas y el establecimiento de metas claras. Además, trabajé en la **repartición de responsabilidades durante las reuniones grupales**, lo que fortaleció nuestra sinergia y sentido de pertenencia como equipo.<br>
+<span class="entry-type">TF:</span> Durante esta entrega, lideré la implementación de un sistema de <strong>CRM</strong> (Customer Relationship Management), promoviendo una comunicación constante y efectiva entre los diferentes equipos involucrados en el proyecto. Trabajé estrechamente con los responsables de cada área para integrar sus aportes, optimizando el flujo de trabajo y asegurando que el sistema CRM cumpliera con las expectativas del proyecto. <br><br>
+Fomenté un ambiente colaborativo e inclusivo, donde se valoraron todas las ideas, creando espacios para la retroalimentación continua y la toma de decisiones en conjunto. Este enfoque permitió identificar y abordar mejoras clave en la <strong>interfaz web</strong>, brindando una experiencia más fluida y amigable para los usuarios. <br><br>
+Además, participé activamente en la <strong>definición de metas claras</strong> y alcanzables para el proyecto, garantizando una planificación detallada de tareas y un seguimiento eficaz de los artefactos de requisitos a lo largo del sprint de desarrollo. Mi participación ayudó a asegurar que los objetivos establecidos fueran alcanzados de manera eficiente y en colaboración con todo el equipo. <br>
 </td>
 <td class="final-comment-column">El equipo logró cumplir con los objetivos propuestos, la planificación y el establecimiento de tareas, junto con la construcción de un ambiente colaborativo, demostrando satisfactoriamente el cumplimiento de estos criterios en las reuniones grupales y durante el desarrollo del documento.</td>
 </tr>
@@ -1619,18 +1829,18 @@ Características Subjetivas:
 **Segmento 1:** 
 <p>Maria Rodriguez es una usuaria doméstica que busca mantener su hogar armonioso y sus plantas saludables. Necesita una herramienta tecnológica que le facilite saber cuándo regar y cuidar sus plantas sin conocimientos avanzados. Su principal desafío es optimizar el tiempo dedicado al cuidado de sus plantas y evitar pérdidas por falta de monitoreo adecuado.</p>
 
-<img src="../assets/user-personas/segmento-domestico.png"/>
+<img src="../assets/user-personas/segmento-domestico.png" alt="Información user persona segmento domestico"/>
 
 **Segmento 2:** 
 
 <p>Antonio Belaunde es un ingeniero agrónomo con amplia experiencia en manejo y cuidado de plantas, que busca aplicar su conocimiento en proyectos tecnológicos. Necesita una plataforma que le permita compartir recomendaciones prácticas y participar en iniciativas de agricultura sostenible. Su principal reto es encontrar oportunidades para aplicar su expertise en soluciones innovadoras.</p>
 
-<img src="../assets/user-personas/segmento-negocio.png"/>
+<img src="../assets/user-personas/segmento-negocio.png" alt="Información user persona segmento negocio"/>
 
 **Segmento 3:** 
 
 <p>Antonio Belaunde es un ingeniero agrónomo con amplia experiencia en manejo y cuidado de plantas, que busca aplicar su conocimiento en proyectos tecnológicos. Necesita una plataforma que le permita compartir recomendaciones prácticas y participar en iniciativas de agricultura sostenible. Su principal reto es encontrar oportunidades para aplicar su expertise en soluciones innovadoras.</p>
-<img src="../assets/user-personas/segmento-especialista.png"/>
+<img src="../assets/user-personas/segmento-especialista.png" alt="Información user persona segmento especialista"/>
 
 ---
 
@@ -3355,7 +3565,7 @@ La arquitectura muestra cómo el sistema central se comunica con usuarios (domé
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
-<img src="../assets/container-diagram/container-diagran.png" alt="EcoGaurdian Container Diagram"/>
+<img src="../assets/container-diagram/container-diagram.png" alt="EcoGaurdian Container Diagram"/>
 
 **Descripción**
 La arquitectura por contenedores distribuye la lógica del sistema entre aplicaciones web, móviles, embebidas y edge, que se comunican con un backend central vía API REST. Esta estructura permite procesar datos locales, enviar notificaciones, controlar hardware IoT y gestionar pagos de forma eficiente.
@@ -6518,14 +6728,15 @@ En esta sección se muestran los diagramas de componentes de los diferentes prod
 
 Web App:
 
-<img src="/assets/component-diagrams/structurizr-101372-AssetsBCWebApp.png" alt="Assets Component Diagram on Web App" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-AssetsBCWebApp.png" alt="Assets Component Diagram on Web App" width="600"/>
 
 Backend:
 
-<img src="/assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="350"/>
+<img src="../assets/component-diagrams/structurizr-101372-AssetsSystem.png" alt="Assets Component Diagram on Backend" width="600"/>
 
 Mobile:
-<img src="/assets/component-diagrams/structurizr-101372-AssetsBoundedContextonMobileApp.png" alt="Assets Component Diagram on Mobile App" width="350"/>
+
+<img src="../assets/component-diagrams/structurizr-101372-AssetsBoundedContextonMobileApp.png" alt="Assets Component Diagram on Mobile App" width="350"/>
 
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
@@ -8403,8 +8614,6 @@ Los aspectos que se tomaron en cuenta fueron en base a los bounded context ident
 
 ## 6.2.2. Sprint 2
 ### 6.2.2.1. Sprint Planning 2.
-
-<p>Para el segundo sprint se planificó continuar con el desarrollo de la aplicación web, enfocándose en la implementación de nuevas funcionalidades y mejoras basadas en los comentarios recibidos durante la revisión del primer sprint. Además, se realizaron las primeras ver
 
 <p>Para el segundo sprint se planificó continuar con el desarrollo de la aplicación web, enfocándose en la implementación de nuevas funcionalidades y mejoras basadas en los comentarios recibidos durante la revisión del primer sprint. Además, se realizaron las primeras versiones de la aplicación móvil, edge y embebida.</p>
 
@@ -12212,13 +12421,808 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 <p>Edge: El equipo se centró en la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil. Trabajaron en la optimización del procesamiento de datos para garantizar una respuesta rápida y precisa a las consultas de los usuarios.</p>
 <img src="../assets/sprint2/team-collab/sprint-2-edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
 
-### 6.3.2. Registro de Entrevistas.
+## 6.2.3. Sprint 3
+
+### 6.2.3.1. Sprint Planning 3.
+
+<p>Para el tercer sprint se planificó continuar y concluir con el desarrollo de los distintos productos de la solución, enfocándonos en la integración de los servicios relacionados a IoT, solución de errores e implementación de funcionalidades secundarias y menores.</p>
+
+| **Sprint #**                    | **Sprint 3**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Date                            | 2025-06-28                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Time                            | 9:00 am                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Location                        | Vía presencial y virtual                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Prepared By                     | Ramirez Hoffman, Sebastian                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting) | Jave Diaz, Mathias Alejandro/ Peña Rivera, Sebastian Manuel/ Huilca Chipana, Gustavo / Kunimoto Watanabe Mathias Tsuneo / Esteban Garcia Nicolas Sebastian / Luna Capuñay, Italo D'alessandro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 2 Review Summary         | Durante el Sprint 2 se desarrolló el flujo principal de visualización de datos, monitoreo de plantas, consultas e instalación de las aplicaciones web, mobile, backend, embedded y edge.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Sprint 2 Retrospective Summary  | Se determinó que, para el siguiente sprint, se debe corregir el diseño de los flujos para que vayan más acordes con las user stories.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Sprint 2 Goal                   | El objetivo de este sprint se enfoca en ofrecer a los usuarios consumidores la edición de umbrales de plantas y plantaciones, visualización de notificaciones y consumo de recursos, seguimiento de orden, visualización y edición de perfil. A los usuarios especialistas se les ofrece la visualización y gestión de preguntas en la aplicación móvil. Además, a los developers se les ofrece los promedios de las métricas. Finalmente, a los device makers, se les ofrece la configuración de los parámetros de los dispositivos IoT y el monitoreo de la conexión de estos dispositivos.<br><br>Creemos que esto ofrecerá la personalización de parámetros de cuidado de las plantas, visualización y configuración del perfil del usuario, la visualización del estado de las plantas a través de notificaciones e información sobre el consumo de energía del sistema, y la resolución de preguntas y consultas desde la aplicación móvil.<br><br>Esto podrá ser confirmado cuando los usuarios consumidores puedan editar los umbrales de humedad, luz y temperatura de cada planta o plantación, reciban notificaciones sobre el monitoreo de las plantas y puedan visualizar y gestionar su perfil de usuario. Además, se confirmará cuando los usuarios especialistas puedan realizar la gestión y respuesta de las consultas desde la aplicación móvil, cuando los developers puedan gestionar las api keys de forma segura y los device makers puedan monitorear y configurar los dispositivos IoT. |
+| Sprint 2 Velocity               | 59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sum of Story Points             | 117                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+### 6.2.3.2 . Aspect Leaders and Collaborators.
+<p>Para el tercer sprint, se definieron los siguientes líderes de aspecto y colaboradores:</p>
+
+| Team Member (Last Name, First Name) | Github Username | Operation and monitoring | Analytics | Consulting / CRM | Subscriptions and payments | Service Design And Planning | Profiles and Preferences | Asset and Resource Management | IAM |
+|-------------------------------------|-----------------|--------------------------|-----------|------------------|----------------------------|-----------------------------|--------------------------|-------------------------------|-----|
+| Huilca Chipana, Gustavo             | GustavoHuilca31 | C                        | L         | C                |                            | L                           |                          |                               |     |
+| Jave Diaz Mathias Alejandro         | LordMathi2741   | L                        | C         | C                |                            |                             |                          |                               | C   |
+| Esteban Garcia Nicolas Sebastian    | Nekolas777      | C                        |           | C                | L                          | C                           |                          |                               |     |
+| Luna Capuñay Italo D'alessandro     | tatoft          | C                        |           | C                | C                          |                             |                          |                               | L   |
+| Kunimoto Watanabe Mathias Tsuneo    | Kuni2005        | C                        | C         |                  |                            |                             | C                        | L                             |     |
+| Ramirez Hoffmann Sebastian          | SEBRH           | C                        | C         | L                |                            | C                           |                          |                               |     |
+| Peña Rivera Manuel Sebastian        | U202210138      | C                        |           |                  | C                          |                             | L                        | C                             |     |
+
+
+### 6.2.3.3. Sprint Backlog 3.
+
+<p>En el Sprint 3 se definió como objetivo principal la implementación de las funcionalidades de edición de umbrales de plantas y plantaciones, visualización de notificaciones y consumo de recursos, seguimiento de orden, visualización y edición de perfil, gestión de preguntas en la aplicación móvil, promedios de métricas para developers, configuración de parámetros de dispositivos IoT y monitoreo de conexión.</p>
+
+<img src="../assets/sprint3/backlog/backlog3.png" alt="sprint-3-backlog.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Enlace al Board en Trello: [Sprint 3 Backlog](https://trello.com/invite/b/6809cfa78e65f2477912555c/ATTI0e19e29e02410d6333d7bf71543f96f8662BD460/ecoguardian)
+
+<table border="1"> 
+  <thead> 
+    <tr> 
+      <th>User Story ID</th> 
+      <th>User Story Title</th> 
+      <th>Work-Item / Task Id</th> 
+      <th>Work-Item / Task Title</th> 
+      <th>Description</th> 
+      <th>Estimation (Hours)</th> 
+      <th>Assigned To</th> 
+      <th>Status (To-do / InProcess / ToReview / Done)</th> 
+    </tr> 
+  </thead> 
+  <tbody> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T01</td> 
+      <td>Integración y configuración de método JWT en Backend</td> 
+      <td>Configurar bibliotecas JWT e implementar la generación de tokens seguros en el backend.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T02</td> 
+      <td>Implementar validación y manejo de tokens expirados</td> 
+      <td>Validar tokens en cada request y manejar correctamente los casos de expiración.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS04</td> 
+      <td>Implementación de autenticación con JWT</td> 
+      <td>TS04-T03</td> 
+      <td>Implementar renovación automática de tokens</td> 
+      <td>Implementar sistema de refresh tokens y manejo de sesiones activas.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T01</td> 
+      <td>Uso de variables de entorno y uso de estas en deployment</td> 
+      <td>Configurar archivos .env y su uso seguro en cada ambiente de despliegue.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T02</td> 
+      <td>Implementar sistema de rotación de API Keys</td> 
+      <td>Implementar mecanismos para la rotación automática y segura de las API Keys.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS05</td> 
+      <td>Gestión segura de API Keys en variables de entorno</td> 
+      <td>TS05-T03</td> 
+      <td>Validación y control de acceso a API Keys</td> 
+      <td>Establecer restricciones y logs de acceso a las API Keys por componente.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T01</td> 
+      <td>Integración y configuración de método RBAC en Backend</td> 
+      <td>Diseñar e implementar la estructura de roles y permisos en la base de datos y backend.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T02</td> 
+      <td>Implementar definición y aplicación de roles</td> 
+      <td>Desarrollar el sistema de asignación y validación de permisos por funcionalidad.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS06</td> 
+      <td>Implementación de políticas de acceso y roles</td> 
+      <td>TS06-T03</td> 
+      <td>Implementar prevención de escalación de privilegios</td> 
+      <td>Implementar validaciones de seguridad y controles automáticos para prevenir escalación de privilegios.</td> 
+      <td>3</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T01</td> 
+      <td>Validación de cambios de contraseña al recibir edición de datos de perfil móvil</td> 
+      <td>Implementar la validación para cambios de contraseña al editar el perfil de usuario móvil.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T02</td> 
+      <td>Manejo de error por contraseña actual incorrecta en el cambio de contraseña móvil</td> 
+      <td>Implementar manejo de errores como contraseña actual incorrecta en el cambio de contraseña móvil.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU44</td> 
+      <td>Cambio de contraseña móvil</td> 
+      <td>HU44-T03</td> 
+      <td>Implementación de opción de recuperación de contraseña desde el flujo de cambio en móvil</td> 
+      <td>Implementar opción de recuperación de contraseña y asegurar feedback claro en todos los casos.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T01</td> 
+      <td>Integración de método MFA en Backend</td> 
+      <td>Configura y habilita el método de autenticación MFA en el backend para los usuarios.</td> 
+      <td>5</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T02</td> 
+      <td>Validar código MFA y permitir acceso</td> 
+      <td>Valida el código MFA ingresado por el usuario y permite el acceso si es correcto.</td> 
+      <td>2</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>TS01</td> 
+      <td>Autenticación usando MFA</td> 
+      <td>TS01-T03</td> 
+      <td>Manejar errores e intentos fallidos de MFA</td> 
+      <td>Gestiona los errores y bloqueos por intentos fallidos de autenticación MFA, siguiendo las reglas de seguridad.</td> 
+      <td>1</td> 
+      <td>Italo Luna</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T01</td> 
+      <td>Definición del proceso de asignación de especialista</td> 
+      <td>Definir y documentar el proceso para asignar un especialista externo a la orden de instalación, de acuerdo con los criterios del negocio.</td> 
+      <td>1</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T02</td> 
+      <td>Implementación de la asignación de especialista en el sistema</td> 
+      <td>Desarrollar la funcionalidad para que el sistema permita asignar un especialista externo a la orden de instalación, según los criterios definidos.</td> 
+      <td>2</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU17</td> 
+      <td>Continuar el proceso de orden de agregar plantación/planta asignando un especialista para la instalación (externo)</td> 
+      <td>HU17-T03</td> 
+      <td>Notificación y manejo de especialista no disponible</td> 
+      <td>Implementar la lógica para notificar y gestionar la no disponibilidad de un especialista, permitiendo la reasignación o notificación al usuario sobre la necesidad de un nuevo especialista.</td> 
+      <td>3</td> 
+      <td>Gustavo Huilca</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T01</td> 
+      <td>Implementación de widget para visualizar estado de orden según pago</td> 
+      <td>Implementar un widget en la aplicación móvil que permita al usuario visualizar el estado de su orden y si requiere pago.</td> 
+      <td>3</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T02</td> 
+      <td>Implementación de notificaciones push por cambio de estado de orden</td> 
+      <td>Implementar las notificaciones push para que el usuario reciba avisos y vea la actualización en tiempo real cuando cambie el estado de cualquier orden.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU20</td> 
+      <td>Seguimiento de orden móvil</td> 
+      <td>HU20-T03</td> 
+      <td>Implementación de la visualización de detalles y progreso de la orden en la aplicación</td> 
+      <td>Mostrar información actualizada, próximos pasos y detalles de cada orden al usuario móvil.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T01</td> 
+      <td>Implementación de componente para visualizar estado de orden de pago</td> 
+      <td>Crear e integrar el componente que permita visualizar el estado actual de una orden, mostrando información actualizada y detalles de progreso, sin incluir la opción de pago.</td> 
+      <td>3</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T02</td> 
+      <td>Implementación de notificaciones de cambio de estado</td> 
+      <td>Desarrollar el sistema de notificaciones push para informar al usuario de cambios en el estado de sus órdenes activas, actualizando la información en tiempo real y permitiendo ver los detalles del cambio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU21</td> 
+      <td>Seguimiento de orden web</td> 
+      <td>HU21-T03</td> 
+      <td>Redirección a plataforma web para acciones de pago</td> 
+      <td>Implementar la lógica que, al detectar una orden que requiere acción de pago, redirija al usuario a la plataforma web correspondiente para completar el proceso fuera del seguimiento web.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T01</td> 
+      <td>Implementación de cartera de pagos en Backend para procesos de pago</td> 
+      <td>Implementar la lógica y endpoints necesarios en el backend para gestionar la cartera de pagos del usuario, permitiendo la selección y administración de distintos métodos de pago.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T02</td> 
+      <td>Implementación de componente para mostrar métodos de pago</td> 
+      <td>Crear e integrar el componente UI para que el usuario pueda ver y seleccionar entre sus métodos de pago guardados.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU26</td> 
+      <td>Cartera de pagos</td> 
+      <td>HU26-T03</td> 
+      <td>Integración y pruebas de selección de método de pago</td> 
+      <td>Integrar la selección de método de pago en el flujo de pago y realizar pruebas de funcionalidad.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T01</td> 
+      <td>Implementación de componente para visualizar historial de pago</td> 
+      <td>Desarrollar el componente visual que muestre la lista cronológica de todas las transacciones, permitiendo filtrar por fecha, monto o tipo de servicio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T02</td> 
+      <td>Implementación de filtros de búsqueda para historial de pagos</td> 
+      <td>Implementar los filtros para búsqueda específica de transacciones dentro del historial, facilitando la localización de pagos concretos y la generación de comprobantes detallados.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU27</td> 
+      <td>Historial de pagos web</td> 
+      <td>HU27-T03</td> 
+      <td>Generación y descarga de comprobantes de pago</td> 
+      <td>Permitir la generación y descarga de comprobantes detallados desde el historial de pagos.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T01</td> 
+      <td>Implementación de widget para visualizar historial de pago</td> 
+      <td>Crear el widget visual para la app móvil que muestre la lista cronológica de transacciones y permita filtrar por fecha, monto o tipo de servicio.</td> 
+      <td>2</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T02</td> 
+      <td>Implementación de filtros de búsqueda para historial de pagos móvil</td> 
+      <td>Implementar los filtros de búsqueda específica en el historial de pagos en la app móvil para localizar transacciones fácilmente.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU28</td> 
+      <td>Historial de pagos móvil</td> 
+      <td>HU28-T03</td> 
+      <td>Generación y descarga de comprobantes desde la app móvil</td> 
+      <td>Permitir la generación y descarga de comprobantes de pago desde la aplicación móvil.</td> 
+      <td>1</td> 
+      <td>Nicolas Estaban</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T01</td> 
+      <td>Integrar registro de IoT a edge app y sistema</td> 
+      <td>Integrar el registro de nuevos dispositivos IoT al sistema y la edge app, asegurando la configuración automática y la comunicación con la red (EdgeNode).</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T02</td> 
+      <td>Implementar gestión de dispositivos inactivos</td> 
+      <td>Desarrollar la lógica para detectar dispositivos inactivos y notificar a la edge application cuando se detecte la desconexión.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU29</td> 
+      <td>Registro y gestión de dispositivos IoT</td> 
+      <td>HU29-T03</td> 
+      <td>Registro de información y monitoreo de estado</td> 
+      <td>Implementar el registro continuo de información y el monitoreo del estado de los dispositivos registrados.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T01</td> 
+      <td>Integrar la configuración de parámetros al dispositivo IoT</td> 
+      <td>Desarrollar la función para integrar y aplicar la configuración de parámetros (umbrales, frecuencia, rango) a cada dispositivo IoT.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T02</td> 
+      <td>Implementar UI para configuración personalizada</td> 
+      <td>Crear la interfaz de usuario que permita a los makers ajustar los parámetros de configuración de los dispositivos.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU30</td> 
+      <td>Configuración de parámetros de dispositivos IoT</td> 
+      <td>HU30-T03</td> 
+      <td>Confirmación y monitoreo de nueva configuración</td> 
+      <td>Desarrollar la lógica para confirmar la recepción y aplicación de los nuevos parámetros por parte del dispositivo y monitorear los cambios.</td> 
+      <td>1</td> 
+      <td>Mathias Kunimoto</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T01</td> 
+      <td>Formulario de edición de datos personales</td> 
+      <td>Permitir al usuario visualizar y editar sus datos personales (nombre, username, correo, imagen de perfil) desde la app móvil. Validar que los campos requeridos estén completos antes de guardar.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T02</td> 
+      <td>Actualización y guardado de los datos personales</td> 
+      <td>Al guardar, el sistema debe validar la información ingresada por el usuario. Si es válida, actualizar los datos en el perfil y mostrar confirmación.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU42</td> 
+      <td>Edición de datos personales móvil</td> 
+      <td>HU42-T03</td> 
+      <td>Validación de duplicados</td> 
+      <td>Verificar que el email y username no estén registrados previamente por otro usuario. Si existe duplicidad, mostrar mensaje de error evitando la actualización.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T01</td> 
+      <td>Configuración de notificaciones push</td> 
+      <td>Permitir al usuario configurar sus preferencias de notificaciones push desde la app móvil y seleccionar qué tipos de alertas desea recibir.</td> 
+      <td>2</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T02</td> 
+      <td>Recepción y visualización de notificaciones push</td> 
+      <td>Implementar la recepción de notificaciones push en el dispositivo móvil y mostrar las notificaciones recibidas al usuario según sus preferencias.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU52</td> 
+      <td>Recepción de notificaciones push en móvil</td> 
+      <td>HU52-T03</td> 
+      <td>Gestión y actualización de preferencias de notificación</td> 
+      <td>Permitir que el usuario pueda modificar sus preferencias de notificación posteriormente y actualizar el sistema para reflejar los cambios.</td> 
+      <td>1</td> 
+      <td>Manuel Peña</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T01</td> 
+      <td>Visualización de notificaciones registradas en cards y widgets</td> 
+      <td>Permitir al usuario visualizar las notificaciones registradas en formato de card y widgets dentro de la app móvil, mostrando información relevante.</td> 
+      <td>3</td> 
+      <td>Mathias Jave</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T02</td> 
+      <td>Filtros y gestión multiplataforma de notificaciones</td> 
+      <td>Permitir al usuario filtrar las notificaciones por tipo de alerta o nivel de prioridad, mostrando alertas sincronizadas entre plataformas.</td> 
+      <td>1</td> 
+      <td>Mathias Jave</td> 
+      <td>Done</td> 
+    </tr> 
+    <tr> 
+      <td>HU51</td> 
+      <td>Visualización de notificaciones en móvil</td> 
+      <td>HU51-T03</td> 
+      <td>Historial, tendencias y análisis de notificaciones</td> 
+      <td>Permitir acceso al historial de notificaciones para revisar alertas pasadas, mostrando tendencias y patrones recurrentes.</td> 
+      <td>1</td> 
+      <td>Mathias Jave</td> 
+      <td>Done</td> 
+    </tr> 
+  </tbody> 
+</table>
+
+### 6.2.3.4 Development Evidence for Sprint Review.
+En esta sección se presentan las evidencias de desarrollo del Sprint 3, incluyendo los commits realizados en el repositorio de GitHub, que reflejan el progreso y las implementaciones realizadas durante el sprint.
+
+| **Repository**                                     | **Branch** | **Commit Id** | **Commit Message**                                                                                       | **Commit Message Body** | **Commited on (Date)**         |
+|----------------------------------------------------|------------|---------------|----------------------------------------------------------------------------------------------------------|-------------------------|--------------------------------|
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | c437e7b       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Sun Jul 6 12:01:07 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 0856a48       | Add update and query endpoints for orders                                                                |                         | Sun Jul 6 10:38:23 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 1d12b8d       | feat(crm): added endpoit  for get all specialist answers                                                 |                         | Sun Jul 6 10:30:25 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 63961f1       | feat(analytics): added threshold validation for create notification                                      |                         | Sun Jul 6 01:11:07 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 6597376       | docs: renamed plant resource path                                                                        |                         | Sun Jul 6 00:05:07 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 156ef6f       | feat: Added integration tests for PlantController                                                        |                         | Sat Jul 5 19:25:25 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | dbaeb01       | feat: Added unit tests for PlantController                                                               |                         | Sat Jul 5 19:17:51 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | b09f14a       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Sat Jul 5 15:02:44 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 7b70d36       | feat(monitoring): added get plants by user id unit test                                                  |                         | Sat Jul 5 12:21:57 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | d7b0e82       | feat(monitoring): added monitoring unit tests                                                            |                         | Sat Jul 5 12:15:55 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | bcf9b00       | feat(payment): change ReferenceType to string and update related commands and resources It autocompletes |                         | Sat Jul 5 05:53:44 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | e1948fb       | Return created entity with ID in plant and device APIs                                                   |                         | Fri Jul 4 17:45:34 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | cf66034       | fix: some small fixes to the aggregation logic                                                           |                         | Fri Jul 4 03:15:31 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 8da091b       | hotfix: fixed critical error for generating metrics                                                      |                         | Fri Jul 4 03:15:31 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 873c411       | feat: validation in order to avoid registering a profile with another profile's email                    |                         | Thu Jul 3 23:32:51 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | eccca9a       | feat(profile): update profile commands and services to handle avatar image uploads                       |                         | Thu Jul 3 23:07:48 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | ec0d3fc       | Merge branch 'develop' of https://github.com/wemade-IoT/EcoGuardian-Backend into develop                 |                         | Thu Jul 3 20:23:25 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | fcfaf98       | hofix: changed username for LastName (Database had username as the last name                             |                         | Thu Jul 3 20:23:22 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 250d071       | feat(analytics): add metric registries periodical processing.                                            |                         | Thu Jul 3 16:44:48 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | be1c3c3       | Merge branch 'develop' of https://github.com/wemade-IoT/EcoGuardian-Backend into develop                 |                         | Wed Jul 2 23:55:12 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 2f5118f       | feat: enhance image upload parameters with overwrite and allowed formats                                 |                         | Wed Jul 2 23:55:07 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 4be5c58       | fix(analytics): correct metric relationships                                                             |                         | Wed Jul 2 23:16:07 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | ae7554e       | chore: integrated cloudinary                                                                             |                         | Wed Jul 2 08:46:58 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 7eda2d1       | feat: added get plant by Id query (Required for CRM and further functions)                               |                         | Tue Jul 1 23:28:03 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 086e9df       | feat: changed return value from 500 o an empty list                                                      |                         | Tue Jul 1 21:01:16 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | f8c3934       | fix: changed segment for device auth                                                                     |                         | Tue Jul 1 16:39:28 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 0df3c1d       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Tue Jul 1 11:10:56 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 3474da4       | fix: add mising metric type                                                                              |                         | Tue Jul 1 11:09:09 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 255a5fd       | chore: change deployment environment                                                                     |                         | Tue Jul 1 10:36:52 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 1eca6bb       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Tue Jul 1 10:35:34 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | c273df9       | chore: changed routes namings for allow plural case convention                                           |                         | Mon Jun 30 08:30:08 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | ec975b4       | feat(ProfileAndPreferences): added notification endpoints and comfigure acl for this bc                  |                         | Sun Jun 29 21:26:53 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 6b0ebf2       | feat(analytics): add get latest metrics endpoint                                                         |                         | Sat Jun 28 19:02:57 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 93219f7       | feat(resources): completed resource endpoints                                                            |                         | Mon Jun 23 18:27:14 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 6d64b93       | refactor(resource): changed resource bc structure                                                        |                         | Mon Jun 23 18:01:38 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 7dad5de       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Mon Jun 23 15:43:08 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 2f90129       | fix(resources): clean up device auth                                                                     |                         | Mon Jun 23 15:40:01 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 687cc74       | chore: change to use swagger                                                                             |                         | Wed Jun 18 22:38:17 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | e3633dd       | chore: changed connection strings                                                                        |                         | Wed Jun 18 21:49:46 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | fe5b1a0       | Merge remote-tracking branch 'origin/develop'                                                            |                         | Wed Jun 18 16:33:58 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend  | develop    | 86109dc       | chore: delete compilation files                                                                          |                         | Wed Jun 18 16:32:11 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 987af8a       | fix: correct endpoint resource name                                                                      |                         | Sat Jul 5 17:51:10 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | b6c1c93       | fix: corrected backend metric pushing                                                                    |                         | Fri Jul 4 12:27:10 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 51bea8d       | fix: corrected metric push                                                                               |                         | Tue Jul 1 16:40:09 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 2a21aba       | Merge branch 'develop'                                                                                   |                         | Tue Jul 1 15:03:21 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 37205bd       | fix(analytics): corrected auth                                                                           |                         | Tue Jul 1 14:59:08 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 826c66d       | feat(iam): completed device auth                                                                         |                         | Mon Jun 23 17:26:04 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | b496be9       | feat(iam): complete web services conection                                                               |                         | Tue Jun 17 23:46:44 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | f929dce       | feat(analytics): add embedded data fetch                                                                 |                         | Tue Jun 17 12:16:16 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 416146c       | feat(iam): added iam implementation                                                                      |                         | Sun Jun 15 20:17:54 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 395354c       | chore: comfigured analytics blueprint correctly                                                          |                         | Sun Jun 15 19:49:08 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 33e4a6e       | feat(analytics): added analytics implementation                                                          |                         | Sun Jun 15 19:32:21 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 3386e11       | feat(analytics): added analytics implementation                                                          |                         | Sun Jun 15 19:32:01 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | f3a0338       | chore: update .gitignore                                                                                 |                         | Sun Jun 15 15:08:43 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | b356689       | chore: create .gitignore                                                                                 |                         | Sun Jun 15 15:02:01 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Edge     | main       | 2a0d48b       | chore: initial project setup.                                                                            |                         | Sun Jun 15 15:00:15 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Fog      | main       | e0978dd       | feat: add device testing                                                                                 |                         | Sun Jul 6 11:34:41 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Fog      | main       | 82f7f9d       | feat(analytics): add connection to backend                                                               |                         | Sun Jul 6 09:13:49 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Fog      | main       | 54295da       | feat(iam); add device authentication                                                                     |                         | Sat Jul 5 23:16:22 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Fog      | main       | 32f4430       | fix(analytics): correct data validation from edge                                                        |                         | Sat Jul 5 21:19:21 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Fog      | main       | a84d54b       | chore: initial config                                                                                    |                         | Sat Jul 5 20:11:00 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Embedded | main       | 3dcbc74       | fix(analytics): update metrics fetch format                                                              |                         | Fri Jul 4 16:32:23 2025 -0500  |
+| https://github.com/wemade-IoT/EcoGuardian-Embedded | main       | 62a4e25       | chore: initial commit.                                                                                   |                         | Sat Jun 28 09:42:35 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Embedded | main       | e3c0ddb       | Initial commit                                                                                           |                         | Sat Jun 28 09:35:22 2025 -0500 |
+
+
+### 6.2.3.5 Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de las pruebas realizadas durante el Sprint 3, incluyendo principalmente las pruebas unitarias de las funcionalidades core de nuestra aplicación en la herramienta NUNIT. Se han implementado pruebas para los siguientes aspectos:
+
+- **Registro de una nueva planta**: Verifica que el sistema permita registrar una nueva planta con los datos necesarios y que se almacenen correctamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-1.png" alt="Registro de una nueva planta" width="600">
+
+- **Actualización de datos de una planta**: Asegura que el sistema permita actualizar la información de una planta existente y que los cambios se reflejen correctamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-2.png" alt="Actualización de datos de una planta" width="600">
+
+- **Eliminación de una planta**: Comprueba que el sistema permita eliminar una planta y que esta acción se registre adecuadamente en la base de datos.
+
+<img src="../assets/sprint3/testing-suite/unit-test-3.png" alt="Eliminación de una planta" width="600">
+
+- **Consulta de plantas registradas por usuario**: Verifica que el sistema permita a los usuarios consultar las plantas que han registrado, mostrando la información correcta y actualizada.
+
+<img src="../assets/sprint3/testing-suite/unit-test-4.png" alt="Consulta de plantas registradas por usuario" width="600">
+
+- **Verificación de la existencia de un usuario para el registro de una planta**: Asegura que el sistema valide la existencia del usuario antes de permitir el registro de una nueva planta, evitando errores de integridad en la base de datos.
+
+Finalmente, se muestra la tabla de commits relacionados a las pruebas unitarias realizadas durante el Sprint 3.
+
+| Repository                                        | Branch  | Commit Id | Commit Message                                          | Commit Message Body | Commited on (Date)             |
+|---------------------------------------------------|---------|-----------|---------------------------------------------------------|---------------------|--------------------------------|
+| https://github.com/wemade-IoT/EcoGuardian-Backend | develop | bcf9b00   | feat(monitoring): added monitoring unit tests           |                     | Sat Jul 05 11:37:29 2025 -0500 |
+| https://github.com/wemade-IoT/EcoGuardian-Backend | develop | d7b0e82   | feat(monitoring): added get plants by user id unit test |                     | Sat Jul 05 11:50:29 2025 -0500 |
+
+### 6.2.3.6 Execution Evidence for Sprint Review
+
+En este sprint pudimos lograr la implementación del monitoreo de plantas y plantaciones, así como la integración de los servicios de backend con las aplicaciones web y móvil, la visualización, creación y respuesta a consultas de usuarios, y la gestión de órdenes de instalación, pagos y suscripciones. Finalmente se logró la implementación de la recopilación de datos de sensores de humedad, luz y temperatura, asegurando que los dispositivos IoT pudieran comunicarse efectivamente con las aplicaciones web y móvil.
+A continuación se presentan capturas de pantalla de las funcionalidades principales funcionales implementadas en el Sprint 3:
+
+Aplicación web:
+
+<img src="../assets/sprint3/execution/web1.png" alt="sprint-3-web-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/web2.png" alt="sprint-3-web-evidence2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/web3.png" alt="sprint-3-web-evidence3.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Móvil:
+
+<img src="../assets/sprint3/execution/mobile1.jpeg" alt="sprint-3-mobile-evidence.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile2.jpeg" alt="sprint-3-mobile-evidence2.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile3.jpeg" alt="sprint-3-mobile-evidence3.png" class="img-fluid" style="width: 100%; height: auto;">
+
+<img src="../assets/sprint3/execution/mobile4.jpeg" alt="sprint-3-mobile-evidence4.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Embebida:
+
+<img src="../assets/sprint3/execution/sprint-3-embedded-evidence.png">
+
+Aplicación Edge:
+
+<img src="../assets/sprint2/exce/edge.png" alt="sprint-2-edge.png" class="img-fluid" style="width: 100%; height: auto;">
+
+Aplicación Fog:
+
+<img src="../assets/sprint3/execution/fog.png">
+
+Web Services:
+
+<img src="../assets/sprint3/execution/sprint-3-web-service-evidence.png">
+
+Finalmente se presenta el video de ejecución de las funcionalidades principales del Sprint 3.
+
+<img src="../assets/sprint2/exce/excecution-vide.png" alt="sprint-2-execution-video.png" class="img-fluid" style="width: 100%; height: auto;">
+
+
+Enlace del video: [Video de Ejecución del Sprint 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EXPjByQS9ZdBpppPsxTOyAQBJyBTj03tjY2Y1MgA0jAEDA?e=mb6Rqv)
+
+### 6.2.3.7 Services Documentation Evidence for Sprint Review
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint.
+
+En la versión actual del backend de EcoGuardian, se han implementado y documentado los siguientes endpoints RESTful, cubriendo los servicios de autenticación, gestión de dispositivos, órdenes, pagos, suscripciones, plantas, perfiles de usuario, métricas, notificaciones y preguntas/respuestas. Los endpoints permiten a los usuarios autenticarse, registrar y actualizar perfiles, crear y consultar dispositivos y plantas, gestionar órdenes y pagos (incluyendo intents y confirmaciones), administrar suscripciones, consultar métricas por dispositivo y periodo, recibir notificaciones y participar en el módulo de preguntas y respuestas. Cada endpoint está protegido según el rol del usuario y soporta operaciones CRUD donde corresponde. La implementación incluye manejo de parámetros por ruta, query y body, respuestas estructuradas y manejo adecuado de errores y estados HTTP. Además, se han añadido endpoints específicos para operaciones como obtener métricas más recientes, listar pagos por tipo de suscripción, registrar respuestas a preguntas y obtener notificaciones por perfil, asegurando una cobertura funcional completa y alineada con las necesidades de la solución.
+
+A continuación se presenta una tabla con los endpoints, acciones implementadas, verbo HTTP, sintaxis, parámetros, ejemplo de response y los commits relacionados:
+
+
+| Endpoint                                            | Acción                                    | Verbo HTTP | Sintaxis                                                  | Parámetros                                            | Ejemplo de Response                                     | Notas |
+|-----------------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------|-------------------------------------------------------|---------------------------------------------------------|-------|
+| /api/v1/devices                                     | Crear dispositivo                         | POST       | /api/v1/devices                                           | Body: Type, Voltage, PlantId                          | `{ "message": "Device created successfully", "id": 1 }` |       |
+| /api/v1/devices/{id}                                | Actualizar dispositivo                    | PUT        | /api/v1/devices/{id}                                      | Path: id, Body: Type, Voltage, DeviceStateId, PlantId | `true`                                                  |       |
+| /api/v1/devices                                     | Listar dispositivos por planta            | GET        | /api/v1/devices?plantId=1                                 | Query: plantId                                        | `[ { ... } ]`                                           |       |
+| /api/v1/orders                                      | Crear orden                               | POST       | /api/v1/orders                                            | Body: Action, ConsumerId, InstallationDate, Details   | `true`                                                  |       |
+| /api/v1/orders/{id}                                 | Actualizar orden                          | PUT        | /api/v1/orders/{id}                                       | Path: id, Body: Action, StateId, ConsumerId, ...      | `true`                                                  |       |
+| /api/v1/orders                                      | Listar órdenes por consumidor             | GET        | /api/v1/orders?consumerId=1                               | Query: consumerId                                     | `[ { ... } ]`                                           |       |
+| /api/v1/payments                                    | Crear pago                                | POST       | /api/v1/payments                                          | Body: PaymentIntentId, PaymentMethodId, ...           | `{ ... }`                                               |       |
+| /api/v1/payments/all                                | Listar todos los pagos                    | GET        | /api/v1/payments/all                                      | -                                                     | `[ { ... } ]`                                           |       |
+| /api/v1/payments/confirm-payment-intent             | Confirmar intent de pago                  | POST       | /api/v1/payments/confirm-payment-intent                   | Body: PaymentIntentId                                 | `true`                                                  |       |
+| /api/v1/payments/payment-intent                     | Crear intent de pago                      | POST       | /api/v1/payments/payment-intent                           | Body: Amount, Currency, PaymentMethodId               | `{ "ClientSecret": "..." }`                             |       |
+| /api/v1/payments/{userId}                           | Listar pagos por usuario                  | GET        | /api/v1/payments/{userId}                                 | Path: userId                                          | `[ { ... } ]`                                           |       |
+| /api/v1/payments/subscription-type                  | Listar pagos por tipo de suscripción      | GET        | /api/v1/payments/subscription-type?subscriptionType=Premium | Query: subscriptionType                               | `[ { ... } ]`                                           |       |
+| /api/v1/subscriptions                               | Crear suscripción                         | POST       | /api/v1/subscriptions                                     | Body: UserId, SubscriptionTypeId, ...                 | `{ ... }`                                               |       |
+| /api/v1/subscriptions                               | Listar todas las suscripciones            | GET        | /api/v1/subscriptions                                     | -                                                     | `[ { ... } ]`                                           |       |
+| /api/v1/subscriptions/user/{userId}                 | Obtener suscripción por usuario           | GET        | /api/v1/subscriptions/user/{userId}                       | Path: userId                                          | `{ ... }`                                               |       |
+| /api/v1/subscriptions/id/{subscriptionId}           | Obtener suscripción por id                | GET        | /api/v1/subscriptions/id/{subscriptionId}                 | Path: subscriptionId                                  | `{ ... }`                                               |       |
+| /api/v1/plants                                      | Crear planta                              | POST       | /api/v1/plants                                            | Form: Name, Image, Type, AreaCoverage, ...            | `{ "message": "Planta creada exitosamente", "id": 1 }`  |       |
+| /api/v1/plants/{id}                                 | Actualizar planta                         | PUT        | /api/v1/plants/{id}                                       | Path: id, Body: Name, Type, ...                       | `true`                                                  |       |
+| /api/v1/plants/{id}                                 | Eliminar planta                           | DELETE     | /api/v1/plants/{id}                                       | Path: id                                              | `true`                                                  |       |
+| /api/v1/plants                                      | Listar plantas por usuario                | GET        | /api/v1/plants?userId=1                                   | Query: userId                                         | `[ { ... } ]`                                           |       |
+| /api/v1/plants/{id}                                 | Obtener planta por id                     | GET        | /api/v1/plants/{id}                                       | Path: id                                              | `{ ... }`                                               |       |
+| /api/v1/profiles                                    | Crear perfil                              | POST       | /api/v1/profiles                                          | Body: Name, LastName, Address, AvatarUrl              | `true`                                                  |       |
+| /api/v1/profiles/{id}                               | Actualizar perfil                         | PUT        | /api/v1/profiles/{id}                                     | Path: id, Form: Name, LastName, Address, AvatarUrl    | `true`                                                  |       |
+| /api/v1/profiles                                    | Obtener perfil por email                  | GET        | /api/v1/profiles?email=mail@dominio.com                   | Query: email                                          | `{ ... }`                                               |       |
+| /api/v1/notifications                               | Listar notificaciones por perfil          | GET        | /api/v1/notifications?profileId=1                         | Query: profileId                                      | `[ { ... } ]`                                           |       |
+| /api/v1/metric-registries                           | Crear métrica                             | POST       | /api/v1/metric                                            | Body: DeviceId, Metrics                               | `true`                                                  |       |
+| /api/v1/metric-registries                           | Listar métricas por dispositivo o periodo | GET        | /api/v1/metric?deviceId=1[&period=yearly]                 | Query: deviceId, period                               | `[ { ... } ]`                                           |       |
+| /api/v1/metric-registries/devices/{deviceId}/latest | Obtener última métrica de un dispositivo  | GET        | /api/v1/metric/devices/{deviceId}/latest                  | Path: deviceId                                        | `{ ... }`                                               |       |
+| /api/v1/questions                                   | Registrar pregunta                        | POST       | /api/v1/questions                                         | Form: Title, Content, UserId, PlantId, ImageUrls      | `{ ... }`                                               |       |
+| /api/v1/questions                                   | Listar todas las preguntas                | GET        | /api/v1/questions                                         | -                                                     | `[ { ... } ]`                                           |       |
+| /api/v1/questions/{questionId}                      | Obtener pregunta por id                   | GET        | /api/v1/questions/{questionId}                            | Path: questionId                                      | `{ ... }`                                               |       |
+| /api/v1/questions/user/{userId}                     | Listar preguntas por usuario              | GET        | /api/v1/questions/user/{userId}                           | Path: userId                                          | `[ { ... } ]`                                           |       |
+| /api/v1/questions/plant/{plantId}                   | Listar preguntas por planta               | GET        | /api/v1/questions/plant/{plantId}                         | Path: plantId                                         | `[ { ... } ]`                                           |       |
+| /api/v1/questions/{questionId}/answers              | Listar respuestas por pregunta            | GET        | /api/v1/questions/{questionId}/answers                    | Path: questionId                                      | `[ { ... } ]`                                           |       |
+| /api/v1/questions/{questionId}/answers              | Registrar respuesta a pregunta            | POST       | /api/v1/questions/{questionId}/answers                    | Path: questionId, Body: SpecialistId, AnswerText      | `[ { ... } ]`                                           |       |
+
+**Repositorio:** https://github.com/wemade-IoT/EcoGuardian-Backend
+
+### 6.2.3.8 Software Deployment Evidence for Sprint Review
+
+Despliegue de Backend en Microsoft Azure
+El despliegue del backend de EcoGuardian se realizó en Microsoft Azure bajo el servicio App Service. El nombre de la aplicación es EcoGuardian y se encuentra en ejecución en la región Brazil South. Utiliza el sistema operativo Linux para su funcionamiento. Además, el dominio predeterminado para el servicio es ecoguardian-cgenhdd6dadrgbfz.brazilsouth-01.azurewebsites.net, y se tiene la opción de agregar un dominio personalizado. El plan de servicio es ASP-EcoGuardian-9695 y está configurado para manejar las necesidades de la plataforma con recursos optimizados para su operación.
+
+Detalles importantes:
+
+Estado: En ejecución
+Suscripción: Azure for Students
+Sistema Operativo: Linux
+Plan de Hosting: App Service
+
+<img src="../assets/sprint3/deployments/backend-depllo1.png" alt="Despliegue de Backend en Microsoft Azure" width="600">
+
+<img src="../assets/sprint3/deployments/backend-depllo2.png" alt="Despliegue de Backend en Microsoft Azure" width="600">
+
+Despliegue de Embedded App a través de Arduino IDE
+
+El despliegue de la aplicación Embedded de EcoGuardian se realizó en el microcontrolador ESP32 utilizando el entorno de desarrollo Arduino IDE. El proceso de despliegue incluyó la carga del código fuente en el dispositivo, asegurando que todas las funcionalidades necesarias para la recolección de datos y la comunicación con el backend estuvieran correctamente implementadas.
+
+<img src="../assets/sprint3/deployments/embedded-deploy.jpg" alt="Despliegue de Embedded App a través de Arduino IDE" width="600">
+
+Despliegue de Mobile App en a través de Firebase App Distribution
+
+El despliegue de la aplicación móvil de EcoGuardian se realizó utilizando Firebase App Distribution. Este servicio permite distribuir versiones de la aplicación a testers y usuarios finales de manera eficiente. La aplicación está disponible para dispositivos móviles.
+
+<img src="../assets/sprint3/deployments/mobile.png" alt="Despliegue de Mobile App a través de Firebase App Distribution" width="600">
+
+### 6.2.3.9 Team Collaboration Insights during Sprint 3
+
+Finalmente, se muestran los insights de colaboración del equipo durante el Sprint 3, que reflejan la comunicación y el trabajo conjunto entre los miembros del equipo en los distintos productos y servicios desarrollados.
+
+Frontend: Se trabajó en la implementación de la interfaz de usuario para la gestión de plantas, órdenes, pagos y suscripciones. Se realizaron mejoras en la experiencia del usuario .
+
+<img src="../assets/sprint3/insights/front.png" alt="Colaboración del equipo en Frontend" width="600">
+
+Backend: Se trabajó en la corrección y solución de errores para la gestión de dispositivos, órdenes, pagos y suscripciones, así como métricas y plantas. Se implementaron pruebas unitarias para asegurar la calidad del código y se documentaron los endpoints RESTful utilizando OpenAPI.
+
+<img src="../assets/sprint3/insights/sprint-3-insights-backend.png" alt="Colaboración del equipo en Backend" width="600">
+
+Mobile: Se realizaron correcciones y mejoras en la aplicación móvil, incluyendo la gestión de plantas, órdenes y pagos. 
+
+<img src="../assets/sprint3/execution/mobile.png" alt="Colaboración del equipo en Backend" width="600">
+
+Edge: Se trabajó en la implementación de la aplicación Edge, asegurando la correcta comunicación con el backend y la recolección de datos de los dispositivos IoT. 
+
+<img src="../assets/sprint3/insights/edge.png" alt="Colaboración del equipo en Edge" width="600">
+
+Embedded: Se implementó la aplicación Embedded en el microcontrolador ESP32, asegurando la recolección de datos de sensores y la comunicación con el edge. 
+
+<img src="../assets/sprint3/insights/embedded.png" alt="Colaboración del equipo en Embedded" width="600">
+
+Fog: Se trabajó en la implementación de la aplicación Fog, asegurando la correcta comunicación con el edge y el backend, así como la recolección de datos de los dispositivos IoT.
+
+<img src="../assets/sprint3/insights/fog.png" alt="Colaboración del equipo en Fog" width="600">
+
+
+## 6.3 Entrevistas de Validación
+
+En esta sección se presentan las entrevistas realizadas a los usuarios de EcoGuardian, con el objetivo de validar las funcionalidades implementadas y obtener retroalimentación sobre la experiencia del usuario. Las entrevistas se llevaron a cabo con diferentes segmentos de usuarios: doméstico, empresarial y especialista. A continuación, se detallan las preguntas generales y específicas para cada segmento, así como un resumen de las respuestas obtenidas.
+
+### 6.3.1. Diseño de las Entrevistas.
 
 **Preguntas generales:**
 
-1. ¿Cuál es su nombre?  
-2. ¿Qué edad tiene? 
-3. ¿A qué se dedica? 
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿A qué se dedica?
 4. ¿Qué navegador usa?
 5. ¿Qué dispositivo usa con más frecuencia y de qué marca es?
 6. ¿En qué distrito se encuentra?
@@ -12226,7 +13230,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 
 **Entrevistas usuario segmento (Doméstico)**
 
-1. ¿Consideras que los pasos para el proceso de autenticación son claros desde una primera impresión?	
+1. ¿Consideras que los pasos para el proceso de autenticación son claros desde una primera impresión?
 2. ¿Consideras que el proceso de enviar consultas relacionadas a una planta es fácil de utilizar?
 3. ¿Consideras que es confiable poner una confirmación de pago para saber que el pago fue exitoso?
 4. ¿Consideras que el sistema muestra información detallada sobre el servicio de suscripción y sus beneficios?
@@ -12254,8 +13258,9 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 1. ¿Consideras que la interfaz de visualizar preguntas es intuitiva desde una primera impresión?
 2. ¿Consideras que la aplicación web facilita el acceso a información detallada sobre las plantas registradas por el usuario?
 3. ¿Consideras que el proceso de emitir recomendaciones a los usuarios es simple de utilizar?
-4. ¿Consideras que la aplicación tiene instrucciones claras de cómo gestionar los problemas reportados? 
+4. ¿Consideras que la aplicación tiene instrucciones claras de cómo gestionar los problemas reportados?
 
+### 6.3.2. Registro de Entrevistas.
 
 ## Entrevista de Validación: Segmento Empresarial - Alvaro Jimenez Agapito
 
@@ -12265,7 +13270,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 **Browser:** Google Chrome  
 **Device:** Laptop Toshiba  
 **Distrito:** Miraflores, Lima  
-**Timing:** 25:02  
+**Timing:** 25:02
 
 <center>
 
@@ -12274,7 +13279,7 @@ El despliegue del backend de **EcoGuardian** se realizó en **Microsoft Azure** 
 </center>
 
 ### Resumen:
-Alvaro Jimenez, gestor en el sector agrario, destacó que el proceso de autenticación en la plataforma es claro y directo, permitiendo un acceso rápido y sin complicaciones. En cuanto a la confirmación de pago, considera que es esencial para brindar confianza y seguridad, especialmente en un entorno empresarial donde las transacciones tienen un impacto directo en las operaciones. 
+Alvaro Jimenez, gestor en el sector agrario, destacó que el proceso de autenticación en la plataforma es claro y directo, permitiendo un acceso rápido y sin complicaciones. En cuanto a la confirmación de pago, considera que es esencial para brindar confianza y seguridad, especialmente en un entorno empresarial donde las transacciones tienen un impacto directo en las operaciones.
 Sobre el diseño de la plataforma, opina que es intuitivo y fácil de usar, facilitando la adopción por parte de distintos miembros del equipo sin necesidad de capacitación extensa. La aplicación web muestra información clara sobre el monitoreo de las plantaciones, lo que permite tomar decisiones informadas de manera ágil.
 El proceso de registro de plantas es directo, ahorrando tiempo y evitando errores, y el proceso de selección de fecha para la instalación de sensores es manejable, permitiendo hacer ajustes inmediatos si es necesario. Las operaciones en el dashboard son fáciles de localizar, gracias a su interfaz organizada. Finalmente, resalta que el sistema proporciona información relevante sobre los resultados de las actividades realizadas, lo cual es crucial para medir el éxito de las operaciones agrícolas.
 
@@ -12418,7 +13423,7 @@ Monitoreo rápido de información de plantas (Móvil).
 Registrar/Editar planta desde la aplicación móvil.
 
 No están incluidas en esta versión de la evaluación las siguientes tareas:
-Cualquier funcionalidad no cubierta o no principal para esta etapa de validación tales como el uso de API externa de especialista, cambio de datos perfil, implementacion de CRM en su totalidad en movil. etc 
+Cualquier funcionalidad no cubierta o no principal para esta etapa de validación tales como el uso de API externa de especialista, cambio de datos perfil, implementacion de CRM en su totalidad en movil. etc
 
 <table>
     <tr>
@@ -12666,14 +13671,42 @@ Recomendación:
 Optimización del Rendimiento: Optimizar el rendimiento de la aplicación móvil para reducir los tiempos de carga inicial y asegurar una experiencia fluida desde el primer momento.
 Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visual claro (ej., spinner, barra de progreso) para que el usuario sepa que la aplicación está funcionando y no está congelada.
 
+## 6.4 Video About-the-Product
+En esta sección se muestra el video que muestra el producto EcoGuardian, el cual tiene como público objetivo los visitantes al
+Landing Page, quienes desean conocer sobre el modelo de negocio y las
+características principales de los productos de software, al igual que los usuarios de
+las Aplicaciones, quienes desean realizar tareas relacionadas con los procesos
+soportados por la solución.
+
+![Video About the Product](../assets/about-product/about-the-product.png)
+
+[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+
 # Conclusiones
 
-# Conclusiones y recomendaciones.
+## Conclusiones y recomendaciones.
 
-<p>Como una conclusion general hemos realizado un primer avance aplicando un trabajo en equipo donde cada integrante proporciono liderazgo en forma proactiva y conjunta facilitando el desarrollo de nuestra solucion. Asimismo, como grupo hemos conseguido crear un entorno donde la colaboracion e inclusividad sean pilares importantes para establecer metas, planificar tareas y cumplir con los objetivos que nos proponemos.</p>
+<p>El desarrollo de la solución EcoGuardian ha sido un proceso integral que abarcó desde la identificación de la problemática y el análisis del contexto, la recolección y análisis de requerimientos, hasta la especificación detallada de requisitos y funcionalidades, culminando en la implementación y validación de la arquitectura y tecnologías seleccionadas.</p>
 
-<p>Como recomendaciones creemos que una mejora iterativa es necesaria para realmente observar los cambios significantes junto con una manera de administrar nuestros tiempos de manera mas efectiva.</p>
+<p>En la etapa inicial, se identificaron las necesidades reales de los usuarios a través de entrevistas, análisis de competencia y definición de user personas, lo que permitió comprender a fondo los distintos segmentos objetivo: doméstico, negocios y especialistas. Este enfoque permitió diseñar una solución alineada a las expectativas y retos de cada segmento, asegurando la relevancia y aplicabilidad del producto.</p>
 
+<p>Durante la fase de análisis y especificación de requerimientos, se emplearon herramientas como user stories, journey mapping y matrices de tareas, lo que facilitó la priorización de funcionalidades y la definición de un backlog claro y estructurado. Este trabajo colaborativo y multidisciplinario fue clave para establecer una visión compartida y un lenguaje ubicuo entre todos los participantes del proyecto.</p>
+
+<p>En la etapa de diseño e implementación, se aplicaron principios de Domain-Driven Design (DDD) y buenas prácticas de arquitectura de software. La integración de estos componentes permitió construir una plataforma robusta, escalable y alineada a los objetivos de negocio y usuario.</p>
+
+<p>Todo el proceso evidenció la importancia de la iteración continua, la validación temprana con usuarios y la documentación clara para la toma de decisiones. El trabajo en equipo, la comunicación constante y la adaptación a los cambios fueron factores determinantes para el éxito del proyecto.</p>
+
+<p>Como recomendaciones, se resalta la necesidad de mantener una mejora continua en los modelos y procesos, así como fortalecer la gestión del tiempo y la colaboración interdisciplinaria. Además, es fundamental seguir validando la solución con usuarios reales y estar atentos a la evolución tecnológica para mantener la competitividad y relevancia del producto.</p>
+
+## Video About-the-Team.
+
+En el video de about the team damos testimonios de lo que hicimos y de como nos sentimos en este proceso, pero la mayoria concuerda de que fue una experiencia que nos ayuda a fortalecer nuestras capacidades como futuros ingenieros.
+Presentamos el link del video:
+
+![Entrevista 1 Segmento Doméstico](../assets/aboutteam/abtteam.png)
+
+
+[Video About the Team](https://www.youtube.com/watch?v=2BaLgVPwyto&t=1s)
 
 # Bibliografía
 
@@ -12685,16 +13718,45 @@ Indicadores de Carga: Si la carga es inevitable, proporcionar un indicador visua
   <p><strong>Instituto Interamericano de Cooperación para la Agricultura (IICA)</strong> (2022). Innovación tecnológica en la agricultura: Casos de éxito en América Latina. <em>IICA</em>. Recuperado el 16 de abril del 2025 de <a href="https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf" target="_blank">https://repositorio.iica.int/bitstream/handle/11324/19770/BVE23089685e.pdf</a></p>
 
   <p><strong>Ministerio de Agricultura y Riego del Perú (MINAGRI)</strong> (2018). Manual técnico de riego por goteo para cultivos de agroexportación. <em>MINAGRI</em>. Recuperado el 18 de abril del 2025 de <a href="https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo" target="_blank">https://www.gob.pe/institucion/midagri/informes-publicaciones/346927-manual-tecnico-de-riego-por-goteo</a></p>
+
+  <p><strong>Node.js Documentation</strong> (2025). Node.js v20.x Documentation. Recuperado de <a href="https://nodejs.org/en/docs" target="_blank">https://nodejs.org/en/docs</a></p>
+  <p><strong>Flutter Documentation</strong> (2025). Flutter Docs. Recuperado de <a href="https://docs.flutter.dev/" target="_blank">https://docs.flutter.dev/</a></p>
+  <p><strong>Stripe Documentation</strong> (2025). Stripe API Reference. Recuperado de <a href="https://stripe.com/docs/api" target="_blank">https://stripe.com/docs/api</a></p>
+  <p><strong>Docker Documentation</strong> (2025). Docker Docs. Recuperado de <a href="https://docs.docker.com/" target="_blank">https://docs.docker.com/</a></p>
+    <p><strong>GitHub Documentation</strong> (2025). GitHub Docs. Recuperado de <a href="https://docs.github.com/en" target="_blank">https://docs.github.com/en</a></p>
+    <p><strong>Vue.js Documentation</strong> (2025). Vue.js Docs. Recuperado de <a href="https://vuejs.org/guide/introduction.html" target="_blank">https://vuejs.org/</a></p>
+    <p><strong>PrimeVue Documentation</strong> (2025). PrimeVue Docs. Recuperado de <a href="https://primevue.org/introduction/" target="_blank">https://primefaces.org/primevue/</a></p>
+    <p><strong>Flask Documentation</strong> (2025). Flask User’s Guide. Recuperado de <a href="https://flask.palletsprojects.com/" target="_blank">https://flask.palletsprojects.com/</a></p>
+    <p><strong>Simon Brown</strong> (2023). The C4 model for visualizing software architecture. Recuperado de <a href="https://c4model.com/" target="_blank">https://c4model.com/</a></p>
 </div>
+
 
 
 # Anexos
 
+[Repositorio de documentos](https://github.com/wemade-IoT/Documents_Repository): https://github.com/wemade-IoT/Documents_Repository
 
-[Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8)
+[Landing Page Repository](https://github.com/wemade-IoT/landing-page): https://github.com/wemade-IoT/landing-page
 
-[Entrevistas de validación [Anexo 6.3.2] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc)
+[Landing Page](https://sage-granita-e4aafb.netlify.app/): https://sage-granita-e4aafb.netlify.app/
 
-[Video About the Product] (https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf)
+[Front end Repository](https://github.com/wemade-IoT/eco-guardian-frontend): https://github.com/wemade-IoT/eco-guardian-frontend
+
+[Front End Application](https://ecoguardian-tf.vercel.app/): https://ecoguardian-tf.vercel.app/
+
+[Link de entrevistas [Anexo 2.2.1.1] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EU8ISuaX7QdBorhJEKF5wTYBlW-qrO4PV-jqP74TchsNxg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=psiWW8): https://shorturl.at/9wVtT
+
+[Entrevistas de validación [Anexo 6.3.2] ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EdW4_MT5GcBEvzA0E5FzX6cBP0--MzzYeGXhxlCRYTJCdg?e=ZOaCCc): https://shorturl.at/kUrtH
+
+[Video About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ERSAWQ1bs5RCrwyAt5rL7c4BWE_0euPtVOXjOYuzaQMYDw?e=8JsJdf): https://shorturl.at/nxNAJ
+
+[Video de exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Ef3WABIAuRpFoKhtB9vN3xIB1Nyqo7ecSkJgBmoJDon9IQ?e=2GaQjS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D): https://shorturl.at/v6hZS
+
+[Video de exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/EbcYN1XXIiNLqVJukWh1G9oBsN8FnsewXG7f_B5VEoEaOw?e=i4FgN0): https://shorturl.at/np4Y7
+
+[Video de exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/Eb-H4ytQkcRFmBGFdpRoAH4BFxTitpePsLtZuwY3QXsLfQ?e=04lzR7): https://shorturl.at/uIXSI
+
+[Video de exposición TF](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213983_upc_edu_pe/ESZ056STPJNEsuF3Y-QMnXoBnv3QJ9KMUHghoUyEZWJxhw?e=j920wt): https://shorturl.at/iq5zB
+
 ---
 
