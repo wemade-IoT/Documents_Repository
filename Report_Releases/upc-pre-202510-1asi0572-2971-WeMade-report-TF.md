@@ -13154,6 +13154,12 @@ A continuación se presenta una tabla con los endpoints, acciones implementadas,
 
 ### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
+Despliegue de Frontend en Vercel
+
+El despliegue del frontend de EcoGuardian se realizó en Vercel, una plataforma de despliegue y hosting para aplicaciones web. 
+
+<img src="../assets/sprint3/deployments/frontend-deploy.jpg" alt="Despliegue de Frontend en Vercel" width="600">
+
 Despliegue de Backend en Microsoft Azure
 El despliegue del backend de EcoGuardian se realizó en Microsoft Azure bajo el servicio App Service. El nombre de la aplicación es EcoGuardian y se encuentra en ejecución en la región Brazil South. Utiliza el sistema operativo Linux para su funcionamiento. Además, el dominio predeterminado para el servicio es ecoguardian-cgenhdd6dadrgbfz.brazilsouth-01.azurewebsites.net, y se tiene la opción de agregar un dominio personalizado. El plan de servicio es ASP-EcoGuardian-9695 y está configurado para manejar las necesidades de la plataforma con recursos optimizados para su operación.
 
