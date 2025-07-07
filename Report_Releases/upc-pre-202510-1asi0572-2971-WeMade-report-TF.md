@@ -364,6 +364,85 @@
         </ul>
       </td>
     </tr>
+    <!-- TF -->
+    <tr>
+      <td rowspan="7">3.0</td>
+      <td>4/07/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>
+        <ul>
+          <li>Conexión Frontend y Backend de Resources</li>
+          <li>Desarrollo de Resources en la aplicación movil</li>
+          <li>Correcciones de Mejora continua en el informe</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Gustavo Huilca Chipana</td>
+      <td>
+        <ul>
+          <li>Implementación del Fog y Edge</li>
+          <li>Configuración del Despliegue del Edge </li>
+          <li>Team Collaboration Insights</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Sebastian Ramirez Hoffmann</td>
+      <td>
+        <ul>
+          <li>Conexión de Frontend y Backend del CRM</li>
+          <li>Coreciones en el Frontend del Crm</li>
+          <li>Sprint 3 Documentation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Mathias Alejandro Jave Diaz</td>
+      <td>
+        <ul>
+          <li>Desarrollo Monitoring y Analytics de la aplicación movil</li>
+          <li>Conexion Frontend y backend de Analytics</li>
+          <li>Component Diagrams Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Manuel Sebastian Peña Rivera</td>
+      <td>
+        <ul>
+          <li>Conexión Frontend y Backend de Profile and Preferences</li>
+          <li>Desarrollo de Profile en aplicación movil</li>
+          <li>Desarrollo de pruebas unitarias y integrales</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Nicolas Sebastian Esteban Garcia</td>
+      <td>
+        <ul>
+          <li>Conexion Frontend y Backend de Payment y Subcriptions</li>
+          <li>Desarrollo en correcciones del Frontend</li>
+          <li>Configuración del despliegue de aplicación web</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4/07/2025</td>
+      <td>Italo D'Alessandro Luna Capuñay</td>
+      <td>
+        <ul>
+          <li>Conexión del Frontend y Backend IAM & Security</li>
+          <li>Desarrollo del Edge</li>
+          <li>Configuración en el despligue de la aplicación movil</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
 </center>
